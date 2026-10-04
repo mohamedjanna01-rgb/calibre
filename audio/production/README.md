@@ -24,6 +24,7 @@ Un fichier par appel (`appel-01.yaml` à `appel-13.yaml`). Chaque fichier décri
 
 | Champ | Rôle |
 |---|---|
+| `decoupe_apres` | (en tête de fichier) Appels longs : numéros des répliques après lesquelles l'appel est coupé en plusieurs requêtes, avec les mêmes voix ; les parties sont assemblées avec un court silence. |
 | `n` | Numéro de la réplique dans l'appel |
 | `locuteur` | `conseiller` ou `client` |
 | `texte` | Mots réellement prononcés. Les balises en anglais entre chevrons (`<sigh>`, `<chuckle>`, `<cough>`, `<short pause>`, `<long pause>`) sont des effets de voix. Elles sont retirées de la référence de transcription. |
@@ -38,24 +39,24 @@ Le fichier [prononciation.yaml](prononciation.yaml) indique comment faire pronon
 
 ## Évaluation de la transcription
 
-La génération en une seule requête ne fournit pas d'horodatage. La transcription est évaluée **mot par mot** à partir du texte des scénarios ([scenarios/](../../scenarios/)), une fois les balises de voix retirées. Les numéros masqués y figurent sous la forme `[numéro masqué]`. Les interjections (« hmm », « mm-hmm ») sont exclues du calcul mot à mot, et les nombres sont comparés chiffre par chiffre.
+La génération en une seule requête ne fournit pas d'horodatage. La transcription est évaluée **mot par mot** à partir du texte des scénarios ([scenarios/](../../scenarios/)), une fois les balises de voix retirées. Les numéros masqués y figurent sous la forme `[numéro masqué]`. Les interjections (« hmm », « mm-hmm », « euh ») sont exclues du calcul mot à mot, et les nombres sont comparés chiffre par chiffre.
 
 ## Casting
 
-26 voix différentes, une par personnage, toutes différentes d'un appel à l'autre. Le genre et l'âge perçus sont à confirmer à l'écoute.
+Une voix par personnage, jamais la même pour les deux personnages d'un appel. Quand ils sont du même sexe, l'âge, la hauteur et le timbre sont contrastés. Seule la voix Kore sert dans deux appels (6 et 10). Le genre et l'âge perçus sont à confirmer à l'écoute.
 
 | Appel | Modèle | Conseiller | Voix | Client | Voix |
 |---|---|---|---|---|---|
-| 01 | 2.5 Flash | Yanis Benali, 30 ans | Puck | Claire Lefèvre, 41 ans | Autonoe |
+| 01 | 3.1 Flash (2 requêtes) | Yanis Benali, 30 ans | Achird | Claire Lefèvre, 41 ans | Autonoe |
 | 02 | 2.5 Flash | Sofia Haddad, 31 ans | Sulafat | Thomas Garnier, 47 ans | Iapetus |
 | 03 | 3.8 Flash | Inès Kaddouri, 26 ans | Aoede | Julien Martin, 36 ans | Fenrir |
 | 04 | 2.5 Flash | Conseiller (non nommé), 42 ans | Schedar | Nathalie Roux, 58 ans | Achernar |
 | 05 | 2.5 Flash | Karim Tazi, 35 ans | Umbriel | Antoine Petit, 38 ans | Rasalgethi |
 | 06 | 3.8 Flash | Mehdi Alaoui, 40 ans | Alnilam | Sandrine Benoît, 51 ans | Kore |
-| 07 | 3.8 Flash | Samir El Idrissi, 33 ans | Achird | Philippe Durand, 44 ans | Sadaltager |
+| 07 | 3.1 Flash (2 requêtes) | Samir El Idrissi, 33 ans | Puck | Philippe Durand, 44 ans | Sadaltager |
 | 08 | 2.5 Flash | Leïla Amrani, 35 ans | Laomedeia | Isabelle Moreau, 56 ans | Erinome |
 | 09 | 2.5 Flash | Nabil Chraibi, 27 ans | Charon | Gérard Lambert, 68 ans | Algenib |
-| 10 | 3.8 Flash | Conseillère (non nommée), 24 ans | Leda | Céline Fabre, 42 ans | Zephyr |
+| 10 | 3.1 Flash | Conseillère (non nommée), 24 ans | Leda | Céline Fabre, 42 ans | Kore |
 | 11 | 2.5 Flash | Hamza Benjelloun, 29 ans | Algieba | Laurent Girard, 49 ans | Orus |
 | 12 | 3.8 Flash | Salma Idrissi, 32 ans | Despina | Monique Chevalier, 64 ans | Gacrux |
 | 13 | 3.8 Flash | Anas Lahlou, 31 ans | Sadachbia | Michel Rousseau, 50 ans | Zubenelgenubi |
