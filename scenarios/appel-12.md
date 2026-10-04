@@ -20,7 +20,11 @@ fiche:
 
 **Cliente :** Oui, c'est qui ?
 
-**Conseiller :** Salma Idrissi, conseillère chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
+**Conseiller :** Salma Idrissi, conseillère chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement.
+
+**Cliente :** Bonjour, madame.
+
+**Conseiller :** Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 
 **Cliente :** Oui, je vous écoute.
 
@@ -40,7 +44,11 @@ fiche:
 
 **Cliente :** Oui, tout le temps.
 
-**Conseiller :** Alors le Pack Horizon devrait vous plaire : vous auriez Horizon Cuisine, Horizon Voyage et Horizon Découverte, le replay de 7 jours pour rattraper ce que vous avez manqué, et l'application Kalyo TV pour regarder sur votre tablette, même en vacances. Le premier mois est offert, puis c'est 12,99 € par mois, sans engagement.
+**Conseiller :** Alors le Pack Horizon devrait vous plaire : vous auriez Horizon Cuisine, Horizon Voyage et Horizon Découverte, le replay de 7 jours pour rattraper ce que vous avez manqué, et l'application Kalyo TV pour regarder sur votre tablette, même en vacances.
+
+**Cliente :** Hmm.
+
+**Conseiller :** Le premier mois est offert, puis c'est 12,99 € par mois, sans engagement.
 
 **Cliente :** C'est intéressant… mais 12,99 €, avec notre retraite, c'est un peu cher.
 

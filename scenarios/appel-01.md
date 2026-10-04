@@ -14,13 +14,21 @@ fiche:
 
 ## Transcription de référence
 
-**Conseiller :** Kalyo Télécom, bonjour ! Je m'appelle Yanis Benali, je suis votre conseiller clientèle, et je vais m'occuper de votre demande aujourd'hui. Avant de commencer, je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom, s'il vous plaît ?
+**Conseiller :** Kalyo Télécom, bonjour !
+
+**Cliente :** Bonjour.
+
+**Conseiller :** Je m'appelle Yanis Benali, je suis votre conseiller clientèle, et je vais m'occuper de votre demande aujourd'hui. Avant de commencer, je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom, s'il vous plaît ?
 
 **Cliente :** Oui, Claire Lefèvre.
 
 **Conseiller :** Merci, Madame Lefèvre. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?
 
-**Cliente :** 06 39 98 12 41, code postal 69003, et je suis née le 14 mars 1985.
+**Cliente :** Pardon, vous pouvez répéter ?
+
+**Conseiller :** Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?
+
+**Cliente :** [numéro masqué], code postal 69003, et je suis née le 14 mars 1985.
 
 **Conseiller :** Parfait, merci. Je vous écoute, que se passe-t-il ?
 
@@ -38,11 +46,15 @@ fiche:
 
 **Cliente :** Oui, c'est exactement ça.
 
-**Conseiller :** Merci. Un voyant orange fixe signifie que la box ne reçoit plus le signal de la fibre. Le plus souvent, c'est le câble fibre qui s'est légèrement débranché. Pouvez-vous vérifier que le câble est bien enfoncé des deux côtés, dans la prise murale et dans la box, jusqu'à entendre un petit clic ?
+**Conseiller :** Merci. Un voyant orange fixe signifie que la box ne reçoit plus le signal de la fibre.
+
+**Cliente :** D'accord.
+
+**Conseiller :** Le plus souvent, c'est le câble fibre qui s'est légèrement débranché. Pouvez-vous vérifier que le câble est bien enfoncé des deux côtés, dans la prise murale et dans la box, jusqu'à entendre un petit clic ?
 
 **Cliente :** Attendez… Ah oui, côté box, il était un peu sorti. Voilà, j'ai entendu le clic.
 
-**Conseiller :** Parfait. Je vois de mon côté que votre box est de nouveau connectée. Le voyant est-il passé au blanc ?
+**Conseiller :** Parfait. Un instant, s'il vous plaît. Je vois de mon côté que votre box est de nouveau connectée. Le voyant est-il passé au blanc ?
 
 **Cliente :** Oui ! Ça remarche, merci beaucoup !
 
@@ -50,7 +62,11 @@ fiche:
 
 **Cliente :** Pas vraiment, dans mon bureau à l'étage, ça coupe souvent.
 
-**Conseiller :** C'est justement ce qui peut faire planter une visio en pleine réunion. Nous avons un répéteur Wi-Fi qui se branche simplement sur une prise, à mi-chemin entre la box et votre bureau, et qui renforce le signal à l'étage. Il est à 3 € par mois, sans engagement, et vous le recevez sous 3 à 5 jours. Pour le prix d'un café par mois, vos réunions seront stables. Souhaitez-vous que je vous l'envoie ?
+**Conseiller :** C'est justement ce qui peut faire planter une visio en pleine réunion. Nous avons un répéteur Wi-Fi qui se branche simplement sur une prise, à mi-chemin entre la box et votre bureau, et qui renforce le signal à l'étage.
+
+**Cliente :** Je vois.
+
+**Conseiller :** Il est à 3 € par mois, sans engagement, et vous le recevez sous 3 à 5 jours. Pour le prix d'un café par mois, vos réunions seront stables. Souhaitez-vous que je vous l'envoie ?
 
 **Cliente :** Oui, pourquoi pas.
 
@@ -58,7 +74,7 @@ fiche:
 
 **Cliente :** Oui, je confirme.
 
-**Conseiller :** Parfait. Je sécurise votre commande avec vous, Madame Lefèvre. Je confirme vos informations : Claire Lefèvre, ligne 06 39 98 12 41. Le répéteur sera livré à votre adresse de facturation, au 12 rue des Tilleuls, 69003 Lyon. Est-ce bien la bonne adresse ?
+**Conseiller :** Parfait. Je sécurise votre commande avec vous, Madame Lefèvre. Je confirme vos informations : Claire Lefèvre, ligne [numéro masqué]. Le répéteur sera livré à votre adresse de facturation, au 12 rue des Tilleuls, 69003 Lyon. Est-ce bien la bonne adresse ?
 
 **Cliente :** Oui, c'est bien ça.
 

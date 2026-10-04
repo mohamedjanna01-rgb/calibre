@@ -4,7 +4,7 @@ id: appel-11
 casting:
   conseiller:
     personnage: "Hamza Benjelloun"
-    voix: Sadachbia
+    voix: Algieba
     profil: "homme, 29 ans, télévendeur, voix animée et enthousiaste, français standard"
   client:
     personnage: "Laurent Girard"
@@ -25,69 +25,85 @@ repliques:
     ton: "las, méfiant"
   - n: 4
     locuteur: conseiller
-    texte: "Hamza Benjelloun, conseiller chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?"
+    texte: "Hamza Benjelloun, conseiller chez Kalyo Télécom, votre opérateur."
     ton: "dynamique, souriant"
   - n: 5
     locuteur: client
-    texte: "Oui, allez-y."
+    texte: "Ah, bonjour."
     ton: "neutre, un peu fatigué"
   - n: 6
     locuteur: conseiller
+    texte: "C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?"
+    ton: "dynamique, souriant"
+  - n: 7
+    locuteur: client
+    texte: "Oui, allez-y."
+    ton: "neutre, un peu fatigué"
+  - n: 8
+    locuteur: conseiller
     texte: "Merci. Pour sécuriser notre échange, pouvez-vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?"
     ton: "aimable"
-  - n: 7
+  - n: 9
     locuteur: client
     texte: "Girard Laurent, 75011, le 4 décembre 1977."
     ton: "neutre"
-  - n: 8
+  - n: 10
     locuteur: conseiller
     texte: "Merci, Monsieur Girard. Avant tout, tout fonctionne bien avec votre box et votre télévision ?"
     ton: "léger, de routine"
-  - n: 9
+  - n: 11
     locuteur: client
     texte: "Bof… Ces derniers soirs, internet a coupé deux ou trois fois."
     ton: "las, mécontent"
-  - n: 10
+  - n: 12
     locuteur: conseiller
     texte: "Ah, ça arrive parfois le soir, il y a beaucoup de monde connecté. Ça devrait se régler. Dites-moi, qui regarde la télévision chez vous ?"
     ton: "désinvolte, minimise, enchaîne vite sur la vente"
-  - n: 11
+  - n: 13
     locuteur: client
     texte: "Ma femme et moi. On aime bien les séries policières."
     ton: "répond sans enthousiasme"
-  - n: 12
+  - n: 14
     locuteur: conseiller
     texte: "Et vous regardez plutôt en direct, ou vous ratez souvent des épisodes ?"
     ton: "intéressé, commercial"
-  - n: 13
+  - n: 15
     locuteur: client
     texte: "On en rate pas mal, on rentre tard."
     ton: "neutre"
-  - n: 14
+  - n: 16
     locuteur: conseiller
-    texte: "Alors j'ai exactement ce qu'il vous faut : le Pack Horizon. La chaîne Horizon Polar, Horizon Séries, plus de 2 000 films et séries à la demande, et surtout un replay de 7 jours : vous regardez vos épisodes quand vous rentrez. Le premier mois est offert, puis c'est 12,99 € par mois, sans engagement."
+    texte: "Alors j'ai exactement ce qu'il vous faut : le Pack Horizon. La chaîne Horizon Polar, Horizon Séries, plus de 2 000 films et séries à la demande, et surtout un replay de 7 jours : vous regardez vos épisodes quand vous rentrez."
     ton: "enthousiaste, vendeur"
-  - n: 15
+  - n: 17
+    locuteur: client
+    texte: "Mouais…"
+    ton: "sceptique, las"
+  - n: 18
+    locuteur: conseiller
+    texte: "Le premier mois est offert, puis c'est 12,99 € par mois, sans engagement."
+    ton: "enthousiaste, vendeur"
+  - n: 19
     locuteur: client
     texte: "Franchement, réglez déjà mon internet avant de me proposer des chaînes en plus."
     ton: "agacé, ferme"
-  - n: 16
+  - n: 20
     locuteur: conseiller
     texte: "Je comprends, mais avec le premier mois offert, vous ne prenez aucun risque, et vous pourrez en profiter dès que tout sera rentré dans l'ordre."
     ton: "insistant, faussement compréhensif"
-  - n: 17
+  - n: 21
     locuteur: client
     texte: "Non, merci. Pas tant que ma connexion coupe."
     ton: "sec, définitif"
-  - n: 18
+  - n: 22
     locuteur: conseiller
     texte: "Très bien, je respecte votre choix, Monsieur Girard, et je suis désolé de ne pas avoir pu vous aider davantage aujourd'hui. Pour vos coupures, je vous conseille d'appeler le service client, ils pourront regarder ça. Avez-vous d'autres questions ?"
     ton: "poli, un peu déçu, sincère dans l'excuse"
-  - n: 19
+  - n: 23
     locuteur: client
     texte: "Non."
     ton: "sec"
-  - n: 20
+  - n: 24
     locuteur: conseiller
     texte: "Merci pour votre temps, Monsieur Girard. Très bonne soirée, au revoir !"
     ton: "aimable, souriant"

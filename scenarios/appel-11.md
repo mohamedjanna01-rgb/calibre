@@ -20,7 +20,11 @@ fiche:
 
 **Client :** Oui, c'est qui ?
 
-**Conseiller :** Hamza Benjelloun, conseiller chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
+**Conseiller :** Hamza Benjelloun, conseiller chez Kalyo Télécom, votre opérateur.
+
+**Client :** Ah, bonjour.
+
+**Conseiller :** C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 
 **Client :** Oui, allez-y.
 
@@ -40,7 +44,11 @@ fiche:
 
 **Client :** On en rate pas mal, on rentre tard.
 
-**Conseiller :** Alors j'ai exactement ce qu'il vous faut : le Pack Horizon. La chaîne Horizon Polar, Horizon Séries, plus de 2 000 films et séries à la demande, et surtout un replay de 7 jours : vous regardez vos épisodes quand vous rentrez. Le premier mois est offert, puis c'est 12,99 € par mois, sans engagement.
+**Conseiller :** Alors j'ai exactement ce qu'il vous faut : le Pack Horizon. La chaîne Horizon Polar, Horizon Séries, plus de 2 000 films et séries à la demande, et surtout un replay de 7 jours : vous regardez vos épisodes quand vous rentrez.
+
+**Client :** Mouais…
+
+**Conseiller :** Le premier mois est offert, puis c'est 12,99 € par mois, sans engagement.
 
 **Client :** Franchement, réglez déjà mon internet avant de me proposer des chaînes en plus.
 

@@ -20,7 +20,11 @@ fiche:
 
 **Cliente :** Oui, c'est qui ?
 
-**Conseiller :** Leïla Amrani, conseillère chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
+**Conseiller :** Leïla Amrani, conseillère chez Kalyo Télécom, votre opérateur.
+
+**Cliente :** Bonjour.
+
+**Conseiller :** C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 
 **Cliente :** Oui, rapidement.
 
@@ -32,7 +36,11 @@ fiche:
 
 **Cliente :** Chez un autre opérateur. Deux lignes, à 11,99 € chacune.
 
-**Conseiller :** D'accord. Comme vous avez déjà une box chez nous, vous avez droit à l'Avantage Foyer : 5 € de remise par mois sur chaque forfait mobile de 80 Go ou plus. Concrètement, notre forfait 80 Go passerait de 14,99 € à 9,99 € par mois. Pour vos deux lignes, vous paieriez 19,98 € au lieu de 23,98 € : 4 € d'économie par mois, soit près de 50 € par an. Et vous auriez une seule facture pour toute la maison, internet et mobiles. Les forfaits sont sans engagement, et vous gardez vos numéros.
+**Conseiller :** D'accord. Comme vous avez déjà une box chez nous, vous avez droit à l'Avantage Foyer : 5 € de remise par mois sur chaque forfait mobile de 80 Go ou plus. Concrètement, notre forfait 80 Go passerait de 14,99 € à 9,99 € par mois.
+
+**Cliente :** Je vois.
+
+**Conseiller :** Pour vos deux lignes, vous paieriez 19,98 € au lieu de 23,98 € : 4 € d'économie par mois, soit près de 50 € par an. Et vous auriez une seule facture pour toute la maison, internet et mobiles. Les forfaits sont sans engagement, et vous gardez vos numéros.
 
 **Cliente :** Non merci, je suis bien chez mon opérateur, je n'ai pas envie de changer.
 

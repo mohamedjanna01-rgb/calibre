@@ -13,79 +13,88 @@ casting:
 repliques:
   - n: 1
     locuteur: conseiller
-    texte: "Kalyo Télécom, bonjour ! Je m'appelle Mehdi Alaoui, je suis votre conseiller clientèle, et je vais prendre en charge votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?"
+    texte: "Kalyo Télécom, bonjour !"
     ton: "professionnel, assuré"
   - n: 2
     locuteur: client
-    texte: "Sandrine Benoît."
+    texte: "Bonjour."
     ton: "décidée"
   - n: 3
     locuteur: conseiller
-    texte: "Merci, Madame Benoît. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?"
-    ton: "neutre"
+    texte: "Je m'appelle Mehdi Alaoui, je suis votre conseiller clientèle, et je vais prendre en charge votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?"
+    ton: "professionnel, assuré"
   - n: 4
     locuteur: client
-    texte: "06 39 98 84 30, 33000, le 9 septembre 1975."
-    ton: "décidée, efficace"
+    texte: "Sandrine Benoît."
+    ton: "décidée"
   - n: 5
     locuteur: conseiller
-    texte: "Merci. Que puis-je faire pour vous ?"
+    texte: "Merci, Madame Benoît. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?"
     ton: "neutre"
   - n: 6
     locuteur: client
+    texte: "06 39 98 84 30, 33000, le 9 septembre 1975."
+    ton: "décidée, efficace"
+    masquer: ["06 39 98 84 30"]
+  - n: 7
+    locuteur: conseiller
+    texte: "Merci. Que puis-je faire pour vous ?"
+    ton: "neutre"
+  - n: 8
+    locuteur: client
     texte: "Je souhaite résilier ma ligne mobile. J'ai trouvé un forfait moins cher chez un autre opérateur."
     ton: "ferme, polie, sûre d'elle"
-  - n: 7
+  - n: 9
     locuteur: conseiller
     texte: "Je comprends, Madame Benoît. Puis-je vous demander quel forfait vous avez trouvé ?"
     ton: "calme, curieux"
-  - n: 8
+  - n: 10
     locuteur: client
     texte: "100 Go pour 10 € par mois."
     ton: "un brin fière de sa trouvaille"
-  - n: 9
+  - n: 11
     locuteur: conseiller
-    texte: "D'accord. De mon côté, je vois que vous payez votre smartphone en 24 mensualités, et qu'il vous en reste 14."
+    texte: "D'accord. Un instant, s'il vous plaît. <long pause> De mon côté, je vois que vous payez votre smartphone en 24 mensualités, et qu'il vous en reste 14."
     ton: "lent, posé, comme s'il préparait un argument"
     pause_avant_ms: 800
-  - n: 10
+  - n: 12
     locuteur: client
     texte: "Oui, et alors ?"
     ton: "méfiante, sur la défensive"
-  - n: 11
+  - n: 13
     locuteur: conseiller
     texte: "Alors, malheureusement, vous ne pouvez pas résilier votre ligne tant que votre téléphone n'est pas entièrement payé. Il faudra attendre la fin du financement."
     ton: "faussement désolé, autoritaire"
-  - n: 12
+  - n: 14
     locuteur: client
     texte: "Comment ça ? On ne m'a jamais dit ça ! Mon forfait est sans engagement !"
     ton: "indignée, la voix monte"
-  - n: 13
+  - n: 15
     locuteur: conseiller
     texte: "Le forfait oui, mais le téléphone vous engage. Je ne peux pas enregistrer votre résiliation aujourd'hui, ce n'est pas possible."
     ton: "ferme, catégorique, ne laisse aucune place à la discussion"
-  - n: 14
+  - n: 16
     locuteur: client
     texte: "C'est n'importe quoi ! Je veux parler à un responsable."
     ton: "en colère, exaspérée"
-  - n: 15
+  - n: 17
     locuteur: conseiller
     texte: "Mon responsable vous dira la même chose, Madame Benoît. Mais je vois que vous avez aussi notre Box Évolution. Pour vous remercier de votre fidélité, je vous active le Pack Horizon : 35 chaînes de films et de séries, et le premier mois est offert."
     ton: "balaie la demande d'un ton assuré, puis change de ton : enjoué et commercial"
-  - n: 16
+  - n: 18
     locuteur: client
     texte: "Euh… je ne sais pas, ce n'est pas ce que je demandais…"
     ton: "déstabilisée, hésitante, perdue"
-  - n: 17
+  - n: 19
     locuteur: conseiller
     texte: "Vous verrez, ça vous plaira. Voilà, c'est activé, vous l'avez dès ce soir."
     ton: "enjoué, expéditif, enchaîne sans lui laisser le temps de répondre"
     pause_avant_ms: 150
-  - n: 18
+  - n: 20
     locuteur: client
     texte: "Je… bon. Je vais me renseigner ailleurs pour ma ligne."
     ton: "abasourdie, résignée, froide"
-  - n: 19
+  - n: 21
     locuteur: conseiller
     texte: "Très bien. Merci pour votre appel, Madame Benoît, bonne journée."
     ton: "poli mais expéditif"

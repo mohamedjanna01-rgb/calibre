@@ -14,13 +14,17 @@ fiche:
 
 ## Transcription de référence
 
-**Conseiller :** Kalyo Télécom, bonjour ! Je m'appelle Sofia Haddad, je suis votre conseillère clientèle, et je vais prendre en charge votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?
+**Conseiller :** Kalyo Télécom, bonjour !
+
+**Client :** Bonjour.
+
+**Conseiller :** Je m'appelle Sofia Haddad, je suis votre conseillère clientèle, et je vais prendre en charge votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?
 
 **Client :** Thomas Garnier.
 
 **Conseiller :** Merci. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?
 
-**Client :** 06 39 98 27 63, 31000, et le 2 juillet 1979.
+**Client :** [numéro masqué], 31000, et le 2 juillet 1979.
 
 **Conseiller :** Merci, c'est bien vous. Que puis-je faire pour vous ?
 
@@ -30,7 +34,11 @@ fiche:
 
 **Client :** Non, rien du tout.
 
-**Conseiller :** D'accord. Je vois le détail : votre facture contient deux lignes. La première, ce sont les 39,99 € de votre Box Évolution pour le mois à venir. La seconde, ce sont 39 € de frais de mise en service. Ces frais sont facturés une seule fois, uniquement sur la première facture des nouveaux clients. C'est ce qui explique la différence.
+**Conseiller :** D'accord. Un instant, s'il vous plaît. Je vois le détail : votre facture contient deux lignes. La première, ce sont les 39,99 € de votre Box Évolution pour le mois à venir.
+
+**Client :** Oui…
+
+**Conseiller :** La seconde, ce sont 39 € de frais de mise en service. Ces frais sont facturés une seule fois, uniquement sur la première facture des nouveaux clients. C'est ce qui explique la différence.
 
 **Client :** Ah, une seule fois ? Donc le mois prochain, ce sera bien 39,99 € ?
 

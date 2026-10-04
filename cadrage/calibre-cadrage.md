@@ -139,13 +139,21 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 **Situation :** Madame Lefèvre appelle car sa connexion internet coupe depuis ce matin. Elle télétravaille.
 **Niveau visé :** Excellent (plus de 90 %). Vente d'un répéteur Wi-Fi correctement sécurisée.
 
-> **Conseiller :** Kalyo Télécom, bonjour ! Je m'appelle Yanis Benali, je suis votre conseiller clientèle, et je vais m'occuper de votre demande aujourd'hui. Avant de commencer, je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom, s'il vous plaît ?
+> **Conseiller :** Kalyo Télécom, bonjour !
+>
+> **Cliente :** Bonjour.
+>
+> **Conseiller :** Je m'appelle Yanis Benali, je suis votre conseiller clientèle, et je vais m'occuper de votre demande aujourd'hui. Avant de commencer, je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom, s'il vous plaît ?
 >
 > **Cliente :** Oui, Claire Lefèvre.
 >
 > **Conseiller :** Merci, Madame Lefèvre. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?
 >
-> **Cliente :** 06 39 98 12 41, code postal 69003, et je suis née le 14 mars 1985.
+> **Cliente :** Pardon, vous pouvez répéter ?
+>
+> **Conseiller :** Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?
+>
+> **Cliente :** [numéro masqué], code postal 69003, et je suis née le 14 mars 1985.
 >
 > **Conseiller :** Parfait, merci. Je vous écoute, que se passe-t-il ?
 >
@@ -163,11 +171,15 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Cliente :** Oui, c'est exactement ça.
 >
-> **Conseiller :** Merci. Un voyant orange fixe signifie que la box ne reçoit plus le signal de la fibre. Le plus souvent, c'est le câble fibre qui s'est légèrement débranché. Pouvez-vous vérifier que le câble est bien enfoncé des deux côtés, dans la prise murale et dans la box, jusqu'à entendre un petit clic ?
+> **Conseiller :** Merci. Un voyant orange fixe signifie que la box ne reçoit plus le signal de la fibre.
+>
+> **Cliente :** D'accord.
+>
+> **Conseiller :** Le plus souvent, c'est le câble fibre qui s'est légèrement débranché. Pouvez-vous vérifier que le câble est bien enfoncé des deux côtés, dans la prise murale et dans la box, jusqu'à entendre un petit clic ?
 >
 > **Cliente :** Attendez… Ah oui, côté box, il était un peu sorti. Voilà, j'ai entendu le clic.
 >
-> **Conseiller :** Parfait. Je vois de mon côté que votre box est de nouveau connectée. Le voyant est-il passé au blanc ?
+> **Conseiller :** Parfait. Un instant, s'il vous plaît. Je vois de mon côté que votre box est de nouveau connectée. Le voyant est-il passé au blanc ?
 >
 > **Cliente :** Oui ! Ça remarche, merci beaucoup !
 >
@@ -175,7 +187,11 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Cliente :** Pas vraiment, dans mon bureau à l'étage, ça coupe souvent.
 >
-> **Conseiller :** C'est justement ce qui peut faire planter une visio en pleine réunion. Nous avons un répéteur Wi-Fi qui se branche simplement sur une prise, à mi-chemin entre la box et votre bureau, et qui renforce le signal à l'étage. Il est à 3 € par mois, sans engagement, et vous le recevez sous 3 à 5 jours. Pour le prix d'un café par mois, vos réunions seront stables. Souhaitez-vous que je vous l'envoie ?
+> **Conseiller :** C'est justement ce qui peut faire planter une visio en pleine réunion. Nous avons un répéteur Wi-Fi qui se branche simplement sur une prise, à mi-chemin entre la box et votre bureau, et qui renforce le signal à l'étage.
+>
+> **Cliente :** Je vois.
+>
+> **Conseiller :** Il est à 3 € par mois, sans engagement, et vous le recevez sous 3 à 5 jours. Pour le prix d'un café par mois, vos réunions seront stables. Souhaitez-vous que je vous l'envoie ?
 >
 > **Cliente :** Oui, pourquoi pas.
 >
@@ -183,7 +199,7 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Cliente :** Oui, je confirme.
 >
-> **Conseiller :** Parfait. Je sécurise votre commande avec vous, Madame Lefèvre. Je confirme vos informations : Claire Lefèvre, ligne 06 39 98 12 41. Le répéteur sera livré à votre adresse de facturation, au 12 rue des Tilleuls, 69003 Lyon. Est-ce bien la bonne adresse ?
+> **Conseiller :** Parfait. Je sécurise votre commande avec vous, Madame Lefèvre. Je confirme vos informations : Claire Lefèvre, ligne [numéro masqué]. Le répéteur sera livré à votre adresse de facturation, au 12 rue des Tilleuls, 69003 Lyon. Est-ce bien la bonne adresse ?
 >
 > **Cliente :** Oui, c'est bien ça.
 >
@@ -213,13 +229,17 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 **Niveau visé :** Conforme (environ 80 %).
 **Fautes voulues :** aucune reformulation ; aucune personnalisation (le nom du client n'est jamais prononcé).
 
-> **Conseiller :** Kalyo Télécom, bonjour ! Je m'appelle Sofia Haddad, je suis votre conseillère clientèle, et je vais prendre en charge votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?
+> **Conseiller :** Kalyo Télécom, bonjour !
+>
+> **Client :** Bonjour.
+>
+> **Conseiller :** Je m'appelle Sofia Haddad, je suis votre conseillère clientèle, et je vais prendre en charge votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?
 >
 > **Client :** Thomas Garnier.
 >
 > **Conseiller :** Merci. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?
 >
-> **Client :** 06 39 98 27 63, 31000, et le 2 juillet 1979.
+> **Client :** [numéro masqué], 31000, et le 2 juillet 1979.
 >
 > **Conseiller :** Merci, c'est bien vous. Que puis-je faire pour vous ?
 >
@@ -229,7 +249,11 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Client :** Non, rien du tout.
 >
-> **Conseiller :** D'accord. Je vois le détail : votre facture contient deux lignes. La première, ce sont les 39,99 € de votre Box Évolution pour le mois à venir. La seconde, ce sont 39 € de frais de mise en service. Ces frais sont facturés une seule fois, uniquement sur la première facture des nouveaux clients. C'est ce qui explique la différence.
+> **Conseiller :** D'accord. Un instant, s'il vous plaît. Je vois le détail : votre facture contient deux lignes. La première, ce sont les 39,99 € de votre Box Évolution pour le mois à venir.
+>
+> **Client :** Oui…
+>
+> **Conseiller :** La seconde, ce sont 39 € de frais de mise en service. Ces frais sont facturés une seule fois, uniquement sur la première facture des nouveaux clients. C'est ce qui explique la différence.
 >
 > **Client :** Ah, une seule fois ? Donc le mois prochain, ce sera bien 39,99 € ?
 >
@@ -257,13 +281,21 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 **Niveau visé :** À améliorer (environ 67 %).
 **Fautes voulues :** coupe la parole ; « Calmez-vous » ; défausse sur les collègues ; aucune reformulation ni excuse pour les trois appels. Le fond (diagnostic et solution) est correct. Les phrases « Calmez-vous » et « Ce n'est pas moi qui ai traité vos appels précédents » doivent être citées dans le coaching.
 
-> **Conseiller :** Kalyo Télécom, bonjour ! Je m'appelle Inès Kaddouri, je suis votre conseillère clientèle, et je vais m'occuper de votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?
+> **Conseiller :** Kalyo Télécom, bonjour !
+>
+> **Client :** Bonjour.
+>
+> **Conseiller :** Je m'appelle Inès Kaddouri, je suis votre conseillère clientèle, et je vais m'occuper de votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?
 >
 > **Client :** Martin, Julien Martin. Et je vous préviens, c'est la troisième fois que j'appelle cette semaine !
 >
 > **Conseiller :** Merci, Monsieur Martin. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?
 >
-> **Client :** 06 39 98 45 08, 44000, 8 novembre 1990. Bon, je vous explique : tous les soirs, internet coupe. Tous les soirs ! J'ai appelé lundi, on m'a dit de redémarrer la box. J'ai rappelé mercredi, on m'a dit que ça allait s'arranger. Et là…
+> **Client :** Pardon, vous pouvez répéter ?
+>
+> **Conseiller :** Pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?
+>
+> **Client :** [numéro masqué], 44000, 8 novembre 1990. Bon, je vous explique : tous les soirs, internet coupe. Tous les soirs ! J'ai appelé lundi, on m'a dit de redémarrer la box. J'ai rappelé mercredi, on m'a dit que ça allait s'arranger. Et là…
 >
 > **Conseiller :** Oui, oui, j'ai compris, je vois vos appels dans l'historique.
 >
@@ -277,15 +309,27 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Client :** Vers 20 h, 21 h, à chaque fois.
 >
-> **Conseiller :** D'accord. Effectivement, je vois plusieurs coupures chaque soir sur les sept derniers jours, avec un signal fibre trop faible. Ce n'est donc pas un problème de redémarrage : il faut qu'un technicien vienne contrôler la ligne chez vous.
+> **Conseiller :** D'accord. Un instant, s'il vous plaît. Effectivement, je vois plusieurs coupures chaque soir sur les sept derniers jours, avec un signal fibre trop faible.
+>
+> **Client :** Hmm.
+>
+> **Conseiller :** Ce n'est donc pas un problème de redémarrage : il faut qu'un technicien vienne contrôler la ligne chez vous.
 >
 > **Client :** Enfin quelqu'un qui voit le problème…
 >
 > **Conseiller :** Je vous propose un rendez-vous jeudi entre 14 h et 18 h. Est-ce que ça vous convient ?
 >
+> **Client :** Pardon, vous pouvez répéter ?
+>
+> **Conseiller :** Je vous propose un rendez-vous jeudi entre 14 h et 18 h. Est-ce que ça vous convient ?
+>
 > **Client :** Oui, jeudi ça me va.
 >
-> **Conseiller :** C'est noté, Monsieur Martin. Le technicien contrôlera la prise fibre et la ligne. Vous recevrez un SMS de confirmation, puis un rappel la veille. Pour récapituler : les coupures viennent d'un signal fibre trop faible, et un technicien passe jeudi entre 14 h et 18 h. Avez-vous d'autres questions ?
+> **Conseiller :** C'est noté, Monsieur Martin. Le technicien contrôlera la prise fibre et la ligne.
+>
+> **Client :** D'accord.
+>
+> **Conseiller :** Vous recevrez un SMS de confirmation, puis un rappel la veille. Pour récapituler : les coupures viennent d'un signal fibre trop faible, et un technicien passe jeudi entre 14 h et 18 h. Avez-vous d'autres questions ?
 >
 > **Client :** Non, c'est bon.
 >
@@ -299,9 +343,13 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 **Niveau visé :** Insuffisant (environ 20 %), donc mise en garde.
 **Fautes voulues :** pas de présentation ; pas de mention de l'enregistrement ; aucune question ni vérification à distance ; aucune reformulation ; jargon (« synchro », « reset usine ») et « normalement, ça devrait marcher » ; nom jamais prononcé ; opportunité manquée (le match du soir) ; conclusion sèche. Seuls l'écoute (pas d'interruption) et la politesse restent corrects. L'opportunité ne pouvait être saisie qu'après la résolution du problème, qui n'a pas eu lieu.
 
-> **Conseiller :** Kalyo Télécom, bonjour. Votre numéro de ligne ?
+> **Conseiller :** Kalyo Télécom, bonjour.
 >
-> **Cliente :** Euh… 06 39 98 53 72.
+> **Cliente :** Bonjour…
+>
+> **Conseiller :** Votre numéro de ligne ?
+>
+> **Cliente :** Euh… [numéro masqué].
 >
 > **Conseiller :** Nom, code postal, date de naissance ?
 >
@@ -315,7 +363,11 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Cliente :** Un reset… usine ? Je ne sais pas faire ça.
 >
-> **Conseiller :** Il y a un bouton derrière le décodeur, vous appuyez dessus avec un trombone pendant dix secondes. Normalement, ça devrait marcher.
+> **Conseiller :** Il y a un bouton derrière le décodeur, vous appuyez dessus avec un trombone pendant dix secondes.
+>
+> **Cliente :** D'accord…
+>
+> **Conseiller :** Normalement, ça devrait marcher.
 >
 > **Cliente :** Et si ça ne marche pas ?
 >
@@ -337,13 +389,17 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 **Niveau visé :** note correcte (environ 80 %), mais **mise en garde** pour résiliation retardée.
 **Fautes voulues :** fausse indisponibilité du service (la Fidélisation est ouverte du lundi au samedi de 9 h à 20 h) ; défausse (« ce n'est pas moi qui gère ») ; pression pour réfléchir alors que le client est clair.
 
-> **Conseiller :** Kalyo Télécom, bonjour ! Je m'appelle Karim Tazi, je suis votre conseiller clientèle, et je vais m'occuper de votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?
+> **Conseiller :** Kalyo Télécom, bonjour !
+>
+> **Client :** Bonjour.
+>
+> **Conseiller :** Je m'appelle Karim Tazi, je suis votre conseiller clientèle, et je vais m'occuper de votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?
 >
 > **Client :** Antoine Petit.
 >
 > **Conseiller :** Merci, Monsieur Petit. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?
 >
-> **Client :** 06 39 98 61 19, 59000, et le 30 mai 1988.
+> **Client :** [numéro masqué], 59000, et le 30 mai 1988.
 >
 > **Conseiller :** Merci. Que puis-je faire pour vous ?
 >
@@ -357,7 +413,11 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Client :** Non merci, elle est très contente de son abonnement. Je veux juste résilier.
 >
-> **Conseiller :** Très bien, je comprends. Alors, pour une résiliation, le service concerné n'est pas disponible aujourd'hui. Le plus simple, c'est de nous rappeler la semaine prochaine.
+> **Conseiller :** Très bien, je comprends. Alors, pour une résiliation, le service concerné n'est pas disponible aujourd'hui.
+>
+> **Client :** Ah bon ?
+>
+> **Conseiller :** Le plus simple, c'est de nous rappeler la semaine prochaine.
 >
 > **Client :** La semaine prochaine ? Mais je vous appelle maintenant, vous ne pouvez pas le faire ?
 >
@@ -379,13 +439,17 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 **Niveau visé :** **Non conforme** (éliminatoire : souscription sans accord), plus une mise en garde (résiliation refusée).
 **Fautes voulues :** résiliation refusée avec une information fausse (le forfait est sans engagement ; en cas de résiliation, le reste du financement devient exigible en une fois, DOC-01 [CAT-10]) ; « ce n'est pas possible » ; escalade refusée ; rétention ratée ; Pack Horizon activé sans accord, sans tarif complet, sans rétractation.
 
-> **Conseiller :** Kalyo Télécom, bonjour ! Je m'appelle Mehdi Alaoui, je suis votre conseiller clientèle, et je vais prendre en charge votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?
+> **Conseiller :** Kalyo Télécom, bonjour !
+>
+> **Cliente :** Bonjour.
+>
+> **Conseiller :** Je m'appelle Mehdi Alaoui, je suis votre conseiller clientèle, et je vais prendre en charge votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?
 >
 > **Cliente :** Sandrine Benoît.
 >
 > **Conseiller :** Merci, Madame Benoît. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?
 >
-> **Cliente :** 06 39 98 84 30, 33000, le 9 septembre 1975.
+> **Cliente :** [numéro masqué], 33000, le 9 septembre 1975.
 >
 > **Conseiller :** Merci. Que puis-je faire pour vous ?
 >
@@ -395,7 +459,7 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Cliente :** 100 Go pour 10 € par mois.
 >
-> **Conseiller :** D'accord. De mon côté, je vois que vous payez votre smartphone en 24 mensualités, et qu'il vous en reste 14.
+> **Conseiller :** D'accord. Un instant, s'il vous plaît. De mon côté, je vois que vous payez votre smartphone en 24 mensualités, et qu'il vous en reste 14.
 >
 > **Cliente :** Oui, et alors ?
 >
@@ -429,9 +493,13 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Conseiller :** Bonjour, Monsieur Durand ?
 >
-> **Client :** Oui, c'est qui ?
+> **Client :** Oui, bonjour… C'est qui ?
 >
-> **Conseiller :** Samir El Idrissi, conseiller chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
+> **Conseiller :** Samir El Idrissi, conseiller chez Kalyo Télécom, votre opérateur.
+>
+> **Client :** Ah, oui.
+>
+> **Conseiller :** C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 >
 > **Client :** Oui, allez-y.
 >
@@ -459,7 +527,11 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Client :** Chez un autre opérateur, deux lignes.
 >
-> **Conseiller :** Merci, c'est noté. Avec tout ce que vous me dites, Monsieur Durand, j'ai quelque chose qui correspond vraiment à votre famille : le Pack Horizon. Je vous explique ce qu'il change chez vous. D'abord, 35 chaînes thématiques : du cinéma, des séries, des polars, des documentaires, de la découverte, de la musique, de la cuisine, du voyage… et surtout Horizon Kids et Horizon Junior, des programmes adaptés à l'âge de chacun de vos enfants, sans publicité. Ensuite, plus de 2 000 films et séries à la demande, dont une partie en 4K. Et comme vous finissez tard, le replay de 7 jours : votre film commence quand vous vous asseyez, pas quand il passe à l'antenne. Enfin, il fonctionne sur deux écrans en même temps, avec l'application Kalyo TV : les enfants regardent leurs dessins animés sur la tablette pendant que vous profitez de votre film sur la télévision. Fini les disputes pour la télécommande !
+> **Conseiller :** Merci, c'est noté. Avec tout ce que vous me dites, Monsieur Durand, j'ai quelque chose qui correspond vraiment à votre famille : le Pack Horizon. Je vous explique ce qu'il change chez vous. D'abord, 35 chaînes thématiques : du cinéma, des séries, des polars, des documentaires, de la découverte, de la musique, de la cuisine, du voyage… et surtout Horizon Kids et Horizon Junior, des programmes adaptés à l'âge de chacun de vos enfants, sans publicité.
+>
+> **Client :** Hmm.
+>
+> **Conseiller :** Ensuite, plus de 2 000 films et séries à la demande, dont une partie en 4K. Et comme vous finissez tard, le replay de 7 jours : votre film commence quand vous vous asseyez, pas quand il passe à l'antenne. Enfin, il fonctionne sur deux écrans en même temps, avec l'application Kalyo TV : les enfants regardent leurs dessins animés sur la tablette pendant que vous profitez de votre film sur la télévision. Fini les disputes pour la télécommande !
 >
 > **Client :** Ça a l'air bien, mais on a déjà une plateforme de streaming…
 >
@@ -467,7 +539,11 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Client :** Oui, mais additionné à la plateforme, ça commence à faire cher.
 >
-> **Conseiller :** C'est une vraie question, et je vais être transparent avec vous. Le Pack Horizon est à 12,99 € par mois, soit environ 43 centimes par jour. Pour vous donner une idée, c'est à peu près le prix d'une seule place de cinéma… pour un mois entier de films, pour quatre personnes. Une seule sortie au cinéma en famille vous coûterait déjà plus de quatre fois ce prix. Et le premier mois est offert, sans engagement : vous testez gratuitement, et si ça ne vous convient pas, vous arrêtez.
+> **Conseiller :** C'est une vraie question, et je vais être transparent avec vous. Le Pack Horizon est à 12,99 € par mois, soit environ 43 centimes par jour. Pour vous donner une idée, c'est à peu près le prix d'une seule place de cinéma… pour un mois entier de films, pour quatre personnes. Une seule sortie au cinéma en famille vous coûterait déjà plus de quatre fois ce prix.
+>
+> **Client :** Hmm.
+>
+> **Conseiller :** Et le premier mois est offert, sans engagement : vous testez gratuitement, et si ça ne vous convient pas, vous arrêtez.
 >
 > **Client :** Vu comme ça… D'accord, on peut essayer.
 >
@@ -476,6 +552,10 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 > **Client :** Oui, je confirme.
 >
 > **Conseiller :** Merci. Pour finaliser, je vous envoie un e-mail récapitulatif à signer électroniquement. Pouvez-vous me confirmer votre adresse e-mail ?
+>
+> **Client :** Pardon, vous pouvez répéter ?
+>
+> **Conseiller :** Pouvez-vous me confirmer votre adresse e-mail ?
 >
 > **Client :** philippe.durand@example.com.
 >
@@ -509,7 +589,11 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Cliente :** Oui, c'est qui ?
 >
-> **Conseiller :** Leïla Amrani, conseillère chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
+> **Conseiller :** Leïla Amrani, conseillère chez Kalyo Télécom, votre opérateur.
+>
+> **Cliente :** Bonjour.
+>
+> **Conseiller :** C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 >
 > **Cliente :** Oui, rapidement.
 >
@@ -521,7 +605,11 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Cliente :** Chez un autre opérateur. Deux lignes, à 11,99 € chacune.
 >
-> **Conseiller :** D'accord. Comme vous avez déjà une box chez nous, vous avez droit à l'Avantage Foyer : 5 € de remise par mois sur chaque forfait mobile de 80 Go ou plus. Concrètement, notre forfait 80 Go passerait de 14,99 € à 9,99 € par mois. Pour vos deux lignes, vous paieriez 19,98 € au lieu de 23,98 € : 4 € d'économie par mois, soit près de 50 € par an. Et vous auriez une seule facture pour toute la maison, internet et mobiles. Les forfaits sont sans engagement, et vous gardez vos numéros.
+> **Conseiller :** D'accord. Comme vous avez déjà une box chez nous, vous avez droit à l'Avantage Foyer : 5 € de remise par mois sur chaque forfait mobile de 80 Go ou plus. Concrètement, notre forfait 80 Go passerait de 14,99 € à 9,99 € par mois.
+>
+> **Cliente :** Je vois.
+>
+> **Conseiller :** Pour vos deux lignes, vous paieriez 19,98 € au lieu de 23,98 € : 4 € d'économie par mois, soit près de 50 € par an. Et vous auriez une seule facture pour toute la maison, internet et mobiles. Les forfaits sont sans engagement, et vous gardez vos numéros.
 >
 > **Cliente :** Non merci, je suis bien chez mon opérateur, je n'ai pas envie de changer.
 >
@@ -549,7 +637,7 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Conseiller :** Bonjour, Monsieur Lambert ?
 >
-> **Client :** Oui, c'est qui ?
+> **Client :** Oui, bonjour. C'est qui ?
 >
 > **Conseiller :** Nabil Chraibi, conseiller chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 >
@@ -560,6 +648,10 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 > **Client :** Oui, très bien.
 >
 > **Conseiller :** Tant mieux. Pour sécuriser notre échange, pouvez-vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?
+>
+> **Client :** Pardon, vous pouvez répéter ?
+>
+> **Conseiller :** Pouvez-vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?
 >
 > **Client :** Lambert Gérard, 21000, le 12 janvier 1958.
 >
@@ -593,7 +685,11 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 
 > **Cliente :** Allô ?
 >
-> **Conseiller :** Allô, oui, bonjour, c'est Kalyo Télécom. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Vous êtes bien la titulaire de la box ?
+> **Conseiller :** Allô, oui, bonjour, c'est Kalyo Télécom.
+>
+> **Cliente :** Bonjour…
+>
+> **Conseiller :** Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Vous êtes bien la titulaire de la box ?
 >
 > **Cliente :** Oui… Je prépare le dîner, là.
 >
@@ -637,7 +733,11 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Client :** Oui, c'est qui ?
 >
-> **Conseiller :** Hamza Benjelloun, conseiller chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
+> **Conseiller :** Hamza Benjelloun, conseiller chez Kalyo Télécom, votre opérateur.
+>
+> **Client :** Ah, bonjour.
+>
+> **Conseiller :** C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 >
 > **Client :** Oui, allez-y.
 >
@@ -657,7 +757,11 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Client :** On en rate pas mal, on rentre tard.
 >
-> **Conseiller :** Alors j'ai exactement ce qu'il vous faut : le Pack Horizon. La chaîne Horizon Polar, Horizon Séries, plus de 2 000 films et séries à la demande, et surtout un replay de 7 jours : vous regardez vos épisodes quand vous rentrez. Le premier mois est offert, puis c'est 12,99 € par mois, sans engagement.
+> **Conseiller :** Alors j'ai exactement ce qu'il vous faut : le Pack Horizon. La chaîne Horizon Polar, Horizon Séries, plus de 2 000 films et séries à la demande, et surtout un replay de 7 jours : vous regardez vos épisodes quand vous rentrez.
+>
+> **Client :** Mouais…
+>
+> **Conseiller :** Le premier mois est offert, puis c'est 12,99 € par mois, sans engagement.
 >
 > **Client :** Franchement, réglez déjà mon internet avant de me proposer des chaînes en plus.
 >
@@ -685,7 +789,11 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Cliente :** Oui, c'est qui ?
 >
-> **Conseiller :** Salma Idrissi, conseillère chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
+> **Conseiller :** Salma Idrissi, conseillère chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement.
+>
+> **Cliente :** Bonjour, madame.
+>
+> **Conseiller :** Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 >
 > **Cliente :** Oui, je vous écoute.
 >
@@ -705,7 +813,11 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Cliente :** Oui, tout le temps.
 >
-> **Conseiller :** Alors le Pack Horizon devrait vous plaire : vous auriez Horizon Cuisine, Horizon Voyage et Horizon Découverte, le replay de 7 jours pour rattraper ce que vous avez manqué, et l'application Kalyo TV pour regarder sur votre tablette, même en vacances. Le premier mois est offert, puis c'est 12,99 € par mois, sans engagement.
+> **Conseiller :** Alors le Pack Horizon devrait vous plaire : vous auriez Horizon Cuisine, Horizon Voyage et Horizon Découverte, le replay de 7 jours pour rattraper ce que vous avez manqué, et l'application Kalyo TV pour regarder sur votre tablette, même en vacances.
+>
+> **Cliente :** Hmm.
+>
+> **Conseiller :** Le premier mois est offert, puis c'est 12,99 € par mois, sans engagement.
 >
 > **Cliente :** C'est intéressant… mais 12,99 €, avec notre retraite, c'est un peu cher.
 >
@@ -743,7 +855,7 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Conseiller :** Bonjour, Monsieur Rousseau ?
 >
-> **Client :** Oui, c'est qui ?
+> **Client :** Oui, bonjour. C'est qui ?
 >
 > **Conseiller :** Anas Lahlou, conseiller chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 >
@@ -765,7 +877,11 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Client :** Avec ma compagne, en général.
 >
-> **Conseiller :** Alors j'ai quelque chose pour vous deux : le Pack Horizon. Horizon Cinéma, Horizon Séries, Horizon Polar, et plus de 2 000 films et séries à la demande : vous choisissez votre soirée au lieu de zapper. Et avec le replay de 7 jours, vous ne ratez plus un épisode. Le premier mois est offert, ensuite c'est 12,99 € par mois, sans engagement.
+> **Conseiller :** Alors j'ai quelque chose pour vous deux : le Pack Horizon. Horizon Cinéma, Horizon Séries, Horizon Polar, et plus de 2 000 films et séries à la demande : vous choisissez votre soirée au lieu de zapper. Et avec le replay de 7 jours, vous ne ratez plus un épisode.
+>
+> **Client :** Hmm.
+>
+> **Conseiller :** Le premier mois est offert, ensuite c'est 12,99 € par mois, sans engagement.
 >
 > **Client :** Ça me plaît bien, ça. Allez, on essaie.
 >

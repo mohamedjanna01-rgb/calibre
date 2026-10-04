@@ -18,7 +18,7 @@ fiche:
 
 **Conseiller :** Bonjour, Monsieur Lambert ?
 
-**Client :** Oui, c'est qui ?
+**Client :** Oui, bonjour. C'est qui ?
 
 **Conseiller :** Nabil Chraibi, conseiller chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 
@@ -29,6 +29,10 @@ fiche:
 **Client :** Oui, très bien.
 
 **Conseiller :** Tant mieux. Pour sécuriser notre échange, pouvez-vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?
+
+**Client :** Pardon, vous pouvez répéter ?
+
+**Conseiller :** Pouvez-vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?
 
 **Client :** Lambert Gérard, 21000, le 12 janvier 1958.
 

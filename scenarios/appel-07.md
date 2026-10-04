@@ -18,9 +18,13 @@ fiche:
 
 **Conseiller :** Bonjour, Monsieur Durand ?
 
-**Client :** Oui, c'est qui ?
+**Client :** Oui, bonjour… C'est qui ?
 
-**Conseiller :** Samir El Idrissi, conseiller chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
+**Conseiller :** Samir El Idrissi, conseiller chez Kalyo Télécom, votre opérateur.
+
+**Client :** Ah, oui.
+
+**Conseiller :** C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 
 **Client :** Oui, allez-y.
 
@@ -48,7 +52,11 @@ fiche:
 
 **Client :** Chez un autre opérateur, deux lignes.
 
-**Conseiller :** Merci, c'est noté. Avec tout ce que vous me dites, Monsieur Durand, j'ai quelque chose qui correspond vraiment à votre famille : le Pack Horizon. Je vous explique ce qu'il change chez vous. D'abord, 35 chaînes thématiques : du cinéma, des séries, des polars, des documentaires, de la découverte, de la musique, de la cuisine, du voyage… et surtout Horizon Kids et Horizon Junior, des programmes adaptés à l'âge de chacun de vos enfants, sans publicité. Ensuite, plus de 2 000 films et séries à la demande, dont une partie en 4K. Et comme vous finissez tard, le replay de 7 jours : votre film commence quand vous vous asseyez, pas quand il passe à l'antenne. Enfin, il fonctionne sur deux écrans en même temps, avec l'application Kalyo TV : les enfants regardent leurs dessins animés sur la tablette pendant que vous profitez de votre film sur la télévision. Fini les disputes pour la télécommande !
+**Conseiller :** Merci, c'est noté. Avec tout ce que vous me dites, Monsieur Durand, j'ai quelque chose qui correspond vraiment à votre famille : le Pack Horizon. Je vous explique ce qu'il change chez vous. D'abord, 35 chaînes thématiques : du cinéma, des séries, des polars, des documentaires, de la découverte, de la musique, de la cuisine, du voyage… et surtout Horizon Kids et Horizon Junior, des programmes adaptés à l'âge de chacun de vos enfants, sans publicité.
+
+**Client :** Hmm.
+
+**Conseiller :** Ensuite, plus de 2 000 films et séries à la demande, dont une partie en 4K. Et comme vous finissez tard, le replay de 7 jours : votre film commence quand vous vous asseyez, pas quand il passe à l'antenne. Enfin, il fonctionne sur deux écrans en même temps, avec l'application Kalyo TV : les enfants regardent leurs dessins animés sur la tablette pendant que vous profitez de votre film sur la télévision. Fini les disputes pour la télécommande !
 
 **Client :** Ça a l'air bien, mais on a déjà une plateforme de streaming…
 
@@ -56,7 +64,11 @@ fiche:
 
 **Client :** Oui, mais additionné à la plateforme, ça commence à faire cher.
 
-**Conseiller :** C'est une vraie question, et je vais être transparent avec vous. Le Pack Horizon est à 12,99 € par mois, soit environ 43 centimes par jour. Pour vous donner une idée, c'est à peu près le prix d'une seule place de cinéma… pour un mois entier de films, pour quatre personnes. Une seule sortie au cinéma en famille vous coûterait déjà plus de quatre fois ce prix. Et le premier mois est offert, sans engagement : vous testez gratuitement, et si ça ne vous convient pas, vous arrêtez.
+**Conseiller :** C'est une vraie question, et je vais être transparent avec vous. Le Pack Horizon est à 12,99 € par mois, soit environ 43 centimes par jour. Pour vous donner une idée, c'est à peu près le prix d'une seule place de cinéma… pour un mois entier de films, pour quatre personnes. Une seule sortie au cinéma en famille vous coûterait déjà plus de quatre fois ce prix.
+
+**Client :** Hmm.
+
+**Conseiller :** Et le premier mois est offert, sans engagement : vous testez gratuitement, et si ça ne vous convient pas, vous arrêtez.
 
 **Client :** Vu comme ça… D'accord, on peut essayer.
 
@@ -65,6 +77,10 @@ fiche:
 **Client :** Oui, je confirme.
 
 **Conseiller :** Merci. Pour finaliser, je vous envoie un e-mail récapitulatif à signer électroniquement. Pouvez-vous me confirmer votre adresse e-mail ?
+
+**Client :** Pardon, vous pouvez répéter ?
+
+**Conseiller :** Pouvez-vous me confirmer votre adresse e-mail ?
 
 **Client :** philippe.durand@example.com.
 

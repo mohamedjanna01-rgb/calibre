@@ -14,13 +14,17 @@ fiche:
 
 ## Transcription de référence
 
-**Conseiller :** Kalyo Télécom, bonjour ! Je m'appelle Karim Tazi, je suis votre conseiller clientèle, et je vais m'occuper de votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?
+**Conseiller :** Kalyo Télécom, bonjour !
+
+**Client :** Bonjour.
+
+**Conseiller :** Je m'appelle Karim Tazi, je suis votre conseiller clientèle, et je vais m'occuper de votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?
 
 **Client :** Antoine Petit.
 
 **Conseiller :** Merci, Monsieur Petit. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?
 
-**Client :** 06 39 98 61 19, 59000, et le 30 mai 1988.
+**Client :** [numéro masqué], 59000, et le 30 mai 1988.
 
 **Conseiller :** Merci. Que puis-je faire pour vous ?
 
@@ -34,7 +38,11 @@ fiche:
 
 **Client :** Non merci, elle est très contente de son abonnement. Je veux juste résilier.
 
-**Conseiller :** Très bien, je comprends. Alors, pour une résiliation, le service concerné n'est pas disponible aujourd'hui. Le plus simple, c'est de nous rappeler la semaine prochaine.
+**Conseiller :** Très bien, je comprends. Alors, pour une résiliation, le service concerné n'est pas disponible aujourd'hui.
+
+**Client :** Ah bon ?
+
+**Conseiller :** Le plus simple, c'est de nous rappeler la semaine prochaine.
 
 **Client :** La semaine prochaine ? Mais je vous appelle maintenant, vous ne pouvez pas le faire ?
 

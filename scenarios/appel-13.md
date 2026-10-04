@@ -18,7 +18,7 @@ fiche:
 
 **Conseiller :** Bonjour, Monsieur Rousseau ?
 
-**Client :** Oui, c'est qui ?
+**Client :** Oui, bonjour. C'est qui ?
 
 **Conseiller :** Anas Lahlou, conseiller chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 
@@ -40,7 +40,11 @@ fiche:
 
 **Client :** Avec ma compagne, en général.
 
-**Conseiller :** Alors j'ai quelque chose pour vous deux : le Pack Horizon. Horizon Cinéma, Horizon Séries, Horizon Polar, et plus de 2 000 films et séries à la demande : vous choisissez votre soirée au lieu de zapper. Et avec le replay de 7 jours, vous ne ratez plus un épisode. Le premier mois est offert, ensuite c'est 12,99 € par mois, sans engagement.
+**Conseiller :** Alors j'ai quelque chose pour vous deux : le Pack Horizon. Horizon Cinéma, Horizon Séries, Horizon Polar, et plus de 2 000 films et séries à la demande : vous choisissez votre soirée au lieu de zapper. Et avec le replay de 7 jours, vous ne ratez plus un épisode.
+
+**Client :** Hmm.
+
+**Conseiller :** Le premier mois est offert, ensuite c'est 12,99 € par mois, sans engagement.
 
 **Client :** Ça me plaît bien, ça. Allez, on essaie.
 

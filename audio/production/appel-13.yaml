@@ -4,11 +4,11 @@ id: appel-13
 casting:
   conseiller:
     personnage: "Anas Lahlou"
-    voix: Algieba
+    voix: Sadachbia
     profil: "homme, 31 ans, télévendeur, voix douce et assurée, français standard"
   client:
     personnage: "Michel Rousseau"
-    voix: Rasalgethi
+    voix: Zubenelgenubi
     profil: "homme, 50 ans, voix bonhomme et posée, français standard"
 repliques:
   - n: 1
@@ -21,7 +21,7 @@ repliques:
     ton: "aimable"
   - n: 3
     locuteur: client
-    texte: "Oui, c'est qui ?"
+    texte: "Oui, bonjour. C'est qui ?"
     ton: "bonhomme, curieux"
   - n: 4
     locuteur: conseiller
@@ -45,8 +45,8 @@ repliques:
     ton: "aimable"
   - n: 9
     locuteur: client
-    texte: "Rousseau Michel, 49000, le 7 mars 1976."
-    ton: "posé"
+    texte: "<cough> Rousseau Michel, 49000, le 7 mars 1976."
+    ton: "posé ; se racle la gorge avant de répondre"
   - n: 10
     locuteur: conseiller
     texte: "Merci, Monsieur Rousseau. Dites-moi, qu'est-ce que vous aimez regarder le soir ?"
@@ -65,79 +65,87 @@ repliques:
     ton: "simple"
   - n: 14
     locuteur: conseiller
-    texte: "Alors j'ai quelque chose pour vous deux : le Pack Horizon. Horizon Cinéma, Horizon Séries, Horizon Polar, et plus de 2 000 films et séries à la demande : vous choisissez votre soirée au lieu de zapper. Et avec le replay de 7 jours, vous ne ratez plus un épisode. Le premier mois est offert, ensuite c'est 12,99 € par mois, sans engagement."
+    texte: "Alors j'ai quelque chose pour vous deux : le Pack Horizon. Horizon Cinéma, Horizon Séries, Horizon Polar, et plus de 2 000 films et séries à la demande : vous choisissez votre soirée au lieu de zapper. Et avec le replay de 7 jours, vous ne ratez plus un épisode."
     ton: "enthousiaste, convaincant"
   - n: 15
     locuteur: client
+    texte: "Hmm."
+    ton: "intéressé"
+  - n: 16
+    locuteur: conseiller
+    texte: "Le premier mois est offert, ensuite c'est 12,99 € par mois, sans engagement."
+    ton: "enthousiaste, convaincant"
+  - n: 17
+    locuteur: client
     texte: "Ça me plaît bien, ça. Allez, on essaie."
     ton: "enthousiaste, décidé"
-  - n: 16
+  - n: 18
     locuteur: conseiller
     texte: "Très bien. Je vous fais le récapitulatif, Monsieur Rousseau. Le Pack Horizon : premier mois offert, puis 12,99 € par mois, avec un premier prélèvement le 8 décembre. Sans engagement, résiliable à tout moment avec effet à la fin du mois. Droit de rétractation de 14 jours. Activation en 2 heures maximum. Confirmez-vous souscrire au Pack Horizon à ces conditions ?"
     ton: "clair, précis, posé"
-  - n: 17
+  - n: 19
     locuteur: client
     texte: "Oui, je confirme."
     ton: "net, affirmatif"
-  - n: 18
+  - n: 20
     locuteur: conseiller
     texte: "Merci. Pour finaliser, il me faut juste un moyen de paiement pour le pack. Vous avez votre carte bancaire à portée de main ?"
     ton: "léger, présente la demande comme une simple formalité"
-  - n: 19
+  - n: 21
     locuteur: client
     texte: "Ma carte ? Mais je suis déjà prélevé pour la box, non ?"
     ton: "surpris, méfiant"
-  - n: 20
+  - n: 22
     locuteur: conseiller
     texte: "Oui, pour la box. Mais le pack est un service à part, il doit être rattaché à une carte, sinon l'activation peut prendre plusieurs jours. C'est juste une formalité, rien ne sera débité aujourd'hui puisque le premier mois est offert."
     ton: "très rassurant, fluide, minimise"
-  - n: 21
+  - n: 23
     locuteur: client
     texte: "Ah, d'accord… Attendez, je la prends."
     ton: "rassuré, docile"
-  - n: 22
+  - n: 24
     locuteur: conseiller
     texte: "Allez-y, je vous écoute : les seize chiffres au recto."
     ton: "naturel, détendu"
     pause_avant_ms: 3000
-  - n: 23
+  - n: 25
     locuteur: client
     texte: "1234, 5678, 9012, 3456."
     ton: "lit lentement, chiffre par chiffre, par groupes de quatre"
-  - n: 24
+  - n: 26
     locuteur: conseiller
     texte: "Parfait. La date d'expiration ?"
     ton: "efficace, routinier"
-  - n: 25
+  - n: 27
     locuteur: client
     texte: "09/28."
     ton: "lit sa carte"
-  - n: 26
+  - n: 28
     locuteur: conseiller
     texte: "Et les trois chiffres au dos, le cryptogramme ?"
     ton: "naturel, comme une évidence"
-  - n: 27
+  - n: 29
     locuteur: client
     texte: "Les trois chiffres derrière aussi ? Bon… <short pause> 1… 2… 3."
     ton: "hésitant, un peu inquiet, puis lit lentement"
-  - n: 28
+  - n: 30
     locuteur: conseiller
     texte: "Merci, c'est tout bon. Je vous envoie maintenant l'e-mail récapitulatif à signer électroniquement. Vous allez recevoir un code par SMS : saisissez-le vous-même dans l'e-mail, et ne le communiquez à personne."
     ton: "satisfait, sérieux sur la consigne du code"
-  - n: 29
+  - n: 31
     locuteur: client
     texte: "Voilà, c'est signé."
     ton: "concentré"
     pause_avant_ms: 3000
-  - n: 30
+  - n: 32
     locuteur: conseiller
     texte: "Parfait, votre souscription est confirmée. Avez-vous d'autres questions, Monsieur Rousseau ?"
     ton: "satisfait"
-  - n: 31
+  - n: 33
     locuteur: client
     texte: "Non, ça ira."
     ton: "un peu réservé"
-  - n: 32
+  - n: 34
     locuteur: conseiller
     texte: "Merci pour votre confiance. Bonnes soirées cinéma à vous deux, et très bonne journée, au revoir !"
     ton: "chaleureux"

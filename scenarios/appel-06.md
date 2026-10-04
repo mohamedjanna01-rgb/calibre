@@ -14,13 +14,17 @@ fiche:
 
 ## Transcription de référence
 
-**Conseiller :** Kalyo Télécom, bonjour ! Je m'appelle Mehdi Alaoui, je suis votre conseiller clientèle, et je vais prendre en charge votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?
+**Conseiller :** Kalyo Télécom, bonjour !
+
+**Cliente :** Bonjour.
+
+**Conseiller :** Je m'appelle Mehdi Alaoui, je suis votre conseiller clientèle, et je vais prendre en charge votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?
 
 **Cliente :** Sandrine Benoît.
 
 **Conseiller :** Merci, Madame Benoît. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?
 
-**Cliente :** 06 39 98 84 30, 33000, le 9 septembre 1975.
+**Cliente :** [numéro masqué], 33000, le 9 septembre 1975.
 
 **Conseiller :** Merci. Que puis-je faire pour vous ?
 
@@ -30,7 +34,7 @@ fiche:
 
 **Cliente :** 100 Go pour 10 € par mois.
 
-**Conseiller :** D'accord. De mon côté, je vois que vous payez votre smartphone en 24 mensualités, et qu'il vous en reste 14.
+**Conseiller :** D'accord. Un instant, s'il vous plaît. De mon côté, je vois que vous payez votre smartphone en 24 mensualités, et qu'il vous en reste 14.
 
 **Cliente :** Oui, et alors ?
 

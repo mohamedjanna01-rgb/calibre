@@ -28,6 +28,7 @@ import yaml
 
 sys.path.insert(0, str(Path(__file__).parent))
 from effet_telephone import appliquer_effet, lire_wav, ecrire_wav  # noqa: E402
+from post_traitement import traiter  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 PRODUCTION = ROOT / "audio" / "production"
@@ -44,7 +45,8 @@ MODELES = {
 LIMITE_JOUR = 10    # requêtes par modèle sur 24 heures glissantes
 LIMITE_MINUTE = 3   # requêtes par modèle sur 60 secondes glissantes
 LOCUTEURS = {"conseiller": "Conseiller", "client": "Client"}
-BALISES_FR = {"sigh": "soupir", "chuckle": "petit rire", "short pause": "courte pause", "long pause": "longue pause"}
+BALISES_FR = {"sigh": "soupir", "chuckle": "petit rire", "short pause": "courte pause", "long pause": "longue pause",
+              "cough": "toussote"}
 FIN_DE_PHRASE = re.compile(r"([.!?…])\s+(?=[A-ZÀ-ÖØ-Þ«])")
 RYTHME = "Rythme naturel et posé de conversation téléphonique"
 REPARTITION = PRODUCTION / "repartition.yaml"
@@ -222,18 +224,19 @@ def pcm_vers_wav(octets, mime):
     return tampon.getvalue()
 
 
-def finaliser(octets, mime, base):
-    """Écrit d'abord l'audio reçu sur le disque (une requête n'est jamais perdue),
-    puis ne conserve que la version avec effet de ligne téléphonique."""
-    secours = ROOT / "audio" / "brut" / (base.name + ".recu.wav")
-    secours.parent.mkdir(parents=True, exist_ok=True)
-    secours.write_bytes(pcm_vers_wav(octets, mime))
-    signal, taux = lire_wav(secours)
+def finaliser(octets, mime, appel, sortie):
+    """Conserve la voix brute en local (audio/brut/, non versionné), pour pouvoir refaire le traitement
+    du son sans nouvelle requête, puis produit la version finale avec effet de ligne téléphonique."""
+    brut = ROOT / "audio" / "brut" / f"appel-{appel}.wav"
+    brut.parent.mkdir(parents=True, exist_ok=True)
+    brut.write_bytes(pcm_vers_wav(octets, mime))
+    if Path(sortie) == Path(SORTIE_FINALE):
+        return traiter(appel)  # ambiance, grésillements, bips, contrôle de fidélité
+    signal, taux = lire_wav(brut)
     tel, taux_tel = appliquer_effet(signal, taux)
-    base.parent.mkdir(parents=True, exist_ok=True)
-    ecrire_wav(base.with_suffix(".wav"), tel, taux_tel)
-    secours.unlink()
-    return base
+    (ROOT / sortie).mkdir(parents=True, exist_ok=True)
+    ecrire_wav(ROOT / sortie / f"appel-{appel}.wav", tel, taux_tel)
+    return None
 
 
 # --- Programme principal -------------------------------------------------------------------
@@ -285,10 +288,10 @@ def main():
     sauvegarde.parent.mkdir(parents=True, exist_ok=True)
     sauvegarde.write_text(json.dumps(reponse), encoding="utf-8")
     octets, mime = extraire_audio(reponse)
-
-    base = finaliser(octets, mime, ROOT / a.sortie / f"appel-{appel}")
-    signal, taux = lire_wav(base.with_suffix(".wav"))
+    controle = finaliser(octets, mime, appel, a.sortie)
     sauvegarde.unlink()
+    base = ROOT / a.sortie / f"appel-{appel}"
+    signal, taux = lire_wav(base.with_suffix(".wav"))
 
     infos = {
         "appel": appel, "modele": a.modele, "route": route,
@@ -296,6 +299,7 @@ def main():
         "repliques": len(repliques), "duree_audio_s": round(len(signal) / taux, 1),
         "duree_requete_s": round(duree_requete, 1), "format_recu": mime or "audio/wav",
         "usage": reponse.get("usageMetadata") or reponse.get("usage"),
+        "controle": controle,
     }
     base.with_suffix(".json").write_text(json.dumps(infos, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"appel-{appel} / {a.modele} : {infos['duree_audio_s']} s d'audio en {infos['duree_requete_s']} s "

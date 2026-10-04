@@ -14,9 +14,13 @@ fiche:
 
 ## Transcription de référence
 
-**Conseiller :** Kalyo Télécom, bonjour. Votre numéro de ligne ?
+**Conseiller :** Kalyo Télécom, bonjour.
 
-**Cliente :** Euh… 06 39 98 53 72.
+**Cliente :** Bonjour…
+
+**Conseiller :** Votre numéro de ligne ?
+
+**Cliente :** Euh… [numéro masqué].
 
 **Conseiller :** Nom, code postal, date de naissance ?
 
@@ -30,7 +34,11 @@ fiche:
 
 **Cliente :** Un reset… usine ? Je ne sais pas faire ça.
 
-**Conseiller :** Il y a un bouton derrière le décodeur, vous appuyez dessus avec un trombone pendant dix secondes. Normalement, ça devrait marcher.
+**Conseiller :** Il y a un bouton derrière le décodeur, vous appuyez dessus avec un trombone pendant dix secondes.
+
+**Cliente :** D'accord…
+
+**Conseiller :** Normalement, ça devrait marcher.
 
 **Cliente :** Et si ça ne marche pas ?
 
