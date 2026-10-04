@@ -4,6 +4,7 @@ Trois méthodes, comparées sur les mêmes enregistrements (audio/appels/appel-X
   gemini-3.8-flash      modèle généraliste : consigne + réponse JSON structurée (1 requête par appel)
   gemini-3.5-transcribe modèle spécialisé : séparation des voix et horodatage mot par mot (1 requête par appel)
   whisper-small         transcription locale, séparation des voix par la hauteur et le timbre (aucune requête)
+  whisper-medium        idem avec le modèle local « medium », plus précis et plus lent
 
 Les modèles ne reçoivent que l'audio et une consigne générique : jamais les scénarios ni les scripts de production.
 Garde-fous : compteur de requêtes, réponse sauvegardée avant tout traitement, arrêt au premier refus.
@@ -40,7 +41,7 @@ APPELS = ROOT / "audio" / "appels"
 SORTIE = ROOT / "transcriptions"
 BRUT = ROOT / "audio" / "brut"
 API = "https://generativelanguage.googleapis.com"
-METHODES = ("gemini-3.8-flash", "gemini-3.5-transcribe", "whisper-small")
+METHODES = ("gemini-3.8-flash", "gemini-3.5-transcribe", "whisper-small", "whisper-medium")
 INAUDIBLE, MASQUE = "[inaudible]", "[numéro masqué]"
 
 CONSIGNE = f"""Transcris mot pour mot cet enregistrement d'appel téléphonique, en français, entre un conseiller de l'opérateur Kalyo Télécom et un client.
@@ -257,13 +258,13 @@ def caracteristiques(signal, taux, debut, fin):
     return np.concatenate([mfcc.mean(axis=0), [f0]])
 
 
-def whisper_local(appel, wav, cle, simulation):
+def whisper_local(appel, wav, cle, simulation, taille="small"):
     if simulation:
-        return {"methode": "whisper-small", "requetes": 0}
+        return {"methode": f"whisper-{taille}", "requetes": 0}
     from faster_whisper import WhisperModel
     signal, taux = lire_wav(wav)
     audio = resample_poly(signal, 16000, taux).astype(np.float32)
-    modele = WhisperModel("small", device="cpu", compute_type="int8")
+    modele = WhisperModel(taille, device="cpu", compute_type="int8")
     segments, _ = modele.transcribe(audio, language="fr", word_timestamps=True)
     mots = [{"texte": w.word.strip(), "debut": w.start, "fin": w.end, "proba": w.probability}
             for s in segments for w in s.words]
@@ -345,7 +346,8 @@ def main():
     p.add_argument("--simulation", action="store_true", help="affiche la requête sans l'envoyer")
     a = p.parse_args()
     fonction = {"gemini-3.8-flash": gemini_flash, "gemini-3.5-transcribe": gemini_transcribe,
-                "whisper-small": whisper_local}[a.methode]
+                "whisper-small": whisper_local,
+                "whisper-medium": lambda *x: whisper_local(*x, taille="medium")}[a.methode]
     cle = os.environ.get("GEMINI_API_KEY")
     if a.methode.startswith("gemini") and not cle and not a.simulation:
         sys.exit("Variable d'environnement GEMINI_API_KEY absente.")
