@@ -1,0 +1,326 @@
+{
+  "appel": "07",
+  "methode": "gemini-3.5-transcribe",
+  "date": "2026-10-05T00:27:32",
+  "duree_audio_s": 331.1,
+  "usage": {
+    "total_tokens": 8280,
+    "total_input_tokens": 8280,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 1
+      },
+      {
+        "modality": "audio",
+        "tokens": 8279
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "raw_prompt_token": 9655,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1376
+          },
+          {
+            "modality": "audio",
+            "tokens": 8279
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1246
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1376
+          },
+          {
+            "modality": "audio",
+            "tokens": 8279
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 1246
+          }
+        ]
+      }
+    ]
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "client",
+      "debut": 0.3,
+      "fin": 0.7,
+      "texte": "Allô."
+    },
+    {
+      "n": 2,
+      "locuteur": "conseiller",
+      "debut": 1.5,
+      "fin": 2.4,
+      "texte": "Bonjour, monsieur Durand."
+    },
+    {
+      "n": 3,
+      "locuteur": "client",
+      "debut": 3.4,
+      "fin": 5.4,
+      "texte": "Oui, bonjour. Euh, c'est qui?"
+    },
+    {
+      "n": 4,
+      "locuteur": "conseiller",
+      "debut": 6.4,
+      "fin": 9.6,
+      "texte": "Samira Idrissi, conseiller chez Kalio Telecom, votre opérateur."
+    },
+    {
+      "n": 5,
+      "locuteur": "client",
+      "debut": 10.6,
+      "fin": 11.2,
+      "texte": "Ah, oui."
+    },
+    {
+      "n": 6,
+      "locuteur": "conseiller",
+      "debut": 12.2,
+      "fin": 22.1,
+      "texte": "C'est moi qui m'occupe de votre contrat box internet et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants?"
+    },
+    {
+      "n": 7,
+      "locuteur": "client",
+      "debut": 23.1,
+      "fin": 23.9,
+      "texte": "Oui, allez-y."
+    },
+    {
+      "n": 8,
+      "locuteur": "conseiller",
+      "debut": 24.8,
+      "fin": 30.9,
+      "texte": "Merci. Avant tout, je voulais faire un point avec vous. Tout fonctionne bien avec votre box et votre télévision?"
+    },
+    {
+      "n": 9,
+      "locuteur": "client",
+      "debut": 32.6,
+      "fin": 34.1,
+      "texte": "Oui, aucun souci."
+    },
+    {
+      "n": 10,
+      "locuteur": "conseiller",
+      "debut": 35.0,
+      "fin": 42.2,
+      "texte": "Tant mieux. Pour sécuriser notre échange, pouvez-vous me confirmer votre nom et prénom, votre code postal et votre date de naissance?"
+    },
+    {
+      "n": 11,
+      "locuteur": "client",
+      "debut": 43.3,
+      "fin": 48.9,
+      "texte": "Durand Philippe 67000 le 3 février 1982."
+    },
+    {
+      "n": 12,
+      "locuteur": "conseiller",
+      "debut": 49.8,
+      "fin": 59.8,
+      "texte": "Merci, monsieur Durand. Nous avons en ce moment un avantage réservé à nos clients sur la télévision. Pour voir s'il peut vous être utile, puis-je vous poser quelques questions? Combien êtes-vous à la maison?"
+    },
+    {
+      "n": 13,
+      "locuteur": "client",
+      "debut": 60.8,
+      "fin": 67.4,
+      "texte": "Alors quatre. Ma femme, nos deux enfants de 7 et 12 ans et moi."
+    },
+    {
+      "n": 14,
+      "locuteur": "conseiller",
+      "debut": 68.5,
+      "fin": 71.1,
+      "texte": "Et euh qui regarde le plus la télévision chez vous?"
+    },
+    {
+      "n": 15,
+      "locuteur": "client",
+      "debut": 72.1,
+      "fin": 79.5,
+      "texte": "Les enfants surtout. Ma femme et moi on regarde des films le soir ou finis tard. On rate souvent le début."
+    },
+    {
+      "n": 16,
+      "locuteur": "conseiller",
+      "debut": 80.5,
+      "fin": 84.6,
+      "texte": "Je vois. Et vous arrivent-ils de regarder sur tablette ou sur téléphone?"
+    },
+    {
+      "n": 17,
+      "locuteur": "client",
+      "debut": 85.7,
+      "fin": 90.8,
+      "texte": "Les enfants sur la tablette et on a déjà un abonnement plateforme de streaming."
+    },
+    {
+      "n": 18,
+      "locuteur": "conseiller",
+      "debut": 91.8,
+      "fin": 97.3,
+      "texte": "D'accord. Et pour vos téléphones portables, vous êtes vous êtes chez nous ou chez un autre opérateur?"
+    },
+    {
+      "n": 19,
+      "locuteur": "client",
+      "debut": 98.3,
+      "fin": 101.3,
+      "texte": "Chez un autre opérateur de oui, de ligne."
+    },
+    {
+      "n": 20,
+      "locuteur": "conseiller",
+      "debut": 102.2,
+      "fin": 152.1,
+      "texte": "Merci, c'est noté. Avec tout ce que vous me dites, monsieur Durand, j'ai quelque chose qui correspond vraiment à votre foyer. Le pack Horizon. Je vous explique ce qui change chez vous. D'abord, 35 chaînes thématiques. Du cinéma, des séries, des polars, des documentaires, de la découverte, de la musique, de la cuisine, du voyage et surtout Horizon Kids et Horizon Junior. Des programmes adaptés à l'âge de chacun de vos enfants au public. Ensuite, un pack de films et de séries à la demande d'une partie en quatre cas. Et comme vous finissez tard, le replay de 7 jours. Votre film commence quand vous vous asseyez, pas quand il passe à l'antenne. Enfin, il fonctionne sur deux écrans en même temps avec l'application Kalio TV. Les enfants regardent leur dessin animé sur la tablette pendant que vous profitez de votre film sur la télévision. Fini les disputes pour la télécommande."
+    },
+    {
+      "n": 21,
+      "locuteur": "client",
+      "debut": 154.2,
+      "fin": 157.4,
+      "texte": "Ça a l'air bien mais on a déjà une plateforme de streaming."
+    },
+    {
+      "n": 22,
+      "locuteur": "conseiller",
+      "debut": 158.7,
+      "fin": 178.9,
+      "texte": "Je comprends et beaucoup de nos clients en ont une aussi. La différence, c'est que le pack Horizon ajoute des chaînes en direct et un catalogue différent directement sur votre décodeur sans nouveau compte à créer ni mot de passe à retenir. Votre plateforme, c'est ce que vous choisissez de regarder. Horizon, c'est aussi ce que vous découvrez en allumant la télé. Les deux se complètent."
+    },
+    {
+      "n": 23,
+      "locuteur": "client",
+      "debut": 179.7,
+      "fin": 184.1,
+      "texte": "Oui, mais additionner à la plateforme, ça commence à faire cher."
+    },
+    {
+      "n": 24,
+      "locuteur": "conseiller",
+      "debut": 184.7,
+      "fin": 211.7,
+      "texte": "C'est une vraie question et je vais être transparent avec vous. Le pack Horizon est à 12,99 par mois soit environ 43 centimes par jour. Pour vous donner une idée, c'est à peu près le prix d'une seule place de cinéma pour un mois entier de films pour quatre personnes. Une seule sortie au cinéma en famille vous coûterait déjà plus de quatre fois ce prix. Et le premier mois est offert sans engagement. Vous testez gratuitement et si ça ne vous convient pas, vous arrêtez."
+    },
+    {
+      "n": 25,
+      "locuteur": "client",
+      "debut": 212.8,
+      "fin": 213.8,
+      "texte": "Comme ça."
+    },
+    {
+      "n": 26,
+      "locuteur": "conseiller",
+      "debut": 214.9,
+      "fin": 251.2,
+      "texte": "D'accord. On peut essayer. Avec plaisir. Je vous fais le récapitulatif complet avant de valider, monsieur Durand. Le pack Horizon, le premier mois est offert puis 12,99 par mois. Le premier prélèvement de 12,99 aura lieu le 8 décembre. Il est sans engagement. Vous pouvez l'arrêter à tout moment avec essai à la fin du mois depuis votre espace client ou en nous appelant. Vous disposez aussi d'un droit de rétractation de 14 jours. Si vous l'utilisez, vous ne payez rien. Il sera activé dans un délai de 2 h maximum directement sur votre décodeur sans rien à installer. Confirmez-vous souscrire au pack Horizon aux conditions que je viens de vous indiquer?"
+    },
+    {
+      "n": 27,
+      "locuteur": "client",
+      "debut": 251.8,
+      "fin": 252.8,
+      "texte": "Oui, je confirme."
+    },
+    {
+      "n": 28,
+      "locuteur": "conseiller",
+      "debut": 253.4,
+      "fin": 260.2,
+      "texte": "Merci. Pour finaliser, je vous envoie un email récapitulatif à signer électroniquement. Pouvez-vous me confirmer votre adresse email?"
+    },
+    {
+      "n": 29,
+      "locuteur": "client",
+      "debut": 260.9,
+      "fin": 262.4,
+      "texte": "Pardon, vous pouvez répéter?"
+    },
+    {
+      "n": 30,
+      "locuteur": "conseiller",
+      "debut": 263.0,
+      "fin": 279.6,
+      "texte": "Pouvez-vous me confirmer votre adresse email? Alors philippe . durand @ example . com Vous recevrez depuis l'adresse ne pas répondre @ kaliotelecom . example Je reste en ligne avec vous. L'avez-vous bien reçu?"
+    },
+    {
+      "n": 31,
+      "locuteur": "client",
+      "debut": 280.4,
+      "fin": 281.8,
+      "texte": "Attendez, je regarde."
+    },
+    {
+      "n": 32,
+      "locuteur": "conseiller",
+      "debut": 284.9,
+      "fin": 302.7,
+      "texte": "Oui, il y a un bouton signer. C'est bien ça. Vous y retrouvez tout ce que je viens de vous dire. Si tout est correct, vous cliquez sur signer. Vous allez recevoir un code par SMS. Saisissez-le même dans le mail et surtout ne le communiquez pas ni à moi ni à personne. Un conseiller Kalio ne vous le demandera jamais."
+    },
+    {
+      "n": 33,
+      "locuteur": "client",
+      "debut": 303.5,
+      "fin": 307.2,
+      "texte": "D'accord. C'est signé."
+    },
+    {
+      "n": 34,
+      "locuteur": "conseiller",
+      "debut": 307.9,
+      "fin": 318.3,
+      "texte": "Parfait. Je vois la signature de mon côté. Votre souscription est confirmée. Le pack Horizon sera disponible dans les 2 h et vous recevrez un SMS dès qu'il sera activé. Avez-vous des questions, monsieur Durand?"
+    },
+    {
+      "n": 35,
+      "locuteur": "client",
+      "debut": 319.6,
+      "fin": 320.6,
+      "texte": "Non, c'est très clair."
+    },
+    {
+      "n": 36,
+      "locuteur": "conseiller",
+      "debut": 321.3,
+      "fin": 329.0,
+      "texte": "Merci beaucoup pour votre confiance et pour votre temps. Je souhaite à toute la famille de très bonnes soirées télé. Excellente fin de journée, monsieur Durand. Au revoir."
+    },
+    {
+      "n": 37,
+      "locuteur": "client",
+      "debut": 329.7,
+      "fin": 330.8,
+      "texte": "Merci. Au revoir."
+    }
+  ]
+}

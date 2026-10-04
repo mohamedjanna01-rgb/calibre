@@ -1,0 +1,88 @@
+{
+  "appel": "13",
+  "methode": "gemini-3.5-transcribe",
+  "date": "2026-10-05T00:36:57",
+  "duree_audio_s": 213.1,
+  "usage": {
+    "total_tokens": 5329,
+    "total_input_tokens": 5329,
+    "input_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 5328
+      },
+      {
+        "modality": "text",
+        "tokens": 1
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "raw_prompt_token": 6232,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 904
+          },
+          {
+            "modality": "audio",
+            "tokens": 5328
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 745
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 904
+          },
+          {
+            "modality": "audio",
+            "tokens": 5328
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 745
+          }
+        ]
+      }
+    ]
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "conseiller",
+      "debut": 0.4,
+      "fin": 2.8,
+      "texte": "Allô. Bonjour, monsieur Rousseau?"
+    },
+    {
+      "n": 2,
+      "locuteur": "client",
+      "debut": 3.8,
+      "fin": 4.5,
+      "texte": "Oui, bonjour."
+    },
+    {
+      "n": 3,
+      "locuteur": "conseiller",
+      "debut": 5.6,
+      "fin": 212.9,
+      "texte": "C'est qui? Anas Lalou, conseiller chez Calio Telecom, votre opérateur. C'est moi qui m'occupe de votre contrat box internet et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants? Oui, allez-y. Merci. Avant tout, tout se passe bien avec votre box et votre télévision? Oui, ça marche bien. Pour sécuriser notre échange, pouvez-vous me confirmer votre nom et prénom, votre code postal et votre date de naissance? Rousseau Michel 49000 le 7 mars 1976. Merci monsieur Rousseau. Dites-moi, qu'est-ce que vous aimez regarder le soir? Des films, des séries policières. Mais honnêtement le soir je zappe beaucoup sans trouver grand-chose. Je vois. Et vous regardez seul ou en famille? Avec ma compagne en général. Alors, j'ai quelque chose pour vous deux. Le pack Horizon. Horizon cinéma, Horizon série, Horizon polar et plus de 2000 films et séries à la demande. Vous choisissez votre soirée au lieu de taper. Et avec le replay de 7 jours, vous ne ratez plus un épisode. Le 1er mois est offert, ensuite c'est 12,99€ par mois sans engagement. Ça me plaît bien ça. Allez, on essaie. Très bien. Je vous fais le récapitulatif monsieur Rousseau. Le pack Horizon, 1er mois offert, puis 12,99€ par mois avec un 1er prélèvement le 8 décembre. Sans engagement, résiliable à tout moment avec effet à la fin du mois, droit de rétractation de 14 jours, activation en 2 heures maximum. Confirmez-vous souscrire au pack Horizon à ces conditions? Oui, je confirme. Merci. Pour finaliser, il me faut juste un moyen de paiement pour le pack. Vous avez votre carte bancaire à portée de main? Ma carte? Ben je suis déjà prélevé pour la box, non? Oui, pour la box. Mais le pack est un service à part. Il doit être rattaché à une carte sinon l'activation peut prendre plusieurs jours. C'est juste une formalité, rien ne sera débité aujourd'hui puisque le 1er mois est offert. Ah d'accord. Attendez. Je la prends. Allez-y, je vous écoute. Les 16 chiffres au recto. 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 Parfait. La date d'expiration? 0 9 28 Et les 3 chiffres au dos, le cryptogramme. Les 3 chiffres derrière aussi. Bon. 1 2 3 Merci. C'est tout bon. Je vous envoie maintenant l'e-mail récapitulatif à signer électroniquement. Vous allez recevoir un code par SMS. Saisissez-le vous-même dans l'e-mail et ne le communiquez à personne. Voilà, c'est signé. Parfait. Votre souscription est confirmée. Avez-vous d'autres questions monsieur Rousseau? Non, ça ira. Merci pour votre confiance. Bonne soirée cinéma à vous deux et très bonne journée. Au revoir."
+    }
+  ]
+}

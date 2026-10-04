@@ -1,0 +1,2504 @@
+[
+ {
+  "start_index": 0,
+  "end_index": 13,
+  "text": "Keliutelecom,",
+  "start_offset": "0.200s",
+  "end_offset": "1s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 14,
+  "end_index": 22,
+  "text": "bonjour.",
+  "start_offset": "1s",
+  "end_offset": "1.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 22,
+  "end_index": 30,
+  "text": "Bonjour.",
+  "start_offset": "2s",
+  "end_offset": "2.400s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 30,
+  "end_index": 32,
+  "text": "Je",
+  "start_offset": "2.900s",
+  "end_offset": "3s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 33,
+  "end_index": 42,
+  "text": "m'appelle",
+  "start_offset": "3s",
+  "end_offset": "3.300s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 43,
+  "end_index": 49,
+  "text": "Karine",
+  "start_offset": "3.300s",
+  "end_offset": "3.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 262,
+  "end_index": 269,
+  "text": "Antoine",
+  "start_offset": "3.400s",
+  "end_offset": "13.700s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 50,
+  "end_index": 55,
+  "text": "Tazi,",
+  "start_offset": "3.700s",
+  "end_offset": "4.100s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 56,
+  "end_index": 58,
+  "text": "je",
+  "start_offset": "4.100s",
+  "end_offset": "4.200s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 59,
+  "end_index": 63,
+  "text": "suis",
+  "start_offset": "4.200s",
+  "end_offset": "4.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 64,
+  "end_index": 69,
+  "text": "votre",
+  "start_offset": "4.400s",
+  "end_offset": "4.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 276,
+  "end_index": 281,
+  "text": "Merci",
+  "start_offset": "4.400s",
+  "end_offset": "14.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 70,
+  "end_index": 80,
+  "text": "conseiller",
+  "start_offset": "4.700s",
+  "end_offset": "5s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 81,
+  "end_index": 91,
+  "text": "clientèle",
+  "start_offset": "5s",
+  "end_offset": "5.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 92,
+  "end_index": 94,
+  "text": "et",
+  "start_offset": "5.700s",
+  "end_offset": "5.800s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 95,
+  "end_index": 97,
+  "text": "je",
+  "start_offset": "5.800s",
+  "end_offset": "5.900s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 98,
+  "end_index": 102,
+  "text": "vais",
+  "start_offset": "5.900s",
+  "end_offset": "6s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 103,
+  "end_index": 112,
+  "text": "m'occuper",
+  "start_offset": "6s",
+  "end_offset": "6.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 113,
+  "end_index": 115,
+  "text": "de",
+  "start_offset": "6.400s",
+  "end_offset": "6.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 116,
+  "end_index": 121,
+  "text": "votre",
+  "start_offset": "6.500s",
+  "end_offset": "6.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 122,
+  "end_index": 130,
+  "text": "demande.",
+  "start_offset": "6.700s",
+  "end_offset": "7.100s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 131,
+  "end_index": 133,
+  "text": "Je",
+  "start_offset": "7.600s",
+  "end_offset": "7.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 134,
+  "end_index": 138,
+  "text": "vous",
+  "start_offset": "7.700s",
+  "end_offset": "7.800s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 139,
+  "end_index": 146,
+  "text": "informe",
+  "start_offset": "7.800s",
+  "end_offset": "8.200s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 147,
+  "end_index": 150,
+  "text": "que",
+  "start_offset": "8.200s",
+  "end_offset": "8.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 151,
+  "end_index": 154,
+  "text": "cet",
+  "start_offset": "8.400s",
+  "end_offset": "8.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 155,
+  "end_index": 160,
+  "text": "appel",
+  "start_offset": "8.500s",
+  "end_offset": "8.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 161,
+  "end_index": 164,
+  "text": "est",
+  "start_offset": "8.700s",
+  "end_offset": "8.800s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 165,
+  "end_index": 176,
+  "text": "susceptible",
+  "start_offset": "8.800s",
+  "end_offset": "9.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 177,
+  "end_index": 184,
+  "text": "d'être",
+  "start_offset": "9.400s",
+  "end_offset": "9.600s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 185,
+  "end_index": 196,
+  "text": "enregistré",
+  "start_offset": "9.600s",
+  "end_offset": "10.200s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 197,
+  "end_index": 201,
+  "text": "pour",
+  "start_offset": "10.200s",
+  "end_offset": "10.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 202,
+  "end_index": 205,
+  "text": "des",
+  "start_offset": "10.400s",
+  "end_offset": "10.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 206,
+  "end_index": 213,
+  "text": "raisons",
+  "start_offset": "10.500s",
+  "end_offset": "10.800s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 214,
+  "end_index": 216,
+  "text": "de",
+  "start_offset": "10.800s",
+  "end_offset": "10.800s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 217,
+  "end_index": 226,
+  "text": "qualité.",
+  "start_offset": "10.800s",
+  "end_offset": "11.300s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 227,
+  "end_index": 234,
+  "text": "Puis-je",
+  "start_offset": "11.800s",
+  "end_offset": "12s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 235,
+  "end_index": 240,
+  "text": "avoir",
+  "start_offset": "12s",
+  "end_offset": "12.200s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 241,
+  "end_index": 246,
+  "text": "votre",
+  "start_offset": "12.200s",
+  "end_offset": "12.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 247,
+  "end_index": 250,
+  "text": "nom",
+  "start_offset": "12.400s",
+  "end_offset": "12.600s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 251,
+  "end_index": 253,
+  "text": "et",
+  "start_offset": "12.600s",
+  "end_offset": "12.600s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 254,
+  "end_index": 262,
+  "text": "prénom?",
+  "start_offset": "12.600s",
+  "end_offset": "13s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 270,
+  "end_index": 276,
+  "text": "Petit.",
+  "start_offset": "13.700s",
+  "end_offset": "14.100s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 282,
+  "end_index": 290,
+  "text": "monsieur",
+  "start_offset": "14.700s",
+  "end_offset": "15s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 291,
+  "end_index": 297,
+  "text": "Petit.",
+  "start_offset": "15s",
+  "end_offset": "15.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 298,
+  "end_index": 302,
+  "text": "Pour",
+  "start_offset": "15.800s",
+  "end_offset": "15.900s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 303,
+  "end_index": 313,
+  "text": "sécuriser",
+  "start_offset": "15.900s",
+  "end_offset": "16.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 314,
+  "end_index": 319,
+  "text": "votre",
+  "start_offset": "16.400s",
+  "end_offset": "16.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 320,
+  "end_index": 328,
+  "text": "dossier,",
+  "start_offset": "16.700s",
+  "end_offset": "17.200s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 329,
+  "end_index": 340,
+  "text": "pouvez-vous",
+  "start_offset": "17.200s",
+  "end_offset": "17.600s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 341,
+  "end_index": 343,
+  "text": "me",
+  "start_offset": "17.600s",
+  "end_offset": "17.600s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 344,
+  "end_index": 350,
+  "text": "donner",
+  "start_offset": "17.600s",
+  "end_offset": "17.900s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 351,
+  "end_index": 356,
+  "text": "votre",
+  "start_offset": "17.900s",
+  "end_offset": "18.200s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 357,
+  "end_index": 364,
+  "text": "numéro",
+  "start_offset": "18.200s",
+  "end_offset": "18.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 365,
+  "end_index": 367,
+  "text": "de",
+  "start_offset": "18.500s",
+  "end_offset": "18.600s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 368,
+  "end_index": 374,
+  "text": "ligne,",
+  "start_offset": "18.600s",
+  "end_offset": "19s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 375,
+  "end_index": 380,
+  "text": "votre",
+  "start_offset": "19.100s",
+  "end_offset": "19.300s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 381,
+  "end_index": 385,
+  "text": "code",
+  "start_offset": "19.300s",
+  "end_offset": "19.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 386,
+  "end_index": 392,
+  "text": "postal",
+  "start_offset": "19.500s",
+  "end_offset": "20s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 393,
+  "end_index": 395,
+  "text": "et",
+  "start_offset": "20s",
+  "end_offset": "20.100s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 396,
+  "end_index": 401,
+  "text": "votre",
+  "start_offset": "20.100s",
+  "end_offset": "20.300s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 402,
+  "end_index": 406,
+  "text": "date",
+  "start_offset": "20.300s",
+  "end_offset": "20.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 407,
+  "end_index": 409,
+  "text": "de",
+  "start_offset": "20.400s",
+  "end_offset": "20.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 410,
+  "end_index": 420,
+  "text": "naissance?",
+  "start_offset": "20.500s",
+  "end_offset": "20.900s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 420,
+  "end_index": 425,
+  "text": "59000",
+  "start_offset": "24.900s",
+  "end_offset": "25.800s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 426,
+  "end_index": 428,
+  "text": "et",
+  "start_offset": "26.200s",
+  "end_offset": "26.400s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 429,
+  "end_index": 431,
+  "text": "le",
+  "start_offset": "26.400s",
+  "end_offset": "26.600s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 432,
+  "end_index": 434,
+  "text": "30",
+  "start_offset": "26.600s",
+  "end_offset": "26.800s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 435,
+  "end_index": 438,
+  "text": "mai",
+  "start_offset": "26.800s",
+  "end_offset": "27s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 439,
+  "end_index": 444,
+  "text": "1988.",
+  "start_offset": "27s",
+  "end_offset": "28.200s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 445,
+  "end_index": 451,
+  "text": "Merci.",
+  "start_offset": "28.400s",
+  "end_offset": "28.800s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 451,
+  "end_index": 454,
+  "text": "Que",
+  "start_offset": "29.300s",
+  "end_offset": "29.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 455,
+  "end_index": 462,
+  "text": "puis-je",
+  "start_offset": "29.400s",
+  "end_offset": "29.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 463,
+  "end_index": 468,
+  "text": "faire",
+  "start_offset": "29.500s",
+  "end_offset": "29.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 469,
+  "end_index": 473,
+  "text": "pour",
+  "start_offset": "29.700s",
+  "end_offset": "29.900s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 474,
+  "end_index": 479,
+  "text": "vous?",
+  "start_offset": "29.900s",
+  "end_offset": "30.100s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 479,
+  "end_index": 481,
+  "text": "Je",
+  "start_offset": "30.400s",
+  "end_offset": "30.500s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 482,
+  "end_index": 490,
+  "text": "voudrais",
+  "start_offset": "30.500s",
+  "end_offset": "30.700s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 491,
+  "end_index": 500,
+  "text": "résilier",
+  "start_offset": "30.700s",
+  "end_offset": "31.200s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 501,
+  "end_index": 503,
+  "text": "ma",
+  "start_offset": "31.200s",
+  "end_offset": "31.300s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 504,
+  "end_index": 508,
+  "text": "box.",
+  "start_offset": "31.300s",
+  "end_offset": "31.800s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 509,
+  "end_index": 511,
+  "text": "Je",
+  "start_offset": "32.100s",
+  "end_offset": "32.300s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 512,
+  "end_index": 522,
+  "text": "déménage",
+  "start_offset": "32.300s",
+  "end_offset": "32.700s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 523,
+  "end_index": 527,
+  "text": "chez",
+  "start_offset": "32.700s",
+  "end_offset": "32.800s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 528,
+  "end_index": 530,
+  "text": "ma",
+  "start_offset": "32.800s",
+  "end_offset": "32.900s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 531,
+  "end_index": 539,
+  "text": "compagne",
+  "start_offset": "32.900s",
+  "end_offset": "33.300s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 540,
+  "end_index": 542,
+  "text": "le",
+  "start_offset": "33.300s",
+  "end_offset": "33.400s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 543,
+  "end_index": 547,
+  "text": "mois",
+  "start_offset": "33.400s",
+  "end_offset": "33.600s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 548,
+  "end_index": 556,
+  "text": "prochain",
+  "start_offset": "33.600s",
+  "end_offset": "34.100s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 557,
+  "end_index": 559,
+  "text": "et",
+  "start_offset": "34.200s",
+  "end_offset": "34.300s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 560,
+  "end_index": 564,
+  "text": "elle",
+  "start_offset": "34.300s",
+  "end_offset": "34.400s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 565,
+  "end_index": 566,
+  "text": "a",
+  "start_offset": "34.400s",
+  "end_offset": "34.400s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 567,
+  "end_index": 573,
+  "text": "déjà",
+  "start_offset": "34.400s",
+  "end_offset": "34.700s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 574,
+  "end_index": 583,
+  "text": "internet.",
+  "start_offset": "34.700s",
+  "end_offset": "35.200s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 583,
+  "end_index": 585,
+  "text": "Je",
+  "start_offset": "35.500s",
+  "end_offset": "35.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 586,
+  "end_index": 596,
+  "text": "comprends.",
+  "start_offset": "35.700s",
+  "end_offset": "36.200s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 597,
+  "end_index": 611,
+  "text": "Félicitations",
+  "start_offset": "36.200s",
+  "end_offset": "37s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 612,
+  "end_index": 616,
+  "text": "pour",
+  "start_offset": "37s",
+  "end_offset": "37.100s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 617,
+  "end_index": 622,
+  "text": "votre",
+  "start_offset": "37.100s",
+  "end_offset": "37.300s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 623,
+  "end_index": 637,
+  "text": "emménagement.",
+  "start_offset": "37.300s",
+  "end_offset": "37.800s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 638,
+  "end_index": 640,
+  "text": "Si",
+  "start_offset": "38.500s",
+  "end_offset": "38.600s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 641,
+  "end_index": 643,
+  "text": "je",
+  "start_offset": "38.600s",
+  "end_offset": "38.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 644,
+  "end_index": 653,
+  "text": "comprends",
+  "start_offset": "38.700s",
+  "end_offset": "39s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 654,
+  "end_index": 658,
+  "text": "bien",
+  "start_offset": "39s",
+  "end_offset": "39.200s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 659,
+  "end_index": 667,
+  "text": "monsieur",
+  "start_offset": "39.200s",
+  "end_offset": "39.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 668,
+  "end_index": 674,
+  "text": "Petit,",
+  "start_offset": "39.400s",
+  "end_offset": "39.800s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 675,
+  "end_index": 679,
+  "text": "vous",
+  "start_offset": "39.800s",
+  "end_offset": "40s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 680,
+  "end_index": 687,
+  "text": "quittez",
+  "start_offset": "40s",
+  "end_offset": "40.300s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 688,
+  "end_index": 693,
+  "text": "votre",
+  "start_offset": "40.300s",
+  "end_offset": "40.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 694,
+  "end_index": 702,
+  "text": "logement",
+  "start_offset": "40.500s",
+  "end_offset": "40.800s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 703,
+  "end_index": 705,
+  "text": "le",
+  "start_offset": "40.800s",
+  "end_offset": "40.900s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 706,
+  "end_index": 710,
+  "text": "mois",
+  "start_offset": "40.900s",
+  "end_offset": "41s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 711,
+  "end_index": 719,
+  "text": "prochain",
+  "start_offset": "41s",
+  "end_offset": "41.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 720,
+  "end_index": 722,
+  "text": "et",
+  "start_offset": "41.500s",
+  "end_offset": "41.600s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 723,
+  "end_index": 727,
+  "text": "vous",
+  "start_offset": "41.600s",
+  "end_offset": "41.800s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 728,
+  "end_index": 735,
+  "text": "n'aurez",
+  "start_offset": "41.800s",
+  "end_offset": "42s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 736,
+  "end_index": 740,
+  "text": "plus",
+  "start_offset": "42s",
+  "end_offset": "42.100s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 741,
+  "end_index": 747,
+  "text": "besoin",
+  "start_offset": "42.100s",
+  "end_offset": "42.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 748,
+  "end_index": 750,
+  "text": "de",
+  "start_offset": "42.400s",
+  "end_offset": "42.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 751,
+  "end_index": 756,
+  "text": "votre",
+  "start_offset": "42.400s",
+  "end_offset": "42.600s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 757,
+  "end_index": 761,
+  "text": "box.",
+  "start_offset": "42.600s",
+  "end_offset": "43s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 762,
+  "end_index": 767,
+  "text": "C'est",
+  "start_offset": "43.100s",
+  "end_offset": "43.200s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 768,
+  "end_index": 772,
+  "text": "bien",
+  "start_offset": "43.200s",
+  "end_offset": "43.300s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 773,
+  "end_index": 777,
+  "text": "ça?",
+  "start_offset": "43.300s",
+  "end_offset": "43.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 777,
+  "end_index": 781,
+  "text": "Oui,",
+  "start_offset": "43.800s",
+  "end_offset": "44s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 782,
+  "end_index": 787,
+  "text": "c'est",
+  "start_offset": "44s",
+  "end_offset": "44.100s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 788,
+  "end_index": 792,
+  "text": "ça.",
+  "start_offset": "44.100s",
+  "end_offset": "44.300s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 792,
+  "end_index": 797,
+  "text": "Avant",
+  "start_offset": "44.600s",
+  "end_offset": "44.900s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 798,
+  "end_index": 803,
+  "text": "tout,",
+  "start_offset": "44.900s",
+  "end_offset": "45.200s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 804,
+  "end_index": 811,
+  "text": "puis-je",
+  "start_offset": "45.200s",
+  "end_offset": "45.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 812,
+  "end_index": 816,
+  "text": "vous",
+  "start_offset": "45.400s",
+  "end_offset": "45.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 817,
+  "end_index": 825,
+  "text": "demander",
+  "start_offset": "45.500s",
+  "end_offset": "45.800s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 826,
+  "end_index": 830,
+  "text": "chez",
+  "start_offset": "45.800s",
+  "end_offset": "46s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 831,
+  "end_index": 835,
+  "text": "quel",
+  "start_offset": "46s",
+  "end_offset": "46.200s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 836,
+  "end_index": 846,
+  "text": "opérateur",
+  "start_offset": "46.200s",
+  "end_offset": "46.600s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 847,
+  "end_index": 850,
+  "text": "est",
+  "start_offset": "46.600s",
+  "end_offset": "46.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 851,
+  "end_index": 856,
+  "text": "votre",
+  "start_offset": "46.700s",
+  "end_offset": "46.900s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 857,
+  "end_index": 866,
+  "text": "compagne?",
+  "start_offset": "46.900s",
+  "end_offset": "47.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 867,
+  "end_index": 871,
+  "text": "Nous",
+  "start_offset": "47.600s",
+  "end_offset": "47.800s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 872,
+  "end_index": 881,
+  "text": "pourrions",
+  "start_offset": "47.800s",
+  "end_offset": "48.100s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 882,
+  "end_index": 892,
+  "text": "peut-être",
+  "start_offset": "48.100s",
+  "end_offset": "48.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 893,
+  "end_index": 904,
+  "text": "transférer",
+  "start_offset": "48.500s",
+  "end_offset": "48.900s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 905,
+  "end_index": 910,
+  "text": "votre",
+  "start_offset": "48.900s",
+  "end_offset": "49.100s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 911,
+  "end_index": 914,
+  "text": "box",
+  "start_offset": "49.100s",
+  "end_offset": "49.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 915,
+  "end_index": 917,
+  "text": "à",
+  "start_offset": "49.400s",
+  "end_offset": "49.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 918,
+  "end_index": 923,
+  "text": "votre",
+  "start_offset": "49.400s",
+  "end_offset": "49.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 924,
+  "end_index": 932,
+  "text": "nouvelle",
+  "start_offset": "49.700s",
+  "end_offset": "50s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 933,
+  "end_index": 940,
+  "text": "adresse",
+  "start_offset": "50s",
+  "end_offset": "50.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 941,
+  "end_index": 945,
+  "text": "avec",
+  "start_offset": "50.400s",
+  "end_offset": "50.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 946,
+  "end_index": 948,
+  "text": "un",
+  "start_offset": "50.700s",
+  "end_offset": "50.800s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 949,
+  "end_index": 955,
+  "text": "débit",
+  "start_offset": "50.800s",
+  "end_offset": "51s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 956,
+  "end_index": 960,
+  "text": "plus",
+  "start_offset": "51s",
+  "end_offset": "51.100s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 961,
+  "end_index": 968,
+  "text": "rapide.",
+  "start_offset": "51.100s",
+  "end_offset": "51.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 968,
+  "end_index": 971,
+  "text": "Non",
+  "start_offset": "51.800s",
+  "end_offset": "51.900s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 972,
+  "end_index": 978,
+  "text": "merci,",
+  "start_offset": "51.900s",
+  "end_offset": "52.400s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 979,
+  "end_index": 983,
+  "text": "elle",
+  "start_offset": "52.400s",
+  "end_offset": "52.600s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 984,
+  "end_index": 987,
+  "text": "est",
+  "start_offset": "52.600s",
+  "end_offset": "52.600s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 988,
+  "end_index": 993,
+  "text": "très",
+  "start_offset": "52.600s",
+  "end_offset": "52.800s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 994,
+  "end_index": 1002,
+  "text": "contente",
+  "start_offset": "52.800s",
+  "end_offset": "53.100s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1003,
+  "end_index": 1005,
+  "text": "de",
+  "start_offset": "53.100s",
+  "end_offset": "53.200s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1006,
+  "end_index": 1009,
+  "text": "son",
+  "start_offset": "53.200s",
+  "end_offset": "53.400s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1010,
+  "end_index": 1021,
+  "text": "abonnement.",
+  "start_offset": "53.400s",
+  "end_offset": "53.900s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1022,
+  "end_index": 1024,
+  "text": "Je",
+  "start_offset": "54s",
+  "end_offset": "54.200s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1025,
+  "end_index": 1029,
+  "text": "veux",
+  "start_offset": "54.200s",
+  "end_offset": "54.300s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1030,
+  "end_index": 1035,
+  "text": "juste",
+  "start_offset": "54.300s",
+  "end_offset": "54.600s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1036,
+  "end_index": 1046,
+  "text": "résilier.",
+  "start_offset": "54.600s",
+  "end_offset": "55s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1046,
+  "end_index": 1051,
+  "text": "Très",
+  "start_offset": "55.600s",
+  "end_offset": "55.800s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1052,
+  "end_index": 1057,
+  "text": "bien,",
+  "start_offset": "55.800s",
+  "end_offset": "56.300s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1058,
+  "end_index": 1060,
+  "text": "je",
+  "start_offset": "56.300s",
+  "end_offset": "56.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1061,
+  "end_index": 1071,
+  "text": "comprends.",
+  "start_offset": "56.500s",
+  "end_offset": "56.900s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1072,
+  "end_index": 1078,
+  "text": "Alors,",
+  "start_offset": "57.600s",
+  "end_offset": "58s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1079,
+  "end_index": 1083,
+  "text": "pour",
+  "start_offset": "58.200s",
+  "end_offset": "58.300s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1084,
+  "end_index": 1087,
+  "text": "une",
+  "start_offset": "58.300s",
+  "end_offset": "58.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1088,
+  "end_index": 1101,
+  "text": "résiliation,",
+  "start_offset": "58.400s",
+  "end_offset": "59.200s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1102,
+  "end_index": 1104,
+  "text": "le",
+  "start_offset": "59.200s",
+  "end_offset": "59.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1105,
+  "end_index": 1112,
+  "text": "service",
+  "start_offset": "59.400s",
+  "end_offset": "59.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1113,
+  "end_index": 1122,
+  "text": "concerné",
+  "start_offset": "59.700s",
+  "end_offset": "60.100s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1123,
+  "end_index": 1128,
+  "text": "n'est",
+  "start_offset": "60.100s",
+  "end_offset": "60.300s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1129,
+  "end_index": 1132,
+  "text": "pas",
+  "start_offset": "60.300s",
+  "end_offset": "60.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1133,
+  "end_index": 1143,
+  "text": "disponible",
+  "start_offset": "60.400s",
+  "end_offset": "60.900s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1144,
+  "end_index": 1156,
+  "text": "aujourd'hui.",
+  "start_offset": "60.900s",
+  "end_offset": "61.300s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1156,
+  "end_index": 1158,
+  "text": "Ah",
+  "start_offset": "61.600s",
+  "end_offset": "61.700s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1159,
+  "end_index": 1163,
+  "text": "bon?",
+  "start_offset": "61.700s",
+  "end_offset": "62s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1163,
+  "end_index": 1165,
+  "text": "Le",
+  "start_offset": "62.300s",
+  "end_offset": "62.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1166,
+  "end_index": 1170,
+  "text": "plus",
+  "start_offset": "62.500s",
+  "end_offset": "62.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1171,
+  "end_index": 1177,
+  "text": "simple",
+  "start_offset": "62.700s",
+  "end_offset": "63s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1178,
+  "end_index": 1183,
+  "text": "c'est",
+  "start_offset": "63s",
+  "end_offset": "63.100s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1184,
+  "end_index": 1186,
+  "text": "de",
+  "start_offset": "63.100s",
+  "end_offset": "63.200s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1187,
+  "end_index": 1191,
+  "text": "nous",
+  "start_offset": "63.200s",
+  "end_offset": "63.300s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1192,
+  "end_index": 1200,
+  "text": "rappeler",
+  "start_offset": "63.300s",
+  "end_offset": "63.600s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1201,
+  "end_index": 1203,
+  "text": "la",
+  "start_offset": "63.600s",
+  "end_offset": "63.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1204,
+  "end_index": 1211,
+  "text": "semaine",
+  "start_offset": "63.700s",
+  "end_offset": "63.900s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1212,
+  "end_index": 1222,
+  "text": "prochaine.",
+  "start_offset": "63.900s",
+  "end_offset": "64.300s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1222,
+  "end_index": 1224,
+  "text": "La",
+  "start_offset": "64.600s",
+  "end_offset": "64.700s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1225,
+  "end_index": 1232,
+  "text": "semaine",
+  "start_offset": "64.700s",
+  "end_offset": "64.900s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1233,
+  "end_index": 1243,
+  "text": "prochaine?",
+  "start_offset": "64.900s",
+  "end_offset": "65.400s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1244,
+  "end_index": 1248,
+  "text": "Mais",
+  "start_offset": "65.700s",
+  "end_offset": "65.800s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1249,
+  "end_index": 1251,
+  "text": "je",
+  "start_offset": "65.800s",
+  "end_offset": "65.900s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1252,
+  "end_index": 1256,
+  "text": "vous",
+  "start_offset": "65.900s",
+  "end_offset": "66.100s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1257,
+  "end_index": 1264,
+  "text": "appelle",
+  "start_offset": "66.100s",
+  "end_offset": "66.400s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1265,
+  "end_index": 1276,
+  "text": "maintenant,",
+  "start_offset": "66.400s",
+  "end_offset": "66.800s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1277,
+  "end_index": 1281,
+  "text": "vous",
+  "start_offset": "66.800s",
+  "end_offset": "66.900s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1282,
+  "end_index": 1284,
+  "text": "ne",
+  "start_offset": "66.900s",
+  "end_offset": "67s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1285,
+  "end_index": 1291,
+  "text": "pouvez",
+  "start_offset": "67s",
+  "end_offset": "67.200s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1292,
+  "end_index": 1295,
+  "text": "pas",
+  "start_offset": "67.200s",
+  "end_offset": "67.300s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1296,
+  "end_index": 1298,
+  "text": "le",
+  "start_offset": "67.300s",
+  "end_offset": "67.300s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1299,
+  "end_index": 1305,
+  "text": "faire?",
+  "start_offset": "67.300s",
+  "end_offset": "67.600s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1305,
+  "end_index": 1320,
+  "text": "Malheureusement",
+  "start_offset": "68s",
+  "end_offset": "68.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1321,
+  "end_index": 1325,
+  "text": "non,",
+  "start_offset": "68.500s",
+  "end_offset": "68.800s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1326,
+  "end_index": 1328,
+  "text": "ce",
+  "start_offset": "68.800s",
+  "end_offset": "68.900s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1329,
+  "end_index": 1334,
+  "text": "n'est",
+  "start_offset": "68.900s",
+  "end_offset": "69s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1335,
+  "end_index": 1338,
+  "text": "pas",
+  "start_offset": "69s",
+  "end_offset": "69.100s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1339,
+  "end_index": 1342,
+  "text": "moi",
+  "start_offset": "69.100s",
+  "end_offset": "69.300s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1343,
+  "end_index": 1346,
+  "text": "qui",
+  "start_offset": "69.300s",
+  "end_offset": "69.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1347,
+  "end_index": 1352,
+  "text": "gère",
+  "start_offset": "69.400s",
+  "end_offset": "69.600s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1353,
+  "end_index": 1356,
+  "text": "les",
+  "start_offset": "69.600s",
+  "end_offset": "69.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1357,
+  "end_index": 1371,
+  "text": "résiliations.",
+  "start_offset": "69.700s",
+  "end_offset": "70.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1372,
+  "end_index": 1374,
+  "text": "Et",
+  "start_offset": "70.900s",
+  "end_offset": "71s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1375,
+  "end_index": 1379,
+  "text": "puis",
+  "start_offset": "71s",
+  "end_offset": "71.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1380,
+  "end_index": 1383,
+  "text": "ça",
+  "start_offset": "71.400s",
+  "end_offset": "71.600s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1384,
+  "end_index": 1388,
+  "text": "vous",
+  "start_offset": "71.600s",
+  "end_offset": "71.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1389,
+  "end_index": 1395,
+  "text": "laisse",
+  "start_offset": "71.700s",
+  "end_offset": "71.800s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1396,
+  "end_index": 1404,
+  "text": "quelques",
+  "start_offset": "71.800s",
+  "end_offset": "72.100s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1405,
+  "end_index": 1410,
+  "text": "jours",
+  "start_offset": "72.100s",
+  "end_offset": "72.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1411,
+  "end_index": 1415,
+  "text": "pour",
+  "start_offset": "72.400s",
+  "end_offset": "72.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1416,
+  "end_index": 1417,
+  "text": "y",
+  "start_offset": "72.500s",
+  "end_offset": "72.600s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1418,
+  "end_index": 1429,
+  "text": "réfléchir",
+  "start_offset": "72.600s",
+  "end_offset": "73.100s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1430,
+  "end_index": 1432,
+  "text": "au",
+  "start_offset": "73.100s",
+  "end_offset": "73.200s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1433,
+  "end_index": 1436,
+  "text": "cas",
+  "start_offset": "73.200s",
+  "end_offset": "73.300s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1437,
+  "end_index": 1440,
+  "text": "où",
+  "start_offset": "73.300s",
+  "end_offset": "73.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1441,
+  "end_index": 1445,
+  "text": "vous",
+  "start_offset": "73.400s",
+  "end_offset": "73.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1446,
+  "end_index": 1456,
+  "text": "changeriez",
+  "start_offset": "73.500s",
+  "end_offset": "74s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1457,
+  "end_index": 1464,
+  "text": "d'avis.",
+  "start_offset": "74s",
+  "end_offset": "74.200s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1464,
+  "end_index": 1466,
+  "text": "Je",
+  "start_offset": "74.600s",
+  "end_offset": "74.700s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1467,
+  "end_index": 1469,
+  "text": "ne",
+  "start_offset": "74.700s",
+  "end_offset": "74.800s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1470,
+  "end_index": 1474,
+  "text": "vais",
+  "start_offset": "74.800s",
+  "end_offset": "74.900s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1475,
+  "end_index": 1478,
+  "text": "pas",
+  "start_offset": "74.900s",
+  "end_offset": "75s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1479,
+  "end_index": 1486,
+  "text": "changer",
+  "start_offset": "75s",
+  "end_offset": "75.300s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1487,
+  "end_index": 1494,
+  "text": "d'avis.",
+  "start_offset": "75.300s",
+  "end_offset": "75.600s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1494,
+  "end_index": 1498,
+  "text": "Bon,",
+  "start_offset": "76.200s",
+  "end_offset": "76.400s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1499,
+  "end_index": 1508,
+  "text": "d'accord,",
+  "start_offset": "76.400s",
+  "end_offset": "76.900s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1509,
+  "end_index": 1511,
+  "text": "je",
+  "start_offset": "76.900s",
+  "end_offset": "77s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1512,
+  "end_index": 1524,
+  "text": "rappellerai.",
+  "start_offset": "77s",
+  "end_offset": "77.500s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1524,
+  "end_index": 1532,
+  "text": "Parfait.",
+  "start_offset": "77.800s",
+  "end_offset": "78.300s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1533,
+  "end_index": 1537,
+  "text": "Pour",
+  "start_offset": "78.500s",
+  "end_offset": "78.700s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1538,
+  "end_index": 1551,
+  "text": "récapituler,",
+  "start_offset": "78.700s",
+  "end_offset": "79.400s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1552,
+  "end_index": 1556,
+  "text": "vous",
+  "start_offset": "79.600s",
+  "end_offset": "79.700s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1557,
+  "end_index": 1561,
+  "text": "nous",
+  "start_offset": "79.700s",
+  "end_offset": "79.800s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1562,
+  "end_index": 1570,
+  "text": "rappelez",
+  "start_offset": "79.800s",
+  "end_offset": "80.100s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1571,
+  "end_index": 1573,
+  "text": "la",
+  "start_offset": "80.100s",
+  "end_offset": "80.200s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1574,
+  "end_index": 1581,
+  "text": "semaine",
+  "start_offset": "80.200s",
+  "end_offset": "80.400s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1582,
+  "end_index": 1591,
+  "text": "prochaine",
+  "start_offset": "80.400s",
+  "end_offset": "80.700s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1592,
+  "end_index": 1596,
+  "text": "pour",
+  "start_offset": "80.700s",
+  "end_offset": "80.800s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1597,
+  "end_index": 1599,
+  "text": "la",
+  "start_offset": "80.800s",
+  "end_offset": "80.900s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1600,
+  "end_index": 1613,
+  "text": "résiliation.",
+  "start_offset": "80.900s",
+  "end_offset": "81.600s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1614,
+  "end_index": 1623,
+  "text": "Avez-vous",
+  "start_offset": "81.800s",
+  "end_offset": "82.100s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1624,
+  "end_index": 1632,
+  "text": "d'autres",
+  "start_offset": "82.100s",
+  "end_offset": "82.300s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1633,
+  "end_index": 1642,
+  "text": "questions",
+  "start_offset": "82.300s",
+  "end_offset": "82.700s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1643,
+  "end_index": 1651,
+  "text": "monsieur",
+  "start_offset": "82.700s",
+  "end_offset": "82.900s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1652,
+  "end_index": 1658,
+  "text": "Petit?",
+  "start_offset": "82.900s",
+  "end_offset": "83.100s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1658,
+  "end_index": 1662,
+  "text": "Non.",
+  "start_offset": "83.500s",
+  "end_offset": "83.700s",
+  "speaker": "spk:0",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1662,
+  "end_index": 1667,
+  "text": "Merci",
+  "start_offset": "84.100s",
+  "end_offset": "84.400s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1668,
+  "end_index": 1672,
+  "text": "pour",
+  "start_offset": "84.400s",
+  "end_offset": "84.500s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1673,
+  "end_index": 1678,
+  "text": "votre",
+  "start_offset": "84.500s",
+  "end_offset": "84.700s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1679,
+  "end_index": 1684,
+  "text": "appel",
+  "start_offset": "84.700s",
+  "end_offset": "84.900s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1685,
+  "end_index": 1693,
+  "text": "monsieur",
+  "start_offset": "84.900s",
+  "end_offset": "85.200s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1694,
+  "end_index": 1699,
+  "text": "Petit",
+  "start_offset": "85.200s",
+  "end_offset": "85.500s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1700,
+  "end_index": 1702,
+  "text": "et",
+  "start_offset": "85.600s",
+  "end_offset": "85.700s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1703,
+  "end_index": 1709,
+  "text": "encore",
+  "start_offset": "85.700s",
+  "end_offset": "86s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1710,
+  "end_index": 1724,
+  "text": "félicitations",
+  "start_offset": "86s",
+  "end_offset": "86.600s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1725,
+  "end_index": 1729,
+  "text": "pour",
+  "start_offset": "86.600s",
+  "end_offset": "86.700s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1730,
+  "end_index": 1735,
+  "text": "votre",
+  "start_offset": "86.700s",
+  "end_offset": "87s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1736,
+  "end_index": 1750,
+  "text": "emménagement.",
+  "start_offset": "87s",
+  "end_offset": "87.500s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1751,
+  "end_index": 1756,
+  "text": "Très",
+  "start_offset": "87.600s",
+  "end_offset": "87.800s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1757,
+  "end_index": 1762,
+  "text": "bonne",
+  "start_offset": "87.800s",
+  "end_offset": "88s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1763,
+  "end_index": 1772,
+  "text": "journée.",
+  "start_offset": "88s",
+  "end_offset": "88.300s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1773,
+  "end_index": 1775,
+  "text": "Au",
+  "start_offset": "88.400s",
+  "end_offset": "88.400s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ },
+ {
+  "start_index": 1776,
+  "end_index": 1783,
+  "text": "revoir.",
+  "start_offset": "88.400s",
+  "end_offset": "88.700s",
+  "speaker": "spk:1",
+  "type": "word_info"
+ }
+]

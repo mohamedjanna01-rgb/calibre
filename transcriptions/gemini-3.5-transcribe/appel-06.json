@@ -1,0 +1,214 @@
+{
+  "appel": "06",
+  "methode": "gemini-3.5-transcribe",
+  "date": "2026-10-05T00:25:18",
+  "duree_audio_s": 122.8,
+  "usage": {
+    "total_tokens": 3071,
+    "total_input_tokens": 3071,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 1
+      },
+      {
+        "modality": "audio",
+        "tokens": 3070
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "raw_prompt_token": 3610,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 540
+          },
+          {
+            "modality": "audio",
+            "tokens": 3070
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 432
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 540
+          },
+          {
+            "modality": "audio",
+            "tokens": 3070
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 432
+          }
+        ]
+      }
+    ]
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "conseiller",
+      "debut": 0.2,
+      "fin": 1.6,
+      "texte": "Gallio Telecom, bonjour."
+    },
+    {
+      "n": 2,
+      "locuteur": "client",
+      "debut": 2.5,
+      "fin": 3.0,
+      "texte": "Bonjour."
+    },
+    {
+      "n": 3,
+      "locuteur": "conseiller",
+      "debut": 4.4,
+      "fin": 7.0,
+      "texte": "Je m'appelle Medi Alaoui, je suis votre conseiller clientèle"
+    },
+    {
+      "n": 4,
+      "locuteur": "client",
+      "debut": 6.5,
+      "fin": 17.2,
+      "texte": "Sandrine Benoit."
+    },
+    {
+      "n": 5,
+      "locuteur": "conseiller",
+      "debut": 7.0,
+      "fin": 25.6,
+      "texte": "et je will prendre en charge Merci votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom? madame Benoit. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance?"
+    },
+    {
+      "n": 6,
+      "locuteur": "client",
+      "debut": 31.4,
+      "fin": 34.7,
+      "texte": "33000 le 9 septembre 1975."
+    },
+    {
+      "n": 7,
+      "locuteur": "conseiller",
+      "debut": 35.6,
+      "fin": 38.2,
+      "texte": "Merci. Que puis-je faire pour vous?"
+    },
+    {
+      "n": 8,
+      "locuteur": "client",
+      "debut": 39.1,
+      "fin": 43.2,
+      "texte": "Je souhaite résilier ma ligne mobile. J'ai trouvé un forfait moins cher chez un autre opérateur."
+    },
+    {
+      "n": 9,
+      "locuteur": "conseiller",
+      "debut": 44.2,
+      "fin": 48.7,
+      "texte": "Je comprends madame Benoit. Puis-je vous demander quel forfait vous avez trouvé?"
+    },
+    {
+      "n": 10,
+      "locuteur": "client",
+      "debut": 49.5,
+      "fin": 51.3,
+      "texte": "100 Go pour 10 € par mois."
+    },
+    {
+      "n": 11,
+      "locuteur": "conseiller",
+      "debut": 52.2,
+      "fin": 63.3,
+      "texte": "D'accord. Un instant s'il vous plaît. De mon côté, je vois que vous payez votre smartphone en 24 mensualités et qu'il vous en reste 14."
+    },
+    {
+      "n": 12,
+      "locuteur": "client",
+      "debut": 64.0,
+      "fin": 65.1,
+      "texte": "Oui, et alors?"
+    },
+    {
+      "n": 13,
+      "locuteur": "conseiller",
+      "debut": 65.8,
+      "fin": 73.4,
+      "texte": "Alors, malheureusement vous ne pouvez pas résilier votre ligne tant que votre téléphone n'est pas entièrement payé. Il faudra attendre la fin du financement."
+    },
+    {
+      "n": 14,
+      "locuteur": "client",
+      "debut": 74.2,
+      "fin": 79.0,
+      "texte": "Comment ça? On ne m'a jamais dit ça. Mon forfait est sans engagement."
+    },
+    {
+      "n": 15,
+      "locuteur": "conseiller",
+      "debut": 79.7,
+      "fin": 85.5,
+      "texte": "Le forfait oui, mais le téléphone vous engage. Je ne peux pas enregistrer votre résiliation aujourd'hui, ce n'est pas possible."
+    },
+    {
+      "n": 16,
+      "locuteur": "client",
+      "debut": 87.3,
+      "fin": 90.3,
+      "texte": "C'est n'importe quoi. Je veux parler à un responsable."
+    },
+    {
+      "n": 17,
+      "locuteur": "conseiller",
+      "debut": 91.0,
+      "fin": 105.1,
+      "texte": "Mon responsable vous dira la même chose madame Benoit. Ouais. Je vois que vous avez aussi notre box évolution. Pour vous remercier de votre fidélité, je vous active le pack Horizon. 35 chaînes de films et de séries et le premier mois est offert."
+    },
+    {
+      "n": 18,
+      "locuteur": "client",
+      "debut": 106.8,
+      "fin": 108.3,
+      "texte": "Je ne sais pas, ce n'est pas ce que je demandais."
+    },
+    {
+      "n": 19,
+      "locuteur": "conseiller",
+      "debut": 109.0,
+      "fin": 113.1,
+      "texte": "Vous verrez, ça vous plaira. Voilà. C'est activé. Vous l'avez dès ce soir."
+    },
+    {
+      "n": 20,
+      "locuteur": "client",
+      "debut": 114.0,
+      "fin": 117.6,
+      "texte": "Je bon je vais me renseigner ailleurs pour ma ligne."
+    },
+    {
+      "n": 21,
+      "locuteur": "conseiller",
+      "debut": 118.2,
+      "fin": 122.4,
+      "texte": "Très bien. Bon. Merci pour votre appel madame Benoit. Bonne journée."
+    }
+  ]
+}

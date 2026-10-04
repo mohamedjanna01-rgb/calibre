@@ -1,0 +1,214 @@
+{
+  "appel": "11",
+  "methode": "gemini-3.5-transcribe",
+  "date": "2026-10-05T00:33:05",
+  "duree_audio_s": 97.1,
+  "usage": {
+    "total_tokens": 2429,
+    "total_input_tokens": 2429,
+    "input_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 2428
+      },
+      {
+        "modality": "text",
+        "tokens": 1
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "raw_prompt_token": 2868,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 440
+          },
+          {
+            "modality": "audio",
+            "tokens": 2428
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 453
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 440
+          },
+          {
+            "modality": "audio",
+            "tokens": 2428
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 453
+          }
+        ]
+      }
+    ]
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "conseiller",
+      "debut": 0.1,
+      "fin": 2.2,
+      "texte": "Allô. Bonjour monsieur Gérard."
+    },
+    {
+      "n": 2,
+      "locuteur": "client",
+      "debut": 2.9,
+      "fin": 3.8,
+      "texte": "Oui, c'est qui?"
+    },
+    {
+      "n": 3,
+      "locuteur": "conseiller",
+      "debut": 4.4,
+      "fin": 7.8,
+      "texte": "Hamza Benjelloun, conseiller chez Callio Telecom, votre opérateur."
+    },
+    {
+      "n": 4,
+      "locuteur": "client",
+      "debut": 8.4,
+      "fin": 9.0,
+      "texte": "Ah, bonjour."
+    },
+    {
+      "n": 5,
+      "locuteur": "conseiller",
+      "debut": 9.7,
+      "fin": 19.6,
+      "texte": "C'est moi qui m'occupe de votre contrat box internet et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants?"
+    },
+    {
+      "n": 6,
+      "locuteur": "client",
+      "debut": 20.2,
+      "fin": 20.9,
+      "texte": "Oui, allez-y."
+    },
+    {
+      "n": 7,
+      "locuteur": "conseiller",
+      "debut": 21.3,
+      "fin": 27.5,
+      "texte": "Merci. Pour sécuriser notre échange, pouvez-vous me confirmer votre nom et prénom, votre code postal et votre date de naissance?"
+    },
+    {
+      "n": 8,
+      "locuteur": "client",
+      "debut": 28.1,
+      "fin": 32.1,
+      "texte": "Gérard Laurent, 7511 le 4 décembre 1977."
+    },
+    {
+      "n": 9,
+      "locuteur": "conseiller",
+      "debut": 32.7,
+      "fin": 36.6,
+      "texte": "Merci monsieur Gérard. Avant tout, tout fonctionne bien avec votre box et votre télévision?"
+    },
+    {
+      "n": 10,
+      "locuteur": "client",
+      "debut": 37.1,
+      "fin": 40.2,
+      "texte": "Bof, ces derniers soir internet a coupé deux ou trois fois."
+    },
+    {
+      "n": 11,
+      "locuteur": "conseiller",
+      "debut": 40.7,
+      "fin": 46.4,
+      "texte": "Ah, ça arrive parfois le soir, il y a beaucoup de monde connecté. Ça devrait se régler. Dites-moi, qui regarde la télévision chez vous?"
+    },
+    {
+      "n": 12,
+      "locuteur": "client",
+      "debut": 47.0,
+      "fin": 49.1,
+      "texte": "Ma femme et moi, on aime bien les séries policières."
+    },
+    {
+      "n": 13,
+      "locuteur": "conseiller",
+      "debut": 49.7,
+      "fin": 66.4,
+      "texte": "Et vous regardez plutôt en direct ou vous ratez souvent des épisodes? On aura pas mal ou rentre tard. Alors j'ai exactement ce qu'il vous faut, le pack Horizon, la chaîne Horizon Polar, Horizon Series, plus de 2000 films et séries à la demande et surtout un replay de 7 jours. Vous regardez vos épisodes quand vous rentrez."
+    },
+    {
+      "n": 14,
+      "locuteur": "client",
+      "debut": 66.9,
+      "fin": 67.2,
+      "texte": "Ouais."
+    },
+    {
+      "n": 15,
+      "locuteur": "conseiller",
+      "debut": 67.8,
+      "fin": 71.3,
+      "texte": "Le premier mois est offert puis c'est 12,99 par mois sans engagement."
+    },
+    {
+      "n": 16,
+      "locuteur": "client",
+      "debut": 71.8,
+      "fin": 74.6,
+      "texte": "Franchement, réglez déjà mon internet avant de me proposer des chaînes en plus."
+    },
+    {
+      "n": 17,
+      "locuteur": "conseiller",
+      "debut": 75.1,
+      "fin": 80.6,
+      "texte": "Je comprends mais avec le premier mois offert, vous ne prenez aucun risque et vous pourrez en profiter dès que tout sera rentré dans l'ordre."
+    },
+    {
+      "n": 18,
+      "locuteur": "client",
+      "debut": 81.2,
+      "fin": 83.0,
+      "texte": "Non merci, pas tant que ma connexion coupe."
+    },
+    {
+      "n": 19,
+      "locuteur": "conseiller",
+      "debut": 83.6,
+      "fin": 93.0,
+      "texte": "Très bien, je respecte votre choix monsieur Gérard et je suis désolé de ne pas avoir pu vous aider davantage aujourd'hui. Pour vos coupures, je vous conseille d'appeler le service client, ils pourront regarder ça. Avez-vous d'autres questions?"
+    },
+    {
+      "n": 20,
+      "locuteur": "client",
+      "debut": 93.6,
+      "fin": 93.8,
+      "texte": "Non."
+    },
+    {
+      "n": 21,
+      "locuteur": "conseiller",
+      "debut": 94.3,
+      "fin": 96.8,
+      "texte": "Merci pour votre temps monsieur Gérard, très bonne soirée, au revoir."
+    }
+  ]
+}

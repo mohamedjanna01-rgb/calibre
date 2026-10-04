@@ -1,0 +1,200 @@
+{
+  "appel": "04",
+  "methode": "gemini-3.5-transcribe",
+  "date": "2026-10-05T00:21:38",
+  "duree_audio_s": 54.8,
+  "usage": {
+    "total_tokens": 1372,
+    "total_input_tokens": 1372,
+    "input_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 1371
+      },
+      {
+        "modality": "text",
+        "tokens": 1
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "raw_prompt_token": 1639,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 268
+          },
+          {
+            "modality": "audio",
+            "tokens": 1371
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 240
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 268
+          },
+          {
+            "modality": "audio",
+            "tokens": 1371
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 240
+          }
+        ]
+      }
+    ]
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "conseiller",
+      "debut": 0.3,
+      "fin": 1.4,
+      "texte": "Canal+ Télécom, bonjour."
+    },
+    {
+      "n": 2,
+      "locuteur": "client",
+      "debut": 2.0,
+      "fin": 2.4,
+      "texte": "Bonjour."
+    },
+    {
+      "n": 3,
+      "locuteur": "conseiller",
+      "debut": 3.1,
+      "fin": 4.0,
+      "texte": "Votre numéro de ligne?"
+    },
+    {
+      "n": 4,
+      "locuteur": "client",
+      "debut": 4.6,
+      "fin": 4.9,
+      "texte": "Euh,"
+    },
+    {
+      "n": 5,
+      "locuteur": "conseiller",
+      "debut": 9.5,
+      "fin": 11.6,
+      "texte": "Non, code postal, date de naissance."
+    },
+    {
+      "n": 6,
+      "locuteur": "client",
+      "debut": 12.1,
+      "fin": 15.9,
+      "texte": "Nathalie Roux, 13008 le 21 avril 1968."
+    },
+    {
+      "n": 7,
+      "locuteur": "conseiller",
+      "debut": 16.5,
+      "fin": 17.5,
+      "texte": "C'est bon, c'est pour quoi?"
+    },
+    {
+      "n": 8,
+      "locuteur": "client",
+      "debut": 18.0,
+      "fin": 27.8,
+      "texte": "Ma télévision ne marche plus depuis ce matin. Il est écrit aucun signal sur l'écran. J'ai essayé d'éteindre et de rallumer la télé mais ça ne change rien. Mon mari regarde le match ce soir alors."
+    },
+    {
+      "n": 9,
+      "locuteur": "conseiller",
+      "debut": 28.4,
+      "fin": 34.6,
+      "texte": "Ok, c'est sûrement votre décodeur qui a perdu la synchro avec la box. Faites un reset usine du décodeur, ça devrait régler le problème."
+    },
+    {
+      "n": 10,
+      "locuteur": "client",
+      "debut": 35.1,
+      "fin": 37.6,
+      "texte": "Un reset usine? Je ne sais pas faire ça."
+    },
+    {
+      "n": 11,
+      "locuteur": "conseiller",
+      "debut": 38.1,
+      "fin": 41.6,
+      "texte": "Il y a un bouton derrière le décodeur. Vous appuyez dessus avec un trombone pendant 10 secondes."
+    },
+    {
+      "n": 12,
+      "locuteur": "client",
+      "debut": 42.1,
+      "fin": 42.7,
+      "texte": "D'accord."
+    },
+    {
+      "n": 13,
+      "locuteur": "conseiller",
+      "debut": 43.1,
+      "fin": 44.3,
+      "texte": "Normalement ça devrait marcher."
+    },
+    {
+      "n": 14,
+      "locuteur": "client",
+      "debut": 44.8,
+      "fin": 45.8,
+      "texte": "Et si ça ne marche pas?"
+    },
+    {
+      "n": 15,
+      "locuteur": "conseiller",
+      "debut": 46.2,
+      "fin": 47.8,
+      "texte": "Si ça ne marche pas, vous rappelez le service client."
+    },
+    {
+      "n": 16,
+      "locuteur": "client",
+      "debut": 48.3,
+      "fin": 50.0,
+      "texte": "Vous ne pouvez pas vérifier de votre côté?"
+    },
+    {
+      "n": 17,
+      "locuteur": "conseiller",
+      "debut": 50.4,
+      "fin": 52.0,
+      "texte": "Faites d'abord le reset. Autre chose?"
+    },
+    {
+      "n": 18,
+      "locuteur": "client",
+      "debut": 52.4,
+      "fin": 53.8,
+      "texte": "Non, bon je vais essayer."
+    },
+    {
+      "n": 19,
+      "locuteur": "conseiller",
+      "debut": 54.2,
+      "fin": 54.6,
+      "texte": "Au revoir."
+    }
+  ]
+}

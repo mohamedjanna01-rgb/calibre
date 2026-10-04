@@ -1,0 +1,228 @@
+{
+  "appel": "12",
+  "methode": "gemini-3.5-transcribe",
+  "date": "2026-10-05T00:35:05",
+  "duree_audio_s": 202.6,
+  "usage": {
+    "total_tokens": 5067,
+    "total_input_tokens": 5067,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 1
+      },
+      {
+        "modality": "audio",
+        "tokens": 5066
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "raw_prompt_token": 5926,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 860
+          },
+          {
+            "modality": "audio",
+            "tokens": 5066
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 643
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 860
+          },
+          {
+            "modality": "audio",
+            "tokens": 5066
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 643
+          }
+        ]
+      }
+    ]
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "client",
+      "debut": 0.2,
+      "fin": 0.7,
+      "texte": "Allô."
+    },
+    {
+      "n": 2,
+      "locuteur": "conseiller",
+      "debut": 1.9,
+      "fin": 3.2,
+      "texte": "Bonjour, madame Chevalier."
+    },
+    {
+      "n": 3,
+      "locuteur": "client",
+      "debut": 4.3,
+      "fin": 5.1,
+      "texte": "Oui, c'est qui?"
+    },
+    {
+      "n": 4,
+      "locuteur": "conseiller",
+      "debut": 6.1,
+      "fin": 14.5,
+      "texte": "Salma Idrissi, conseillère chez Calio Telecom, votre opérateur. C'est moi qui m'occupe de votre contrat box internet et je vous contacte pour faire un point rapide sur votre abonnement."
+    },
+    {
+      "n": 5,
+      "locuteur": "client",
+      "debut": 15.1,
+      "fin": 15.8,
+      "texte": "Bonjour madame."
+    },
+    {
+      "n": 6,
+      "locuteur": "conseiller",
+      "debut": 17.0,
+      "fin": 23.5,
+      "texte": "Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants?"
+    },
+    {
+      "n": 7,
+      "locuteur": "client",
+      "debut": 24.6,
+      "fin": 26.1,
+      "texte": "Oui, je vous écoute."
+    },
+    {
+      "n": 8,
+      "locuteur": "conseiller",
+      "debut": 27.1,
+      "fin": 32.5,
+      "texte": "Merci. Hum, avant tout, tout fonctionne bien avec votre box et votre télévision?"
+    },
+    {
+      "n": 9,
+      "locuteur": "client",
+      "debut": 33.5,
+      "fin": 34.4,
+      "texte": "Oui, tout va bien."
+    },
+    {
+      "n": 10,
+      "locuteur": "conseiller",
+      "debut": 35.1,
+      "fin": 74.0,
+      "texte": "Parfait. Pour sécuriser notre échange, pouvez-vous me confirmer votre nom et prénom, votre code postal et votre date de naissance? Chevalier Monique, 37000 le 19 août 1962. Merci madame Chevalier. Qu'aimez-vous regarder à la télévision? Les émissions de cuisine et les documentaires sur les voyages. Mon mari et moi on voyage beaucoup depuis la retraite. Quelle belle passion. Vous arrive-t-il de rater des émissions pendant vos voyages? Oui, tout le temps."
+    },
+    {
+      "n": 11,
+      "locuteur": "client",
+      "debut": 75.7,
+      "fin": 98.9,
+      "texte": "Alors le pack Horizon devrait vous plaire. Vous auriez Horizon cuisine, Horizon voyage et Horizon découverte. Le replay de 7 jours pour rattraper ce que vous avez manqué et l'application Calio TV pour regarder sur votre tablette même en vacances. Hum. Le 1er mois est offert puis c'est 12,99 € par mois sans engagement."
+    },
+    {
+      "n": 12,
+      "locuteur": "conseiller",
+      "debut": 100.6,
+      "fin": 106.3,
+      "texte": "C'est intéressant mais 12,99 € avec notre retraite c'est un peu cher."
+    },
+    {
+      "n": 13,
+      "locuteur": "client",
+      "debut": 107.0,
+      "fin": 118.3,
+      "texte": "Je comprends. Écoutez, pour vous je peux faire un geste. Je vous bloque le prix à 6,99 € par mois pendant 1 an. Mais je dois vous prévenir, cette remise est valable qu'aujourd'hui."
+    },
+    {
+      "n": 14,
+      "locuteur": "conseiller",
+      "debut": 119.2,
+      "fin": 122.1,
+      "texte": "Ah, 6,99 € oui là ça change tout."
+    },
+    {
+      "n": 15,
+      "locuteur": "client",
+      "debut": 122.8,
+      "fin": 142.8,
+      "texte": "Je vous fais le récapitulatif madame Chevalier. Le pack Horizon, 1er mois offert puis 6,99 € par mois pendant 1 an sans engagement, droit de rétractation de 14 jours, activation en 2 heures maximum. Confirmez-vous souscrire au pack Horizon à ces conditions?"
+    },
+    {
+      "n": 16,
+      "locuteur": "conseiller",
+      "debut": 143.6,
+      "fin": 144.7,
+      "texte": "Oui, je confirme."
+    },
+    {
+      "n": 17,
+      "locuteur": "client",
+      "debut": 145.3,
+      "fin": 156.8,
+      "texte": "Merci. Je vous envoie l'e-mail récapitulatif à signer électroniquement. Vous allez recevoir un code par SMS. Saisissez-le vous-même dans l'e-mail et ne le communiquez à personne."
+    },
+    {
+      "n": 18,
+      "locuteur": "conseiller",
+      "debut": 160.0,
+      "fin": 167.9,
+      "texte": "Je l'ai reçu. Mais attendez, c'est écrit 12,99 € par mois, pas 6,99 €"
+    },
+    {
+      "n": 19,
+      "locuteur": "client",
+      "debut": 168.8,
+      "fin": 179.4,
+      "texte": "Oui, ne vous inquiétez pas, c'est normal. Le système affiche toujours le tarif standard. Votre remise sera appliquée automatiquement sur votre 1ère facture. Vous pouvez signer sans crainte madame Chevalier."
+    },
+    {
+      "n": 20,
+      "locuteur": "conseiller",
+      "debut": 182.2,
+      "fin": 182.7,
+      "texte": "D'accord."
+    },
+    {
+      "n": 21,
+      "locuteur": "client",
+      "debut": 186.4,
+      "fin": 193.1,
+      "texte": "Voilà. C'est signé. Parfait. Votre souscription est confirmée. Avez-vous d'autres questions?"
+    },
+    {
+      "n": 22,
+      "locuteur": "conseiller",
+      "debut": 194.5,
+      "fin": 195.7,
+      "texte": "Non, merci beaucoup."
+    },
+    {
+      "n": 23,
+      "locuteur": "client",
+      "debut": 196.7,
+      "fin": 202.3,
+      "texte": "Merci pour votre confiance. Bon voyage à vous deux et très bonne journée. Au revoir."
+    }
+  ]
+}
