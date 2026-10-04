@@ -1,0 +1,197 @@
+[
+  {
+    "appel": "03",
+    "methode": "gemini-3.8-flash",
+    "mots_retrouves_pct": 95.5,
+    "wer_pct": 5.5,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 27,
+      "transcription": 29
+    },
+    "preuves": [
+      {
+        "preuve": "Oui, oui, j'ai compris",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Calmez-vous, Monsieur Martin",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Ce n'est pas moi qui ai traité vos appels précédents",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 2.7,
+    "horodatage_coherent": false
+  },
+  {
+    "appel": "03",
+    "methode": "whisper-small",
+    "mots_retrouves_pct": 87.3,
+    "wer_pct": 13.6,
+    "mots_bon_locuteur_pct": 72.4,
+    "repliques_bien_attribuees_pct": 56.0,
+    "repliques": {
+      "scenario": 27,
+      "transcription": 15
+    },
+    "preuves": [
+      {
+        "preuve": "Oui, oui, j'ai compris",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Calmez-vous, Monsieur Martin",
+        "statut": "absente",
+        "bon_locuteur": null
+      },
+      {
+        "preuve": "Ce n'est pas moi qui ai traité vos appels précédents",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 24,
+    "mots_inventes_pour_100": 6.6,
+    "horodatage_coherent": true
+  },
+  {
+    "appel": "03",
+    "methode": "whisper-medium",
+    "mots_retrouves_pct": 93.9,
+    "wer_pct": 6.6,
+    "mots_bon_locuteur_pct": 73.8,
+    "repliques_bien_attribuees_pct": 70.8,
+    "repliques": {
+      "scenario": 27,
+      "transcription": 21
+    },
+    "preuves": [
+      {
+        "preuve": "Oui, oui, j'ai compris",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Calmez-vous, Monsieur Martin",
+        "statut": "absente",
+        "bon_locuteur": null
+      },
+      {
+        "preuve": "Ce n'est pas moi qui ai traité vos appels précédents",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 11,
+    "mots_inventes_pour_100": 2.0,
+    "horodatage_coherent": true
+  },
+  {
+    "appel": "10",
+    "methode": "whisper-small",
+    "mots_retrouves_pct": 86.0,
+    "wer_pct": 15.0,
+    "mots_bon_locuteur_pct": 78.3,
+    "repliques_bien_attribuees_pct": 65.0,
+    "repliques": {
+      "scenario": 20,
+      "transcription": 12
+    },
+    "preuves": [
+      {
+        "preuve": "Franchement, vous allez le regretter",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Pensez au moins à vos enfants",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Tous les parents le prennent",
+        "statut": "absente",
+        "bon_locuteur": null
+      },
+      {
+        "preuve": "les plateformes de streaming, honnêtement, ce n'est pas terrible pour les enfants",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 6,
+    "mots_inventes_pour_100": 8.9,
+    "horodatage_coherent": true
+  },
+  {
+    "appel": "10",
+    "methode": "whisper-medium",
+    "mots_retrouves_pct": 93.0,
+    "wer_pct": 10.3,
+    "mots_bon_locuteur_pct": 75.4,
+    "repliques_bien_attribuees_pct": 55.0,
+    "repliques": {
+      "scenario": 20,
+      "transcription": 8
+    },
+    "preuves": [
+      {
+        "preuve": "Franchement, vous allez le regretter",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Pensez au moins à vos enfants",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Tous les parents le prennent",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "les plateformes de streaming, honnêtement, ce n'est pas terrible pour les enfants",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 3,
+    "mots_inventes_pour_100": 8.4,
+    "horodatage_coherent": true
+  }
+]
