@@ -931,4 +931,7 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 4. **Notation par l'IA** avec preuves citées et coaching.
 5. **Calibration** : comparaison item par item entre l'IA et le qualiticien, plusieurs passes, puis ajustements.
 6. **Interface et démo** : l'appel qui se note en direct, le rapport final, la vue d'équipe avec historique fictif, la calibration expert / IA.
+   - Dans le rapport, **chaque alerte est cliquable** et fait sauter le lecteur audio au moment de la preuve.
+   - Le lecteur audio propose un **réglage de la vitesse de lecture**.
 7. **Publication** : GitHub (commits au nom de Janna Mohamed, aucune mention de l'outil de développement), puis LinkedIn.
+   - Vidéo LinkedIn : préparer un **extrait court des moments clés de l'appel 3** (le client en colère).

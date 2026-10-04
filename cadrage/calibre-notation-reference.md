@@ -50,7 +50,7 @@ Ces règles complètent la section 4 du cadrage et priment en cas de doute.
 - **S6** : preuves : « Je ne peux pas enregistrer votre résiliation aujourd'hui, ce n'est pas possible », « Mon responsable vous dira la même chose », « Voilà, c'est activé, vous l'avez dès ce soir ».
 - **S8** : « Très bon traitement du refus. Une découverte plus complète vous aurait peut-être permis de trouver une offre plus adaptée, comme le Pack Horizon. »
 - **S9** : « Commencez toujours par découvrir avant de proposer. Une seule question au départ vous aurait appris que ce client vit seul et regarde surtout les informations. »
-- **S10** : preuves : « Franchement, vous allez le regretter », « Pensez au moins à vos enfants », « Tous les parents le prennent », « les plateformes de streaming, ce n'est pas terrible pour les enfants ».
+- **S10** : preuves : « Franchement, vous allez le regretter », « Pensez au moins à vos enfants », « Tous les parents le prennent », « les plateformes de streaming, honnêtement, ce n'est pas terrible pour les enfants ».
 - **S11** : preuves : « ça arrive parfois le soir… Ça devrait se régler », « avec le premier mois offert, vous ne prenez aucun risque », « je vous conseille d'appeler le service client ».
 - **S12** : preuves : « je vous bloque le prix à 6,99 € par mois pendant un an… cette remise n'est valable qu'aujourd'hui », « le système affiche toujours le tarif standard. Votre remise sera appliquée automatiquement ».
 - **S13** : preuves : « il doit être rattaché à une carte, sinon l'activation peut prendre plusieurs jours », « les seize chiffres au recto… la date d'expiration… les trois chiffres au dos, le cryptogramme ». Piège : la bonne pratique sur le code SMS en fin d'appel ne doit pas atténuer la faute.
