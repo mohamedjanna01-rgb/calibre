@@ -29,3 +29,4 @@ __pycache__/
 # Essais audio et compteur de requêtes (locaux)
 audio/essais/
 audio/.compteur-requetes.json
+audio/appels/ecoute.html

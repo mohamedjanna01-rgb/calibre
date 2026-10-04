@@ -168,7 +168,10 @@ def corps_generate(script, repliques):
         "",
     ]
     for r in repliques:
-        texte = re.sub(r"<([^>]+)>", lambda m: f"[{BALISES_FR.get(m.group(1), m.group(1))}]", r["texte"])
+        # Les courtes pauses sont demandées une fois dans l'en-tête : les répéter entre crochets alourdit
+        # la consigne, et les anciens modèles s'arrêtent alors avant la fin des appels longs.
+        texte = re.sub(r"<short pause> ", "", r["texte"])
+        texte = re.sub(r"<([^>]+)>", lambda m: f"[{BALISES_FR.get(m.group(1), m.group(1))}]", texte)
         genre = casting[r["locuteur"].lower()]["profil"].split(",")[0]
         lignes.append(f"{r['locuteur']}: [{genre} ; {r['ton']}] {texte}")
     return {

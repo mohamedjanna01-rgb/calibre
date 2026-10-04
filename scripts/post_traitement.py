@@ -36,7 +36,8 @@ AMBIANCE = PRODUCTION / "ambiance-plateau.wav"
 def jetons(texte):
     """Mots normalisés (minuscules, sans accents ni ponctuation) avec leur position dans le texte."""
     sans_accents = "".join(c for c in unicodedata.normalize("NFD", texte.lower()) if unicodedata.category(c) != "Mn")
-    return [(m.group(), m.start(), m.end()) for m in re.finditer(r"[a-z]+|\d+", sans_accents)]
+    # Les nombres sont comparés chiffre par chiffre : « 1234 » et « 1, 2, 3, 4 » se correspondent
+    return [(m.group(), m.start(), m.end()) for m in re.finditer(r"[a-z]+|\d", sans_accents)]
 
 
 def reference(script):
