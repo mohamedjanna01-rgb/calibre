@@ -10,7 +10,7 @@ TAUX_TELEPHONE = 8000
 
 def lire_wav(chemin):
     """Renvoie un signal mono en flottants entre -1 et 1, et sa fréquence d'échantillonnage."""
-    with wave.open(str(chemin), "rb") as w:
+    with wave.open(chemin if hasattr(chemin, "read") else str(chemin), "rb") as w:
         taux, canaux = w.getframerate(), w.getnchannels()
         donnees = np.frombuffer(w.readframes(w.getnframes()), dtype="<i2").astype(np.float64) / 32768
     if canaux > 1:

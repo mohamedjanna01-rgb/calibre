@@ -222,6 +222,20 @@ def pcm_vers_wav(octets, mime):
     return tampon.getvalue()
 
 
+def finaliser(octets, mime, base):
+    """Écrit d'abord l'audio reçu sur le disque (une requête n'est jamais perdue),
+    puis ne conserve que la version avec effet de ligne téléphonique."""
+    secours = ROOT / "audio" / "brut" / (base.name + ".recu.wav")
+    secours.parent.mkdir(parents=True, exist_ok=True)
+    secours.write_bytes(pcm_vers_wav(octets, mime))
+    signal, taux = lire_wav(secours)
+    tel, taux_tel = appliquer_effet(signal, taux)
+    base.parent.mkdir(parents=True, exist_ok=True)
+    ecrire_wav(base.with_suffix(".wav"), tel, taux_tel)
+    secours.unlink()
+    return base
+
+
 # --- Programme principal -------------------------------------------------------------------
 
 def main():
@@ -265,17 +279,16 @@ def main():
     compteur.reserver(a.modele)
     debut = time.time()
     reponse = envoyer(url, corps, cle)
-    octets, mime = extraire_audio(reponse)
     duree_requete = time.time() - debut
+    # Réponse sauvegardée telle quelle avant tout traitement : rien n'est perdu en cas d'erreur locale
+    sauvegarde = ROOT / "audio" / "brut" / f"appel-{appel}.{a.modele}.reponse.json"
+    sauvegarde.parent.mkdir(parents=True, exist_ok=True)
+    sauvegarde.write_text(json.dumps(reponse), encoding="utf-8")
+    octets, mime = extraire_audio(reponse)
 
-    dossier = ROOT / a.sortie
-    dossier.mkdir(parents=True, exist_ok=True)
-    base = dossier / f"appel-{appel}"
-
-    # Seule la version avec effet de ligne téléphonique est conservée
-    signal, taux = lire_wav(io.BytesIO(pcm_vers_wav(octets, mime)))
-    tel, taux_tel = appliquer_effet(signal, taux)
-    ecrire_wav(base.with_suffix(".wav"), tel, taux_tel)
+    base = finaliser(octets, mime, ROOT / a.sortie / f"appel-{appel}")
+    signal, taux = lire_wav(base.with_suffix(".wav"))
+    sauvegarde.unlink()
 
     infos = {
         "appel": appel, "modele": a.modele, "route": route,
