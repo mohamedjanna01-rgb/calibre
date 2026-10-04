@@ -1,0 +1,67 @@
+{
+  "appel": "07",
+  "modele": "gemini-3.1-flash-tts-preview",
+  "route": "generate",
+  "date": "2026-10-04T22:39:50",
+  "repliques": 43,
+  "requetes": 2,
+  "decoupe_apres": [
+    23
+  ],
+  "duree_audio_s": 331.1,
+  "duree_requete_s": 144.4,
+  "format_recu": "audio/l16; rate=24000; channels=1",
+  "usage": [
+    {
+      "promptTokenCount": 1119,
+      "candidatesTokenCount": 5054,
+      "totalTokenCount": 6173,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1119
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "AUDIO",
+          "tokenCount": 5054
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    {
+      "promptTokenCount": 1216,
+      "candidatesTokenCount": 5529,
+      "totalTokenCount": 6745,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1216
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "AUDIO",
+          "tokenCount": 5529
+        }
+      ],
+      "serviceTier": "standard"
+    }
+  ],
+  "controle": {
+    "mots_du_script_retrouves_pct": 95.9,
+    "repliques_non_retrouvees": [],
+    "repliques_longues_non_retrouvees": [],
+    "passages_absents": [],
+    "passages_en_trop": [],
+    "bips_s": [],
+    "grésillements_s": [
+      [
+        258.62,
+        260.18
+      ]
+    ],
+    "snr_ambiance_db": 20
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "appel": "11",
+  "modele": "gemini-2.5-flash-preview-tts",
+  "route": "generate",
+  "date": "2026-10-04T22:07:09",
+  "repliques": 24,
+  "duree_audio_s": 97.1,
+  "duree_requete_s": 42.9,
+  "format_recu": "audio/L16;codec=pcm;rate=24000",
+  "usage": {
+    "promptTokenCount": 936,
+    "candidatesTokenCount": 2427,
+    "totalTokenCount": 3363,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 936
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "AUDIO",
+        "tokenCount": 2427
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "controle": {
+    "mots_du_script_retrouves_pct": 97.4,
+    "repliques_non_retrouvees": [
+      17
+    ],
+    "repliques_longues_non_retrouvees": [],
+    "passages_absents": [],
+    "passages_en_trop": [],
+    "bips_s": [],
+    "grésillements_s": [],
+    "snr_ambiance_db": 20
+  }
+}
