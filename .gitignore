@@ -30,3 +30,6 @@ __pycache__/
 audio/essais/
 audio/.compteur-requetes.json
 audio/appels/ecoute.html
+
+# Appels finaux : MP3 versionnés, WAV gardés en local pour la transcription
+audio/appels/*.wav

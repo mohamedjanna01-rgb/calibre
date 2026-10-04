@@ -31,7 +31,7 @@ for n in range(1, 14):
     alerte = " alerte" if (isinstance(pct, float) and pct < 90) or c.get("passages_absents") or c.get("passages_en_trop") else ""
     lignes.append(
         f'<tr><td class="num">{n:02d}</td><td><strong>{html.escape(titre)}</strong><small>{typ} · {NOMS.get(info["modele"], info["modele"])} · {info["duree_audio_s"]} s</small></td>'
-        f'<td><audio controls preload="none" src="appel-{n:02d}.wav"></audio></td>'
+        f'<td><audio controls preload="none" src="appel-{n:02d}.mp3"></audio></td>'
         f'<td class="pct{alerte}">{pct} %</td>'
         f'<td class="rem">{"<br>".join(html.escape(r) for r in remarques) or "Aucune anomalie détectée"}</td></tr>')
 

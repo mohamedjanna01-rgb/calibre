@@ -3,3 +3,4 @@ numpy
 scipy
 faster-whisper
 tzdata
+lameenc
