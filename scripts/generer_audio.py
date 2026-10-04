@@ -21,9 +21,8 @@ import time
 import urllib.error
 import urllib.request
 import wave
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
-from zoneinfo import ZoneInfo
 
 import numpy as np
 import yaml
@@ -31,6 +30,7 @@ import yaml
 sys.path.insert(0, str(Path(__file__).parent))
 from effet_telephone import appliquer_effet, lire_wav, ecrire_wav  # noqa: E402
 from post_traitement import traiter  # noqa: E402
+from compteur import Compteur  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 PRODUCTION = ROOT / "audio" / "production"
@@ -44,9 +44,6 @@ MODELES = {
     "gemini-3.1-flash-tts-preview": "generate",
     "gemini-2.5-flash-preview-tts": "generate",
 }
-LIMITE_JOUR = 10    # requêtes par modèle et par jour (jour de Google : heure du Pacifique)
-LIMITE_MINUTE = 3   # requêtes par modèle sur 60 secondes glissantes
-PACIFIQUE = ZoneInfo("America/Los_Angeles")
 LOCUTEURS = {"conseiller": "Conseiller", "client": "Client"}
 BALISES_FR = {"sigh": "soupir", "chuckle": "petit rire", "short pause": "courte pause", "long pause": "longue pause",
               "cough": "toussote"}
@@ -64,51 +61,6 @@ def decrire(personne):
     if genre not in profil:
         profil = f"{profil}, {genre}"
     return f"{'Locutrice' if femme else 'Locuteur'} : {profil}"
-
-
-# --- Compteur de requêtes ---------------------------------------------------------------
-
-class Compteur:
-    """Empêche de dépasser LIMITE_JOUR et LIMITE_MINUTE requêtes par modèle.
-
-    Chaque requête est enregistrée AVANT son envoi : une requête en échec compte aussi.
-    Le quota quotidien suit la remise à zéro de Google : minuit heure du Pacifique (9 h à Paris).
-    """
-
-    def __init__(self, chemin=COMPTEUR):
-        self.chemin = chemin
-        self.historique = json.loads(chemin.read_text(encoding="utf-8")) if chemin.exists() else {}
-
-    def _du_jour(self, modele):
-        """Requêtes envoyées depuis la dernière remise à zéro de Google."""
-        aujourdhui = datetime.now(PACIFIQUE).date()
-        return [t for t in self.historique.get(modele, []) if datetime.fromtimestamp(t, PACIFIQUE).date() == aujourdhui]
-
-    def _derniere_minute(self, modele):
-        return [t for t in self.historique.get(modele, []) if time.time() - t < 60]
-
-    def restantes(self, modele):
-        return LIMITE_JOUR - len(self._du_jour(modele))
-
-    def reserver(self, modele):
-        if len(self._du_jour(modele)) >= LIMITE_JOUR:
-            demain = datetime.now(PACIFIQUE).replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=1)
-            sys.exit(f"Refusé : {LIMITE_JOUR} requêtes déjà envoyées aujourd'hui pour {modele}. "
-                     f"Remise à zéro le {demain.astimezone().strftime('%d/%m à %H:%M')}.")
-        minute = self._derniere_minute(modele)
-        if len(minute) >= LIMITE_MINUTE:
-            attente = 60 - (time.time() - min(minute)) + 1
-            print(f"Limite de {LIMITE_MINUTE} requêtes par minute atteinte pour {modele} : attente de {attente:.0f} s.")
-            time.sleep(attente)
-        self.historique.setdefault(modele, []).append(time.time())
-        # On garde deux jours d'historique, largement assez pour les deux limites
-        self.historique[modele] = [t for t in self.historique[modele] if time.time() - t < 2 * 86400]
-        self.chemin.parent.mkdir(parents=True, exist_ok=True)
-        self.chemin.write_text(json.dumps(self.historique, indent=2), encoding="utf-8")
-
-    def afficher(self):
-        for m in MODELES:
-            print(f"{m:32s} {self.restantes(m):2d} / {LIMITE_JOUR} requêtes restantes aujourd'hui (heure du Pacifique)")
 
 
 # --- Construction de la requête -------------------------------------------------------
