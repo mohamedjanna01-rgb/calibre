@@ -1,0 +1,77 @@
+# Appel 09 – script de production audio
+# Ne jamais transmettre ce fichier à l'IA qui note : les consignes de ton révèlent les fautes.
+id: appel-09
+casting:
+  conseiller:
+    personnage: "Nabil Chraibi"
+    voix: Charon
+    profil: "homme, 27 ans, télévendeur, voix informative un peu récitée, français standard"
+  client:
+    personnage: "Gérard Lambert"
+    voix: Algenib
+    profil: "homme, 68 ans, vit seul, voix grave et un peu éraillée, débit lent, français standard"
+repliques:
+  - n: 1
+    locuteur: conseiller
+    texte: "Bonjour, Monsieur Lambert ? Je m'appelle Nabil Chraibi, je suis conseiller chez Kalyo Télécom, et c'est moi qui m'occupe de votre contrat Box Internet. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?"
+    ton: "poli, professionnel, un peu récité"
+  - n: 2
+    locuteur: client
+    texte: "Oui, je vous écoute."
+    ton: "calme, lent"
+  - n: 3
+    locuteur: conseiller
+    texte: "Merci. Avant tout, tout fonctionne bien avec votre box et votre télévision ?"
+    ton: "routinier"
+  - n: 4
+    locuteur: client
+    texte: "Oui, très bien."
+    ton: "calme"
+  - n: 5
+    locuteur: conseiller
+    texte: "Tant mieux. Pour sécuriser notre échange, pouvez-vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?"
+    ton: "routinier"
+  - n: 6
+    locuteur: client
+    texte: "Lambert Gérard, 21000, le 12 janvier 1958."
+    ton: "lent, posé"
+  - n: 7
+    locuteur: conseiller
+    texte: "Merci, Monsieur Lambert. Je vous appelle pour vous présenter nos offres du moment. Nous avons le Pack Horizon à 12,99 € par mois, avec le premier mois offert : 35 chaînes, 2 000 films et séries à la demande, et un replay de 7 jours. Il y a aussi l'option Horizon Sport à 6 € par mois en plus. Vous pouvez aussi passer à la Box Ultra, à 49,99 € par mois, avec un débit jusqu'à 8 Gb/s et le Pack Horizon inclus. Nous avons également nos forfaits mobiles, à partir de 7,99 € par mois, et un répéteur Wi-Fi à 3 € par mois."
+    ton: "récite d'une traite, débit rapide et monocorde, comme une liste"
+  - n: 8
+    locuteur: client
+    texte: "Euh… <short pause> ça fait beaucoup. Je regarde surtout les informations, vous savez."
+    ton: "un peu perdu, doux"
+  - n: 9
+    locuteur: conseiller
+    texte: "D'accord. Avec le Pack Horizon, vous avez aussi des documentaires, des séries, des films… Et le premier mois est offert."
+    ton: "enchaîne sans écouter, ton commercial plat"
+  - n: 10
+    locuteur: client
+    texte: "Non, merci, ça ne m'intéresse pas."
+    ton: "poli, ferme"
+  - n: 11
+    locuteur: conseiller
+    texte: "Puis-je vous demander ce qui ne vous convient pas, Monsieur Lambert ?"
+    ton: "poli, neutre"
+  - n: 12
+    locuteur: client
+    texte: "Je vis seul, je regarde un peu la télé le soir, les infos, et c'est tout. Je n'ai besoin de rien de plus."
+    ton: "calme, un peu mélancolique"
+  - n: 13
+    locuteur: conseiller
+    texte: "Je comprends tout à fait, et je respecte votre choix. Je suis désolé de ne pas avoir trouvé une offre adaptée pour vous aujourd'hui. Je note votre réponse. Avez-vous des questions sur votre contrat ?"
+    ton: "poli, sincère"
+  - n: 14
+    locuteur: client
+    texte: "Non, merci."
+    ton: "calme"
+  - n: 15
+    locuteur: conseiller
+    texte: "Merci pour votre temps, Monsieur Lambert. Je vous souhaite une très bonne journée, au revoir !"
+    ton: "aimable"
+  - n: 16
+    locuteur: client
+    texte: "Au revoir."
+    ton: "aimable"

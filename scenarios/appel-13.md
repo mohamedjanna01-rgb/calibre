@@ -52,7 +52,7 @@ fiche:
 
 **Conseiller :** Allez-y, je vous écoute : les seize chiffres au recto.
 
-*[Le client lit les seize chiffres de sa carte.]*
+**Client :** 1234, 5678, 9012, 3456.
 
 **Conseiller :** Parfait. La date d'expiration ?
 
@@ -60,9 +60,7 @@ fiche:
 
 **Conseiller :** Et les trois chiffres au dos, le cryptogramme ?
 
-**Client :** Les trois chiffres derrière aussi ? Bon…
-
-*[Le client lit son cryptogramme.]*
+**Client :** Les trois chiffres derrière aussi ? Bon… 1… 2… 3.
 
 **Conseiller :** Merci, c'est tout bon. Je vous envoie maintenant l'e-mail récapitulatif à signer électroniquement. Vous allez recevoir un code par SMS : saisissez-le vous-même dans l'e-mail, et ne le communiquez à personne.
 

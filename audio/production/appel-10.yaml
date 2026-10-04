@@ -1,0 +1,78 @@
+# Appel 10 – script de production audio
+# Ne jamais transmettre ce fichier à l'IA qui note : les consignes de ton révèlent les fautes.
+id: appel-10
+casting:
+  conseiller:
+    personnage: "Conseillère (non nommée)"
+    voix: Leda
+    profil: "femme, 24 ans, télévendeuse, voix jeune, débit très rapide, français standard"
+  client:
+    personnage: "Céline Fabre"
+    voix: Zephyr
+    profil: "femme, 42 ans, mère de famille occupée, voix vive, léger accent du Sud"
+repliques:
+  - n: 1
+    locuteur: conseiller
+    texte: "Allô, oui, bonjour, c'est Kalyo Télécom. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Vous êtes bien la titulaire de la box ?"
+    ton: "pressée, débit très rapide, ton commercial forcé"
+  - n: 2
+    locuteur: client
+    texte: "Oui… Je prépare le dîner, là."
+    ton: "occupée, distraite, un peu agacée"
+  - n: 3
+    locuteur: conseiller
+    texte: "Ça ne sera pas long. Nom, code postal, date de naissance ?"
+    ton: "insistante, expéditive, coupe la parole à la cliente"
+    chevauchement_ms: 300
+  - n: 4
+    locuteur: client
+    texte: "Fabre Céline, 06000, le 25 juin 1984."
+    ton: "agacée, rapide"
+  - n: 5
+    locuteur: conseiller
+    texte: "Vous avez des enfants ?"
+    ton: "directe, sans transition"
+  - n: 6
+    locuteur: client
+    texte: "Oui, deux, ils ont 5 et 9 ans. Ils regardent surtout des dessins animés sur une plateforme de streaming, sur la tablette."
+    ton: "méfiante, mais répond"
+  - n: 7
+    locuteur: conseiller
+    texte: "Ah, les plateformes de streaming, honnêtement, ce n'est pas terrible pour les enfants, on ne sait jamais ce qu'ils regardent. Il vous faut le Pack Horizon, 12,99 € par mois. Je vous l'active ?"
+    ton: "dénigrante, sûre d'elle, ton de conseil appuyé, puis pressante sur « Je vous l'active ? »"
+  - n: 8
+    locuteur: client
+    texte: "Non merci, ça ne m'intéresse pas."
+    ton: "ferme, polie"
+  - n: 9
+    locuteur: conseiller
+    texte: "Attendez, vous ne savez même pas ce qu'il y a dedans…"
+    ton: "insistante, légèrement vexée, coupe la parole à la cliente"
+    chevauchement_ms: 400
+  - n: 10
+    locuteur: client
+    texte: "Je vous ai dit non. Je n'ai vraiment pas le temps, là."
+    ton: "agacée, plus forte"
+  - n: 11
+    locuteur: conseiller
+    texte: "Deux minutes, c'est tout ce que je vous demande. Franchement, vous allez le regretter si vous ne…"
+    ton: "pressante, culpabilisante, débit rapide ; elle est coupée net après « si vous ne »"
+    chevauchement_ms: 400
+    coupee: true
+  - n: 12
+    locuteur: client
+    texte: "Non ! Je n'en veux pas."
+    ton: "exaspérée, élève la voix, coupe la parole"
+    chevauchement_ms: 300
+  - n: 13
+    locuteur: conseiller
+    texte: "Pensez au moins à vos enfants, quand même. Tous les parents le prennent, vous savez."
+    ton: "culpabilisante, moralisatrice"
+  - n: 14
+    locuteur: client
+    texte: "Écoutez, je raccroche. Au revoir."
+    ton: "excédée, sèche"
+  - n: 15
+    locuteur: conseiller
+    texte: "Comme vous voulez."
+    ton: "vexée, froide, à moitié marmonné"

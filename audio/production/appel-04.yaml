@@ -1,0 +1,73 @@
+# Appel 04 – script de production audio
+# Ne jamais transmettre ce fichier à l'IA qui note : les consignes de ton révèlent les fautes.
+id: appel-04
+casting:
+  conseiller:
+    personnage: "Conseiller (non nommé)"
+    voix: Schedar
+    profil: "homme, 42 ans, conseiller blasé, voix égale et monotone, français standard"
+  client:
+    personnage: "Nathalie Roux"
+    voix: Achernar
+    profil: "femme, 58 ans, peu à l'aise avec la technique, voix douce, léger accent du Sud"
+repliques:
+  - n: 1
+    locuteur: conseiller
+    texte: "Kalyo Télécom, bonjour. Votre numéro de ligne ?"
+    ton: "monotone, blasé, pressé, aucun sourire"
+  - n: 2
+    locuteur: client
+    texte: "Euh… 06 39 98 53 72."
+    ton: "prise de court, hésitante"
+  - n: 3
+    locuteur: conseiller
+    texte: "Nom, code postal, date de naissance ?"
+    ton: "sec, mécanique"
+  - n: 4
+    locuteur: client
+    texte: "Nathalie Roux, 13008, le 21 avril 1968."
+    ton: "docile, un peu intimidée"
+  - n: 5
+    locuteur: conseiller
+    texte: "C'est bon. C'est pour quoi ?"
+    ton: "expéditif, ennuyé"
+  - n: 6
+    locuteur: client
+    texte: "Ma télévision ne marche plus depuis ce matin. Il y a écrit « aucun signal » sur l'écran. J'ai essayé d'éteindre et de rallumer la télé, mais ça ne change rien. Mon mari regarde le match ce soir, alors…"
+    ton: "inquiète, un peu perdue, explique avec bonne volonté"
+  - n: 7
+    locuteur: conseiller
+    texte: "OK. C'est sûrement votre décodeur qui a perdu la synchro avec la box. Faites un reset usine du décodeur, ça devrait régler le problème."
+    ton: "rapide, détaché, débite le jargon sans expliquer"
+  - n: 8
+    locuteur: client
+    texte: "Un reset… usine ? Je ne sais pas faire ça."
+    ton: "perdue, désemparée"
+  - n: 9
+    locuteur: conseiller
+    texte: "Il y a un bouton derrière le décodeur, vous appuyez dessus avec un trombone pendant dix secondes. Normalement, ça devrait marcher."
+    ton: "impatient, légèrement condescendant, débit rapide"
+  - n: 10
+    locuteur: client
+    texte: "Et si ça ne marche pas ?"
+    ton: "inquiète"
+  - n: 11
+    locuteur: conseiller
+    texte: "Si ça ne marche pas, vous rappelez le service client."
+    ton: "détaché, indifférent"
+  - n: 12
+    locuteur: client
+    texte: "Vous ne pouvez pas vérifier de votre côté ?"
+    ton: "timide, presque suppliante"
+  - n: 13
+    locuteur: conseiller
+    texte: "Faites d'abord le reset. Autre chose ?"
+    ton: "sec, pressé d'en finir"
+  - n: 14
+    locuteur: client
+    texte: "Non… <sigh> bon, je vais essayer."
+    ton: "résignée, déçue"
+  - n: 15
+    locuteur: conseiller
+    texte: "Au revoir."
+    ton: "sec, froid"

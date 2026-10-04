@@ -1,0 +1,81 @@
+# Appel 05 – script de production audio
+# Ne jamais transmettre ce fichier à l'IA qui note : les consignes de ton révèlent les fautes.
+id: appel-05
+casting:
+  conseiller:
+    personnage: "Karim Tazi"
+    voix: Umbriel
+    profil: "homme, 35 ans, conseiller, voix décontractée et aimable, français standard"
+  client:
+    personnage: "Antoine Petit"
+    voix: Zubenelgenubi
+    profil: "homme, 38 ans, voix détendue et simple, français standard"
+repliques:
+  - n: 1
+    locuteur: conseiller
+    texte: "Kalyo Télécom, bonjour ! Je m'appelle Karim Tazi, je suis votre conseiller clientèle, et je vais m'occuper de votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?"
+    ton: "chaleureux, souriant"
+  - n: 2
+    locuteur: client
+    texte: "Antoine Petit."
+    ton: "détendu"
+  - n: 3
+    locuteur: conseiller
+    texte: "Merci, Monsieur Petit. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?"
+    ton: "aimable"
+  - n: 4
+    locuteur: client
+    texte: "06 39 98 61 19, 59000, et le 30 mai 1988."
+    ton: "détendu"
+  - n: 5
+    locuteur: conseiller
+    texte: "Merci. Que puis-je faire pour vous ?"
+    ton: "ouvert"
+  - n: 6
+    locuteur: client
+    texte: "Je voudrais résilier ma box. Je déménage chez ma compagne le mois prochain, et elle a déjà internet."
+    ton: "calme, décidé, aimable"
+  - n: 7
+    locuteur: conseiller
+    texte: "Je comprends, félicitations pour votre emménagement ! Si je comprends bien, Monsieur Petit, vous quittez votre logement le mois prochain et vous n'aurez plus besoin de votre box, c'est bien ça ?"
+    ton: "sincèrement content pour lui, souriant, reformule"
+  - n: 8
+    locuteur: client
+    texte: "Oui, c'est ça."
+    ton: "simple"
+  - n: 9
+    locuteur: conseiller
+    texte: "Avant tout, puis-je vous demander chez quel opérateur est votre compagne ? Nous pourrions peut-être transférer votre box à votre nouvelle adresse, avec un débit plus rapide."
+    ton: "commercial, engageant"
+  - n: 10
+    locuteur: client
+    texte: "Non merci, elle est très contente de son abonnement. Je veux juste résilier."
+    ton: "poli mais ferme"
+  - n: 11
+    locuteur: conseiller
+    texte: "Très bien, je comprends. Alors, pour une résiliation, le service concerné n'est pas disponible aujourd'hui. Le plus simple, c'est de nous rappeler la semaine prochaine."
+    ton: "léger embarras, faussement désolé, un peu hésitant"
+  - n: 12
+    locuteur: client
+    texte: "La semaine prochaine ? Mais je vous appelle maintenant, vous ne pouvez pas le faire ?"
+    ton: "surpris, incrédule, légèrement agacé"
+  - n: 13
+    locuteur: conseiller
+    texte: "Malheureusement non, ce n'est pas moi qui gère les résiliations. Et puis, ça vous laisse quelques jours pour y réfléchir, au cas où vous changeriez d'avis."
+    ton: "fuyant, faussement compatissant, glisse la suggestion avec légèreté"
+  - n: 14
+    locuteur: client
+    texte: "Je ne vais pas changer d'avis… <sigh> Bon, d'accord, je rappellerai."
+    ton: "résigné, un peu contrarié"
+  - n: 15
+    locuteur: conseiller
+    texte: "Parfait. Pour récapituler : vous nous rappelez la semaine prochaine pour la résiliation. Avez-vous d'autres questions, Monsieur Petit ?"
+    ton: "faussement enjoué"
+  - n: 16
+    locuteur: client
+    texte: "Non."
+    ton: "sec, déçu"
+  - n: 17
+    locuteur: conseiller
+    texte: "Merci pour votre appel, Monsieur Petit, et encore félicitations pour votre emménagement. Très bonne journée, au revoir !"
+    ton: "chaleureux, souriant"

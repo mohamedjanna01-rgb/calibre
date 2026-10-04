@@ -1,0 +1,10 @@
+# Prononciation : texte écrit -> texte envoyé à la synthèse vocale.
+# Le texte écrit reste la référence pour évaluer la transcription ; seule la voix change.
+# À compléter après l'écoute des échantillons (codes postaux, numéros de ligne, sigles).
+remplacements:
+  "claire.lefevre@example.com": "claire point lefèvre, arobase, example point com"
+  "philippe.durand@example.com": "philippe point durand, arobase, example point com"
+  "ne-pas-repondre@kalyo-telecom.example": "ne-pas-répondre, arobase, kalyo-télécom point example"
+  "1234, 5678, 9012, 3456": "un, deux, trois, quatre… cinq, six, sept, huit… neuf, zéro, un, deux… trois, quatre, cinq, six"
+  "09/28": "zéro neuf, vingt-huit"
+  "8 Gb/s": "8 gigabits par seconde"

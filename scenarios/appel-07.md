@@ -60,7 +60,7 @@ fiche:
 
 **Conseiller :** Merci. Pour finaliser, je vous envoie un e-mail récapitulatif à signer électroniquement. Pouvez-vous me confirmer votre adresse e-mail ?
 
-**Client :** philippe.durand@exemple.fr.
+**Client :** philippe.durand@example.com.
 
 **Conseiller :** C'est envoyé, depuis l'adresse ne-pas-repondre@kalyo-telecom.example. Je reste en ligne avec vous : l'avez-vous bien reçu ?
 

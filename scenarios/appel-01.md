@@ -20,7 +20,7 @@ fiche:
 
 **Conseiller :** Merci, Madame Lefèvre. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?
 
-**Cliente :** 06 12 34 56 78, code postal 69003, et je suis née le 14 mars 1985.
+**Cliente :** 06 39 98 12 41, code postal 69003, et je suis née le 14 mars 1985.
 
 **Conseiller :** Parfait, merci. Je vous écoute, que se passe-t-il ?
 
@@ -58,13 +58,13 @@ fiche:
 
 **Cliente :** Oui, je confirme.
 
-**Conseiller :** Parfait. Je sécurise votre commande avec vous, Madame Lefèvre. Je confirme vos informations : Claire Lefèvre, ligne 06 12 34 56 78. Le répéteur sera livré à votre adresse de facturation, au 12 rue des Tilleuls, 69003 Lyon. Est-ce bien la bonne adresse ?
+**Conseiller :** Parfait. Je sécurise votre commande avec vous, Madame Lefèvre. Je confirme vos informations : Claire Lefèvre, ligne 06 39 98 12 41. Le répéteur sera livré à votre adresse de facturation, au 12 rue des Tilleuls, 69003 Lyon. Est-ce bien la bonne adresse ?
 
 **Cliente :** Oui, c'est bien ça.
 
 **Conseiller :** Merci. Je récapitule votre commande : un répéteur Wi-Fi Kalyo, en location à 3 € par mois, sans engagement, ajouté à votre prochaine facture. Vous le recevrez par colis sous 3 à 5 jours ouvrés. À la réception, il suffit de le brancher sur une prise à mi-chemin entre la box et votre bureau, puis d'appuyer sur le bouton de connexion de la box : la notice est dans le colis. Je vous envoie dès maintenant un e-mail récapitulatif de votre commande à signer électroniquement. Pouvez-vous me confirmer votre adresse e-mail ?
 
-**Cliente :** claire.lefevre@exemple.fr.
+**Cliente :** claire.lefevre@example.com.
 
 **Conseiller :** Merci, c'est envoyé, depuis l'adresse ne-pas-repondre@kalyo-telecom.example. Pensez à regarder dans vos courriers indésirables. Vous allez recevoir un code par SMS pour signer : saisissez-le vous-même dans l'e-mail, et ne le communiquez à personne. Avez-vous bien reçu l'e-mail ?
 

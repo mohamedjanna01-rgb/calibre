@@ -16,7 +16,7 @@ fiche:
 
 **Conseiller :** Kalyo Télécom, bonjour. Votre numéro de ligne ?
 
-**Cliente :** Euh… 06 23 45 67 89.
+**Cliente :** Euh… 06 39 98 53 72.
 
 **Conseiller :** Nom, code postal, date de naissance ?
 

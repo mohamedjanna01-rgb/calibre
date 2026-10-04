@@ -1,0 +1,146 @@
+# Appel 01 – script de production audio
+# Ne jamais transmettre ce fichier à l'IA qui note : les consignes de ton révèlent les fautes.
+id: appel-01
+casting:
+  conseiller:
+    personnage: "Yanis Benali"
+    voix: Achird
+    profil: "homme, 30 ans, conseiller expérimenté, voix chaleureuse et souriante, français standard"
+  client:
+    personnage: "Claire Lefèvre"
+    voix: Autonoe
+    profil: "femme, 41 ans, cadre en télétravail, voix claire et vive, français standard"
+repliques:
+  - n: 1
+    locuteur: conseiller
+    texte: "Kalyo Télécom, bonjour ! Je m'appelle Yanis Benali, je suis votre conseiller clientèle, et je vais m'occuper de votre demande aujourd'hui. Avant de commencer, je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom, s'il vous plaît ?"
+    ton: "chaleureux, souriant, dynamique, bien articulé"
+  - n: 2
+    locuteur: client
+    texte: "Oui, Claire Lefèvre."
+    ton: "un peu pressée, légèrement tendue"
+  - n: 3
+    locuteur: conseiller
+    texte: "Merci, Madame Lefèvre. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?"
+    ton: "aimable, posé"
+  - n: 4
+    locuteur: client
+    texte: "06 39 98 12 41, code postal 69003, et je suis née le 14 mars 1985."
+    ton: "récite ses informations rapidement, un peu impatiente"
+  - n: 5
+    locuteur: conseiller
+    texte: "Parfait, merci. Je vous écoute, que se passe-t-il ?"
+    ton: "ouvert, attentif"
+  - n: 6
+    locuteur: client
+    texte: "Depuis ce matin, internet ne fonctionne plus du tout. Je télétravaille, et là je ne peux rien faire, j'ai une réunion dans une heure… <sigh> C'est vraiment pénible."
+    ton: "stressée et agacée, débit qui s'accélère, soupire avant la dernière phrase"
+  - n: 7
+    locuteur: conseiller
+    texte: "Je comprends tout à fait, c'est très gênant quand on travaille de chez soi. On va regarder ça ensemble. Pouvez-vous me dire de quelle couleur est le voyant de votre box ?"
+    ton: "empathique, rassurant, voix souriante"
+  - n: 8
+    locuteur: client
+    texte: "Il est orange, il ne clignote pas."
+    ton: "concentrée, elle regarde la box en parlant"
+    pause_avant_ms: 1200
+  - n: 9
+    locuteur: conseiller
+    texte: "D'accord. Et avez-vous déjà essayé de redémarrer la box ?"
+    ton: "calme, méthodique"
+  - n: 10
+    locuteur: client
+    texte: "Oui, deux fois, ça n'a rien changé."
+    ton: "un peu lasse"
+  - n: 11
+    locuteur: conseiller
+    texte: "D'accord, merci d'avoir déjà essayé, ça nous fait gagner du temps. Si je résume, Madame Lefèvre, depuis ce matin vous n'avez plus internet, le voyant est orange fixe, et le redémarrage n'a rien donné. C'est bien ça ?"
+    ton: "posé, bienveillant, reformule clairement, question finale bien marquée"
+  - n: 12
+    locuteur: client
+    texte: "Oui, c'est exactement ça."
+    ton: "soulagée d'être comprise"
+  - n: 13
+    locuteur: conseiller
+    texte: "Merci. Un voyant orange fixe signifie que la box ne reçoit plus le signal de la fibre. Le plus souvent, c'est le câble fibre qui s'est légèrement débranché. Pouvez-vous vérifier que le câble est bien enfoncé des deux côtés, dans la prise murale et dans la box, jusqu'à entendre un petit clic ?"
+    ton: "pédagogue, clair, rassurant, débit modéré"
+  - n: 14
+    locuteur: client
+    texte: "Attendez… <long pause> Ah oui, côté box, il était un peu sorti. Voilà, j'ai entendu le clic."
+    ton: "concentrée, fouille derrière la box, puis surprise de trouver le câble sorti"
+    pause_avant_ms: 600
+  - n: 15
+    locuteur: conseiller
+    texte: "Parfait. Je vois de mon côté que votre box est de nouveau connectée. Le voyant est-il passé au blanc ?"
+    ton: "satisfait, encourageant"
+    pause_avant_ms: 1500
+  - n: 16
+    locuteur: client
+    texte: "Oui ! Ça remarche, merci beaucoup !"
+    ton: "soulagée et ravie, petit rire de joie"
+  - n: 17
+    locuteur: conseiller
+    texte: "Avec plaisir, Madame Lefèvre. Vous m'avez dit que vous télétravaillez : votre Wi-Fi capte-t-il bien dans toutes les pièces de votre logement ?"
+    ton: "souriant, curieux, naturel, sans ton commercial"
+  - n: 18
+    locuteur: client
+    texte: "Pas vraiment, dans mon bureau à l'étage, ça coupe souvent."
+    ton: "réfléchit, un peu dépitée"
+  - n: 19
+    locuteur: conseiller
+    texte: "C'est justement ce qui peut faire planter une visio en pleine réunion. Nous avons un répéteur Wi-Fi qui se branche simplement sur une prise, à mi-chemin entre la box et votre bureau, et qui renforce le signal à l'étage. Il est à 3 € par mois, sans engagement, et vous le recevez sous 3 à 5 jours. Pour le prix d'un café par mois, vos réunions seront stables. Souhaitez-vous que je vous l'envoie ?"
+    ton: "enthousiaste mais mesuré, convaincant, voix souriante"
+  - n: 20
+    locuteur: client
+    texte: "Oui, pourquoi pas."
+    ton: "hésitante, peu engagée"
+  - n: 21
+    locuteur: conseiller
+    texte: "Pour être sûr que ça vous convient, Madame Lefèvre : je vous ajoute le répéteur Wi-Fi à 3 € par mois, sans engagement, livré sous 3 à 5 jours. Vous confirmez ?"
+    ton: "posé, précis, question fermée bien marquée"
+  - n: 22
+    locuteur: client
+    texte: "Oui, je confirme."
+    ton: "nette, décidée"
+  - n: 23
+    locuteur: conseiller
+    texte: "Parfait. Je sécurise votre commande avec vous, Madame Lefèvre. Je confirme vos informations : Claire Lefèvre, ligne 06 39 98 12 41. Le répéteur sera livré à votre adresse de facturation, au 12 rue des Tilleuls, 69003 Lyon. Est-ce bien la bonne adresse ?"
+    ton: "méthodique, clair"
+  - n: 24
+    locuteur: client
+    texte: "Oui, c'est bien ça."
+    ton: "simple, affirmative"
+  - n: 25
+    locuteur: conseiller
+    texte: "Merci. Je récapitule votre commande : un répéteur Wi-Fi Kalyo, en location à 3 € par mois, sans engagement, ajouté à votre prochaine facture. Vous le recevrez par colis sous 3 à 5 jours ouvrés. À la réception, il suffit de le brancher sur une prise à mi-chemin entre la box et votre bureau, puis d'appuyer sur le bouton de connexion de la box : la notice est dans le colis. Je vous envoie dès maintenant un e-mail récapitulatif de votre commande à signer électroniquement. Pouvez-vous me confirmer votre adresse e-mail ?"
+    ton: "clair, structuré, débit posé"
+  - n: 26
+    locuteur: client
+    texte: "claire.lefevre@example.com."
+    ton: "dicte son adresse tranquillement"
+  - n: 27
+    locuteur: conseiller
+    texte: "Merci, c'est envoyé, depuis l'adresse ne-pas-repondre@kalyo-telecom.example. Pensez à regarder dans vos courriers indésirables. Vous allez recevoir un code par SMS pour signer : saisissez-le vous-même dans l'e-mail, et ne le communiquez à personne. Avez-vous bien reçu l'e-mail ?"
+    ton: "rassurant, insiste doucement sur la consigne du code"
+    pause_avant_ms: 800
+  - n: 28
+    locuteur: client
+    texte: "Oui, je l'ai. <long pause> Voilà, c'est signé."
+    ton: "concentrée sur son écran, puis satisfaite"
+    pause_avant_ms: 2000
+  - n: 29
+    locuteur: conseiller
+    texte: "Parfait, je vois la signature de mon côté. Pour récapituler notre échange : votre connexion internet est rétablie, le souci venait du câble fibre légèrement débranché, et votre répéteur Wi-Fi arrive sous 3 à 5 jours pour améliorer le signal dans votre bureau. Avez-vous d'autres questions, Madame Lefèvre ?"
+    ton: "chaleureux, conclusif"
+  - n: 30
+    locuteur: client
+    texte: "Non, c'est parfait, merci."
+    ton: "détendue, satisfaite"
+  - n: 31
+    locuteur: conseiller
+    texte: "C'est moi qui vous remercie pour votre confiance et votre patience. Je vous souhaite une excellente réunion et une très bonne journée, Madame Lefèvre. Au revoir !"
+    ton: "très chaleureux, souriant"
+  - n: 32
+    locuteur: client
+    texte: "Merci, au revoir."
+    ton: "aimable"

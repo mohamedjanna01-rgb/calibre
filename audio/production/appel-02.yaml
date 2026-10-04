@@ -1,0 +1,87 @@
+# Appel 02 – script de production audio
+# Ne jamais transmettre ce fichier à l'IA qui note : les consignes de ton révèlent les fautes.
+id: appel-02
+casting:
+  conseiller:
+    personnage: "Sofia Haddad"
+    voix: Sulafat
+    profil: "femme, 31 ans, conseillère, voix chaude et posée, français standard"
+  client:
+    personnage: "Thomas Garnier"
+    voix: Iapetus
+    profil: "homme, 47 ans, voix nette, ton méfiant de nouveau client, français standard"
+repliques:
+  - n: 1
+    locuteur: conseiller
+    texte: "Kalyo Télécom, bonjour ! Je m'appelle Sofia Haddad, je suis votre conseillère clientèle, et je vais prendre en charge votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?"
+    ton: "chaleureuse, souriante, professionnelle"
+  - n: 2
+    locuteur: client
+    texte: "Thomas Garnier."
+    ton: "sec, méfiant"
+  - n: 3
+    locuteur: conseiller
+    texte: "Merci. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?"
+    ton: "aimable, neutre"
+  - n: 4
+    locuteur: client
+    texte: "06 39 98 27 63, 31000, et le 2 juillet 1979."
+    ton: "récite, un peu sec"
+  - n: 5
+    locuteur: conseiller
+    texte: "Merci, c'est bien vous. Que puis-je faire pour vous ?"
+    ton: "ouverte, avenante"
+  - n: 6
+    locuteur: client
+    texte: "Je viens de recevoir ma première facture, elle est de 78,99 €. On m'avait dit 39,99 € par mois pour la Box Évolution. Je ne comprends pas, j'ai l'impression d'avoir été trompé."
+    ton: "contrarié, mécontent mais poli, appuie sur les deux montants"
+  - n: 7
+    locuteur: conseiller
+    texte: "Je comprends votre surprise, c'est normal de s'inquiéter quand le montant ne correspond pas à ce qu'on attendait. Je regarde votre facture avec vous. Avez-vous changé quelque chose depuis votre inscription, une option ou un équipement ?"
+    ton: "empathique, calme, rassurante"
+  - n: 8
+    locuteur: client
+    texte: "Non, rien du tout."
+    ton: "sec"
+  - n: 9
+    locuteur: conseiller
+    texte: "D'accord. Je vois le détail : votre facture contient deux lignes. La première, ce sont les 39,99 € de votre Box Évolution pour le mois à venir. La seconde, ce sont 39 € de frais de mise en service. Ces frais sont facturés une seule fois, uniquement sur la première facture des nouveaux clients. C'est ce qui explique la différence."
+    ton: "claire, pédagogue, posée, elle lit la facture"
+    pause_avant_ms: 1000
+  - n: 10
+    locuteur: client
+    texte: "Ah, une seule fois ? Donc le mois prochain, ce sera bien 39,99 € ?"
+    ton: "surpris, se détend un peu, vérifie qu'il a bien compris"
+  - n: 11
+    locuteur: conseiller
+    texte: "Exactement. À partir de la prochaine facture, vous paierez 39,99 € par mois, sans frais supplémentaires, tant que vous ne changez pas d'offre."
+    ton: "nette, rassurante"
+  - n: 12
+    locuteur: client
+    texte: "D'accord. <sigh> On aurait quand même pu me prévenir…"
+    ton: "légèrement vexé, ronchon"
+  - n: 13
+    locuteur: conseiller
+    texte: "Vous avez raison, c'est désagréable de le découvrir sur la facture, et je suis désolée pour cette mauvaise surprise. Ces frais figurent dans les conditions de l'offre, mais je comprends qu'ils soient passés inaperçus. Je vous envoie par e-mail le détail de votre facture pour que vous l'ayez sous les yeux."
+    ton: "sincère, compréhensive, s'excuse avec douceur"
+  - n: 14
+    locuteur: client
+    texte: "Oui, merci, ce sera plus clair."
+    ton: "apaisé"
+  - n: 15
+    locuteur: conseiller
+    texte: "C'est envoyé. Pour récapituler : les 39 € sont des frais de mise en service uniques, et vos prochaines factures seront de 39,99 € par mois. Avez-vous d'autres questions ?"
+    ton: "claire, conclusive"
+    pause_avant_ms: 600
+  - n: 16
+    locuteur: client
+    texte: "Non, c'est bon, merci pour l'explication."
+    ton: "apaisé, reconnaissant"
+  - n: 17
+    locuteur: conseiller
+    texte: "Je vous en prie, c'est tout naturel. Merci pour votre appel et pour votre confiance. Si vous avez la moindre question en recevant votre prochaine facture, n'hésitez pas à nous rappeler. Je vous souhaite une très bonne fin de journée, au revoir !"
+    ton: "chaleureuse, souriante"
+  - n: 18
+    locuteur: client
+    texte: "Merci, au revoir."
+    ton: "cordial"
