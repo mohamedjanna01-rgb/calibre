@@ -1,7 +1,7 @@
 {
   "appel": "03",
   "methode": "gemini-3.5-transcribe",
-  "date": "2026-10-05T00:19:50",
+  "date": "2026-10-05T00:45:07",
   "duree_audio_s": 160.8,
   "usage": {
     "total_tokens": 4022,
@@ -117,7 +117,7 @@
       "locuteur": "client",
       "debut": 41.6,
       "fin": 65.6,
-      "texte": "0 44000 8 novembre 1980 Bon, je vous explique. Tous les soirs, internet coupe. Tous les soirs. J'ai appelé lundi, on m'a dit de redémarrer la box. J'ai rappelé mercredi, on m'a dit que ça allait s'arranger. Et là"
+      "texte": "0 [numéro masqué] 44000 8 novembre 1980 Bon, je vous explique. Tous les soirs, internet coupe. Tous les soirs. J'ai appelé lundi, on m'a dit de redémarrer la box. J'ai rappelé mercredi, on m'a dit que ça allait s'arranger. Et là"
     },
     {
       "n": 9,

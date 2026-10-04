@@ -14,7 +14,7 @@
 
 **[00:28.7] Conseiller :** Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance?
 
-**[00:35.5] Client :** Alors code postal 69003 et je suis née le 14 mars 1985.
+**[00:35.5] Client :** Alors [numéro masqué] code postal 69003 et je suis née le 14 mars 1985.
 
 **[00:49.1] Conseiller :** Parfait, merci. Je vous écoute. Que se passe-t-il?
 
@@ -56,7 +56,11 @@
 
 **[03:04.9] Client :** Oui, je confirme.
 
-**[03:06.2] Conseiller :** Parfait. Je sécurise votre commande avec vous madame Lefèvre. Je confirme vos informations. Claire Lefèvre. Le répéteur sera livré à votre adresse de facturation, 12 rue des Tilleuls, 69003 Lyon. Est-ce bien la bonne adresse?
+**[03:06.2] Conseiller :** Parfait. Je sécurise votre commande avec vous madame Lefèvre. Je confirme vos informations. Claire Lefèvre.
+
+**[03:12.7] Client :** [numéro masqué]
+
+**[03:17.6] Conseiller :** Le répéteur sera livré à votre adresse de facturation, 12 rue des Tilleuls, 69003 Lyon. Est-ce bien la bonne adresse?
 
 **[03:25.2] Client :** Oui, c'est bien ça.
 

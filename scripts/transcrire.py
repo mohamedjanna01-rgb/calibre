@@ -219,10 +219,11 @@ def repliques_depuis_mots(appel, wav, mots):
     for a, b in bips(signal, taux):
         milieu = lambda m: (secondes(m["start_offset"]) + secondes(m["end_offset"])) / 2  # noqa: E731
         dedans = [m for m in mots if a - 0.1 <= milieu(m) <= b + 0.1]
-        if dedans:
-            mots = [m for m in mots if m not in dedans]
-            mots.append({"text": MASQUE, "speaker": dedans[0].get("speaker"),
-                         "start_offset": f"{a}s", "end_offset": f"{b}s"})
+        mots = [m for m in mots if m not in dedans]
+        # Le modèle n'écrit souvent rien pendant un bip : le masque est attribué au locuteur qui parlait juste avant
+        avant = [m for m in mots if secondes(m["end_offset"]) <= a + 0.1]
+        locuteur = dedans[0].get("speaker") if dedans else (avant[-1].get("speaker") if avant else mots[0].get("speaker"))
+        mots.append({"text": MASQUE, "speaker": locuteur, "start_offset": f"{a}s", "end_offset": f"{b}s"})
     mots.sort(key=lambda m: secondes(m["start_offset"]))
     repliques = []
     for m in mots:  # une réplique = suite de mots du même locuteur

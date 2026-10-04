@@ -14,7 +14,7 @@
 
 **[00:34.4] Conseiller :** Pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance?
 
-**[00:41.6] Client :** 0 44000 8 novembre 1980 Bon, je vous explique. Tous les soirs, internet coupe. Tous les soirs. J'ai appelé lundi, on m'a dit de redémarrer la box. J'ai rappelé mercredi, on m'a dit que ça allait s'arranger. Et là
+**[00:41.6] Client :** 0 [numéro masqué] 44000 8 novembre 1980 Bon, je vous explique. Tous les soirs, internet coupe. Tous les soirs. J'ai appelé lundi, on m'a dit de redémarrer la box. J'ai rappelé mercredi, on m'a dit que ça allait s'arranger. Et là
 
 **[01:06.2] Conseiller :** Oui oui, j'ai compris. Je vois vos appels dans l'historique.
 

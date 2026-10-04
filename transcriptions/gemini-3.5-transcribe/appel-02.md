@@ -8,7 +8,7 @@
 
 **[00:13.3] Client :** Thomas Garnier.
 
-**[00:14.1] Conseiller :** Merci. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance?
+**[00:14.1] Conseiller :** Merci. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance? [numéro masqué]
 
 **[00:24.5] Client :** 31000 et le 2 juillet 1979.
 

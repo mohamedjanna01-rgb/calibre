@@ -1,7 +1,7 @@
 {
   "appel": "13",
   "methode": "gemini-3.5-transcribe",
-  "date": "2026-10-05T00:36:57",
+  "date": "2026-10-05T00:45:08",
   "duree_audio_s": 213.1,
   "usage": {
     "total_tokens": 5329,

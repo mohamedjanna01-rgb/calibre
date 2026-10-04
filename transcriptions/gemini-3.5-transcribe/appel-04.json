@@ -1,7 +1,7 @@
 {
   "appel": "04",
   "methode": "gemini-3.5-transcribe",
-  "date": "2026-10-05T00:21:38",
+  "date": "2026-10-05T00:45:07",
   "duree_audio_s": 54.8,
   "usage": {
     "total_tokens": 1372,
@@ -88,8 +88,8 @@
       "n": 4,
       "locuteur": "client",
       "debut": 4.6,
-      "fin": 4.9,
-      "texte": "Euh,"
+      "fin": 8.94,
+      "texte": "Euh, [numéro masqué]"
     },
     {
       "n": 5,

@@ -1,7 +1,7 @@
 {
   "appel": "06",
   "methode": "gemini-3.5-transcribe",
-  "date": "2026-10-05T00:25:18",
+  "date": "2026-10-05T00:45:07",
   "duree_audio_s": 122.8,
   "usage": {
     "total_tokens": 3071,
@@ -95,8 +95,8 @@
       "n": 5,
       "locuteur": "conseiller",
       "debut": 7.0,
-      "fin": 25.6,
-      "texte": "et je will prendre en charge Merci votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom? madame Benoit. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance?"
+      "fin": 30.64,
+      "texte": "et je will prendre en charge Merci votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom? madame Benoit. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance? [numéro masqué]"
     },
     {
       "n": 6,

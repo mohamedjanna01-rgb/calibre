@@ -12,7 +12,7 @@
 
 **[00:13.7] Client :** Petit.
 
-**[00:14.7] Conseiller :** monsieur Petit. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance?
+**[00:14.7] Conseiller :** monsieur Petit. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance? [numéro masqué]
 
 **[00:24.9] Client :** 59000 et le 30 mai 1988. Merci.
 

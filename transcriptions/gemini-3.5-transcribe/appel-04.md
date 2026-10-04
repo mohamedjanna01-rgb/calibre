@@ -6,7 +6,7 @@
 
 **[00:03.1] Conseiller :** Votre numéro de ligne?
 
-**[00:04.6] Client :** Euh,
+**[00:04.6] Client :** Euh, [numéro masqué]
 
 **[00:09.5] Conseiller :** Non, code postal, date de naissance.
 

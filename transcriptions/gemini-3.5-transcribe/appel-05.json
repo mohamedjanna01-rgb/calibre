@@ -1,7 +1,7 @@
 {
   "appel": "05",
   "methode": "gemini-3.5-transcribe",
-  "date": "2026-10-05T00:23:27",
+  "date": "2026-10-05T00:45:07",
   "duree_audio_s": 88.8,
   "usage": {
     "total_tokens": 2222,
@@ -109,8 +109,8 @@
       "n": 7,
       "locuteur": "conseiller",
       "debut": 14.7,
-      "fin": 20.9,
-      "texte": "monsieur Petit. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance?"
+      "fin": 24.36,
+      "texte": "monsieur Petit. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance? [numéro masqué]"
     },
     {
       "n": 8,

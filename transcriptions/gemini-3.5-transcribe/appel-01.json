@@ -1,7 +1,7 @@
 {
   "appel": "01",
   "methode": "gemini-3.5-transcribe",
-  "date": "2026-10-05T00:16:03",
+  "date": "2026-10-05T00:45:07",
   "duree_audio_s": 287.1,
   "usage": {
     "total_tokens": 7180,
@@ -117,7 +117,7 @@
       "locuteur": "client",
       "debut": 35.5,
       "fin": 48.4,
-      "texte": "Alors code postal 69003 et je suis née le 14 mars 1985."
+      "texte": "Alors [numéro masqué] code postal 69003 et je suis née le 14 mars 1985."
     },
     {
       "n": 9,
@@ -263,67 +263,81 @@
       "n": 29,
       "locuteur": "conseiller",
       "debut": 186.2,
-      "fin": 204.6,
-      "texte": "Parfait. Je sécurise votre commande avec vous madame Lefèvre. Je confirme vos informations. Claire Lefèvre. Le répéteur sera livré à votre adresse de facturation, 12 rue des Tilleuls, 69003 Lyon. Est-ce bien la bonne adresse?"
+      "fin": 192.1,
+      "texte": "Parfait. Je sécurise votre commande avec vous madame Lefèvre. Je confirme vos informations. Claire Lefèvre."
     },
     {
       "n": 30,
+      "locuteur": "client",
+      "debut": 192.68,
+      "fin": 196.8,
+      "texte": "[numéro masqué]"
+    },
+    {
+      "n": 31,
+      "locuteur": "conseiller",
+      "debut": 197.6,
+      "fin": 204.6,
+      "texte": "Le répéteur sera livré à votre adresse de facturation, 12 rue des Tilleuls, 69003 Lyon. Est-ce bien la bonne adresse?"
+    },
+    {
+      "n": 32,
       "locuteur": "client",
       "debut": 205.2,
       "fin": 205.8,
       "texte": "Oui, c'est bien ça."
     },
     {
-      "n": 31,
+      "n": 33,
       "locuteur": "conseiller",
       "debut": 206.4,
       "fin": 233.2,
       "texte": "Merci. Je récapitule votre commande. Un répéteur wifi Keliote en location à 3 € par mois, sans engagement, ajouté à votre prochaine facture. Vous le recevrez par colis sous 3 à 5 jours. À la réception, il suffit de le brancher sur une prise, à mi-chemin entre la box et votre bureau, puis d'appuyer sur le bouton de connexion de la box. La notice est dans le colis. Je vous envoie dès maintenant un email récapitulatif de votre commande à signer électroniquement. Pouvez-vous me confirmer votre adresse email?"
     },
     {
-      "n": 32,
+      "n": 34,
       "locuteur": "client",
       "debut": 233.8,
       "fin": 238.6,
       "texte": "Alors c'est claire.lefèvre@exemple.com."
     },
     {
-      "n": 33,
+      "n": 35,
       "locuteur": "conseiller",
       "debut": 239.2,
       "fin": 255.2,
       "texte": "Merci. C'est envoyé euh depuis l'adresse ne.pas.répondre@keliote.exemple.com. Pensez à regarder dans vos courriers indésirables. Vous allez recevoir un code par SMS pour signer. Saisissez-le vous-même dans l'email et ne le communiquez à personne. Avez-vous bien reçu l'email?"
     },
     {
-      "n": 34,
+      "n": 36,
       "locuteur": "client",
       "debut": 257.6,
       "fin": 260.5,
       "texte": "Oui, je vais Voilà, c'est signé."
     },
     {
-      "n": 35,
+      "n": 37,
       "locuteur": "conseiller",
       "debut": 261.2,
       "fin": 275.5,
       "texte": "Parfait. Je vois la signature de mon côté. Pour récapituler notre échange, votre connexion internet est rétablie. Le souci venait du câble fibre légèrement débranché et votre répéteur wifi arrive sous 3 à 5 jours pour améliorer le signal dans votre bureau. Avez-vous d'autres questions madame Lefèvre?"
     },
     {
-      "n": 36,
+      "n": 38,
       "locuteur": "client",
       "debut": 276.2,
       "fin": 278.0,
       "texte": "Non, parfait. Merci."
     },
     {
-      "n": 37,
+      "n": 39,
       "locuteur": "conseiller",
       "debut": 278.5,
       "fin": 285.2,
       "texte": "C'est moi qui vous remercie pour votre confiance et votre patience. Je vous souhaite une excellente réunion et une très bonne journée madame Lefèvre. Au revoir."
     },
     {
-      "n": 38,
+      "n": 40,
       "locuteur": "client",
       "debut": 285.8,
       "fin": 286.9,

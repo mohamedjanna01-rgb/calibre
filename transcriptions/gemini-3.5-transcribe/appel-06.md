@@ -8,7 +8,7 @@
 
 **[00:06.5] Client :** Sandrine Benoit.
 
-**[00:07.0] Conseiller :** et je will prendre en charge Merci votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom? madame Benoit. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance?
+**[00:07.0] Conseiller :** et je will prendre en charge Merci votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom? madame Benoit. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance? [numéro masqué]
 
 **[00:31.4] Client :** 33000 le 9 septembre 1975.
 
