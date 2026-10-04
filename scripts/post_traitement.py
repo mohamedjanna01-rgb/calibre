@@ -33,11 +33,18 @@ AMBIANCE = PRODUCTION / "ambiance-plateau.wav"
 
 # --- Alignement texte / audio --------------------------------------------------------------
 
+INTERJECTIONS = {"hmm", "hm", "mm", "mmh", "mhm", "hum", "mmhmm"}
+
+
 def jetons(texte):
-    """Mots normalisés (minuscules, sans accents ni ponctuation) avec leur position dans le texte."""
+    """Mots normalisés (minuscules, sans accents ni ponctuation) avec leur position dans le texte.
+
+    Les nombres sont comparés chiffre par chiffre (« 1234 » et « 1, 2, 3, 4 » se correspondent).
+    Les interjections (« hmm », « mm-hmm ») sont exclues : une transcription automatique ne les écrit presque jamais.
+    """
     sans_accents = "".join(c for c in unicodedata.normalize("NFD", texte.lower()) if unicodedata.category(c) != "Mn")
-    # Les nombres sont comparés chiffre par chiffre : « 1234 » et « 1, 2, 3, 4 » se correspondent
-    return [(m.group(), m.start(), m.end()) for m in re.finditer(r"[a-z]+|\d", sans_accents)]
+    return [(m.group(), m.start(), m.end()) for m in re.finditer(r"[a-z]+|\d", sans_accents)
+            if m.group() not in INTERJECTIONS]
 
 
 def reference(script):
@@ -137,7 +144,9 @@ def controle(sm, ref, hyp, minimum=5):
         par_replique.setdefault(r["replique"], []).append(i in alignes)
     muettes = [n for n, vus in par_replique.items() if not any(vus)]
     return {"mots_du_script_retrouves_pct": round(100 * len(alignes) / max(1, len(ref)), 1),
-            "repliques_non_retrouvees": muettes, "passages_absents": absents, "passages_en_trop": en_trop}
+            "repliques_non_retrouvees": muettes,
+            "repliques_longues_non_retrouvees": [n for n in muettes if len(par_replique[n]) >= 3],
+            "passages_absents": absents, "passages_en_trop": en_trop}
 
 
 # --- Son -------------------------------------------------------------------------------------

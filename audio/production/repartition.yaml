@@ -1,6 +1,6 @@
 # Un seul modèle par appel complet. Le script de génération refuse tout autre modèle.
 appels:
-  appel-01: null  # suspendu : le modèle 2.5 s'arrête avant la fin
+  appel-01: gemini-3.8-flash-tts
   appel-02: null  # suspendu : le modèle 2.5 s'arrête avant la fin
   appel-03: gemini-3.8-flash-tts
   appel-04: null  # suspendu : le modèle 2.5 s'arrête avant la fin

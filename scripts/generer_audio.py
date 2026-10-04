@@ -21,8 +21,9 @@ import time
 import urllib.error
 import urllib.request
 import wave
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import yaml
 
@@ -42,8 +43,9 @@ MODELES = {
     "gemini-3.1-flash-tts-preview": "generate",
     "gemini-2.5-flash-preview-tts": "generate",
 }
-LIMITE_JOUR = 10    # requêtes par modèle sur 24 heures glissantes
+LIMITE_JOUR = 10    # requêtes par modèle et par jour (jour de Google : heure du Pacifique)
 LIMITE_MINUTE = 3   # requêtes par modèle sur 60 secondes glissantes
+PACIFIQUE = ZoneInfo("America/Los_Angeles")
 LOCUTEURS = {"conseiller": "Conseiller", "client": "Client"}
 BALISES_FR = {"sigh": "soupir", "chuckle": "petit rire", "short pause": "courte pause", "long pause": "longue pause",
               "cough": "toussote"}
@@ -69,39 +71,43 @@ class Compteur:
     """Empêche de dépasser LIMITE_JOUR et LIMITE_MINUTE requêtes par modèle.
 
     Chaque requête est enregistrée AVANT son envoi : une requête en échec compte aussi.
-    La fenêtre de 24 heures glissantes est plus prudente que la remise à zéro quotidienne de l'API.
+    Le quota quotidien suit la remise à zéro de Google : minuit heure du Pacifique (9 h à Paris).
     """
 
     def __init__(self, chemin=COMPTEUR):
         self.chemin = chemin
         self.historique = json.loads(chemin.read_text(encoding="utf-8")) if chemin.exists() else {}
 
-    def _recentes(self, modele, fenetre):
-        maintenant = time.time()
-        return [t for t in self.historique.get(modele, []) if maintenant - t < fenetre]
+    def _du_jour(self, modele):
+        """Requêtes envoyées depuis la dernière remise à zéro de Google."""
+        aujourdhui = datetime.now(PACIFIQUE).date()
+        return [t for t in self.historique.get(modele, []) if datetime.fromtimestamp(t, PACIFIQUE).date() == aujourdhui]
+
+    def _derniere_minute(self, modele):
+        return [t for t in self.historique.get(modele, []) if time.time() - t < 60]
 
     def restantes(self, modele):
-        return LIMITE_JOUR - len(self._recentes(modele, 86400))
+        return LIMITE_JOUR - len(self._du_jour(modele))
 
     def reserver(self, modele):
-        jour = self._recentes(modele, 86400)
-        if len(jour) >= LIMITE_JOUR:
-            liberation = datetime.fromtimestamp(min(jour) + 86400).strftime("%d/%m %H:%M")
-            sys.exit(f"Refusé : {LIMITE_JOUR} requêtes déjà envoyées en 24 h pour {modele}. "
-                     f"Prochaine requête possible le {liberation}.")
-        minute = self._recentes(modele, 60)
+        if len(self._du_jour(modele)) >= LIMITE_JOUR:
+            demain = datetime.now(PACIFIQUE).replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=1)
+            sys.exit(f"Refusé : {LIMITE_JOUR} requêtes déjà envoyées aujourd'hui pour {modele}. "
+                     f"Remise à zéro le {demain.astimezone().strftime('%d/%m à %H:%M')}.")
+        minute = self._derniere_minute(modele)
         if len(minute) >= LIMITE_MINUTE:
             attente = 60 - (time.time() - min(minute)) + 1
             print(f"Limite de {LIMITE_MINUTE} requêtes par minute atteinte pour {modele} : attente de {attente:.0f} s.")
             time.sleep(attente)
         self.historique.setdefault(modele, []).append(time.time())
-        self.historique[modele] = self._recentes(modele, 86400)
+        # On garde deux jours d'historique, largement assez pour les deux limites
+        self.historique[modele] = [t for t in self.historique[modele] if time.time() - t < 2 * 86400]
         self.chemin.parent.mkdir(parents=True, exist_ok=True)
         self.chemin.write_text(json.dumps(self.historique, indent=2), encoding="utf-8")
 
     def afficher(self):
         for m in MODELES:
-            print(f"{m:32s} {self.restantes(m):2d} / {LIMITE_JOUR} requêtes restantes sur 24 h")
+            print(f"{m:32s} {self.restantes(m):2d} / {LIMITE_JOUR} requêtes restantes aujourd'hui (heure du Pacifique)")
 
 
 # --- Construction de la requête -------------------------------------------------------
@@ -306,7 +312,7 @@ def main():
     }
     base.with_suffix(".json").write_text(json.dumps(infos, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"appel-{appel} / {a.modele} : {infos['duree_audio_s']} s d'audio en {infos['duree_requete_s']} s "
-          f"| reste {compteur.restantes(a.modele)} requêtes sur 24 h")
+          f"| reste {compteur.restantes(a.modele)} requêtes aujourd'hui")
 
 
 if __name__ == "__main__":

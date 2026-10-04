@@ -17,7 +17,7 @@ Un fichier par appel (`appel-01.yaml` à `appel-13.yaml`). Chaque fichier décri
   - effet de ligne téléphonique ([scripts/effet_telephone.py](../../scripts/effet_telephone.py)) : filtre de 300 à 3 400 Hz, 8 kHz, codage G.711 ;
   - numéros de téléphone (`masquer`) remplacés par un bip.
 - Sortie : `audio/appels/appel-XX.wav`, WAV mono 8 kHz, version téléphonique uniquement.
-- Offre gratuite : un compteur local (`audio/.compteur-requetes.json`, non versionné) bloque tout dépassement de **10 requêtes par modèle sur 24 heures glissantes** et de **3 par minute**. Une requête en échec compte aussi, et il n'y a jamais de nouvel essai automatique. `--etat` affiche les requêtes restantes, `--simulation` montre la requête sans l'envoyer.
+- Offre gratuite : un compteur local (`audio/.compteur-requetes.json`, non versionné) bloque tout dépassement de **10 requêtes par modèle et par jour** (remise à zéro de Google à minuit heure du Pacifique, soit 9 h à Paris) et de **3 par minute**. Une requête en échec compte aussi, et il n'y a jamais de nouvel essai automatique. `--etat` affiche les requêtes restantes, `--simulation` montre la requête sans l'envoyer.
 - La clé est lue dans la variable d'environnement locale `GEMINI_API_KEY`. Elle n'est jamais écrite dans un fichier.
 
 ## Format d'une réplique
@@ -38,7 +38,7 @@ Le fichier [prononciation.yaml](prononciation.yaml) indique comment faire pronon
 
 ## Évaluation de la transcription
 
-La génération en une seule requête ne fournit pas d'horodatage. La transcription est évaluée **mot par mot** à partir du texte des scénarios ([scenarios/](../../scenarios/)), une fois les balises de voix retirées. Les numéros masqués y figurent sous la forme `[numéro masqué]`.
+La génération en une seule requête ne fournit pas d'horodatage. La transcription est évaluée **mot par mot** à partir du texte des scénarios ([scenarios/](../../scenarios/)), une fois les balises de voix retirées. Les numéros masqués y figurent sous la forme `[numéro masqué]`. Les interjections (« hmm », « mm-hmm ») sont exclues du calcul mot à mot, et les nombres sont comparés chiffre par chiffre.
 
 ## Casting
 
