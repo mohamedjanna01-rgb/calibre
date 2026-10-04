@@ -1,15 +1,16 @@
 # Appel 07 – script de production audio
 # Ne jamais transmettre ce fichier à l'IA qui note : les consignes de ton révèlent les fautes.
 id: appel-07
+decoupe_apres: [23]  # génération en plusieurs requêtes, mêmes voix
 casting:
   conseiller:
     personnage: "Samir El Idrissi"
-    voix: Achird
-    profil: "homme, 33 ans, télévendeur dynamique, voix enjouée et souriante, français standard"
+    voix: Puck
+    profil: "homme, 33 ans, télévendeur dynamique, voix masculine jeune, claire et plutôt aiguë, énergique et souriante, français standard"
   client:
     personnage: "Philippe Durand"
     voix: Sadaltager
-    profil: "homme, 44 ans, père de famille, voix posée, français standard"
+    profil: "homme, 44 ans, père de famille, voix masculine grave et basse, timbre posé, parle plus lentement, français standard"
 repliques:
   - n: 1
     locuteur: client
@@ -21,7 +22,7 @@ repliques:
     ton: "courtois, souriant"
   - n: 3
     locuteur: client
-    texte: "Oui, bonjour… C'est qui ?"
+    texte: "Oui, bonjour… Euh, c'est qui ?"
     ton: "curieux, neutre"
   - n: 4
     locuteur: conseiller
@@ -45,7 +46,7 @@ repliques:
     ton: "attentionné"
   - n: 9
     locuteur: client
-    texte: "Oui, aucun souci."
+    texte: "Euh… oui, aucun souci."
     ton: "décontracté"
   - n: 10
     locuteur: conseiller
@@ -53,7 +54,7 @@ repliques:
     ton: "aimable"
   - n: 11
     locuteur: client
-    texte: "Durand Philippe, 67000, le 3 février 1982."
+    texte: "Durand Philippe, 67000, le 3 février… 1982."
     ton: "posé"
   - n: 12
     locuteur: conseiller
@@ -61,11 +62,11 @@ repliques:
     ton: "enthousiaste, curieux, naturel"
   - n: 13
     locuteur: client
-    texte: "Quatre : ma femme, nos deux enfants de 7 et 12 ans, et moi."
+    texte: "Alors… quatre : ma femme, nos deux enfants de… 7 et 12 ans, et moi."
     ton: "posé, souriant"
   - n: 14
     locuteur: conseiller
-    texte: "Et qui regarde le plus la télévision chez vous ?"
+    texte: "Et, euh… qui regarde le plus la télévision chez vous ?"
     ton: "intéressé"
   - n: 15
     locuteur: client
@@ -77,16 +78,16 @@ repliques:
     ton: "attentif"
   - n: 17
     locuteur: client
-    texte: "Les enfants, sur la tablette. Et on a déjà un abonnement à une plateforme de streaming."
+    texte: "Les enfants, sur la tablette. Et on a déjà un abonnement… à une plateforme de streaming."
     ton: "un peu sur la réserve"
   - n: 18
     locuteur: conseiller
-    texte: "D'accord. Et pour vos téléphones portables, vous êtes chez nous ou chez un autre opérateur ?"
+    texte: "D'accord. Et pour vos téléphones portables, vous êtes… vous êtes chez nous ou chez un autre opérateur ?"
     ton: "curieux, léger"
   - n: 19
     locuteur: client
-    texte: "Chez un autre opérateur, deux lignes."
-    ton: "neutre"
+    texte: "Chez un autre opérateur. Deux… <short pause> oui, deux lignes."
+    ton: "neutre ; vérifie mentalement avant de répondre"
   - n: 20
     locuteur: conseiller
     texte: "Merci, c'est noté. Avec tout ce que vous me dites, Monsieur Durand, j'ai quelque chose qui correspond vraiment à votre famille : le Pack Horizon. Je vous explique ce qu'il change chez vous. D'abord, 35 chaînes thématiques : du cinéma, des séries, des polars, des documentaires, de la découverte, de la musique, de la cuisine, du voyage… et surtout Horizon Kids et Horizon Junior, des programmes adaptés à l'âge de chacun de vos enfants, sans publicité."
@@ -101,7 +102,7 @@ repliques:
     ton: "dynamique, enthousiaste, chaleureux, rythme vivant mais articulé, sourire audible sur « Fini les disputes pour la télécommande ! »"
   - n: 23
     locuteur: client
-    texte: "Ça a l'air bien, mais on a déjà une plateforme de streaming…"
+    texte: "<breath> Ça a l'air bien, mais on a déjà une plateforme de streaming…"
     ton: "intéressé mais hésitant"
   - n: 24
     locuteur: conseiller
@@ -109,7 +110,7 @@ repliques:
     ton: "posé, convaincant, sans insister"
   - n: 25
     locuteur: client
-    texte: "Oui, mais additionné à la plateforme, ça commence à faire cher."
+    texte: "Oui, mais… additionné à la plateforme, ça commence à faire cher."
     ton: "réfléchi, prudent"
   - n: 26
     locuteur: conseiller
@@ -151,7 +152,7 @@ repliques:
     ton: "répète aimablement, en articulant"
   - n: 35
     locuteur: client
-    texte: "philippe.durand@example.com."
+    texte: "Alors… philippe.durand@example.com."
     ton: "dicte son adresse tranquillement"
   - n: 36
     locuteur: conseiller
@@ -160,7 +161,7 @@ repliques:
     pause_avant_ms: 700
   - n: 37
     locuteur: client
-    texte: "Oui, il y a un bouton « Signer »."
+    texte: "Attendez, je regarde… <long pause> Oui, il y a un bouton « Signer »."
     ton: "lit son écran"
     pause_avant_ms: 2500
   - n: 38
@@ -177,7 +178,7 @@ repliques:
     ton: "satisfait, clair"
   - n: 41
     locuteur: client
-    texte: "Non, c'est très clair."
+    texte: "<chuckle> Non, c'est très clair."
     ton: "satisfait"
   - n: 42
     locuteur: conseiller

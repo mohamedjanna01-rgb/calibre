@@ -19,7 +19,7 @@ def lire_wav(chemin):
 
 
 def ecrire_wav(chemin, signal, taux):
-    with wave.open(str(chemin), "wb") as w:
+    with wave.open(chemin if hasattr(chemin, "write") else str(chemin), "wb") as w:
         w.setnchannels(1)
         w.setsampwidth(2)
         w.setframerate(taux)

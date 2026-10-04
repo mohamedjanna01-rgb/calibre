@@ -5,11 +5,11 @@ casting:
   conseiller:
     personnage: "Conseillère (non nommée)"
     voix: Leda
-    profil: "femme, 24 ans, télévendeuse, voix féminine jeune, français standard"
+    profil: "femme, 24 ans, télévendeuse, voix féminine très jeune et aiguë, ton appuyé, français standard"
   client:
     personnage: "Céline Fabre"
-    voix: Zephyr
-    profil: "femme, 42 ans, mère de famille occupée, voix vive, français standard"
+    voix: Kore
+    profil: "femme, 42 ans, mère de famille occupée, voix féminine grave et mûre, timbre un peu rauque, français standard"
 repliques:
   - n: 1
     locuteur: client
@@ -29,7 +29,7 @@ repliques:
     ton: "pressée, ton commercial forcé"
   - n: 5
     locuteur: client
-    texte: "Oui… Je prépare le dîner, là."
+    texte: "Oui… euh, je prépare le dîner, là."
     ton: "occupée, distraite, un peu agacée"
   - n: 6
     locuteur: conseiller
@@ -38,53 +38,61 @@ repliques:
     chevauchement_ms: 300
   - n: 7
     locuteur: client
-    texte: "Fabre Céline, 06000, le 25 juin 1984."
-    ton: "agacée, rapide"
+    texte: "<breath> Fabre Céline, 06000… le 25 juin 1984."
+    ton: "agacée, rapide ; un peu essoufflée, occupée à autre chose"
   - n: 8
     locuteur: conseiller
     texte: "Vous avez des enfants ?"
     ton: "directe, sans transition"
   - n: 9
     locuteur: client
-    texte: "Oui, deux, ils ont 5 et 9 ans. Ils regardent surtout des dessins animés sur une plateforme de streaming, sur la tablette."
-    ton: "méfiante, mais répond"
+    texte: "Oui, deux."
+    ton: "méfiante, brève"
   - n: 10
+    locuteur: conseiller
+    texte: "Ils ont quel âge ? Ils regardent la télé ?"
+    ton: "directe, enchaîne sans vraiment écouter"
+  - n: 11
+    locuteur: client
+    texte: "5 et 9 ans. Ils regardent surtout des dessins animés, sur une appli de streaming, sur la tablette."
+    ton: "répond à contrecœur, distraite par le dîner"
+  - n: 12
     locuteur: conseiller
     texte: "Ah, les plateformes de streaming, honnêtement, ce n'est pas terrible pour les enfants, on ne sait jamais ce qu'ils regardent. Il vous faut le Pack Horizon, 12,99 € par mois. Je vous l'active ?"
     ton: "dénigrante, sûre d'elle, ton de conseil appuyé, puis pressante sur « Je vous l'active ? »"
-  - n: 11
+  - n: 13
     locuteur: client
     texte: "Non merci, ça ne m'intéresse pas."
     ton: "ferme, polie"
-  - n: 12
+  - n: 14
     locuteur: conseiller
     texte: "Attendez, vous ne savez même pas ce qu'il y a dedans…"
     ton: "insistante, légèrement vexée, coupe la parole à la cliente"
     chevauchement_ms: 400
-  - n: 13
+  - n: 15
     locuteur: client
     texte: "Je vous ai dit non. Je n'ai vraiment pas le temps, là."
     ton: "agacée, plus forte"
-  - n: 14
+  - n: 16
     locuteur: conseiller
     texte: "Deux minutes, c'est tout ce que je vous demande. Franchement, vous allez le regretter si vous ne…"
     ton: "pressante, culpabilisante ; elle est coupée net après « si vous ne »"
     chevauchement_ms: 400
     coupee: true
-  - n: 15
+  - n: 17
     locuteur: client
     texte: "Non ! Je n'en veux pas."
     ton: "exaspérée, élève la voix, coupe la parole"
     chevauchement_ms: 300
-  - n: 16
+  - n: 18
     locuteur: conseiller
     texte: "Pensez au moins à vos enfants, quand même. Tous les parents le prennent, vous savez."
     ton: "culpabilisante, moralisatrice"
-  - n: 17
+  - n: 19
     locuteur: client
     texte: "Écoutez, je raccroche. Au revoir."
     ton: "excédée, sèche"
-  - n: 18
+  - n: 20
     locuteur: conseiller
     texte: "Comme vous voulez."
     ton: "vexée, froide, à moitié marmonné"

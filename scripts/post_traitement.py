@@ -33,14 +33,14 @@ AMBIANCE = PRODUCTION / "ambiance-plateau.wav"
 
 # --- Alignement texte / audio --------------------------------------------------------------
 
-INTERJECTIONS = {"hmm", "hm", "mm", "mmh", "mhm", "hum", "mmhmm"}
+INTERJECTIONS = {"hmm", "hm", "mm", "mmh", "mhm", "hum", "mmhmm", "euh", "heu"}
 
 
 def jetons(texte):
     """Mots normalisés (minuscules, sans accents ni ponctuation) avec leur position dans le texte.
 
     Les nombres sont comparés chiffre par chiffre (« 1234 » et « 1, 2, 3, 4 » se correspondent).
-    Les interjections (« hmm », « mm-hmm ») sont exclues : une transcription automatique ne les écrit presque jamais.
+    Les interjections (« hmm », « mm-hmm », « euh ») sont exclues : une transcription automatique ne les écrit presque jamais.
     """
     sans_accents = "".join(c for c in unicodedata.normalize("NFD", texte.lower()) if unicodedata.category(c) != "Mn")
     return [(m.group(), m.start(), m.end()) for m in re.finditer(r"[a-z]+|\d", sans_accents)

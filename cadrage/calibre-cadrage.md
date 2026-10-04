@@ -153,17 +153,17 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Conseiller :** Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?
 >
-> **Cliente :** [numéro masqué], code postal 69003, et je suis née le 14 mars 1985.
+> **Cliente :** Alors… [numéro masqué], code postal 69003, et je suis née le 14 mars 1985.
 >
 > **Conseiller :** Parfait, merci. Je vous écoute, que se passe-t-il ?
 >
-> **Cliente :** Depuis ce matin, internet ne fonctionne plus du tout. Je télétravaille, et là je ne peux rien faire, j'ai une réunion dans une heure… C'est vraiment pénible.
+> **Cliente :** Depuis ce matin, internet ne fonctionne plus du tout. Je télétravaille, et là je… je ne peux rien faire, j'ai une réunion dans une heure… C'est vraiment pénible.
 >
 > **Conseiller :** Je comprends tout à fait, c'est très gênant quand on travaille de chez soi. On va regarder ça ensemble. Pouvez-vous me dire de quelle couleur est le voyant de votre box ?
 >
-> **Cliente :** Il est orange, il ne clignote pas.
+> **Cliente :** Euh… attendez, je regarde… Il est orange, il ne clignote pas.
 >
-> **Conseiller :** D'accord. Et avez-vous déjà essayé de redémarrer la box ?
+> **Conseiller :** D'accord. Et avez-vous déjà essayé de… de redémarrer la box ?
 >
 > **Cliente :** Oui, deux fois, ça n'a rien changé.
 >
@@ -177,15 +177,15 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Conseiller :** Le plus souvent, c'est le câble fibre qui s'est légèrement débranché. Pouvez-vous vérifier que le câble est bien enfoncé des deux côtés, dans la prise murale et dans la box, jusqu'à entendre un petit clic ?
 >
-> **Cliente :** Attendez… Ah oui, côté box, il était un peu sorti. Voilà, j'ai entendu le clic.
+> **Cliente :** Attendez… Euh… ah oui, côté box, il était un peu sorti. Voilà, j'ai entendu le clic.
 >
 > **Conseiller :** Parfait. Un instant, s'il vous plaît. Je vois de mon côté que votre box est de nouveau connectée. Le voyant est-il passé au blanc ?
 >
 > **Cliente :** Oui ! Ça remarche, merci beaucoup !
 >
-> **Conseiller :** Avec plaisir, Madame Lefèvre. Vous m'avez dit que vous télétravaillez : votre Wi-Fi capte-t-il bien dans toutes les pièces de votre logement ?
+> **Conseiller :** Avec plaisir, Madame Lefèvre. Alors… vous m'avez dit que vous télétravaillez : votre Wi-Fi capte-t-il bien dans toutes les pièces de votre logement ?
 >
-> **Cliente :** Pas vraiment, dans mon bureau à l'étage, ça coupe souvent.
+> **Cliente :** Pas vraiment… dans mon bureau à l'étage, ça coupe souvent.
 >
 > **Conseiller :** C'est justement ce qui peut faire planter une visio en pleine réunion. Nous avons un répéteur Wi-Fi qui se branche simplement sur une prise, à mi-chemin entre la box et votre bureau, et qui renforce le signal à l'étage.
 >
@@ -205,9 +205,9 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Conseiller :** Merci. Je récapitule votre commande : un répéteur Wi-Fi Kalyo, en location à 3 € par mois, sans engagement, ajouté à votre prochaine facture. Vous le recevrez par colis sous 3 à 5 jours ouvrés. À la réception, il suffit de le brancher sur une prise à mi-chemin entre la box et votre bureau, puis d'appuyer sur le bouton de connexion de la box : la notice est dans le colis. Je vous envoie dès maintenant un e-mail récapitulatif de votre commande à signer électroniquement. Pouvez-vous me confirmer votre adresse e-mail ?
 >
-> **Cliente :** claire.lefevre@example.com.
+> **Cliente :** Alors, c'est claire.lefevre@example.com.
 >
-> **Conseiller :** Merci, c'est envoyé, depuis l'adresse ne-pas-repondre@kalyo-telecom.example. Pensez à regarder dans vos courriers indésirables. Vous allez recevoir un code par SMS pour signer : saisissez-le vous-même dans l'e-mail, et ne le communiquez à personne. Avez-vous bien reçu l'e-mail ?
+> **Conseiller :** Merci, c'est envoyé, euh… depuis l'adresse ne-pas-repondre@kalyo-telecom.example. Pensez à regarder dans vos courriers indésirables. Vous allez recevoir un code par SMS pour signer : saisissez-le vous-même dans l'e-mail, et ne le communiquez à personne. Avez-vous bien reçu l'e-mail ?
 >
 > **Cliente :** Oui, je l'ai. Voilà, c'est signé.
 >
@@ -493,7 +493,7 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Conseiller :** Bonjour, Monsieur Durand ?
 >
-> **Client :** Oui, bonjour… C'est qui ?
+> **Client :** Oui, bonjour… Euh, c'est qui ?
 >
 > **Conseiller :** Samir El Idrissi, conseiller chez Kalyo Télécom, votre opérateur.
 >
@@ -505,27 +505,27 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Conseiller :** Merci. Avant tout, je voulais faire un point avec vous : tout fonctionne bien avec votre box et votre télévision ?
 >
-> **Client :** Oui, aucun souci.
+> **Client :** Euh… oui, aucun souci.
 >
 > **Conseiller :** Tant mieux. Pour sécuriser notre échange, pouvez-vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?
 >
-> **Client :** Durand Philippe, 67000, le 3 février 1982.
+> **Client :** Durand Philippe, 67000, le 3 février… 1982.
 >
 > **Conseiller :** Merci, Monsieur Durand. Nous avons en ce moment un avantage réservé à nos clients sur la télévision. Pour voir s'il peut vous être utile, puis-je vous poser quelques questions ? Combien êtes-vous à la maison ?
 >
-> **Client :** Quatre : ma femme, nos deux enfants de 7 et 12 ans, et moi.
+> **Client :** Alors… quatre : ma femme, nos deux enfants de… 7 et 12 ans, et moi.
 >
-> **Conseiller :** Et qui regarde le plus la télévision chez vous ?
+> **Conseiller :** Et, euh… qui regarde le plus la télévision chez vous ?
 >
 > **Client :** Les enfants, surtout. Ma femme et moi, on regarde des films le soir, mais on finit tard, on rate souvent le début.
 >
 > **Conseiller :** Je vois. Et vous arrive-t-il de regarder sur tablette ou sur téléphone ?
 >
-> **Client :** Les enfants, sur la tablette. Et on a déjà un abonnement à une plateforme de streaming.
+> **Client :** Les enfants, sur la tablette. Et on a déjà un abonnement… à une plateforme de streaming.
 >
-> **Conseiller :** D'accord. Et pour vos téléphones portables, vous êtes chez nous ou chez un autre opérateur ?
+> **Conseiller :** D'accord. Et pour vos téléphones portables, vous êtes… vous êtes chez nous ou chez un autre opérateur ?
 >
-> **Client :** Chez un autre opérateur, deux lignes.
+> **Client :** Chez un autre opérateur. Deux… oui, deux lignes.
 >
 > **Conseiller :** Merci, c'est noté. Avec tout ce que vous me dites, Monsieur Durand, j'ai quelque chose qui correspond vraiment à votre famille : le Pack Horizon. Je vous explique ce qu'il change chez vous. D'abord, 35 chaînes thématiques : du cinéma, des séries, des polars, des documentaires, de la découverte, de la musique, de la cuisine, du voyage… et surtout Horizon Kids et Horizon Junior, des programmes adaptés à l'âge de chacun de vos enfants, sans publicité.
 >
@@ -537,7 +537,7 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Conseiller :** Je comprends, et beaucoup de nos clients en ont une aussi. La différence, c'est que le Pack Horizon ajoute des chaînes en direct et un catalogue différent, directement sur votre décodeur, sans nouveau compte à créer ni mot de passe à retenir. Votre plateforme, c'est ce que vous choisissez de regarder ; Horizon, c'est aussi ce que vous découvrez en allumant la télé. Les deux se complètent.
 >
-> **Client :** Oui, mais additionné à la plateforme, ça commence à faire cher.
+> **Client :** Oui, mais… additionné à la plateforme, ça commence à faire cher.
 >
 > **Conseiller :** C'est une vraie question, et je vais être transparent avec vous. Le Pack Horizon est à 12,99 € par mois, soit environ 43 centimes par jour. Pour vous donner une idée, c'est à peu près le prix d'une seule place de cinéma… pour un mois entier de films, pour quatre personnes. Une seule sortie au cinéma en famille vous coûterait déjà plus de quatre fois ce prix.
 >
@@ -557,11 +557,11 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Conseiller :** Pouvez-vous me confirmer votre adresse e-mail ?
 >
-> **Client :** philippe.durand@example.com.
+> **Client :** Alors… philippe.durand@example.com.
 >
 > **Conseiller :** C'est envoyé, depuis l'adresse ne-pas-repondre@kalyo-telecom.example. Je reste en ligne avec vous : l'avez-vous bien reçu ?
 >
-> **Client :** Oui, il y a un bouton « Signer ».
+> **Client :** Attendez, je regarde… Oui, il y a un bouton « Signer ».
 >
 > **Conseiller :** C'est bien ça. Vous y retrouvez tout ce que je viens de vous dire. Si tout est correct, cliquez sur « Signer ». Vous allez recevoir un code par SMS : saisissez-le vous-même dans l'e-mail, et surtout, ne me le communiquez pas, ni à moi ni à personne. Un conseiller Kalyo ne vous le demandera jamais.
 >
@@ -681,7 +681,7 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 
 **Situation :** un lundi à 19 h, la conseillère appelle Madame Fabre, cliente Box Évolution.
 **Niveau visé :** Insuffisant (environ 20 %), donc mise en garde.
-**Fautes voulues :** accueil bâclé ; aucune vérification de fonctionnement ; une seule question de découverte ; dénigrement de la concurrence ; proposition réduite à un prix ; pression et culpabilisation (« vous allez le regretter », « pensez à vos enfants », « tous les parents le prennent ») ; parole coupée ; trois refus et « je n'ai pas le temps » ignorés ; nom jamais prononcé ; aucune excuse ; conclusion inexistante. « Tous les parents le prennent » est classé comme pression, et non comme mensonge sur l'offre.
+**Fautes voulues :** accueil bâclé ; aucune vérification de fonctionnement ; découverte réduite aux enfants (rien sur les téléphones ni les lignes mobiles) ; dénigrement de la concurrence ; proposition réduite à un prix ; pression et culpabilisation (« vous allez le regretter », « pensez à vos enfants », « tous les parents le prennent ») ; parole coupée ; trois refus et « je n'ai pas le temps » ignorés ; nom jamais prononcé ; aucune excuse ; conclusion inexistante. « Tous les parents le prennent » est classé comme pression, et non comme mensonge sur l'offre.
 
 > **Cliente :** Allô ?
 >
@@ -691,15 +691,19 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 >
 > **Conseiller :** Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Vous êtes bien la titulaire de la box ?
 >
-> **Cliente :** Oui… Je prépare le dîner, là.
+> **Cliente :** Oui… euh, je prépare le dîner, là.
 >
 > **Conseiller :** Ça ne sera pas long. Nom, code postal, date de naissance ?
 >
-> **Cliente :** Fabre Céline, 06000, le 25 juin 1984.
+> **Cliente :** Fabre Céline, 06000… le 25 juin 1984.
 >
 > **Conseiller :** Vous avez des enfants ?
 >
-> **Cliente :** Oui, deux, ils ont 5 et 9 ans. Ils regardent surtout des dessins animés sur une plateforme de streaming, sur la tablette.
+> **Cliente :** Oui, deux.
+>
+> **Conseiller :** Ils ont quel âge ? Ils regardent la télé ?
+>
+> **Cliente :** 5 et 9 ans. Ils regardent surtout des dessins animés, sur une appli de streaming, sur la tablette.
 >
 > **Conseiller :** Ah, les plateformes de streaming, honnêtement, ce n'est pas terrible pour les enfants, on ne sait jamais ce qu'ils regardent. Il vous faut le Pack Horizon, 12,99 € par mois. Je vous l'active ?
 >

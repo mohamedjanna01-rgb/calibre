@@ -18,7 +18,7 @@ fiche:
 
 **Conseiller :** Bonjour, Monsieur Durand ?
 
-**Client :** Oui, bonjour… C'est qui ?
+**Client :** Oui, bonjour… Euh, c'est qui ?
 
 **Conseiller :** Samir El Idrissi, conseiller chez Kalyo Télécom, votre opérateur.
 
@@ -30,27 +30,27 @@ fiche:
 
 **Conseiller :** Merci. Avant tout, je voulais faire un point avec vous : tout fonctionne bien avec votre box et votre télévision ?
 
-**Client :** Oui, aucun souci.
+**Client :** Euh… oui, aucun souci.
 
 **Conseiller :** Tant mieux. Pour sécuriser notre échange, pouvez-vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?
 
-**Client :** Durand Philippe, 67000, le 3 février 1982.
+**Client :** Durand Philippe, 67000, le 3 février… 1982.
 
 **Conseiller :** Merci, Monsieur Durand. Nous avons en ce moment un avantage réservé à nos clients sur la télévision. Pour voir s'il peut vous être utile, puis-je vous poser quelques questions ? Combien êtes-vous à la maison ?
 
-**Client :** Quatre : ma femme, nos deux enfants de 7 et 12 ans, et moi.
+**Client :** Alors… quatre : ma femme, nos deux enfants de… 7 et 12 ans, et moi.
 
-**Conseiller :** Et qui regarde le plus la télévision chez vous ?
+**Conseiller :** Et, euh… qui regarde le plus la télévision chez vous ?
 
 **Client :** Les enfants, surtout. Ma femme et moi, on regarde des films le soir, mais on finit tard, on rate souvent le début.
 
 **Conseiller :** Je vois. Et vous arrive-t-il de regarder sur tablette ou sur téléphone ?
 
-**Client :** Les enfants, sur la tablette. Et on a déjà un abonnement à une plateforme de streaming.
+**Client :** Les enfants, sur la tablette. Et on a déjà un abonnement… à une plateforme de streaming.
 
-**Conseiller :** D'accord. Et pour vos téléphones portables, vous êtes chez nous ou chez un autre opérateur ?
+**Conseiller :** D'accord. Et pour vos téléphones portables, vous êtes… vous êtes chez nous ou chez un autre opérateur ?
 
-**Client :** Chez un autre opérateur, deux lignes.
+**Client :** Chez un autre opérateur. Deux… oui, deux lignes.
 
 **Conseiller :** Merci, c'est noté. Avec tout ce que vous me dites, Monsieur Durand, j'ai quelque chose qui correspond vraiment à votre famille : le Pack Horizon. Je vous explique ce qu'il change chez vous. D'abord, 35 chaînes thématiques : du cinéma, des séries, des polars, des documentaires, de la découverte, de la musique, de la cuisine, du voyage… et surtout Horizon Kids et Horizon Junior, des programmes adaptés à l'âge de chacun de vos enfants, sans publicité.
 
@@ -62,7 +62,7 @@ fiche:
 
 **Conseiller :** Je comprends, et beaucoup de nos clients en ont une aussi. La différence, c'est que le Pack Horizon ajoute des chaînes en direct et un catalogue différent, directement sur votre décodeur, sans nouveau compte à créer ni mot de passe à retenir. Votre plateforme, c'est ce que vous choisissez de regarder ; Horizon, c'est aussi ce que vous découvrez en allumant la télé. Les deux se complètent.
 
-**Client :** Oui, mais additionné à la plateforme, ça commence à faire cher.
+**Client :** Oui, mais… additionné à la plateforme, ça commence à faire cher.
 
 **Conseiller :** C'est une vraie question, et je vais être transparent avec vous. Le Pack Horizon est à 12,99 € par mois, soit environ 43 centimes par jour. Pour vous donner une idée, c'est à peu près le prix d'une seule place de cinéma… pour un mois entier de films, pour quatre personnes. Une seule sortie au cinéma en famille vous coûterait déjà plus de quatre fois ce prix.
 
@@ -82,11 +82,11 @@ fiche:
 
 **Conseiller :** Pouvez-vous me confirmer votre adresse e-mail ?
 
-**Client :** philippe.durand@example.com.
+**Client :** Alors… philippe.durand@example.com.
 
 **Conseiller :** C'est envoyé, depuis l'adresse ne-pas-repondre@kalyo-telecom.example. Je reste en ligne avec vous : l'avez-vous bien reçu ?
 
-**Client :** Oui, il y a un bouton « Signer ».
+**Client :** Attendez, je regarde… Oui, il y a un bouton « Signer ».
 
 **Conseiller :** C'est bien ça. Vous y retrouvez tout ce que je viens de vous dire. Si tout est correct, cliquez sur « Signer ». Vous allez recevoir un code par SMS : saisissez-le vous-même dans l'e-mail, et surtout, ne me le communiquez pas, ni à moi ni à personne. Un conseiller Kalyo ne vous le demandera jamais.
 

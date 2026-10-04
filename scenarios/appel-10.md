@@ -22,15 +22,19 @@ fiche:
 
 **Conseiller :** Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Vous êtes bien la titulaire de la box ?
 
-**Cliente :** Oui… Je prépare le dîner, là.
+**Cliente :** Oui… euh, je prépare le dîner, là.
 
 **Conseiller :** Ça ne sera pas long. Nom, code postal, date de naissance ?
 
-**Cliente :** Fabre Céline, 06000, le 25 juin 1984.
+**Cliente :** Fabre Céline, 06000… le 25 juin 1984.
 
 **Conseiller :** Vous avez des enfants ?
 
-**Cliente :** Oui, deux, ils ont 5 et 9 ans. Ils regardent surtout des dessins animés sur une plateforme de streaming, sur la tablette.
+**Cliente :** Oui, deux.
+
+**Conseiller :** Ils ont quel âge ? Ils regardent la télé ?
+
+**Cliente :** 5 et 9 ans. Ils regardent surtout des dessins animés, sur une appli de streaming, sur la tablette.
 
 **Conseiller :** Ah, les plateformes de streaming, honnêtement, ce n'est pas terrible pour les enfants, on ne sait jamais ce qu'ils regardent. Il vous faut le Pack Horizon, 12,99 € par mois. Je vous l'active ?
 

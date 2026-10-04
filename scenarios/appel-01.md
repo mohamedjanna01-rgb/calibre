@@ -28,17 +28,17 @@ fiche:
 
 **Conseiller :** Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?
 
-**Cliente :** [numéro masqué], code postal 69003, et je suis née le 14 mars 1985.
+**Cliente :** Alors… [numéro masqué], code postal 69003, et je suis née le 14 mars 1985.
 
 **Conseiller :** Parfait, merci. Je vous écoute, que se passe-t-il ?
 
-**Cliente :** Depuis ce matin, internet ne fonctionne plus du tout. Je télétravaille, et là je ne peux rien faire, j'ai une réunion dans une heure… C'est vraiment pénible.
+**Cliente :** Depuis ce matin, internet ne fonctionne plus du tout. Je télétravaille, et là je… je ne peux rien faire, j'ai une réunion dans une heure… C'est vraiment pénible.
 
 **Conseiller :** Je comprends tout à fait, c'est très gênant quand on travaille de chez soi. On va regarder ça ensemble. Pouvez-vous me dire de quelle couleur est le voyant de votre box ?
 
-**Cliente :** Il est orange, il ne clignote pas.
+**Cliente :** Euh… attendez, je regarde… Il est orange, il ne clignote pas.
 
-**Conseiller :** D'accord. Et avez-vous déjà essayé de redémarrer la box ?
+**Conseiller :** D'accord. Et avez-vous déjà essayé de… de redémarrer la box ?
 
 **Cliente :** Oui, deux fois, ça n'a rien changé.
 
@@ -52,15 +52,15 @@ fiche:
 
 **Conseiller :** Le plus souvent, c'est le câble fibre qui s'est légèrement débranché. Pouvez-vous vérifier que le câble est bien enfoncé des deux côtés, dans la prise murale et dans la box, jusqu'à entendre un petit clic ?
 
-**Cliente :** Attendez… Ah oui, côté box, il était un peu sorti. Voilà, j'ai entendu le clic.
+**Cliente :** Attendez… Euh… ah oui, côté box, il était un peu sorti. Voilà, j'ai entendu le clic.
 
 **Conseiller :** Parfait. Un instant, s'il vous plaît. Je vois de mon côté que votre box est de nouveau connectée. Le voyant est-il passé au blanc ?
 
 **Cliente :** Oui ! Ça remarche, merci beaucoup !
 
-**Conseiller :** Avec plaisir, Madame Lefèvre. Vous m'avez dit que vous télétravaillez : votre Wi-Fi capte-t-il bien dans toutes les pièces de votre logement ?
+**Conseiller :** Avec plaisir, Madame Lefèvre. Alors… vous m'avez dit que vous télétravaillez : votre Wi-Fi capte-t-il bien dans toutes les pièces de votre logement ?
 
-**Cliente :** Pas vraiment, dans mon bureau à l'étage, ça coupe souvent.
+**Cliente :** Pas vraiment… dans mon bureau à l'étage, ça coupe souvent.
 
 **Conseiller :** C'est justement ce qui peut faire planter une visio en pleine réunion. Nous avons un répéteur Wi-Fi qui se branche simplement sur une prise, à mi-chemin entre la box et votre bureau, et qui renforce le signal à l'étage.
 
@@ -80,9 +80,9 @@ fiche:
 
 **Conseiller :** Merci. Je récapitule votre commande : un répéteur Wi-Fi Kalyo, en location à 3 € par mois, sans engagement, ajouté à votre prochaine facture. Vous le recevrez par colis sous 3 à 5 jours ouvrés. À la réception, il suffit de le brancher sur une prise à mi-chemin entre la box et votre bureau, puis d'appuyer sur le bouton de connexion de la box : la notice est dans le colis. Je vous envoie dès maintenant un e-mail récapitulatif de votre commande à signer électroniquement. Pouvez-vous me confirmer votre adresse e-mail ?
 
-**Cliente :** claire.lefevre@example.com.
+**Cliente :** Alors, c'est claire.lefevre@example.com.
 
-**Conseiller :** Merci, c'est envoyé, depuis l'adresse ne-pas-repondre@kalyo-telecom.example. Pensez à regarder dans vos courriers indésirables. Vous allez recevoir un code par SMS pour signer : saisissez-le vous-même dans l'e-mail, et ne le communiquez à personne. Avez-vous bien reçu l'e-mail ?
+**Conseiller :** Merci, c'est envoyé, euh… depuis l'adresse ne-pas-repondre@kalyo-telecom.example. Pensez à regarder dans vos courriers indésirables. Vous allez recevoir un code par SMS pour signer : saisissez-le vous-même dans l'e-mail, et ne le communiquez à personne. Avez-vous bien reçu l'e-mail ?
 
 **Cliente :** Oui, je l'ai. Voilà, c'est signé.
 

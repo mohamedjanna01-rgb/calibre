@@ -25,6 +25,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+import numpy as np
 import yaml
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -161,10 +162,11 @@ def corps_interactions(modele, script, repliques):
     }
 
 
-def corps_generate(script, repliques):
+def corps_generate(script, repliques, suite=False):
     casting = script["casting"]
     lignes = [
-        "Synthétise cette conversation téléphonique en français de France, entre un conseiller "
+        ("Voici la suite de la même conversation téléphonique, avec les mêmes voix. " if suite else "")
+        + "Synthétise cette conversation téléphonique en français de France, entre un conseiller "
         "de Kalyo Télécom (Conseiller) et son client (Client).",
         "Profils des voix :",
         f"- Conseiller : {decrire(casting['conseiller'])}",
@@ -233,12 +235,25 @@ def pcm_vers_wav(octets, mime):
     return tampon.getvalue()
 
 
-def finaliser(octets, mime, appel, sortie):
+def assembler(parties_wav, silence_s=0.45):
+    """Met bout à bout les parties d'un appel généré en plusieurs requêtes, séparées par un court silence."""
+    signaux, taux = [], None
+    for octets in parties_wav:
+        s, t = lire_wav(io.BytesIO(octets))
+        assert taux in (None, t), "fréquences différentes entre les parties"
+        taux = t
+        signaux += [s, np.zeros(int(silence_s * t))]
+    tampon = io.BytesIO()
+    ecrire_wav(tampon, np.concatenate(signaux[:-1]), taux)  # sans le silence final
+    return tampon.getvalue()
+
+
+def finaliser(parties_wav, appel, sortie):
     """Conserve la voix brute en local (audio/brut/, non versionné), pour pouvoir refaire le traitement
     du son sans nouvelle requête, puis produit la version finale avec effet de ligne téléphonique."""
     brut = ROOT / "audio" / "brut" / f"appel-{appel}.wav"
     brut.parent.mkdir(parents=True, exist_ok=True)
-    brut.write_bytes(pcm_vers_wav(octets, mime))
+    brut.write_bytes(parties_wav[0] if len(parties_wav) == 1 else assembler(parties_wav))
     if Path(sortie) == Path(SORTIE_FINALE):
         return traiter(appel)  # ambiance, grésillements, bips, contrôle de fidélité
     signal, taux = lire_wav(brut)
@@ -275,39 +290,56 @@ def main():
     script, prononciation = charger(appel)
     repliques = preparer_repliques(script, prononciation)
     route = MODELES[a.modele]
+
+    # Appels longs : plusieurs requêtes, mêmes voix et même consigne, coupées aux répliques indiquées
+    coupes = [0] + list(script.get("decoupe_apres", [])) + [len(repliques)]
+    parties = [repliques[coupes[k]:coupes[k + 1]] for k in range(len(coupes) - 1)]
     if route == "interactions":
-        url, corps = f"{API}/interactions", corps_interactions(a.modele, script, repliques)
+        url = f"{API}/interactions"
+        corps_parties = [corps_interactions(a.modele, script, rep) for rep in parties]
     else:
-        url, corps = f"{API}/models/{a.modele}:generateContent", corps_generate(script, repliques)
+        url = f"{API}/models/{a.modele}:generateContent"
+        corps_parties = [corps_generate(script, rep, suite=k > 0) for k, rep in enumerate(parties)]
 
     if a.simulation:
-        print(json.dumps(corps, ensure_ascii=False, indent=2))
+        print(json.dumps(corps_parties[0] if len(corps_parties) == 1 else corps_parties, ensure_ascii=False, indent=2))
         return
 
     cle = os.environ.get("GEMINI_API_KEY")
     if not cle:
         sys.exit("Variable d'environnement GEMINI_API_KEY absente.")
 
-    compteur.reserver(a.modele)
-    debut = time.time()
-    reponse = envoyer(url, corps, cle)
-    duree_requete = time.time() - debut
-    # Réponse sauvegardée telle quelle avant tout traitement : rien n'est perdu en cas d'erreur locale
-    sauvegarde = ROOT / "audio" / "brut" / f"appel-{appel}.{a.modele}.reponse.json"
-    sauvegarde.parent.mkdir(parents=True, exist_ok=True)
-    sauvegarde.write_text(json.dumps(reponse), encoding="utf-8")
-    octets, mime = extraire_audio(reponse)
-    controle = finaliser(octets, mime, appel, a.sortie)
-    sauvegarde.unlink()
+    parties_wav, usages, mimes, sauvegardes, duree_requete = [], [], [], [], 0.0
+    for k, corps in enumerate(corps_parties, 1):
+        compteur.reserver(a.modele)
+        debut = time.time()
+        reponse = envoyer(url, corps, cle)  # en cas d'échec : arrêt immédiat, les parties reçues restent sauvegardées
+        duree_requete += time.time() - debut
+        # Réponse sauvegardée telle quelle avant tout traitement : rien n'est perdu en cas d'erreur locale
+        suffixe = f".partie{k}" if len(corps_parties) > 1 else ""
+        sauvegarde = ROOT / "audio" / "brut" / f"appel-{appel}{suffixe}.{a.modele}.reponse.json"
+        sauvegarde.parent.mkdir(parents=True, exist_ok=True)
+        sauvegarde.write_text(json.dumps(reponse), encoding="utf-8")
+        sauvegardes.append(sauvegarde)
+        octets, mime = extraire_audio(reponse)
+        parties_wav.append(pcm_vers_wav(octets, mime))
+        mimes.append(mime)
+        usages.append(reponse.get("usageMetadata") or reponse.get("usage"))
+        if len(corps_parties) > 1:
+            print(f"appel-{appel} : partie {k}/{len(corps_parties)} reçue", flush=True)
+    controle = finaliser(parties_wav, appel, a.sortie)
+    for s in sauvegardes:
+        s.unlink()
     base = ROOT / a.sortie / f"appel-{appel}"
     signal, taux = lire_wav(base.with_suffix(".wav"))
 
     infos = {
         "appel": appel, "modele": a.modele, "route": route,
         "date": datetime.now().isoformat(timespec="seconds"),
-        "repliques": len(repliques), "duree_audio_s": round(len(signal) / taux, 1),
-        "duree_requete_s": round(duree_requete, 1), "format_recu": mime or "audio/wav",
-        "usage": reponse.get("usageMetadata") or reponse.get("usage"),
+        "repliques": len(repliques), "requetes": len(corps_parties), "decoupe_apres": script.get("decoupe_apres", []),
+        "duree_audio_s": round(len(signal) / taux, 1),
+        "duree_requete_s": round(duree_requete, 1), "format_recu": mimes[0] or "audio/wav",
+        "usage": usages[0] if len(usages) == 1 else usages,
         "controle": controle,
     }
     base.with_suffix(".json").write_text(json.dumps(infos, ensure_ascii=False, indent=2), encoding="utf-8")
