@@ -1,0 +1,293 @@
+"""Génère un appel complet en une seule requête de synthèse vocale, avec deux voix.
+
+Un appel est toujours produit en entier par un seul modèle : une requête, un modèle, un fichier.
+Aucune nouvelle tentative automatique : une requête envoyée est comptée, même en cas d'échec.
+
+Usage :
+    python scripts/generer_audio.py --appel 03 --modele gemini-3.8-flash-tts --sortie audio/essais
+    python scripts/generer_audio.py --appel 03 --modele gemini-3.8-flash-tts --simulation   # n'envoie rien
+    python scripts/generer_audio.py --etat                                                  # requêtes restantes
+
+La clé est lue dans la variable d'environnement GEMINI_API_KEY.
+"""
+import argparse
+import base64
+import io
+import json
+import os
+import re
+import sys
+import time
+import urllib.error
+import urllib.request
+import wave
+from datetime import datetime
+from pathlib import Path
+
+import yaml
+
+sys.path.insert(0, str(Path(__file__).parent))
+from effet_telephone import appliquer_effet, lire_wav, ecrire_wav  # noqa: E402
+
+ROOT = Path(__file__).resolve().parent.parent
+PRODUCTION = ROOT / "audio" / "production"
+COMPTEUR = ROOT / "audio" / ".compteur-requetes.json"
+API = "https://generativelanguage.googleapis.com/v1beta"
+
+# Modèles autorisés et route de l'API correspondante
+MODELES = {
+    "gemini-3.8-flash-tts": "interactions",
+    "gemini-3.8-flash-lite-tts": "interactions",
+    "gemini-3.1-flash-tts-preview": "generate",
+    "gemini-2.5-flash-preview-tts": "generate",
+}
+LIMITE_JOUR = 10    # requêtes par modèle sur 24 heures glissantes
+LIMITE_MINUTE = 3   # requêtes par modèle sur 60 secondes glissantes
+LOCUTEURS = {"conseiller": "Conseiller", "client": "Client"}
+BALISES_FR = {"sigh": "soupir", "chuckle": "petit rire", "short pause": "courte pause", "long pause": "longue pause"}
+FIN_DE_PHRASE = re.compile(r"([.!?…])\s+(?=[A-ZÀ-ÖØ-Þ«])")
+RYTHME = "Rythme naturel et posé de conversation téléphonique"
+REPARTITION = PRODUCTION / "repartition.yaml"
+SORTIE_FINALE = "audio/appels"
+
+
+def decrire(personne):
+    """Description du locuteur, répétée à chaque réplique pour stabiliser la voix."""
+    profil = personne["profil"]
+    femme = profil.startswith("femme")
+    genre = "voix féminine" if femme else "voix masculine"
+    if genre not in profil:
+        profil = f"{profil}, {genre}"
+    return f"{'Locutrice' if femme else 'Locuteur'} : {profil}"
+
+
+# --- Compteur de requêtes ---------------------------------------------------------------
+
+class Compteur:
+    """Empêche de dépasser LIMITE_JOUR et LIMITE_MINUTE requêtes par modèle.
+
+    Chaque requête est enregistrée AVANT son envoi : une requête en échec compte aussi.
+    La fenêtre de 24 heures glissantes est plus prudente que la remise à zéro quotidienne de l'API.
+    """
+
+    def __init__(self, chemin=COMPTEUR):
+        self.chemin = chemin
+        self.historique = json.loads(chemin.read_text(encoding="utf-8")) if chemin.exists() else {}
+
+    def _recentes(self, modele, fenetre):
+        maintenant = time.time()
+        return [t for t in self.historique.get(modele, []) if maintenant - t < fenetre]
+
+    def restantes(self, modele):
+        return LIMITE_JOUR - len(self._recentes(modele, 86400))
+
+    def reserver(self, modele):
+        jour = self._recentes(modele, 86400)
+        if len(jour) >= LIMITE_JOUR:
+            liberation = datetime.fromtimestamp(min(jour) + 86400).strftime("%d/%m %H:%M")
+            sys.exit(f"Refusé : {LIMITE_JOUR} requêtes déjà envoyées en 24 h pour {modele}. "
+                     f"Prochaine requête possible le {liberation}.")
+        minute = self._recentes(modele, 60)
+        if len(minute) >= LIMITE_MINUTE:
+            attente = 60 - (time.time() - min(minute)) + 1
+            print(f"Limite de {LIMITE_MINUTE} requêtes par minute atteinte pour {modele} : attente de {attente:.0f} s.")
+            time.sleep(attente)
+        self.historique.setdefault(modele, []).append(time.time())
+        self.historique[modele] = self._recentes(modele, 86400)
+        self.chemin.parent.mkdir(parents=True, exist_ok=True)
+        self.chemin.write_text(json.dumps(self.historique, indent=2), encoding="utf-8")
+
+    def afficher(self):
+        for m in MODELES:
+            print(f"{m:32s} {self.restantes(m):2d} / {LIMITE_JOUR} requêtes restantes sur 24 h")
+
+
+# --- Construction de la requête -------------------------------------------------------
+
+def charger(appel):
+    script = yaml.safe_load((PRODUCTION / f"appel-{appel}.yaml").read_text(encoding="utf-8"))
+    prononciation = yaml.safe_load((PRODUCTION / "prononciation.yaml").read_text(encoding="utf-8"))["remplacements"]
+    return script, prononciation
+
+
+def preparer_repliques(script, prononciation):
+    """Texte à prononcer et consigne de ton de chaque réplique, en une seule requête."""
+    sortie = []
+    for i, r in enumerate(script["repliques"]):
+        texte = r["texte"]
+        for ecrit, dit in prononciation.items():
+            texte = texte.replace(ecrit, dit)
+        # Pauses naturelles entre les phrases d'une même réplique
+        texte = FIN_DE_PHRASE.sub(r"\1 <short pause> ", texte)
+        # Courte pause entre les répliques, longue si le script le demande, aucune si on coupe la parole
+        if i and not r.get("chevauchement_ms"):
+            texte = ("<long pause> " if r.get("pause_avant_ms", 400) >= 1500 else "<short pause> ") + texte
+        ton = r["ton"]
+        if r.get("chevauchement_ms"):
+            ton += " ; enchaîne immédiatement, sans blanc, en coupant la parole"
+        if r.get("coupee"):
+            ton += " ; la phrase est coupée net : la voix s'arrête brusquement"
+        sortie.append({"locuteur": LOCUTEURS[r["locuteur"]], "texte": texte, "ton": ton})
+    return sortie
+
+
+def corps_interactions(modele, script, repliques):
+    casting = script["casting"]
+    contenu = []
+    for r in repliques:
+        qui = decrire(casting[r["locuteur"].lower()])
+        contenu.append({
+            "type": "text",
+            "text": r["texte"],
+            "annotations": [{"type": "speech_metadata", "speaker": r["locuteur"],
+                             "style": f"{qui}. {RYTHME}. Ton : {r['ton']}."}],
+        })
+    return {
+        "model": modele,
+        "input": [{"type": "user_input", "content": contenu}],
+        "response_format": {"type": "audio"},
+        "generation_config": {"speech_config": {
+            "mode": "conversational",
+            "speakers": [{"speaker": LOCUTEURS[k], "voice": v["voix"]} for k, v in casting.items()],
+        }},
+    }
+
+
+def corps_generate(script, repliques):
+    casting = script["casting"]
+    lignes = [
+        "Synthétise cette conversation téléphonique en français de France, entre un conseiller "
+        "de Kalyo Télécom (Conseiller) et son client (Client).",
+        "Profils des voix :",
+        f"- Conseiller : {decrire(casting['conseiller'])}",
+        f"- Client : {decrire(casting['client'])}",
+        f"{RYTHME}, avec de courtes pauses entre les phrases et entre les répliques.",
+        "Les indications entre crochets sont des consignes de jeu : applique-les, ne les lis jamais à voix haute.",
+        "",
+    ]
+    for r in repliques:
+        texte = re.sub(r"<([^>]+)>", lambda m: f"[{BALISES_FR.get(m.group(1), m.group(1))}]", r["texte"])
+        genre = casting[r["locuteur"].lower()]["profil"].split(",")[0]
+        lignes.append(f"{r['locuteur']}: [{genre} ; {r['ton']}] {texte}")
+    return {
+        "contents": [{"parts": [{"text": "\n".join(lignes)}]}],
+        "generationConfig": {
+            "responseModalities": ["AUDIO"],
+            "speechConfig": {"multiSpeakerVoiceConfig": {"speakerVoiceConfigs": [
+                {"speaker": LOCUTEURS[k], "voiceConfig": {"prebuiltVoiceConfig": {"voiceName": v["voix"]}}}
+                for k, v in casting.items()
+            ]}},
+        },
+    }
+
+
+# --- Envoi et lecture de la réponse ------------------------------------------------------
+
+def envoyer(url, corps, cle):
+    req = urllib.request.Request(url, data=json.dumps(corps).encode("utf-8"), method="POST",
+                                 headers={"Content-Type": "application/json", "x-goog-api-key": cle})
+    try:
+        with urllib.request.urlopen(req, timeout=600) as rep:
+            return json.loads(rep.read())
+    except urllib.error.HTTPError as e:
+        sys.exit(f"Échec HTTP {e.code} (requête comptée, pas de nouvel essai) : {e.read().decode('utf-8', 'replace')[:800]}")
+
+
+def extraire_audio(reponse):
+    """Cherche le premier bloc audio en base64, quelle que soit la route utilisée."""
+    pile = [reponse]
+    while pile:
+        x = pile.pop(0)
+        if isinstance(x, dict):
+            mime = x.get("mimeType") or x.get("mime_type") or ""
+            if isinstance(x.get("data"), str) and len(x["data"]) > 1000 and ("audio" in mime or not mime):
+                return base64.b64decode(x["data"]), mime
+            pile.extend(x.values())
+        elif isinstance(x, list):
+            pile.extend(x)
+    sys.exit(f"Aucun audio dans la réponse : {json.dumps(reponse)[:800]}")
+
+
+def pcm_vers_wav(octets, mime):
+    """Les anciens modèles renvoient du PCM brut (L16, 24 kHz) : on ajoute l'en-tête WAV."""
+    if octets[:4] == b"RIFF":
+        return octets
+    taux = int(re.search(r"rate=(\d+)", mime).group(1)) if "rate=" in mime else 24000
+    tampon = io.BytesIO()
+    with wave.open(tampon, "wb") as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(taux)
+        w.writeframes(octets)
+    return tampon.getvalue()
+
+
+# --- Programme principal -------------------------------------------------------------------
+
+def main():
+    p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument("--appel", help="numéro de l'appel, par exemple 03")
+    p.add_argument("--modele", choices=MODELES)
+    p.add_argument("--sortie", default=SORTIE_FINALE)
+    p.add_argument("--simulation", action="store_true", help="affiche la requête sans l'envoyer")
+    p.add_argument("--etat", action="store_true", help="affiche les requêtes restantes")
+    a = p.parse_args()
+
+    compteur = Compteur()
+    if a.etat:
+        compteur.afficher()
+        return
+    if not (a.appel and a.modele):
+        p.error("--appel et --modele sont obligatoires")
+
+    appel = f"{int(a.appel):02d}"
+    # Un seul modèle par appel : les appels définitifs suivent la répartition validée
+    if Path(a.sortie) == Path(SORTIE_FINALE):
+        prevu = (yaml.safe_load(REPARTITION.read_text(encoding="utf-8")) or {}).get("appels", {}).get(f"appel-{appel}")
+        if prevu != a.modele:
+            sys.exit(f"Refusé : appel-{appel} est attribué à « {prevu} » dans {REPARTITION.name}, pas à {a.modele}.")
+    script, prononciation = charger(appel)
+    repliques = preparer_repliques(script, prononciation)
+    route = MODELES[a.modele]
+    if route == "interactions":
+        url, corps = f"{API}/interactions", corps_interactions(a.modele, script, repliques)
+    else:
+        url, corps = f"{API}/models/{a.modele}:generateContent", corps_generate(script, repliques)
+
+    if a.simulation:
+        print(json.dumps(corps, ensure_ascii=False, indent=2))
+        return
+
+    cle = os.environ.get("GEMINI_API_KEY")
+    if not cle:
+        sys.exit("Variable d'environnement GEMINI_API_KEY absente.")
+
+    compteur.reserver(a.modele)
+    debut = time.time()
+    reponse = envoyer(url, corps, cle)
+    octets, mime = extraire_audio(reponse)
+    duree_requete = time.time() - debut
+
+    dossier = ROOT / a.sortie
+    dossier.mkdir(parents=True, exist_ok=True)
+    base = dossier / f"appel-{appel}"
+
+    # Seule la version avec effet de ligne téléphonique est conservée
+    signal, taux = lire_wav(io.BytesIO(pcm_vers_wav(octets, mime)))
+    tel, taux_tel = appliquer_effet(signal, taux)
+    ecrire_wav(base.with_suffix(".wav"), tel, taux_tel)
+
+    infos = {
+        "appel": appel, "modele": a.modele, "route": route,
+        "date": datetime.now().isoformat(timespec="seconds"),
+        "repliques": len(repliques), "duree_audio_s": round(len(signal) / taux, 1),
+        "duree_requete_s": round(duree_requete, 1), "format_recu": mime or "audio/wav",
+        "usage": reponse.get("usageMetadata") or reponse.get("usage"),
+    }
+    base.with_suffix(".json").write_text(json.dumps(infos, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"appel-{appel} / {a.modele} : {infos['duree_audio_s']} s d'audio en {infos['duree_requete_s']} s "
+          f"| reste {compteur.restantes(a.modele)} requêtes sur 24 h")
+
+
+if __name__ == "__main__":
+    main()

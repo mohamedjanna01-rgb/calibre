@@ -12,133 +12,145 @@ casting:
     profil: "homme, 44 ans, père de famille, voix posée, français standard"
 repliques:
   - n: 1
-    locuteur: conseiller
-    texte: "Bonjour, Monsieur Durand ? Je m'appelle Samir El Idrissi, je suis conseiller chez Kalyo Télécom, et c'est moi qui m'occupe de votre contrat Box Internet. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?"
-    ton: "souriant, dynamique, assuré, courtois"
+    locuteur: client
+    texte: "Allô ?"
+    ton: "décroche, neutre"
   - n: 2
+    locuteur: conseiller
+    texte: "Bonjour, Monsieur Durand ?"
+    ton: "courtois, souriant"
+  - n: 3
+    locuteur: client
+    texte: "Oui, c'est qui ?"
+    ton: "curieux, neutre"
+  - n: 4
+    locuteur: conseiller
+    texte: "Samir El Idrissi, conseiller chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?"
+    ton: "souriant, dynamique, assuré, courtois"
+  - n: 5
     locuteur: client
     texte: "Oui, allez-y."
     ton: "disponible, cordial"
-  - n: 3
+  - n: 6
     locuteur: conseiller
     texte: "Merci. Avant tout, je voulais faire un point avec vous : tout fonctionne bien avec votre box et votre télévision ?"
     ton: "attentionné"
-  - n: 4
+  - n: 7
     locuteur: client
     texte: "Oui, aucun souci."
     ton: "décontracté"
-  - n: 5
+  - n: 8
     locuteur: conseiller
     texte: "Tant mieux. Pour sécuriser notre échange, pouvez-vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?"
     ton: "aimable"
-  - n: 6
+  - n: 9
     locuteur: client
     texte: "Durand Philippe, 67000, le 3 février 1982."
     ton: "posé"
-  - n: 7
+  - n: 10
     locuteur: conseiller
     texte: "Merci, Monsieur Durand. Nous avons en ce moment un avantage réservé à nos clients sur la télévision. Pour voir s'il peut vous être utile, puis-je vous poser quelques questions ? Combien êtes-vous à la maison ?"
     ton: "enthousiaste, curieux, naturel"
-  - n: 8
+  - n: 11
     locuteur: client
     texte: "Quatre : ma femme, nos deux enfants de 7 et 12 ans, et moi."
     ton: "posé, souriant"
-  - n: 9
+  - n: 12
     locuteur: conseiller
     texte: "Et qui regarde le plus la télévision chez vous ?"
     ton: "intéressé"
-  - n: 10
+  - n: 13
     locuteur: client
     texte: "Les enfants, surtout. Ma femme et moi, on regarde des films le soir, mais on finit tard, <chuckle> on rate souvent le début."
     ton: "détendu, petit rire sur « on rate souvent le début »"
-  - n: 11
+  - n: 14
     locuteur: conseiller
     texte: "Je vois. Et vous arrive-t-il de regarder sur tablette ou sur téléphone ?"
     ton: "attentif"
-  - n: 12
+  - n: 15
     locuteur: client
     texte: "Les enfants, sur la tablette. Et on a déjà un abonnement à une plateforme de streaming."
     ton: "un peu sur la réserve"
-  - n: 13
+  - n: 16
     locuteur: conseiller
     texte: "D'accord. Et pour vos téléphones portables, vous êtes chez nous ou chez un autre opérateur ?"
     ton: "curieux, léger"
-  - n: 14
+  - n: 17
     locuteur: client
     texte: "Chez un autre opérateur, deux lignes."
     ton: "neutre"
-  - n: 15
+  - n: 18
     locuteur: conseiller
     texte: "Merci, c'est noté. Avec tout ce que vous me dites, Monsieur Durand, j'ai quelque chose qui correspond vraiment à votre famille : le Pack Horizon. Je vous explique ce qu'il change chez vous. D'abord, 35 chaînes thématiques : du cinéma, des séries, des polars, des documentaires, de la découverte, de la musique, de la cuisine, du voyage… et surtout Horizon Kids et Horizon Junior, des programmes adaptés à l'âge de chacun de vos enfants, sans publicité. Ensuite, plus de 2 000 films et séries à la demande, dont une partie en 4K. Et comme vous finissez tard, le replay de 7 jours : votre film commence quand vous vous asseyez, pas quand il passe à l'antenne. Enfin, il fonctionne sur deux écrans en même temps, avec l'application Kalyo TV : les enfants regardent leurs dessins animés sur la tablette pendant que vous profitez de votre film sur la télévision. Fini les disputes pour la télécommande !"
     ton: "dynamique, enthousiaste, chaleureux, rythme vivant mais articulé, sourire audible sur « Fini les disputes pour la télécommande ! »"
-  - n: 16
+  - n: 19
     locuteur: client
     texte: "Ça a l'air bien, mais on a déjà une plateforme de streaming…"
     ton: "intéressé mais hésitant"
-  - n: 17
+  - n: 20
     locuteur: conseiller
     texte: "Je comprends, et beaucoup de nos clients en ont une aussi. La différence, c'est que le Pack Horizon ajoute des chaînes en direct et un catalogue différent, directement sur votre décodeur, sans nouveau compte à créer ni mot de passe à retenir. Votre plateforme, c'est ce que vous choisissez de regarder ; Horizon, c'est aussi ce que vous découvrez en allumant la télé. Les deux se complètent."
     ton: "posé, convaincant, sans insister"
-  - n: 18
+  - n: 21
     locuteur: client
     texte: "Oui, mais additionné à la plateforme, ça commence à faire cher."
     ton: "réfléchi, prudent"
-  - n: 19
+  - n: 22
     locuteur: conseiller
     texte: "C'est une vraie question, et je vais être transparent avec vous. Le Pack Horizon est à 12,99 € par mois, soit environ 43 centimes par jour. Pour vous donner une idée, c'est à peu près le prix d'une seule place de cinéma… pour un mois entier de films, pour quatre personnes. Une seule sortie au cinéma en famille vous coûterait déjà plus de quatre fois ce prix. Et le premier mois est offert, sans engagement : vous testez gratuitement, et si ça ne vous convient pas, vous arrêtez."
     ton: "sincère, transparent, chaleureux, pointe d'humour sur la place de cinéma"
-  - n: 20
+  - n: 23
     locuteur: client
     texte: "Vu comme ça… <short pause> D'accord, on peut essayer."
     ton: "convaincu, souriant"
     pause_avant_ms: 500
-  - n: 21
+  - n: 24
     locuteur: conseiller
     texte: "Avec plaisir. Je vous fais le récapitulatif complet avant de valider, Monsieur Durand. Le Pack Horizon : le premier mois est offert, puis 12,99 € par mois. Le premier prélèvement de 12,99 € aura lieu le 8 décembre. Il est sans engagement : vous pouvez l'arrêter à tout moment, avec effet à la fin du mois, depuis votre espace client ou en nous appelant. Vous disposez aussi d'un droit de rétractation de 14 jours : si vous l'utilisez, vous ne payez rien. Il sera activé dans un délai de 2 heures maximum, directement sur votre décodeur, sans rien à installer. Confirmez-vous souscrire au Pack Horizon aux conditions que je viens de vous indiquer ?"
     ton: "clair, posé, précis, débit modéré, question finale bien détachée"
-  - n: 22
+  - n: 25
     locuteur: client
     texte: "Oui, je confirme."
     ton: "net, affirmatif"
-  - n: 23
+  - n: 26
     locuteur: conseiller
     texte: "Merci. Pour finaliser, je vous envoie un e-mail récapitulatif à signer électroniquement. Pouvez-vous me confirmer votre adresse e-mail ?"
     ton: "aimable"
-  - n: 24
+  - n: 27
     locuteur: client
     texte: "philippe.durand@example.com."
     ton: "dicte son adresse tranquillement"
-  - n: 25
+  - n: 28
     locuteur: conseiller
     texte: "C'est envoyé, depuis l'adresse ne-pas-repondre@kalyo-telecom.example. Je reste en ligne avec vous : l'avez-vous bien reçu ?"
     ton: "attentif"
     pause_avant_ms: 700
-  - n: 26
+  - n: 29
     locuteur: client
     texte: "Oui, il y a un bouton « Signer »."
     ton: "lit son écran"
     pause_avant_ms: 2500
-  - n: 27
+  - n: 30
     locuteur: conseiller
     texte: "C'est bien ça. Vous y retrouvez tout ce que je viens de vous dire. Si tout est correct, cliquez sur « Signer ». Vous allez recevoir un code par SMS : saisissez-le vous-même dans l'e-mail, et surtout, ne me le communiquez pas, ni à moi ni à personne. Un conseiller Kalyo ne vous le demandera jamais."
     ton: "rassurant, sérieux sur la consigne du code"
-  - n: 28
+  - n: 31
     locuteur: client
     texte: "D'accord… <long pause> Voilà, c'est signé."
     ton: "concentré, puis satisfait"
-  - n: 29
+  - n: 32
     locuteur: conseiller
     texte: "Parfait, je vois la signature de mon côté : votre souscription est confirmée. Le Pack Horizon sera disponible dans les 2 heures, et vous recevrez un SMS dès qu'il sera activé. Avez-vous des questions, Monsieur Durand ?"
     ton: "satisfait, clair"
-  - n: 30
+  - n: 33
     locuteur: client
     texte: "Non, c'est très clair."
     ton: "satisfait"
-  - n: 31
+  - n: 34
     locuteur: conseiller
     texte: "Merci beaucoup pour votre confiance et pour votre temps. Je souhaite à toute la famille de très bonnes soirées télé. Excellente fin de journée, Monsieur Durand, au revoir !"
     ton: "très chaleureux, souriant"
-  - n: 32
+  - n: 35
     locuteur: client
     texte: "Merci, au revoir."
     ton: "cordial"

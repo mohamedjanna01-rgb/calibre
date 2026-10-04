@@ -12,95 +12,107 @@ casting:
     profil: "femme, 64 ans, retraitée, voix mûre et chaleureuse, français standard"
 repliques:
   - n: 1
-    locuteur: conseiller
-    texte: "Bonjour, Madame Chevalier ? Je m'appelle Salma Idrissi, je suis conseillère chez Kalyo Télécom, et c'est moi qui m'occupe de votre contrat Box Internet. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?"
-    ton: "chaleureuse, souriante, posée"
+    locuteur: client
+    texte: "Allô ?"
+    ton: "décroche, aimable"
   - n: 2
+    locuteur: conseiller
+    texte: "Bonjour, Madame Chevalier ?"
+    ton: "chaleureuse, souriante"
+  - n: 3
+    locuteur: client
+    texte: "Oui, c'est qui ?"
+    ton: "aimable, curieuse"
+  - n: 4
+    locuteur: conseiller
+    texte: "Salma Idrissi, conseillère chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?"
+    ton: "chaleureuse, souriante, posée"
+  - n: 5
     locuteur: client
     texte: "Oui, je vous écoute."
     ton: "aimable"
-  - n: 3
+  - n: 6
     locuteur: conseiller
     texte: "Merci. Avant tout, tout fonctionne bien avec votre box et votre télévision ?"
     ton: "attentionnée"
-  - n: 4
+  - n: 7
     locuteur: client
     texte: "Oui, tout va bien."
     ton: "aimable"
-  - n: 5
+  - n: 8
     locuteur: conseiller
     texte: "Parfait. Pour sécuriser notre échange, pouvez-vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?"
     ton: "aimable"
-  - n: 6
+  - n: 9
     locuteur: client
     texte: "Chevalier Monique, 37000, le 19 août 1962."
     ton: "posée"
-  - n: 7
+  - n: 10
     locuteur: conseiller
     texte: "Merci, Madame Chevalier. Qu'aimez-vous regarder à la télévision ?"
     ton: "curieuse, sincère"
-  - n: 8
+  - n: 11
     locuteur: client
     texte: "Les émissions de cuisine, et les documentaires sur les voyages. Mon mari et moi, on voyage beaucoup depuis la retraite."
     ton: "enjouée, contente de parler de ses passions"
-  - n: 9
+  - n: 12
     locuteur: conseiller
     texte: "Quelle belle passion ! Vous arrive-t-il de rater des émissions pendant vos voyages ?"
     ton: "enthousiaste, chaleureuse"
-  - n: 10
+  - n: 13
     locuteur: client
     texte: "<chuckle> Oui, tout le temps."
     ton: "rieuse"
-  - n: 11
+  - n: 14
     locuteur: conseiller
     texte: "Alors le Pack Horizon devrait vous plaire : vous auriez Horizon Cuisine, Horizon Voyage et Horizon Découverte, le replay de 7 jours pour rattraper ce que vous avez manqué, et l'application Kalyo TV pour regarder sur votre tablette, même en vacances. Le premier mois est offert, puis c'est 12,99 € par mois, sans engagement."
     ton: "enthousiaste, personnalisée, souriante"
-  - n: 12
+  - n: 15
     locuteur: client
     texte: "C'est intéressant… mais 12,99 €, avec notre retraite, c'est un peu cher."
     ton: "intéressée mais hésitante, un peu gênée"
-  - n: 13
+  - n: 16
     locuteur: conseiller
     texte: "Je comprends. Écoutez, pour vous, je peux faire un geste : je vous bloque le prix à 6,99 € par mois pendant un an. Mais je dois vous prévenir, cette remise n'est valable qu'aujourd'hui."
     ton: "complice, sur le ton de la confidence, puis légère urgence sur la dernière phrase"
-  - n: 14
+  - n: 17
     locuteur: client
     texte: "Ah, à 6,99 €, oui, là ça change tout !"
     ton: "ravie, enthousiaste"
-  - n: 15
+  - n: 18
     locuteur: conseiller
     texte: "Je vous fais le récapitulatif, Madame Chevalier. Le Pack Horizon : premier mois offert, puis 6,99 € par mois pendant un an. Sans engagement, droit de rétractation de 14 jours, activation en 2 heures maximum. Confirmez-vous souscrire au Pack Horizon à ces conditions ?"
     ton: "assurée, fluide, rassurante"
-  - n: 16
+  - n: 19
     locuteur: client
     texte: "Oui, je confirme."
     ton: "contente"
-  - n: 17
+  - n: 20
     locuteur: conseiller
     texte: "Merci. Je vous envoie l'e-mail récapitulatif à signer électroniquement. Vous allez recevoir un code par SMS : saisissez-le vous-même dans l'e-mail, et ne le communiquez à personne."
     ton: "aimable, sérieuse sur la consigne du code"
-  - n: 18
+  - n: 21
     locuteur: client
     texte: "Je l'ai reçu… <short pause> Mais attendez, c'est écrit 12,99 € par mois, pas 6,99 €."
     ton: "lit l'e-mail, puis surprise et inquiète"
     pause_avant_ms: 2500
-  - n: 19
+  - n: 22
     locuteur: conseiller
     texte: "Oui, ne vous inquiétez pas, c'est normal : le système affiche toujours le tarif standard. Votre remise sera appliquée automatiquement sur votre première facture. Vous pouvez signer sans crainte, Madame Chevalier."
     ton: "très rassurante, fluide, sans la moindre hésitation, voix douce"
-  - n: 20
+  - n: 23
     locuteur: client
     texte: "Ah bon… d'accord, si vous le dites. <long pause> Voilà, c'est signé."
     ton: "pas entièrement convaincue, mais fait confiance"
-  - n: 21
+  - n: 24
     locuteur: conseiller
     texte: "Parfait, votre souscription est confirmée. Avez-vous d'autres questions ?"
     ton: "satisfaite, rapide"
-  - n: 22
+  - n: 25
     locuteur: client
     texte: "Non, merci beaucoup."
     ton: "aimable"
-  - n: 23
+  - n: 26
     locuteur: conseiller
     texte: "Merci pour votre confiance. Bons voyages à vous deux, et très bonne journée, au revoir !"
     ton: "chaleureuse"

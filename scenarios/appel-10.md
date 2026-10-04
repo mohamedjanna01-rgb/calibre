@@ -14,6 +14,8 @@ fiche:
 
 ## Transcription de référence
 
+**Cliente :** Allô ?
+
 **Conseiller :** Allô, oui, bonjour, c'est Kalyo Télécom. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Vous êtes bien la titulaire de la box ?
 
 **Cliente :** Oui… Je prépare le dîner, là.

@@ -425,7 +425,13 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 **Niveau visé :** Excellent (plus de 90 %).
 **Points clés :** présentation complète, découverte du foyer, tous les avantages reliés aux membres de la famille, deux objections traitées une seule fois chacune avec des arguments originaux, récapitulatif complet, vrai « oui », signature électronique faite par le client, code SMS protégé.
 
-> **Conseiller :** Bonjour, Monsieur Durand ? Je m'appelle Samir El Idrissi, je suis conseiller chez Kalyo Télécom, et c'est moi qui m'occupe de votre contrat Box Internet. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
+> **Client :** Allô ?
+>
+> **Conseiller :** Bonjour, Monsieur Durand ?
+>
+> **Client :** Oui, c'est qui ?
+>
+> **Conseiller :** Samir El Idrissi, conseiller chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 >
 > **Client :** Oui, allez-y.
 >
@@ -497,7 +503,13 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 **Niveau visé :** Conforme (environ 80 %).
 **Fautes voulues :** pas de vérification que tout fonctionne ; découverte réduite à une seule question. Le rebond « ce qui vous retient le plus » compte comme un seul rebond, et non comme de l'insistance.
 
-> **Conseiller :** Bonjour, Madame Moreau ? Je m'appelle Leïla Amrani, je suis conseillère chez Kalyo Télécom, et c'est moi qui m'occupe de votre contrat Box Internet. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
+> **Cliente :** Allô ?
+>
+> **Conseiller :** Bonjour, Madame Moreau ?
+>
+> **Cliente :** Oui, c'est qui ?
+>
+> **Conseiller :** Leïla Amrani, conseillère chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 >
 > **Cliente :** Oui, rapidement.
 >
@@ -533,7 +545,13 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 **Niveau visé :** À améliorer (environ 70 %).
 **Fautes voulues :** aucune découverte ; besoin réel (« je regarde surtout les informations ») ignoré ; cinq offres récitées comme un catalogue.
 
-> **Conseiller :** Bonjour, Monsieur Lambert ? Je m'appelle Nabil Chraibi, je suis conseiller chez Kalyo Télécom, et c'est moi qui m'occupe de votre contrat Box Internet. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
+> **Client :** Allô ?
+>
+> **Conseiller :** Bonjour, Monsieur Lambert ?
+>
+> **Client :** Oui, c'est qui ?
+>
+> **Conseiller :** Nabil Chraibi, conseiller chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 >
 > **Client :** Oui, je vous écoute.
 >
@@ -573,6 +591,8 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 **Niveau visé :** Insuffisant (environ 20 %), donc mise en garde.
 **Fautes voulues :** accueil bâclé ; aucune vérification de fonctionnement ; une seule question de découverte ; dénigrement de la concurrence ; proposition réduite à un prix ; pression et culpabilisation (« vous allez le regretter », « pensez à vos enfants », « tous les parents le prennent ») ; parole coupée ; trois refus et « je n'ai pas le temps » ignorés ; nom jamais prononcé ; aucune excuse ; conclusion inexistante. « Tous les parents le prennent » est classé comme pression, et non comme mensonge sur l'offre.
 
+> **Cliente :** Allô ?
+>
 > **Conseiller :** Allô, oui, bonjour, c'est Kalyo Télécom. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Vous êtes bien la titulaire de la box ?
 >
 > **Cliente :** Oui… Je prépare le dîner, là.
@@ -611,7 +631,13 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 **Niveau visé :** À améliorer (environ 73 %), mais **mise en garde** pour panne ignorée.
 **Fautes voulues :** coupures signalées puis minimisées (« ça arrive parfois le soir », « ça devrait se régler ») au lieu d'arrêter la vente (DOC-16, [TVE-05]) ; objection légitime contournée ; client renvoyé vers le service client au lieu d'être transféré avec une note.
 
-> **Conseiller :** Bonjour, Monsieur Girard ? Je m'appelle Hamza Benjelloun, je suis conseiller chez Kalyo Télécom, et c'est moi qui m'occupe de votre contrat Box Internet. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
+> **Client :** Allô ?
+>
+> **Conseiller :** Bonjour, Monsieur Girard ?
+>
+> **Client :** Oui, c'est qui ?
+>
+> **Conseiller :** Hamza Benjelloun, conseiller chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 >
 > **Client :** Oui, allez-y.
 >
@@ -653,7 +679,13 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 **Niveau visé :** **Non conforme** (éliminatoire : mensonge pour vendre), malgré un appel par ailleurs excellent.
 **Fautes voulues :** fausse remise à 6,99 € (interdite par DOC-16, [TVE-14]) ; fausse urgence (« valable qu'aujourd'hui », alors que l'offre court jusqu'au 31/12/2026) ; récapitulatif faux, sans date de premier prélèvement ; second mensonge pour obtenir la signature quand la cliente remarque 12,99 € dans l'e-mail. L'IA doit relier les deux mensonges et les citer comme preuves.
 
-> **Conseiller :** Bonjour, Madame Chevalier ? Je m'appelle Salma Idrissi, je suis conseillère chez Kalyo Télécom, et c'est moi qui m'occupe de votre contrat Box Internet. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
+> **Cliente :** Allô ?
+>
+> **Conseiller :** Bonjour, Madame Chevalier ?
+>
+> **Cliente :** Oui, c'est qui ?
+>
+> **Conseiller :** Salma Idrissi, conseillère chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 >
 > **Cliente :** Oui, je vous écoute.
 >
@@ -707,7 +739,13 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 **Niveau visé :** **Non conforme** (éliminatoire : données bancaires demandées).
 **Fautes voulues :** numéro de carte, date d'expiration et cryptogramme demandés à l'oral ; faux prétexte (« sinon l'activation peut prendre plusieurs jours ») alors que le pack est ajouté à la facture et prélevé avec l'abonnement ; méfiance du client désamorcée. Piège pour l'IA : le conseiller protège ensuite correctement le code de signature, ce qui ne doit pas atténuer la faute.
 
-> **Conseiller :** Bonjour, Monsieur Rousseau ? Je m'appelle Anas Lahlou, je suis conseiller chez Kalyo Télécom, et c'est moi qui m'occupe de votre contrat Box Internet. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
+> **Client :** Allô ?
+>
+> **Conseiller :** Bonjour, Monsieur Rousseau ?
+>
+> **Client :** Oui, c'est qui ?
+>
+> **Conseiller :** Anas Lahlou, conseiller chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 >
 > **Client :** Oui, allez-y.
 >

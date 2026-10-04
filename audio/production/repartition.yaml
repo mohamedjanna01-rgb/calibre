@@ -1,0 +1,16 @@
+# Un seul modèle par appel complet. Le script de génération refuse tout autre modèle.
+# null = deuxième modèle pas encore choisi (3.1 Flash TTS ou 2.5 Flash TTS).
+appels:
+  appel-01: gemini-3.8-flash-tts
+  appel-02: null
+  appel-03: gemini-3.8-flash-tts
+  appel-04: null
+  appel-05: null
+  appel-06: gemini-3.8-flash-tts
+  appel-07: gemini-3.8-flash-tts
+  appel-08: null
+  appel-09: null
+  appel-10: gemini-3.8-flash-tts
+  appel-11: gemini-3.8-flash-tts
+  appel-12: gemini-3.8-flash-tts
+  appel-13: gemini-3.8-flash-tts

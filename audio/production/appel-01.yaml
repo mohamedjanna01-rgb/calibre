@@ -26,7 +26,7 @@ repliques:
   - n: 4
     locuteur: client
     texte: "06 39 98 12 41, code postal 69003, et je suis née le 14 mars 1985."
-    ton: "récite ses informations rapidement, un peu impatiente"
+    ton: "donne ses informations, un peu impatiente"
   - n: 5
     locuteur: conseiller
     texte: "Parfait, merci. Je vous écoute, que se passe-t-il ?"
@@ -34,7 +34,7 @@ repliques:
   - n: 6
     locuteur: client
     texte: "Depuis ce matin, internet ne fonctionne plus du tout. Je télétravaille, et là je ne peux rien faire, j'ai une réunion dans une heure… <sigh> C'est vraiment pénible."
-    ton: "stressée et agacée, débit qui s'accélère, soupire avant la dernière phrase"
+    ton: "stressée et agacée, soupire avant la dernière phrase"
   - n: 7
     locuteur: conseiller
     texte: "Je comprends tout à fait, c'est très gênant quand on travaille de chez soi. On va regarder ça ensemble. Pouvez-vous me dire de quelle couleur est le voyant de votre box ?"

@@ -4,8 +4,8 @@ id: appel-03
 casting:
   conseiller:
     personnage: "Inès Kaddouri"
-    voix: Pulcherrima
-    profil: "femme, 26 ans, conseillère, voix directe, débit rapide, français standard"
+    voix: Aoede
+    profil: "femme, 26 ans, conseillère, voix féminine directe, français standard"
   client:
     personnage: "Julien Martin"
     voix: Fenrir
@@ -14,7 +14,7 @@ repliques:
   - n: 1
     locuteur: conseiller
     texte: "Kalyo Télécom, bonjour ! Je m'appelle Inès Kaddouri, je suis votre conseillère clientèle, et je vais m'occuper de votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?"
-    ton: "professionnelle mais un peu mécanique, débit rapide"
+    ton: "professionnelle mais un peu mécanique"
   - n: 2
     locuteur: client
     texte: "Martin, Julien Martin. Et je vous préviens, c'est la troisième fois que j'appelle cette semaine !"
@@ -26,7 +26,7 @@ repliques:
   - n: 4
     locuteur: client
     texte: "06 39 98 45 08, 44000, 8 novembre 1990. Bon, je vous explique : tous les soirs, internet coupe. Tous les soirs ! J'ai appelé lundi, on m'a dit de redémarrer la box. J'ai rappelé mercredi, on m'a dit que ça allait s'arranger. Et là…"
-    ton: "énervé, de plus en plus fort, débit rapide, insiste sur « Tous les soirs ! » ; il est coupé net après « Et là »"
+    ton: "énervé, de plus en plus fort, insiste sur « Tous les soirs ! » ; il est coupé net après « Et là »"
     coupee: true
   - n: 5
     locuteur: conseiller

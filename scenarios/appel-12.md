@@ -14,7 +14,13 @@ fiche:
 
 ## Transcription de référence
 
-**Conseiller :** Bonjour, Madame Chevalier ? Je m'appelle Salma Idrissi, je suis conseillère chez Kalyo Télécom, et c'est moi qui m'occupe de votre contrat Box Internet. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
+**Cliente :** Allô ?
+
+**Conseiller :** Bonjour, Madame Chevalier ?
+
+**Cliente :** Oui, c'est qui ?
+
+**Conseiller :** Salma Idrissi, conseillère chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 
 **Cliente :** Oui, je vous écoute.
 

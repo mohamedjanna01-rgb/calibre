@@ -9,7 +9,7 @@ casting:
   client:
     personnage: "Nathalie Roux"
     voix: Achernar
-    profil: "femme, 58 ans, peu à l'aise avec la technique, voix douce, léger accent du Sud"
+    profil: "femme, 58 ans, peu à l'aise avec la technique, voix douce, français standard"
 repliques:
   - n: 1
     locuteur: conseiller
@@ -38,7 +38,7 @@ repliques:
   - n: 7
     locuteur: conseiller
     texte: "OK. C'est sûrement votre décodeur qui a perdu la synchro avec la box. Faites un reset usine du décodeur, ça devrait régler le problème."
-    ton: "rapide, détaché, débite le jargon sans expliquer"
+    ton: "détaché, enchaîne le jargon sans l'expliquer"
   - n: 8
     locuteur: client
     texte: "Un reset… usine ? Je ne sais pas faire ça."
@@ -46,7 +46,7 @@ repliques:
   - n: 9
     locuteur: conseiller
     texte: "Il y a un bouton derrière le décodeur, vous appuyez dessus avec un trombone pendant dix secondes. Normalement, ça devrait marcher."
-    ton: "impatient, légèrement condescendant, débit rapide"
+    ton: "impatient, légèrement condescendant"
   - n: 10
     locuteur: client
     texte: "Et si ça ne marche pas ?"

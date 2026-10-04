@@ -14,7 +14,13 @@ fiche:
 
 ## Transcription de référence
 
-**Conseiller :** Bonjour, Monsieur Durand ? Je m'appelle Samir El Idrissi, je suis conseiller chez Kalyo Télécom, et c'est moi qui m'occupe de votre contrat Box Internet. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
+**Client :** Allô ?
+
+**Conseiller :** Bonjour, Monsieur Durand ?
+
+**Client :** Oui, c'est qui ?
+
+**Conseiller :** Samir El Idrissi, conseiller chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?
 
 **Client :** Oui, allez-y.
 

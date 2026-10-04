@@ -12,120 +12,132 @@ casting:
     profil: "homme, 50 ans, voix bonhomme et posée, français standard"
 repliques:
   - n: 1
-    locuteur: conseiller
-    texte: "Bonjour, Monsieur Rousseau ? Je m'appelle Anas Lahlou, je suis conseiller chez Kalyo Télécom, et c'est moi qui m'occupe de votre contrat Box Internet. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?"
-    ton: "aimable, assuré"
+    locuteur: client
+    texte: "Allô ?"
+    ton: "décroche, bonhomme"
   - n: 2
+    locuteur: conseiller
+    texte: "Bonjour, Monsieur Rousseau ?"
+    ton: "aimable"
+  - n: 3
+    locuteur: client
+    texte: "Oui, c'est qui ?"
+    ton: "bonhomme, curieux"
+  - n: 4
+    locuteur: conseiller
+    texte: "Anas Lahlou, conseiller chez Kalyo Télécom, votre opérateur. C'est moi qui m'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Avez-vous quelques instants ?"
+    ton: "aimable, assuré"
+  - n: 5
     locuteur: client
     texte: "Oui, allez-y."
     ton: "bonhomme"
-  - n: 3
+  - n: 6
     locuteur: conseiller
     texte: "Merci. Avant tout, tout se passe bien avec votre box et votre télévision ?"
     ton: "attentionné"
-  - n: 4
+  - n: 7
     locuteur: client
     texte: "Oui, ça marche bien."
     ton: "content"
-  - n: 5
+  - n: 8
     locuteur: conseiller
     texte: "Tant mieux. Pour sécuriser notre échange, pouvez-vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?"
     ton: "aimable"
-  - n: 6
+  - n: 9
     locuteur: client
     texte: "Rousseau Michel, 49000, le 7 mars 1976."
     ton: "posé"
-  - n: 7
+  - n: 10
     locuteur: conseiller
     texte: "Merci, Monsieur Rousseau. Dites-moi, qu'est-ce que vous aimez regarder le soir ?"
     ton: "curieux, détendu"
-  - n: 8
+  - n: 11
     locuteur: client
     texte: "Des films, des séries policières. <chuckle> Mais honnêtement, le soir, je zappe beaucoup sans trouver grand-chose."
     ton: "détendu, un peu blasé, petit rire"
-  - n: 9
+  - n: 12
     locuteur: conseiller
     texte: "Je vois. Et vous regardez seul, ou en famille ?"
     ton: "intéressé"
-  - n: 10
+  - n: 13
     locuteur: client
     texte: "Avec ma compagne, en général."
     ton: "simple"
-  - n: 11
+  - n: 14
     locuteur: conseiller
     texte: "Alors j'ai quelque chose pour vous deux : le Pack Horizon. Horizon Cinéma, Horizon Séries, Horizon Polar, et plus de 2 000 films et séries à la demande : vous choisissez votre soirée au lieu de zapper. Et avec le replay de 7 jours, vous ne ratez plus un épisode. Le premier mois est offert, ensuite c'est 12,99 € par mois, sans engagement."
     ton: "enthousiaste, convaincant"
-  - n: 12
+  - n: 15
     locuteur: client
     texte: "Ça me plaît bien, ça. Allez, on essaie."
     ton: "enthousiaste, décidé"
-  - n: 13
+  - n: 16
     locuteur: conseiller
     texte: "Très bien. Je vous fais le récapitulatif, Monsieur Rousseau. Le Pack Horizon : premier mois offert, puis 12,99 € par mois, avec un premier prélèvement le 8 décembre. Sans engagement, résiliable à tout moment avec effet à la fin du mois. Droit de rétractation de 14 jours. Activation en 2 heures maximum. Confirmez-vous souscrire au Pack Horizon à ces conditions ?"
     ton: "clair, précis, posé"
-  - n: 14
+  - n: 17
     locuteur: client
     texte: "Oui, je confirme."
     ton: "net, affirmatif"
-  - n: 15
+  - n: 18
     locuteur: conseiller
     texte: "Merci. Pour finaliser, il me faut juste un moyen de paiement pour le pack. Vous avez votre carte bancaire à portée de main ?"
     ton: "léger, présente la demande comme une simple formalité"
-  - n: 16
+  - n: 19
     locuteur: client
     texte: "Ma carte ? Mais je suis déjà prélevé pour la box, non ?"
     ton: "surpris, méfiant"
-  - n: 17
+  - n: 20
     locuteur: conseiller
     texte: "Oui, pour la box. Mais le pack est un service à part, il doit être rattaché à une carte, sinon l'activation peut prendre plusieurs jours. C'est juste une formalité, rien ne sera débité aujourd'hui puisque le premier mois est offert."
     ton: "très rassurant, fluide, minimise"
-  - n: 18
+  - n: 21
     locuteur: client
     texte: "Ah, d'accord… Attendez, je la prends."
     ton: "rassuré, docile"
-  - n: 19
+  - n: 22
     locuteur: conseiller
     texte: "Allez-y, je vous écoute : les seize chiffres au recto."
     ton: "naturel, détendu"
     pause_avant_ms: 3000
-  - n: 20
+  - n: 23
     locuteur: client
     texte: "1234, 5678, 9012, 3456."
     ton: "lit lentement, chiffre par chiffre, par groupes de quatre"
-  - n: 21
+  - n: 24
     locuteur: conseiller
     texte: "Parfait. La date d'expiration ?"
     ton: "efficace, routinier"
-  - n: 22
+  - n: 25
     locuteur: client
     texte: "09/28."
     ton: "lit sa carte"
-  - n: 23
+  - n: 26
     locuteur: conseiller
     texte: "Et les trois chiffres au dos, le cryptogramme ?"
     ton: "naturel, comme une évidence"
-  - n: 24
+  - n: 27
     locuteur: client
     texte: "Les trois chiffres derrière aussi ? Bon… <short pause> 1… 2… 3."
     ton: "hésitant, un peu inquiet, puis lit lentement"
-  - n: 25
+  - n: 28
     locuteur: conseiller
     texte: "Merci, c'est tout bon. Je vous envoie maintenant l'e-mail récapitulatif à signer électroniquement. Vous allez recevoir un code par SMS : saisissez-le vous-même dans l'e-mail, et ne le communiquez à personne."
     ton: "satisfait, sérieux sur la consigne du code"
-  - n: 26
+  - n: 29
     locuteur: client
     texte: "Voilà, c'est signé."
     ton: "concentré"
     pause_avant_ms: 3000
-  - n: 27
+  - n: 30
     locuteur: conseiller
     texte: "Parfait, votre souscription est confirmée. Avez-vous d'autres questions, Monsieur Rousseau ?"
     ton: "satisfait"
-  - n: 28
+  - n: 31
     locuteur: client
     texte: "Non, ça ira."
     ton: "un peu réservé"
-  - n: 29
+  - n: 32
     locuteur: conseiller
     texte: "Merci pour votre confiance. Bonnes soirées cinéma à vous deux, et très bonne journée, au revoir !"
     ton: "chaleureux"
