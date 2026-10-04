@@ -72,19 +72,29 @@ SCHEMA = {
 
 # --- Outils communs ------------------------------------------------------------------------
 
-def requete(url, corps=None, cle=None, entetes=None, donnees=None, methode="POST"):
+def requete(url, corps=None, cle=None, entetes=None, donnees=None, methode="POST", modele=None):
+    """Envoie une requête. Pour une requête à un modèle (modele renseigné) : en cas d'erreur 503
+    (surcharge passagère de Google), une seule nouvelle tentative après une minute, comptée dans le quota.
+    Tout autre refus, dont un refus lié au quota (429), arrête immédiatement."""
     entetes = dict(entetes or {})
     if cle:
         entetes["x-goog-api-key"] = cle
     if corps is not None:
         donnees = json.dumps(corps).encode("utf-8")
         entetes["Content-Type"] = "application/json"
-    req = urllib.request.Request(url, data=donnees, method=methode, headers=entetes)
-    try:
-        with urllib.request.urlopen(req, timeout=900) as rep:
-            return rep.headers, rep.read()
-    except urllib.error.HTTPError as e:
-        sys.exit(f"ARRÊT – échec HTTP {e.code} (requête comptée, pas de nouvel essai) : {e.read().decode('utf-8', 'replace')[:800]}")
+    for tentative in (1, 2):
+        req = urllib.request.Request(url, data=donnees, method=methode, headers=entetes)
+        try:
+            with urllib.request.urlopen(req, timeout=900) as rep:
+                return rep.headers, rep.read()
+        except urllib.error.HTTPError as e:
+            message = e.read().decode("utf-8", "replace")[:800]
+            if e.code == 503 and modele and tentative == 1:
+                print(f"Erreur 503 (surcharge de Google) : nouvelle tentative dans 60 s, comptée dans le quota.", flush=True)
+                time.sleep(60)
+                Compteur().reserver(modele)
+                continue
+            sys.exit(f"ARRÊT – échec HTTP {e.code} (requête comptée, pas de nouvel essai) : {message}")
 
 
 def sauvegarder_reponse(appel, methode, reponse):
@@ -131,7 +141,7 @@ def gemini_flash(appel, wav, cle, simulation):
     if simulation:
         return corps
     Compteur().reserver("gemini-3.8-flash")
-    _, octets = requete(f"{API}/v1beta/models/gemini-3.8-flash:generateContent", corps, cle)
+    _, octets = requete(f"{API}/v1beta/models/gemini-3.8-flash:generateContent", corps, cle, modele="gemini-3.8-flash")
     reponse = json.loads(octets)
     sauvegarde = sauvegarder_reponse(appel, "gemini-3.8-flash", reponse)
     texte = "".join(p.get("text", "") for p in reponse["candidates"][0]["content"]["parts"] if not p.get("thought"))
@@ -177,7 +187,7 @@ def gemini_transcribe(appel, wav, cle, simulation):
     corps["input"][0]["uri"] = fichier["uri"]
     try:
         Compteur().reserver("gemini-3.5-transcribe")
-        _, octets = requete(f"{API}/v1beta/interactions", corps, cle)
+        _, octets = requete(f"{API}/v1beta/interactions", corps, cle, modele="gemini-3.5-transcribe")
     finally:
         requete(f"{API}/v1beta/{fichier['name']}", cle=cle, methode="DELETE")  # le fichier déposé est supprimé
     reponse = json.loads(octets)
@@ -194,6 +204,26 @@ def gemini_transcribe(appel, wav, cle, simulation):
     if not mots:
         sys.exit(f"ARRÊT – aucune annotation mot par mot dans la réponse (sauvegardée dans {sauvegarde.name}).")
     mots.sort(key=lambda m: secondes(m["start_offset"]))
+    # Mots horodatés conservés : le traitement ci-dessous peut être refait sans nouvelle requête
+    (SORTIE / "gemini-3.5-transcribe").mkdir(parents=True, exist_ok=True)
+    (SORTIE / "gemini-3.5-transcribe" / f"appel-{appel}.mots.json").write_text(
+        json.dumps(mots, ensure_ascii=False, indent=1), encoding="utf-8")
+    return repliques_depuis_mots(appel, wav, mots), sauvegarde, reponse.get("usage")
+
+
+def repliques_depuis_mots(appel, wav, mots):
+    """Répliques à partir des mots horodatés de Gemini 3.5 Transcribe.
+    Le modèle ne signale pas les bips : ils sont repérés dans le son (tonalité à 1 kHz) et remplacent
+    les mots qui tombent dedans par [numéro masqué]."""
+    signal, taux = lire_wav(wav)
+    for a, b in bips(signal, taux):
+        milieu = lambda m: (secondes(m["start_offset"]) + secondes(m["end_offset"])) / 2  # noqa: E731
+        dedans = [m for m in mots if a - 0.1 <= milieu(m) <= b + 0.1]
+        if dedans:
+            mots = [m for m in mots if m not in dedans]
+            mots.append({"text": MASQUE, "speaker": dedans[0].get("speaker"),
+                         "start_offset": f"{a}s", "end_offset": f"{b}s"})
+    mots.sort(key=lambda m: secondes(m["start_offset"]))
     repliques = []
     for m in mots:  # une réplique = suite de mots du même locuteur
         if repliques and repliques[-1]["locuteur"] == m.get("speaker"):
@@ -205,7 +235,7 @@ def gemini_transcribe(appel, wav, cle, simulation):
     correspondance = roles(repliques, type_appel(appel))
     for r in repliques:
         r["locuteur"] = correspondance[r["locuteur"]]
-    return repliques, sauvegarde, reponse.get("usage")
+    return repliques
 
 
 # --- C. Transcription locale ----------------------------------------------------------------------
@@ -258,16 +288,32 @@ def caracteristiques(signal, taux, debut, fin):
     return np.concatenate([mfcc.mean(axis=0), [f0]])
 
 
-def whisper_local(appel, wav, cle, simulation, taille="small"):
-    if simulation:
-        return {"methode": f"whisper-{taille}", "requetes": 0}
+SEUIL_INAUDIBLE = 0.1  # probabilité sous laquelle un mot est remplacé par [inaudible] (0,3 masquait des mots bien entendus)
+
+
+def mots_whisper(appel, wav, taille):
+    """Mots horodatés avec leur probabilité, conservés dans transcriptions/whisper-<taille>/appel-XX.mots.json :
+    ils servent aussi de source de temps, et le seuil [inaudible] peut être ajusté sans retranscrire."""
+    cache = SORTIE / f"whisper-{taille}" / f"appel-{appel}.mots.json"
+    if cache.exists():
+        return json.loads(cache.read_text(encoding="utf-8"))
     from faster_whisper import WhisperModel
     signal, taux = lire_wav(wav)
     audio = resample_poly(signal, 16000, taux).astype(np.float32)
     modele = WhisperModel(taille, device="cpu", compute_type="int8")
     segments, _ = modele.transcribe(audio, language="fr", word_timestamps=True)
-    mots = [{"texte": w.word.strip(), "debut": w.start, "fin": w.end, "proba": w.probability}
+    mots = [{"texte": w.word.strip(), "debut": round(w.start, 2), "fin": round(w.end, 2), "proba": round(w.probability, 3)}
             for s in segments for w in s.words]
+    cache.parent.mkdir(parents=True, exist_ok=True)
+    cache.write_text(json.dumps(mots, ensure_ascii=False, indent=1), encoding="utf-8")
+    return mots
+
+
+def whisper_local(appel, wav, cle, simulation, taille="small"):
+    if simulation:
+        return {"methode": f"whisper-{taille}", "requetes": 0}
+    signal, taux = lire_wav(wav)
+    mots = mots_whisper(appel, wav, taille)
 
     # Bips : les mots qui tombent dedans sont remplacés par [numéro masqué]
     for a, b in bips(signal, taux):
@@ -277,7 +323,7 @@ def whisper_local(appel, wav, cle, simulation, taille="small"):
     # Mots peu sûrs : regroupés en [inaudible], jamais devinés
     propres = []
     for m in mots:
-        if m["proba"] < 0.3:
+        if m["proba"] < SEUIL_INAUDIBLE:
             if propres and propres[-1]["texte"] == INAUDIBLE:
                 propres[-1]["fin"] = m["fin"]
                 continue

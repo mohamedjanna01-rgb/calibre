@@ -148,14 +148,23 @@ def corps_generate(script, repliques, suite=False):
 
 # --- Envoi et lecture de la réponse ------------------------------------------------------
 
-def envoyer(url, corps, cle):
-    req = urllib.request.Request(url, data=json.dumps(corps).encode("utf-8"), method="POST",
-                                 headers={"Content-Type": "application/json", "x-goog-api-key": cle})
-    try:
-        with urllib.request.urlopen(req, timeout=600) as rep:
-            return json.loads(rep.read())
-    except urllib.error.HTTPError as e:
-        sys.exit(f"Échec HTTP {e.code} (requête comptée, pas de nouvel essai) : {e.read().decode('utf-8', 'replace')[:800]}")
+def envoyer(url, corps, cle, modele):
+    """Erreur 503 (surcharge passagère de Google) : une seule nouvelle tentative après une minute,
+    comptée dans le quota. Tout autre refus, dont un refus lié au quota (429), arrête immédiatement."""
+    for tentative in (1, 2):
+        req = urllib.request.Request(url, data=json.dumps(corps).encode("utf-8"), method="POST",
+                                     headers={"Content-Type": "application/json", "x-goog-api-key": cle})
+        try:
+            with urllib.request.urlopen(req, timeout=600) as rep:
+                return json.loads(rep.read())
+        except urllib.error.HTTPError as e:
+            message = e.read().decode("utf-8", "replace")[:800]
+            if e.code == 503 and tentative == 1:
+                print("Erreur 503 (surcharge de Google) : nouvelle tentative dans 60 s, comptée dans le quota.", flush=True)
+                time.sleep(60)
+                Compteur().reserver(modele)
+                continue
+            sys.exit(f"Échec HTTP {e.code} (requête comptée, pas de nouvel essai) : {message}")
 
 
 def extraire_audio(reponse):
@@ -265,7 +274,7 @@ def main():
     for k, corps in enumerate(corps_parties, 1):
         compteur.reserver(a.modele)
         debut = time.time()
-        reponse = envoyer(url, corps, cle)  # en cas d'échec : arrêt immédiat, les parties reçues restent sauvegardées
+        reponse = envoyer(url, corps, cle, a.modele)  # en cas d'échec : arrêt immédiat, les parties reçues restent sauvegardées
         duree_requete += time.time() - debut
         # Réponse sauvegardée telle quelle avant tout traitement : rien n'est perdu en cas d'erreur locale
         suffixe = f".partie{k}" if len(corps_parties) > 1 else ""

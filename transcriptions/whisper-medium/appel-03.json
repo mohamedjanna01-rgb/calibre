@@ -1,7 +1,7 @@
 {
   "appel": "03",
   "methode": "whisper-medium",
-  "date": "2026-10-04T23:29:46",
+  "date": "2026-10-05T00:07:06",
   "duree_audio_s": 160.8,
   "usage": null,
   "repliques": [
@@ -24,14 +24,14 @@
       "locuteur": "conseiller",
       "debut": 32.4,
       "fin": 47.64,
-      "texte": "vous pouvez répéter ? Pouvez -vous me donner votre numéro de ligne, votre code [inaudible] et votre date de naissance ? [numéro masqué]"
+      "texte": "vous pouvez répéter ? Pouvez -vous me donner votre numéro de ligne, votre code postale et votre date de naissance ? [numéro masqué]"
     },
     {
       "n": 4,
       "locuteur": "client",
       "debut": 48.88,
       "fin": 50.08,
-      "texte": "[inaudible] milles,"
+      "texte": "44 milles,"
     },
     {
       "n": 5,
@@ -45,7 +45,7 @@
       "locuteur": "client",
       "debut": 57.58,
       "fin": 64.62,
-      "texte": "Tous les soirs. [inaudible] 'ai appelé lundi. On m 'a dit de redémarrer la box. J 'ai rappelé mercredi. On m 'a dit que ça allait s 'arranger."
+      "texte": "Tous les soirs. J 'ai appelé lundi. On m 'a dit de redémarrer la box. J 'ai rappelé mercredi. On m 'a dit que ça allait s 'arranger."
     },
     {
       "n": 7,
@@ -66,7 +66,7 @@
       "locuteur": "conseiller",
       "debut": 70.76,
       "fin": 84.38,
-      "texte": "Je fais 40 euros par mois pour un service qui ne marche pas. Je travaille le soir et personne ne fait rien. Calmez -vous, [inaudible] Martin. Ce n 'est pas moi qui ai traité vos appels précédents. Je ne peux pas savoir ce que mes collègues vous ont dit."
+      "texte": "Je fais 40 euros par mois pour un service qui ne marche pas. Je travaille le soir et personne ne fait rien. Calmez -vous, Monsieur Martin. Ce n 'est pas moi qui ai traité vos appels précédents. Je ne peux pas savoir ce que mes collègues vous ont dit."
     },
     {
       "n": 10,
@@ -80,7 +80,7 @@
       "locuteur": "conseiller",
       "debut": 91.1,
       "fin": 116.34,
-      "texte": "Je regarde votre box à distance. À quelle heure ont lieu les coupures ? Vers 20h [inaudible] 21h, à chaque fois. D 'accord. Un instant, s 'il vous plaît. Effectivement, je vois plusieurs coupures chaque soir sur les sept derniers jours avec un signal [inaudible] trop faible. Ce n 'est donc pas un problème de redémarrage. Il faut qu 'un technicien vienne contrôler la ligne chez vous."
+      "texte": "Je regarde votre box à distance. À quelle heure ont lieu les coupures ? Vers 20h à 21h, à chaque fois. D 'accord. Un instant, s 'il vous plaît. Effectivement, je vois plusieurs coupures chaque soir sur les sept derniers jours avec un signal libre trop faible. Ce n 'est donc pas un problème de redémarrage. Il faut qu 'un technicien vienne contrôler la ligne chez vous."
     },
     {
       "n": 12,
@@ -94,7 +94,7 @@
       "locuteur": "conseiller",
       "debut": 120.26,
       "fin": 123.54,
-      "texte": "[inaudible] vous propose un rendez -vous jeudi entre 14h et 18h."
+      "texte": "Je vous propose un rendez -vous jeudi entre 14h et 18h."
     },
     {
       "n": 14,
@@ -115,7 +115,7 @@
       "locuteur": "client",
       "debut": 132.94,
       "fin": 141.3,
-      "texte": "Est -ce que ça vous convient ? Oui, jeudi, ça me va. C 'est noté, [inaudible] Martin. Le technicien contrôlera la prise fibre et la ligne."
+      "texte": "Est -ce que ça vous convient ? Oui, jeudi, ça me va. C 'est noté, Monsieur Martin. Le technicien contrôlera la prise fibre et la ligne."
     },
     {
       "n": 17,
@@ -150,7 +150,7 @@
       "locuteur": "conseiller",
       "debut": 157.0,
       "fin": 160.56,
-      "texte": "Merci pour votre appel, [inaudible] Martin. Je vous souhaite une bonne soirée. Au revoir."
+      "texte": "Merci pour votre appel, Monsieur Martin. Je vous souhaite une bonne soirée. Au revoir."
     }
   ]
 }

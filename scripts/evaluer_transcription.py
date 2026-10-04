@@ -17,11 +17,14 @@ import sys
 import unicodedata
 from pathlib import Path
 
+import numpy as np
+
 ROOT = Path(__file__).resolve().parent.parent
 SCENARIOS = ROOT / "scenarios"
 TRANSCRIPTIONS = ROOT / "transcriptions"
 NOTATION = ROOT / "cadrage" / "calibre-notation-reference.md"
 SORTIE = ROOT / "evaluations" / "transcription"
+REFERENCE_TEMPS = SORTIE / "reference-temps"
 INTERJECTIONS = {"hmm", "hm", "mm", "mmh", "mhm", "hum", "mmhmm", "euh", "heu"}
 MASQUE, INAUDIBLE = "§masque", "§inaudible"
 
@@ -66,10 +69,10 @@ def evaluer(appel, methode):
     hyp_reps = donnees["repliques"]
 
     ref = [(mot, loc, i) for i, (loc, texte) in enumerate(reference(appel)) for mot in jetons(texte)]
-    hyp_tous = [(mot, r["locuteur"]) for r in hyp_reps for mot in jetons(r["texte"])]
-    nb_inaudible = sum(1 for m, _ in hyp_tous if m == INAUDIBLE)
-    hyp = [(m, loc) for m, loc in hyp_tous if m != INAUDIBLE]
-    ref_mots, hyp_mots = [m for m, _, _ in ref], [m for m, _ in hyp]
+    hyp_tous = [(mot, r["locuteur"], k) for k, r in enumerate(hyp_reps) for mot in jetons(r["texte"])]
+    nb_inaudible = sum(1 for m, _, _ in hyp_tous if m == INAUDIBLE)
+    hyp = [h for h in hyp_tous if h[0] != INAUDIBLE]
+    ref_mots, hyp_mots = [m for m, _, _ in ref], [m for m, _, _ in hyp]
 
     sm = difflib.SequenceMatcher(None, ref_mots, hyp_mots, autojunk=False)
     paires = [(a + k, b + k) for a, b, n in sm.get_matching_blocks() for k in range(n)]
@@ -100,9 +103,23 @@ def evaluer(appel, methode):
         # Locuteur attendu : celui de la réplique du scénario qui contient la preuve
         debut_ref = next((i for i in range(len(ref_mots) - len(pj) + 1) if ref_mots[i:i + len(pj)] == pj), None)
         if trouve is not None and debut_ref is not None:
-            locs = [loc for _, loc in hyp[trouve:trouve + len(pj)]]
+            locs = [h[1] for h in hyp[trouve:trouve + len(pj)]]
             locuteur_ok = max(set(locs), key=locs.count) == ref[debut_ref][1]
         resultats_preuves.append({"preuve": p, "statut": statut, "bon_locuteur": locuteur_ok})
+
+    # Horodatage, si une référence de temps existe : écart entre le début de chaque réplique transcrite
+    # et le temps de référence de son premier mot retrouvé dans le scénario
+    ecarts = []
+    fichier_temps = REFERENCE_TEMPS / f"appel-{appel}.json"
+    if fichier_temps.exists():
+        temps_ref = [m["debut"] for m in json.loads(fichier_temps.read_text(encoding="utf-8"))["mots"]]
+        assert len(temps_ref) == len(ref), "référence de temps périmée : à reconstruire"
+        vers_ref = {j: i for i, j in paires}
+        deja = set()
+        for j, (_, _, k) in enumerate(hyp):
+            if k not in deja and j in vers_ref:
+                deja.add(k)
+                ecarts.append(abs(hyp_reps[k]["debut"] - temps_ref[vers_ref[j]]))
 
     fuites = re.findall(r"0\s?6\s?39\s?98", " ".join(r["texte"] for r in hyp_reps))
     ordre_ok = all(a["debut"] <= b["debut"] for a, b in zip(hyp_reps, hyp_reps[1:]))
@@ -119,12 +136,14 @@ def evaluer(appel, methode):
         "inaudible": nb_inaudible,
         "mots_inventes_pour_100": round(100 * (len(hyp_mots) - len(paires)) / max(1, len(ref)), 1),
         "horodatage_coherent": ordre_ok and bornes_ok,
+        "ecart_debut_median_s": round(float(np.median(ecarts)), 2) if ecarts else None,
+        "repliques_a_moins_1s_pct": round(100 * sum(e <= 1 for e in ecarts) / len(ecarts), 1) if ecarts else None,
     }
 
 
 def tableau(resultats):
-    lignes = ["| Appel | Méthode | Mots retrouvés | WER | Mots au bon locuteur | Répliques bien attribuées | Preuves exactes | Preuves au bon locuteur | Masques (scén./transc.) | [inaudible] | Mots inventés /100 | Horodatage |",
-              "|---|---|---|---|---|---|---|---|---|---|---|---|"]
+    lignes = ["| Appel | Méthode | Mots retrouvés | WER | Mots au bon locuteur | Répliques bien attribuées | Preuves exactes | Preuves au bon locuteur | Masques (scén./transc.) | [inaudible] | Mots inventés /100 | Horodatage | Écart médian | Répliques à moins d'1 s |",
+              "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for r in resultats:
         p = r["preuves"]
         exactes = sum(1 for x in p if x["statut"] == "exacte")
@@ -132,7 +151,9 @@ def tableau(resultats):
         lignes.append(f"| {r['appel']} | {r['methode']} | {r['mots_retrouves_pct']} % | {r['wer_pct']} % | "
                       f"{r['mots_bon_locuteur_pct']} % | {r['repliques_bien_attribuees_pct']} % | {exactes}/{len(p)} | {bons}/{len(p)} | "
                       f"{r['masques']['scenario']}/{r['masques']['transcription']}{' FUITE' if r['masques']['fuites'] else ''} | "
-                      f"{r['inaudible']} | {r['mots_inventes_pour_100']} | {'cohérent' if r['horodatage_coherent'] else 'INCOHÉRENT'} |")
+                      f"{r['inaudible']} | {r['mots_inventes_pour_100']} | {'cohérent' if r['horodatage_coherent'] else 'INCOHÉRENT'} | "
+                      f"{'' if r['ecart_debut_median_s'] is None else str(r['ecart_debut_median_s']) + ' s'} | "
+                      f"{'' if r['repliques_a_moins_1s_pct'] is None else str(r['repliques_a_moins_1s_pct']) + ' %'} |")
     return "\n".join(lignes)
 
 

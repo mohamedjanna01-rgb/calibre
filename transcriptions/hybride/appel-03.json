@@ -1,0 +1,216 @@
+{
+  "appel": "03",
+  "methode": "hybride",
+  "date": "2026-10-05T00:06:23",
+  "duree_audio_s": 160.8,
+  "usage": {
+    "source_texte": "gemini-3.8-flash",
+    "source_temps": "whisper-medium",
+    "mots_alignes_pct": 94.4
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "conseiller",
+      "debut": 2.58,
+      "fin": 2.98,
+      "texte": "Kalyo Télécom bonjour."
+    },
+    {
+      "n": 2,
+      "locuteur": "client",
+      "debut": 2.58,
+      "fin": 2.98,
+      "texte": "Bonjour."
+    },
+    {
+      "n": 3,
+      "locuteur": "conseiller",
+      "debut": 2.58,
+      "fin": 14.2,
+      "texte": "Je m'appelle Inès Kaddouri, je suis votre conseillère clientèle et je vais m'occuper de votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?"
+    },
+    {
+      "n": 4,
+      "locuteur": "client",
+      "debut": 15.32,
+      "fin": 19.76,
+      "texte": "Martin. Julien Martin. Et je vous préviens, c'est la 3e fois que j'appelle cette semaine."
+    },
+    {
+      "n": 5,
+      "locuteur": "conseiller",
+      "debut": 20.6,
+      "fin": 29.02,
+      "texte": "Merci Monsieur Martin. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et [inaudible] ?"
+    },
+    {
+      "n": 6,
+      "locuteur": "client",
+      "debut": 31.4,
+      "fin": 33.26,
+      "texte": "Euh pardon, vous pouvez répéter ?"
+    },
+    {
+      "n": 7,
+      "locuteur": "conseiller",
+      "debut": 34.4,
+      "fin": 39.28,
+      "texte": "Pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?"
+    },
+    {
+      "n": 8,
+      "locuteur": "client",
+      "debut": 47.02,
+      "fin": 51.88,
+      "texte": "06 [numéro masqué] 44000, 8 novembre 1990."
+    },
+    {
+      "n": 9,
+      "locuteur": "client",
+      "debut": 53.7,
+      "fin": 65.72,
+      "texte": "Bon, je vous explique. Tous les soirs, Internet coupe. Tous les soirs. J'ai appelé lundi, on m'a dit de redémarrer la box. J'ai rappelé mercredi, on m'a dit que ça allait s'arranger. Et là..."
+    },
+    {
+      "n": 10,
+      "locuteur": "conseiller",
+      "debut": 66.26,
+      "fin": 68.52,
+      "texte": "Oui oui, j'ai compris, je vois vos appels dans l'historique."
+    },
+    {
+      "n": 11,
+      "locuteur": "client",
+      "debut": 68.59,
+      "fin": 77.04,
+      "texte": "Non, vous n'avez pas compris. Je paie 40 euros par mois pour un service qui ne marche pas. Je travaille le soir, et personne ne fait rien."
+    },
+    {
+      "n": 12,
+      "locuteur": "conseiller",
+      "debut": 77.6,
+      "fin": 84.38,
+      "texte": "Calmez-vous Monsieur Martin. Ce n'est pas moi qui ai traité vos appels précédents, je ne peux pas savoir ce que mes collègues vous ont dit."
+    },
+    {
+      "n": 13,
+      "locuteur": "client",
+      "debut": 84.74,
+      "fin": 87.74,
+      "texte": "Je m'en fiche de qui c'était ! Moi, je veux que ça marche !"
+    },
+    {
+      "n": 14,
+      "locuteur": "conseiller",
+      "debut": 87.74,
+      "fin": 95.36,
+      "texte": "Je comprends. Je regarde votre box à distance. À quelle heure ont lieu les coupures ?"
+    },
+    {
+      "n": 15,
+      "locuteur": "client",
+      "debut": 97.5,
+      "fin": 99.66,
+      "texte": "Vers 20 heures, 21 heures. À chaque fois."
+    },
+    {
+      "n": 16,
+      "locuteur": "conseiller",
+      "debut": 100.14,
+      "fin": 102.68,
+      "texte": "D'accord. Un instant, s'il vous plaît."
+    },
+    {
+      "n": 17,
+      "locuteur": "conseiller",
+      "debut": 104.92,
+      "fin": 110.42,
+      "texte": "Effectivement, je vois plusieurs coupures chaque soir sur les 7 derniers jours, avec un signal fibre trop faible."
+    },
+    {
+      "n": 18,
+      "locuteur": "client",
+      "debut": 110.42,
+      "fin": 110.42,
+      "texte": "Hum."
+    },
+    {
+      "n": 19,
+      "locuteur": "conseiller",
+      "debut": 112.28,
+      "fin": 116.34,
+      "texte": "Ce n'est donc pas un problème de redémarrage. Il faut qu'un technicien vienne contrôler la ligne chez vous."
+    },
+    {
+      "n": 20,
+      "locuteur": "client",
+      "debut": 117.74,
+      "fin": 119.78,
+      "texte": "Enfin quelqu'un qui voit le problème !"
+    },
+    {
+      "n": 21,
+      "locuteur": "conseiller",
+      "debut": 120.26,
+      "fin": 125.02,
+      "texte": "Je vous propose un rendez-vous jeudi entre 14 et 18 heures [inaudible] ?"
+    },
+    {
+      "n": 22,
+      "locuteur": "client",
+      "debut": 126.26,
+      "fin": 127.34,
+      "texte": "Pardon, vous pouvez répéter ?"
+    },
+    {
+      "n": 23,
+      "locuteur": "conseiller",
+      "debut": 128.14,
+      "fin": 133.78,
+      "texte": "Je vous propose un rendez-vous jeudi entre 14 et 18 heures. Est-ce que ça vous convient ?"
+    },
+    {
+      "n": 24,
+      "locuteur": "client",
+      "debut": 135.6,
+      "fin": 136.6,
+      "texte": "Oui, jeudi ça me va."
+    },
+    {
+      "n": 25,
+      "locuteur": "conseiller",
+      "debut": 137.32,
+      "fin": 141.3,
+      "texte": "C'est noté Monsieur Martin. Le technicien contrôlera la prise fibre et la ligne."
+    },
+    {
+      "n": 26,
+      "locuteur": "client",
+      "debut": 142.42,
+      "fin": 143.04,
+      "texte": "D'accord."
+    },
+    {
+      "n": 27,
+      "locuteur": "conseiller",
+      "debut": 143.04,
+      "fin": 154.62,
+      "texte": "Vous recevrez un SMS de confirmation, puis un rappel la veille. Pour récapituler : les coupures viennent d'un signal fibre trop faible, et un technicien passe jeudi entre 14 heures et 18 heures. Avez-vous d'autres questions ?"
+    },
+    {
+      "n": 28,
+      "locuteur": "client",
+      "debut": 156.0,
+      "fin": 156.64,
+      "texte": "Hum, non, c'est bon."
+    },
+    {
+      "n": 29,
+      "locuteur": "conseiller",
+      "debut": 157.0,
+      "fin": 160.56,
+      "texte": "Merci pour votre appel Monsieur Martin. Je vous souhaite une bonne soirée. Au revoir."
+    }
+  ]
+}

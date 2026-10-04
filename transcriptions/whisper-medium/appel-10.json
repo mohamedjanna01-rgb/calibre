@@ -1,7 +1,7 @@
 {
   "appel": "10",
   "methode": "whisper-medium",
-  "date": "2026-10-04T23:33:21",
+  "date": "2026-10-05T00:07:06",
   "duree_audio_s": 67.9,
   "usage": null,
   "repliques": [
@@ -10,14 +10,14 @@
       "locuteur": "conseiller",
       "debut": 0.48,
       "fin": 29.52,
-      "texte": "Allô ? Allô, oui, bonjour, c 'est Calio Télécom. Bonjour. Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité. Vous êtes bien la titulaire de la boxe ? Oui, je prépare le dîner, là. Ça ne sera pas long. Nom, code postal, date de naissance ? Fabre, Féline. [inaudible] -1 -1, le 25 juin 1984. Vous avez des enfants ? Oui, deux. Ils ont quel âge ? Ils regardent la télé ? [inaudible] qui est neuf ans."
+      "texte": "Allô ? Allô, oui, bonjour, c 'est Calio Télécom. Bonjour. Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité. Vous êtes bien la titulaire de la boxe ? Oui, je prépare le dîner, là. Ça ne sera pas long. Nom, code postal, date de naissance ? Fabre, Féline. 0 -10 -1 -1, le 25 juin 1984. Vous avez des enfants ? Oui, deux. Ils ont quel âge ? Ils regardent la télé ? [inaudible] qui est neuf ans."
     },
     {
       "n": 2,
       "locuteur": "client",
       "debut": 29.86,
       "fin": 31.52,
-      "texte": "[inaudible] regardent surtout des dessins animés."
+      "texte": "Ils regardent surtout des dessins animés."
     },
     {
       "n": 3,

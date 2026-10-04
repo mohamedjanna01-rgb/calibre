@@ -1,0 +1,207 @@
+{
+  "appel": "10",
+  "methode": "gemini-3.5-transcribe",
+  "date": "2026-10-04T23:51:20",
+  "duree_audio_s": 67.9,
+  "usage": {
+    "total_tokens": 1699,
+    "total_input_tokens": 1699,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 1
+      },
+      {
+        "modality": "audio",
+        "tokens": 1698
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 0,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "raw_prompt_token": 2018,
+    "model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 320
+          },
+          {
+            "modality": "audio",
+            "tokens": 1698
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 301
+          }
+        ]
+      }
+    ],
+    "non_grounding_model_invocation_token_counts": [
+      {
+        "prompt_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 320
+          },
+          {
+            "modality": "audio",
+            "tokens": 1698
+          }
+        ],
+        "candidates_tokens_details": [
+          {
+            "modality": "text",
+            "tokens": 301
+          }
+        ]
+      }
+    ]
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "client",
+      "debut": 0.3,
+      "fin": 0.7,
+      "texte": "Allô."
+    },
+    {
+      "n": 2,
+      "locuteur": "conseiller",
+      "debut": 1.3,
+      "fin": 3.1,
+      "texte": "Allô, oui, bonjour, c'est Calio Telecom."
+    },
+    {
+      "n": 3,
+      "locuteur": "client",
+      "debut": 3.9,
+      "fin": 4.3,
+      "texte": "Bonjour."
+    },
+    {
+      "n": 4,
+      "locuteur": "conseiller",
+      "debut": 5.1,
+      "fin": 10.1,
+      "texte": "Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité. Vous êtes bien la titulaire de la box?"
+    },
+    {
+      "n": 5,
+      "locuteur": "client",
+      "debut": 10.9,
+      "fin": 12.8,
+      "texte": "Oui. Je prépare le dîner là."
+    },
+    {
+      "n": 6,
+      "locuteur": "conseiller",
+      "debut": 13.5,
+      "fin": 15.9,
+      "texte": "Ça ne sera pas long. Nom, code postal, date de naissance."
+    },
+    {
+      "n": 7,
+      "locuteur": "client",
+      "debut": 17.6,
+      "fin": 22.2,
+      "texte": "Fabre Céline. 25 janvier 1984."
+    },
+    {
+      "n": 8,
+      "locuteur": "conseiller",
+      "debut": 22.9,
+      "fin": 23.7,
+      "texte": "Vous avez des enfants?"
+    },
+    {
+      "n": 9,
+      "locuteur": "client",
+      "debut": 24.4,
+      "fin": 25.1,
+      "texte": "Oui, deux."
+    },
+    {
+      "n": 10,
+      "locuteur": "conseiller",
+      "debut": 25.8,
+      "fin": 27.4,
+      "texte": "Ils ont quel âge? Ils regardent la télé?"
+    },
+    {
+      "n": 11,
+      "locuteur": "client",
+      "debut": 28.1,
+      "fin": 34.0,
+      "texte": "5 et 9 ans. Ils regardent surtout des dessins animés sur une appli de streaming sur la tablette."
+    },
+    {
+      "n": 12,
+      "locuteur": "conseiller",
+      "debut": 35.0,
+      "fin": 44.1,
+      "texte": "Les plateformes de streaming, honnêtement, ce n'est pas terrible pour les enfants. On ne sait jamais ce qu'ils regardent. Il vous faut le pack Horizon, 12,99 € par mois. Je vous l'active?"
+    },
+    {
+      "n": 13,
+      "locuteur": "client",
+      "debut": 44.8,
+      "fin": 46.4,
+      "texte": "Non, merci, ça m'intéresse pas."
+    },
+    {
+      "n": 14,
+      "locuteur": "conseiller",
+      "debut": 47.0,
+      "fin": 48.8,
+      "texte": "Attendez, vous ne savez même pas ce qu'il y a dedans."
+    },
+    {
+      "n": 15,
+      "locuteur": "client",
+      "debut": 49.5,
+      "fin": 52.2,
+      "texte": "Je vous ai dit non. Je n'ai vraiment pas le temps là."
+    },
+    {
+      "n": 16,
+      "locuteur": "conseiller",
+      "debut": 52.9,
+      "fin": 57.2,
+      "texte": "2 minutes. C'est tout ce que je vous demande. Franchement, vous allez le regretter si vous ne"
+    },
+    {
+      "n": 17,
+      "locuteur": "client",
+      "debut": 57.9,
+      "fin": 59.6,
+      "texte": "Non. Je n'en veux pas."
+    },
+    {
+      "n": 18,
+      "locuteur": "conseiller",
+      "debut": 60.1,
+      "fin": 63.5,
+      "texte": "Pensez au moins à vos enfants quand même. Tous les parents le prennent, vous savez."
+    },
+    {
+      "n": 19,
+      "locuteur": "client",
+      "debut": 64.1,
+      "fin": 66.2,
+      "texte": "Écoutez, je raccroche. Au revoir."
+    },
+    {
+      "n": 20,
+      "locuteur": "conseiller",
+      "debut": 66.9,
+      "fin": 67.4,
+      "texte": "Comme vous voulez."
+    }
+  ]
+}

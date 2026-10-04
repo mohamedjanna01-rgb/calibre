@@ -1,8 +1,8 @@
 # Appel 10 – transcription whisper-medium
 
-**[00:00.5] Conseiller :** Allô ? Allô, oui, bonjour, c 'est Calio Télécom. Bonjour. Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité. Vous êtes bien la titulaire de la boxe ? Oui, je prépare le dîner, là. Ça ne sera pas long. Nom, code postal, date de naissance ? Fabre, Féline. [inaudible] -1 -1, le 25 juin 1984. Vous avez des enfants ? Oui, deux. Ils ont quel âge ? Ils regardent la télé ? [inaudible] qui est neuf ans.
+**[00:00.5] Conseiller :** Allô ? Allô, oui, bonjour, c 'est Calio Télécom. Bonjour. Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité. Vous êtes bien la titulaire de la boxe ? Oui, je prépare le dîner, là. Ça ne sera pas long. Nom, code postal, date de naissance ? Fabre, Féline. 0 -10 -1 -1, le 25 juin 1984. Vous avez des enfants ? Oui, deux. Ils ont quel âge ? Ils regardent la télé ? [inaudible] qui est neuf ans.
 
-**[00:29.9] Client :** [inaudible] regardent surtout des dessins animés.
+**[00:29.9] Client :** Ils regardent surtout des dessins animés.
 
 **[00:32.0] Conseiller :** Ils jouent une appli de streaming.
 
