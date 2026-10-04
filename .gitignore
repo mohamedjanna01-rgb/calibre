@@ -1,0 +1,27 @@
+# Secrets – ne jamais versionner de clés API
+.env
+.env.*
+*.key
+*.pem
+
+# Exports n8n contenant potentiellement des credentials
+*credentials*.json
+
+# Journaux et fichiers temporaires
+*.log
+*.tmp
+
+# Fichiers audio intermédiaires (voix brutes avant effet téléphone)
+audio/brut/
+
+# Éditeurs et systèmes
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dépendances
+node_modules/
+__pycache__/
+.venv/
