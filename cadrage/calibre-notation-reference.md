@@ -7,7 +7,7 @@
 
 Ces règles complètent la section 4 du cadrage et priment en cas de doute.
 
-1. **Item « Réassurance et reformulation »** (grille 1, item 5) : les deux sont obligatoires. S'il manque l'une des deux, l'item est « non ».
+1. **Item « Réassurance et reformulation »** (grille 1, item 5) : les deux sont obligatoires. S'il manque l'une des deux, l'item est « non ». **La réassurance n'est exigée que si le client exprime une inquiétude, un problème ou un mécontentement. Sinon, la reformulation suffit.**
 2. **Item « Ton calme et souriant »** : un ton froid ou expéditif, même poli, est noté « non ».
 3. **Item « Objections »** : il ne s'applique que si une offre a été proposée. Un reproche du client (« on aurait pu me prévenir ») n'est pas une objection : il est évalué dans le ton et l'explication.
 4. **Item « Escalade et transfert »** : il s'applique dès que le client a besoin d'une aide que le conseiller peut apporter lui-même (vérification à distance) ou faire apporter par un autre service. Ne faire ni l'un ni l'autre = « non ». Prendre soi-même un rendez-vous technicien, quand on en a la possibilité, n'est pas une escalade (non applicable).
@@ -20,6 +20,9 @@ Ces règles complètent la section 4 du cadrage et priment en cas de doute.
 11. **Un écart de procédure hors grille est signalé en remarque de conformité, sans effet sur la note.** Le rapport de Calibre comporte une rubrique **« Remarques de conformité »**, distincte de la notation : elle liste les écarts à la documentation de Kalyo qui ne relèvent d'aucun item de la grille, avec la règle concernée et la preuve.
 12. **Un oubli isolé ne fait pas baisser le niveau** si le reste de l'appel est réussi : c'est le pourcentage qui décide du niveau. L'item manqué est noté « non » et fait l'objet d'un point de coaching. *(Illustrée par les exemples 1 et 2 de `calibre-exemples-notation.md`.)*
 13. **Éliminatoire 2, élargi : mentir ou faire une fausse promesse qui engage l'entreprise** (prix, remise, geste commercial, délai, conditions), **quel que soit le but** : vendre, retenir ou calmer le client. Une information approximative ou une excuse sans engagement (« ça devrait se régler », « le service n'est pas disponible aujourd'hui ») n'est **pas** un éliminatoire : elle est notée dans les items, et peut déclencher une mise en garde si c'est une faute listée. **Calibre juge ce qui est dit, pas l'intention** : une affirmation fausse sur un prix, une remise, un geste, un délai ou une condition, qui engage l'entreprise, est un éliminatoire ; c'est le qualiticien qui juge ensuite l'intention lors de la réécoute. *(Illustrée par l'exemple 3 de `calibre-exemples-notation.md`.)*
+14. **Item « Engagements autorisés »** (grille 1, item 11) : il ne s'applique que si le conseiller accorde un geste ou fait une promesse (délai, remise, résultat). Une vente au tarif du catalogue relève de l'item 15 (sécurisation de la vente).
+15. **Item « Objections »** (grille 1, item 13) : une offre de rétention et le refus du client se notent dans l'item 10 (rétention), pas dans l'item 13.
+16. **Item « Explication claire »** (grille 1, item 7) : une explication fausse ou trompeuse, même claire, est notée « non ».
 
 ## 2. Grille 1 – Service client (16 items)
 
