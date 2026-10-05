@@ -2,6 +2,7 @@
 
 Trois méthodes, comparées sur les mêmes enregistrements (audio/appels/appel-XX.wav) :
   gemini-3.8-flash      modèle généraliste : consigne + réponse JSON structurée (1 requête par appel)
+  gemini-3.5-flash-lite même consigne et même format, modèle plus léger et moins sollicité
   gemini-3.5-transcribe modèle spécialisé : séparation des voix et horodatage mot par mot (1 requête par appel)
   whisper-small         transcription locale, séparation des voix par la hauteur et le timbre (aucune requête)
   whisper-medium        idem avec le modèle local « medium », plus précis et plus lent
@@ -41,7 +42,7 @@ APPELS = ROOT / "audio" / "appels"
 SORTIE = ROOT / "transcriptions"
 BRUT = ROOT / "audio" / "brut"
 API = "https://generativelanguage.googleapis.com"
-METHODES = ("gemini-3.8-flash", "gemini-3.5-transcribe", "whisper-small", "whisper-medium")
+METHODES = ("gemini-3.8-flash", "gemini-3.5-flash-lite", "gemini-3.5-transcribe", "whisper-small", "whisper-medium")
 INAUDIBLE, MASQUE = "[inaudible]", "[numéro masqué]"
 
 CONSIGNE = f"""Transcris mot pour mot cet enregistrement d'appel téléphonique, en français, entre un conseiller de l'opérateur Kalyo Télécom et un client.
@@ -130,7 +131,7 @@ def type_appel(appel):
 
 # --- A. Gemini 3.8 Flash ------------------------------------------------------------------------
 
-def gemini_flash(appel, wav, cle, simulation):
+def gemini_flash(appel, wav, cle, simulation, modele="gemini-3.8-flash"):
     corps = {
         "contents": [{"parts": [
             {"inlineData": {"mimeType": "audio/wav", "data": "<audio>" if simulation else base64.b64encode(wav.read_bytes()).decode()}},
@@ -140,10 +141,10 @@ def gemini_flash(appel, wav, cle, simulation):
     }
     if simulation:
         return corps
-    Compteur().reserver("gemini-3.8-flash")
-    _, octets = requete(f"{API}/v1beta/models/gemini-3.8-flash:generateContent", corps, cle, modele="gemini-3.8-flash")
+    Compteur().reserver(modele)
+    _, octets = requete(f"{API}/v1beta/models/{modele}:generateContent", corps, cle, modele=modele)
     reponse = json.loads(octets)
-    sauvegarde = sauvegarder_reponse(appel, "gemini-3.8-flash", reponse)
+    sauvegarde = sauvegarder_reponse(appel, modele, reponse)
     texte = "".join(p.get("text", "") for p in reponse["candidates"][0]["content"]["parts"] if not p.get("thought"))
     repliques = json.loads(texte)["repliques"]
     return repliques, sauvegarde, reponse.get("usageMetadata")
@@ -392,7 +393,9 @@ def main():
     p.add_argument("--appels", nargs="+", required=True)
     p.add_argument("--simulation", action="store_true", help="affiche la requête sans l'envoyer")
     a = p.parse_args()
-    fonction = {"gemini-3.8-flash": gemini_flash, "gemini-3.5-transcribe": gemini_transcribe,
+    fonction = {"gemini-3.8-flash": gemini_flash,
+                "gemini-3.5-flash-lite": lambda *x: gemini_flash(*x, modele="gemini-3.5-flash-lite"),
+                "gemini-3.5-transcribe": gemini_transcribe,
                 "whisper-small": whisper_local,
                 "whisper-medium": lambda *x: whisper_local(*x, taille="medium")}[a.methode]
     cle = os.environ.get("GEMINI_API_KEY")

@@ -1,0 +1,80 @@
+[
+  {
+    "appel": "03",
+    "methode": "gemini-3.8-flash",
+    "mots_retrouves_pct": 95.5,
+    "wer_pct": 5.5,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 27,
+      "transcription": 29
+    },
+    "preuves": [
+      {
+        "preuve": "Oui, oui, j'ai compris",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Calmez-vous, Monsieur Martin",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Ce n'est pas moi qui ai traité vos appels précédents",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 2.7,
+    "horodatage_coherent": false,
+    "ecart_debut_median_s": 39.86,
+    "repliques_a_moins_1s_pct": 25.0
+  },
+  {
+    "appel": "03",
+    "methode": "gemini-3.5-flash-lite",
+    "mots_retrouves_pct": 98.0,
+    "wer_pct": 2.7,
+    "mots_bon_locuteur_pct": 74.0,
+    "repliques_bien_attribuees_pct": 61.5,
+    "repliques": {
+      "scenario": 27,
+      "transcription": 50
+    },
+    "preuves": [
+      {
+        "preuve": "Oui, oui, j'ai compris",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Calmez-vous, Monsieur Martin",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Ce n'est pas moi qui ai traité vos appels précédents",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 1.8,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.26,
+    "repliques_a_moins_1s_pct": 86.0
+  }
+]

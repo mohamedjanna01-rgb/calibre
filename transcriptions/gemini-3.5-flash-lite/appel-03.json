@@ -1,0 +1,374 @@
+{
+  "appel": "03",
+  "methode": "gemini-3.5-flash-lite",
+  "date": "2026-10-05T04:02:38",
+  "duree_audio_s": 160.8,
+  "usage": {
+    "promptTokenCount": 4220,
+    "candidatesTokenCount": 2949,
+    "totalTokenCount": 7169,
+    "promptTokensDetails": [
+      {
+        "modality": "AUDIO",
+        "tokenCount": 4021
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 199
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "conseiller",
+      "debut": 0.0,
+      "fin": 1.76,
+      "texte": "Kalyo Télécom, bonjour."
+    },
+    {
+      "n": 2,
+      "locuteur": "client",
+      "debut": 2.21,
+      "fin": 3.12,
+      "texte": "Bonjour."
+    },
+    {
+      "n": 3,
+      "locuteur": "conseiller",
+      "debut": 3.99,
+      "fin": 7.68,
+      "texte": "Je m'appelle Inès Kadouri, je suis votre conseillère cliente et je vais m'occuper de votre demande."
+    },
+    {
+      "n": 4,
+      "locuteur": "conseiller",
+      "debut": 8.01,
+      "fin": 12.01,
+      "texte": "Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité."
+    },
+    {
+      "n": 5,
+      "locuteur": "conseiller",
+      "debut": 12.87,
+      "fin": 14.28,
+      "texte": "Puis-je avoir votre nom et prénom ?"
+    },
+    {
+      "n": 6,
+      "locuteur": "client",
+      "debut": 15.2,
+      "fin": 16.63,
+      "texte": "Martin, Julien Martin."
+    },
+    {
+      "n": 7,
+      "locuteur": "client",
+      "debut": 17.65,
+      "fin": 19.86,
+      "texte": "Et je vous préviens, c'est la troisième fois que j'appelle cette semaine."
+    },
+    {
+      "n": 8,
+      "locuteur": "conseiller",
+      "debut": 20.37,
+      "fin": 22.09,
+      "texte": "Merci monsieur Martin."
+    },
+    {
+      "n": 9,
+      "locuteur": "conseiller",
+      "debut": 23.23,
+      "fin": 29.83,
+      "texte": "Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?"
+    },
+    {
+      "n": 10,
+      "locuteur": "conseiller",
+      "debut": 31.43,
+      "fin": 33.16,
+      "texte": "Pardon, vous pouvez répéter ?"
+    },
+    {
+      "n": 11,
+      "locuteur": "conseiller",
+      "debut": 34.02,
+      "fin": 38.86,
+      "texte": "Pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?"
+    },
+    {
+      "n": 12,
+      "locuteur": "client",
+      "debut": 41.52,
+      "fin": 51.65,
+      "texte": "06 [numéro masqué], 40400 8 novembre 1980."
+    },
+    {
+      "n": 13,
+      "locuteur": "conseiller",
+      "debut": 53.3,
+      "fin": 54.43,
+      "texte": "Bon, je vous explique."
+    },
+    {
+      "n": 14,
+      "locuteur": "conseiller",
+      "debut": 54.91,
+      "fin": 56.46,
+      "texte": "Tous les soirs, internet coupe."
+    },
+    {
+      "n": 15,
+      "locuteur": "conseiller",
+      "debut": 57.06,
+      "fin": 58.74,
+      "texte": "Tous les soirs."
+    },
+    {
+      "n": 16,
+      "locuteur": "conseiller",
+      "debut": 59.57,
+      "fin": 61.5,
+      "texte": "J'ai appelé lundi, on m'a dit de redémarrer la box."
+    },
+    {
+      "n": 17,
+      "locuteur": "conseiller",
+      "debut": 61.94,
+      "fin": 64.29,
+      "texte": "J'ai rappelé mercredi, on m'a dit que ça allait s'arranger."
+    },
+    {
+      "n": 18,
+      "locuteur": "conseiller",
+      "debut": 65.17,
+      "fin": 68.4,
+      "texte": "Et là ? Oui, oui, j'ai compris, je vois vos appels dans l'historique."
+    },
+    {
+      "n": 19,
+      "locuteur": "conseiller",
+      "debut": 68.99,
+      "fin": 70.02,
+      "texte": "Non, vous n'avez pas compris."
+    },
+    {
+      "n": 20,
+      "locuteur": "conseiller",
+      "debut": 70.61,
+      "fin": 72.54,
+      "texte": "Je paye 40 € par mois pour un service qui ne marche pas."
+    },
+    {
+      "n": 21,
+      "locuteur": "conseiller",
+      "debut": 73.0,
+      "fin": 76.53,
+      "texte": "Je travaille le soir et personne ne fait rien."
+    },
+    {
+      "n": 22,
+      "locuteur": "conseiller",
+      "debut": 77.01,
+      "fin": 78.47,
+      "texte": "Calmez-vous, monsieur Martin."
+    },
+    {
+      "n": 23,
+      "locuteur": "conseiller",
+      "debut": 79.92,
+      "fin": 84.17,
+      "texte": "Ce n'est pas moi qui ai traité vos appels précédents, je ne peux pas savoir ce que mes collègues vous ont dit."
+    },
+    {
+      "n": 24,
+      "locuteur": "conseiller",
+      "debut": 84.77,
+      "fin": 86.53,
+      "texte": "Je m'en fiche de qui c'était."
+    },
+    {
+      "n": 25,
+      "locuteur": "conseiller",
+      "debut": 86.92,
+      "fin": 87.72,
+      "texte": "Moi, je veux que ça marche."
+    },
+    {
+      "n": 26,
+      "locuteur": "conseiller",
+      "debut": 88.35,
+      "fin": 88.94,
+      "texte": "Je comprends."
+    },
+    {
+      "n": 27,
+      "locuteur": "conseiller",
+      "debut": 91.07,
+      "fin": 92.51,
+      "texte": "Je regarde votre box à distance."
+    },
+    {
+      "n": 28,
+      "locuteur": "conseiller",
+      "debut": 93.88,
+      "fin": 95.3,
+      "texte": "À quelle heure ont lieu les coupures ?"
+    },
+    {
+      "n": 29,
+      "locuteur": "conseiller",
+      "debut": 97.4,
+      "fin": 99.4,
+      "texte": "Perpeteur, 21h, à chaque fois."
+    },
+    {
+      "n": 30,
+      "locuteur": "conseiller",
+      "debut": 100.1,
+      "fin": 100.67,
+      "texte": "D'accord."
+    },
+    {
+      "n": 31,
+      "locuteur": "conseiller",
+      "debut": 101.44,
+      "fin": 102.3,
+      "texte": "Un instant s'il vous plaît."
+    },
+    {
+      "n": 32,
+      "locuteur": "conseiller",
+      "debut": 104.99,
+      "fin": 110.36,
+      "texte": "Effectivement, je vois plusieurs coupures chaque soir sur les sept derniers jours avec un signal fibre trop faible."
+    },
+    {
+      "n": 33,
+      "locuteur": "conseiller",
+      "debut": 112.24,
+      "fin": 116.32,
+      "texte": "Ce n'est donc pas un problème de redémarrage, il faut qu'un technicien vienne contrôler la ligne chez vous."
+    },
+    {
+      "n": 34,
+      "locuteur": "conseiller",
+      "debut": 118.06,
+      "fin": 119.06,
+      "texte": "Enfin quelqu'un qui voit le problème."
+    },
+    {
+      "n": 35,
+      "locuteur": "conseiller",
+      "debut": 120.08,
+      "fin": 122.1,
+      "texte": "Je vous propose un rendez-vous jeudi entre 14h et 18h."
+    },
+    {
+      "n": 36,
+      "locuteur": "conseiller",
+      "debut": 125.02,
+      "fin": 125.79,
+      "texte": "Est-ce que ça vous convient ?"
+    },
+    {
+      "n": 37,
+      "locuteur": "conseiller",
+      "debut": 126.15,
+      "fin": 127.31,
+      "texte": "Pardon, vous pouvez répéter ?"
+    },
+    {
+      "n": 38,
+      "locuteur": "conseiller",
+      "debut": 128.32,
+      "fin": 132.32,
+      "texte": "Je vous propose un rendez-vous jeudi entre 14h et 18h."
+    },
+    {
+      "n": 39,
+      "locuteur": "conseiller",
+      "debut": 132.96,
+      "fin": 133.72,
+      "texte": "Est-ce que ça vous convient ?"
+    },
+    {
+      "n": 40,
+      "locuteur": "conseiller",
+      "debut": 135.25,
+      "fin": 136.21,
+      "texte": "Oui, jeudi, ça me va."
+    },
+    {
+      "n": 41,
+      "locuteur": "conseiller",
+      "debut": 136.95,
+      "fin": 138.07,
+      "texte": "C'est noté, monsieur Martin."
+    },
+    {
+      "n": 42,
+      "locuteur": "conseiller",
+      "debut": 138.4,
+      "fin": 140.73,
+      "texte": "Le technicien contrôlera la prise fibre et la ligne."
+    },
+    {
+      "n": 43,
+      "locuteur": "conseiller",
+      "debut": 141.77,
+      "fin": 142.34,
+      "texte": "D'accord."
+    },
+    {
+      "n": 44,
+      "locuteur": "conseiller",
+      "debut": 143.08,
+      "fin": 146.43,
+      "texte": "Vous recevrez un SMS de confirmation puis un rappel la veille."
+    },
+    {
+      "n": 45,
+      "locuteur": "conseiller",
+      "debut": 147.24,
+      "fin": 151.7,
+      "texte": "Pour récapituler, les coupures viennent d'un signal fibre trop faible et un technicien passe jeudi entre 14h et 18h."
+    },
+    {
+      "n": 46,
+      "locuteur": "conseiller",
+      "debut": 152.02,
+      "fin": 152.92,
+      "texte": "Avez-vous d'autres questions ?"
+    },
+    {
+      "n": 47,
+      "locuteur": "conseiller",
+      "debut": 153.64,
+      "fin": 154.51,
+      "texte": "Non, c'est bon."
+    },
+    {
+      "n": 48,
+      "locuteur": "conseiller",
+      "debut": 155.08,
+      "fin": 156.88,
+      "texte": "Merci pour votre appel, monsieur Martin."
+    },
+    {
+      "n": 49,
+      "locuteur": "conseiller",
+      "debut": 157.29,
+      "fin": 158.12,
+      "texte": "Je vous souhaite une bonne soirée."
+    },
+    {
+      "n": 50,
+      "locuteur": "conseiller",
+      "debut": 158.33,
+      "fin": 158.68,
+      "texte": "Au revoir."
+    }
+  ]
+}

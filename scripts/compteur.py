@@ -22,6 +22,7 @@ LIMITES = {
     "gemini-2.5-flash-preview-tts": (10, 3),
     "gemini-3.8-flash": (20, 5),
     "gemini-3.5-transcribe": (30, 3),
+    "gemini-3.5-flash-lite": (40, 10),  # plafond quotidien non relevé : valeur prudente (15 par minute selon AI Studio)
 }
 
 
