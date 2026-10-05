@@ -1,0 +1,255 @@
+{
+  "appel": "05",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-05T17:24:31",
+  "source_transcription": "hybride",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète (prénom, nom, fonction) et authentification réussie (nom, ligne, code postal, date de naissance).",
+        "preuves": [
+          {
+            "citation": "Je m'appelle Karim Tazi, je suis votre conseiller clientèle et je vais m'occuper de votre demande.",
+            "debut_s": 3.0,
+            "verification": "exacte",
+            "debut_verifie_s": 3.0
+          },
+          {
+            "citation": "Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?",
+            "debut_s": 14.6,
+            "verification": "exacte",
+            "debut_verifie_s": 14.62
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "La mention de l'enregistrement est faite avant la découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité.",
+            "debut_s": 3.0,
+            "verification": "exacte",
+            "debut_verifie_s": 3.0
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller n'interrompt pas le client.",
+        "preuves": []
+      },
+      {
+        "numero": 4,
+        "statut": "oui",
+        "justification": "Le conseiller pose une question pertinente sur l'opérateur de la compagne pour proposer une solution de transfert.",
+        "preuves": [
+          {
+            "citation": "Avant tout, puis-je vous demander chez quel opérateur est votre compagne ?",
+            "debut_s": 44.7,
+            "verification": "exacte",
+            "debut_verifie_s": 44.74
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "non",
+        "justification": "La reformulation est présente, mais il n'y a pas de réassurance (le conseiller n'apaise pas une inquiétude ou ne garantit pas la prise en charge).",
+        "preuves": [
+          {
+            "citation": "Si je comprends bien monsieur Petit, vous quittez votre logement le mois prochain et vous n'aurez plus besoin de votre box, c'est bien ça ?",
+            "debut_s": 35.6,
+            "verification": "exacte",
+            "debut_verifie_s": 35.56
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "Le ton est poli et empathique.",
+        "preuves": [
+          {
+            "citation": "Je comprends. Félicitations pour votre emménagement.",
+            "debut_s": 35.6,
+            "verification": "exacte",
+            "debut_verifie_s": 35.56
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "L'explication sur l'indisponibilité du service est claire, bien qu'elle soit une excuse.",
+        "preuves": [
+          {
+            "citation": "Alors, pour une résiliation, le service concerné n'est pas disponible aujourd'hui.",
+            "debut_s": 55.6,
+            "verification": "exacte",
+            "debut_verifie_s": 55.56
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le client est appelé par son nom tout au long de l'appel.",
+        "preuves": [
+          {
+            "citation": "Merci monsieur Petit.",
+            "debut_s": 14.6,
+            "verification": "exacte",
+            "debut_verifie_s": 14.62
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "non",
+        "justification": "La demande de résiliation est retardée par le conseiller qui demande au client de rappeler la semaine prochaine.",
+        "preuves": [
+          {
+            "citation": "Le plus simple, c'est de nous rappeler la semaine prochaine.",
+            "debut_s": 62.3,
+            "verification": "exacte",
+            "debut_verifie_s": 62.26
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "statut": "oui",
+        "justification": "Le conseiller tente une rétention en proposant un transfert de box vers la nouvelle adresse.",
+        "preuves": [
+          {
+            "citation": "Nous pourrions peut-être transférer votre box à votre nouvelle adresse avec un débit plus rapide.",
+            "debut_s": 44.7,
+            "verification": "exacte",
+            "debut_verifie_s": 44.74
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "statut": "oui",
+        "justification": "Aucun engagement non autorisé n'a été pris.",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "Pas de vente réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "oui",
+        "justification": "Le conseiller accepte le refus du client de suite après son objection au transfert.",
+        "preuves": [
+          {
+            "citation": "Très bien, je comprends.",
+            "debut_s": 55.6,
+            "verification": "exacte",
+            "debut_verifie_s": 55.56
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "statut": "non",
+        "justification": "Le conseiller n'a ni transféré l'appel, ni orienté le client vers le service compétent, il lui a simplement dit de rappeler plus tard.",
+        "preuves": [
+          {
+            "citation": "Le plus simple, c'est de nous rappeler la semaine prochaine.",
+            "debut_s": 62.3,
+            "verification": "exacte",
+            "debut_verifie_s": 62.26
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "statut": "na",
+        "justification": "Pas de vente réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 16,
+        "statut": "oui",
+        "justification": "Le récapitulatif, la question de fin et la prise de congé sont respectés.",
+        "preuves": [
+          {
+            "citation": "Pour récapituler, vous nous rappelez la semaine prochaine pour la résiliation. Avez-vous d'autres questions monsieur Petit ?",
+            "debut_s": 78.0,
+            "verification": "exacte",
+            "debut_verifie_s": 78.04
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [
+      {
+        "type": "resiliation_retardee",
+        "citation": "Le plus simple, c'est de nous rappeler la semaine prochaine.",
+        "debut_s": 62.3,
+        "verification": "exacte",
+        "debut_verifie_s": 62.26
+      }
+    ],
+    "remarques_conformite": [
+      {
+        "regle": "[APPEL-10]",
+        "ecart": "Le conseiller utilise une expression à éviter en rejetant la responsabilité sur son périmètre ou un autre service.",
+        "citation": "Malheureusement non, ce n'est pas moi qui gère les résiliations.",
+        "debut_s": 68.2,
+        "verification": "exacte",
+        "debut_verifie_s": 68.18
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Accueil et identification conformes aux procédures.",
+        "Personnalisation et politesse exemplaires.",
+        "Tentative de rétention pertinente et bien amenée."
+      ],
+      "axes_progres": [
+        "Ne pas rejeter la responsabilité de la demande sur un tiers ou sur son propre périmètre.",
+        "Ne pas utiliser d'excuses (indisponibilité de service) pour retarder une demande de résiliation."
+      ],
+      "conseil_principal": "Face à une demande de résiliation, ne dites pas 'ce n'est pas moi qui gère' ou que le service est indisponible. Dites plutôt : 'Je vais m'occuper de votre demande immédiatement' ou 'Je vous transfère tout de suite vers le service compétent pour finaliser cela'."
+    }
+  },
+  "calcul": {
+    "oui": 11,
+    "applicables": 14,
+    "note_pct": 79,
+    "niveau_note": "Conforme",
+    "niveau": "Conforme",
+    "eliminatoires": [],
+    "mises_en_garde": [
+      "resiliation_retardee"
+    ],
+    "action": "Mise en garde",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 13631,
+    "candidatesTokenCount": 1832,
+    "totalTokenCount": 24139,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 13631
+      }
+    ],
+    "thoughtsTokenCount": 8676,
+    "serviceTier": "standard"
+  }
+}

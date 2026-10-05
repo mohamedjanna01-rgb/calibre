@@ -1,0 +1,265 @@
+{
+  "appel": "01",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-05T16:27:03",
+  "source_transcription": "hybride",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète (nom, prénom, fonction), prise en charge immédiate et authentification correcte (nom, ligne, code postal, date de naissance).",
+        "preuves": [
+          {
+            "citation": "Je m'appelle Yanis Benali, je suis votre conseiller clientèle et je vais m'occuper de votre demande aujourd'hui.",
+            "debut_s": 2.8,
+            "verification": "exacte",
+            "debut_verifie_s": 2.8
+          },
+          {
+            "citation": "Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?",
+            "debut_s": 19.0,
+            "verification": "exacte",
+            "debut_verifie_s": 19.04
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "L'enregistrement est mentionné dès l'accueil, avant la découverte du problème.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité.",
+            "debut_s": 2.8,
+            "verification": "exacte",
+            "debut_verifie_s": 2.8
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "L'agent laisse la cliente s'exprimer sur son problème sans l'interrompre.",
+        "preuves": [
+          {
+            "citation": "Depuis ce matin, Internet ne fonctionne plus du tout. Je télétravaille et là je je ne peux rien faire, j'ai une réunion dans 1 heure, c'est vraiment pénible.",
+            "debut_s": 52.8,
+            "verification": "exacte",
+            "debut_verifie_s": 52.82
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "oui",
+        "justification": "L'agent pose des questions pertinentes pour diagnostiquer la panne (couleur du voyant, tentative de redémarrage).",
+        "preuves": [
+          {
+            "citation": "Pouvez-vous me dire de quelle couleur est le voyant de votre box ?",
+            "debut_s": 63.0,
+            "verification": "exacte",
+            "debut_verifie_s": 63.02
+          },
+          {
+            "citation": "et avez-vous déjà essayé de de redémarrer la box ?",
+            "debut_s": 77.1,
+            "verification": "exacte",
+            "debut_verifie_s": 77.12
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "L'agent a bien réassuré la cliente sur sa situation et a reformulé l'intégralité du problème pour obtenir sa validation.",
+        "preuves": [
+          {
+            "citation": "Je comprends tout à fait, c'est très gênant quand on travaille de chez soi.",
+            "debut_s": 63.0,
+            "verification": "exacte",
+            "debut_verifie_s": 63.02
+          },
+          {
+            "citation": "Si je résume madame Lefebvre, depuis ce matin vous n'avez plus Internet, le voyant est orange fixe et le redémarrage n'a rien donné. C'est bien ça ?",
+            "debut_s": 84.5,
+            "verification": "exacte",
+            "debut_verifie_s": 84.52
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "Ton calme, empathique et professionnel tout au long de l'échange.",
+        "preuves": [
+          {
+            "citation": "Je comprends tout à fait, c'est très gênant quand on travaille de chez soi.",
+            "debut_s": 63.0,
+            "verification": "exacte",
+            "debut_verifie_s": 63.02
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "L'explication technique est simple et sans jargon (problème de signal et câble débranché).",
+        "preuves": [
+          {
+            "citation": "Un voyant orange fixe signifie que la box ne reçoit plus le signal de la fibre.",
+            "debut_s": 100.6,
+            "verification": "exacte",
+            "debut_verifie_s": 100.62
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "L'agent utilise le nom de la cliente régulièrement.",
+        "preuves": [
+          {
+            "citation": "Si je résume madame Lefebvre,",
+            "debut_s": 84.5,
+            "verification": "exacte",
+            "debut_verifie_s": 84.52
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "Pas de demande de résiliation.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "Pas de menace de résiliation.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "oui",
+        "justification": "L'offre proposée (répéteur à 3€ sans engagement) est conforme au catalogue.",
+        "preuves": [
+          {
+            "citation": "Il est à 3 € par mois, sans engagement, et vous le recevez sous 3 à 5 jours.",
+            "debut_s": 165.1,
+            "verification": "exacte",
+            "debut_verifie_s": 165.1
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "statut": "oui",
+        "justification": "L'opportunité commerciale est saisie après la résolution de la panne, en rebondissant sur le besoin de stabilité Wi-Fi pour le télétravail.",
+        "preuves": [
+          {
+            "citation": "Votre Wi-Fi capte-t-il bien dans toutes les pièces de votre logement ?",
+            "debut_s": 139.9,
+            "verification": "exacte",
+            "debut_verifie_s": 139.88
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Aucune objection formulée par la cliente.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "na",
+        "justification": "L'agent a pu résoudre le problème seul, pas de transfert nécessaire.",
+        "preuves": []
+      },
+      {
+        "numero": 15,
+        "statut": "oui",
+        "justification": "La vente est parfaitement sécurisée : confirmation des coordonnées, récapitulatif complet, envoi d'e-mail et signature électronique effectuée par la cliente elle-même.",
+        "preuves": [
+          {
+            "citation": "Je récapitule votre commande : un répéteur Wi-Fi Kalyo en location à 3 € par mois, sans engagement, ajouté à votre prochaine facture.",
+            "debut_s": 206.5,
+            "verification": "exacte",
+            "debut_verifie_s": 206.46
+          },
+          {
+            "citation": "Saisissez-le vous-même dans l'e-mail et ne le communiquez à personne.",
+            "debut_s": 239.0,
+            "verification": "exacte",
+            "debut_verifie_s": 238.98
+          },
+          {
+            "citation": "Voilà, c'est signé.",
+            "debut_s": 259.3,
+            "verification": "exacte",
+            "debut_verifie_s": 259.28
+          }
+        ]
+      },
+      {
+        "numero": 16,
+        "statut": "oui",
+        "justification": "L'appel se termine par un récapitulatif, une question sur d'autres besoins, des remerciements et une prise de congé soignée.",
+        "preuves": [
+          {
+            "citation": "Pour récapituler notre échange, votre connexion Internet est rétablie, le souci venait du câble fibre légèrement débranché, et votre répéteur Wi-Fi arrive sous 3 à 5 jours pour améliorer le signal dans votre bureau.",
+            "debut_s": 261.2,
+            "verification": "exacte",
+            "debut_verifie_s": 261.24
+          },
+          {
+            "citation": "Je vous souhaite une excellente réunion et une très bonne journée madame Lefebvre. Au revoir.",
+            "debut_s": 278.5,
+            "verification": "exacte",
+            "debut_verifie_s": 278.54
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [],
+    "coaching": {
+      "points_forts": [
+        "Excellente gestion de l'empathie face à une cliente stressée par le télétravail.",
+        "Efficacité du diagnostic technique.",
+        "Maîtrise parfaite de la procédure de sécurisation de vente (signature électronique)."
+      ],
+      "axes_progres": [
+        "Rien à signaler, l'appel est exemplaire."
+      ],
+      "conseil_principal": "Continuez ainsi : votre capacité à transformer un incident technique en une opportunité commerciale pertinente et sécurisée est un modèle pour l'équipe."
+    }
+  },
+  "calcul": {
+    "oui": 12,
+    "applicables": 12,
+    "note_pct": 100,
+    "niveau_note": "Excellent",
+    "niveau": "Excellent",
+    "eliminatoires": [],
+    "mises_en_garde": [],
+    "action": "Valorisation",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 14632,
+    "candidatesTokenCount": 2009,
+    "totalTokenCount": 21418,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14632
+      }
+    ],
+    "thoughtsTokenCount": 4777,
+    "serviceTier": "standard"
+  }
+}

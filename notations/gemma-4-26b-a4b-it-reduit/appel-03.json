@@ -1,0 +1,217 @@
+{
+  "appel": "03",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-05T16:38:51",
+  "source_transcription": "hybride",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète (entreprise, nom, fonction, prise en charge) et l'identité du client a été vérifiée.",
+        "preuves": [
+          {
+            "citation": "Kalyo Télécom bonjour. Je m'appelle Inès Kaddouri, je suis votre conseillère clientèle et je vais m'occuper de votre demande.",
+            "debut_s": 2.6,
+            "verification": "approchée",
+            "debut_verifie_s": 2.58
+          },
+          {
+            "citation": "06 [numéro masqué] 44000, 8 novembre 1990.",
+            "debut_s": 47.0,
+            "verification": "exacte",
+            "debut_verifie_s": 47.02
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "Mention de l'enregistrement faite avant la découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité.",
+            "debut_s": 2.6,
+            "verification": "exacte",
+            "debut_verifie_s": 2.58
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "non",
+        "justification": "Le conseiller a interrompu le client alors qu'il expliquait la situation.",
+        "preuves": [
+          {
+            "citation": "Oui oui, j'ai compris, je vois vos appels dans l'historique.",
+            "debut_s": 66.3,
+            "verification": "exacte",
+            "debut_verifie_s": 66.26
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "oui",
+        "justification": "Le conseiller a posé des questions pertinentes sur le moment des coupures.",
+        "preuves": [
+          {
+            "citation": "À quelle heure ont lieu les coupures ?",
+            "debut_s": 87.7,
+            "verification": "exacte",
+            "debut_verifie_s": 87.74
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "non",
+        "justification": "Le conseiller n'a ni rassuré le client face à son agacement, ni reformulé le problème pour obtenir une validation avant de passer à la solution.",
+        "preuves": []
+      },
+      {
+        "numero": 6,
+        "statut": "non",
+        "justification": "Usage du mot interdit « Calmez-vous » et défausse sur les collègues.",
+        "preuves": [
+          {
+            "citation": "Calmez-vous Monsieur Martin. Ce n'est pas moi qui ai traité vos appels précédents, je ne peux pas savoir ce que mes collègues vous ont dit.",
+            "debut_s": 77.6,
+            "verification": "exacte",
+            "debut_verifie_s": 77.6
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "L'explication technique est claire et sans jargon complexe.",
+        "preuves": [
+          {
+            "citation": "Effectivement, je vois plusieurs coupures chaque soir sur les 7 derniers jours, avec un signal fibre trop faible.",
+            "debut_s": 104.9,
+            "verification": "exacte",
+            "debut_verifie_s": 104.92
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le client est appelé par son nom tout au long de l'échange.",
+        "preuves": [
+          {
+            "citation": "Merci Monsieur Martin.",
+            "debut_s": 20.6,
+            "verification": "exacte",
+            "debut_verifie_s": 20.6
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "Pas de résiliation demandée.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "Pas de tentative de rétention.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "Aucun engagement ou geste commercial non autorisé.",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "Pas de vente proposée.",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Le client n'a pas formulé d'objection à une offre.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "na",
+        "justification": "La prise de rendez-vous technicien n'est pas une escalade.",
+        "preuves": []
+      },
+      {
+        "numero": 15,
+        "statut": "na",
+        "justification": "Pas de vente.",
+        "preuves": []
+      },
+      {
+        "numero": 16,
+        "statut": "oui",
+        "justification": "Récapitulatif, question de clôture, remerciement et prise de congé soignée.",
+        "preuves": [
+          {
+            "citation": "Pour récapituler : les coupures viennent d'un signal fibre trop faible, et un technicien passe jeudi entre 14 heures et 18 heures. Avez-vous d'autres questions ?",
+            "debut_s": 143.0,
+            "verification": "exacte",
+            "debut_verifie_s": 143.04
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [
+      {
+        "regle": "[APPEL-12]",
+        "ecart": "Le conseiller a critiqué ses collègues et les services précédents.",
+        "citation": "Ce n'est pas moi qui ai traité vos appels précédents, je ne peux pas savoir ce que mes collègues vous ont dit.",
+        "debut_s": 77.6,
+        "verification": "exacte",
+        "debut_verifie_s": 77.6
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Diagnostic technique précis et efficace via l'outil à distance.",
+        "Conclusion de l'appel très structurée avec un récapitulatif complet."
+      ],
+      "axes_progres": [
+        "Gestion de l'agacement : ne jamais utiliser l'expression « Calmez-vous ».",
+        "Posture professionnelle : éviter de critiquer le travail des collègues ou des autres services.",
+        "Méthodologie : pratiquer la reformulation pour valider la compréhension du problème avant de proposer une solution."
+      ],
+      "conseil_principal": "Face à un client mécontent, privilégiez l'empathie plutôt que l'injonction. Au lieu de dire \"Calmez-vous\", utilisez : \"Je comprends votre agacement, je vais vous aider.\""
+    }
+  },
+  "calcul": {
+    "oui": 6,
+    "applicables": 9,
+    "note_pct": 67,
+    "niveau_note": "À améliorer",
+    "niveau": "À améliorer",
+    "eliminatoires": [],
+    "mises_en_garde": [],
+    "action": "Coaching ciblé",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 13911,
+    "candidatesTokenCount": 1590,
+    "totalTokenCount": 21752,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 13911
+      }
+    ],
+    "thoughtsTokenCount": 6251,
+    "serviceTier": "standard"
+  }
+}

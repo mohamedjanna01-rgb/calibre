@@ -49,7 +49,7 @@ SCHEMA = {
                 "citation": {"type": "STRING"}, "debut_s": {"type": "NUMBER"}}, "required": ["citation", "debut_s"]}},
         }, "required": ["numero", "statut", "justification", "preuves"]}},
         "eliminatoires": {"type": "ARRAY", "items": {"type": "OBJECT", "properties": {
-            "numero": {"type": "INTEGER", "enum": [1, 2, 3]}, "motif": {"type": "STRING"},
+            "numero": {"type": "INTEGER"}, "motif": {"type": "STRING"},  # 1, 2 ou 3 : vérifié par le code
             "citation": {"type": "STRING"}, "debut_s": {"type": "NUMBER"}}, "required": ["numero", "motif", "citation", "debut_s"]}},
         "fautes_mise_en_garde": {"type": "ARRAY", "items": {"type": "OBJECT", "properties": {
             "type": {"type": "STRING", "enum": ["resiliation_retardee", "resiliation_refusee", "panne_ignoree"]},
@@ -90,13 +90,20 @@ def grilles():
     return resultat
 
 
-def referentiel():
+# Référentiel réduit (modèles limités en tokens par minute) : seulement les documents essentiels selon le type d'appel
+DOCS_REDUITS = {"Appel entrant": ("01", "15"), "Télévente sortante": ("01", "16")}
+
+
+def referentiel(type_appel=None, reduit=False):
     cadrage = CADRAGE.read_text(encoding="utf-8")
+    docs = sorted((ROOT / "docs").glob("*.md"))
+    if reduit:
+        docs = [d for d in docs if d.name[:2] in DOCS_REDUITS[type_appel]]
     parties = [
         "# Grilles et règles de notation\n" + sans_scenarios(section(cadrage, "## 2. Grille 1", "## 5.")),
         "# Règles précisées par le qualiticien\n" + sans_scenarios(section(NOTATION_REF.read_text(encoding="utf-8"), "## 1.", "## 2.")),
         "# Exemples de notation du qualiticien\n" + sans_scenarios(EXEMPLES.read_text(encoding="utf-8").split("\n", 1)[1]),
-        "# Documentation interne de Kalyo Télécom\n" + "\n\n".join(p.read_text(encoding="utf-8") for p in sorted((ROOT / "docs").glob("*.md"))),
+        "# Documentation interne de Kalyo Télécom\n" + "\n\n".join(p.read_text(encoding="utf-8") for p in docs),
     ]
     return "\n\n".join(parties)
 
@@ -139,20 +146,27 @@ def transcription(appel):
     return donnees["repliques"]
 
 
-def construire(appel):
+def construire(appel, modele, reduit=False):
     type_appel, grille = fiche(appel)
     reps = transcription(appel)
     consigne = CONSIGNE.read_text(encoding="utf-8")
-    ref = referentiel()
+    ref = referentiel(type_appel, reduit)
     controler_fuites(consigne + ref)
     lignes = [f"[{r['debut']:.1f} s] {r['locuteur'].capitalize()} : {r['texte']}" for r in reps]
     utilisateur = (f"# Référentiel\n\n{ref}\n\n# Fiche d'identité de l'appel\n\nType d'appel : {type_appel}\nGrille à utiliser : {grille}\n\n"
                    f"# Transcription\n\n" + "\n".join(lignes))
-    return {
+    corps = {
         "systemInstruction": {"parts": [{"text": consigne}]},
         "contents": [{"role": "user", "parts": [{"text": utilisateur}]}],
         "generationConfig": {"responseMimeType": "application/json", "responseSchema": SCHEMA},
-    }, type_appel, grille
+    }
+    if modele.startswith("gemma"):
+        # Gemma ne prend pas en charge la réponse JSON structurée : même consigne, format demandé en texte
+        del corps["generationConfig"]
+        corps["contents"][0]["parts"][0]["text"] += (
+            "\n\n# Format de réponse\n\nRéponds uniquement par un objet JSON valide, sans aucun texte autour, "
+            "conforme à ce schéma :\n" + json.dumps(SCHEMA, ensure_ascii=False))
+    return corps, type_appel, grille
 
 
 # --- Calculs et vérifications par code --------------------------------------------------------------------------
@@ -185,6 +199,10 @@ def calculer(reponse, grille_nom, reps):
     for n, i in items.items():
         if i["statut"] == "na" and n in items_grille and not items_grille[n]["na_permis"]:
             anomalies.append(f"item {n} noté non applicable alors qu'il est toujours applicable")
+    for e in reponse["eliminatoires"]:
+        if e["numero"] not in (1, 2, 3):
+            anomalies.append(f"éliminatoire inconnu : {e['numero']}")
+    reponse["eliminatoires"] = [e for e in reponse["eliminatoires"] if e["numero"] in (1, 2, 3)]
     oui = sum(1 for i in items.values() if i["statut"] == "oui")
     applicables = sum(1 for i in items.values() if i["statut"] in ("oui", "non"))
     note = int(100 * oui / applicables + 0.5) if applicables else 0
@@ -243,11 +261,12 @@ def main():
     p.add_argument("--appels", nargs="+", required=True)
     p.add_argument("--modele", default="gemini-3.8-flash")
     p.add_argument("--simulation", action="store_true", help="assemble et contrôle la consigne, sans requête")
+    p.add_argument("--reduit", action="store_true", help="référentiel réduit (documents essentiels seulement)")
     a = p.parse_args()
     cle = os.environ.get("GEMINI_API_KEY")
     for n in a.appels:
         appel = f"{int(n):02d}"
-        corps, type_appel, grille = construire(appel)
+        corps, type_appel, grille = construire(appel, a.modele, a.reduit)
         if a.simulation:
             taille = len(corps["contents"][0]["parts"][0]["text"]) + len(corps["systemInstruction"]["parts"][0]["text"])
             print(f"appel-{appel} : consigne contrôlée (aucun contenu interdit), {taille} caractères, {type_appel}, {grille}")
@@ -258,13 +277,13 @@ def main():
         sauvegarde = BRUT / f"notation-{appel}.{a.modele}.reponse.json"
         sauvegarde.write_text(json.dumps(brute, ensure_ascii=False), encoding="utf-8")
         texte = "".join(x.get("text", "") for x in brute["candidates"][0]["content"]["parts"] if not x.get("thought"))
-        reponse = json.loads(texte)
+        reponse = json.loads(texte[texte.index("{"): texte.rindex("}") + 1])  # tolère un bloc ```json autour
         calcul = calculer(reponse, grille, transcription(appel))
-        dossier = SORTIE / a.modele
+        dossier = SORTIE / (a.modele + ("-reduit" if a.reduit else ""))
         dossier.mkdir(parents=True, exist_ok=True)
         (dossier / f"appel-{appel}.json").write_text(json.dumps({
             "appel": appel, "modele": a.modele, "date": datetime.now().isoformat(timespec="seconds"),
-            "source_transcription": "hybride", "reponse_ia": reponse, "calcul": calcul,
+            "source_transcription": "hybride", "referentiel": "réduit" if a.reduit else "complet", "reponse_ia": reponse, "calcul": calcul,
             "usage": brute.get("usageMetadata")}, ensure_ascii=False, indent=2), encoding="utf-8")
         (dossier / f"appel-{appel}.md").write_text(rapport(appel, a.modele, type_appel, grille, reponse, calcul), encoding="utf-8")
         sauvegarde.unlink()
