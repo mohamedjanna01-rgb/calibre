@@ -34,7 +34,8 @@ CADRAGE = ROOT / "cadrage" / "calibre-cadrage.md"
 NOTATION_REF = ROOT / "cadrage" / "calibre-notation-reference.md"
 EXEMPLES = ROOT / "cadrage" / "calibre-exemples-notation.md"
 CONSIGNE = ROOT / "prompts" / "notation" / "consigne.md"
-TRANSCRIPTIONS = ROOT / "transcriptions" / "hybride"
+TRANSCRIPTIONS = ROOT / "transcriptions"
+SOURCE = "hybride"  # méthode de transcription notée (modifiable avec --source)
 SORTIE = ROOT / "notations"
 
 STATUTS = ["oui", "non", "na"]
@@ -142,7 +143,7 @@ def fiche(appel):
 
 
 def transcription(appel):
-    donnees = json.loads((TRANSCRIPTIONS / f"appel-{appel}.json").read_text(encoding="utf-8"))
+    donnees = json.loads((TRANSCRIPTIONS / SOURCE / f"appel-{appel}.json").read_text(encoding="utf-8"))
     return donnees["repliques"]
 
 
@@ -262,7 +263,10 @@ def main():
     p.add_argument("--modele", default="gemini-3.8-flash")
     p.add_argument("--simulation", action="store_true", help="assemble et contrôle la consigne, sans requête")
     p.add_argument("--reduit", action="store_true", help="référentiel réduit (documents essentiels seulement)")
+    p.add_argument("--source", default="hybride", help="méthode de transcription à noter")
     a = p.parse_args()
+    global SOURCE
+    SOURCE = a.source
     cle = os.environ.get("GEMINI_API_KEY")
     for n in a.appels:
         appel = f"{int(n):02d}"
@@ -283,7 +287,7 @@ def main():
         dossier.mkdir(parents=True, exist_ok=True)
         (dossier / f"appel-{appel}.json").write_text(json.dumps({
             "appel": appel, "modele": a.modele, "date": datetime.now().isoformat(timespec="seconds"),
-            "source_transcription": "hybride", "referentiel": "réduit" if a.reduit else "complet", "reponse_ia": reponse, "calcul": calcul,
+            "source_transcription": SOURCE, "referentiel": "réduit" if a.reduit else "complet", "reponse_ia": reponse, "calcul": calcul,
             "usage": brute.get("usageMetadata")}, ensure_ascii=False, indent=2), encoding="utf-8")
         (dossier / f"appel-{appel}.md").write_text(rapport(appel, a.modele, type_appel, grille, reponse, calcul), encoding="utf-8")
         sauvegarde.unlink()

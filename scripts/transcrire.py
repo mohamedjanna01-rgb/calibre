@@ -311,12 +311,10 @@ def mots_whisper(appel, wav, taille):
     return mots
 
 
-def whisper_local(appel, wav, cle, simulation, taille="small"):
-    if simulation:
-        return {"methode": f"whisper-{taille}", "requetes": 0}
+def mots_nettoyes(appel, wav, taille):
+    """Mots locaux horodatés, avec [numéro masqué] sur les bips et [inaudible] à la place des mots peu sûrs."""
     signal, taux = lire_wav(wav)
     mots = mots_whisper(appel, wav, taille)
-
     # Bips : les mots qui tombent dedans sont remplacés par [numéro masqué]
     for a, b in bips(signal, taux):
         mots = [m for m in mots if not a - 0.1 <= (m["debut"] + m["fin"]) / 2 <= b + 0.1]
@@ -331,6 +329,14 @@ def whisper_local(appel, wav, cle, simulation, taille="small"):
                 continue
             m = dict(m, texte=INAUDIBLE)
         propres.append(m)
+    return propres
+
+
+def whisper_local(appel, wav, cle, simulation, taille="small"):
+    if simulation:
+        return {"methode": f"whisper-{taille}", "requetes": 0}
+    signal, taux = lire_wav(wav)
+    propres = mots_nettoyes(appel, wav, taille)
 
     # Morceaux de parole séparés par des pauses, puis regroupés en deux voix
     morceaux = []

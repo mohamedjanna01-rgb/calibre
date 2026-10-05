@@ -36,6 +36,18 @@ def jetons(texte):
     return [m for m in re.findall(r"§[a-z]+|[a-z]+|\d", texte) if m not in INTERJECTIONS]
 
 
+NOMBRES = {"zero": "0", "un": "1", "une": "1", "deux": "2", "trois": "3", "quatre": "4", "cinq": "5", "six": "6",
+           "sept": "7", "huit": "8", "neuf": "9", "dix": "10", "onze": "11", "douze": "12", "treize": "13",
+           "quatorze": "14", "quinze": "15", "seize": "16"}
+
+
+def jetons_preuve(texte):
+    """Pour la recherche des preuves : mêmes jetons, avec « € » = « euros » et les nombres écrits en lettres
+    convertis en chiffres, des deux côtés (une preuve ne doit pas échouer sur la seule forme d'un nombre)."""
+    texte = texte.replace("€", " euros ")
+    return [c for m in jetons(texte) for c in (NOMBRES.get(m, m) if not m.isdigit() else m)]
+
+
 def reference(appel):
     corps = (SCENARIOS / f"appel-{appel}.md").read_text(encoding="utf-8").split("## Transcription de référence")[1]
     reps = [("conseiller" if m.group(1) == "Conseiller" else "client", m.group(2))
@@ -85,26 +97,29 @@ def evaluer(appel, methode):
         votes.setdefault(ref[i][2], []).append(ref[i][1] == hyp[j][1])
     repliques_ok = sum(1 for v in votes.values() if sum(v) > len(v) / 2)
 
-    # Preuves : recherchées dans toute la transcription, puis attribution du locuteur
+    # Preuves : recherchées dans toute la transcription (nombres et « € » normalisés), puis attribution du locuteur
+    ref_p = [(m, loc) for loc, texte in reference(appel) for m in jetons_preuve(texte) if m not in (INAUDIBLE,)]
+    hyp_p = [(m, r["locuteur"]) for r in hyp_reps for m in jetons_preuve(r["texte"]) if m != INAUDIBLE]
+    hyp_pm, ref_pm = [m for m, _ in hyp_p], [m for m, _ in ref_p]
     resultats_preuves = []
     for p in preuves(appel):
-        pj = jetons(p)
+        pj = jetons_preuve(p)
         trouve, statut = None, "absente"
-        for k in range(len(hyp_mots) - len(pj) + 1):
-            if hyp_mots[k:k + len(pj)] == pj:
+        for k in range(len(hyp_pm) - len(pj) + 1):
+            if hyp_pm[k:k + len(pj)] == pj:
                 trouve, statut = k, "exacte"
                 break
         if trouve is None:
-            meilleur = max(((difflib.SequenceMatcher(None, pj, hyp_mots[k:k + len(pj)]).ratio(), k)
-                            for k in range(max(1, len(hyp_mots) - len(pj) + 1))), default=(0, None))
+            meilleur = max(((difflib.SequenceMatcher(None, pj, hyp_pm[k:k + len(pj)]).ratio(), k)
+                            for k in range(max(1, len(hyp_pm) - len(pj) + 1))), default=(0, None))
             if meilleur[0] >= 0.85:
                 trouve, statut = meilleur[1], "approchée"
         locuteur_ok = None
         # Locuteur attendu : celui de la réplique du scénario qui contient la preuve
-        debut_ref = next((i for i in range(len(ref_mots) - len(pj) + 1) if ref_mots[i:i + len(pj)] == pj), None)
+        debut_ref = next((i for i in range(len(ref_pm) - len(pj) + 1) if ref_pm[i:i + len(pj)] == pj), None)
         if trouve is not None and debut_ref is not None:
-            locs = [h[1] for h in hyp[trouve:trouve + len(pj)]]
-            locuteur_ok = max(set(locs), key=locs.count) == ref[debut_ref][1]
+            locs = [loc for _, loc in hyp_p[trouve:trouve + len(pj)]]
+            locuteur_ok = max(set(locs), key=locs.count) == ref_p[debut_ref][1]
         resultats_preuves.append({"preuve": p, "statut": statut, "bon_locuteur": locuteur_ok})
 
     # Horodatage, si une référence de temps existe : écart entre le début de chaque réplique transcrite
