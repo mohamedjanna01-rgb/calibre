@@ -13,6 +13,13 @@ A_ACTIF=1
 B_ACTIF=1
 for n in 01 02 03 04 05 06 07 08 09 10 11 12 13; do
   fait=0
+  # Un appel déjà transcrit par une méthode est sauté (pour le refaire, supprimer sa transcription)
+  if [[ "$A_APPELS" == *" $n "* ]] && [ -f "transcriptions/gemini-3.8-flash/appel-$n.json" ]; then
+    echo "appel $n : déjà transcrit par A, sauté"; A_APPELS="${A_APPELS/ $n / }"
+  fi
+  if [[ "$B_APPELS" == *" $n "* ]] && [ -f "transcriptions/gemini-3.5-transcribe/appel-$n.json" ]; then
+    echo "appel $n : déjà transcrit par B, sauté"; B_APPELS="${B_APPELS/ $n / }"
+  fi
   if [ $A_ACTIF = 1 ] && [[ "$A_APPELS" == *" $n "* ]]; then
     $PY scripts/transcrire.py --methode gemini-3.8-flash --appels "$n" || { A_ACTIF=0; echo "ARRÊT A : échec persistant sur l'appel $n, reprise plus tard"; }
     fait=1
