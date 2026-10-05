@@ -1,0 +1,307 @@
+{
+  "appel": "01",
+  "methode": "hybride",
+  "date": "2026-10-05T10:41:40",
+  "duree_audio_s": 287.1,
+  "usage": {
+    "source_texte": "gemini-3.8-flash",
+    "source_temps": "whisper-medium",
+    "mots_alignes_pct": 91.6
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "conseiller",
+      "debut": 1.62,
+      "fin": 2.1,
+      "texte": "Kalyo Télécom, bonjour."
+    },
+    {
+      "n": 2,
+      "locuteur": "client",
+      "debut": 1.62,
+      "fin": 2.1,
+      "texte": "Bonjour."
+    },
+    {
+      "n": 3,
+      "locuteur": "conseiller",
+      "debut": 2.8,
+      "fin": 16.52,
+      "texte": "Je m'appelle Yanis Benali, je suis votre conseiller clientèle et je vais m'occuper de votre demande aujourd'hui. Avant de commencer, je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom, s'il vous plaît ?"
+    },
+    {
+      "n": 4,
+      "locuteur": "client",
+      "debut": 16.96,
+      "fin": 18.26,
+      "texte": "Oui, Claire Lefebvre."
+    },
+    {
+      "n": 5,
+      "locuteur": "conseiller",
+      "debut": 19.04,
+      "fin": 26.08,
+      "texte": "Merci madame Lefebvre. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?"
+    },
+    {
+      "n": 6,
+      "locuteur": "client",
+      "debut": 26.84,
+      "fin": 28.2,
+      "texte": "Pardon, vous pouvez répéter ?"
+    },
+    {
+      "n": 7,
+      "locuteur": "conseiller",
+      "debut": 28.66,
+      "fin": 34.9,
+      "texte": "Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?"
+    },
+    {
+      "n": 8,
+      "locuteur": "client",
+      "debut": 41.76,
+      "fin": 48.48,
+      "texte": "Alors [numéro masqué], code postal 69003 et je suis née le 14 mars 1985."
+    },
+    {
+      "n": 9,
+      "locuteur": "conseiller",
+      "debut": 49.22,
+      "fin": 52.96,
+      "texte": "Parfait, merci. Je vous écoute. Que se passe-t-il ?"
+    },
+    {
+      "n": 10,
+      "locuteur": "client",
+      "debut": 52.82,
+      "fin": 62.38,
+      "texte": "Depuis ce matin, Internet ne fonctionne plus du tout. Je télétravaille et là je je ne peux rien faire, j'ai une réunion dans 1 heure, c'est vraiment pénible."
+    },
+    {
+      "n": 11,
+      "locuteur": "conseiller",
+      "debut": 63.02,
+      "fin": 71.18,
+      "texte": "Je comprends tout à fait, c'est très gênant quand on travaille de chez soi. On va regarder ça ensemble. Pouvez-vous me dire de quelle couleur est le voyant de votre box ?"
+    },
+    {
+      "n": 12,
+      "locuteur": "client",
+      "debut": 72.4,
+      "fin": 76.64,
+      "texte": "Euh attendez, je regarde. Il est orange, il ne clignote pas."
+    },
+    {
+      "n": 13,
+      "locuteur": "conseiller",
+      "debut": 77.12,
+      "fin": 81.3,
+      "texte": "D'accord, et avez-vous déjà essayé de de redémarrer la box ?"
+    },
+    {
+      "n": 14,
+      "locuteur": "client",
+      "debut": 82.46,
+      "fin": 84.52,
+      "texte": "Oui, 2 fois, ça n'a rien changé."
+    },
+    {
+      "n": 15,
+      "locuteur": "conseiller",
+      "debut": 84.52,
+      "fin": 98.06,
+      "texte": "D'accord, merci d'avoir déjà essayé, ça nous fait gagner du temps. Si je résume madame Lefebvre, depuis ce matin vous n'avez plus Internet, le voyant est orange fixe et le redémarrage n'a rien donné. C'est bien ça ?"
+    },
+    {
+      "n": 16,
+      "locuteur": "client",
+      "debut": 98.48,
+      "fin": 100.04,
+      "texte": "Oui, c'est exactement ça."
+    },
+    {
+      "n": 17,
+      "locuteur": "conseiller",
+      "debut": 100.62,
+      "fin": 105.54,
+      "texte": "Merci. Un voyant orange fixe signifie que la box ne reçoit plus le signal de la fibre."
+    },
+    {
+      "n": 18,
+      "locuteur": "client",
+      "debut": 106.16,
+      "fin": 106.78,
+      "texte": "D'accord."
+    },
+    {
+      "n": 19,
+      "locuteur": "conseiller",
+      "debut": 107.26,
+      "fin": 118.1,
+      "texte": "Le plus souvent, c'est le câble fibre qui s'est légèrement débranché. Pouvez-vous vérifier que le câble est bien enfoncé des 2 côtés, dans la prise murale et dans la box, jusqu'à entendre un petit clic ?"
+    },
+    {
+      "n": 20,
+      "locuteur": "client",
+      "debut": 118.82,
+      "fin": 126.32,
+      "texte": "Attendez. Ah, côté box, il était un peu sorti. Voilà, j'ai entendu le clic."
+    },
+    {
+      "n": 21,
+      "locuteur": "conseiller",
+      "debut": 127.22,
+      "fin": 129.14,
+      "texte": "Parfait, un instant s'il vous plaît."
+    },
+    {
+      "n": 22,
+      "locuteur": "conseiller",
+      "debut": 131.42,
+      "fin": 136.1,
+      "texte": "Je vois de mon côté que votre box est de nouveau connectée. Le voyant est-il passé au blanc ?"
+    },
+    {
+      "n": 23,
+      "locuteur": "client",
+      "debut": 136.64,
+      "fin": 139.88,
+      "texte": "Oui, ça remarche ! Merci beaucoup !"
+    },
+    {
+      "n": 24,
+      "locuteur": "conseiller",
+      "debut": 139.88,
+      "fin": 147.82,
+      "texte": "Avec plaisir madame Lefebvre. Alors, vous m'avez dit que vous télétravaillez. Votre Wi-Fi capte-t-il bien dans toutes les pièces de votre logement ?"
+    },
+    {
+      "n": 25,
+      "locuteur": "client",
+      "debut": 148.44,
+      "fin": 151.86,
+      "texte": "Pas vraiment. Dans mon bureau à l'étage, ça coupe souvent."
+    },
+    {
+      "n": 26,
+      "locuteur": "conseiller",
+      "debut": 152.88,
+      "fin": 163.66,
+      "texte": "C'est justement ce qui peut faire planter une visio en pleine réunion. Nous avons un répéteur Wi-Fi qui se branche simplement sur une prise, à mi-chemin entre la box et votre bureau, et qui renforce le signal à l'étage."
+    },
+    {
+      "n": 27,
+      "locuteur": "client",
+      "debut": 163.66,
+      "fin": 164.46,
+      "texte": "Je vois."
+    },
+    {
+      "n": 28,
+      "locuteur": "conseiller",
+      "debut": 165.1,
+      "fin": 173.82,
+      "texte": "Il est à 3 € par mois, sans engagement, et vous le recevez sous 3 à 5 jours. Pour le prix d'un café par mois, vos réunions seront stables. Souhaitez-vous que je vous l'envoie ?"
+    },
+    {
+      "n": 29,
+      "locuteur": "client",
+      "debut": 174.19,
+      "fin": 175.38,
+      "texte": "Euh oui, pourquoi pas."
+    },
+    {
+      "n": 30,
+      "locuteur": "conseiller",
+      "debut": 175.9,
+      "fin": 184.38,
+      "texte": "Pour être sûr que ça vous convient madame Lefebvre, je vous ajoute le répéteur Wi-Fi à 3 € par mois, sans engagement, livré sous 3 à 5 jours. Vous confirmez ?"
+    },
+    {
+      "n": 31,
+      "locuteur": "client",
+      "debut": 184.88,
+      "fin": 185.58,
+      "texte": "Oui, je confirme."
+    },
+    {
+      "n": 32,
+      "locuteur": "conseiller",
+      "debut": 186.26,
+      "fin": 192.28,
+      "texte": "Parfait, je sécurise votre commande avec vous madame Lefebvre. Je confirme vos informations : Claire Lefebvre, [numéro masqué]."
+    },
+    {
+      "n": 33,
+      "locuteur": "conseiller",
+      "debut": 197.24,
+      "fin": 204.72,
+      "texte": "Le répéteur sera livré à votre adresse de facturation : 12 rue des Tilleuls, 69003 Lyon. Est-ce bien la bonne adresse ?"
+    },
+    {
+      "n": 34,
+      "locuteur": "client",
+      "debut": 205.16,
+      "fin": 205.98,
+      "texte": "Oui, c'est bien ça."
+    },
+    {
+      "n": 35,
+      "locuteur": "conseiller",
+      "debut": 206.46,
+      "fin": 233.2,
+      "texte": "Merci. Je récapitule votre commande : un répéteur Wi-Fi Kalyo en location à 3 € par mois, sans engagement, ajouté à votre prochaine facture. Vous le recevrez par colis sous 3 à 5 jours. À la réception, il suffit de le brancher sur une prise à mi-chemin entre la box et votre bureau, puis d'appuyer sur le bouton connexion de la box. La notice est dans le colis. Je vous envoie dès maintenant un e-mail récapitulatif de votre commande, à signer électroniquement. Pouvez-vous me confirmer votre adresse e-mail ?"
+    },
+    {
+      "n": 36,
+      "locuteur": "client",
+      "debut": 233.82,
+      "fin": 238.98,
+      "texte": "Alors, c'est claire.lefevre@exemple.com."
+    },
+    {
+      "n": 37,
+      "locuteur": "conseiller",
+      "debut": 238.98,
+      "fin": 259.24,
+      "texte": "Merci. C'est envoyé euh depuis l'adresse nepasrepondre@kalyotelecom.exemple. Pensez à regarder dans vos courriers indésirables. Vous allez recevoir un code par SMS pour signer. Saisissez-le vous-même dans l'e-mail et ne le communiquez à personne. Avez-vous bien reçu l'e-mail ?"
+    },
+    {
+      "n": 38,
+      "locuteur": "client",
+      "debut": 259.28,
+      "fin": 261.24,
+      "texte": "Oui. Voilà, c'est signé."
+    },
+    {
+      "n": 39,
+      "locuteur": "conseiller",
+      "debut": 261.24,
+      "fin": 275.46,
+      "texte": "Parfait, je vois la signature de mon côté. Pour récapituler notre échange, votre connexion Internet est rétablie, le souci venait du câble fibre légèrement débranché, et votre répéteur Wi-Fi arrive sous 3 à 5 jours pour améliorer le signal dans votre bureau. Avez-vous d'autres questions madame Lefebvre ?"
+    },
+    {
+      "n": 40,
+      "locuteur": "client",
+      "debut": 276.1,
+      "fin": 277.96,
+      "texte": "Non, c'est parfait. Merci."
+    },
+    {
+      "n": 41,
+      "locuteur": "conseiller",
+      "debut": 278.54,
+      "fin": 285.2,
+      "texte": "C'est moi qui vous remercie pour votre confiance et votre patience. Je vous souhaite une excellente réunion et une très bonne journée madame Lefebvre. Au revoir."
+    },
+    {
+      "n": 42,
+      "locuteur": "client",
+      "debut": 285.86,
+      "fin": 286.9,
+      "texte": "Merci, au revoir."
+    }
+  ]
+}

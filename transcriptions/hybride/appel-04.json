@@ -1,0 +1,146 @@
+{
+  "appel": "04",
+  "methode": "hybride",
+  "date": "2026-10-05T10:41:40",
+  "duree_audio_s": 54.8,
+  "usage": {
+    "source_texte": "gemini-3.8-flash",
+    "source_temps": "whisper-medium",
+    "mots_alignes_pct": 97.1
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "conseiller",
+      "debut": 0.58,
+      "fin": 1.9,
+      "texte": "Kalyo Télécom, bonjour."
+    },
+    {
+      "n": 2,
+      "locuteur": "client",
+      "debut": 2.22,
+      "fin": 2.46,
+      "texte": "Bonjour."
+    },
+    {
+      "n": 3,
+      "locuteur": "conseiller",
+      "debut": 3.1,
+      "fin": 3.96,
+      "texte": "Votre numéro de ligne ?"
+    },
+    {
+      "n": 4,
+      "locuteur": "client",
+      "debut": 3.96,
+      "fin": 3.96,
+      "texte": "Euh, [numéro masqué]"
+    },
+    {
+      "n": 5,
+      "locuteur": "conseiller",
+      "debut": 6.92,
+      "fin": 11.52,
+      "texte": "Nom, code postal, date de naissance ?"
+    },
+    {
+      "n": 6,
+      "locuteur": "client",
+      "debut": 12.2,
+      "fin": 15.84,
+      "texte": "Nathalie Roux, 13008, le 21 avril 1968."
+    },
+    {
+      "n": 7,
+      "locuteur": "conseiller",
+      "debut": 16.6,
+      "fin": 17.5,
+      "texte": "C'est bon. C'est pourquoi ?"
+    },
+    {
+      "n": 8,
+      "locuteur": "client",
+      "debut": 18.04,
+      "fin": 27.82,
+      "texte": "Ma télévision ne marche plus depuis ce matin. Il est écrit aucun signal sur l'écran. J'ai essayé d'éteindre et de rallumer la télé, mais ça ne change rien. Mon mari regarde le match ce soir, alors..."
+    },
+    {
+      "n": 9,
+      "locuteur": "conseiller",
+      "debut": 28.28,
+      "fin": 34.66,
+      "texte": "OK, c'est sûrement votre décodeur qui a perdu la synchro avec la box. Faites un reset usine du décodeur, ça devrait régler le problème."
+    },
+    {
+      "n": 10,
+      "locuteur": "client",
+      "debut": 35.22,
+      "fin": 37.72,
+      "texte": "Un reset usine ? Je ne sais pas faire ça."
+    },
+    {
+      "n": 11,
+      "locuteur": "conseiller",
+      "debut": 38.12,
+      "fin": 41.92,
+      "texte": "Il y a un bouton derrière le décodeur. Vous appuyez dessus avec un trombone pendant 10 secondes."
+    },
+    {
+      "n": 12,
+      "locuteur": "client",
+      "debut": 42.14,
+      "fin": 42.68,
+      "texte": "D'accord."
+    },
+    {
+      "n": 13,
+      "locuteur": "conseiller",
+      "debut": 43.22,
+      "fin": 44.56,
+      "texte": "Normalement, ça devrait marcher."
+    },
+    {
+      "n": 14,
+      "locuteur": "client",
+      "debut": 44.76,
+      "fin": 45.82,
+      "texte": "Et si ça ne marche pas ?"
+    },
+    {
+      "n": 15,
+      "locuteur": "conseiller",
+      "debut": 46.2,
+      "fin": 47.76,
+      "texte": "Si ça ne marche pas, vous rappelez le service client."
+    },
+    {
+      "n": 16,
+      "locuteur": "client",
+      "debut": 48.26,
+      "fin": 49.92,
+      "texte": "Vous ne pouvez pas vérifier de votre côté ?"
+    },
+    {
+      "n": 17,
+      "locuteur": "conseiller",
+      "debut": 50.44,
+      "fin": 51.94,
+      "texte": "Faites d'abord le reset. Autre chose ?"
+    },
+    {
+      "n": 18,
+      "locuteur": "client",
+      "debut": 52.5,
+      "fin": 53.76,
+      "texte": "Non. Bon, je vais essayer."
+    },
+    {
+      "n": 19,
+      "locuteur": "conseiller",
+      "debut": 54.28,
+      "fin": 54.58,
+      "texte": "Au revoir."
+    }
+  ]
+}

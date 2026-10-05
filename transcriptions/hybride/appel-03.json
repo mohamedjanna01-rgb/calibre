@@ -1,7 +1,7 @@
 {
   "appel": "03",
   "methode": "hybride",
-  "date": "2026-10-05T00:06:23",
+  "date": "2026-10-05T10:41:40",
   "duree_audio_s": 160.8,
   "usage": {
     "source_texte": "gemini-3.8-flash",
