@@ -18,6 +18,8 @@ Ces règles complètent la section 4 du cadrage et priment en cas de doute.
 9. **Mise en garde quelle que soit la note** : résiliation retardée, résiliation refusée, panne ignorée en télévente, et tout appel « Insuffisant ».
 10. **Le niveau et les alertes sont deux résultats distincts** : un appel peut être « Conforme » et recevoir une mise en garde (scénario 5).
 11. **Un écart de procédure hors grille est signalé en remarque de conformité, sans effet sur la note.** Le rapport de Calibre comporte une rubrique **« Remarques de conformité »**, distincte de la notation : elle liste les écarts à la documentation de Kalyo qui ne relèvent d'aucun item de la grille, avec la règle concernée et la preuve.
+12. **Un oubli isolé ne fait pas baisser le niveau** si le reste de l'appel est réussi : c'est le pourcentage qui décide du niveau. L'item manqué est noté « non » et fait l'objet d'un point de coaching. *(Illustrée par les exemples 1 et 2 de `calibre-exemples-notation.md`.)*
+13. **Éliminatoire 2, élargi : mentir ou faire une fausse promesse qui engage l'entreprise** (prix, remise, geste commercial, délai, conditions), **quel que soit le but** : vendre, retenir ou calmer le client. Une information approximative ou une excuse sans engagement (« ça devrait se régler », « le service n'est pas disponible aujourd'hui ») n'est **pas** un éliminatoire : elle est notée dans les items, et peut déclencher une mise en garde si c'est une faute listée. *(Illustrée par l'exemple 3 de `calibre-exemples-notation.md`.)*
 
 ## 2. Grille 1 – Service client (16 items)
 

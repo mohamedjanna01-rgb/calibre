@@ -62,6 +62,7 @@ Chaque appel arrive avec une fiche d'identité : **matricule du conseiller**, **
 - **Note finale** = nombre de « oui » ÷ nombre d'items applicables × 100.
 - Un item qui regroupe plusieurs éléments est noté « oui » si **l'essentiel** est présent et correct.
 - Chaque note doit être justifiée par une **preuve** : la phrase exacte de l'appel et son horodatage.
+- Un **oubli isolé** ne fait pas baisser le niveau si le reste de l'appel est réussi : c'est le pourcentage qui décide. L'item manqué est noté « non » et fait l'objet d'un point de coaching.
 
 ### 4.2 Vocabulaire à ne pas confondre
 - **Dynamisme commercial** : qualité. Le conseiller va chercher la vente avec des arguments.
@@ -71,7 +72,7 @@ Chaque appel arrive avec une fiche d'identité : **matricule du conseiller**, **
 
 ### 4.3 Éliminatoires (l'appel est « Non conforme », quelle que soit la note)
 1. **Demander des données bancaires ou sensibles** : numéro de carte, date d'expiration, cryptogramme, code reçu par SMS (de la banque ou de signature).
-2. **Mentir pour vendre** : fausse promesse, fausse remise, faux tarif, information volontairement erronée sur l'offre.
+2. **Mentir ou faire une fausse promesse qui engage l'entreprise** (prix, remise, geste commercial, délai, conditions), **quel que soit le but** : vendre, retenir ou calmer le client. Une information approximative ou une excuse sans engagement (« ça devrait se régler », « le service n'est pas disponible aujourd'hui ») n'est pas un éliminatoire : elle est notée dans les items, et peut déclencher une mise en garde si c'est une faute listée.
 3. **Valider une souscription sans l'accord clair du client** (vente forcée).
 
 ### 4.4 Mises en garde (quelle que soit la note)
