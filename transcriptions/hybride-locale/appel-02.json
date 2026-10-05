@@ -1,0 +1,195 @@
+{
+  "appel": "02",
+  "methode": "hybride-locale",
+  "date": "2026-10-05T17:42:24",
+  "duree_audio_s": 129.0,
+  "usage": {
+    "source_mots": "whisper-medium",
+    "locuteurs": "gemma-4-26b-a4b-it",
+    "segments": 59,
+    "anomalies": [],
+    "usage": {
+      "promptTokenCount": 1597,
+      "candidatesTokenCount": 2029,
+      "totalTokenCount": 7190,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1597
+        }
+      ],
+      "thoughtsTokenCount": 3564,
+      "serviceTier": "standard"
+    }
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "conseiller",
+      "debut": 0.0,
+      "fin": 1.62,
+      "texte": "Cali au Télécom, bonjour."
+    },
+    {
+      "n": 2,
+      "locuteur": "client",
+      "debut": 1.8,
+      "fin": 2.06,
+      "texte": "Bonjour."
+    },
+    {
+      "n": 3,
+      "locuteur": "conseiller",
+      "debut": 2.48,
+      "fin": 13.32,
+      "texte": "Je m 'appelle Sophia Haddad, je suis votre conseillère clientèle et je vais prendre en charge votre demande. Je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité. Fuis -je avoir votre nom et prénom ?"
+    },
+    {
+      "n": 4,
+      "locuteur": "client",
+      "debut": 13.32,
+      "fin": 13.9,
+      "texte": "Thomas Garnier."
+    },
+    {
+      "n": 5,
+      "locuteur": "conseiller",
+      "debut": 14.26,
+      "fin": 24.02,
+      "texte": "Merci. Pour sécuriser votre dossier, pouvez -vous me donner votre numéro de ligne, votre code postal et votre date de naissance [numéro masqué]"
+    },
+    {
+      "n": 6,
+      "locuteur": "client",
+      "debut": 24.38,
+      "fin": 27.08,
+      "texte": "31 000 et le 2 juillet 1979."
+    },
+    {
+      "n": 7,
+      "locuteur": "conseiller",
+      "debut": 27.66,
+      "fin": 30.18,
+      "texte": "Merci, c 'est bien vous. Que puis -je faire pour vous ?"
+    },
+    {
+      "n": 8,
+      "locuteur": "client",
+      "debut": 30.18,
+      "fin": 40.3,
+      "texte": "Je viens de recevoir ma première facture. Elle est de 78 ,99 euros. On m 'avait dit 39 ,99 euros par mois pour la Box Evolution. Je ne comprends pas, j 'ai l 'impression d 'avoir été trompé."
+    },
+    {
+      "n": 9,
+      "locuteur": "conseiller",
+      "debut": 40.5,
+      "fin": 51.38,
+      "texte": "Je comprends votre surprise. C 'est normal de s 'inquiéter quand le montant ne correspond pas à ce qu 'on attendait. Je regarde votre facture avec vous. Avez -vous changé quelque chose depuis votre inscription ? Une option ou un équipement ?"
+    },
+    {
+      "n": 10,
+      "locuteur": "client",
+      "debut": 51.38,
+      "fin": 52.24,
+      "texte": "Non, rien du tout."
+    },
+    {
+      "n": 11,
+      "locuteur": "conseiller",
+      "debut": 52.58,
+      "fin": 65.96,
+      "texte": "D 'accord, un instant s 'il vous plaît. Je vois le détail. Votre facture contient deux lignes. La première, ce sont les 39 ,99 euros de votre Box Evolution pour le mois à venir."
+    },
+    {
+      "n": 12,
+      "locuteur": "client",
+      "debut": 66.3,
+      "fin": 66.48,
+      "texte": "Oui."
+    },
+    {
+      "n": 13,
+      "locuteur": "conseiller",
+      "debut": 66.76,
+      "fin": 75.8,
+      "texte": "La seconde, ce sont 39 euros de frais de mise en service. Ces frais sont facturés une seule fois, uniquement sur la première facture des nouveaux clients. C 'est ce qui explique la différence."
+    },
+    {
+      "n": 14,
+      "locuteur": "client",
+      "debut": 76.16,
+      "fin": 80.32,
+      "texte": "Ah, une seule fois. Donc le mois prochain, ce sera bien 39 ,99 euros ?"
+    },
+    {
+      "n": 15,
+      "locuteur": "conseiller",
+      "debut": 80.32,
+      "fin": 87.54,
+      "texte": "Exactement. À partir de la prochaine facture, vous pairez 39 ,99 euros. [inaudible] ,99 [inaudible] par mois, sans frais supplémentaires, tant que vous ne changez pas d 'offre."
+    },
+    {
+      "n": 16,
+      "locuteur": "client",
+      "debut": 87.68,
+      "fin": 90.26,
+      "texte": "D 'accord. On aurait quand même pu me prévenir."
+    },
+    {
+      "n": 17,
+      "locuteur": "conseiller",
+      "debut": 90.6,
+      "fin": 103.72,
+      "texte": "Vous avez raison. C 'est désagréable de le découvrir sur la facture. Et je suis désolée pour cette mauvaise surprise. Ces frais figurent dans les conditions de l 'offre. Mais je comprends qu 'il soit passé inaperçu. Je vous envoie par e -mail le détail de votre facture pour que vous l 'ayez sous les yeux."
+    },
+    {
+      "n": 18,
+      "locuteur": "client",
+      "debut": 104.1,
+      "fin": 105.7,
+      "texte": "Oui, merci. Ce sera plus clair."
+    },
+    {
+      "n": 19,
+      "locuteur": "conseiller",
+      "debut": 106.04,
+      "fin": 115.2,
+      "texte": "C 'est envoyé. Pour récapituler, les 39 euros sont des frais de mise en service unique et vos prochaines factures seront de 39 ,99 euros par mois. Avez -vous d 'autres questions ?"
+    },
+    {
+      "n": 20,
+      "locuteur": "client",
+      "debut": 115.2,
+      "fin": 116.64,
+      "texte": "Non, c 'est bon. Merci pour l 'explication."
+    },
+    {
+      "n": 21,
+      "locuteur": "conseiller",
+      "debut": 117.32,
+      "fin": 127.18,
+      "texte": "Je vous en prie. C 'est tout naturel. Merci pour votre appel et pour votre confiance. Si vous avez la moindre question en recevant votre prochaine facture, n 'hésitez pas à nous rappeler. Je vous souhaite une très bonne fin de journée."
+    },
+    {
+      "n": 22,
+      "locuteur": "client",
+      "debut": 127.46,
+      "fin": 127.76,
+      "texte": "Au revoir."
+    },
+    {
+      "n": 23,
+      "locuteur": "conseiller",
+      "debut": 128.16,
+      "fin": 128.38,
+      "texte": "Merci."
+    },
+    {
+      "n": 24,
+      "locuteur": "client",
+      "debut": 128.58,
+      "fin": 128.86,
+      "texte": "Au revoir."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "appel": "04",
+  "methode": "hybride-locale",
+  "date": "2026-10-05T17:48:51",
+  "duree_audio_s": 54.8,
+  "usage": {
+    "source_mots": "whisper-medium",
+    "locuteurs": "gemma-4-26b-a4b-it",
+    "segments": 27,
+    "anomalies": [],
+    "usage": {
+      "promptTokenCount": 839,
+      "candidatesTokenCount": 881,
+      "totalTokenCount": 6034,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 839
+        }
+      ],
+      "thoughtsTokenCount": 4314,
+      "serviceTier": "standard"
+    }
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "conseiller",
+      "debut": 0.0,
+      "fin": 1.9,
+      "texte": "Caliot Telecom, bonjour."
+    },
+    {
+      "n": 2,
+      "locuteur": "client",
+      "debut": 2.22,
+      "fin": 2.46,
+      "texte": "Bonjour."
+    },
+    {
+      "n": 3,
+      "locuteur": "conseiller",
+      "debut": 3.1,
+      "fin": 4.2,
+      "texte": "Votre numéro de ligne ?"
+    },
+    {
+      "n": 4,
+      "locuteur": "client",
+      "debut": 5.14,
+      "fin": 8.94,
+      "texte": "[numéro masqué]"
+    },
+    {
+      "n": 5,
+      "locuteur": "conseiller",
+      "debut": 9.26,
+      "fin": 12.2,
+      "texte": "Non, code postal, date de naissance ?"
+    },
+    {
+      "n": 6,
+      "locuteur": "client",
+      "debut": 12.2,
+      "fin": 15.84,
+      "texte": "Nathalie Roux, 13 -08 -21 avril 1968."
+    },
+    {
+      "n": 7,
+      "locuteur": "conseiller",
+      "debut": 16.6,
+      "fin": 17.5,
+      "texte": "C 'est bon, c 'est pourquoi."
+    },
+    {
+      "n": 8,
+      "locuteur": "client",
+      "debut": 18.04,
+      "fin": 27.82,
+      "texte": "Ma télévision ne marche plus depuis ce matin. Il n 'a écrit aucun signal sur l 'écran. J 'ai essayé d 'éteindre et de rallumer la télé, mais ça ne change rien. Mon mari regarde le match ce soir alors."
+    },
+    {
+      "n": 9,
+      "locuteur": "conseiller",
+      "debut": 28.28,
+      "fin": 34.66,
+      "texte": "Ok, c 'est sûrement votre décodeur qui a perdu la synchro avec la box. Faites un reset usine du décodeur, ça devrait régler le problème."
+    },
+    {
+      "n": 10,
+      "locuteur": "client",
+      "debut": 35.22,
+      "fin": 37.72,
+      "texte": "Un reset usine ? Je ne sais pas faire ça."
+    },
+    {
+      "n": 11,
+      "locuteur": "conseiller",
+      "debut": 38.12,
+      "fin": 41.92,
+      "texte": "Il y a un bouton derrière le décodeur, vous appuyez dessus avec un trombone pendant 10 secondes."
+    },
+    {
+      "n": 12,
+      "locuteur": "client",
+      "debut": 42.14,
+      "fin": 42.68,
+      "texte": "D 'accord."
+    },
+    {
+      "n": 13,
+      "locuteur": "conseiller",
+      "debut": 43.22,
+      "fin": 44.56,
+      "texte": "Normalement ça devrait marcher."
+    },
+    {
+      "n": 14,
+      "locuteur": "client",
+      "debut": 44.76,
+      "fin": 46.2,
+      "texte": "Et si ça ne marche pas ?"
+    },
+    {
+      "n": 15,
+      "locuteur": "conseiller",
+      "debut": 46.2,
+      "fin": 47.76,
+      "texte": "Si ça ne marche pas, vous rappelez le service client."
+    },
+    {
+      "n": 16,
+      "locuteur": "client",
+      "debut": 48.26,
+      "fin": 50.44,
+      "texte": "Vous ne pouvez pas vérifier de votre côté ?"
+    },
+    {
+      "n": 17,
+      "locuteur": "conseiller",
+      "debut": 50.44,
+      "fin": 52.5,
+      "texte": "Faites d 'abord le reset, autre chose ?"
+    },
+    {
+      "n": 18,
+      "locuteur": "client",
+      "debut": 52.5,
+      "fin": 53.76,
+      "texte": "Non, bon, je vais essayer."
+    },
+    {
+      "n": 19,
+      "locuteur": "conseiller",
+      "debut": 54.28,
+      "fin": 54.58,
+      "texte": "Au revoir."
+    }
+  ]
+}

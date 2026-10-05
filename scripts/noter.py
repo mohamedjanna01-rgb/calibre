@@ -95,6 +95,16 @@ def grilles():
 DOCS_REDUITS = {"Appel entrant": ("01", "15"), "Télévente sortante": ("01", "16")}
 
 
+def alleger(doc):
+    """Référentiel réduit : retire de DOC-01 les parties sans rapport avec la notation d'un appel
+    (pénalités de non-restitution du matériel, glossaire)."""
+    texte = doc.read_text(encoding="utf-8")
+    if doc.name.startswith("01"):
+        texte = re.sub(r"## 4\. Équipements et pénalités.*?(?=## 5\.)", "", texte, flags=re.S)
+        texte = re.sub(r"## 7\. Glossaire.*?(?=## Documents liés)", "", texte, flags=re.S)
+    return texte
+
+
 def referentiel(type_appel=None, reduit=False):
     cadrage = CADRAGE.read_text(encoding="utf-8")
     docs = sorted((ROOT / "docs").glob("*.md"))
@@ -104,7 +114,7 @@ def referentiel(type_appel=None, reduit=False):
         "# Grilles et règles de notation\n" + sans_scenarios(section(cadrage, "## 2. Grille 1", "## 5.")),
         "# Règles précisées par le qualiticien\n" + sans_scenarios(section(NOTATION_REF.read_text(encoding="utf-8"), "## 1.", "## 2.")),
         "# Exemples de notation du qualiticien\n" + sans_scenarios(EXEMPLES.read_text(encoding="utf-8").split("\n", 1)[1]),
-        "# Documentation interne de Kalyo Télécom\n" + "\n\n".join(p.read_text(encoding="utf-8") for p in docs),
+        "# Documentation interne de Kalyo Télécom\n" + "\n\n".join(alleger(p) if reduit else p.read_text(encoding="utf-8") for p in docs),
     ]
     return "\n\n".join(parties)
 
@@ -166,7 +176,7 @@ def construire(appel, modele, reduit=False):
         del corps["generationConfig"]
         corps["contents"][0]["parts"][0]["text"] += (
             "\n\n# Format de réponse\n\nRéponds uniquement par un objet JSON valide, sans aucun texte autour, "
-            "conforme à ce schéma :\n" + json.dumps(SCHEMA, ensure_ascii=False))
+            "conforme à ce schéma :\n" + json.dumps(SCHEMA, ensure_ascii=False, separators=(",", ":")))
     return corps, type_appel, grille
 
 
@@ -283,7 +293,7 @@ def main():
         texte = "".join(x.get("text", "") for x in brute["candidates"][0]["content"]["parts"] if not x.get("thought"))
         reponse = json.loads(texte[texte.index("{"): texte.rindex("}") + 1])  # tolère un bloc ```json autour
         calcul = calculer(reponse, grille, transcription(appel))
-        dossier = SORTIE / (a.modele + ("-reduit" if a.reduit else ""))
+        dossier = SORTIE / (a.modele + ("-reduit" if a.reduit else "") + ("" if SOURCE == "hybride" else f"-{SOURCE}"))
         dossier.mkdir(parents=True, exist_ok=True)
         (dossier / f"appel-{appel}.json").write_text(json.dumps({
             "appel": appel, "modele": a.modele, "date": datetime.now().isoformat(timespec="seconds"),

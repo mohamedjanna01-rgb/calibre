@@ -1,0 +1,328 @@
+[
+  {
+    "appel": "01",
+    "methode": "hybride",
+    "mots_retrouves_pct": 96.7,
+    "wer_pct": 3.3,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 40,
+      "transcription": 42
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 2,
+      "transcription": 2,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 1.9,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.24,
+    "repliques_a_moins_1s_pct": 92.9
+  },
+  {
+    "appel": "01",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 89.7,
+    "wer_pct": 11.2,
+    "mots_bon_locuteur_pct": 98.7,
+    "repliques_bien_attribuees_pct": 97.4,
+    "repliques": {
+      "scenario": 40,
+      "transcription": 46
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 2,
+      "transcription": 2,
+      "fuites": 0
+    },
+    "inaudible": 5,
+    "mots_inventes_pour_100": 8.5,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.22,
+    "repliques_a_moins_1s_pct": 97.7
+  },
+  {
+    "appel": "02",
+    "methode": "hybride",
+    "mots_retrouves_pct": 99.8,
+    "wer_pct": 0.2,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 22,
+      "transcription": 23
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 0.2,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 95.7
+  },
+  {
+    "appel": "02",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 98.0,
+    "wer_pct": 4.5,
+    "mots_bon_locuteur_pct": 99.1,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 22,
+      "transcription": 24
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 4.5,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "03",
+    "methode": "hybride",
+    "mots_retrouves_pct": 95.5,
+    "wer_pct": 5.5,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 27,
+      "transcription": 29
+    },
+    "preuves": [
+      {
+        "preuve": "Oui, oui, j'ai compris",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Calmez-vous, Monsieur Martin",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Ce n'est pas moi qui ai traité vos appels précédents",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 2.7,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.23,
+    "repliques_a_moins_1s_pct": 92.9
+  },
+  {
+    "appel": "03",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 95.5,
+    "wer_pct": 5.2,
+    "mots_bon_locuteur_pct": 98.8,
+    "repliques_bien_attribuees_pct": 95.8,
+    "repliques": {
+      "scenario": 27,
+      "transcription": 24
+    },
+    "preuves": [
+      {
+        "preuve": "Oui, oui, j'ai compris",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Calmez-vous, Monsieur Martin",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Ce n'est pas moi qui ai traité vos appels précédents",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 2.7,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.16,
+    "repliques_a_moins_1s_pct": 91.3
+  },
+  {
+    "appel": "04",
+    "methode": "hybride",
+    "mots_retrouves_pct": 97.1,
+    "wer_pct": 3.5,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 19,
+      "transcription": 19
+    },
+    "preuves": [
+      {
+        "preuve": "Votre numéro de ligne ?",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Normalement, ça devrait marcher",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Faites d'abord le reset",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 2.3,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.16,
+    "repliques_a_moins_1s_pct": 94.7
+  },
+  {
+    "appel": "04",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 95.3,
+    "wer_pct": 5.2,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 19,
+      "transcription": 19
+    },
+    "preuves": [
+      {
+        "preuve": "Votre numéro de ligne ?",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Normalement, ça devrait marcher",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Faites d'abord le reset",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 3.5,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.18,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "05",
+    "methode": "hybride",
+    "mots_retrouves_pct": 100.0,
+    "wer_pct": 0.0,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 21
+    },
+    "preuves": [
+      {
+        "preuve": "le service concerné n'est pas disponible aujourd'hui",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "ce n'est pas moi qui gère les résiliations",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "ça vous laisse quelques jours pour y réfléchir",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 0.0,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 95.2
+  },
+  {
+    "appel": "05",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 97.4,
+    "wer_pct": 2.6,
+    "mots_bon_locuteur_pct": 99.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 22
+    },
+    "preuves": [
+      {
+        "preuve": "le service concerné n'est pas disponible aujourd'hui",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "ce n'est pas moi qui gère les résiliations",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "ça vous laisse quelques jours pour y réfléchir",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 1.9,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 90.9
+  }
+]
