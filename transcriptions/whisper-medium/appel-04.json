@@ -1,0 +1,58 @@
+{
+  "appel": "04",
+  "methode": "whisper-medium",
+  "date": "2026-10-05T00:34:25",
+  "duree_audio_s": 54.8,
+  "usage": null,
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "conseiller",
+      "debut": 0.0,
+      "fin": 8.94,
+      "texte": "Caliot Telecom, bonjour. Bonjour. Votre numéro de ligne ? [numéro masqué]"
+    },
+    {
+      "n": 2,
+      "locuteur": "client",
+      "debut": 9.26,
+      "fin": 22.18,
+      "texte": "Non, code postal, date de naissance ? Nathalie Roux, 13 -08 -21 avril 1968. C 'est bon, c 'est pourquoi. Ma télévision ne marche plus depuis ce matin. Il n 'a écrit aucun signal sur l 'écran."
+    },
+    {
+      "n": 3,
+      "locuteur": "conseiller",
+      "debut": 22.72,
+      "fin": 25.6,
+      "texte": "J 'ai essayé d 'éteindre et de rallumer la télé, mais ça ne change rien."
+    },
+    {
+      "n": 4,
+      "locuteur": "client",
+      "debut": 26.02,
+      "fin": 27.82,
+      "texte": "Mon mari regarde le match ce soir alors."
+    },
+    {
+      "n": 5,
+      "locuteur": "conseiller",
+      "debut": 28.28,
+      "fin": 34.66,
+      "texte": "Ok, c 'est sûrement votre décodeur qui a perdu la synchro avec la box. Faites un reset usine du décodeur, ça devrait régler le problème."
+    },
+    {
+      "n": 6,
+      "locuteur": "client",
+      "debut": 35.22,
+      "fin": 37.72,
+      "texte": "Un reset usine ? Je ne sais pas faire ça."
+    },
+    {
+      "n": 7,
+      "locuteur": "conseiller",
+      "debut": 38.12,
+      "fin": 54.58,
+      "texte": "Il y a un bouton derrière le décodeur, vous appuyez dessus avec un trombone pendant 10 secondes. D 'accord. Normalement ça devrait marcher. Et si ça ne marche pas ? Si ça ne marche pas, vous rappelez le service client. Vous ne pouvez pas vérifier de votre côté ? Faites d 'abord le reset, autre chose ? Non, bon, je vais essayer. Au revoir."
+    }
+  ]
+}

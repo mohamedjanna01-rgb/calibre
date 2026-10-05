@@ -1,0 +1,149 @@
+{
+  "appel": "06",
+  "methode": "whisper-medium",
+  "date": "2026-10-05T00:43:35",
+  "duree_audio_s": 122.8,
+  "usage": null,
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "conseiller",
+      "debut": 0.0,
+      "fin": 2.1,
+      "texte": "qui allait au télécom, bonjour."
+    },
+    {
+      "n": 2,
+      "locuteur": "client",
+      "debut": 2.66,
+      "fin": 2.98,
+      "texte": "Bonjour."
+    },
+    {
+      "n": 3,
+      "locuteur": "conseiller",
+      "debut": 4.4,
+      "fin": 13.4,
+      "texte": "Je m 'appelle Mehdi Alaoui, je suis votre conseiller clientèle et je vais prendre en charge votre demande. Je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité."
+    },
+    {
+      "n": 4,
+      "locuteur": "client",
+      "debut": 14.4,
+      "fin": 19.0,
+      "texte": "Puis -je avoir votre nom et prénom ? Sandrine Benoît. Merci Madame Benoît."
+    },
+    {
+      "n": 5,
+      "locuteur": "conseiller",
+      "debut": 19.7,
+      "fin": 32.18,
+      "texte": "Pour sécuriser votre dossier, pouvez -vous me donner votre numéro de ligne, votre code postal et votre date de naissance ? [numéro masqué] 33000,"
+    },
+    {
+      "n": 6,
+      "locuteur": "client",
+      "debut": 32.7,
+      "fin": 35.98,
+      "texte": "le 9 septembre 1975. Merci."
+    },
+    {
+      "n": 7,
+      "locuteur": "conseiller",
+      "debut": 37.02,
+      "fin": 40.64,
+      "texte": "Que puis -je faire pour vous ? Je souhaite résilier ma ligne mobile."
+    },
+    {
+      "n": 8,
+      "locuteur": "client",
+      "debut": 41.18,
+      "fin": 43.28,
+      "texte": "J 'ai trouvé un forfait moins cher chez un autre opérateur."
+    },
+    {
+      "n": 9,
+      "locuteur": "conseiller",
+      "debut": 44.52,
+      "fin": 46.04,
+      "texte": "Je comprends, Madame Benoît."
+    },
+    {
+      "n": 10,
+      "locuteur": "client",
+      "debut": 46.82,
+      "fin": 55.6,
+      "texte": "Puis -je vous demander quel forfait vous avez trouvé ? 100 gigas pour 10 euros par mois. D 'accord. Un instant s 'il vous plaît."
+    },
+    {
+      "n": 11,
+      "locuteur": "conseiller",
+      "debut": 56.64,
+      "fin": 71.4,
+      "texte": "De mon côté, je vois que vous payez votre smartphone en 24 mensualités et qu 'il vous en reste 14. Oui, et alors ? Alors, malheureusement vous ne pouvez pas résilier votre ligne tant que votre téléphone n 'est pas entièrement payé."
+    },
+    {
+      "n": 12,
+      "locuteur": "client",
+      "debut": 72.06,
+      "fin": 78.94,
+      "texte": "Il faudra attendre la fin du financement. Comment ça ? On ne m 'a jamais dit ça. Mon forfait est sans engagement."
+    },
+    {
+      "n": 13,
+      "locuteur": "conseiller",
+      "debut": 79.68,
+      "fin": 85.64,
+      "texte": "Le forfait oui, mais le téléphone vous engage. Je ne peux pas enregistrer votre résiliation aujourd 'hui. Ce n 'est pas possible."
+    },
+    {
+      "n": 14,
+      "locuteur": "client",
+      "debut": 87.26,
+      "fin": 90.28,
+      "texte": "C 'est n 'importe quoi. Je veux parler à un responsable."
+    },
+    {
+      "n": 15,
+      "locuteur": "conseiller",
+      "debut": 91.0,
+      "fin": 101.54,
+      "texte": "Mon responsable vous le dira à la même chose, Madame Benoît. Mais je vois que vous avez aussi notre box évolution. Pour vous remercier de votre fidélité, je vous active le pack Horizon."
+    },
+    {
+      "n": 16,
+      "locuteur": "client",
+      "debut": 102.16,
+      "fin": 112.12,
+      "texte": "35 chaînes de films et de séries et le premier mois est offert. Je ne sais pas, ce n 'est pas ce que je demandais. Vous verrez, ça vous plaira. Voilà, c 'est activé."
+    },
+    {
+      "n": 17,
+      "locuteur": "conseiller",
+      "debut": 112.42,
+      "fin": 113.16,
+      "texte": "Vous l 'avez dit ce soir."
+    },
+    {
+      "n": 18,
+      "locuteur": "client",
+      "debut": 115.42,
+      "fin": 117.68,
+      "texte": "Je [inaudible] me renseigner ailleurs pour ma ligne."
+    },
+    {
+      "n": 19,
+      "locuteur": "conseiller",
+      "debut": 118.3,
+      "fin": 121.82,
+      "texte": "Très bien. Merci pour votre appel, Madame Benoît."
+    },
+    {
+      "n": 20,
+      "locuteur": "client",
+      "debut": 122.08,
+      "fin": 122.38,
+      "texte": "Bonne journée."
+    }
+  ]
+}

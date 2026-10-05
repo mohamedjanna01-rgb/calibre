@@ -1,0 +1,366 @@
+{
+  "appel": "07",
+  "methode": "whisper-medium",
+  "date": "2026-10-05T03:57:14",
+  "duree_audio_s": 331.1,
+  "usage": null,
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "conseiller",
+      "debut": 0.5,
+      "fin": 0.94,
+      "texte": "Allo?"
+    },
+    {
+      "n": 2,
+      "locuteur": "client",
+      "debut": 1.7,
+      "fin": 2.46,
+      "texte": "Bonjour, Monsieur Durand?"
+    },
+    {
+      "n": 3,
+      "locuteur": "conseiller",
+      "debut": 3.66,
+      "fin": 8.7,
+      "texte": "Oui, bonjour. C 'est qui? Samir El Idrissi, conseiller chez Cali au Télécom,"
+    },
+    {
+      "n": 4,
+      "locuteur": "client",
+      "debut": 8.96,
+      "fin": 11.22,
+      "texte": "votre opérateur. Ah oui."
+    },
+    {
+      "n": 5,
+      "locuteur": "conseiller",
+      "debut": 12.18,
+      "fin": 20.8,
+      "texte": "C 'est moi qui m 'occupe de votre contract box Internet. Et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité."
+    },
+    {
+      "n": 6,
+      "locuteur": "client",
+      "debut": 21.32,
+      "fin": 22.08,
+      "texte": "Avez -vous quelques instants?"
+    },
+    {
+      "n": 7,
+      "locuteur": "conseiller",
+      "debut": 23.1,
+      "fin": 23.94,
+      "texte": "Oui, allez -y."
+    },
+    {
+      "n": 8,
+      "locuteur": "client",
+      "debut": 24.86,
+      "fin": 25.16,
+      "texte": "Merci."
+    },
+    {
+      "n": 9,
+      "locuteur": "conseiller",
+      "debut": 26.04,
+      "fin": 35.5,
+      "texte": "Avant tout, je voulais faire un point avec vous. Tout fonctionne bien avec votre box et votre télévision? Oui, aucun souci. Tant mieux."
+    },
+    {
+      "n": 10,
+      "locuteur": "client",
+      "debut": 36.14,
+      "fin": 37.42,
+      "texte": "Pour sécuriser notre échange,"
+    },
+    {
+      "n": 11,
+      "locuteur": "conseiller",
+      "debut": 37.72,
+      "fin": 39.78,
+      "texte": "pouvez -vous me confirmer votre nom et prénom,"
+    },
+    {
+      "n": 12,
+      "locuteur": "client",
+      "debut": 40.26,
+      "fin": 42.78,
+      "texte": "votre code postal et votre date de naissance?"
+    },
+    {
+      "n": 13,
+      "locuteur": "conseiller",
+      "debut": 43.44,
+      "fin": 50.76,
+      "texte": "Durand Philippe, 67 000, le 3 février 1982. Merci, Monsieur Durand."
+    },
+    {
+      "n": 14,
+      "locuteur": "client",
+      "debut": 51.46,
+      "fin": 56.82,
+      "texte": "Nous avons en ce moment un avantage réservé à nos clients sur la télévision. Pour voir s 'il peut vous être utile,"
+    },
+    {
+      "n": 15,
+      "locuteur": "conseiller",
+      "debut": 57.1,
+      "fin": 58.12,
+      "texte": "puis -je vous poser quelques questions?"
+    },
+    {
+      "n": 16,
+      "locuteur": "client",
+      "debut": 58.96,
+      "fin": 63.2,
+      "texte": "Combien êtes -vous à la maison? Alors quatre, ma femme,"
+    },
+    {
+      "n": 17,
+      "locuteur": "conseiller",
+      "debut": 64.02,
+      "fin": 79.5,
+      "texte": "nos deux enfants de 7 et 12 ans, et moi. Et qui regarde le plus la télévision chez vous? Les enfants surtout. Ma femme et moi, on regarde des films le soir, mais on finit tard. On rate souvent le début."
+    },
+    {
+      "n": 18,
+      "locuteur": "client",
+      "debut": 80.12,
+      "fin": 80.9,
+      "texte": "Je vois."
+    },
+    {
+      "n": 19,
+      "locuteur": "conseiller",
+      "debut": 81.56,
+      "fin": 90.72,
+      "texte": "Et vous arrive -t -il de regarder sur tablette ou sur téléphone? Les enfants sur la tablette. Et on a déjà un abonnement, une plateforme de streaming."
+    },
+    {
+      "n": 20,
+      "locuteur": "client",
+      "debut": 91.78,
+      "fin": 92.24,
+      "texte": "D 'accord."
+    },
+    {
+      "n": 21,
+      "locuteur": "conseiller",
+      "debut": 92.72,
+      "fin": 97.2,
+      "texte": "Et pour vos téléphones portables, vous êtes chez nous ou chez un autre opérateur?"
+    },
+    {
+      "n": 22,
+      "locuteur": "client",
+      "debut": 98.26,
+      "fin": 99.64,
+      "texte": "Chez un autre opérateur."
+    },
+    {
+      "n": 23,
+      "locuteur": "conseiller",
+      "debut": 100.64,
+      "fin": 105.46,
+      "texte": "Deux lignes. Merci, c 'est noté. Avec tout ce que vous dites, Monsieur Durand,"
+    },
+    {
+      "n": 24,
+      "locuteur": "client",
+      "debut": 105.82,
+      "fin": 113.68,
+      "texte": "j 'ai quelque chose qui correspond vraiment à votre famille. Le pack Horizon. Je vous explique ce qui change chez vous. D 'abord, 35 chèques thématiques."
+    },
+    {
+      "n": 25,
+      "locuteur": "conseiller",
+      "debut": 114.0,
+      "fin": 140.22,
+      "texte": "Du cinéma, des séries, des polars, des documentaires, de la découverte, de la musique, de la cuisine, du voyage. Et surtout, Horizon 2 et Horizon Junior. Des programmes adaptés à l 'âge de chacun de vos enfants. [inaudible] plus de 2000 films et séries à la demande. Toute une partie en quatre quarts. Et comme on finissait tard, l 'heure est de sept jours. Votre film commence quand vous vous asseyez, pas quand il passe à l 'antenne."
+    },
+    {
+      "n": 26,
+      "locuteur": "client",
+      "debut": 140.88,
+      "fin": 152.48,
+      "texte": "Enfin, il fonctionne sur deux écrans en même temps avec l 'application Calio TV. Les enfants regardent leur dessin et sur la tablette pendant que vous profitez de votre film sur la télévision. Fini les disputes pour la télécommande."
+    },
+    {
+      "n": 27,
+      "locuteur": "conseiller",
+      "debut": 154.12,
+      "fin": 162.82,
+      "texte": "Ça a l 'air bien, mais on a déjà une plateforme de [inaudible] comprends et beaucoup de nos clients en ont une aussi. La différence,"
+    },
+    {
+      "n": 28,
+      "locuteur": "client",
+      "debut": 163.08,
+      "fin": 166.78,
+      "texte": "c 'est que le pack Horizon ajoute des chaînes en direct et un catalogue différent."
+    },
+    {
+      "n": 29,
+      "locuteur": "conseiller",
+      "debut": 167.34,
+      "fin": 192.96,
+      "texte": "Directement sur votre décodeur. Sans nouveau compte à créer, ni mot de passe à retenir. Votre plateforme, c 'est ce que vous choisissez de regarder. Horizon, c 'est aussi ce que vous découvrez en allumant la télé. Les deux se complètent. Oui, mais additionner à la plateforme, ça commence à faire cher. C 'est une vraie question, et je vais être transparent avec vous. Le pack Horizon est à 12 ,99 euros par mois, soit environ 43 centimes par jour."
+    },
+    {
+      "n": 30,
+      "locuteur": "client",
+      "debut": 193.46,
+      "fin": 194.36,
+      "texte": "Pour vous donner une idée,"
+    },
+    {
+      "n": 31,
+      "locuteur": "conseiller",
+      "debut": 194.62,
+      "fin": 196.86,
+      "texte": "c 'est à peu près le prix d 'une seule place de cinéma."
+    },
+    {
+      "n": 32,
+      "locuteur": "client",
+      "debut": 197.22,
+      "fin": 199.98,
+      "texte": "Pour un mois entier de films, pour quatre personnes."
+    },
+    {
+      "n": 33,
+      "locuteur": "conseiller",
+      "debut": 200.6,
+      "fin": 217.54,
+      "texte": "Une seule sortie au cinéma en famille vous coûterait déjà plus de quatre fois ce prix. Et le premier mois est offert sans engagement. Vous vous testez gratuitement, et si ça ne vous convient pas, vous vous arrêtez. Comme ça... D 'accord, on peut essayer. Avec plaisir."
+    },
+    {
+      "n": 34,
+      "locuteur": "client",
+      "debut": 218.06,
+      "fin": 220.88,
+      "texte": "Je vous fais le récapitulatif complet avant de valider, Monsieur Durand."
+    },
+    {
+      "n": 35,
+      "locuteur": "conseiller",
+      "debut": 221.34,
+      "fin": 229.74,
+      "texte": "Le [inaudible] le premier mois est offert, puis 12 ,99 euros par mois. Le premier prélèvement des 12 ,99 euros aura lieu le 8 décembre."
+    },
+    {
+      "n": 36,
+      "locuteur": "client",
+      "debut": 230.04,
+      "fin": 231.0,
+      "texte": "Il est sans engagement."
+    },
+    {
+      "n": 37,
+      "locuteur": "conseiller",
+      "debut": 231.32,
+      "fin": 234.28,
+      "texte": "Vous pouvez l 'arrêter à tout moment, avec essai à la fin du mois,"
+    },
+    {
+      "n": 38,
+      "locuteur": "client",
+      "debut": 234.82,
+      "fin": 236.78,
+      "texte": "depuis votre espace client ou en nous appelant."
+    },
+    {
+      "n": 39,
+      "locuteur": "conseiller",
+      "debut": 237.14,
+      "fin": 252.84,
+      "texte": "Vous disposez aussi d 'un droit de rétractation de 14 jours. Si vous l 'utilisez, vous ne payez rien. Il sera activé dans un délai de deux heures maximum, directement sur votre décodeur, sans rien à installer. Confirmez -vous, sous -crivez au pack [inaudible] aux conditions que je viens de vous inviter ? Oui, je confirme."
+    },
+    {
+      "n": 40,
+      "locuteur": "client",
+      "debut": 253.48,
+      "fin": 253.74,
+      "texte": "Merci."
+    },
+    {
+      "n": 41,
+      "locuteur": "conseiller",
+      "debut": 254.28,
+      "fin": 286.84,
+      "texte": "Pour finaliser, je vous envoie un e -mail récapitulatif à signer électroniquement. Pouvez -vous me filtrer votre adresse e -mail ? Pardon, vous pouvez répéter ? Pouvez -vous me confirmer votre adresse e -mail ? Alors, philippe .durand .example .com C 'est [inaudible] mot signé, depuis l 'adresse ne pas répondre, AROBAZE CALIOTELICOMME .EXAMPLE. Je reste en ligne avec vous. L 'avez -vous bien reçu ? Attendez, je regarde... Oui, il y a un bouton signé."
+    },
+    {
+      "n": 42,
+      "locuteur": "client",
+      "debut": 287.38,
+      "fin": 288.02,
+      "texte": "C 'est bien ça."
+    },
+    {
+      "n": 43,
+      "locuteur": "conseiller",
+      "debut": 288.34,
+      "fin": 289.96,
+      "texte": "Vous y retrouvez tout ce que je viens de vous dire."
+    },
+    {
+      "n": 44,
+      "locuteur": "client",
+      "debut": 290.4,
+      "fin": 291.18,
+      "texte": "Si tout est correct,"
+    },
+    {
+      "n": 45,
+      "locuteur": "conseiller",
+      "debut": 291.52,
+      "fin": 302.68,
+      "texte": "cliquez sur signer. Vous allez recevoir le code par essai. [inaudible] 'est le même donnet. Et surtout, n 'oubliez pas, ni à moi, ni à personne. Un conseiller calieux ne vous le demandera jamais."
+    },
+    {
+      "n": 46,
+      "locuteur": "client",
+      "debut": 304.9,
+      "fin": 306.24,
+      "texte": "D 'accord... Voilà,"
+    },
+    {
+      "n": 47,
+      "locuteur": "conseiller",
+      "debut": 306.64,
+      "fin": 307.32,
+      "texte": "c 'est signé."
+    },
+    {
+      "n": 48,
+      "locuteur": "client",
+      "debut": 307.92,
+      "fin": 309.72,
+      "texte": "Parfait. Je vois la signature de mon côté."
+    },
+    {
+      "n": 49,
+      "locuteur": "conseiller",
+      "debut": 310.24,
+      "fin": 329.0,
+      "texte": "Votre souscription est confirme. Le pack Horizon sera disponible dans les deux heures, et vous recevrez un SMS dès que vous serez allé. Avez -vous des questions, M. Durand ? Non, c 'est très clair. Merci beaucoup pour votre confiance, et pour votre temps. Je souhaite à toute la famille de très bonnes soirées. Excellent fin de journée, M. Durand. Au revoir."
+    },
+    {
+      "n": 50,
+      "locuteur": "client",
+      "debut": 329.74,
+      "fin": 330.14,
+      "texte": "Merci."
+    },
+    {
+      "n": 51,
+      "locuteur": "conseiller",
+      "debut": 330.5,
+      "fin": 330.84,
+      "texte": "Au revoir."
+    }
+  ]
+}

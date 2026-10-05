@@ -1,0 +1,866 @@
+{
+ "appel": "04",
+ "mots_alignes_pct": 95.9,
+ "mots": [
+  {
+   "mot": "kalyo",
+   "replique": 1,
+   "debut": 0.46
+  },
+  {
+   "mot": "telecom",
+   "replique": 1,
+   "debut": 0.46
+  },
+  {
+   "mot": "bonjour",
+   "replique": 1,
+   "debut": 0.98
+  },
+  {
+   "mot": "bonjour",
+   "replique": 2,
+   "debut": 1.92
+  },
+  {
+   "mot": "votre",
+   "replique": 3,
+   "debut": 2.86
+  },
+  {
+   "mot": "numero",
+   "replique": 3,
+   "debut": 3.28
+  },
+  {
+   "mot": "de",
+   "replique": 3,
+   "debut": 3.52
+  },
+  {
+   "mot": "ligne",
+   "replique": 3,
+   "debut": 3.68
+  },
+  {
+   "mot": "§masque",
+   "replique": 4,
+   "debut": 5.78
+  },
+  {
+   "mot": "nom",
+   "replique": 5,
+   "debut": 7.88
+  },
+  {
+   "mot": "code",
+   "replique": 5,
+   "debut": 9.98
+  },
+  {
+   "mot": "postal",
+   "replique": 5,
+   "debut": 10.1
+  },
+  {
+   "mot": "date",
+   "replique": 5,
+   "debut": 10.8
+  },
+  {
+   "mot": "de",
+   "replique": 5,
+   "debut": 10.88
+  },
+  {
+   "mot": "naissance",
+   "replique": 5,
+   "debut": 11.04
+  },
+  {
+   "mot": "nathalie",
+   "replique": 6,
+   "debut": 12.1
+  },
+  {
+   "mot": "roux",
+   "replique": 6,
+   "debut": 12.42
+  },
+  {
+   "mot": "1",
+   "replique": 6,
+   "debut": 12.96
+  },
+  {
+   "mot": "3",
+   "replique": 6,
+   "debut": 12.96
+  },
+  {
+   "mot": "0",
+   "replique": 6,
+   "debut": 13.22
+  },
+  {
+   "mot": "0",
+   "replique": 6,
+   "debut": 13.22
+  },
+  {
+   "mot": "8",
+   "replique": 6,
+   "debut": 13.22
+  },
+  {
+   "mot": "le",
+   "replique": 6,
+   "debut": 13.98
+  },
+  {
+   "mot": "2",
+   "replique": 6,
+   "debut": 14.06
+  },
+  {
+   "mot": "1",
+   "replique": 6,
+   "debut": 14.06
+  },
+  {
+   "mot": "avril",
+   "replique": 6,
+   "debut": 14.32
+  },
+  {
+   "mot": "1",
+   "replique": 6,
+   "debut": 14.7
+  },
+  {
+   "mot": "9",
+   "replique": 6,
+   "debut": 14.7
+  },
+  {
+   "mot": "6",
+   "replique": 6,
+   "debut": 14.7
+  },
+  {
+   "mot": "8",
+   "replique": 6,
+   "debut": 14.7
+  },
+  {
+   "mot": "c",
+   "replique": 7,
+   "debut": 16.38
+  },
+  {
+   "mot": "est",
+   "replique": 7,
+   "debut": 16.6
+  },
+  {
+   "mot": "bon",
+   "replique": 7,
+   "debut": 16.62
+  },
+  {
+   "mot": "c",
+   "replique": 7,
+   "debut": 17.04
+  },
+  {
+   "mot": "est",
+   "replique": 7,
+   "debut": 17.12
+  },
+  {
+   "mot": "pour",
+   "replique": 7,
+   "debut": 17.41
+  },
+  {
+   "mot": "quoi",
+   "replique": 7,
+   "debut": 17.71
+  },
+  {
+   "mot": "ma",
+   "replique": 8,
+   "debut": 18.0
+  },
+  {
+   "mot": "television",
+   "replique": 8,
+   "debut": 18.16
+  },
+  {
+   "mot": "ne",
+   "replique": 8,
+   "debut": 18.68
+  },
+  {
+   "mot": "marche",
+   "replique": 8,
+   "debut": 18.82
+  },
+  {
+   "mot": "plus",
+   "replique": 8,
+   "debut": 18.98
+  },
+  {
+   "mot": "depuis",
+   "replique": 8,
+   "debut": 19.24
+  },
+  {
+   "mot": "ce",
+   "replique": 8,
+   "debut": 19.44
+  },
+  {
+   "mot": "matin",
+   "replique": 8,
+   "debut": 19.62
+  },
+  {
+   "mot": "il",
+   "replique": 8,
+   "debut": 20.22
+  },
+  {
+   "mot": "y",
+   "replique": 8,
+   "debut": 20.34
+  },
+  {
+   "mot": "a",
+   "replique": 8,
+   "debut": 20.46
+  },
+  {
+   "mot": "ecrit",
+   "replique": 8,
+   "debut": 20.46
+  },
+  {
+   "mot": "aucun",
+   "replique": 8,
+   "debut": 20.68
+  },
+  {
+   "mot": "signal",
+   "replique": 8,
+   "debut": 21.08
+  },
+  {
+   "mot": "sur",
+   "replique": 8,
+   "debut": 21.42
+  },
+  {
+   "mot": "l",
+   "replique": 8,
+   "debut": 21.72
+  },
+  {
+   "mot": "ecran",
+   "replique": 8,
+   "debut": 21.82
+  },
+  {
+   "mot": "j",
+   "replique": 8,
+   "debut": 22.54
+  },
+  {
+   "mot": "ai",
+   "replique": 8,
+   "debut": 22.76
+  },
+  {
+   "mot": "essaye",
+   "replique": 8,
+   "debut": 22.84
+  },
+  {
+   "mot": "d",
+   "replique": 8,
+   "debut": 23.18
+  },
+  {
+   "mot": "eteindre",
+   "replique": 8,
+   "debut": 23.34
+  },
+  {
+   "mot": "et",
+   "replique": 8,
+   "debut": 23.6
+  },
+  {
+   "mot": "de",
+   "replique": 8,
+   "debut": 23.76
+  },
+  {
+   "mot": "rallumer",
+   "replique": 8,
+   "debut": 23.86
+  },
+  {
+   "mot": "la",
+   "replique": 8,
+   "debut": 24.16
+  },
+  {
+   "mot": "tele",
+   "replique": 8,
+   "debut": 24.34
+  },
+  {
+   "mot": "mais",
+   "replique": 8,
+   "debut": 24.52
+  },
+  {
+   "mot": "ca",
+   "replique": 8,
+   "debut": 24.78
+  },
+  {
+   "mot": "ne",
+   "replique": 8,
+   "debut": 24.96
+  },
+  {
+   "mot": "change",
+   "replique": 8,
+   "debut": 25.08
+  },
+  {
+   "mot": "rien",
+   "replique": 8,
+   "debut": 25.2
+  },
+  {
+   "mot": "mon",
+   "replique": 8,
+   "debut": 25.94
+  },
+  {
+   "mot": "mari",
+   "replique": 8,
+   "debut": 26.06
+  },
+  {
+   "mot": "regarde",
+   "replique": 8,
+   "debut": 26.26
+  },
+  {
+   "mot": "le",
+   "replique": 8,
+   "debut": 26.54
+  },
+  {
+   "mot": "match",
+   "replique": 8,
+   "debut": 26.74
+  },
+  {
+   "mot": "ce",
+   "replique": 8,
+   "debut": 26.94
+  },
+  {
+   "mot": "soir",
+   "replique": 8,
+   "debut": 27.18
+  },
+  {
+   "mot": "alors",
+   "replique": 8,
+   "debut": 27.42
+  },
+  {
+   "mot": "ok",
+   "replique": 9,
+   "debut": 28.2
+  },
+  {
+   "mot": "c",
+   "replique": 9,
+   "debut": 29.0
+  },
+  {
+   "mot": "est",
+   "replique": 9,
+   "debut": 29.08
+  },
+  {
+   "mot": "surement",
+   "replique": 9,
+   "debut": 29.18
+  },
+  {
+   "mot": "votre",
+   "replique": 9,
+   "debut": 29.48
+  },
+  {
+   "mot": "decodeur",
+   "replique": 9,
+   "debut": 29.64
+  },
+  {
+   "mot": "qui",
+   "replique": 9,
+   "debut": 30.22
+  },
+  {
+   "mot": "a",
+   "replique": 9,
+   "debut": 30.34
+  },
+  {
+   "mot": "perdu",
+   "replique": 9,
+   "debut": 30.4
+  },
+  {
+   "mot": "la",
+   "replique": 9,
+   "debut": 30.56
+  },
+  {
+   "mot": "synchro",
+   "replique": 9,
+   "debut": 30.74
+  },
+  {
+   "mot": "avec",
+   "replique": 9,
+   "debut": 31.06
+  },
+  {
+   "mot": "la",
+   "replique": 9,
+   "debut": 31.24
+  },
+  {
+   "mot": "box",
+   "replique": 9,
+   "debut": 31.4
+  },
+  {
+   "mot": "faites",
+   "replique": 9,
+   "debut": 32.0
+  },
+  {
+   "mot": "un",
+   "replique": 9,
+   "debut": 32.28
+  },
+  {
+   "mot": "reset",
+   "replique": 9,
+   "debut": 32.38
+  },
+  {
+   "mot": "usine",
+   "replique": 9,
+   "debut": 32.6
+  },
+  {
+   "mot": "du",
+   "replique": 9,
+   "debut": 32.96
+  },
+  {
+   "mot": "decodeur",
+   "replique": 9,
+   "debut": 33.06
+  },
+  {
+   "mot": "ca",
+   "replique": 9,
+   "debut": 33.58
+  },
+  {
+   "mot": "devrait",
+   "replique": 9,
+   "debut": 33.66
+  },
+  {
+   "mot": "regler",
+   "replique": 9,
+   "debut": 33.86
+  },
+  {
+   "mot": "le",
+   "replique": 9,
+   "debut": 34.14
+  },
+  {
+   "mot": "probleme",
+   "replique": 9,
+   "debut": 34.24
+  },
+  {
+   "mot": "un",
+   "replique": 10,
+   "debut": 35.02
+  },
+  {
+   "mot": "reset",
+   "replique": 10,
+   "debut": 35.26
+  },
+  {
+   "mot": "usine",
+   "replique": 10,
+   "debut": 35.68
+  },
+  {
+   "mot": "je",
+   "replique": 10,
+   "debut": 36.62
+  },
+  {
+   "mot": "ne",
+   "replique": 10,
+   "debut": 36.8
+  },
+  {
+   "mot": "sais",
+   "replique": 10,
+   "debut": 36.92
+  },
+  {
+   "mot": "pas",
+   "replique": 10,
+   "debut": 37.04
+  },
+  {
+   "mot": "faire",
+   "replique": 10,
+   "debut": 37.16
+  },
+  {
+   "mot": "ca",
+   "replique": 10,
+   "debut": 37.36
+  },
+  {
+   "mot": "il",
+   "replique": 11,
+   "debut": 38.04
+  },
+  {
+   "mot": "y",
+   "replique": 11,
+   "debut": 38.22
+  },
+  {
+   "mot": "a",
+   "replique": 11,
+   "debut": 38.3
+  },
+  {
+   "mot": "un",
+   "replique": 11,
+   "debut": 38.34
+  },
+  {
+   "mot": "bouton",
+   "replique": 11,
+   "debut": 38.42
+  },
+  {
+   "mot": "derriere",
+   "replique": 11,
+   "debut": 38.7
+  },
+  {
+   "mot": "le",
+   "replique": 11,
+   "debut": 38.84
+  },
+  {
+   "mot": "decodeur",
+   "replique": 11,
+   "debut": 39.06
+  },
+  {
+   "mot": "vous",
+   "replique": 11,
+   "debut": 39.62
+  },
+  {
+   "mot": "appuyez",
+   "replique": 11,
+   "debut": 39.68
+  },
+  {
+   "mot": "dessus",
+   "replique": 11,
+   "debut": 40.0
+  },
+  {
+   "mot": "avec",
+   "replique": 11,
+   "debut": 40.2
+  },
+  {
+   "mot": "un",
+   "replique": 11,
+   "debut": 40.4
+  },
+  {
+   "mot": "trombone",
+   "replique": 11,
+   "debut": 40.56
+  },
+  {
+   "mot": "pendant",
+   "replique": 11,
+   "debut": 40.84
+  },
+  {
+   "mot": "dix",
+   "replique": 11,
+   "debut": 41.06
+  },
+  {
+   "mot": "secondes",
+   "replique": 11,
+   "debut": 41.28
+  },
+  {
+   "mot": "d",
+   "replique": 12,
+   "debut": 41.98
+  },
+  {
+   "mot": "accord",
+   "replique": 12,
+   "debut": 42.2
+  },
+  {
+   "mot": "normalement",
+   "replique": 13,
+   "debut": 43.16
+  },
+  {
+   "mot": "ca",
+   "replique": 13,
+   "debut": 43.6
+  },
+  {
+   "mot": "devrait",
+   "replique": 13,
+   "debut": 43.68
+  },
+  {
+   "mot": "marcher",
+   "replique": 13,
+   "debut": 43.86
+  },
+  {
+   "mot": "et",
+   "replique": 14,
+   "debut": 44.7
+  },
+  {
+   "mot": "si",
+   "replique": 14,
+   "debut": 44.86
+  },
+  {
+   "mot": "ca",
+   "replique": 14,
+   "debut": 45.06
+  },
+  {
+   "mot": "ne",
+   "replique": 14,
+   "debut": 45.22
+  },
+  {
+   "mot": "marche",
+   "replique": 14,
+   "debut": 45.28
+  },
+  {
+   "mot": "pas",
+   "replique": 14,
+   "debut": 45.48
+  },
+  {
+   "mot": "si",
+   "replique": 15,
+   "debut": 46.02
+  },
+  {
+   "mot": "ca",
+   "replique": 15,
+   "debut": 46.3
+  },
+  {
+   "mot": "ne",
+   "replique": 15,
+   "debut": 46.46
+  },
+  {
+   "mot": "marche",
+   "replique": 15,
+   "debut": 46.5
+  },
+  {
+   "mot": "pas",
+   "replique": 15,
+   "debut": 46.64
+  },
+  {
+   "mot": "vous",
+   "replique": 15,
+   "debut": 46.86
+  },
+  {
+   "mot": "rappelez",
+   "replique": 15,
+   "debut": 46.9
+  },
+  {
+   "mot": "le",
+   "replique": 15,
+   "debut": 47.22
+  },
+  {
+   "mot": "service",
+   "replique": 15,
+   "debut": 47.22
+  },
+  {
+   "mot": "client",
+   "replique": 15,
+   "debut": 47.4
+  },
+  {
+   "mot": "vous",
+   "replique": 16,
+   "debut": 48.04
+  },
+  {
+   "mot": "ne",
+   "replique": 16,
+   "debut": 48.36
+  },
+  {
+   "mot": "pouvez",
+   "replique": 16,
+   "debut": 48.48
+  },
+  {
+   "mot": "pas",
+   "replique": 16,
+   "debut": 48.66
+  },
+  {
+   "mot": "verifier",
+   "replique": 16,
+   "debut": 48.84
+  },
+  {
+   "mot": "de",
+   "replique": 16,
+   "debut": 49.24
+  },
+  {
+   "mot": "votre",
+   "replique": 16,
+   "debut": 49.38
+  },
+  {
+   "mot": "cote",
+   "replique": 16,
+   "debut": 49.54
+  },
+  {
+   "mot": "faites",
+   "replique": 17,
+   "debut": 50.32
+  },
+  {
+   "mot": "d",
+   "replique": 17,
+   "debut": 50.66
+  },
+  {
+   "mot": "abord",
+   "replique": 17,
+   "debut": 50.7
+  },
+  {
+   "mot": "le",
+   "replique": 17,
+   "debut": 50.82
+  },
+  {
+   "mot": "reset",
+   "replique": 17,
+   "debut": 50.94
+  },
+  {
+   "mot": "autre",
+   "replique": 17,
+   "debut": 51.46
+  },
+  {
+   "mot": "chose",
+   "replique": 17,
+   "debut": 51.62
+  },
+  {
+   "mot": "non",
+   "replique": 18,
+   "debut": 52.32
+  },
+  {
+   "mot": "bon",
+   "replique": 18,
+   "debut": 52.94
+  },
+  {
+   "mot": "je",
+   "replique": 18,
+   "debut": 53.2
+  },
+  {
+   "mot": "vais",
+   "replique": 18,
+   "debut": 53.3
+  },
+  {
+   "mot": "essayer",
+   "replique": 18,
+   "debut": 53.4
+  },
+  {
+   "mot": "au",
+   "replique": 19,
+   "debut": 54.16
+  },
+  {
+   "mot": "revoir",
+   "replique": 19,
+   "debut": 54.3
+  }
+ ]
+}

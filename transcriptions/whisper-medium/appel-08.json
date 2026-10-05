@@ -1,0 +1,135 @@
+{
+  "appel": "08",
+  "methode": "whisper-medium",
+  "date": "2026-10-05T04:04:04",
+  "duree_audio_s": 106.9,
+  "usage": null,
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "client",
+      "debut": 0.0,
+      "fin": 13.6,
+      "texte": "Allo ? Oui, bonjour. Madame Moro ? Oui, c 'est qui ? Leila Amrani, conseillère chez Caliotelecom, votre opérateur. Bonjour, c 'est moi qui m 'occupe de votre contrat Box Internet et je vous contacte pour faire un point rapide sur votre abonnement."
+    },
+    {
+      "n": 2,
+      "locuteur": "conseiller",
+      "debut": 14.04,
+      "fin": 17.78,
+      "texte": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité."
+    },
+    {
+      "n": 3,
+      "locuteur": "client",
+      "debut": 18.38,
+      "fin": 20.2,
+      "texte": "Avez -vous quelques instants ? Oui, rapidement."
+    },
+    {
+      "n": 4,
+      "locuteur": "conseiller",
+      "debut": 20.58,
+      "fin": 21.82,
+      "texte": "Merci, je serai prête."
+    },
+    {
+      "n": 5,
+      "locuteur": "client",
+      "debut": 22.26,
+      "fin": 32.08,
+      "texte": "Pour sécuriser notre échange, pouvez -vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ? Moro Isabelle, 35000, le 17 octobre 1970."
+    },
+    {
+      "n": 6,
+      "locuteur": "conseiller",
+      "debut": 32.64,
+      "fin": 37.06,
+      "texte": "Merci Madame Moro. Je vous appelle pour un avantage réservé à nos clients Box sur le mobile."
+    },
+    {
+      "n": 7,
+      "locuteur": "client",
+      "debut": 37.7,
+      "fin": 41.84,
+      "texte": "Vos téléphones portables sont -ils chez nous ou chez un autre opérateur ? Chez un autre opérateur."
+    },
+    {
+      "n": 8,
+      "locuteur": "conseiller",
+      "debut": 42.18,
+      "fin": 44.5,
+      "texte": "Deux lignes, à 11 ,99 € chacune."
+    },
+    {
+      "n": 9,
+      "locuteur": "client",
+      "debut": 44.8,
+      "fin": 48.6,
+      "texte": "D 'accord. Comme vous avez déjà une Box chez nous, vous avez droit à l 'avantage foyer."
+    },
+    {
+      "n": 10,
+      "locuteur": "conseiller",
+      "debut": 49.12,
+      "fin": 59.18,
+      "texte": "5 € de remise par mois sur chaque forfait mobile de 80 GB ou plus. Concrètement, notre forfait 80 GB passerait de 14 ,99 € à 9 ,99 € par mois. Je vois."
+    },
+    {
+      "n": 11,
+      "locuteur": "client",
+      "debut": 59.46,
+      "fin": 65.18,
+      "texte": "Pour vos deux lignes, vous payiez 19 ,98 € au lieu de 23 ,98 €. 4 € d 'économie par mois,"
+    },
+    {
+      "n": 12,
+      "locuteur": "conseiller",
+      "debut": 65.46,
+      "fin": 66.82,
+      "texte": "soit près de 50 € par an."
+    },
+    {
+      "n": 13,
+      "locuteur": "client",
+      "debut": 67.14,
+      "fin": 76.4,
+      "texte": "Et vous auriez une seule facture pour toute la maison, internet et mobile. Les forfaits sont sans engagement et vous gardez vos numéros. Non merci, je suis bien chez mon opérateur, je n 'ai pas envie de changer."
+    },
+    {
+      "n": 14,
+      "locuteur": "conseiller",
+      "debut": 76.68,
+      "fin": 77.66,
+      "texte": "Je comprends tout à fait,"
+    },
+    {
+      "n": 15,
+      "locuteur": "client",
+      "debut": 77.96,
+      "fin": 88.6,
+      "texte": "changer peut sembler compliqué. Puis -je vous demander ce qui vous retient le plus ? La démarche ou le fait d 'être satisfaite de votre opérateur actuel ? Je suis satisfaite. Et franchement, 4 € par mois, ça ne vaut pas le dérangement pour moi."
+    },
+    {
+      "n": 16,
+      "locuteur": "conseiller",
+      "debut": 88.88,
+      "fin": 95.44,
+      "texte": "C 'est tout à fait légitime, Madame Moreau, et je respecte votre choix. Je suis désolée de ne pas avoir trouvé une offre qui vous convienne vraiment aujourd 'hui."
+    },
+    {
+      "n": 17,
+      "locuteur": "client",
+      "debut": 95.72,
+      "fin": 102.12,
+      "texte": "Je note votre réponse pour que nous ne vous rappelions pas à ce sujet. Avez -vous des questions sur votre [inaudible] ou votre contrat ? Non, tout va bien, merci."
+    },
+    {
+      "n": 18,
+      "locuteur": "conseiller",
+      "debut": 102.42,
+      "fin": 106.74,
+      "texte": "Merci pour le temps que vous m 'avez accordé, Madame Moreau. Je vous souhaite une excellente journée. Au revoir, au revoir."
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "appel": "01",
+  "methode": "whisper-medium",
+  "date": "2026-10-05T00:26:10",
+  "duree_audio_s": 287.1,
+  "usage": null,
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "conseiller",
+      "debut": 1.62,
+      "fin": 14.08,
+      "texte": "[inaudible] je m 'appelle Yanis Ben Ali, je suis votre conseiller clientèle et je vais m 'occuper de votre demande aujourd 'hui. Avant de commencer, je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité."
+    },
+    {
+      "n": 2,
+      "locuteur": "client",
+      "debut": 14.86,
+      "fin": 18.26,
+      "texte": "Puis -je avoir votre nom et prénom, s 'il vous plaît ? Oui, Claire Lefebvre."
+    },
+    {
+      "n": 3,
+      "locuteur": "conseiller",
+      "debut": 19.04,
+      "fin": 32.54,
+      "texte": "Merci, Madame Lefebvre. Pour sécuriser votre dossier, pouvez -vous me donner votre numéro de ligne, votre code postale et votre date de naissance ? Pardon, vous pouvez répéter ? Pour sécuriser votre dossier, pouvez -vous me donner votre numéro de ligne,"
+    },
+    {
+      "n": 4,
+      "locuteur": "client",
+      "debut": 32.9,
+      "fin": 48.48,
+      "texte": "votre code postale et votre date de naissance ? [numéro masqué] Alors... Code postale 69023 et je suis née le 14 mars 1985."
+    },
+    {
+      "n": 5,
+      "locuteur": "conseiller",
+      "debut": 49.22,
+      "fin": 51.4,
+      "texte": "Parfait, merci. Je vous écoute."
+    },
+    {
+      "n": 6,
+      "locuteur": "client",
+      "debut": 51.82,
+      "fin": 77.74,
+      "texte": "Que se passait ? Depuis ce matin, Internet ne fonctionne plus du tout. Je télétravail et là, je ne peux rien faire. J 'ai une réunion dans une heure. C 'est vraiment pénible. Je comprends tout à fait. C 'est très gênant quand on travaille de chez soi. On va regarder ça ensemble. Pouvez -vous me dire de quelle couleur est le voyant de votre box ? Attendez, je regarde. Il est orange. Il ne clignote pas. D 'accord."
+    },
+    {
+      "n": 7,
+      "locuteur": "conseiller",
+      "debut": 78.26,
+      "fin": 81.52,
+      "texte": "Et avez -vous déjà essayé de redémarrer la box ?"
+    },
+    {
+      "n": 8,
+      "locuteur": "client",
+      "debut": 82.46,
+      "fin": 85.58,
+      "texte": "Oui, deux fois. Ça n 'a rien changé. D 'accord."
+    },
+    {
+      "n": 9,
+      "locuteur": "conseiller",
+      "debut": 86.14,
+      "fin": 93.0,
+      "texte": "Merci d 'avoir déjà essayé. Ça nous fait gagner du temps. Si je résume, Madame Lefebvre, depuis ce matin, vous n 'avez plus Internet,"
+    },
+    {
+      "n": 10,
+      "locuteur": "client",
+      "debut": 93.64,
+      "fin": 100.04,
+      "texte": "le voyant est orange fixe et le redémarrage n 'a rien donné. C 'est bien ça ? Oui, c 'est exactement ça."
+    },
+    {
+      "n": 11,
+      "locuteur": "conseiller",
+      "debut": 100.62,
+      "fin": 105.54,
+      "texte": "Merci. Un voyant orange fixe signifie que la box ne reçoit plus le signal de la fibre."
+    },
+    {
+      "n": 12,
+      "locuteur": "client",
+      "debut": 106.16,
+      "fin": 116.38,
+      "texte": "D 'accord. Le plus souvent, c 'est le câble fibre qui s 'est légèrement débranché. Pouvez -vous vérifier que le câble est bien enfoncé des deux côtés, dans la prise murale et dans la box,"
+    },
+    {
+      "n": 13,
+      "locuteur": "conseiller",
+      "debut": 116.88,
+      "fin": 119.5,
+      "texte": "jusqu 'à entendre un peu de clic ? Attendez."
+    },
+    {
+      "n": 14,
+      "locuteur": "client",
+      "debut": 122.0,
+      "fin": 129.14,
+      "texte": "Ah, côté box, il était un peu sorprendu. Voilà, j 'ai entendu le clic. Parfait. Un instant, s 'il vous plaît."
+    },
+    {
+      "n": 15,
+      "locuteur": "conseiller",
+      "debut": 131.42,
+      "fin": 141.68,
+      "texte": "Je vois de mon côté que votre box est de nouveau connecté. Le voyant est -il basé au blanc ? Oui, ça remarche. Merci beaucoup. Avec plaisir, Madame Lefebvre."
+    },
+    {
+      "n": 16,
+      "locuteur": "client",
+      "debut": 142.32,
+      "fin": 155.88,
+      "texte": "Alors, vous m 'avez dit que vous télé -travaillez. Votre Wi -Fi capte -t -il bien dans toutes les pièces de votre logement ? Pas vraiment. Dans mon bureau à l 'étage, ça coupe souvent. C 'est justement ce qui peut faire planter une vision en pleine réunion."
+    },
+    {
+      "n": 17,
+      "locuteur": "conseiller",
+      "debut": 156.5,
+      "fin": 161.48,
+      "texte": "Nous avons un récepteur Wi -Fi qui se branche simplement sur une prise, à mi -chemin entre la [inaudible] et votre bureau,"
+    },
+    {
+      "n": 18,
+      "locuteur": "client",
+      "debut": 161.9,
+      "fin": 169.22,
+      "texte": "et qui renforce le signal à l 'étage. Je vois. Il est à trois euros par mois, sans engagement, et vous le recevez sous trois à cinq jours."
+    },
+    {
+      "n": 19,
+      "locuteur": "conseiller",
+      "debut": 169.84,
+      "fin": 181.78,
+      "texte": "Pour le prix d 'un quartier par mois, vos réunions seront stables. Soyez -vous que je vous l 'envoie ? Non, pourquoi pas. Pour être sûr que ça vous convient, Madame Lefebvre, je vous ajoute le récepteur [inaudible] -Fi à trois euros par mois, sans engagement,"
+    },
+    {
+      "n": 20,
+      "locuteur": "client",
+      "debut": 182.26,
+      "fin": 185.58,
+      "texte": "livré sous trois à cinq jours. Vous confirmez ? Oui, je confirme."
+    },
+    {
+      "n": 21,
+      "locuteur": "conseiller",
+      "debut": 186.26,
+      "fin": 186.74,
+      "texte": "Parfait."
+    },
+    {
+      "n": 22,
+      "locuteur": "client",
+      "debut": 187.2,
+      "fin": 189.02,
+      "texte": "Je sécurise votre commande avec vous, Madame Lefebvre."
+    },
+    {
+      "n": 23,
+      "locuteur": "conseiller",
+      "debut": 189.66,
+      "fin": 190.8,
+      "texte": "Je confirme vos informations."
+    },
+    {
+      "n": 24,
+      "locuteur": "client",
+      "debut": 191.4,
+      "fin": 200.06,
+      "texte": "Claire Lefebvre [inaudible] [numéro masqué] Le récepteur sera livré à votre adresse de facturation,"
+    },
+    {
+      "n": 25,
+      "locuteur": "conseiller",
+      "debut": 200.44,
+      "fin": 203.32,
+      "texte": "le 12r des billes, 69 ,3 millions."
+    },
+    {
+      "n": 26,
+      "locuteur": "client",
+      "debut": 203.92,
+      "fin": 206.74,
+      "texte": "Est -ce bien la bonne adresse ? Oui, c 'est bien ça. Merci."
+    },
+    {
+      "n": 27,
+      "locuteur": "conseiller",
+      "debut": 207.32,
+      "fin": 231.26,
+      "texte": "Je récapitule votre commande. Un récepteur [inaudible] -Fi Calio, en location à trois euros par mois, sans engagement, ajoutez à votre prochaine facture. Vous le recevrez par colis sous trois à cinq jours. A la réception, il suffit de le brancher sur une prise, à mi -chemin entre la boxe et votre bureau, puis d 'appuyer sur le bouton de connexion de la boxe. La notice est dans le colis. Je vous envoie dès maintenant un e -mail récapitulatif de votre commande, assigné électroniquement."
+    },
+    {
+      "n": 28,
+      "locuteur": "client",
+      "debut": 231.84,
+      "fin": 245.6,
+      "texte": "Pouvez -vous me confirmer votre adresse d 'e -mail ? Alors c 'est clair .lefebvre .exemple .com Merci. C 'est envoyé depuis l 'adresse ne pas -répondre .caliotélécom .exemple."
+    },
+    {
+      "n": 29,
+      "locuteur": "conseiller",
+      "debut": 245.94,
+      "fin": 250.44,
+      "texte": "Pensez à regarder dans vos courriers indésirables. Vous allez recevoir un code par SMS pour signer."
+    },
+    {
+      "n": 30,
+      "locuteur": "client",
+      "debut": 250.78,
+      "fin": 255.82,
+      "texte": "Saisissez -le vous -même dans l 'e -mail et ne le communiquez à personne. Avez -vous tiré celui -là ?"
+    },
+    {
+      "n": 31,
+      "locuteur": "conseiller",
+      "debut": 257.4,
+      "fin": 257.86,
+      "texte": "Oui,"
+    },
+    {
+      "n": 32,
+      "locuteur": "client",
+      "debut": 258.16,
+      "fin": 258.64,
+      "texte": "je l 'ai."
+    },
+    {
+      "n": 33,
+      "locuteur": "conseiller",
+      "debut": 259.58,
+      "fin": 277.1,
+      "texte": "Voilà, fini. Parfait. Je vois la signature de mon connexion. Vous récapitulez notre échange. Votre connexion internet est rétablie. Le souci venait du câble -fibre légèrement débranché et votre répéteur Wi -Fi arrive sous 3 à 5 jours pour améliorer le signal dans votre bureau. Avez -vous d 'autres questions, Mme Lefebvre ? Non, c 'est parfait."
+    },
+    {
+      "n": 34,
+      "locuteur": "client",
+      "debut": 277.56,
+      "fin": 277.96,
+      "texte": "Merci."
+    },
+    {
+      "n": 35,
+      "locuteur": "conseiller",
+      "debut": 278.54,
+      "fin": 284.48,
+      "texte": "C 'est moi qui vous remercie pour votre confiance et votre passion. Je vous souhaite une excellente réunion et une très bonne journée, Mme Lefebvre."
+    },
+    {
+      "n": 36,
+      "locuteur": "client",
+      "debut": 284.92,
+      "fin": 285.2,
+      "texte": "Au revoir."
+    },
+    {
+      "n": 37,
+      "locuteur": "conseiller",
+      "debut": 285.86,
+      "fin": 286.2,
+      "texte": "Merci."
+    },
+    {
+      "n": 38,
+      "locuteur": "client",
+      "debut": 286.48,
+      "fin": 286.9,
+      "texte": "Au revoir."
+    }
+  ]
+}

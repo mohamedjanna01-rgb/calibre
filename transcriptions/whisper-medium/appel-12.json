@@ -1,0 +1,184 @@
+{
+  "appel": "12",
+  "methode": "whisper-medium",
+  "date": "2026-10-05T10:01:13",
+  "duree_audio_s": 202.6,
+  "usage": null,
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "client",
+      "debut": 0.98,
+      "fin": 2.34,
+      "texte": "Allô ? Bonjour,"
+    },
+    {
+      "n": 2,
+      "locuteur": "conseiller",
+      "debut": 2.68,
+      "fin": 7.1,
+      "texte": "Madame Chevalier ? Oui, c 'est qui ? Salma Idrissi,"
+    },
+    {
+      "n": 3,
+      "locuteur": "client",
+      "debut": 7.36,
+      "fin": 25.02,
+      "texte": "conseillère chez Caliotelecom, votre opérateur. C 'est moi qui m 'occupe de votre contrabox Internet et je vous contacte pour faire un point rapide sur votre abonnement. Bonjour Madame. Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité. Avez -vous quelques instants ? Oui,"
+    },
+    {
+      "n": 4,
+      "locuteur": "conseiller",
+      "debut": 25.44,
+      "fin": 26.18,
+      "texte": "je vous écoute."
+    },
+    {
+      "n": 5,
+      "locuteur": "client",
+      "debut": 27.26,
+      "fin": 27.64,
+      "texte": "Merci."
+    },
+    {
+      "n": 6,
+      "locuteur": "conseiller",
+      "debut": 28.92,
+      "fin": 32.84,
+      "texte": "Avant tout, tout fonctionne bien avec votre box et votre télévision ?"
+    },
+    {
+      "n": 7,
+      "locuteur": "client",
+      "debut": 33.48,
+      "fin": 43.84,
+      "texte": "Oui, tout va bien. Parfait. Pour sécuriser notre échange, pouvez -vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?"
+    },
+    {
+      "n": 8,
+      "locuteur": "conseiller",
+      "debut": 45.44,
+      "fin": 46.5,
+      "texte": "Chevalier Monique,"
+    },
+    {
+      "n": 9,
+      "locuteur": "client",
+      "debut": 47.06,
+      "fin": 47.8,
+      "texte": "37 000,"
+    },
+    {
+      "n": 10,
+      "locuteur": "conseiller",
+      "debut": 48.84,
+      "fin": 50.58,
+      "texte": "le 19 août 1962."
+    },
+    {
+      "n": 11,
+      "locuteur": "client",
+      "debut": 51.58,
+      "fin": 66.16,
+      "texte": "Merci Madame Chevalier. Qu 'aimez -vous regarder à la télévision ? [inaudible] émissions de cuisine et les documentaires sur les voyages. Mon mari et moi, on voyage beaucoup depuis la retraite. Quelle belle passion !"
+    },
+    {
+      "n": 12,
+      "locuteur": "conseiller",
+      "debut": 67.0,
+      "fin": 70.16,
+      "texte": "Vous arrive -t -il de rater des émissions pendant vos voyages ?"
+    },
+    {
+      "n": 13,
+      "locuteur": "client",
+      "debut": 72.2,
+      "fin": 72.84,
+      "texte": "Oui,"
+    },
+    {
+      "n": 14,
+      "locuteur": "conseiller",
+      "debut": 73.4,
+      "fin": 75.16,
+      "texte": "tout le temps !"
+    },
+    {
+      "n": 15,
+      "locuteur": "client",
+      "debut": 75.82,
+      "fin": 98.92,
+      "texte": "Alors, le pack Horizon devrait vous plaire. Vous auriez Horizon Cuisine, Horizon Voyages et Horizon Découverte. Le replay de 7 jours pour rattraper ce que vous avez manqué. Et l 'application Calio TV pour regarder sur votre tablette, même en vacances. Le premier mois est offert, puis c 'est 12 ,99 euros par mois, sans engagement."
+    },
+    {
+      "n": 16,
+      "locuteur": "conseiller",
+      "debut": 100.48,
+      "fin": 101.42,
+      "texte": "C 'est intéressant,"
+    },
+    {
+      "n": 17,
+      "locuteur": "client",
+      "debut": 102.1,
+      "fin": 110.6,
+      "texte": "mais 12 ,99 euros, avec notre retraite, c 'est un peu cher. Je comprends. Écoutez, pour vous, je peux faire un geste."
+    },
+    {
+      "n": 18,
+      "locuteur": "conseiller",
+      "debut": 111.14,
+      "fin": 114.7,
+      "texte": "Je vous bloque le prix à 6 ,99 euros par mois pendant un an."
+    },
+    {
+      "n": 19,
+      "locuteur": "client",
+      "debut": 115.42,
+      "fin": 116.58,
+      "texte": "Mais je dois vous prévenir,"
+    },
+    {
+      "n": 20,
+      "locuteur": "conseiller",
+      "debut": 116.92,
+      "fin": 122.1,
+      "texte": "cette remise n 'est valable qu 'aujourd 'hui. Ah, 6 ,99 euros, oui, là ça change tout."
+    },
+    {
+      "n": 21,
+      "locuteur": "client",
+      "debut": 122.7,
+      "fin": 144.92,
+      "texte": "Je vous fais le récapitulatif Madame Chevalier. Le [inaudible] Horizon, premier mois offert, puis 6 ,99 euros par mois pendant un an. Sans engagement, droit de rétractation de 14 jours. Activation en 2 heures maximum. Confirmez -vous souscrire au [inaudible] Horizon à ces conditions ? Oui, je confirme."
+    },
+    {
+      "n": 22,
+      "locuteur": "conseiller",
+      "debut": 145.42,
+      "fin": 145.84,
+      "texte": "Merci."
+    },
+    {
+      "n": 23,
+      "locuteur": "client",
+      "debut": 147.5,
+      "fin": 189.76,
+      "texte": "Je vous envoie l 'e -mail récapitulatif à signer électroniquement. Vous allez recevoir un code par SMS. Saisissez -le vous -même dans l 'e -mail et ne le communiquez à personne. Je l 'ai reçu. Mais, attendez, c 'est écrit 12 ,99 euros par mois ? Pas 6 ,99 euros ? Oui, ne vous inquiétez pas, c 'est normal. Le système affiche toujours le tarif standard. Votre remise sera appliquée automatiquement sur votre première facture. Vous pouvez signer sans crainte Madame Chevalier. Ah bon ? D 'accord. Si vous me dites. Voilà, c 'est signé. Parfait,"
+    },
+    {
+      "n": 24,
+      "locuteur": "conseiller",
+      "debut": 190.1,
+      "fin": 197.9,
+      "texte": "votre souscription est confirmée. Avez -vous d 'autres questions ? Non, merci beaucoup. Merci pour votre confiance."
+    },
+    {
+      "n": 25,
+      "locuteur": "client",
+      "debut": 199.06,
+      "fin": 202.3,
+      "texte": "Bon voyage à vous deux et très bonne journée. Au revoir."
+    }
+  ]
+}

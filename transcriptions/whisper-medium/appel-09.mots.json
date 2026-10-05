@@ -1,0 +1,2288 @@
+[
+ {
+  "texte": "Allo",
+  "debut": 0.0,
+  "fin": 0.6,
+  "proba": 0.595
+ },
+ {
+  "texte": "?",
+  "debut": 0.6,
+  "fin": 0.78,
+  "proba": 0.548
+ },
+ {
+  "texte": "Oui,",
+  "debut": 0.78,
+  "fin": 0.94,
+  "proba": 0.973
+ },
+ {
+  "texte": "bonjour.",
+  "debut": 1.0,
+  "fin": 1.44,
+  "proba": 0.965
+ },
+ {
+  "texte": "Bonjour,",
+  "debut": 1.66,
+  "fin": 1.82,
+  "proba": 0.778
+ },
+ {
+  "texte": "M.",
+  "debut": 1.9,
+  "fin": 2.0,
+  "proba": 0.215
+ },
+ {
+  "texte": "Lambert",
+  "debut": 2.04,
+  "fin": 2.32,
+  "proba": 0.991
+ },
+ {
+  "texte": "?",
+  "debut": 2.32,
+  "fin": 2.76,
+  "proba": 0.708
+ },
+ {
+  "texte": "Oui,",
+  "debut": 2.76,
+  "fin": 2.98,
+  "proba": 0.944
+ },
+ {
+  "texte": "bonjour.",
+  "debut": 3.02,
+  "fin": 3.72,
+  "proba": 0.996
+ },
+ {
+  "texte": "C",
+  "debut": 3.82,
+  "fin": 3.98,
+  "proba": 0.976
+ },
+ {
+  "texte": "'est",
+  "debut": 3.98,
+  "fin": 4.06,
+  "proba": 0.999
+ },
+ {
+  "texte": "qui",
+  "debut": 4.06,
+  "fin": 4.2,
+  "proba": 0.999
+ },
+ {
+  "texte": "?",
+  "debut": 4.2,
+  "fin": 4.68,
+  "proba": 0.995
+ },
+ {
+  "texte": "Nabil",
+  "debut": 4.68,
+  "fin": 4.98,
+  "proba": 0.868
+ },
+ {
+  "texte": "Shraibi,",
+  "debut": 4.98,
+  "fin": 5.42,
+  "proba": 0.689
+ },
+ {
+  "texte": "conseiller",
+  "debut": 5.7,
+  "fin": 5.92,
+  "proba": 0.871
+ },
+ {
+  "texte": "chez",
+  "debut": 5.92,
+  "fin": 6.08,
+  "proba": 0.99
+ },
+ {
+  "texte": "Caliotelecom,",
+  "debut": 6.08,
+  "fin": 6.78,
+  "proba": 0.718
+ },
+ {
+  "texte": "votre",
+  "debut": 7.14,
+  "fin": 7.32,
+  "proba": 0.984
+ },
+ {
+  "texte": "opérateur.",
+  "debut": 7.32,
+  "fin": 7.68,
+  "proba": 0.88
+ },
+ {
+  "texte": "C",
+  "debut": 8.24,
+  "fin": 8.36,
+  "proba": 0.977
+ },
+ {
+  "texte": "'est",
+  "debut": 8.36,
+  "fin": 8.4,
+  "proba": 0.999
+ },
+ {
+  "texte": "moi",
+  "debut": 8.4,
+  "fin": 8.48,
+  "proba": 0.998
+ },
+ {
+  "texte": "qui",
+  "debut": 8.48,
+  "fin": 8.6,
+  "proba": 0.995
+ },
+ {
+  "texte": "m",
+  "debut": 8.6,
+  "fin": 8.68,
+  "proba": 0.998
+ },
+ {
+  "texte": "'occupe",
+  "debut": 8.68,
+  "fin": 8.84,
+  "proba": 0.999
+ },
+ {
+  "texte": "de",
+  "debut": 8.84,
+  "fin": 9.0,
+  "proba": 0.998
+ },
+ {
+  "texte": "votre",
+  "debut": 9.0,
+  "fin": 9.18,
+  "proba": 0.995
+ },
+ {
+  "texte": "contrat",
+  "debut": 9.18,
+  "fin": 9.46,
+  "proba": 0.92
+ },
+ {
+  "texte": "Box",
+  "debut": 9.46,
+  "fin": 9.64,
+  "proba": 0.498
+ },
+ {
+  "texte": "Internet,",
+  "debut": 9.64,
+  "fin": 10.08,
+  "proba": 0.742
+ },
+ {
+  "texte": "et",
+  "debut": 10.44,
+  "fin": 10.54,
+  "proba": 0.98
+ },
+ {
+  "texte": "je",
+  "debut": 10.54,
+  "fin": 10.68,
+  "proba": 0.997
+ },
+ {
+  "texte": "vous",
+  "debut": 10.68,
+  "fin": 10.82,
+  "proba": 0.997
+ },
+ {
+  "texte": "contacte",
+  "debut": 10.82,
+  "fin": 11.16,
+  "proba": 0.983
+ },
+ {
+  "texte": "pour",
+  "debut": 11.16,
+  "fin": 11.32,
+  "proba": 0.996
+ },
+ {
+  "texte": "faire",
+  "debut": 11.32,
+  "fin": 11.46,
+  "proba": 0.996
+ },
+ {
+  "texte": "un",
+  "debut": 11.46,
+  "fin": 11.64,
+  "proba": 0.997
+ },
+ {
+  "texte": "point",
+  "debut": 11.64,
+  "fin": 11.72,
+  "proba": 0.996
+ },
+ {
+  "texte": "rapide",
+  "debut": 11.72,
+  "fin": 11.98,
+  "proba": 0.997
+ },
+ {
+  "texte": "sur",
+  "debut": 11.98,
+  "fin": 12.16,
+  "proba": 0.996
+ },
+ {
+  "texte": "votre",
+  "debut": 12.16,
+  "fin": 12.32,
+  "proba": 0.998
+ },
+ {
+  "texte": "abonnement.",
+  "debut": 12.32,
+  "fin": 12.72,
+  "proba": 0.997
+ },
+ {
+  "texte": "Je",
+  "debut": 13.28,
+  "fin": 13.42,
+  "proba": 0.994
+ },
+ {
+  "texte": "vous",
+  "debut": 13.42,
+  "fin": 13.6,
+  "proba": 0.999
+ },
+ {
+  "texte": "informe",
+  "debut": 13.6,
+  "fin": 13.86,
+  "proba": 0.992
+ },
+ {
+  "texte": "que",
+  "debut": 13.86,
+  "fin": 14.0,
+  "proba": 0.999
+ },
+ {
+  "texte": "notre",
+  "debut": 14.0,
+  "fin": 14.18,
+  "proba": 0.994
+ },
+ {
+  "texte": "échange",
+  "debut": 14.18,
+  "fin": 14.42,
+  "proba": 0.994
+ },
+ {
+  "texte": "est",
+  "debut": 14.42,
+  "fin": 14.6,
+  "proba": 0.998
+ },
+ {
+  "texte": "susceptible",
+  "debut": 14.6,
+  "fin": 14.96,
+  "proba": 0.997
+ },
+ {
+  "texte": "d",
+  "debut": 14.96,
+  "fin": 15.12,
+  "proba": 0.996
+ },
+ {
+  "texte": "'être",
+  "debut": 15.12,
+  "fin": 15.28,
+  "proba": 0.999
+ },
+ {
+  "texte": "enregistré",
+  "debut": 15.28,
+  "fin": 15.72,
+  "proba": 0.992
+ },
+ {
+  "texte": "pour",
+  "debut": 15.72,
+  "fin": 15.9,
+  "proba": 0.95
+ },
+ {
+  "texte": "des",
+  "debut": 15.9,
+  "fin": 16.06,
+  "proba": 0.998
+ },
+ {
+  "texte": "raisons",
+  "debut": 16.06,
+  "fin": 16.24,
+  "proba": 0.999
+ },
+ {
+  "texte": "de",
+  "debut": 16.24,
+  "fin": 16.38,
+  "proba": 0.999
+ },
+ {
+  "texte": "qualité.",
+  "debut": 16.38,
+  "fin": 16.66,
+  "proba": 0.994
+ },
+ {
+  "texte": "Avez",
+  "debut": 17.3,
+  "fin": 17.5,
+  "proba": 0.957
+ },
+ {
+  "texte": "-vous",
+  "debut": 17.5,
+  "fin": 17.56,
+  "proba": 0.976
+ },
+ {
+  "texte": "quelques",
+  "debut": 17.56,
+  "fin": 17.82,
+  "proba": 0.996
+ },
+ {
+  "texte": "instants",
+  "debut": 17.82,
+  "fin": 18.08,
+  "proba": 0.997
+ },
+ {
+  "texte": "?",
+  "debut": 18.08,
+  "fin": 18.46,
+  "proba": 0.996
+ },
+ {
+  "texte": "Oui,",
+  "debut": 18.46,
+  "fin": 18.68,
+  "proba": 0.984
+ },
+ {
+  "texte": "je",
+  "debut": 18.72,
+  "fin": 18.84,
+  "proba": 0.997
+ },
+ {
+  "texte": "vous",
+  "debut": 18.84,
+  "fin": 19.02,
+  "proba": 0.999
+ },
+ {
+  "texte": "écoute.",
+  "debut": 19.02,
+  "fin": 19.3,
+  "proba": 0.998
+ },
+ {
+  "texte": "Merci.",
+  "debut": 19.7,
+  "fin": 19.98,
+  "proba": 0.986
+ },
+ {
+  "texte": "Avant",
+  "debut": 20.56,
+  "fin": 20.76,
+  "proba": 0.991
+ },
+ {
+  "texte": "tout,",
+  "debut": 20.76,
+  "fin": 20.98,
+  "proba": 0.998
+ },
+ {
+  "texte": "tout",
+  "debut": 21.04,
+  "fin": 21.16,
+  "proba": 0.996
+ },
+ {
+  "texte": "fonctionne",
+  "debut": 21.16,
+  "fin": 21.48,
+  "proba": 0.997
+ },
+ {
+  "texte": "bien",
+  "debut": 21.48,
+  "fin": 21.68,
+  "proba": 0.999
+ },
+ {
+  "texte": "avec",
+  "debut": 21.68,
+  "fin": 21.86,
+  "proba": 0.957
+ },
+ {
+  "texte": "votre",
+  "debut": 21.86,
+  "fin": 22.08,
+  "proba": 0.955
+ },
+ {
+  "texte": "box",
+  "debut": 22.08,
+  "fin": 22.24,
+  "proba": 0.376
+ },
+ {
+  "texte": "et",
+  "debut": 22.24,
+  "fin": 22.34,
+  "proba": 0.977
+ },
+ {
+  "texte": "votre",
+  "debut": 22.34,
+  "fin": 22.58,
+  "proba": 0.994
+ },
+ {
+  "texte": "télévision.",
+  "debut": 22.58,
+  "fin": 22.98,
+  "proba": 0.993
+ },
+ {
+  "texte": "Oui,",
+  "debut": 23.4,
+  "fin": 23.6,
+  "proba": 0.989
+ },
+ {
+  "texte": "très",
+  "debut": 23.66,
+  "fin": 23.82,
+  "proba": 0.997
+ },
+ {
+  "texte": "bien.",
+  "debut": 23.82,
+  "fin": 24.1,
+  "proba": 0.999
+ },
+ {
+  "texte": "Tant",
+  "debut": 24.4,
+  "fin": 24.56,
+  "proba": 0.654
+ },
+ {
+  "texte": "mieux.",
+  "debut": 24.56,
+  "fin": 24.74,
+  "proba": 1.0
+ },
+ {
+  "texte": "Pour",
+  "debut": 25.28,
+  "fin": 25.46,
+  "proba": 0.998
+ },
+ {
+  "texte": "sécuriser",
+  "debut": 25.46,
+  "fin": 25.9,
+  "proba": 0.996
+ },
+ {
+  "texte": "notre",
+  "debut": 25.9,
+  "fin": 26.1,
+  "proba": 0.986
+ },
+ {
+  "texte": "échange,",
+  "debut": 26.1,
+  "fin": 26.44,
+  "proba": 0.998
+ },
+ {
+  "texte": "pouvez",
+  "debut": 26.64,
+  "fin": 26.76,
+  "proba": 0.995
+ },
+ {
+  "texte": "-vous",
+  "debut": 26.76,
+  "fin": 26.88,
+  "proba": 0.992
+ },
+ {
+  "texte": "me",
+  "debut": 26.88,
+  "fin": 27.1,
+  "proba": 0.992
+ },
+ {
+  "texte": "confirmer",
+  "debut": 27.1,
+  "fin": 27.38,
+  "proba": 0.985
+ },
+ {
+  "texte": "votre",
+  "debut": 27.38,
+  "fin": 27.62,
+  "proba": 0.996
+ },
+ {
+  "texte": "nom",
+  "debut": 27.62,
+  "fin": 27.78,
+  "proba": 0.995
+ },
+ {
+  "texte": "et",
+  "debut": 27.78,
+  "fin": 27.94,
+  "proba": 0.992
+ },
+ {
+  "texte": "prénom,",
+  "debut": 27.94,
+  "fin": 28.16,
+  "proba": 0.987
+ },
+ {
+  "texte": "votre",
+  "debut": 28.16,
+  "fin": 28.64,
+  "proba": 0.075
+ },
+ {
+  "texte": "code",
+  "debut": 28.64,
+  "fin": 28.8,
+  "proba": 0.629
+ },
+ {
+  "texte": "postal",
+  "debut": 28.8,
+  "fin": 29.12,
+  "proba": 0.946
+ },
+ {
+  "texte": "et",
+  "debut": 29.12,
+  "fin": 29.32,
+  "proba": 0.728
+ },
+ {
+  "texte": "votre",
+  "debut": 29.32,
+  "fin": 29.56,
+  "proba": 0.992
+ },
+ {
+  "texte": "date",
+  "debut": 29.56,
+  "fin": 29.64,
+  "proba": 0.967
+ },
+ {
+  "texte": "de",
+  "debut": 29.64,
+  "fin": 29.86,
+  "proba": 0.968
+ },
+ {
+  "texte": "descence",
+  "debut": 29.86,
+  "fin": 30.36,
+  "proba": 0.518
+ },
+ {
+  "texte": "?",
+  "debut": 30.36,
+  "fin": 30.6,
+  "proba": 0.223
+ },
+ {
+  "texte": "Parlons,",
+  "debut": 30.6,
+  "fin": 30.98,
+  "proba": 0.542
+ },
+ {
+  "texte": "vous",
+  "debut": 31.08,
+  "fin": 31.2,
+  "proba": 0.979
+ },
+ {
+  "texte": "pouvez",
+  "debut": 31.2,
+  "fin": 31.42,
+  "proba": 0.996
+ },
+ {
+  "texte": "répéter",
+  "debut": 31.42,
+  "fin": 31.74,
+  "proba": 0.991
+ },
+ {
+  "texte": "?",
+  "debut": 31.74,
+  "fin": 32.24,
+  "proba": 0.871
+ },
+ {
+  "texte": "Pouvez",
+  "debut": 32.24,
+  "fin": 32.54,
+  "proba": 0.885
+ },
+ {
+  "texte": "-vous",
+  "debut": 32.54,
+  "fin": 32.62,
+  "proba": 0.972
+ },
+ {
+  "texte": "me",
+  "debut": 32.62,
+  "fin": 32.86,
+  "proba": 0.98
+ },
+ {
+  "texte": "confirmer",
+  "debut": 32.86,
+  "fin": 33.16,
+  "proba": 0.995
+ },
+ {
+  "texte": "votre",
+  "debut": 33.16,
+  "fin": 33.4,
+  "proba": 0.992
+ },
+ {
+  "texte": "nom",
+  "debut": 33.4,
+  "fin": 33.6,
+  "proba": 0.993
+ },
+ {
+  "texte": "et",
+  "debut": 33.6,
+  "fin": 33.76,
+  "proba": 0.994
+ },
+ {
+  "texte": "prénom,",
+  "debut": 33.76,
+  "fin": 34.06,
+  "proba": 0.985
+ },
+ {
+  "texte": "votre",
+  "debut": 34.36,
+  "fin": 34.52,
+  "proba": 0.996
+ },
+ {
+  "texte": "code",
+  "debut": 34.52,
+  "fin": 34.66,
+  "proba": 0.994
+ },
+ {
+  "texte": "postal",
+  "debut": 34.66,
+  "fin": 35.0,
+  "proba": 0.998
+ },
+ {
+  "texte": "et",
+  "debut": 35.0,
+  "fin": 35.16,
+  "proba": 0.95
+ },
+ {
+  "texte": "votre",
+  "debut": 35.16,
+  "fin": 35.4,
+  "proba": 0.997
+ },
+ {
+  "texte": "date",
+  "debut": 35.4,
+  "fin": 35.5,
+  "proba": 0.999
+ },
+ {
+  "texte": "de",
+  "debut": 35.5,
+  "fin": 35.74,
+  "proba": 0.997
+ },
+ {
+  "texte": "descence",
+  "debut": 35.74,
+  "fin": 36.18,
+  "proba": 0.972
+ },
+ {
+  "texte": "?",
+  "debut": 36.18,
+  "fin": 36.54,
+  "proba": 0.988
+ },
+ {
+  "texte": "Lambert",
+  "debut": 36.54,
+  "fin": 36.88,
+  "proba": 0.497
+ },
+ {
+  "texte": "Gérard,",
+  "debut": 36.88,
+  "fin": 37.48,
+  "proba": 0.767
+ },
+ {
+  "texte": "21",
+  "debut": 37.78,
+  "fin": 38.1,
+  "proba": 0.992
+ },
+ {
+  "texte": "000,",
+  "debut": 38.1,
+  "fin": 38.52,
+  "proba": 0.519
+ },
+ {
+  "texte": "le",
+  "debut": 38.84,
+  "fin": 39.08,
+  "proba": 0.97
+ },
+ {
+  "texte": "12",
+  "debut": 39.08,
+  "fin": 39.26,
+  "proba": 0.998
+ },
+ {
+  "texte": "janvier",
+  "debut": 39.26,
+  "fin": 39.64,
+  "proba": 0.961
+ },
+ {
+  "texte": "1958.",
+  "debut": 39.64,
+  "fin": 40.6,
+  "proba": 0.989
+ },
+ {
+  "texte": "Merci,",
+  "debut": 41.02,
+  "fin": 41.2,
+  "proba": 0.985
+ },
+ {
+  "texte": "M.",
+  "debut": 41.2,
+  "fin": 41.4,
+  "proba": 0.116
+ },
+ {
+  "texte": "Lambert.",
+  "debut": 41.4,
+  "fin": 41.72,
+  "proba": 0.983
+ },
+ {
+  "texte": "Je",
+  "debut": 42.1,
+  "fin": 42.28,
+  "proba": 0.99
+ },
+ {
+  "texte": "vous",
+  "debut": 42.28,
+  "fin": 42.46,
+  "proba": 1.0
+ },
+ {
+  "texte": "appelle",
+  "debut": 42.46,
+  "fin": 42.6,
+  "proba": 0.98
+ },
+ {
+  "texte": "pour",
+  "debut": 42.6,
+  "fin": 42.78,
+  "proba": 0.997
+ },
+ {
+  "texte": "vous",
+  "debut": 42.78,
+  "fin": 43.02,
+  "proba": 0.989
+ },
+ {
+  "texte": "présenter",
+  "debut": 43.02,
+  "fin": 43.26,
+  "proba": 0.998
+ },
+ {
+  "texte": "nos",
+  "debut": 43.26,
+  "fin": 43.42,
+  "proba": 0.993
+ },
+ {
+  "texte": "offres",
+  "debut": 43.42,
+  "fin": 43.62,
+  "proba": 0.996
+ },
+ {
+  "texte": "du",
+  "debut": 43.62,
+  "fin": 43.8,
+  "proba": 0.993
+ },
+ {
+  "texte": "moment.",
+  "debut": 43.8,
+  "fin": 44.02,
+  "proba": 0.996
+ },
+ {
+  "texte": "Nous",
+  "debut": 44.46,
+  "fin": 44.58,
+  "proba": 0.994
+ },
+ {
+  "texte": "avons",
+  "debut": 44.58,
+  "fin": 44.74,
+  "proba": 0.999
+ },
+ {
+  "texte": "le",
+  "debut": 44.74,
+  "fin": 44.96,
+  "proba": 0.996
+ },
+ {
+  "texte": "pack",
+  "debut": 44.96,
+  "fin": 45.06,
+  "proba": 0.808
+ },
+ {
+  "texte": "Horizon",
+  "debut": 45.06,
+  "fin": 45.4,
+  "proba": 0.938
+ },
+ {
+  "texte": "à",
+  "debut": 45.4,
+  "fin": 45.58,
+  "proba": 0.972
+ },
+ {
+  "texte": "12",
+  "debut": 45.58,
+  "fin": 45.78,
+  "proba": 0.978
+ },
+ {
+  "texte": ",99",
+  "debut": 45.78,
+  "fin": 46.46,
+  "proba": 0.957
+ },
+ {
+  "texte": "euros",
+  "debut": 46.46,
+  "fin": 46.56,
+  "proba": 0.359
+ },
+ {
+  "texte": "par",
+  "debut": 46.56,
+  "fin": 46.72,
+  "proba": 0.991
+ },
+ {
+  "texte": "mois,",
+  "debut": 46.72,
+  "fin": 46.9,
+  "proba": 0.996
+ },
+ {
+  "texte": "avec",
+  "debut": 47.36,
+  "fin": 47.42,
+  "proba": 0.996
+ },
+ {
+  "texte": "le",
+  "debut": 47.42,
+  "fin": 47.6,
+  "proba": 0.99
+ },
+ {
+  "texte": "premier",
+  "debut": 47.6,
+  "fin": 47.76,
+  "proba": 0.939
+ },
+ {
+  "texte": "mois",
+  "debut": 47.76,
+  "fin": 47.88,
+  "proba": 0.973
+ },
+ {
+  "texte": "offert,",
+  "debut": 47.88,
+  "fin": 48.64,
+  "proba": 0.983
+ },
+ {
+  "texte": "35",
+  "debut": 48.74,
+  "fin": 49.02,
+  "proba": 0.993
+ },
+ {
+  "texte": "chaînes,",
+  "debut": 49.02,
+  "fin": 49.36,
+  "proba": 0.949
+ },
+ {
+  "texte": "2000",
+  "debut": 49.72,
+  "fin": 49.9,
+  "proba": 0.531
+ },
+ {
+  "texte": "films",
+  "debut": 49.9,
+  "fin": 50.18,
+  "proba": 0.989
+ },
+ {
+  "texte": "et",
+  "debut": 50.18,
+  "fin": 50.3,
+  "proba": 0.993
+ },
+ {
+  "texte": "séries",
+  "debut": 50.3,
+  "fin": 50.5,
+  "proba": 0.982
+ },
+ {
+  "texte": "à",
+  "debut": 50.5,
+  "fin": 50.64,
+  "proba": 0.991
+ },
+ {
+  "texte": "la",
+  "debut": 50.64,
+  "fin": 50.8,
+  "proba": 0.998
+ },
+ {
+  "texte": "demande",
+  "debut": 50.8,
+  "fin": 50.98,
+  "proba": 0.999
+ },
+ {
+  "texte": "et",
+  "debut": 50.98,
+  "fin": 51.34,
+  "proba": 0.6
+ },
+ {
+  "texte": "un",
+  "debut": 51.34,
+  "fin": 51.52,
+  "proba": 0.984
+ },
+ {
+  "texte": "replay",
+  "debut": 51.52,
+  "fin": 51.72,
+  "proba": 0.973
+ },
+ {
+  "texte": "de",
+  "debut": 51.72,
+  "fin": 51.94,
+  "proba": 0.995
+ },
+ {
+  "texte": "7",
+  "debut": 51.94,
+  "fin": 52.02,
+  "proba": 0.856
+ },
+ {
+  "texte": "jours.",
+  "debut": 52.02,
+  "fin": 52.32,
+  "proba": 0.999
+ },
+ {
+  "texte": "Il",
+  "debut": 52.76,
+  "fin": 52.92,
+  "proba": 0.994
+ },
+ {
+  "texte": "y",
+  "debut": 52.92,
+  "fin": 53.02,
+  "proba": 0.997
+ },
+ {
+  "texte": "a",
+  "debut": 53.02,
+  "fin": 53.04,
+  "proba": 0.99
+ },
+ {
+  "texte": "aussi",
+  "debut": 53.04,
+  "fin": 53.24,
+  "proba": 0.996
+ },
+ {
+  "texte": "l",
+  "debut": 53.24,
+  "fin": 53.28,
+  "proba": 0.996
+ },
+ {
+  "texte": "'option",
+  "debut": 53.28,
+  "fin": 53.54,
+  "proba": 0.998
+ },
+ {
+  "texte": "Horizon",
+  "debut": 53.54,
+  "fin": 53.9,
+  "proba": 0.956
+ },
+ {
+  "texte": "Sport",
+  "debut": 53.9,
+  "fin": 54.14,
+  "proba": 0.844
+ },
+ {
+  "texte": "à",
+  "debut": 54.14,
+  "fin": 54.28,
+  "proba": 0.921
+ },
+ {
+  "texte": "6",
+  "debut": 54.28,
+  "fin": 54.48,
+  "proba": 0.991
+ },
+ {
+  "texte": "euros",
+  "debut": 54.48,
+  "fin": 54.64,
+  "proba": 0.973
+ },
+ {
+  "texte": "par",
+  "debut": 54.64,
+  "fin": 54.8,
+  "proba": 0.993
+ },
+ {
+  "texte": "mois",
+  "debut": 54.8,
+  "fin": 54.88,
+  "proba": 0.999
+ },
+ {
+  "texte": "en",
+  "debut": 54.88,
+  "fin": 55.06,
+  "proba": 0.883
+ },
+ {
+  "texte": "plus.",
+  "debut": 55.06,
+  "fin": 55.28,
+  "proba": 0.999
+ },
+ {
+  "texte": "Vous",
+  "debut": 55.28,
+  "fin": 55.8,
+  "proba": 0.247
+ },
+ {
+  "texte": "pouvez",
+  "debut": 55.8,
+  "fin": 56.04,
+  "proba": 0.976
+ },
+ {
+  "texte": "aussi",
+  "debut": 56.04,
+  "fin": 56.3,
+  "proba": 0.984
+ },
+ {
+  "texte": "passer",
+  "debut": 56.3,
+  "fin": 56.5,
+  "proba": 0.985
+ },
+ {
+  "texte": "à",
+  "debut": 56.5,
+  "fin": 56.62,
+  "proba": 0.994
+ },
+ {
+  "texte": "la",
+  "debut": 56.62,
+  "fin": 56.74,
+  "proba": 0.975
+ },
+ {
+  "texte": "box",
+  "debut": 56.74,
+  "fin": 56.88,
+  "proba": 0.847
+ },
+ {
+  "texte": "Ultra",
+  "debut": 56.88,
+  "fin": 57.38,
+  "proba": 0.138
+ },
+ {
+  "texte": "à",
+  "debut": 57.38,
+  "fin": 57.72,
+  "proba": 0.592
+ },
+ {
+  "texte": "49",
+  "debut": 57.72,
+  "fin": 58.12,
+  "proba": 0.983
+ },
+ {
+  "texte": ",99",
+  "debut": 58.12,
+  "fin": 58.84,
+  "proba": 0.902
+ },
+ {
+  "texte": "euros",
+  "debut": 58.84,
+  "fin": 58.92,
+  "proba": 0.368
+ },
+ {
+  "texte": "par",
+  "debut": 58.92,
+  "fin": 59.08,
+  "proba": 0.984
+ },
+ {
+  "texte": "mois,",
+  "debut": 59.08,
+  "fin": 59.26,
+  "proba": 0.997
+ },
+ {
+  "texte": "avec",
+  "debut": 59.7,
+  "fin": 59.72,
+  "proba": 0.981
+ },
+ {
+  "texte": "un",
+  "debut": 59.72,
+  "fin": 59.9,
+  "proba": 0.995
+ },
+ {
+  "texte": "débit",
+  "debut": 59.9,
+  "fin": 60.08,
+  "proba": 0.998
+ },
+ {
+  "texte": "jusqu",
+  "debut": 60.08,
+  "fin": 60.32,
+  "proba": 0.992
+ },
+ {
+  "texte": "'à",
+  "debut": 60.32,
+  "fin": 60.4,
+  "proba": 0.998
+ },
+ {
+  "texte": "8",
+  "debut": 60.4,
+  "fin": 60.6,
+  "proba": 0.974
+ },
+ {
+  "texte": "gigabits",
+  "debut": 60.6,
+  "fin": 60.86,
+  "proba": 0.605
+ },
+ {
+  "texte": "par",
+  "debut": 60.86,
+  "fin": 61.06,
+  "proba": 0.938
+ },
+ {
+  "texte": "seconde",
+  "debut": 61.06,
+  "fin": 61.32,
+  "proba": 0.982
+ },
+ {
+  "texte": "et",
+  "debut": 61.32,
+  "fin": 61.5,
+  "proba": 0.695
+ },
+ {
+  "texte": "le",
+  "debut": 61.5,
+  "fin": 61.66,
+  "proba": 0.994
+ },
+ {
+  "texte": "pack",
+  "debut": 61.66,
+  "fin": 61.76,
+  "proba": 0.935
+ },
+ {
+  "texte": "Horizon",
+  "debut": 61.76,
+  "fin": 62.02,
+  "proba": 0.918
+ },
+ {
+  "texte": "inclus.",
+  "debut": 62.02,
+  "fin": 62.34,
+  "proba": 0.931
+ },
+ {
+  "texte": "Nous",
+  "debut": 62.98,
+  "fin": 63.06,
+  "proba": 0.99
+ },
+ {
+  "texte": "avons",
+  "debut": 63.06,
+  "fin": 63.26,
+  "proba": 0.999
+ },
+ {
+  "texte": "également",
+  "debut": 63.26,
+  "fin": 63.58,
+  "proba": 0.996
+ },
+ {
+  "texte": "nos",
+  "debut": 63.58,
+  "fin": 63.74,
+  "proba": 0.988
+ },
+ {
+  "texte": "forfaits",
+  "debut": 63.74,
+  "fin": 64.06,
+  "proba": 0.963
+ },
+ {
+  "texte": "mobiles",
+  "debut": 64.06,
+  "fin": 64.5,
+  "proba": 0.98
+ },
+ {
+  "texte": "à",
+  "debut": 64.5,
+  "fin": 64.76,
+  "proba": 0.911
+ },
+ {
+  "texte": "partir",
+  "debut": 64.76,
+  "fin": 64.96,
+  "proba": 0.997
+ },
+ {
+  "texte": "de",
+  "debut": 64.96,
+  "fin": 65.18,
+  "proba": 0.996
+ },
+ {
+  "texte": "7",
+  "debut": 65.18,
+  "fin": 65.34,
+  "proba": 0.993
+ },
+ {
+  "texte": ",99",
+  "debut": 65.34,
+  "fin": 65.98,
+  "proba": 0.976
+ },
+ {
+  "texte": "euros",
+  "debut": 65.98,
+  "fin": 66.04,
+  "proba": 0.929
+ },
+ {
+  "texte": "par",
+  "debut": 66.04,
+  "fin": 66.24,
+  "proba": 0.996
+ },
+ {
+  "texte": "mois",
+  "debut": 66.24,
+  "fin": 66.4,
+  "proba": 0.999
+ },
+ {
+  "texte": "et",
+  "debut": 66.4,
+  "fin": 66.78,
+  "proba": 0.73
+ },
+ {
+  "texte": "un",
+  "debut": 66.78,
+  "fin": 66.94,
+  "proba": 0.957
+ },
+ {
+  "texte": "répéteur",
+  "debut": 66.94,
+  "fin": 67.24,
+  "proba": 0.961
+ },
+ {
+  "texte": "wifi",
+  "debut": 67.24,
+  "fin": 67.5,
+  "proba": 0.402
+ },
+ {
+  "texte": "à",
+  "debut": 67.5,
+  "fin": 67.74,
+  "proba": 0.982
+ },
+ {
+  "texte": "3",
+  "debut": 67.74,
+  "fin": 67.94,
+  "proba": 0.975
+ },
+ {
+  "texte": "euros",
+  "debut": 67.94,
+  "fin": 68.1,
+  "proba": 0.926
+ },
+ {
+  "texte": "par",
+  "debut": 68.1,
+  "fin": 68.3,
+  "proba": 0.997
+ },
+ {
+  "texte": "mois.",
+  "debut": 68.3,
+  "fin": 68.52,
+  "proba": 0.998
+ },
+ {
+  "texte": "Euh...",
+  "debut": 69.48,
+  "fin": 69.88,
+  "proba": 0.469
+ },
+ {
+  "texte": "ça",
+  "debut": 69.88,
+  "fin": 70.04,
+  "proba": 0.489
+ },
+ {
+  "texte": "fait",
+  "debut": 70.04,
+  "fin": 70.14,
+  "proba": 0.997
+ },
+ {
+  "texte": "beaucoup.",
+  "debut": 70.14,
+  "fin": 70.46,
+  "proba": 0.998
+ },
+ {
+  "texte": "Je",
+  "debut": 71.1,
+  "fin": 71.3,
+  "proba": 0.98
+ },
+ {
+  "texte": "regarde",
+  "debut": 71.3,
+  "fin": 71.62,
+  "proba": 0.984
+ },
+ {
+  "texte": "surtout",
+  "debut": 71.62,
+  "fin": 71.92,
+  "proba": 0.792
+ },
+ {
+  "texte": "les",
+  "debut": 71.92,
+  "fin": 72.12,
+  "proba": 0.995
+ },
+ {
+  "texte": "informations,",
+  "debut": 72.12,
+  "fin": 72.58,
+  "proba": 0.996
+ },
+ {
+  "texte": "vous",
+  "debut": 72.62,
+  "fin": 72.74,
+  "proba": 0.995
+ },
+ {
+  "texte": "savez",
+  "debut": 72.74,
+  "fin": 72.96,
+  "proba": 0.999
+ },
+ {
+  "texte": "?",
+  "debut": 72.96,
+  "fin": 73.4,
+  "proba": 0.699
+ },
+ {
+  "texte": "D",
+  "debut": 73.4,
+  "fin": 73.56,
+  "proba": 0.968
+ },
+ {
+  "texte": "'accord.",
+  "debut": 73.56,
+  "fin": 73.84,
+  "proba": 0.999
+ },
+ {
+  "texte": "Avec",
+  "debut": 74.18,
+  "fin": 74.3,
+  "proba": 0.996
+ },
+ {
+  "texte": "le",
+  "debut": 74.3,
+  "fin": 74.5,
+  "proba": 0.998
+ },
+ {
+  "texte": "pack",
+  "debut": 74.5,
+  "fin": 74.62,
+  "proba": 0.995
+ },
+ {
+  "texte": "Horizon,",
+  "debut": 74.62,
+  "fin": 74.94,
+  "proba": 0.997
+ },
+ {
+  "texte": "vous",
+  "debut": 75.08,
+  "fin": 75.08,
+  "proba": 0.996
+ },
+ {
+  "texte": "avez",
+  "debut": 75.08,
+  "fin": 75.28,
+  "proba": 0.998
+ },
+ {
+  "texte": "aussi",
+  "debut": 75.28,
+  "fin": 75.52,
+  "proba": 0.994
+ },
+ {
+  "texte": "des",
+  "debut": 75.52,
+  "fin": 75.72,
+  "proba": 0.973
+ },
+ {
+  "texte": "documentaires,",
+  "debut": 75.72,
+  "fin": 76.18,
+  "proba": 0.985
+ },
+ {
+  "texte": "des",
+  "debut": 76.34,
+  "fin": 76.48,
+  "proba": 0.998
+ },
+ {
+  "texte": "séries,",
+  "debut": 76.48,
+  "fin": 76.66,
+  "proba": 0.996
+ },
+ {
+  "texte": "des",
+  "debut": 76.76,
+  "fin": 76.92,
+  "proba": 0.997
+ },
+ {
+  "texte": "films,",
+  "debut": 76.92,
+  "fin": 77.1,
+  "proba": 0.997
+ },
+ {
+  "texte": "et",
+  "debut": 77.3,
+  "fin": 77.44,
+  "proba": 0.99
+ },
+ {
+  "texte": "le",
+  "debut": 77.44,
+  "fin": 77.62,
+  "proba": 0.996
+ },
+ {
+  "texte": "premier",
+  "debut": 77.62,
+  "fin": 77.78,
+  "proba": 0.949
+ },
+ {
+  "texte": "mois",
+  "debut": 77.78,
+  "fin": 77.9,
+  "proba": 0.978
+ },
+ {
+  "texte": "est",
+  "debut": 77.9,
+  "fin": 78.04,
+  "proba": 0.996
+ },
+ {
+  "texte": "offert.",
+  "debut": 78.04,
+  "fin": 78.6,
+  "proba": 0.996
+ },
+ {
+  "texte": "Non,",
+  "debut": 78.74,
+  "fin": 78.88,
+  "proba": 0.967
+ },
+ {
+  "texte": "merci.",
+  "debut": 79.3,
+  "fin": 79.62,
+  "proba": 0.999
+ },
+ {
+  "texte": "Ça",
+  "debut": 79.96,
+  "fin": 80.16,
+  "proba": 0.883
+ },
+ {
+  "texte": "ne",
+  "debut": 80.16,
+  "fin": 80.24,
+  "proba": 0.988
+ },
+ {
+  "texte": "m",
+  "debut": 80.24,
+  "fin": 80.36,
+  "proba": 0.999
+ },
+ {
+  "texte": "'intéresse",
+  "debut": 80.36,
+  "fin": 80.56,
+  "proba": 0.996
+ },
+ {
+  "texte": "pas.",
+  "debut": 80.56,
+  "fin": 80.88,
+  "proba": 1.0
+ },
+ {
+  "texte": "Puis",
+  "debut": 81.16,
+  "fin": 81.32,
+  "proba": 0.973
+ },
+ {
+  "texte": "-je",
+  "debut": 81.32,
+  "fin": 81.4,
+  "proba": 0.975
+ },
+ {
+  "texte": "vous",
+  "debut": 81.4,
+  "fin": 81.56,
+  "proba": 0.998
+ },
+ {
+  "texte": "demander",
+  "debut": 81.56,
+  "fin": 81.8,
+  "proba": 0.994
+ },
+ {
+  "texte": "ce",
+  "debut": 81.8,
+  "fin": 81.98,
+  "proba": 0.996
+ },
+ {
+  "texte": "qui",
+  "debut": 81.98,
+  "fin": 82.12,
+  "proba": 0.996
+ },
+ {
+  "texte": "ne",
+  "debut": 82.12,
+  "fin": 82.2,
+  "proba": 0.968
+ },
+ {
+  "texte": "vous",
+  "debut": 82.2,
+  "fin": 82.32,
+  "proba": 0.987
+ },
+ {
+  "texte": "convient",
+  "debut": 82.32,
+  "fin": 82.52,
+  "proba": 0.998
+ },
+ {
+  "texte": "pas,",
+  "debut": 82.52,
+  "fin": 82.66,
+  "proba": 0.999
+ },
+ {
+  "texte": "M.",
+  "debut": 82.72,
+  "fin": 82.8,
+  "proba": 0.269
+ },
+ {
+  "texte": "Lambert",
+  "debut": 82.86,
+  "fin": 83.1,
+  "proba": 0.485
+ },
+ {
+  "texte": "?",
+  "debut": 83.1,
+  "fin": 83.46,
+  "proba": 0.988
+ },
+ {
+  "texte": "Je",
+  "debut": 83.46,
+  "fin": 83.72,
+  "proba": 0.781
+ },
+ {
+  "texte": "vis",
+  "debut": 83.72,
+  "fin": 83.9,
+  "proba": 0.973
+ },
+ {
+  "texte": "seul,",
+  "debut": 83.9,
+  "fin": 84.22,
+  "proba": 0.557
+ },
+ {
+  "texte": "je",
+  "debut": 84.78,
+  "fin": 84.9,
+  "proba": 0.977
+ },
+ {
+  "texte": "regarde",
+  "debut": 84.9,
+  "fin": 85.18,
+  "proba": 0.996
+ },
+ {
+  "texte": "un",
+  "debut": 85.18,
+  "fin": 85.32,
+  "proba": 0.936
+ },
+ {
+  "texte": "peu",
+  "debut": 85.32,
+  "fin": 85.4,
+  "proba": 0.999
+ },
+ {
+  "texte": "la",
+  "debut": 85.4,
+  "fin": 85.56,
+  "proba": 0.997
+ },
+ {
+  "texte": "télé",
+  "debut": 85.56,
+  "fin": 85.72,
+  "proba": 0.981
+ },
+ {
+  "texte": "le",
+  "debut": 85.72,
+  "fin": 85.98,
+  "proba": 0.932
+ },
+ {
+  "texte": "soir,",
+  "debut": 85.98,
+  "fin": 86.22,
+  "proba": 0.999
+ },
+ {
+  "texte": "les",
+  "debut": 86.48,
+  "fin": 86.62,
+  "proba": 0.989
+ },
+ {
+  "texte": "infos,",
+  "debut": 86.62,
+  "fin": 87.2,
+  "proba": 0.993
+ },
+ {
+  "texte": "et",
+  "debut": 87.52,
+  "fin": 87.62,
+  "proba": 0.975
+ },
+ {
+  "texte": "c",
+  "debut": 87.62,
+  "fin": 87.7,
+  "proba": 0.999
+ },
+ {
+  "texte": "'est",
+  "debut": 87.7,
+  "fin": 87.8,
+  "proba": 0.999
+ },
+ {
+  "texte": "tout.",
+  "debut": 87.8,
+  "fin": 88.0,
+  "proba": 0.999
+ },
+ {
+  "texte": "Je",
+  "debut": 88.54,
+  "fin": 88.66,
+  "proba": 0.994
+ },
+ {
+  "texte": "n",
+  "debut": 88.66,
+  "fin": 88.74,
+  "proba": 0.999
+ },
+ {
+  "texte": "'ai",
+  "debut": 88.74,
+  "fin": 88.88,
+  "proba": 0.999
+ },
+ {
+  "texte": "besoin",
+  "debut": 88.88,
+  "fin": 89.04,
+  "proba": 0.995
+ },
+ {
+  "texte": "de",
+  "debut": 89.04,
+  "fin": 89.16,
+  "proba": 0.998
+ },
+ {
+  "texte": "rien",
+  "debut": 89.16,
+  "fin": 89.28,
+  "proba": 0.998
+ },
+ {
+  "texte": "de",
+  "debut": 89.28,
+  "fin": 89.46,
+  "proba": 0.994
+ },
+ {
+  "texte": "plus.",
+  "debut": 89.46,
+  "fin": 89.64,
+  "proba": 0.999
+ },
+ {
+  "texte": "Je",
+  "debut": 90.16,
+  "fin": 90.34,
+  "proba": 0.994
+ },
+ {
+  "texte": "comprends",
+  "debut": 90.34,
+  "fin": 90.66,
+  "proba": 0.987
+ },
+ {
+  "texte": "tout",
+  "debut": 90.66,
+  "fin": 90.8,
+  "proba": 0.997
+ },
+ {
+  "texte": "à",
+  "debut": 90.8,
+  "fin": 90.84,
+  "proba": 0.991
+ },
+ {
+  "texte": "fait",
+  "debut": 90.84,
+  "fin": 91.02,
+  "proba": 1.0
+ },
+ {
+  "texte": "et",
+  "debut": 91.02,
+  "fin": 91.42,
+  "proba": 0.323
+ },
+ {
+  "texte": "je",
+  "debut": 91.42,
+  "fin": 91.6,
+  "proba": 0.997
+ },
+ {
+  "texte": "respecte",
+  "debut": 91.6,
+  "fin": 91.9,
+  "proba": 0.998
+ },
+ {
+  "texte": "votre",
+  "debut": 91.9,
+  "fin": 92.04,
+  "proba": 0.999
+ },
+ {
+  "texte": "choix.",
+  "debut": 92.04,
+  "fin": 92.26,
+  "proba": 0.999
+ },
+ {
+  "texte": "Je",
+  "debut": 92.94,
+  "fin": 92.98,
+  "proba": 0.995
+ },
+ {
+  "texte": "suis",
+  "debut": 92.98,
+  "fin": 93.18,
+  "proba": 0.999
+ },
+ {
+  "texte": "désolé",
+  "debut": 93.18,
+  "fin": 93.48,
+  "proba": 0.996
+ },
+ {
+  "texte": "de",
+  "debut": 93.48,
+  "fin": 93.62,
+  "proba": 0.994
+ },
+ {
+  "texte": "ne",
+  "debut": 93.62,
+  "fin": 93.74,
+  "proba": 0.998
+ },
+ {
+  "texte": "pas",
+  "debut": 93.74,
+  "fin": 93.9,
+  "proba": 1.0
+ },
+ {
+  "texte": "avoir",
+  "debut": 93.9,
+  "fin": 94.08,
+  "proba": 0.996
+ },
+ {
+  "texte": "trouvé",
+  "debut": 94.08,
+  "fin": 94.3,
+  "proba": 0.987
+ },
+ {
+  "texte": "une",
+  "debut": 94.3,
+  "fin": 94.48,
+  "proba": 0.996
+ },
+ {
+  "texte": "offre",
+  "debut": 94.48,
+  "fin": 94.7,
+  "proba": 0.992
+ },
+ {
+  "texte": "adaptée",
+  "debut": 94.7,
+  "fin": 94.98,
+  "proba": 0.987
+ },
+ {
+  "texte": "pour",
+  "debut": 94.98,
+  "fin": 95.14,
+  "proba": 0.996
+ },
+ {
+  "texte": "vous",
+  "debut": 95.14,
+  "fin": 95.28,
+  "proba": 0.997
+ },
+ {
+  "texte": "aujourd",
+  "debut": 95.28,
+  "fin": 95.5,
+  "proba": 0.965
+ },
+ {
+  "texte": "'hui.",
+  "debut": 95.5,
+  "fin": 95.84,
+  "proba": 1.0
+ },
+ {
+  "texte": "Je",
+  "debut": 96.16,
+  "fin": 96.28,
+  "proba": 0.994
+ },
+ {
+  "texte": "note",
+  "debut": 96.28,
+  "fin": 96.42,
+  "proba": 0.995
+ },
+ {
+  "texte": "votre",
+  "debut": 96.42,
+  "fin": 96.66,
+  "proba": 0.999
+ },
+ {
+  "texte": "réponse.",
+  "debut": 96.66,
+  "fin": 97.0,
+  "proba": 0.999
+ },
+ {
+  "texte": "Avez",
+  "debut": 97.64,
+  "fin": 97.8,
+  "proba": 0.984
+ },
+ {
+  "texte": "-vous",
+  "debut": 97.8,
+  "fin": 97.9,
+  "proba": 0.971
+ },
+ {
+  "texte": "des",
+  "debut": 97.9,
+  "fin": 98.04,
+  "proba": 0.996
+ },
+ {
+  "texte": "questions",
+  "debut": 98.04,
+  "fin": 98.28,
+  "proba": 0.995
+ },
+ {
+  "texte": "sur",
+  "debut": 98.28,
+  "fin": 98.48,
+  "proba": 0.996
+ },
+ {
+  "texte": "votre",
+  "debut": 98.48,
+  "fin": 98.66,
+  "proba": 0.996
+ },
+ {
+  "texte": "contrat",
+  "debut": 98.66,
+  "fin": 98.92,
+  "proba": 0.996
+ },
+ {
+  "texte": "?",
+  "debut": 98.92,
+  "fin": 99.4,
+  "proba": 0.877
+ },
+ {
+  "texte": "Non,",
+  "debut": 99.4,
+  "fin": 99.54,
+  "proba": 0.984
+ },
+ {
+  "texte": "merci.",
+  "debut": 99.78,
+  "fin": 100.02,
+  "proba": 0.999
+ },
+ {
+  "texte": "Merci",
+  "debut": 100.56,
+  "fin": 100.78,
+  "proba": 0.996
+ },
+ {
+  "texte": "pour",
+  "debut": 100.78,
+  "fin": 100.98,
+  "proba": 0.997
+ },
+ {
+  "texte": "votre",
+  "debut": 100.98,
+  "fin": 101.16,
+  "proba": 0.999
+ },
+ {
+  "texte": "temps,",
+  "debut": 101.16,
+  "fin": 101.28,
+  "proba": 0.998
+ },
+ {
+  "texte": "M.",
+  "debut": 101.3,
+  "fin": 101.42,
+  "proba": 0.393
+ },
+ {
+  "texte": "Lambert.",
+  "debut": 101.5,
+  "fin": 101.8,
+  "proba": 0.972
+ },
+ {
+  "texte": "Je",
+  "debut": 102.2,
+  "fin": 102.32,
+  "proba": 0.997
+ },
+ {
+  "texte": "vous",
+  "debut": 102.32,
+  "fin": 102.46,
+  "proba": 1.0
+ },
+ {
+  "texte": "souhaite",
+  "debut": 102.46,
+  "fin": 102.6,
+  "proba": 0.999
+ },
+ {
+  "texte": "une",
+  "debut": 102.6,
+  "fin": 102.7,
+  "proba": 0.996
+ },
+ {
+  "texte": "très",
+  "debut": 102.7,
+  "fin": 102.82,
+  "proba": 0.998
+ },
+ {
+  "texte": "bonne",
+  "debut": 102.82,
+  "fin": 102.96,
+  "proba": 0.999
+ },
+ {
+  "texte": "journée.",
+  "debut": 102.96,
+  "fin": 103.2,
+  "proba": 1.0
+ },
+ {
+  "texte": "Au",
+  "debut": 103.68,
+  "fin": 103.78,
+  "proba": 0.963
+ },
+ {
+  "texte": "revoir.",
+  "debut": 103.78,
+  "fin": 104.04,
+  "proba": 0.999
+ },
+ {
+  "texte": "Au",
+  "debut": 104.4,
+  "fin": 104.54,
+  "proba": 0.943
+ },
+ {
+  "texte": "revoir.",
+  "debut": 104.54,
+  "fin": 104.74,
+  "proba": 0.998
+ }
+]

@@ -1,0 +1,2551 @@
+{
+ "appel": "13",
+ "mots_alignes_pct": 97.1,
+ "mots": [
+  {
+   "mot": "allo",
+   "replique": 1,
+   "debut": 0.0
+  },
+  {
+   "mot": "bonjour",
+   "replique": 2,
+   "debut": 1.28
+  },
+  {
+   "mot": "monsieur",
+   "replique": 2,
+   "debut": 2.28
+  },
+  {
+   "mot": "rousseau",
+   "replique": 2,
+   "debut": 2.44
+  },
+  {
+   "mot": "oui",
+   "replique": 3,
+   "debut": 3.52
+  },
+  {
+   "mot": "bonjour",
+   "replique": 3,
+   "debut": 4.14
+  },
+  {
+   "mot": "c",
+   "replique": 3,
+   "debut": 5.24
+  },
+  {
+   "mot": "est",
+   "replique": 3,
+   "debut": 5.66
+  },
+  {
+   "mot": "qui",
+   "replique": 3,
+   "debut": 5.68
+  },
+  {
+   "mot": "anas",
+   "replique": 4,
+   "debut": 6.9
+  },
+  {
+   "mot": "lahlou",
+   "replique": 4,
+   "debut": 7.37
+  },
+  {
+   "mot": "conseiller",
+   "replique": 4,
+   "debut": 7.84
+  },
+  {
+   "mot": "chez",
+   "replique": 4,
+   "debut": 8.4
+  },
+  {
+   "mot": "kalyo",
+   "replique": 4,
+   "debut": 8.63
+  },
+  {
+   "mot": "telecom",
+   "replique": 4,
+   "debut": 8.86
+  },
+  {
+   "mot": "votre",
+   "replique": 4,
+   "debut": 9.54
+  },
+  {
+   "mot": "operateur",
+   "replique": 4,
+   "debut": 9.68
+  },
+  {
+   "mot": "c",
+   "replique": 4,
+   "debut": 10.9
+  },
+  {
+   "mot": "est",
+   "replique": 4,
+   "debut": 11.38
+  },
+  {
+   "mot": "moi",
+   "replique": 4,
+   "debut": 11.42
+  },
+  {
+   "mot": "qui",
+   "replique": 4,
+   "debut": 11.52
+  },
+  {
+   "mot": "m",
+   "replique": 4,
+   "debut": 11.62
+  },
+  {
+   "mot": "occupe",
+   "replique": 4,
+   "debut": 11.7
+  },
+  {
+   "mot": "de",
+   "replique": 4,
+   "debut": 11.88
+  },
+  {
+   "mot": "votre",
+   "replique": 4,
+   "debut": 11.98
+  },
+  {
+   "mot": "contrat",
+   "replique": 4,
+   "debut": 12.1
+  },
+  {
+   "mot": "box",
+   "replique": 4,
+   "debut": 12.44
+  },
+  {
+   "mot": "internet",
+   "replique": 4,
+   "debut": 12.66
+  },
+  {
+   "mot": "et",
+   "replique": 4,
+   "debut": 13.4
+  },
+  {
+   "mot": "je",
+   "replique": 4,
+   "debut": 13.54
+  },
+  {
+   "mot": "vous",
+   "replique": 4,
+   "debut": 13.62
+  },
+  {
+   "mot": "contacte",
+   "replique": 4,
+   "debut": 13.7
+  },
+  {
+   "mot": "pour",
+   "replique": 4,
+   "debut": 14.06
+  },
+  {
+   "mot": "faire",
+   "replique": 4,
+   "debut": 14.14
+  },
+  {
+   "mot": "un",
+   "replique": 4,
+   "debut": 14.3
+  },
+  {
+   "mot": "point",
+   "replique": 4,
+   "debut": 14.42
+  },
+  {
+   "mot": "rapide",
+   "replique": 4,
+   "debut": 14.52
+  },
+  {
+   "mot": "sur",
+   "replique": 4,
+   "debut": 14.84
+  },
+  {
+   "mot": "votre",
+   "replique": 4,
+   "debut": 14.96
+  },
+  {
+   "mot": "abonnement",
+   "replique": 4,
+   "debut": 15.12
+  },
+  {
+   "mot": "je",
+   "replique": 4,
+   "debut": 16.28
+  },
+  {
+   "mot": "vous",
+   "replique": 4,
+   "debut": 16.44
+  },
+  {
+   "mot": "informe",
+   "replique": 4,
+   "debut": 16.5
+  },
+  {
+   "mot": "que",
+   "replique": 4,
+   "debut": 16.76
+  },
+  {
+   "mot": "notre",
+   "replique": 4,
+   "debut": 16.84
+  },
+  {
+   "mot": "echange",
+   "replique": 4,
+   "debut": 16.96
+  },
+  {
+   "mot": "est",
+   "replique": 4,
+   "debut": 17.2
+  },
+  {
+   "mot": "susceptible",
+   "replique": 4,
+   "debut": 17.4
+  },
+  {
+   "mot": "d",
+   "replique": 4,
+   "debut": 17.58
+  },
+  {
+   "mot": "etre",
+   "replique": 4,
+   "debut": 17.88
+  },
+  {
+   "mot": "enregistre",
+   "replique": 4,
+   "debut": 17.94
+  },
+  {
+   "mot": "pour",
+   "replique": 4,
+   "debut": 18.38
+  },
+  {
+   "mot": "des",
+   "replique": 4,
+   "debut": 18.56
+  },
+  {
+   "mot": "raisons",
+   "replique": 4,
+   "debut": 18.7
+  },
+  {
+   "mot": "de",
+   "replique": 4,
+   "debut": 18.86
+  },
+  {
+   "mot": "qualite",
+   "replique": 4,
+   "debut": 18.94
+  },
+  {
+   "mot": "avez",
+   "replique": 4,
+   "debut": 19.94
+  },
+  {
+   "mot": "vous",
+   "replique": 4,
+   "debut": 20.24
+  },
+  {
+   "mot": "quelques",
+   "replique": 4,
+   "debut": 20.36
+  },
+  {
+   "mot": "instants",
+   "replique": 4,
+   "debut": 20.52
+  },
+  {
+   "mot": "oui",
+   "replique": 5,
+   "debut": 22.12
+  },
+  {
+   "mot": "allez",
+   "replique": 5,
+   "debut": 22.84
+  },
+  {
+   "mot": "y",
+   "replique": 5,
+   "debut": 22.94
+  },
+  {
+   "mot": "merci",
+   "replique": 6,
+   "debut": 23.64
+  },
+  {
+   "mot": "avant",
+   "replique": 6,
+   "debut": 25.12
+  },
+  {
+   "mot": "tout",
+   "replique": 6,
+   "debut": 25.6
+  },
+  {
+   "mot": "tout",
+   "replique": 6,
+   "debut": 26.42
+  },
+  {
+   "mot": "se",
+   "replique": 6,
+   "debut": 26.56
+  },
+  {
+   "mot": "passe",
+   "replique": 6,
+   "debut": 26.66
+  },
+  {
+   "mot": "bien",
+   "replique": 6,
+   "debut": 26.74
+  },
+  {
+   "mot": "avec",
+   "replique": 6,
+   "debut": 26.94
+  },
+  {
+   "mot": "votre",
+   "replique": 6,
+   "debut": 27.08
+  },
+  {
+   "mot": "box",
+   "replique": 6,
+   "debut": 27.24
+  },
+  {
+   "mot": "et",
+   "replique": 6,
+   "debut": 27.6
+  },
+  {
+   "mot": "votre",
+   "replique": 6,
+   "debut": 27.86
+  },
+  {
+   "mot": "television",
+   "replique": 6,
+   "debut": 28.08
+  },
+  {
+   "mot": "oui",
+   "replique": 7,
+   "debut": 29.2
+  },
+  {
+   "mot": "ca",
+   "replique": 7,
+   "debut": 29.88
+  },
+  {
+   "mot": "marche",
+   "replique": 7,
+   "debut": 29.98
+  },
+  {
+   "mot": "bien",
+   "replique": 7,
+   "debut": 30.16
+  },
+  {
+   "mot": "tant",
+   "replique": 8,
+   "debut": 31.22
+  },
+  {
+   "mot": "mieux",
+   "replique": 8,
+   "debut": 31.5
+  },
+  {
+   "mot": "pour",
+   "replique": 8,
+   "debut": 32.78
+  },
+  {
+   "mot": "securiser",
+   "replique": 8,
+   "debut": 33.22
+  },
+  {
+   "mot": "notre",
+   "replique": 8,
+   "debut": 33.64
+  },
+  {
+   "mot": "echange",
+   "replique": 8,
+   "debut": 33.82
+  },
+  {
+   "mot": "pouvez",
+   "replique": 8,
+   "debut": 34.46
+  },
+  {
+   "mot": "vous",
+   "replique": 8,
+   "debut": 34.62
+  },
+  {
+   "mot": "me",
+   "replique": 8,
+   "debut": 34.76
+  },
+  {
+   "mot": "confirmer",
+   "replique": 8,
+   "debut": 34.88
+  },
+  {
+   "mot": "votre",
+   "replique": 8,
+   "debut": 35.36
+  },
+  {
+   "mot": "nom",
+   "replique": 8,
+   "debut": 35.66
+  },
+  {
+   "mot": "et",
+   "replique": 8,
+   "debut": 35.98
+  },
+  {
+   "mot": "prenom",
+   "replique": 8,
+   "debut": 36.26
+  },
+  {
+   "mot": "votre",
+   "replique": 8,
+   "debut": 37.04
+  },
+  {
+   "mot": "code",
+   "replique": 8,
+   "debut": 37.26
+  },
+  {
+   "mot": "postal",
+   "replique": 8,
+   "debut": 37.5
+  },
+  {
+   "mot": "et",
+   "replique": 8,
+   "debut": 37.86
+  },
+  {
+   "mot": "votre",
+   "replique": 8,
+   "debut": 38.26
+  },
+  {
+   "mot": "date",
+   "replique": 8,
+   "debut": 38.42
+  },
+  {
+   "mot": "de",
+   "replique": 8,
+   "debut": 38.62
+  },
+  {
+   "mot": "naissance",
+   "replique": 8,
+   "debut": 38.72
+  },
+  {
+   "mot": "rousseau",
+   "replique": 9,
+   "debut": 41.9
+  },
+  {
+   "mot": "michel",
+   "replique": 9,
+   "debut": 42.5
+  },
+  {
+   "mot": "4",
+   "replique": 9,
+   "debut": 43.56
+  },
+  {
+   "mot": "9",
+   "replique": 9,
+   "debut": 43.56
+  },
+  {
+   "mot": "0",
+   "replique": 9,
+   "debut": 44.12
+  },
+  {
+   "mot": "0",
+   "replique": 9,
+   "debut": 44.12
+  },
+  {
+   "mot": "0",
+   "replique": 9,
+   "debut": 44.12
+  },
+  {
+   "mot": "le",
+   "replique": 9,
+   "debut": 45.02
+  },
+  {
+   "mot": "7",
+   "replique": 9,
+   "debut": 45.14
+  },
+  {
+   "mot": "mars",
+   "replique": 9,
+   "debut": 45.44
+  },
+  {
+   "mot": "1",
+   "replique": 9,
+   "debut": 45.74
+  },
+  {
+   "mot": "9",
+   "replique": 9,
+   "debut": 45.74
+  },
+  {
+   "mot": "7",
+   "replique": 9,
+   "debut": 45.74
+  },
+  {
+   "mot": "6",
+   "replique": 9,
+   "debut": 45.74
+  },
+  {
+   "mot": "merci",
+   "replique": 10,
+   "debut": 47.52
+  },
+  {
+   "mot": "monsieur",
+   "replique": 10,
+   "debut": 48.08
+  },
+  {
+   "mot": "rousseau",
+   "replique": 10,
+   "debut": 48.18
+  },
+  {
+   "mot": "dites",
+   "replique": 10,
+   "debut": 49.74
+  },
+  {
+   "mot": "moi",
+   "replique": 10,
+   "debut": 50.32
+  },
+  {
+   "mot": "qu",
+   "replique": 10,
+   "debut": 50.86
+  },
+  {
+   "mot": "est",
+   "replique": 10,
+   "debut": 50.94
+  },
+  {
+   "mot": "ce",
+   "replique": 10,
+   "debut": 50.98
+  },
+  {
+   "mot": "que",
+   "replique": 10,
+   "debut": 51.02
+  },
+  {
+   "mot": "vous",
+   "replique": 10,
+   "debut": 51.1
+  },
+  {
+   "mot": "aimez",
+   "replique": 10,
+   "debut": 51.2
+  },
+  {
+   "mot": "regarder",
+   "replique": 10,
+   "debut": 51.4
+  },
+  {
+   "mot": "le",
+   "replique": 10,
+   "debut": 51.62
+  },
+  {
+   "mot": "soir",
+   "replique": 10,
+   "debut": 51.88
+  },
+  {
+   "mot": "des",
+   "replique": 11,
+   "debut": 52.7
+  },
+  {
+   "mot": "films",
+   "replique": 11,
+   "debut": 53.18
+  },
+  {
+   "mot": "des",
+   "replique": 11,
+   "debut": 54.16
+  },
+  {
+   "mot": "series",
+   "replique": 11,
+   "debut": 54.28
+  },
+  {
+   "mot": "policieres",
+   "replique": 11,
+   "debut": 54.48
+  },
+  {
+   "mot": "mais",
+   "replique": 11,
+   "debut": 55.0
+  },
+  {
+   "mot": "honnetement",
+   "replique": 11,
+   "debut": 55.5
+  },
+  {
+   "mot": "le",
+   "replique": 11,
+   "debut": 56.86
+  },
+  {
+   "mot": "soir",
+   "replique": 11,
+   "debut": 56.9
+  },
+  {
+   "mot": "je",
+   "replique": 11,
+   "debut": 57.26
+  },
+  {
+   "mot": "zappe",
+   "replique": 11,
+   "debut": 57.36
+  },
+  {
+   "mot": "beaucoup",
+   "replique": 11,
+   "debut": 57.62
+  },
+  {
+   "mot": "sans",
+   "replique": 11,
+   "debut": 58.02
+  },
+  {
+   "mot": "trouver",
+   "replique": 11,
+   "debut": 58.38
+  },
+  {
+   "mot": "grand",
+   "replique": 11,
+   "debut": 58.62
+  },
+  {
+   "mot": "chose",
+   "replique": 11,
+   "debut": 58.78
+  },
+  {
+   "mot": "je",
+   "replique": 12,
+   "debut": 60.08
+  },
+  {
+   "mot": "vois",
+   "replique": 12,
+   "debut": 60.52
+  },
+  {
+   "mot": "et",
+   "replique": 12,
+   "debut": 61.5
+  },
+  {
+   "mot": "vous",
+   "replique": 12,
+   "debut": 61.82
+  },
+  {
+   "mot": "regardez",
+   "replique": 12,
+   "debut": 62.02
+  },
+  {
+   "mot": "seul",
+   "replique": 12,
+   "debut": 62.26
+  },
+  {
+   "mot": "ou",
+   "replique": 12,
+   "debut": 62.5
+  },
+  {
+   "mot": "en",
+   "replique": 12,
+   "debut": 62.62
+  },
+  {
+   "mot": "famille",
+   "replique": 12,
+   "debut": 62.7
+  },
+  {
+   "mot": "avec",
+   "replique": 13,
+   "debut": 64.14
+  },
+  {
+   "mot": "ma",
+   "replique": 13,
+   "debut": 64.58
+  },
+  {
+   "mot": "compagne",
+   "replique": 13,
+   "debut": 64.76
+  },
+  {
+   "mot": "en",
+   "replique": 13,
+   "debut": 65.16
+  },
+  {
+   "mot": "general",
+   "replique": 13,
+   "debut": 65.24
+  },
+  {
+   "mot": "alors",
+   "replique": 14,
+   "debut": 66.74
+  },
+  {
+   "mot": "j",
+   "replique": 14,
+   "debut": 67.16
+  },
+  {
+   "mot": "ai",
+   "replique": 14,
+   "debut": 67.26
+  },
+  {
+   "mot": "quelque",
+   "replique": 14,
+   "debut": 67.3
+  },
+  {
+   "mot": "chose",
+   "replique": 14,
+   "debut": 67.46
+  },
+  {
+   "mot": "pour",
+   "replique": 14,
+   "debut": 67.72
+  },
+  {
+   "mot": "vous",
+   "replique": 14,
+   "debut": 67.92
+  },
+  {
+   "mot": "deux",
+   "replique": 14,
+   "debut": 68.1
+  },
+  {
+   "mot": "le",
+   "replique": 14,
+   "debut": 68.72
+  },
+  {
+   "mot": "pack",
+   "replique": 14,
+   "debut": 68.84
+  },
+  {
+   "mot": "horizon",
+   "replique": 14,
+   "debut": 69.04
+  },
+  {
+   "mot": "horizon",
+   "replique": 14,
+   "debut": 70.6
+  },
+  {
+   "mot": "cinema",
+   "replique": 14,
+   "debut": 71.04
+  },
+  {
+   "mot": "horizon",
+   "replique": 14,
+   "debut": 71.92
+  },
+  {
+   "mot": "series",
+   "replique": 14,
+   "debut": 72.52
+  },
+  {
+   "mot": "horizon",
+   "replique": 14,
+   "debut": 73.12
+  },
+  {
+   "mot": "polar",
+   "replique": 14,
+   "debut": 73.5
+  },
+  {
+   "mot": "et",
+   "replique": 14,
+   "debut": 74.36
+  },
+  {
+   "mot": "plus",
+   "replique": 14,
+   "debut": 74.46
+  },
+  {
+   "mot": "de",
+   "replique": 14,
+   "debut": 74.6
+  },
+  {
+   "mot": "2",
+   "replique": 14,
+   "debut": 74.7
+  },
+  {
+   "mot": "0",
+   "replique": 14,
+   "debut": 74.7
+  },
+  {
+   "mot": "0",
+   "replique": 14,
+   "debut": 74.7
+  },
+  {
+   "mot": "0",
+   "replique": 14,
+   "debut": 74.7
+  },
+  {
+   "mot": "films",
+   "replique": 14,
+   "debut": 75.02
+  },
+  {
+   "mot": "et",
+   "replique": 14,
+   "debut": 75.4
+  },
+  {
+   "mot": "series",
+   "replique": 14,
+   "debut": 75.58
+  },
+  {
+   "mot": "a",
+   "replique": 14,
+   "debut": 75.86
+  },
+  {
+   "mot": "la",
+   "replique": 14,
+   "debut": 75.96
+  },
+  {
+   "mot": "demande",
+   "replique": 14,
+   "debut": 76.02
+  },
+  {
+   "mot": "vous",
+   "replique": 14,
+   "debut": 76.94
+  },
+  {
+   "mot": "choisissez",
+   "replique": 14,
+   "debut": 77.14
+  },
+  {
+   "mot": "votre",
+   "replique": 14,
+   "debut": 77.5
+  },
+  {
+   "mot": "soiree",
+   "replique": 14,
+   "debut": 77.68
+  },
+  {
+   "mot": "au",
+   "replique": 14,
+   "debut": 78.1
+  },
+  {
+   "mot": "lieu",
+   "replique": 14,
+   "debut": 78.2
+  },
+  {
+   "mot": "de",
+   "replique": 14,
+   "debut": 78.26
+  },
+  {
+   "mot": "zapper",
+   "replique": 14,
+   "debut": 78.38
+  },
+  {
+   "mot": "et",
+   "replique": 14,
+   "debut": 79.24
+  },
+  {
+   "mot": "avec",
+   "replique": 14,
+   "debut": 79.46
+  },
+  {
+   "mot": "le",
+   "replique": 14,
+   "debut": 79.58
+  },
+  {
+   "mot": "replay",
+   "replique": 14,
+   "debut": 79.76
+  },
+  {
+   "mot": "de",
+   "replique": 14,
+   "debut": 79.92
+  },
+  {
+   "mot": "7",
+   "replique": 14,
+   "debut": 80.18
+  },
+  {
+   "mot": "jours",
+   "replique": 14,
+   "debut": 80.44
+  },
+  {
+   "mot": "vous",
+   "replique": 14,
+   "debut": 80.7
+  },
+  {
+   "mot": "ne",
+   "replique": 14,
+   "debut": 80.74
+  },
+  {
+   "mot": "ratez",
+   "replique": 14,
+   "debut": 80.8
+  },
+  {
+   "mot": "plus",
+   "replique": 14,
+   "debut": 81.02
+  },
+  {
+   "mot": "un",
+   "replique": 14,
+   "debut": 81.22
+  },
+  {
+   "mot": "episode",
+   "replique": 14,
+   "debut": 81.36
+  },
+  {
+   "mot": "le",
+   "replique": 16,
+   "debut": 83.4
+  },
+  {
+   "mot": "premier",
+   "replique": 16,
+   "debut": 83.88
+  },
+  {
+   "mot": "mois",
+   "replique": 16,
+   "debut": 84.36
+  },
+  {
+   "mot": "est",
+   "replique": 16,
+   "debut": 84.58
+  },
+  {
+   "mot": "offert",
+   "replique": 16,
+   "debut": 84.7
+  },
+  {
+   "mot": "ensuite",
+   "replique": 16,
+   "debut": 85.34
+  },
+  {
+   "mot": "c",
+   "replique": 16,
+   "debut": 85.86
+  },
+  {
+   "mot": "est",
+   "replique": 16,
+   "debut": 85.92
+  },
+  {
+   "mot": "1",
+   "replique": 16,
+   "debut": 85.96
+  },
+  {
+   "mot": "2",
+   "replique": 16,
+   "debut": 85.96
+  },
+  {
+   "mot": "9",
+   "replique": 16,
+   "debut": 86.18
+  },
+  {
+   "mot": "9",
+   "replique": 16,
+   "debut": 86.18
+  },
+  {
+   "mot": "par",
+   "replique": 16,
+   "debut": 86.96
+  },
+  {
+   "mot": "mois",
+   "replique": 16,
+   "debut": 87.14
+  },
+  {
+   "mot": "sans",
+   "replique": 16,
+   "debut": 87.4
+  },
+  {
+   "mot": "engagement",
+   "replique": 16,
+   "debut": 87.84
+  },
+  {
+   "mot": "ca",
+   "replique": 17,
+   "debut": 89.84
+  },
+  {
+   "mot": "me",
+   "replique": 17,
+   "debut": 90.32
+  },
+  {
+   "mot": "plait",
+   "replique": 17,
+   "debut": 90.48
+  },
+  {
+   "mot": "bien",
+   "replique": 17,
+   "debut": 90.56
+  },
+  {
+   "mot": "ca",
+   "replique": 17,
+   "debut": 90.78
+  },
+  {
+   "mot": "allez",
+   "replique": 17,
+   "debut": 92.06
+  },
+  {
+   "mot": "on",
+   "replique": 17,
+   "debut": 92.4
+  },
+  {
+   "mot": "essaie",
+   "replique": 17,
+   "debut": 92.46
+  },
+  {
+   "mot": "tres",
+   "replique": 18,
+   "debut": 93.5
+  },
+  {
+   "mot": "bien",
+   "replique": 18,
+   "debut": 93.64
+  },
+  {
+   "mot": "je",
+   "replique": 18,
+   "debut": 94.56
+  },
+  {
+   "mot": "vous",
+   "replique": 18,
+   "debut": 94.8
+  },
+  {
+   "mot": "fais",
+   "replique": 18,
+   "debut": 94.92
+  },
+  {
+   "mot": "le",
+   "replique": 18,
+   "debut": 95.04
+  },
+  {
+   "mot": "recapitulatif",
+   "replique": 18,
+   "debut": 95.14
+  },
+  {
+   "mot": "monsieur",
+   "replique": 18,
+   "debut": 95.96
+  },
+  {
+   "mot": "rousseau",
+   "replique": 18,
+   "debut": 96.1
+  },
+  {
+   "mot": "le",
+   "replique": 18,
+   "debut": 97.52
+  },
+  {
+   "mot": "pack",
+   "replique": 18,
+   "debut": 97.6
+  },
+  {
+   "mot": "horizon",
+   "replique": 18,
+   "debut": 97.74
+  },
+  {
+   "mot": "premier",
+   "replique": 18,
+   "debut": 98.6
+  },
+  {
+   "mot": "mois",
+   "replique": 18,
+   "debut": 98.92
+  },
+  {
+   "mot": "offert",
+   "replique": 18,
+   "debut": 99.12
+  },
+  {
+   "mot": "puis",
+   "replique": 18,
+   "debut": 100.0
+  },
+  {
+   "mot": "1",
+   "replique": 18,
+   "debut": 100.08
+  },
+  {
+   "mot": "2",
+   "replique": 18,
+   "debut": 100.08
+  },
+  {
+   "mot": "9",
+   "replique": 18,
+   "debut": 100.34
+  },
+  {
+   "mot": "9",
+   "replique": 18,
+   "debut": 100.34
+  },
+  {
+   "mot": "par",
+   "replique": 18,
+   "debut": 100.94
+  },
+  {
+   "mot": "mois",
+   "replique": 18,
+   "debut": 101.24
+  },
+  {
+   "mot": "avec",
+   "replique": 18,
+   "debut": 101.48
+  },
+  {
+   "mot": "un",
+   "replique": 18,
+   "debut": 101.84
+  },
+  {
+   "mot": "premier",
+   "replique": 18,
+   "debut": 102.02
+  },
+  {
+   "mot": "prelevement",
+   "replique": 18,
+   "debut": 102.32
+  },
+  {
+   "mot": "le",
+   "replique": 18,
+   "debut": 102.8
+  },
+  {
+   "mot": "8",
+   "replique": 18,
+   "debut": 102.94
+  },
+  {
+   "mot": "decembre",
+   "replique": 18,
+   "debut": 103.14
+  },
+  {
+   "mot": "sans",
+   "replique": 18,
+   "debut": 104.14
+  },
+  {
+   "mot": "engagement",
+   "replique": 18,
+   "debut": 104.58
+  },
+  {
+   "mot": "resiliable",
+   "replique": 18,
+   "debut": 105.54
+  },
+  {
+   "mot": "a",
+   "replique": 18,
+   "debut": 106.08
+  },
+  {
+   "mot": "tout",
+   "replique": 18,
+   "debut": 106.18
+  },
+  {
+   "mot": "moment",
+   "replique": 18,
+   "debut": 106.3
+  },
+  {
+   "mot": "avec",
+   "replique": 18,
+   "debut": 106.52
+  },
+  {
+   "mot": "effet",
+   "replique": 18,
+   "debut": 106.82
+  },
+  {
+   "mot": "a",
+   "replique": 18,
+   "debut": 107.08
+  },
+  {
+   "mot": "la",
+   "replique": 18,
+   "debut": 107.32
+  },
+  {
+   "mot": "fin",
+   "replique": 18,
+   "debut": 107.38
+  },
+  {
+   "mot": "du",
+   "replique": 18,
+   "debut": 107.5
+  },
+  {
+   "mot": "mois",
+   "replique": 18,
+   "debut": 107.62
+  },
+  {
+   "mot": "droit",
+   "replique": 18,
+   "debut": 108.34
+  },
+  {
+   "mot": "de",
+   "replique": 18,
+   "debut": 108.74
+  },
+  {
+   "mot": "retractation",
+   "replique": 18,
+   "debut": 108.9
+  },
+  {
+   "mot": "de",
+   "replique": 18,
+   "debut": 109.44
+  },
+  {
+   "mot": "1",
+   "replique": 18,
+   "debut": 109.56
+  },
+  {
+   "mot": "4",
+   "replique": 18,
+   "debut": 109.56
+  },
+  {
+   "mot": "jours",
+   "replique": 18,
+   "debut": 109.8
+  },
+  {
+   "mot": "activation",
+   "replique": 18,
+   "debut": 110.96
+  },
+  {
+   "mot": "en",
+   "replique": 18,
+   "debut": 111.36
+  },
+  {
+   "mot": "2",
+   "replique": 18,
+   "debut": 111.62
+  },
+  {
+   "mot": "heures",
+   "replique": 18,
+   "debut": 111.72
+  },
+  {
+   "mot": "maximum",
+   "replique": 18,
+   "debut": 111.86
+  },
+  {
+   "mot": "confirmez",
+   "replique": 18,
+   "debut": 113.18
+  },
+  {
+   "mot": "vous",
+   "replique": 18,
+   "debut": 113.58
+  },
+  {
+   "mot": "souscrire",
+   "replique": 18,
+   "debut": 113.7
+  },
+  {
+   "mot": "au",
+   "replique": 18,
+   "debut": 114.08
+  },
+  {
+   "mot": "pack",
+   "replique": 18,
+   "debut": 114.38
+  },
+  {
+   "mot": "horizon",
+   "replique": 18,
+   "debut": 114.46
+  },
+  {
+   "mot": "a",
+   "replique": 18,
+   "debut": 114.78
+  },
+  {
+   "mot": "ces",
+   "replique": 18,
+   "debut": 114.89
+  },
+  {
+   "mot": "conditions",
+   "replique": 18,
+   "debut": 115.0
+  },
+  {
+   "mot": "oui",
+   "replique": 19,
+   "debut": 115.94
+  },
+  {
+   "mot": "je",
+   "replique": 19,
+   "debut": 116.74
+  },
+  {
+   "mot": "confirme",
+   "replique": 19,
+   "debut": 116.9
+  },
+  {
+   "mot": "merci",
+   "replique": 20,
+   "debut": 118.28
+  },
+  {
+   "mot": "pour",
+   "replique": 20,
+   "debut": 120.02
+  },
+  {
+   "mot": "finaliser",
+   "replique": 20,
+   "debut": 120.42
+  },
+  {
+   "mot": "il",
+   "replique": 20,
+   "debut": 121.1
+  },
+  {
+   "mot": "me",
+   "replique": 20,
+   "debut": 121.16
+  },
+  {
+   "mot": "faut",
+   "replique": 20,
+   "debut": 121.3
+  },
+  {
+   "mot": "juste",
+   "replique": 20,
+   "debut": 121.46
+  },
+  {
+   "mot": "un",
+   "replique": 20,
+   "debut": 121.64
+  },
+  {
+   "mot": "moyen",
+   "replique": 20,
+   "debut": 121.82
+  },
+  {
+   "mot": "de",
+   "replique": 20,
+   "debut": 121.94
+  },
+  {
+   "mot": "paiement",
+   "replique": 20,
+   "debut": 122.1
+  },
+  {
+   "mot": "pour",
+   "replique": 20,
+   "debut": 122.3
+  },
+  {
+   "mot": "le",
+   "replique": 20,
+   "debut": 122.46
+  },
+  {
+   "mot": "pack",
+   "replique": 20,
+   "debut": 122.62
+  },
+  {
+   "mot": "vous",
+   "replique": 20,
+   "debut": 123.52
+  },
+  {
+   "mot": "avez",
+   "replique": 20,
+   "debut": 123.9
+  },
+  {
+   "mot": "votre",
+   "replique": 20,
+   "debut": 124.08
+  },
+  {
+   "mot": "carte",
+   "replique": 20,
+   "debut": 124.32
+  },
+  {
+   "mot": "bancaire",
+   "replique": 20,
+   "debut": 124.6
+  },
+  {
+   "mot": "a",
+   "replique": 20,
+   "debut": 124.94
+  },
+  {
+   "mot": "portee",
+   "replique": 20,
+   "debut": 125.02
+  },
+  {
+   "mot": "de",
+   "replique": 20,
+   "debut": 125.22
+  },
+  {
+   "mot": "main",
+   "replique": 20,
+   "debut": 125.28
+  },
+  {
+   "mot": "ma",
+   "replique": 21,
+   "debut": 126.46
+  },
+  {
+   "mot": "carte",
+   "replique": 21,
+   "debut": 126.64
+  },
+  {
+   "mot": "mais",
+   "replique": 21,
+   "debut": 127.15
+  },
+  {
+   "mot": "je",
+   "replique": 21,
+   "debut": 127.66
+  },
+  {
+   "mot": "suis",
+   "replique": 21,
+   "debut": 127.98
+  },
+  {
+   "mot": "deja",
+   "replique": 21,
+   "debut": 128.1
+  },
+  {
+   "mot": "preleve",
+   "replique": 21,
+   "debut": 128.32
+  },
+  {
+   "mot": "pour",
+   "replique": 21,
+   "debut": 128.78
+  },
+  {
+   "mot": "la",
+   "replique": 21,
+   "debut": 128.92
+  },
+  {
+   "mot": "box",
+   "replique": 21,
+   "debut": 129.02
+  },
+  {
+   "mot": "non",
+   "replique": 21,
+   "debut": 129.26
+  },
+  {
+   "mot": "oui",
+   "replique": 22,
+   "debut": 130.22
+  },
+  {
+   "mot": "pour",
+   "replique": 22,
+   "debut": 130.84
+  },
+  {
+   "mot": "la",
+   "replique": 22,
+   "debut": 131.06
+  },
+  {
+   "mot": "box",
+   "replique": 22,
+   "debut": 131.16
+  },
+  {
+   "mot": "mais",
+   "replique": 22,
+   "debut": 131.84
+  },
+  {
+   "mot": "le",
+   "replique": 22,
+   "debut": 132.0
+  },
+  {
+   "mot": "pack",
+   "replique": 22,
+   "debut": 132.18
+  },
+  {
+   "mot": "est",
+   "replique": 22,
+   "debut": 132.3
+  },
+  {
+   "mot": "un",
+   "replique": 22,
+   "debut": 132.42
+  },
+  {
+   "mot": "service",
+   "replique": 22,
+   "debut": 132.56
+  },
+  {
+   "mot": "a",
+   "replique": 22,
+   "debut": 132.84
+  },
+  {
+   "mot": "part",
+   "replique": 22,
+   "debut": 133.02
+  },
+  {
+   "mot": "il",
+   "replique": 22,
+   "debut": 133.8
+  },
+  {
+   "mot": "doit",
+   "replique": 22,
+   "debut": 133.92
+  },
+  {
+   "mot": "etre",
+   "replique": 22,
+   "debut": 134.02
+  },
+  {
+   "mot": "rattache",
+   "replique": 22,
+   "debut": 134.22
+  },
+  {
+   "mot": "a",
+   "replique": 22,
+   "debut": 134.74
+  },
+  {
+   "mot": "une",
+   "replique": 22,
+   "debut": 134.82
+  },
+  {
+   "mot": "carte",
+   "replique": 22,
+   "debut": 134.92
+  },
+  {
+   "mot": "sinon",
+   "replique": 22,
+   "debut": 135.44
+  },
+  {
+   "mot": "l",
+   "replique": 22,
+   "debut": 135.54
+  },
+  {
+   "mot": "activation",
+   "replique": 22,
+   "debut": 135.7
+  },
+  {
+   "mot": "peut",
+   "replique": 22,
+   "debut": 136.14
+  },
+  {
+   "mot": "prendre",
+   "replique": 22,
+   "debut": 136.32
+  },
+  {
+   "mot": "plusieurs",
+   "replique": 22,
+   "debut": 136.48
+  },
+  {
+   "mot": "jours",
+   "replique": 22,
+   "debut": 136.68
+  },
+  {
+   "mot": "c",
+   "replique": 22,
+   "debut": 136.9
+  },
+  {
+   "mot": "est",
+   "replique": 22,
+   "debut": 137.5
+  },
+  {
+   "mot": "juste",
+   "replique": 22,
+   "debut": 138.22
+  },
+  {
+   "mot": "une",
+   "replique": 22,
+   "debut": 138.36
+  },
+  {
+   "mot": "formalite",
+   "replique": 22,
+   "debut": 138.52
+  },
+  {
+   "mot": "rien",
+   "replique": 22,
+   "debut": 139.14
+  },
+  {
+   "mot": "ne",
+   "replique": 22,
+   "debut": 139.28
+  },
+  {
+   "mot": "sera",
+   "replique": 22,
+   "debut": 139.36
+  },
+  {
+   "mot": "debite",
+   "replique": 22,
+   "debut": 139.46
+  },
+  {
+   "mot": "aujourd",
+   "replique": 22,
+   "debut": 139.74
+  },
+  {
+   "mot": "hui",
+   "replique": 22,
+   "debut": 139.94
+  },
+  {
+   "mot": "puisque",
+   "replique": 22,
+   "debut": 140.2
+  },
+  {
+   "mot": "le",
+   "replique": 22,
+   "debut": 140.38
+  },
+  {
+   "mot": "premier",
+   "replique": 22,
+   "debut": 140.62
+  },
+  {
+   "mot": "mois",
+   "replique": 22,
+   "debut": 140.88
+  },
+  {
+   "mot": "est",
+   "replique": 22,
+   "debut": 141.04
+  },
+  {
+   "mot": "offert",
+   "replique": 22,
+   "debut": 141.16
+  },
+  {
+   "mot": "ah",
+   "replique": 23,
+   "debut": 141.8
+  },
+  {
+   "mot": "d",
+   "replique": 23,
+   "debut": 142.44
+  },
+  {
+   "mot": "accord",
+   "replique": 23,
+   "debut": 142.6
+  },
+  {
+   "mot": "attendez",
+   "replique": 23,
+   "debut": 143.74
+  },
+  {
+   "mot": "je",
+   "replique": 23,
+   "debut": 144.78
+  },
+  {
+   "mot": "la",
+   "replique": 23,
+   "debut": 145.16
+  },
+  {
+   "mot": "prends",
+   "replique": 23,
+   "debut": 145.24
+  },
+  {
+   "mot": "allez",
+   "replique": 24,
+   "debut": 146.12
+  },
+  {
+   "mot": "y",
+   "replique": 24,
+   "debut": 146.36
+  },
+  {
+   "mot": "je",
+   "replique": 24,
+   "debut": 146.8
+  },
+  {
+   "mot": "vous",
+   "replique": 24,
+   "debut": 146.9
+  },
+  {
+   "mot": "ecoute",
+   "replique": 24,
+   "debut": 146.96
+  },
+  {
+   "mot": "les",
+   "replique": 24,
+   "debut": 147.86
+  },
+  {
+   "mot": "seize",
+   "replique": 24,
+   "debut": 148.14
+  },
+  {
+   "mot": "chiffres",
+   "replique": 24,
+   "debut": 148.42
+  },
+  {
+   "mot": "au",
+   "replique": 24,
+   "debut": 148.78
+  },
+  {
+   "mot": "recto",
+   "replique": 24,
+   "debut": 148.94
+  },
+  {
+   "mot": "1",
+   "replique": 25,
+   "debut": 150.5
+  },
+  {
+   "mot": "2",
+   "replique": 25,
+   "debut": 151.28
+  },
+  {
+   "mot": "3",
+   "replique": 25,
+   "debut": 152.4
+  },
+  {
+   "mot": "4",
+   "replique": 25,
+   "debut": 153.32
+  },
+  {
+   "mot": "5",
+   "replique": 25,
+   "debut": 154.0
+  },
+  {
+   "mot": "6",
+   "replique": 25,
+   "debut": 155.64
+  },
+  {
+   "mot": "7",
+   "replique": 25,
+   "debut": 156.78
+  },
+  {
+   "mot": "8",
+   "replique": 25,
+   "debut": 157.94
+  },
+  {
+   "mot": "9",
+   "replique": 25,
+   "debut": 159.44
+  },
+  {
+   "mot": "0",
+   "replique": 25,
+   "debut": 160.54
+  },
+  {
+   "mot": "1",
+   "replique": 25,
+   "debut": 161.46
+  },
+  {
+   "mot": "2",
+   "replique": 25,
+   "debut": 162.14
+  },
+  {
+   "mot": "3",
+   "replique": 25,
+   "debut": 163.36
+  },
+  {
+   "mot": "4",
+   "replique": 25,
+   "debut": 164.4
+  },
+  {
+   "mot": "5",
+   "replique": 25,
+   "debut": 165.22
+  },
+  {
+   "mot": "6",
+   "replique": 25,
+   "debut": 165.78
+  },
+  {
+   "mot": "parfait",
+   "replique": 26,
+   "debut": 167.22
+  },
+  {
+   "mot": "la",
+   "replique": 26,
+   "debut": 168.64
+  },
+  {
+   "mot": "date",
+   "replique": 26,
+   "debut": 168.88
+  },
+  {
+   "mot": "d",
+   "replique": 26,
+   "debut": 169.0
+  },
+  {
+   "mot": "expiration",
+   "replique": 26,
+   "debut": 169.12
+  },
+  {
+   "mot": "0",
+   "replique": 27,
+   "debut": 171.9
+  },
+  {
+   "mot": "9",
+   "replique": 27,
+   "debut": 173.06
+  },
+  {
+   "mot": "2",
+   "replique": 27,
+   "debut": 173.82
+  },
+  {
+   "mot": "8",
+   "replique": 27,
+   "debut": 173.82
+  },
+  {
+   "mot": "et",
+   "replique": 28,
+   "debut": 175.7
+  },
+  {
+   "mot": "les",
+   "replique": 28,
+   "debut": 176.12
+  },
+  {
+   "mot": "trois",
+   "replique": 28,
+   "debut": 176.24
+  },
+  {
+   "mot": "chiffres",
+   "replique": 28,
+   "debut": 176.44
+  },
+  {
+   "mot": "au",
+   "replique": 28,
+   "debut": 176.72
+  },
+  {
+   "mot": "dos",
+   "replique": 28,
+   "debut": 176.86
+  },
+  {
+   "mot": "le",
+   "replique": 28,
+   "debut": 177.34
+  },
+  {
+   "mot": "cryptogramme",
+   "replique": 28,
+   "debut": 177.42
+  },
+  {
+   "mot": "les",
+   "replique": 29,
+   "debut": 178.84
+  },
+  {
+   "mot": "trois",
+   "replique": 29,
+   "debut": 179.58
+  },
+  {
+   "mot": "chiffres",
+   "replique": 29,
+   "debut": 179.82
+  },
+  {
+   "mot": "derriere",
+   "replique": 29,
+   "debut": 180.04
+  },
+  {
+   "mot": "aussi",
+   "replique": 29,
+   "debut": 180.22
+  },
+  {
+   "mot": "bon",
+   "replique": 29,
+   "debut": 181.8
+  },
+  {
+   "mot": "1",
+   "replique": 29,
+   "debut": 183.2
+  },
+  {
+   "mot": "2",
+   "replique": 29,
+   "debut": 183.8
+  },
+  {
+   "mot": "3",
+   "replique": 29,
+   "debut": 184.48
+  },
+  {
+   "mot": "merci",
+   "replique": 30,
+   "debut": 185.72
+  },
+  {
+   "mot": "c",
+   "replique": 30,
+   "debut": 186.58
+  },
+  {
+   "mot": "est",
+   "replique": 30,
+   "debut": 186.84
+  },
+  {
+   "mot": "tout",
+   "replique": 30,
+   "debut": 186.86
+  },
+  {
+   "mot": "bon",
+   "replique": 30,
+   "debut": 186.96
+  },
+  {
+   "mot": "je",
+   "replique": 30,
+   "debut": 187.92
+  },
+  {
+   "mot": "vous",
+   "replique": 30,
+   "debut": 188.46
+  },
+  {
+   "mot": "envoie",
+   "replique": 30,
+   "debut": 188.58
+  },
+  {
+   "mot": "maintenant",
+   "replique": 30,
+   "debut": 188.8
+  },
+  {
+   "mot": "l",
+   "replique": 30,
+   "debut": 189.14
+  },
+  {
+   "mot": "e",
+   "replique": 30,
+   "debut": 189.29
+  },
+  {
+   "mot": "mail",
+   "replique": 30,
+   "debut": 189.43
+  },
+  {
+   "mot": "recapitulatif",
+   "replique": 30,
+   "debut": 189.58
+  },
+  {
+   "mot": "a",
+   "replique": 30,
+   "debut": 190.32
+  },
+  {
+   "mot": "signer",
+   "replique": 30,
+   "debut": 190.5
+  },
+  {
+   "mot": "electroniquement",
+   "replique": 30,
+   "debut": 190.8
+  },
+  {
+   "mot": "vous",
+   "replique": 30,
+   "debut": 192.02
+  },
+  {
+   "mot": "allez",
+   "replique": 30,
+   "debut": 192.3
+  },
+  {
+   "mot": "recevoir",
+   "replique": 30,
+   "debut": 192.44
+  },
+  {
+   "mot": "un",
+   "replique": 30,
+   "debut": 192.82
+  },
+  {
+   "mot": "code",
+   "replique": 30,
+   "debut": 192.98
+  },
+  {
+   "mot": "par",
+   "replique": 30,
+   "debut": 193.26
+  },
+  {
+   "mot": "sms",
+   "replique": 30,
+   "debut": 193.48
+  },
+  {
+   "mot": "saisissez",
+   "replique": 30,
+   "debut": 194.38
+  },
+  {
+   "mot": "le",
+   "replique": 30,
+   "debut": 194.88
+  },
+  {
+   "mot": "vous",
+   "replique": 30,
+   "debut": 195.02
+  },
+  {
+   "mot": "meme",
+   "replique": 30,
+   "debut": 195.22
+  },
+  {
+   "mot": "dans",
+   "replique": 30,
+   "debut": 195.38
+  },
+  {
+   "mot": "l",
+   "replique": 30,
+   "debut": 195.54
+  },
+  {
+   "mot": "e",
+   "replique": 30,
+   "debut": 195.66
+  },
+  {
+   "mot": "mail",
+   "replique": 30,
+   "debut": 195.78
+  },
+  {
+   "mot": "et",
+   "replique": 30,
+   "debut": 195.9
+  },
+  {
+   "mot": "ne",
+   "replique": 30,
+   "debut": 196.34
+  },
+  {
+   "mot": "le",
+   "replique": 30,
+   "debut": 196.48
+  },
+  {
+   "mot": "communiquez",
+   "replique": 30,
+   "debut": 196.58
+  },
+  {
+   "mot": "a",
+   "replique": 30,
+   "debut": 197.1
+  },
+  {
+   "mot": "personne",
+   "replique": 30,
+   "debut": 197.18
+  },
+  {
+   "mot": "voila",
+   "replique": 31,
+   "debut": 198.4
+  },
+  {
+   "mot": "c",
+   "replique": 31,
+   "debut": 199.48
+  },
+  {
+   "mot": "est",
+   "replique": 31,
+   "debut": 199.58
+  },
+  {
+   "mot": "signe",
+   "replique": 31,
+   "debut": 199.6
+  },
+  {
+   "mot": "parfait",
+   "replique": 32,
+   "debut": 200.5
+  },
+  {
+   "mot": "votre",
+   "replique": 32,
+   "debut": 201.56
+  },
+  {
+   "mot": "souscription",
+   "replique": 32,
+   "debut": 201.9
+  },
+  {
+   "mot": "est",
+   "replique": 32,
+   "debut": 202.24
+  },
+  {
+   "mot": "confirmee",
+   "replique": 32,
+   "debut": 202.48
+  },
+  {
+   "mot": "avez",
+   "replique": 32,
+   "debut": 203.84
+  },
+  {
+   "mot": "vous",
+   "replique": 32,
+   "debut": 204.12
+  },
+  {
+   "mot": "d",
+   "replique": 32,
+   "debut": 204.24
+  },
+  {
+   "mot": "autres",
+   "replique": 32,
+   "debut": 204.34
+  },
+  {
+   "mot": "questions",
+   "replique": 32,
+   "debut": 204.42
+  },
+  {
+   "mot": "monsieur",
+   "replique": 32,
+   "debut": 204.94
+  },
+  {
+   "mot": "rousseau",
+   "replique": 32,
+   "debut": 205.06
+  },
+  {
+   "mot": "non",
+   "replique": 33,
+   "debut": 206.1
+  },
+  {
+   "mot": "ca",
+   "replique": 33,
+   "debut": 206.66
+  },
+  {
+   "mot": "ira",
+   "replique": 33,
+   "debut": 206.78
+  },
+  {
+   "mot": "merci",
+   "replique": 34,
+   "debut": 207.54
+  },
+  {
+   "mot": "pour",
+   "replique": 34,
+   "debut": 208.04
+  },
+  {
+   "mot": "votre",
+   "replique": 34,
+   "debut": 208.22
+  },
+  {
+   "mot": "confiance",
+   "replique": 34,
+   "debut": 208.38
+  },
+  {
+   "mot": "bonnes",
+   "replique": 34,
+   "debut": 208.89
+  },
+  {
+   "mot": "soirees",
+   "replique": 34,
+   "debut": 209.39
+  },
+  {
+   "mot": "cinema",
+   "replique": 34,
+   "debut": 209.9
+  },
+  {
+   "mot": "a",
+   "replique": 34,
+   "debut": 210.24
+  },
+  {
+   "mot": "vous",
+   "replique": 34,
+   "debut": 210.38
+  },
+  {
+   "mot": "deux",
+   "replique": 34,
+   "debut": 210.44
+  },
+  {
+   "mot": "et",
+   "replique": 34,
+   "debut": 210.6
+  },
+  {
+   "mot": "tres",
+   "replique": 34,
+   "debut": 211.2
+  },
+  {
+   "mot": "bonne",
+   "replique": 34,
+   "debut": 211.46
+  },
+  {
+   "mot": "journee",
+   "replique": 34,
+   "debut": 211.6
+  },
+  {
+   "mot": "au",
+   "replique": 34,
+   "debut": 212.48
+  },
+  {
+   "mot": "revoir",
+   "replique": 34,
+   "debut": 212.56
+  }
+ ]
+}

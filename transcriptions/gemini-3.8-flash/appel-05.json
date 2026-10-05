@@ -1,0 +1,172 @@
+{
+  "appel": "05",
+  "methode": "gemini-3.8-flash",
+  "date": "2026-10-05T09:54:36",
+  "duree_audio_s": 88.8,
+  "usage": {
+    "promptTokenCount": 2420,
+    "candidatesTokenCount": 1414,
+    "totalTokenCount": 4752,
+    "promptTokensDetails": [
+      {
+        "modality": "AUDIO",
+        "tokenCount": 2221
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 199
+      }
+    ],
+    "thoughtsTokenCount": 918,
+    "serviceTier": "standard"
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "conseiller",
+      "debut": 0.0,
+      "fin": 1.74,
+      "texte": "Kalyo Télécom bonjour."
+    },
+    {
+      "n": 2,
+      "locuteur": "client",
+      "debut": 1.74,
+      "fin": 2.76,
+      "texte": "Bonjour."
+    },
+    {
+      "n": 3,
+      "locuteur": "conseiller",
+      "debut": 2.76,
+      "fin": 12.8,
+      "texte": "Je m'appelle Karim Tazi, je suis votre conseiller clientèle et je vais m'occuper de votre demande. Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité. Puis-je avoir votre nom et prénom ?"
+    },
+    {
+      "n": 4,
+      "locuteur": "client",
+      "debut": 13.06,
+      "fin": 14.12,
+      "texte": "Antoine Petit."
+    },
+    {
+      "n": 5,
+      "locuteur": "conseiller",
+      "debut": 14.18,
+      "fin": 20.94,
+      "texte": "Merci monsieur Petit. Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?"
+    },
+    {
+      "n": 6,
+      "locuteur": "client",
+      "debut": 20.94,
+      "fin": 27.94,
+      "texte": "[numéro masqué] 59000 et le 30 mai 1988."
+    },
+    {
+      "n": 7,
+      "locuteur": "conseiller",
+      "debut": 28.18,
+      "fin": 29.84,
+      "texte": "Merci. Que puis-je faire pour vous ?"
+    },
+    {
+      "n": 8,
+      "locuteur": "client",
+      "debut": 30.12,
+      "fin": 34.98,
+      "texte": "Je voudrais résilier ma box. Je déménage chez ma compagne le mois prochain et elle a déjà internet."
+    },
+    {
+      "n": 9,
+      "locuteur": "conseiller",
+      "debut": 35.18,
+      "fin": 43.14,
+      "texte": "Je comprends. Félicitations pour votre emménagement. Si je comprends bien monsieur Petit, vous quittez votre logement le mois prochain et vous n'aurez plus besoin de votre box, c'est bien ça ?"
+    },
+    {
+      "n": 10,
+      "locuteur": "client",
+      "debut": 43.46,
+      "fin": 44.52,
+      "texte": "Oui, c'est ça."
+    },
+    {
+      "n": 11,
+      "locuteur": "conseiller",
+      "debut": 44.52,
+      "fin": 51.54,
+      "texte": "Avant tout, puis-je vous demander chez quel opérateur est votre compagne ? Nous pourrions peut-être transférer votre box à votre nouvelle adresse avec un débit plus rapide."
+    },
+    {
+      "n": 12,
+      "locuteur": "client",
+      "debut": 51.78,
+      "fin": 55.06,
+      "texte": "Non merci, elle est très contente de son abonnement. Je veux juste résilier."
+    },
+    {
+      "n": 13,
+      "locuteur": "conseiller",
+      "debut": 55.3,
+      "fin": 101.42,
+      "texte": "Très bien, je comprends. Alors, pour une résiliation, le service concerné n'est pas disponible aujourd'hui."
+    },
+    {
+      "n": 14,
+      "locuteur": "client",
+      "debut": 101.52,
+      "fin": 102.32,
+      "texte": "Ah bon ?"
+    },
+    {
+      "n": 15,
+      "locuteur": "conseiller",
+      "debut": 102.34,
+      "fin": 104.4,
+      "texte": "Le plus simple, c'est de nous rappeler la semaine prochaine."
+    },
+    {
+      "n": 16,
+      "locuteur": "client",
+      "debut": 104.58,
+      "fin": 107.56,
+      "texte": "La semaine prochaine ? Mais je vous appelle maintenant, vous ne pouvez pas le faire ?"
+    },
+    {
+      "n": 17,
+      "locuteur": "conseiller",
+      "debut": 107.96,
+      "fin": 114.36,
+      "texte": "Malheureusement non, ce n'est pas moi qui gère les résiliations. Et puis, ça vous laisse quelques jours pour y réfléchir au cas où vous changeriez d'avis."
+    },
+    {
+      "n": 18,
+      "locuteur": "client",
+      "debut": 114.76,
+      "fin": 117.44,
+      "texte": "Je ne vais pas changer d'avis. Bon, d'accord, je rappellerai."
+    },
+    {
+      "n": 19,
+      "locuteur": "conseiller",
+      "debut": 117.72,
+      "fin": 123.14,
+      "texte": "Parfait. Pour récapituler, vous nous rappelez la semaine prochaine pour la résiliation. Avez-vous d'autres questions monsieur Petit ?"
+    },
+    {
+      "n": 20,
+      "locuteur": "client",
+      "debut": 123.36,
+      "fin": 124.08,
+      "texte": "Non."
+    },
+    {
+      "n": 21,
+      "locuteur": "conseiller",
+      "debut": 124.12,
+      "fin": 129.1,
+      "texte": "Merci pour votre appel monsieur Petit et encore félicitations pour votre emménagement. Très bonne journée, au revoir."
+    }
+  ]
+}
