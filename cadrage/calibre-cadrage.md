@@ -72,7 +72,7 @@ Chaque appel arrive avec une fiche d'identité : **matricule du conseiller**, **
 
 ### 4.3 Éliminatoires (l'appel est « Non conforme », quelle que soit la note)
 1. **Demander des données bancaires ou sensibles** : numéro de carte, date d'expiration, cryptogramme, code reçu par SMS (de la banque ou de signature).
-2. **Mentir ou faire une fausse promesse qui engage l'entreprise** (prix, remise, geste commercial, délai, conditions), **quel que soit le but** : vendre, retenir ou calmer le client. Une information approximative ou une excuse sans engagement (« ça devrait se régler », « le service n'est pas disponible aujourd'hui ») n'est pas un éliminatoire : elle est notée dans les items, et peut déclencher une mise en garde si c'est une faute listée.
+2. **Mentir ou faire une fausse promesse qui engage l'entreprise** (prix, remise, geste commercial, délai, conditions), **quel que soit le but** : vendre, retenir ou calmer le client. Une information approximative ou une excuse sans engagement (« ça devrait se régler », « le service n'est pas disponible aujourd'hui ») n'est pas un éliminatoire : elle est notée dans les items, et peut déclencher une mise en garde si c'est une faute listée. **Calibre juge ce qui est dit, pas l'intention** : une affirmation fausse sur un prix, une remise, un geste, un délai ou une condition, qui engage l'entreprise, est un éliminatoire ; c'est le qualiticien qui juge ensuite l'intention lors de la réécoute.
 3. **Valider une souscription sans l'accord clair du client** (vente forcée).
 
 ### 4.4 Mises en garde (quelle que soit la note)
@@ -437,7 +437,7 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 ### Scénario 6 – La résiliation refusée et l'option imposée (service client)
 
 **Situation :** Madame Benoît veut résilier sa ligne mobile, car elle a trouvé moins cher ailleurs. Elle paie son smartphone en 24 mensualités.
-**Niveau visé :** **Non conforme** (éliminatoire : souscription sans accord), plus une mise en garde (résiliation refusée).
+**Niveau visé :** **Non conforme** (éliminatoires : souscription sans accord, et fausse condition de résiliation pour retenir la cliente), plus une mise en garde (résiliation refusée).
 **Fautes voulues :** résiliation refusée avec une information fausse (le forfait est sans engagement ; en cas de résiliation, le reste du financement devient exigible en une fois, DOC-01 [CAT-10]) ; « ce n'est pas possible » ; escalade refusée ; rétention ratée ; Pack Horizon activé sans accord, sans tarif complet, sans rétractation.
 
 > **Conseiller :** Kalyo Télécom, bonjour !
@@ -853,7 +853,7 @@ Les notes visées ci-dessous sont indicatives : la référence officielle sera l
 ### Scénario 13 – La carte bancaire (télévente)
 
 **Situation :** un mardi à 16 h, le conseiller appelle Monsieur Rousseau, client Box Essentielle avec l'option décodeur.
-**Niveau visé :** **Non conforme** (éliminatoire : données bancaires demandées).
+**Niveau visé :** **Non conforme** (éliminatoires : données bancaires demandées, et faux délai d'activation pour obtenir la carte).
 **Fautes voulues :** numéro de carte, date d'expiration et cryptogramme demandés à l'oral ; faux prétexte (« sinon l'activation peut prendre plusieurs jours ») alors que le pack est ajouté à la facture et prélevé avec l'abonnement ; méfiance du client désamorcée. Piège pour l'IA : le conseiller protège ensuite correctement le code de signature, ce qui ne doit pas atténuer la faute.
 
 > **Client :** Allô ?

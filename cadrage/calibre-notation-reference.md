@@ -19,7 +19,7 @@ Ces règles complètent la section 4 du cadrage et priment en cas de doute.
 10. **Le niveau et les alertes sont deux résultats distincts** : un appel peut être « Conforme » et recevoir une mise en garde (scénario 5).
 11. **Un écart de procédure hors grille est signalé en remarque de conformité, sans effet sur la note.** Le rapport de Calibre comporte une rubrique **« Remarques de conformité »**, distincte de la notation : elle liste les écarts à la documentation de Kalyo qui ne relèvent d'aucun item de la grille, avec la règle concernée et la preuve.
 12. **Un oubli isolé ne fait pas baisser le niveau** si le reste de l'appel est réussi : c'est le pourcentage qui décide du niveau. L'item manqué est noté « non » et fait l'objet d'un point de coaching. *(Illustrée par les exemples 1 et 2 de `calibre-exemples-notation.md`.)*
-13. **Éliminatoire 2, élargi : mentir ou faire une fausse promesse qui engage l'entreprise** (prix, remise, geste commercial, délai, conditions), **quel que soit le but** : vendre, retenir ou calmer le client. Une information approximative ou une excuse sans engagement (« ça devrait se régler », « le service n'est pas disponible aujourd'hui ») n'est **pas** un éliminatoire : elle est notée dans les items, et peut déclencher une mise en garde si c'est une faute listée. *(Illustrée par l'exemple 3 de `calibre-exemples-notation.md`.)*
+13. **Éliminatoire 2, élargi : mentir ou faire une fausse promesse qui engage l'entreprise** (prix, remise, geste commercial, délai, conditions), **quel que soit le but** : vendre, retenir ou calmer le client. Une information approximative ou une excuse sans engagement (« ça devrait se régler », « le service n'est pas disponible aujourd'hui ») n'est **pas** un éliminatoire : elle est notée dans les items, et peut déclencher une mise en garde si c'est une faute listée. **Calibre juge ce qui est dit, pas l'intention** : une affirmation fausse sur un prix, une remise, un geste, un délai ou une condition, qui engage l'entreprise, est un éliminatoire ; c'est le qualiticien qui juge ensuite l'intention lors de la réécoute. *(Illustrée par l'exemple 3 de `calibre-exemples-notation.md`.)*
 
 ## 2. Grille 1 – Service client (16 items)
 
@@ -30,7 +30,7 @@ Ces règles complètent la section 4 du cadrage et priment en cas de doute.
 | S3 Le client en colère | O | O | N | O | N | N | O | O | – | – | – | – | – | – | – | O | 6 / 9 | 67 % | À améliorer | Coaching ciblé |
 | S4 L'appel bâclé | N | N | O | N | N | N | N | N | – | – | – | N | – | N | – | N | 1 / 11 | 9 % | Insuffisant | Mise en garde |
 | S5 La résiliation retardée | O | O | O | O | O | O | N | O | N | O | – | – | – | N | – | O | 9 / 12 | 75 % | Conforme | Mise en garde (résiliation retardée) |
-| S6 Résiliation refusée et option imposée | O | O | O | O | N | N | N | O | N | N | N | – | – | N | N | N | 5 / 14 | 36 % | **Non conforme** | Avertissement (souscription sans accord), qui englobe les mises en garde |
+| S6 Résiliation refusée et option imposée | O | O | O | O | N | N | N | O | N | N | N | – | – | N | N | N | 5 / 14 | 36 % | **Non conforme** | Avertissement (souscription sans accord ; fausse condition de résiliation, pour retenir la cliente), qui englobe les mises en garde |
 
 ## 3. Grille 2 – Télévente sortante (14 items)
 
@@ -42,20 +42,20 @@ Ces règles complètent la section 4 du cadrage et priment en cas de doute.
 | S10 La pression excessive | N | O | N | N | O | N | N | N | – | – | – | N | – | N | 2 / 10 | 20 % | Insuffisant | Mise en garde |
 | S11 La panne ignorée | O | O | N | N | O | O | N | O | – | – | – | O | N | O | 7 / 11 | 64 % | À améliorer | Mise en garde (panne ignorée) |
 | S12 Le mensonge | O | O | O | N | O | O | N | O | N | O | N | – | – | O | 8 / 12 | 67 % | **Non conforme** | Avertissement (mensonge pour vendre) |
-| S13 La carte bancaire | O | O | O | N | O | O | – | O | O | O | N | – | – | O | 9 / 11 | 82 % | **Non conforme** | Avertissement (données bancaires) |
+| S13 La carte bancaire | O | O | O | N | O | O | – | O | O | O | N | – | – | O | 9 / 11 | 82 % | **Non conforme** | Avertissement (données bancaires ; faux délai d'activation, pour obtenir la carte) |
 
 ## 4. Coachings et preuves de référence
 
 - **S3** : « Le diagnostic et la solution sont excellents. Laissez le client finir, remplacez "Calmez-vous" par "Je comprends votre agacement, je vais vous aider", et ne vous défaussez jamais sur vos collègues. » Preuves : « Oui, oui, j'ai compris », « Calmez-vous, Monsieur Martin », « Ce n'est pas moi qui ai traité vos appels précédents ».
 - **S4** : présentation, enregistrement, questions, reformulation, explication sans jargon, vérification à distance ou escalade, personnalisation et conclusion manquent. L'opportunité (le match du soir) ne pouvait être saisie qu'après la résolution du problème. Preuves : « Votre numéro de ligne ? », « Normalement, ça devrait marcher », « Faites d'abord le reset ».
 - **S5** : preuves de la résiliation retardée : « le service concerné n'est pas disponible aujourd'hui », « ce n'est pas moi qui gère les résiliations », « ça vous laisse quelques jours pour y réfléchir ».
-- **S6** : preuves : « Je ne peux pas enregistrer votre résiliation aujourd'hui, ce n'est pas possible », « Mon responsable vous dira la même chose », « Voilà, c'est activé, vous l'avez dès ce soir ».
+- **S6** : preuves : « vous ne pouvez pas résilier votre ligne tant que votre téléphone n'est pas entièrement payé » (fausse condition, règle 13), « Je ne peux pas enregistrer votre résiliation aujourd'hui, ce n'est pas possible », « Mon responsable vous dira la même chose », « Voilà, c'est activé, vous l'avez dès ce soir ».
 - **S8** : « Très bon traitement du refus. Une découverte plus complète vous aurait peut-être permis de trouver une offre plus adaptée, comme le Pack Horizon. »
 - **S9** : « Commencez toujours par découvrir avant de proposer. Une seule question au départ vous aurait appris que ce client vit seul et regarde surtout les informations. »
 - **S10** : preuves : « Franchement, vous allez le regretter », « Pensez au moins à vos enfants », « Tous les parents le prennent », « les plateformes de streaming, honnêtement, ce n'est pas terrible pour les enfants ».
 - **S11** : preuves : « ça arrive parfois le soir… Ça devrait se régler », « avec le premier mois offert, vous ne prenez aucun risque », « je vous conseille d'appeler le service client ».
 - **S12** : preuves : « je vous bloque le prix à 6,99 € par mois pendant un an… cette remise n'est valable qu'aujourd'hui », « le système affiche toujours le tarif standard. Votre remise sera appliquée automatiquement ».
-- **S13** : preuves : « il doit être rattaché à une carte, sinon l'activation peut prendre plusieurs jours », « les seize chiffres au recto… la date d'expiration… les trois chiffres au dos, le cryptogramme ». Piège : la bonne pratique sur le code SMS en fin d'appel ne doit pas atténuer la faute.
+- **S13** : preuves : « il doit être rattaché à une carte, sinon l'activation peut prendre plusieurs jours » (faux délai, règle 13), « les seize chiffres au recto… la date d'expiration… les trois chiffres au dos, le cryptogramme ». Piège : la bonne pratique sur le code SMS en fin d'appel ne doit pas atténuer la faute.
 
 ## 5. Répartition obtenue
 
