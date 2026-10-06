@@ -1,0 +1,177 @@
+{
+  "appel": "06",
+  "methode": "hybride-locale-lexique",
+  "date": "2026-10-05T17:56:06",
+  "duree_audio_s": 122.8,
+  "usage": {
+    "source_mots": "whisper-medium",
+    "locuteurs": "gemma-4-26b-a4b-it",
+    "segments": 50,
+    "anomalies": [],
+    "usage": {
+      "promptTokenCount": 1313,
+      "candidatesTokenCount": 1633,
+      "totalTokenCount": 5722,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1313
+        }
+      ],
+      "thoughtsTokenCount": 2776,
+      "serviceTier": "standard"
+    },
+    "lexique": [
+      "'au' → 'Kalyo' (devant Télécom)"
+    ]
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "conseiller",
+      "debut": 0.0,
+      "fin": 2.1,
+      "texte": "qui allait Kalyo Télécom, bonjour."
+    },
+    {
+      "n": 2,
+      "locuteur": "client",
+      "debut": 2.66,
+      "fin": 2.98,
+      "texte": "Bonjour."
+    },
+    {
+      "n": 3,
+      "locuteur": "conseiller",
+      "debut": 4.4,
+      "fin": 16.0,
+      "texte": "Je m 'appelle Mehdi Alaoui, je suis votre conseiller clientèle et je vais prendre en charge votre demande. Je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité. Puis -je avoir votre nom et prénom ?"
+    },
+    {
+      "n": 4,
+      "locuteur": "client",
+      "debut": 16.52,
+      "fin": 17.36,
+      "texte": "Sandrine Benoît."
+    },
+    {
+      "n": 5,
+      "locuteur": "conseiller",
+      "debut": 17.94,
+      "fin": 25.98,
+      "texte": "Merci Madame Benoît. Pour sécuriser votre dossier, pouvez -vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?"
+    },
+    {
+      "n": 6,
+      "locuteur": "client",
+      "debut": 25.98,
+      "fin": 34.96,
+      "texte": "[numéro masqué] 33000, le 9 septembre 1975."
+    },
+    {
+      "n": 7,
+      "locuteur": "conseiller",
+      "debut": 35.78,
+      "fin": 39.12,
+      "texte": "Merci. Que puis -je faire pour vous ?"
+    },
+    {
+      "n": 8,
+      "locuteur": "client",
+      "debut": 39.12,
+      "fin": 43.28,
+      "texte": "Je souhaite résilier ma ligne mobile. J 'ai trouvé un forfait moins cher chez un autre opérateur."
+    },
+    {
+      "n": 9,
+      "locuteur": "conseiller",
+      "debut": 44.52,
+      "fin": 49.44,
+      "texte": "Je comprends, Madame Benoît. Puis -je vous demander quel forfait vous avez trouvé ?"
+    },
+    {
+      "n": 10,
+      "locuteur": "client",
+      "debut": 49.44,
+      "fin": 51.4,
+      "texte": "100 gigas pour 10 euros par mois."
+    },
+    {
+      "n": 11,
+      "locuteur": "conseiller",
+      "debut": 52.32,
+      "fin": 63.32,
+      "texte": "D 'accord. Un instant s 'il vous plaît. De mon côté, je vois que vous payez votre smartphone en 24 mensualités et qu 'il vous en reste 14."
+    },
+    {
+      "n": 12,
+      "locuteur": "client",
+      "debut": 63.98,
+      "fin": 65.74,
+      "texte": "Oui, et alors ?"
+    },
+    {
+      "n": 13,
+      "locuteur": "conseiller",
+      "debut": 65.74,
+      "fin": 73.64,
+      "texte": "Alors, malheureusement vous ne pouvez pas résilier votre ligne tant que votre téléphone n 'est pas entièrement payé. Il faudra attendre la fin du financement."
+    },
+    {
+      "n": 14,
+      "locuteur": "client",
+      "debut": 74.34,
+      "fin": 78.94,
+      "texte": "Comment ça ? On ne m 'a jamais dit ça. Mon forfait est sans engagement."
+    },
+    {
+      "n": 15,
+      "locuteur": "conseiller",
+      "debut": 79.68,
+      "fin": 84.88,
+      "texte": "Le forfait oui, mais le téléphone vous engage. Je ne peux pas enregistrer votre résiliation aujourd 'hui."
+    },
+    {
+      "n": 16,
+      "locuteur": "client",
+      "debut": 85.02,
+      "fin": 90.28,
+      "texte": "Ce n 'est pas possible. C 'est n 'importe quoi. Je veux parler à un responsable."
+    },
+    {
+      "n": 17,
+      "locuteur": "conseiller",
+      "debut": 91.0,
+      "fin": 105.3,
+      "texte": "Mon responsable vous le dira à la même chose, Madame Benoît. Mais je vois que vous avez aussi notre box évolution. Pour vous remercier de votre fidélité, je vous active le pack Horizon. 35 chaînes de films et de séries et le premier mois est offert."
+    },
+    {
+      "n": 18,
+      "locuteur": "client",
+      "debut": 106.52,
+      "fin": 108.32,
+      "texte": "Je ne sais pas, ce n 'est pas ce que je demandais."
+    },
+    {
+      "n": 19,
+      "locuteur": "conseiller",
+      "debut": 108.92,
+      "fin": 112.12,
+      "texte": "Vous verrez, ça vous plaira. Voilà, c 'est activé."
+    },
+    {
+      "n": 20,
+      "locuteur": "client",
+      "debut": 112.42,
+      "fin": 117.68,
+      "texte": "Vous l 'avez dit ce soir. Je [inaudible] me renseigner ailleurs pour ma ligne."
+    },
+    {
+      "n": 21,
+      "locuteur": "conseiller",
+      "debut": 118.3,
+      "fin": 122.38,
+      "texte": "Très bien. Merci pour votre appel, Madame Benoît. Bonne journée."
+    }
+  ]
+}

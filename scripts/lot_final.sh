@@ -15,15 +15,15 @@ for n in "${echec_t[@]}"; do
   echo "nouvelle tentative : transcription de l'appel $n"
   $PY scripts/hybride_locale.py "$n" 2>&1 | grep -v '^ \{2,\}' | tail -3; sleep 75
 done
-DOSSIER=notations/gemma-4-26b-a4b-it-reduit-hybride-locale
+DOSSIER=notations/gemma-4-26b-a4b-it-reduit-${SOURCE:-hybride-locale}
 for n in $2; do
-  [ -f "transcriptions/hybride-locale/appel-$n.json" ] || { echo "appel $n : pas de transcription, notation impossible"; continue; }
-  $PY scripts/noter.py --appels "$n" --modele gemma-4-26b-a4b-it --reduit --source hybride-locale 2>&1 | grep -v '^ \{2,\}' | tail -3
+  [ -f "transcriptions/${SOURCE:-hybride-locale}/appel-$n.json" ] || { echo "appel $n : pas de transcription, notation impossible"; continue; }
+  $PY scripts/noter.py --appels "$n" --modele gemma-4-26b-a4b-it --reduit --source "${SOURCE:-hybride-locale}" 2>&1 | grep -v '^ \{2,\}' | tail -3
   [ -f "$DOSSIER/appel-$n.json" ] || echec_n+=("$n")
   sleep 75
 done
 for n in "${echec_n[@]}"; do
   echo "nouvelle tentative : notation de l'appel $n"
-  $PY scripts/noter.py --appels "$n" --modele gemma-4-26b-a4b-it --reduit --source hybride-locale 2>&1 | grep -v '^ \{2,\}' | tail -3; sleep 75
+  $PY scripts/noter.py --appels "$n" --modele gemma-4-26b-a4b-it --reduit --source "${SOURCE:-hybride-locale}" 2>&1 | grep -v '^ \{2,\}' | tail -3; sleep 75
 done
 echo "=== FIN $(date +%H:%M:%S)"

@@ -1,0 +1,1790 @@
+[
+  {
+    "appel": "01",
+    "methode": "hybride-locale-lexique",
+    "mots_retrouves_pct": 90.1,
+    "wer_pct": 10.9,
+    "mots_bon_locuteur_pct": 98.7,
+    "repliques_bien_attribuees_pct": 97.4,
+    "repliques": {
+      "scenario": 40,
+      "transcription": 46
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 2,
+      "transcription": 2,
+      "fuites": 0
+    },
+    "inaudible": 5,
+    "mots_inventes_pour_100": 8.2,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.22,
+    "repliques_a_moins_1s_pct": 97.7
+  },
+  {
+    "appel": "01",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 89.7,
+    "wer_pct": 11.2,
+    "mots_bon_locuteur_pct": 98.7,
+    "repliques_bien_attribuees_pct": 97.4,
+    "repliques": {
+      "scenario": 40,
+      "transcription": 46
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 2,
+      "transcription": 2,
+      "fuites": 0
+    },
+    "inaudible": 5,
+    "mots_inventes_pour_100": 8.5,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.22,
+    "repliques_a_moins_1s_pct": 97.7
+  },
+  {
+    "appel": "01",
+    "methode": "gemini-3.5-transcribe",
+    "mots_retrouves_pct": 95.2,
+    "wer_pct": 4.8,
+    "mots_bon_locuteur_pct": 99.6,
+    "repliques_bien_attribuees_pct": 97.5,
+    "repliques": {
+      "scenario": 40,
+      "transcription": 40
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 2,
+      "transcription": 2,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 2.8,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.21,
+    "repliques_a_moins_1s_pct": 97.5
+  },
+  {
+    "appel": "01",
+    "methode": "whisper-medium",
+    "mots_retrouves_pct": 89.7,
+    "wer_pct": 11.2,
+    "mots_bon_locuteur_pct": 65.9,
+    "repliques_bien_attribuees_pct": 73.7,
+    "repliques": {
+      "scenario": 40,
+      "transcription": 38
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 2,
+      "transcription": 2,
+      "fuites": 0
+    },
+    "inaudible": 5,
+    "mots_inventes_pour_100": 8.5,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.19,
+    "repliques_a_moins_1s_pct": 97.4
+  },
+  {
+    "appel": "02",
+    "methode": "hybride-locale-lexique",
+    "mots_retrouves_pct": 98.2,
+    "wer_pct": 4.0,
+    "mots_bon_locuteur_pct": 99.1,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 22,
+      "transcription": 24
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 4.0,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "02",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 98.0,
+    "wer_pct": 4.5,
+    "mots_bon_locuteur_pct": 99.1,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 22,
+      "transcription": 24
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 4.5,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "02",
+    "methode": "gemini-3.5-transcribe",
+    "mots_retrouves_pct": 98.0,
+    "wer_pct": 2.0,
+    "mots_bon_locuteur_pct": 99.8,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 22,
+      "transcription": 22
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 1.8,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.08,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "02",
+    "methode": "whisper-medium",
+    "mots_retrouves_pct": 98.0,
+    "wer_pct": 4.5,
+    "mots_bon_locuteur_pct": 59.8,
+    "repliques_bien_attribuees_pct": 68.2,
+    "repliques": {
+      "scenario": 22,
+      "transcription": 16
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 4.5,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.13,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "03",
+    "methode": "hybride-locale-lexique",
+    "mots_retrouves_pct": 95.5,
+    "wer_pct": 5.2,
+    "mots_bon_locuteur_pct": 98.8,
+    "repliques_bien_attribuees_pct": 95.8,
+    "repliques": {
+      "scenario": 27,
+      "transcription": 24
+    },
+    "preuves": [
+      {
+        "preuve": "Oui, oui, j'ai compris",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Calmez-vous, Monsieur Martin",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Ce n'est pas moi qui ai traité vos appels précédents",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 2.7,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.16,
+    "repliques_a_moins_1s_pct": 91.3
+  },
+  {
+    "appel": "03",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 95.5,
+    "wer_pct": 5.2,
+    "mots_bon_locuteur_pct": 98.8,
+    "repliques_bien_attribuees_pct": 95.8,
+    "repliques": {
+      "scenario": 27,
+      "transcription": 24
+    },
+    "preuves": [
+      {
+        "preuve": "Oui, oui, j'ai compris",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Calmez-vous, Monsieur Martin",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Ce n'est pas moi qui ai traité vos appels précédents",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 2.7,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.16,
+    "repliques_a_moins_1s_pct": 91.3
+  },
+  {
+    "appel": "03",
+    "methode": "gemini-3.5-transcribe",
+    "mots_retrouves_pct": 98.0,
+    "wer_pct": 2.3,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 27,
+      "transcription": 25
+    },
+    "preuves": [
+      {
+        "preuve": "Oui, oui, j'ai compris",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Calmez-vous, Monsieur Martin",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Ce n'est pas moi qui ai traité vos appels précédents",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 1.1,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.18,
+    "repliques_a_moins_1s_pct": 92.0
+  },
+  {
+    "appel": "03",
+    "methode": "whisper-medium",
+    "mots_retrouves_pct": 95.5,
+    "wer_pct": 5.2,
+    "mots_bon_locuteur_pct": 74.0,
+    "repliques_bien_attribuees_pct": 70.8,
+    "repliques": {
+      "scenario": 27,
+      "transcription": 21
+    },
+    "preuves": [
+      {
+        "preuve": "Oui, oui, j'ai compris",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Calmez-vous, Monsieur Martin",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Ce n'est pas moi qui ai traité vos appels précédents",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 2.7,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.16,
+    "repliques_a_moins_1s_pct": 95.0
+  },
+  {
+    "appel": "04",
+    "methode": "hybride-locale-lexique",
+    "mots_retrouves_pct": 95.9,
+    "wer_pct": 4.7,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 19,
+      "transcription": 19
+    },
+    "preuves": [
+      {
+        "preuve": "Votre numéro de ligne ?",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Normalement, ça devrait marcher",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Faites d'abord le reset",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 2.9,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.18,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "04",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 95.3,
+    "wer_pct": 5.2,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 19,
+      "transcription": 19
+    },
+    "preuves": [
+      {
+        "preuve": "Votre numéro de ligne ?",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Normalement, ça devrait marcher",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Faites d'abord le reset",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 3.5,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.18,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "04",
+    "methode": "gemini-3.5-transcribe",
+    "mots_retrouves_pct": 97.1,
+    "wer_pct": 3.5,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 19,
+      "transcription": 19
+    },
+    "preuves": [
+      {
+        "preuve": "Votre numéro de ligne ?",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Normalement, ça devrait marcher",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Faites d'abord le reset",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 2.9,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.1,
+    "repliques_a_moins_1s_pct": 94.7
+  },
+  {
+    "appel": "04",
+    "methode": "whisper-medium",
+    "mots_retrouves_pct": 95.3,
+    "wer_pct": 5.2,
+    "mots_bon_locuteur_pct": 70.7,
+    "repliques_bien_attribuees_pct": 57.9,
+    "repliques": {
+      "scenario": 19,
+      "transcription": 7
+    },
+    "preuves": [
+      {
+        "preuve": "Votre numéro de ligne ?",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Normalement, ça devrait marcher",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Faites d'abord le reset",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 3.5,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.18,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "05",
+    "methode": "hybride-locale-lexique",
+    "mots_retrouves_pct": 97.7,
+    "wer_pct": 2.3,
+    "mots_bon_locuteur_pct": 99.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 22
+    },
+    "preuves": [
+      {
+        "preuve": "le service concerné n'est pas disponible aujourd'hui",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "ce n'est pas moi qui gère les résiliations",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "ça vous laisse quelques jours pour y réfléchir",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 1.6,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 90.9
+  },
+  {
+    "appel": "05",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 97.4,
+    "wer_pct": 2.6,
+    "mots_bon_locuteur_pct": 99.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 22
+    },
+    "preuves": [
+      {
+        "preuve": "le service concerné n'est pas disponible aujourd'hui",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "ce n'est pas moi qui gère les résiliations",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "ça vous laisse quelques jours pour y réfléchir",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 1.9,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 90.9
+  },
+  {
+    "appel": "05",
+    "methode": "gemini-3.5-transcribe",
+    "mots_retrouves_pct": 98.4,
+    "wer_pct": 2.3,
+    "mots_bon_locuteur_pct": 85.5,
+    "repliques_bien_attribuees_pct": 85.7,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 24
+    },
+    "preuves": [
+      {
+        "preuve": "le service concerné n'est pas disponible aujourd'hui",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "ce n'est pas moi qui gère les résiliations",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "ça vous laisse quelques jours pour y réfléchir",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 1.3,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.1,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "05",
+    "methode": "whisper-medium",
+    "mots_retrouves_pct": 97.4,
+    "wer_pct": 2.6,
+    "mots_bon_locuteur_pct": 73.0,
+    "repliques_bien_attribuees_pct": 52.4,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 1
+    },
+    "preuves": [
+      {
+        "preuve": "le service concerné n'est pas disponible aujourd'hui",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "ce n'est pas moi qui gère les résiliations",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "ça vous laisse quelques jours pour y réfléchir",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 1.9,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 1.04,
+    "repliques_a_moins_1s_pct": 0.0
+  },
+  {
+    "appel": "06",
+    "methode": "hybride-locale-lexique",
+    "mots_retrouves_pct": 98.5,
+    "wer_pct": 3.1,
+    "mots_bon_locuteur_pct": 96.9,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 21
+    },
+    "preuves": [
+      {
+        "preuve": "vous ne pouvez pas résilier votre ligne tant que votre téléphone n'est pas entièrement payé",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Je ne peux pas enregistrer votre résiliation aujourd'hui, ce n'est pas possible",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Mon responsable vous dira la même chose",
+        "statut": "approchée",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Voilà, c'est activé, vous l'avez dès ce soir",
+        "statut": "approchée",
+        "bon_locuteur": false
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 1,
+    "mots_inventes_pour_100": 2.1,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.3,
+    "repliques_a_moins_1s_pct": 95.2
+  },
+  {
+    "appel": "06",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 98.2,
+    "wer_pct": 3.4,
+    "mots_bon_locuteur_pct": 96.9,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 21
+    },
+    "preuves": [
+      {
+        "preuve": "vous ne pouvez pas résilier votre ligne tant que votre téléphone n'est pas entièrement payé",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Je ne peux pas enregistrer votre résiliation aujourd'hui, ce n'est pas possible",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Mon responsable vous dira la même chose",
+        "statut": "approchée",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Voilà, c'est activé, vous l'avez dès ce soir",
+        "statut": "approchée",
+        "bon_locuteur": false
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 1,
+    "mots_inventes_pour_100": 2.5,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.3,
+    "repliques_a_moins_1s_pct": 95.2
+  },
+  {
+    "appel": "06",
+    "methode": "gemini-3.5-transcribe",
+    "mots_retrouves_pct": 97.9,
+    "wer_pct": 3.4,
+    "mots_bon_locuteur_pct": 99.7,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 21
+    },
+    "preuves": [
+      {
+        "preuve": "vous ne pouvez pas résilier votre ligne tant que votre téléphone n'est pas entièrement payé",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Je ne peux pas enregistrer votre résiliation aujourd'hui, ce n'est pas possible",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Mon responsable vous dira la même chose",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Voilà, c'est activé, vous l'avez dès ce soir",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 2.5,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.26,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "06",
+    "methode": "whisper-medium",
+    "mots_retrouves_pct": 98.2,
+    "wer_pct": 3.4,
+    "mots_bon_locuteur_pct": 76.6,
+    "repliques_bien_attribuees_pct": 85.7,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 20
+    },
+    "preuves": [
+      {
+        "preuve": "vous ne pouvez pas résilier votre ligne tant que votre téléphone n'est pas entièrement payé",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Je ne peux pas enregistrer votre résiliation aujourd'hui, ce n'est pas possible",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Mon responsable vous dira la même chose",
+        "statut": "approchée",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Voilà, c'est activé, vous l'avez dès ce soir",
+        "statut": "approchée",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 1,
+      "transcription": 1,
+      "fuites": 0
+    },
+    "inaudible": 1,
+    "mots_inventes_pour_100": 2.5,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.29,
+    "repliques_a_moins_1s_pct": 95.0
+  },
+  {
+    "appel": "07",
+    "methode": "hybride-locale-lexique",
+    "mots_retrouves_pct": 93.3,
+    "wer_pct": 7.6,
+    "mots_bon_locuteur_pct": 98.3,
+    "repliques_bien_attribuees_pct": 97.6,
+    "repliques": {
+      "scenario": 43,
+      "transcription": 42
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 6,
+    "mots_inventes_pour_100": 5.2,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.22,
+    "repliques_a_moins_1s_pct": 97.6
+  },
+  {
+    "appel": "07",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 92.9,
+    "wer_pct": 8.0,
+    "mots_bon_locuteur_pct": 98.3,
+    "repliques_bien_attribuees_pct": 97.6,
+    "repliques": {
+      "scenario": 43,
+      "transcription": 42
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 6,
+    "mots_inventes_pour_100": 5.6,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.22,
+    "repliques_a_moins_1s_pct": 97.6
+  },
+  {
+    "appel": "07",
+    "methode": "gemini-3.5-transcribe",
+    "mots_retrouves_pct": 94.4,
+    "wer_pct": 5.9,
+    "mots_bon_locuteur_pct": 98.1,
+    "repliques_bien_attribuees_pct": 92.7,
+    "repliques": {
+      "scenario": 43,
+      "transcription": 37
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 3.8,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.18,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "07",
+    "methode": "whisper-medium",
+    "mots_retrouves_pct": 92.9,
+    "wer_pct": 8.0,
+    "mots_bon_locuteur_pct": 63.8,
+    "repliques_bien_attribuees_pct": 46.3,
+    "repliques": {
+      "scenario": 43,
+      "transcription": 51
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 6,
+    "mots_inventes_pour_100": 5.6,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.14,
+    "repliques_a_moins_1s_pct": 96.1
+  },
+  {
+    "appel": "08",
+    "methode": "hybride-locale-lexique",
+    "mots_retrouves_pct": 97.7,
+    "wer_pct": 2.6,
+    "mots_bon_locuteur_pct": 99.7,
+    "repliques_bien_attribuees_pct": 95.2,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 19
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 1,
+    "mots_inventes_pour_100": 2.3,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "08",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 97.2,
+    "wer_pct": 3.1,
+    "mots_bon_locuteur_pct": 99.7,
+    "repliques_bien_attribuees_pct": 95.2,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 19
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 1,
+    "mots_inventes_pour_100": 2.6,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "08",
+    "methode": "gemini-3.5-transcribe",
+    "mots_retrouves_pct": 99.5,
+    "wer_pct": 0.8,
+    "mots_bon_locuteur_pct": 80.5,
+    "repliques_bien_attribuees_pct": 47.6,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 1
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 0.8,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.1,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "08",
+    "methode": "whisper-medium",
+    "mots_retrouves_pct": 97.2,
+    "wer_pct": 3.1,
+    "mots_bon_locuteur_pct": 50.0,
+    "repliques_bien_attribuees_pct": 57.1,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 18
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 1,
+    "mots_inventes_pour_100": 2.6,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "09",
+    "methode": "hybride-locale-lexique",
+    "mots_retrouves_pct": 96.6,
+    "wer_pct": 5.5,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 21
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 1,
+    "mots_inventes_pour_100": 5.0,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "09",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 96.1,
+    "wer_pct": 6.1,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 21
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 1,
+    "mots_inventes_pour_100": 5.3,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "09",
+    "methode": "gemini-3.5-transcribe",
+    "mots_retrouves_pct": 98.2,
+    "wer_pct": 3.7,
+    "mots_bon_locuteur_pct": 70.0,
+    "repliques_bien_attribuees_pct": 61.9,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 10
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 3.7,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.08,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "09",
+    "methode": "whisper-medium",
+    "mots_retrouves_pct": 96.1,
+    "wer_pct": 6.1,
+    "mots_bon_locuteur_pct": 21.1,
+    "repliques_bien_attribuees_pct": 47.6,
+    "repliques": {
+      "scenario": 21,
+      "transcription": 6
+    },
+    "preuves": [],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 1,
+    "mots_inventes_pour_100": 5.3,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.1,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "10",
+    "methode": "hybride-locale-lexique",
+    "mots_retrouves_pct": 94.9,
+    "wer_pct": 8.4,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 20,
+      "transcription": 20
+    },
+    "preuves": [
+      {
+        "preuve": "Franchement, vous allez le regretter",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Pensez au moins à vos enfants",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Tous les parents le prennent",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "les plateformes de streaming, honnêtement, ce n'est pas terrible pour les enfants",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 1,
+    "mots_inventes_pour_100": 8.4,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "10",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 94.4,
+    "wer_pct": 8.9,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 20,
+      "transcription": 20
+    },
+    "preuves": [
+      {
+        "preuve": "Franchement, vous allez le regretter",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Pensez au moins à vos enfants",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Tous les parents le prennent",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "les plateformes de streaming, honnêtement, ce n'est pas terrible pour les enfants",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 1,
+    "mots_inventes_pour_100": 8.9,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "10",
+    "methode": "gemini-3.5-transcribe",
+    "mots_retrouves_pct": 94.9,
+    "wer_pct": 5.1,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 20,
+      "transcription": 20
+    },
+    "preuves": [
+      {
+        "preuve": "Franchement, vous allez le regretter",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Pensez au moins à vos enfants",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Tous les parents le prennent",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "les plateformes de streaming, honnêtement, ce n'est pas terrible pour les enfants",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 1.4,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.16,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "10",
+    "methode": "whisper-medium",
+    "mots_retrouves_pct": 94.4,
+    "wer_pct": 8.9,
+    "mots_bon_locuteur_pct": 74.8,
+    "repliques_bien_attribuees_pct": 55.0,
+    "repliques": {
+      "scenario": 20,
+      "transcription": 8
+    },
+    "preuves": [
+      {
+        "preuve": "Franchement, vous allez le regretter",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Pensez au moins à vos enfants",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Tous les parents le prennent",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "les plateformes de streaming, honnêtement, ce n'est pas terrible pour les enfants",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 1,
+    "mots_inventes_pour_100": 8.9,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.04,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "11",
+    "methode": "hybride-locale-lexique",
+    "mots_retrouves_pct": 98.5,
+    "wer_pct": 1.5,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 24,
+      "transcription": 24
+    },
+    "preuves": [
+      {
+        "preuve": "ça arrive parfois le soir",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Ça devrait se régler",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "avec le premier mois offert, vous ne prenez aucun risque",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "je vous conseille d'appeler le service client",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 1.2,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "11",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 97.9,
+    "wer_pct": 2.1,
+    "mots_bon_locuteur_pct": 100.0,
+    "repliques_bien_attribuees_pct": 100.0,
+    "repliques": {
+      "scenario": 24,
+      "transcription": 24
+    },
+    "preuves": [
+      {
+        "preuve": "ça arrive parfois le soir",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Ça devrait se régler",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "avec le premier mois offert, vous ne prenez aucun risque",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "je vous conseille d'appeler le service client",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 1.5,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.12,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "11",
+    "methode": "gemini-3.5-transcribe",
+    "mots_retrouves_pct": 96.5,
+    "wer_pct": 3.5,
+    "mots_bon_locuteur_pct": 98.2,
+    "repliques_bien_attribuees_pct": 91.3,
+    "repliques": {
+      "scenario": 24,
+      "transcription": 21
+    },
+    "preuves": [
+      {
+        "preuve": "ça arrive parfois le soir",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Ça devrait se régler",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "avec le premier mois offert, vous ne prenez aucun risque",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "je vous conseille d'appeler le service client",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 2.9,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.08,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "11",
+    "methode": "whisper-medium",
+    "mots_retrouves_pct": 97.9,
+    "wer_pct": 2.1,
+    "mots_bon_locuteur_pct": 76.9,
+    "repliques_bien_attribuees_pct": 58.3,
+    "repliques": {
+      "scenario": 24,
+      "transcription": 8
+    },
+    "preuves": [
+      {
+        "preuve": "ça arrive parfois le soir",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "Ça devrait se régler",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "avec le premier mois offert, vous ne prenez aucun risque",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "je vous conseille d'appeler le service client",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 1.5,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.1,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "12",
+    "methode": "hybride-locale-lexique",
+    "mots_retrouves_pct": 97.8,
+    "wer_pct": 3.7,
+    "mots_bon_locuteur_pct": 99.1,
+    "repliques_bien_attribuees_pct": 96.6,
+    "repliques": {
+      "scenario": 30,
+      "transcription": 27
+    },
+    "preuves": [
+      {
+        "preuve": "je vous bloque le prix à 6,99 € par mois pendant un an",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "cette remise n'est valable qu'aujourd'hui",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "le système affiche toujours le tarif standard. Votre remise sera appliquée automatiquement",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 3,
+    "mots_inventes_pour_100": 2.6,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.26,
+    "repliques_a_moins_1s_pct": 81.5
+  },
+  {
+    "appel": "12",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 97.1,
+    "wer_pct": 4.4,
+    "mots_bon_locuteur_pct": 99.1,
+    "repliques_bien_attribuees_pct": 96.6,
+    "repliques": {
+      "scenario": 30,
+      "transcription": 27
+    },
+    "preuves": [
+      {
+        "preuve": "je vous bloque le prix à 6,99 € par mois pendant un an",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "cette remise n'est valable qu'aujourd'hui",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "le système affiche toujours le tarif standard. Votre remise sera appliquée automatiquement",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 3,
+    "mots_inventes_pour_100": 3.1,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.26,
+    "repliques_a_moins_1s_pct": 81.5
+  },
+  {
+    "appel": "12",
+    "methode": "gemini-3.5-transcribe",
+    "mots_retrouves_pct": 96.3,
+    "wer_pct": 4.4,
+    "mots_bon_locuteur_pct": 29.5,
+    "repliques_bien_attribuees_pct": 44.8,
+    "repliques": {
+      "scenario": 30,
+      "transcription": 23
+    },
+    "preuves": [
+      {
+        "preuve": "je vous bloque le prix à 6,99 € par mois pendant un an",
+        "statut": "exacte",
+        "bon_locuteur": false
+      },
+      {
+        "preuve": "cette remise n'est valable qu'aujourd'hui",
+        "statut": "approchée",
+        "bon_locuteur": false
+      },
+      {
+        "preuve": "le système affiche toujours le tarif standard. Votre remise sera appliquée automatiquement",
+        "statut": "exacte",
+        "bon_locuteur": false
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 2.6,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.18,
+    "repliques_a_moins_1s_pct": 82.6
+  },
+  {
+    "appel": "12",
+    "methode": "whisper-medium",
+    "mots_retrouves_pct": 97.1,
+    "wer_pct": 4.4,
+    "mots_bon_locuteur_pct": 31.9,
+    "repliques_bien_attribuees_pct": 44.8,
+    "repliques": {
+      "scenario": 30,
+      "transcription": 25
+    },
+    "preuves": [
+      {
+        "preuve": "je vous bloque le prix à 6,99 € par mois pendant un an",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "cette remise n'est valable qu'aujourd'hui",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "le système affiche toujours le tarif standard. Votre remise sera appliquée automatiquement",
+        "statut": "exacte",
+        "bon_locuteur": false
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 3,
+    "mots_inventes_pour_100": 3.1,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.18,
+    "repliques_a_moins_1s_pct": 84.0
+  },
+  {
+    "appel": "13",
+    "methode": "hybride-locale-lexique",
+    "mots_retrouves_pct": 92.5,
+    "wer_pct": 8.3,
+    "mots_bon_locuteur_pct": 98.1,
+    "repliques_bien_attribuees_pct": 96.8,
+    "repliques": {
+      "scenario": 34,
+      "transcription": 35
+    },
+    "preuves": [
+      {
+        "preuve": "il doit être rattaché à une carte, sinon l'activation peut prendre plusieurs jours",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "les seize chiffres au recto",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "la date d'expiration",
+        "statut": "approchée",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "les trois chiffres au dos, le cryptogramme",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 7.5,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.24,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "13",
+    "methode": "hybride-locale",
+    "mots_retrouves_pct": 92.1,
+    "wer_pct": 8.6,
+    "mots_bon_locuteur_pct": 98.1,
+    "repliques_bien_attribuees_pct": 96.8,
+    "repliques": {
+      "scenario": 34,
+      "transcription": 35
+    },
+    "preuves": [
+      {
+        "preuve": "il doit être rattaché à une carte, sinon l'activation peut prendre plusieurs jours",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "les seize chiffres au recto",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "la date d'expiration",
+        "statut": "approchée",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "les trois chiffres au dos, le cryptogramme",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 7.7,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.24,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "13",
+    "methode": "gemini-3.5-transcribe",
+    "mots_retrouves_pct": 96.9,
+    "wer_pct": 4.1,
+    "mots_bon_locuteur_pct": 77.9,
+    "repliques_bien_attribuees_pct": 51.5,
+    "repliques": {
+      "scenario": 34,
+      "transcription": 3
+    },
+    "preuves": [
+      {
+        "preuve": "il doit être rattaché à une carte, sinon l'activation peut prendre plusieurs jours",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "les seize chiffres au recto",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "la date d'expiration",
+        "statut": "exacte",
+        "bon_locuteur": true
+      },
+      {
+        "preuve": "les trois chiffres au dos, le cryptogramme",
+        "statut": "exacte",
+        "bon_locuteur": true
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 0,
+    "mots_inventes_pour_100": 3.7,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.36,
+    "repliques_a_moins_1s_pct": 100.0
+  },
+  {
+    "appel": "13",
+    "methode": "whisper-medium",
+    "mots_retrouves_pct": 92.1,
+    "wer_pct": 8.6,
+    "mots_bon_locuteur_pct": 18.1,
+    "repliques_bien_attribuees_pct": 35.5,
+    "repliques": {
+      "scenario": 34,
+      "transcription": 39
+    },
+    "preuves": [
+      {
+        "preuve": "il doit être rattaché à une carte, sinon l'activation peut prendre plusieurs jours",
+        "statut": "exacte",
+        "bon_locuteur": false
+      },
+      {
+        "preuve": "les seize chiffres au recto",
+        "statut": "exacte",
+        "bon_locuteur": false
+      },
+      {
+        "preuve": "la date d'expiration",
+        "statut": "approchée",
+        "bon_locuteur": false
+      },
+      {
+        "preuve": "les trois chiffres au dos, le cryptogramme",
+        "statut": "exacte",
+        "bon_locuteur": false
+      }
+    ],
+    "masques": {
+      "scenario": 0,
+      "transcription": 0,
+      "fuites": 0
+    },
+    "inaudible": 2,
+    "mots_inventes_pour_100": 7.7,
+    "horodatage_coherent": true,
+    "ecart_debut_median_s": 0.19,
+    "repliques_a_moins_1s_pct": 96.7
+  }
+]

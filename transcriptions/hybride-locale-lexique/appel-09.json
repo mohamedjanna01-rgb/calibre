@@ -1,0 +1,177 @@
+{
+  "appel": "09",
+  "methode": "hybride-locale-lexique",
+  "date": "2026-10-05T18:09:33",
+  "duree_audio_s": 104.9,
+  "usage": {
+    "source_mots": "whisper-medium",
+    "locuteurs": "gemma-4-26b-a4b-it",
+    "segments": 60,
+    "anomalies": [],
+    "usage": {
+      "promptTokenCount": 1492,
+      "candidatesTokenCount": 1955,
+      "totalTokenCount": 8131,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1492
+        }
+      ],
+      "thoughtsTokenCount": 4684,
+      "serviceTier": "standard"
+    },
+    "lexique": [
+      "'Caliotelecom' → 'Kalyo Télécom' (nom fusionné)"
+    ]
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "client",
+      "debut": 0.0,
+      "fin": 0.78,
+      "texte": "Allo ?"
+    },
+    {
+      "n": 2,
+      "locuteur": "conseiller",
+      "debut": 0.78,
+      "fin": 2.76,
+      "texte": "Oui, bonjour. Bonjour, M. Lambert ?"
+    },
+    {
+      "n": 3,
+      "locuteur": "client",
+      "debut": 2.76,
+      "fin": 4.68,
+      "texte": "Oui, bonjour. C 'est qui ?"
+    },
+    {
+      "n": 4,
+      "locuteur": "conseiller",
+      "debut": 4.68,
+      "fin": 18.46,
+      "texte": "Nabil Shraibi, conseiller chez Kalyo Télécom, votre opérateur. C 'est moi qui m 'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité. Avez -vous quelques instants ?"
+    },
+    {
+      "n": 5,
+      "locuteur": "client",
+      "debut": 18.46,
+      "fin": 19.3,
+      "texte": "Oui, je vous écoute."
+    },
+    {
+      "n": 6,
+      "locuteur": "conseiller",
+      "debut": 19.7,
+      "fin": 22.98,
+      "texte": "Merci. Avant tout, tout fonctionne bien avec votre box et votre télévision."
+    },
+    {
+      "n": 7,
+      "locuteur": "client",
+      "debut": 23.4,
+      "fin": 24.1,
+      "texte": "Oui, très bien."
+    },
+    {
+      "n": 8,
+      "locuteur": "conseiller",
+      "debut": 24.4,
+      "fin": 30.6,
+      "texte": "Tant mieux. Pour sécuriser notre échange, pouvez -vous me confirmer votre nom et prénom, [inaudible] code postal et votre date de descence ?"
+    },
+    {
+      "n": 9,
+      "locuteur": "client",
+      "debut": 30.6,
+      "fin": 32.24,
+      "texte": "Parlons, vous pouvez répéter ?"
+    },
+    {
+      "n": 10,
+      "locuteur": "conseiller",
+      "debut": 32.24,
+      "fin": 36.54,
+      "texte": "Pouvez -vous me confirmer votre nom et prénom, votre code postal et votre date de descence ?"
+    },
+    {
+      "n": 11,
+      "locuteur": "client",
+      "debut": 36.54,
+      "fin": 40.6,
+      "texte": "Lambert Gérard, 21 000, le 12 janvier 1958."
+    },
+    {
+      "n": 12,
+      "locuteur": "conseiller",
+      "debut": 41.02,
+      "fin": 68.52,
+      "texte": "Merci, M. Lambert. Je vous appelle pour vous présenter nos offres du moment. Nous avons le pack Horizon à 12 ,99 euros par mois, avec le premier mois offert, 35 chaînes, 2000 films et séries à la demande et un replay de 7 jours. Il y a aussi l 'option Horizon Sport à 6 euros par mois en plus. Vous pouvez aussi passer à la box Ultra à 49 ,99 euros par mois, avec un débit jusqu 'à 8 gigabits par seconde et le pack Horizon inclus. Nous avons également nos forfaits mobiles à partir de 7 ,99 euros par mois et un répéteur wifi à 3 euros par mois."
+    },
+    {
+      "n": 13,
+      "locuteur": "client",
+      "debut": 69.48,
+      "fin": 73.4,
+      "texte": "Euh... ça fait beaucoup. Je regarde surtout les informations, vous savez ?"
+    },
+    {
+      "n": 14,
+      "locuteur": "conseiller",
+      "debut": 73.4,
+      "fin": 78.6,
+      "texte": "D 'accord. Avec le pack Horizon, vous avez aussi des documentaires, des séries, des films, et le premier mois est offert."
+    },
+    {
+      "n": 15,
+      "locuteur": "client",
+      "debut": 78.74,
+      "fin": 80.88,
+      "texte": "Non, merci. Ça ne m 'intéresse pas."
+    },
+    {
+      "n": 16,
+      "locuteur": "conseiller",
+      "debut": 81.16,
+      "fin": 83.46,
+      "texte": "Puis -je vous demander ce qui ne vous convient pas, M. Lambert ?"
+    },
+    {
+      "n": 17,
+      "locuteur": "client",
+      "debut": 83.46,
+      "fin": 89.64,
+      "texte": "Je vis seul, je regarde un peu la télé le soir, les infos, et c 'est tout. Je n 'ai besoin de rien de plus."
+    },
+    {
+      "n": 18,
+      "locuteur": "conseiller",
+      "debut": 90.16,
+      "fin": 99.4,
+      "texte": "Je comprends tout à fait et je respecte votre choix. Je suis désolé de ne pas avoir trouvé une offre adaptée pour vous aujourd 'hui. Je note votre réponse. Avez -vous des questions sur votre contrat ?"
+    },
+    {
+      "n": 19,
+      "locuteur": "client",
+      "debut": 99.4,
+      "fin": 100.02,
+      "texte": "Non, merci."
+    },
+    {
+      "n": 20,
+      "locuteur": "conseiller",
+      "debut": 100.56,
+      "fin": 104.04,
+      "texte": "Merci pour votre temps, M. Lambert. Je vous souhaite une très bonne journée. Au revoir."
+    },
+    {
+      "n": 21,
+      "locuteur": "client",
+      "debut": 104.4,
+      "fin": 104.74,
+      "texte": "Au revoir."
+    }
+  ]
+}

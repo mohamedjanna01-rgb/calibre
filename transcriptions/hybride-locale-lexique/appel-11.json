@@ -1,0 +1,198 @@
+{
+  "appel": "11",
+  "methode": "hybride-locale-lexique",
+  "date": "2026-10-05T18:17:45",
+  "duree_audio_s": 97.1,
+  "usage": {
+    "source_mots": "whisper-medium",
+    "locuteurs": "gemma-4-26b-a4b-it",
+    "segments": 47,
+    "anomalies": [],
+    "usage": {
+      "promptTokenCount": 1281,
+      "candidatesTokenCount": 1582,
+      "totalTokenCount": 8952,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1281
+        }
+      ],
+      "thoughtsTokenCount": 6089,
+      "serviceTier": "standard"
+    },
+    "lexique": [
+      "'Caliotelecom' → 'Kalyo Télécom' (nom fusionné)"
+    ]
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "client",
+      "debut": 0.0,
+      "fin": 1.34,
+      "texte": "Allo ?"
+    },
+    {
+      "n": 2,
+      "locuteur": "conseiller",
+      "debut": 1.34,
+      "fin": 2.6,
+      "texte": "Bonjour, Monsieur Girard."
+    },
+    {
+      "n": 3,
+      "locuteur": "client",
+      "debut": 2.88,
+      "fin": 4.44,
+      "texte": "Oui, c 'est qui ?"
+    },
+    {
+      "n": 4,
+      "locuteur": "conseiller",
+      "debut": 4.44,
+      "fin": 7.74,
+      "texte": "Hamza Benjeloun, conseiller chez Kalyo Télécom, votre opérateur."
+    },
+    {
+      "n": 5,
+      "locuteur": "client",
+      "debut": 8.38,
+      "fin": 9.12,
+      "texte": "Ah, bonjour."
+    },
+    {
+      "n": 6,
+      "locuteur": "conseiller",
+      "debut": 9.72,
+      "fin": 20.16,
+      "texte": "C 'est moi qui m 'occupe de votre contract box internet et je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité. Avez -vous quelques instants ?"
+    },
+    {
+      "n": 7,
+      "locuteur": "client",
+      "debut": 20.16,
+      "fin": 21.06,
+      "texte": "Oui, allez -y."
+    },
+    {
+      "n": 8,
+      "locuteur": "conseiller",
+      "debut": 21.38,
+      "fin": 28.12,
+      "texte": "Merci. Pour sécuriser notre échange, pouvez -vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?"
+    },
+    {
+      "n": 9,
+      "locuteur": "client",
+      "debut": 28.12,
+      "fin": 32.02,
+      "texte": "Gérard Laurent, 7511, le 4 décembre 1977."
+    },
+    {
+      "n": 10,
+      "locuteur": "conseiller",
+      "debut": 32.88,
+      "fin": 37.14,
+      "texte": "Merci, Monsieur Girard. Avant tout, tout fonctionne bien avec votre box et votre télévision ?"
+    },
+    {
+      "n": 11,
+      "locuteur": "client",
+      "debut": 37.14,
+      "fin": 40.14,
+      "texte": "Beuf, ces derniers soirs internet a coupé deux ou trois fois."
+    },
+    {
+      "n": 12,
+      "locuteur": "conseiller",
+      "debut": 40.7,
+      "fin": 46.96,
+      "texte": "Ah, ça arrive parfois le soir, il y a beaucoup de monde connecté. Ça devrait se régler. Dites -moi, qui regarde la télévision chez vous ?"
+    },
+    {
+      "n": 13,
+      "locuteur": "client",
+      "debut": 46.96,
+      "fin": 49.1,
+      "texte": "Ma femme et moi. On aime bien les séries policières."
+    },
+    {
+      "n": 14,
+      "locuteur": "conseiller",
+      "debut": 49.68,
+      "fin": 53.18,
+      "texte": "Et vous regardez plutôt en direct ou vous ratez souvent des épisodes ?"
+    },
+    {
+      "n": 15,
+      "locuteur": "client",
+      "debut": 53.18,
+      "fin": 54.62,
+      "texte": "On en rate pas mal, on rentre tard."
+    },
+    {
+      "n": 16,
+      "locuteur": "conseiller",
+      "debut": 55.02,
+      "fin": 66.5,
+      "texte": "Alors j 'ai exactement ce qu 'il vous faut. Le pack Horizon. La chaîne Horizon Polar, Horizon Series, plus de 2000 films et séries à la demande et surtout un replay de 7 jours. Vous regardez vos épisodes quand vous rentrez."
+    },
+    {
+      "n": 17,
+      "locuteur": "client",
+      "debut": 66.94,
+      "fin": 67.3,
+      "texte": "Mouais,"
+    },
+    {
+      "n": 18,
+      "locuteur": "conseiller",
+      "debut": 67.84,
+      "fin": 71.26,
+      "texte": "le premier mois est offert, puis c 'est 12 ,99€ par mois, sans engagement."
+    },
+    {
+      "n": 19,
+      "locuteur": "client",
+      "debut": 71.9,
+      "fin": 74.58,
+      "texte": "Franchement, réglez déjà mon internet avant de me proposer des chaînes en plus."
+    },
+    {
+      "n": 20,
+      "locuteur": "conseiller",
+      "debut": 75.14,
+      "fin": 80.62,
+      "texte": "Je comprends, mais avec le premier mois offert, vous ne prenez aucun risque et vous pourrez en profiter dès que tout sera rentré dans l 'ordre."
+    },
+    {
+      "n": 21,
+      "locuteur": "client",
+      "debut": 81.26,
+      "fin": 82.98,
+      "texte": "Non, merci, pas tant que ma connexion coupe."
+    },
+    {
+      "n": 22,
+      "locuteur": "conseiller",
+      "debut": 83.5,
+      "fin": 93.66,
+      "texte": "Très bien, je respecte votre choix, monsieur Girard, et je suis désolé de ne pas avoir pu vous aider davantage aujourd 'hui. Pour vos coupures, je vous conseille d 'appeler le service client. Ils pourront regarder ça. Avez -vous d 'autres questions ?"
+    },
+    {
+      "n": 23,
+      "locuteur": "client",
+      "debut": 93.66,
+      "fin": 93.88,
+      "texte": "Non."
+    },
+    {
+      "n": 24,
+      "locuteur": "conseiller",
+      "debut": 94.4,
+      "fin": 96.8,
+      "texte": "Merci pour votre temps, monsieur Girard. Très bonne soirée, au revoir."
+    }
+  ]
+}

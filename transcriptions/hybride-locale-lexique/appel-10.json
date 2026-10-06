@@ -1,0 +1,170 @@
+{
+  "appel": "10",
+  "methode": "hybride-locale-lexique",
+  "date": "2026-10-05T18:12:59",
+  "duree_audio_s": 67.9,
+  "usage": {
+    "source_mots": "whisper-medium",
+    "locuteurs": "gemma-4-26b-a4b-it",
+    "segments": 42,
+    "anomalies": [],
+    "usage": {
+      "promptTokenCount": 1095,
+      "candidatesTokenCount": 1317,
+      "totalTokenCount": 6647,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1095
+        }
+      ],
+      "thoughtsTokenCount": 4235,
+      "serviceTier": "standard"
+    },
+    "lexique": [
+      "'Calio' → 'Kalyo' (devant Télécom)"
+    ]
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "client",
+      "debut": 0.48,
+      "fin": 1.32,
+      "texte": "Allô ?"
+    },
+    {
+      "n": 2,
+      "locuteur": "conseiller",
+      "debut": 1.32,
+      "fin": 3.38,
+      "texte": "Allô, oui, bonjour, c 'est Kalyo Télécom."
+    },
+    {
+      "n": 3,
+      "locuteur": "client",
+      "debut": 3.9,
+      "fin": 4.32,
+      "texte": "Bonjour."
+    },
+    {
+      "n": 4,
+      "locuteur": "conseiller",
+      "debut": 5.1,
+      "fin": 10.82,
+      "texte": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité. Vous êtes bien la titulaire de la boxe ?"
+    },
+    {
+      "n": 5,
+      "locuteur": "client",
+      "debut": 10.82,
+      "fin": 12.82,
+      "texte": "Oui, je prépare le dîner, là."
+    },
+    {
+      "n": 6,
+      "locuteur": "conseiller",
+      "debut": 13.38,
+      "fin": 17.0,
+      "texte": "Ça ne sera pas long. Nom, code postal, date de naissance ?"
+    },
+    {
+      "n": 7,
+      "locuteur": "client",
+      "debut": 17.6,
+      "fin": 22.08,
+      "texte": "Fabre, Féline. 0 -10 -1 -1, le 25 juin 1984."
+    },
+    {
+      "n": 8,
+      "locuteur": "conseiller",
+      "debut": 22.82,
+      "fin": 24.2,
+      "texte": "Vous avez des enfants ?"
+    },
+    {
+      "n": 9,
+      "locuteur": "client",
+      "debut": 24.2,
+      "fin": 25.24,
+      "texte": "Oui, deux."
+    },
+    {
+      "n": 10,
+      "locuteur": "conseiller",
+      "debut": 25.68,
+      "fin": 28.06,
+      "texte": "Ils ont quel âge ? Ils regardent la télé ?"
+    },
+    {
+      "n": 11,
+      "locuteur": "client",
+      "debut": 28.06,
+      "fin": 34.08,
+      "texte": "[inaudible] qui est neuf ans. Ils regardent surtout des dessins animés. Ils jouent une appli de streaming. Ils jouent à la tablette."
+    },
+    {
+      "n": 12,
+      "locuteur": "conseiller",
+      "debut": 34.72,
+      "fin": 44.8,
+      "texte": "Ah, les plateformes de streaming. Honnêtement, ce n 'est pas terrible pour les enfants. On ne sait jamais ce qu 'ils regardent. Il vous faut le pack horizon, 12 ,99 euros par mois. Je vous l 'actime ?"
+    },
+    {
+      "n": 13,
+      "locuteur": "client",
+      "debut": 44.8,
+      "fin": 46.44,
+      "texte": "Non, merci, ça ne m 'intéresse pas."
+    },
+    {
+      "n": 14,
+      "locuteur": "conseiller",
+      "debut": 47.0,
+      "fin": 48.74,
+      "texte": "Attendez, vous ne savez même pas ce qu 'il y a dedans."
+    },
+    {
+      "n": 15,
+      "locuteur": "client",
+      "debut": 49.32,
+      "fin": 52.24,
+      "texte": "Je vous ai dit non. Je n 'ai vraiment pas le temps, là."
+    },
+    {
+      "n": 16,
+      "locuteur": "conseiller",
+      "debut": 52.84,
+      "fin": 57.88,
+      "texte": "Deux minutes ? C 'est tout ce que je vous demande. Franchement, vous allez le regretter si vous ne le faites pas."
+    },
+    {
+      "n": 17,
+      "locuteur": "client",
+      "debut": 58.06,
+      "fin": 59.78,
+      "texte": "Non, je n 'en veux pas."
+    },
+    {
+      "n": 18,
+      "locuteur": "conseiller",
+      "debut": 60.2,
+      "fin": 64.08,
+      "texte": "Pensez au moins à vos enfants, quand même. Tous les parents le prennent, vous savez ?"
+    },
+    {
+      "n": 19,
+      "locuteur": "client",
+      "debut": 64.08,
+      "fin": 66.38,
+      "texte": "Écoutez, je raccroche. Au revoir."
+    },
+    {
+      "n": 20,
+      "locuteur": "conseiller",
+      "debut": 66.9,
+      "fin": 67.42,
+      "texte": "Comme vous voulez."
+    }
+  ]
+}

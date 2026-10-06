@@ -1,0 +1,275 @@
+{
+  "appel": "13",
+  "methode": "hybride-locale-lexique",
+  "date": "2026-10-05T18:28:16",
+  "duree_audio_s": 213.1,
+  "usage": {
+    "source_mots": "whisper-medium",
+    "locuteurs": "gemma-4-26b-a4b-it",
+    "segments": 108,
+    "anomalies": [],
+    "usage": {
+      "promptTokenCount": 2322,
+      "candidatesTokenCount": 3340,
+      "totalTokenCount": 12765,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2322
+        }
+      ],
+      "thoughtsTokenCount": 7103,
+      "serviceTier": "standard"
+    },
+    "lexique": [
+      "'Caliotelecom' → 'Kalyo Télécom' (nom fusionné)"
+    ]
+  },
+  "repliques": [
+    {
+      "n": 1,
+      "locuteur": "client",
+      "debut": 0.68,
+      "fin": 1.56,
+      "texte": "Allô ?"
+    },
+    {
+      "n": 2,
+      "locuteur": "conseiller",
+      "debut": 1.56,
+      "fin": 3.8,
+      "texte": "Bonjour, Monsieur Rousseau ?"
+    },
+    {
+      "n": 3,
+      "locuteur": "client",
+      "debut": 3.8,
+      "fin": 6.14,
+      "texte": "Oui, bonjour. C 'est qui ?"
+    },
+    {
+      "n": 4,
+      "locuteur": "conseiller",
+      "debut": 7.02,
+      "fin": 22.24,
+      "texte": "Anas Lalou, conseiller chez Kalyo Télécom, votre opérateur. C 'est moi qui m 'occupe de votre contrat Box Internet. Je vous contacte pour faire un point rapide sur votre abonnement. Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité. Avez -vous quelques instants ?"
+    },
+    {
+      "n": 5,
+      "locuteur": "client",
+      "debut": 22.24,
+      "fin": 23.6,
+      "texte": "Oui, alucie."
+    },
+    {
+      "n": 6,
+      "locuteur": "conseiller",
+      "debut": 23.8,
+      "fin": 29.26,
+      "texte": "Merci. Avant tout, tout se passe bien avec votre Box et votre télévision ?"
+    },
+    {
+      "n": 7,
+      "locuteur": "client",
+      "debut": 29.26,
+      "fin": 31.08,
+      "texte": "Oui, ça marche bien."
+    },
+    {
+      "n": 8,
+      "locuteur": "conseiller",
+      "debut": 31.48,
+      "fin": 39.44,
+      "texte": "Tant mieux. Pour sécuriser notre échange, pouvez -vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?"
+    },
+    {
+      "n": 9,
+      "locuteur": "client",
+      "debut": 42.24,
+      "fin": 46.66,
+      "texte": "Rousseau Michel, 49000, le 7 mars 1966."
+    },
+    {
+      "n": 10,
+      "locuteur": "conseiller",
+      "debut": 47.86,
+      "fin": 52.38,
+      "texte": "Merci, Monsieur Rousseau. Dites -moi, qu 'est -ce que vous aimez regarder le soir ?"
+    },
+    {
+      "n": 11,
+      "locuteur": "client",
+      "debut": 52.38,
+      "fin": 59.3,
+      "texte": "Des films, des séries policières. Mais honnêtement, le soir, je zappe beaucoup sans trouver grand -chose."
+    },
+    {
+      "n": 12,
+      "locuteur": "conseiller",
+      "debut": 60.36,
+      "fin": 63.38,
+      "texte": "Je vois. Et vous regardez seul ou en famille ?"
+    },
+    {
+      "n": 13,
+      "locuteur": "client",
+      "debut": 64.28,
+      "fin": 65.62,
+      "texte": "Avec ma compagne en général."
+    },
+    {
+      "n": 14,
+      "locuteur": "conseiller",
+      "debut": 66.88,
+      "fin": 88.3,
+      "texte": "Alors, j 'ai quelque chose pour vous deux. Le pack Horizon. Horizon Cinéma, Horizon Série, Horizon Polar et plus de 2000 films et séries à la demande. Vous choisissez votre soirée au lieu de taper. Et avec le replay de 7 jours, vous ne ratez plus un épisode. [inaudible] premier mois est offert. Ensuite, c 'est 12 ,99 euros par mois, sans engagement."
+    },
+    {
+      "n": 15,
+      "locuteur": "client",
+      "debut": 90.22,
+      "fin": 93.22,
+      "texte": "Ça me plaît bien, ça. Allez, on essaie."
+    },
+    {
+      "n": 16,
+      "locuteur": "conseiller",
+      "debut": 93.54,
+      "fin": 116.18,
+      "texte": "Très bien. Je vous fais le récapitulatif, Monsieur Rousseau. Le pack Horizon, premier mois offert, puis 12 ,99 euros par mois, avec un premier prélèvement le 8 décembre. Sans engagement, résiliable à tout moment avec effet à la fin du mois. Droit de rétractation de 14 jours, activation en 2 heures maximum. Confirmez -vous souscrire au pack Horizon à ces conditions ?"
+    },
+    {
+      "n": 17,
+      "locuteur": "client",
+      "debut": 116.18,
+      "fin": 118.02,
+      "texte": "Oui, je confirme."
+    },
+    {
+      "n": 18,
+      "locuteur": "conseiller",
+      "debut": 118.56,
+      "fin": 125.88,
+      "texte": "Merci. Pour finaliser, il me faut juste un moyen de paiement pour le pack. Vous avez votre carte bancaire à portée de main ?"
+    },
+    {
+      "n": 19,
+      "locuteur": "client",
+      "debut": 126.46,
+      "fin": 130.28,
+      "texte": "Ma carte ? Mais je suis déjà prélevé pour la box, non ?"
+    },
+    {
+      "n": 20,
+      "locuteur": "conseiller",
+      "debut": 130.28,
+      "fin": 141.76,
+      "texte": "Oui, pour la box. Mais le pack est un service à part. Il doit être rattaché à une carte, sinon l 'activation peut prendre plusieurs jours. C 'est juste une formalité. Rien ne sera d 'évité aujourd 'hui, puisque le premier mois est offert."
+    },
+    {
+      "n": 21,
+      "locuteur": "client",
+      "debut": 142.06,
+      "fin": 146.08,
+      "texte": "Ah, d 'accord. Attendez, je l 'apprends."
+    },
+    {
+      "n": 22,
+      "locuteur": "conseiller",
+      "debut": 146.3,
+      "fin": 149.66,
+      "texte": "Allez -y, je vous écoute. Les 16 chiffres au recto."
+    },
+    {
+      "n": 23,
+      "locuteur": "client",
+      "debut": 150.66,
+      "fin": 166.46,
+      "texte": "[inaudible] deux, trois, quatre, cinq, six, sept, huit, neuf, zéro, un, deux, trois, quatre, cinq, six."
+    },
+    {
+      "n": 24,
+      "locuteur": "conseiller",
+      "debut": 167.14,
+      "fin": 171.96,
+      "texte": "Parfait. La date d 'expération ?"
+    },
+    {
+      "n": 25,
+      "locuteur": "client",
+      "debut": 171.96,
+      "fin": 174.92,
+      "texte": "Zéro, neuf, vingt -huit."
+    },
+    {
+      "n": 26,
+      "locuteur": "conseiller",
+      "debut": 175.68,
+      "fin": 177.4,
+      "texte": "Et les trois chiffres au dos ?"
+    },
+    {
+      "n": 27,
+      "locuteur": "client",
+      "debut": 177.4,
+      "fin": 179.04,
+      "texte": "Le cryptogramme ?"
+    },
+    {
+      "n": 28,
+      "locuteur": "conseiller",
+      "debut": 179.48,
+      "fin": 182.04,
+      "texte": "Les trois chiffres derrière aussi ?"
+    },
+    {
+      "n": 29,
+      "locuteur": "client",
+      "debut": 182.04,
+      "fin": 185.1,
+      "texte": "Bon. Un, deux, trois."
+    },
+    {
+      "n": 30,
+      "locuteur": "conseiller",
+      "debut": 185.9,
+      "fin": 197.6,
+      "texte": "Merci. C 'est tout bon. Je vous envoie maintenant l 'e -mail récapitulatif à signer électroniquement. Vous allez recevoir un code par SMS. Saisissez -le vous -même dans l 'e -mail et ne le communiquez à personne."
+    },
+    {
+      "n": 31,
+      "locuteur": "client",
+      "debut": 198.8,
+      "fin": 200.22,
+      "texte": "Voilà, c 'est signé."
+    },
+    {
+      "n": 32,
+      "locuteur": "conseiller",
+      "debut": 200.8,
+      "fin": 206.28,
+      "texte": "Parfait. Votre souscription est confirmée. Avez -vous d 'autres questions, monsieur Rousseau ?"
+    },
+    {
+      "n": 33,
+      "locuteur": "client",
+      "debut": 206.28,
+      "fin": 207.44,
+      "texte": "Non, ça ira."
+    },
+    {
+      "n": 34,
+      "locuteur": "conseiller",
+      "debut": 208.06,
+      "fin": 211.94,
+      "texte": "Merci pour votre confiance. Bonne soirée cinéma à vous deux et très bonne journée."
+    },
+    {
+      "n": 35,
+      "locuteur": "client",
+      "debut": 212.54,
+      "fin": 212.78,
+      "texte": "Au revoir."
+    }
+  ]
+}
