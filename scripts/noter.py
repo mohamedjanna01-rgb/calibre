@@ -275,6 +275,7 @@ def main():
     p.add_argument("--simulation", action="store_true", help="assemble et contrôle la consigne, sans requête")
     p.add_argument("--reduit", action="store_true", help="référentiel réduit (documents essentiels seulement)")
     p.add_argument("--source", default="hybride", help="méthode de transcription à noter")
+    p.add_argument("--passe", help="numéro de passe, pour mesurer la variabilité (dossier distinct)")
     a = p.parse_args()
     global SOURCE
     SOURCE = a.source
@@ -294,7 +295,8 @@ def main():
         texte = "".join(x.get("text", "") for x in brute["candidates"][0]["content"]["parts"] if not x.get("thought"))
         reponse = json.loads(texte[texte.index("{"): texte.rindex("}") + 1])  # tolère un bloc ```json autour
         calcul = calculer(reponse, grille, transcription(appel))
-        dossier = SORTIE / (a.modele + ("-reduit" if a.reduit else "") + ("" if SOURCE == "hybride" else f"-{SOURCE}"))
+        dossier = SORTIE / (a.modele + ("-reduit" if a.reduit else "") + ("" if SOURCE == "hybride" else f"-{SOURCE}")
+                            + (f"-passe{a.passe}" if a.passe else ""))
         dossier.mkdir(parents=True, exist_ok=True)
         (dossier / f"appel-{appel}.json").write_text(json.dumps({
             "appel": appel, "modele": a.modele, "date": datetime.now().isoformat(timespec="seconds"),
