@@ -1,0 +1,252 @@
+{
+  "appel": "06",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T04:56:12",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète et identification de la cliente effectuée.",
+        "preuves": [
+          {
+            "citation": "Je m 'appelle Mehdi Alaoui, je suis votre conseiller clientèle et je vais prendre en charge votre demande.",
+            "debut_s": 4.4,
+            "verification": "exacte",
+            "debut_verifie_s": 4.4
+          },
+          {
+            "citation": "Pour sécuriser votre dossier, pouvez -vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?",
+            "debut_s": 17.9,
+            "verification": "exacte",
+            "debut_verifie_s": 17.94
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "La mention de l'enregistrement est faite avant la phase de découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 4.4,
+            "verification": "exacte",
+            "debut_verifie_s": 4.4
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller laisse la cliente exprimer son besoin sans l'interrompre.",
+        "preuves": []
+      },
+      {
+        "numero": 4,
+        "statut": "oui",
+        "justification": "Le conseiller pose une question pertinente pour comprendre l'offre concurrente.",
+        "preuves": [
+          {
+            "citation": "Puis -je vous demander quel forfait vous avez trouvé ?",
+            "debut_s": 44.5,
+            "verification": "exacte",
+            "debut_verifie_s": 44.52
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "non",
+        "justification": "Le conseiller n'a pas reformulé la demande de résiliation de la cliente.",
+        "preuves": []
+      },
+      {
+        "numero": 6,
+        "statut": "non",
+        "justification": "Le ton est méprisant et dismissif face à la demande de responsable.",
+        "preuves": [
+          {
+            "citation": "Mon responsable vous le dira à la même chose, Madame Benoît.",
+            "debut_s": 91.0,
+            "verification": "exacte",
+            "debut_verifie_s": 91.0
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "non",
+        "justification": "L'explication est fausse : le financement d'un mobile n'empêche pas la résiliation de la ligne (le solde devient alors exigible).",
+        "preuves": [
+          {
+            "citation": "Alors, malheureusement vous ne pouvez pas résilier votre ligne tant que votre téléphone n 'est pas entièrement payé.",
+            "debut_s": 65.7,
+            "verification": "exacte",
+            "debut_verifie_s": 65.74
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le conseiller utilise le nom de la cliente tout au long de l'échange.",
+        "preuves": [
+          {
+            "citation": "Merci Madame Benoît.",
+            "debut_s": 17.9,
+            "verification": "exacte",
+            "debut_verifie_s": 17.94
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "non",
+        "justification": "La résiliation est refusée sur la base d'une information erronée.",
+        "preuves": [
+          {
+            "citation": "Je ne peux pas enregistrer votre résiliation aujourd 'hui.",
+            "debut_s": 79.7,
+            "verification": "exacte",
+            "debut_verifie_s": 79.68
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "statut": "non",
+        "justification": "La tentative de rétention est incorrecte car elle repose sur un mensonge et un geste non autorisé.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "non",
+        "justification": "Le conseiller active une option et offre un mois gratuit sans autorisation apparente.",
+        "preuves": [
+          {
+            "citation": "Pour vous remercier de votre fidélité, je vous active le pack Horizon. 35 chaînes de films et de séries et le premier mois est offert.",
+            "debut_s": 91.0,
+            "verification": "exacte",
+            "debut_verifie_s": 91.0
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "non",
+        "justification": "L'objection sur le caractère sans engagement du forfait n'est pas traitée avec une information correcte.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "non",
+        "justification": "La demande de parler à un responsable a été refusée.",
+        "preuves": [
+          {
+            "citation": "Mon responsable vous le dira à la même chose, Madame Benoît.",
+            "debut_s": 91.0,
+            "verification": "exacte",
+            "debut_verifie_s": 91.0
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 16,
+        "statut": "oui",
+        "justification": "La conclusion est polie et comprend les remerciements.",
+        "preuves": [
+          {
+            "citation": "Très bien. Merci pour votre appel, Madame Benoît. Bonne journée.",
+            "debut_s": 118.3,
+            "verification": "exacte",
+            "debut_verifie_s": 118.3
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [
+      {
+        "numero": 2,
+        "motif": "Mentir ou faire une fausse promesse qui engage l'entreprise (condition de résiliation)",
+        "citation": "Alors, malheureusement vous ne pouvez pas résilier votre ligne tant que votre téléphone n 'est pas entièrement payé.",
+        "debut_s": 65.7,
+        "verification": "exacte",
+        "debut_verifie_s": 65.74
+      }
+    ],
+    "fautes_mise_en_garde": [
+      {
+        "type": "resiliation_refusee",
+        "citation": "Je ne peux pas enregistrer votre résiliation aujourd 'hui.",
+        "debut_s": 79.7,
+        "verification": "exacte",
+        "debut_verifie_s": 79.68
+      }
+    ],
+    "remarques_conformite": [],
+    "coaching": {
+      "points_forts": [
+        "Respect de la procédure d'accueil et d'identification.",
+        "Mention de l'enregistrement effectuée correctement."
+      ],
+      "axes_progres": [
+        "Maîtrise des conditions contractuelles : ne pas confondre engagement de ligne et financement de matériel.",
+        "Posture professionnelle : ne jamais rejeter la demande d'un responsable de manière péremptoire.",
+        "Gestion des objections : répondre sur la base de faits réels et non sur des erreurs.",
+        "Respect des limites de pouvoir : ne pas offrir de mois gratuits ou d'options sans autorisation."
+      ],
+      "conseil_principal": "Si un client souhaite résilier alors qu'il a un financement de mobile en cours, ne lui dites pas que c'est impossible. Dites plutôt : \"Je comprends votre souhait de résilier. Votre forfait est bien sans engagement, mais sachez que le solde restant de votre téléphone deviendra exigible en une seule fois lors de la clôture.\""
+    }
+  },
+  "calcul": {
+    "oui": 6,
+    "applicables": 14,
+    "note_pct": 43,
+    "niveau_note": "Insuffisant",
+    "niveau": "Non conforme",
+    "eliminatoires": [
+      2
+    ],
+    "mises_en_garde": [
+      "insuffisant",
+      "resiliation_refusee"
+    ],
+    "action": "Avertissement",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 13274,
+    "candidatesTokenCount": 1734,
+    "totalTokenCount": 21418,
+    "cachedContentTokenCount": 12275,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 13274
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12275
+      }
+    ],
+    "thoughtsTokenCount": 6410,
+    "serviceTier": "standard"
+  }
+}

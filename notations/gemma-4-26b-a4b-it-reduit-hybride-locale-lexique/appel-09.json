@@ -1,0 +1,204 @@
+{
+  "appel": "09",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T04:50:38",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "L'agent s'est présenté (nom, entreprise, fonction), a indiqué gérer le contrat et a procédé à la vérification de l'identité (nom, code postal, date de naissance).",
+        "preuves": [
+          {
+            "citation": "Nabil Shraibi, conseiller chez Kalyo Télécom, votre opérateur. C 'est moi qui m 'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement.",
+            "debut_s": 4.7,
+            "verification": "exacte",
+            "debut_verifie_s": 4.68
+          },
+          {
+            "citation": "Lambert Gérard, 21 000, le 12 janvier 1958.",
+            "debut_s": 36.5,
+            "verification": "exacte",
+            "debut_verifie_s": 36.54
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "La mention de l'enregistrement a été faite avant d'entamer la phase de découverte/vérification.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 4.7,
+            "verification": "exacte",
+            "debut_verifie_s": 4.68
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "L'agent a vérifié le bon fonctionnement des équipements avant toute proposition commerciale.",
+        "preuves": [
+          {
+            "citation": "Avant tout, tout fonctionne bien avec votre box et votre télévision.",
+            "debut_s": 19.7,
+            "verification": "exacte",
+            "debut_verifie_s": 19.7
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "L'agent n'a posé aucune question pour découvrir les habitudes du client (foyer, télévision, téléphones, usages, streaming).",
+        "preuves": []
+      },
+      {
+        "numero": 5,
+        "statut": "non",
+        "justification": "Aucun besoin n'a été repéré ou créé, l'agent est passé directement au catalogue sans phase de découverte.",
+        "preuves": []
+      },
+      {
+        "numero": 6,
+        "statut": "non",
+        "justification": "La proposition a été faite sous forme de catalogue, en listant une multitude d'offres sans les relier aux besoins du client.",
+        "preuves": [
+          {
+            "citation": "Nous avons le pack Horizon à 12 ,99 euros par mois, avec le premier mois offert, 35 chaînes, 2000 films et séries à la demande et un replay de 7 jours. Il y a aussi l 'option Horizon Sport à 6 euros par mois en plus. Vous pouvez aussi passer à la box Ultra à 49 ,99 euros par mois, avec un débit jusqu 'à 8 gigabits par seconde et le pack Horizon inclus. Nous avons également nos forfaits mobiles à partir de 7 ,99 euros par mois et un répéteur wifi à 3 euros par mois.",
+            "debut_s": 41.0,
+            "verification": "exacte",
+            "debut_verifie_s": 41.02
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "L'agent a utilisé un seul rebond pour chaque objection et s'est arrêté après le refus du client.",
+        "preuves": [
+          {
+            "citation": "Puis -je vous demander ce qui ne vous convient pas, M. Lambert ?",
+            "debut_s": 81.2,
+            "verification": "exacte",
+            "debut_verifie_s": 81.16
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le client est appelé par son nom tout au long de l'échange.",
+        "preuves": [
+          {
+            "citation": "Merci, M. Lambert.",
+            "debut_s": 41.0,
+            "verification": "exacte",
+            "debut_verifie_s": 41.02
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "Pas de vente réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "Pas de vente réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "Pas de vente réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "oui",
+        "justification": "L'agent s'est excusé de ne pas avoir trouvé d'offre adaptée suite au refus.",
+        "preuves": [
+          {
+            "citation": "Je suis désolé de ne pas avoir trouvé une offre adaptée pour vous aujourd 'hui.",
+            "debut_s": 90.2,
+            "verification": "exacte",
+            "debut_verifie_s": 90.16
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Aucune demande de transfert ou d'escalade n'a été formulée.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "oui",
+        "justification": "La conclusion est complète : question sur d'autres besoins, remerciements et prise de congé soignée.",
+        "preuves": [
+          {
+            "citation": "Avez-vous des questions sur votre contrat ? ... Merci pour votre temps, M. Lambert. Je vous souhaite une très bonne journée. Au revoir.",
+            "debut_s": 90.2,
+            "verification": "approchée",
+            "debut_verifie_s": 90.16
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [],
+    "coaching": {
+      "points_forts": [
+        "Respect rigoureux de l'accueil et de la présentation",
+        "Mention de l'enregistrement faite au bon moment",
+        "Bonne gestion de la politesse et de la personnalisation",
+        "Traitement des objections respectueux de la règle des deux refus"
+      ],
+      "axes_progres": [
+        "Absence totale de phase de découverte",
+        "Présentation des offres sous forme de catalogue (trop d'informations sans lien avec le client)"
+      ],
+      "conseil_principal": "Pour éviter de proposer des offres qui ne correspondent pas au client, commencez par une phase de découverte en posant des questions sur ses habitudes (ex: 'Qui regarde la télévision chez vous ?' ou 'Quels sont vos programmes préférés ?'). Cela vous permettra de proposer une offre vraiment adaptée au lieu de simplement lister votre catalogue."
+    }
+  },
+  "calcul": {
+    "oui": 7,
+    "applicables": 10,
+    "note_pct": 70,
+    "niveau_note": "À améliorer",
+    "niveau": "À améliorer",
+    "eliminatoires": [],
+    "mises_en_garde": [],
+    "action": "Coaching ciblé",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 14443,
+    "candidatesTokenCount": 1582,
+    "totalTokenCount": 23722,
+    "cachedContentTokenCount": 12276,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14443
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12276
+      }
+    ],
+    "thoughtsTokenCount": 7697,
+    "serviceTier": "standard"
+  }
+}

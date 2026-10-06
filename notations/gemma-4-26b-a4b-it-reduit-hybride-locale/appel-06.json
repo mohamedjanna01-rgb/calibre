@@ -1,0 +1,276 @@
+{
+  "appel": "06",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-05T18:49:43",
+  "source_transcription": "hybride-locale",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète et vérification de l'identité effectuée.",
+        "preuves": [
+          {
+            "citation": "Je m 'appelle Mehdi Alaoui, je suis votre conseiller clientèle et je vais prendre en charge votre demande.",
+            "debut_s": 4.4,
+            "verification": "exacte",
+            "debut_verifie_s": 4.4
+          },
+          {
+            "citation": "Pour sécuriser votre dossier, pouvez -vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?",
+            "debut_s": 17.9,
+            "verification": "exacte",
+            "debut_verifie_s": 17.94
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "L'enregistrement est mentionné avant la phase de découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 4.4,
+            "verification": "exacte",
+            "debut_verifie_s": 4.4
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "L'agent laisse la cliente s'exprimer sans l'interrompre.",
+        "preuves": []
+      },
+      {
+        "numero": 4,
+        "statut": "oui",
+        "justification": "L'agent pose une question pour comprendre la concurrence.",
+        "preuves": [
+          {
+            "citation": "Puis -je vous demander quel forfait vous avez trouvé ?",
+            "debut_s": 44.5,
+            "verification": "exacte",
+            "debut_verifie_s": 44.52
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "non",
+        "justification": "L'agent exprime de l'empathie mais ne reformule pas la demande de la cliente.",
+        "preuves": []
+      },
+      {
+        "numero": 6,
+        "statut": "non",
+        "justification": "Le ton est inapproprié et l'agent dévalorise l'intervention d'un responsable.",
+        "preuves": [
+          {
+            "citation": "Mon responsable vous le dira à la même chose, Madame Benoît.",
+            "debut_s": 91.0,
+            "verification": "exacte",
+            "debut_verifie_s": 91.0
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "non",
+        "justification": "L'explication sur l'impossibilité de résilier est fausse selon les conditions contractuelles.",
+        "preuves": [
+          {
+            "citation": "Alors, malheureusement vous ne pouvez pas résilier votre ligne tant que votre téléphone n 'est pas entièrement payé.",
+            "debut_s": 65.7,
+            "verification": "exacte",
+            "debut_verifie_s": 65.74
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le client est appelé par son nom.",
+        "preuves": [
+          {
+            "citation": "Je comprends, Madame Benoît.",
+            "debut_s": 44.5,
+            "verification": "exacte",
+            "debut_verifie_s": 44.52
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "non",
+        "justification": "La résiliation est explicitement refusée par le conseiller.",
+        "preuves": [
+          {
+            "citation": "Je ne peux pas enregistrer votre résiliation aujourd 'hui.",
+            "debut_s": 79.7,
+            "verification": "exacte",
+            "debut_verifie_s": 79.68
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "statut": "non",
+        "justification": "La tentative de rétention est effectuée sans respecter la procédure de consentement.",
+        "preuves": [
+          {
+            "citation": "Voilà, c 'est activé.",
+            "debut_s": 108.9,
+            "verification": "exacte",
+            "debut_verifie_s": 108.92
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "statut": "non",
+        "justification": "L'agent active une option et fait un geste commercial sans autorisation explicite ou respect de la procédure.",
+        "preuves": [
+          {
+            "citation": "Pour vous remercier de votre fidélité, je vous active le pack Horizon.",
+            "debut_s": 91.0,
+            "verification": "exacte",
+            "debut_verifie_s": 91.0
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "Le problème de la cliente n'a pas été résolu, aucune opportunité ne peut être saisie.",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "oui",
+        "justification": "L'agent répond à l'objection sur l'engagement du forfait.",
+        "preuves": [
+          {
+            "citation": "Le forfait oui, mais le téléphone vous engage.",
+            "debut_s": 79.7,
+            "verification": "exacte",
+            "debut_verifie_s": 79.68
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "statut": "non",
+        "justification": "L'agent refuse de transférer l'appel alors que la cliente l'a demandé.",
+        "preuves": [
+          {
+            "citation": "Mon responsable vous le dira à la même chose, Madame Benoît.",
+            "debut_s": 91.0,
+            "verification": "exacte",
+            "debut_verifie_s": 91.0
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "statut": "na",
+        "justification": "Pas de vente conclue.",
+        "preuves": []
+      },
+      {
+        "numero": 16,
+        "statut": "non",
+        "justification": "L'appel se termine sans récapitulatif de l'échange.",
+        "preuves": []
+      }
+    ],
+    "eliminatoires": [
+      {
+        "numero": 2,
+        "motif": "Mentir ou faire une fausse promesse qui engage l'entreprise (condition de résiliation)",
+        "citation": "Alors, malheureusement vous ne pouvez pas résilier votre ligne tant que votre téléphone n 'est pas entièrement payé.",
+        "debut_s": 65.7,
+        "verification": "exacte",
+        "debut_verifie_s": 65.74
+      },
+      {
+        "numero": 3,
+        "motif": "Valider une souscription sans l'accord clair du client (vente forcée)",
+        "citation": "Voilà, c 'est activé.",
+        "debut_s": 108.9,
+        "verification": "exacte",
+        "debut_verifie_s": 108.92
+      }
+    ],
+    "fautes_mise_en_garde": [
+      {
+        "type": "resiliation_refusee",
+        "citation": "Je ne peux pas enregistrer votre résiliation aujourd 'hui.",
+        "debut_s": 79.7,
+        "verification": "exacte",
+        "debut_verifie_s": 79.68
+      }
+    ],
+    "remarques_conformite": [
+      {
+        "regle": "[APPEL-14]",
+        "ecart": "Activation d'une option sans obtenir le consentement explicite du client.",
+        "citation": "Voilà, c 'est activé.",
+        "debut_s": 108.9,
+        "verification": "exacte",
+        "debut_verifie_s": 108.92
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Accueil et identification conformes aux procédures.",
+        "Personnalisation de l'échange avec le nom de la cliente."
+      ],
+      "axes_progres": [
+        "Connaissance des conditions contractuelles : la résiliation est possible même avec un financement en cours (le solde devient alors exigible).",
+        "Respect du droit à l'escalade : ne jamais rejeter la demande d'un responsable.",
+        "Respect du consentement : ne jamais activer une option sans un accord clair et explicite de la cliente."
+      ],
+      "conseil_principal": "Ne dites jamais qu'une résiliation est impossible à cause d'un crédit mobile. Dites plutôt : \"Vous pouvez tout à fait résilier, sachez simplement que le solde de votre téléphone deviendra exigible immédiatement.\" Et pour toute modification, demandez toujours : \"Est-ce que cela vous convient ?\" avant de valider."
+    }
+  },
+  "calcul": {
+    "oui": 6,
+    "applicables": 14,
+    "note_pct": 43,
+    "niveau_note": "Insuffisant",
+    "niveau": "Non conforme",
+    "eliminatoires": [
+      2,
+      3
+    ],
+    "mises_en_garde": [
+      "insuffisant",
+      "resiliation_refusee"
+    ],
+    "action": "Avertissement",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 13273,
+    "candidatesTokenCount": 1880,
+    "totalTokenCount": 19587,
+    "cachedContentTokenCount": 10229,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 13273
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 10229
+      }
+    ],
+    "thoughtsTokenCount": 4434,
+    "serviceTier": "standard"
+  }
+}

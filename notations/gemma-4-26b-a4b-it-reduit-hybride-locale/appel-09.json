@@ -1,0 +1,210 @@
+{
+  "appel": "09",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T03:44:24",
+  "source_transcription": "hybride-locale",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "La présentation est complète (nom, fonction, gestion de contrat, motif) et l'identité du client est vérifiée.",
+        "preuves": [
+          {
+            "citation": "Nabil Shraibi, conseiller chez Caliotelecom, votre opérateur. C 'est moi qui m 'occupe de votre contrat Box Internet, et je vous contacte pour faire un point rapide sur votre abonnement.",
+            "debut_s": 4.7,
+            "verification": "exacte",
+            "debut_verifie_s": 4.68
+          },
+          {
+            "citation": "Lambert Gérard, 21 000, le 12 janvier 1958.",
+            "debut_s": 36.5,
+            "verification": "exacte",
+            "debut_verifie_s": 36.54
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "L'enregistrement est mentionné avant la phase de découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 4.7,
+            "verification": "exacte",
+            "debut_verifie_s": 4.68
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller vérifie le bon fonctionnement du matériel avant de proposer une offre.",
+        "preuves": [
+          {
+            "citation": "Avant tout, tout fonctionne bien avec votre box et votre télévision.",
+            "debut_s": 19.7,
+            "verification": "exacte",
+            "debut_verifie_s": 19.7
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "Aucune question de découverte n'a été posée concernant le foyer, les téléphones ou les usages (streaming, tablettes).",
+        "preuves": []
+      },
+      {
+        "numero": 5,
+        "statut": "non",
+        "justification": "Le conseiller ne crée ni ne repère de besoin par une phase de découverte, il passe directement à une présentation globale.",
+        "preuves": []
+      },
+      {
+        "numero": 6,
+        "statut": "non",
+        "justification": "La proposition est présentée comme un catalogue d'offres multiples (Pack Horizon, Sport, Box Ultra, Mobile, Répéteur) sans être reliée aux besoins du client.",
+        "preuves": [
+          {
+            "citation": "Nous avons le pack Horizon à 12 ,99 euros par mois, avec le premier mois offert, 35 chaînes, 2000 films et séries à la demande et un replay de 7 jours. Il y a aussi l 'option Horizon Sport à 6 euros par mois en plus. Vous pouvez aussi passer à la box Ultra à 49 ,99 euros par mois, avec un débit jusqu 'à 8 gigabits par seconde et le pack Horizon inclus. Nous avons également nos forfaits mobiles à partir de 7 ,99 euros par mois et un répéteur wifi à 3 euros par mois.",
+            "debut_s": 41.0,
+            "verification": "exacte",
+            "debut_verifie_s": 41.02
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "Le conseiller traite les objections avec un rebond et s'arrête après les deux refus du client.",
+        "preuves": [
+          {
+            "citation": "Puis-je vous demander ce qui ne vous convient pas, M. Lambert ?",
+            "debut_s": 81.2,
+            "verification": "exacte",
+            "debut_verifie_s": 81.16
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le client est nommé tout au long de l'échange.",
+        "preuves": [
+          {
+            "citation": "Merci, M. Lambert.",
+            "debut_s": 41.0,
+            "verification": "exacte",
+            "debut_verifie_s": 41.02
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "Pas de vente conclue.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "Pas de vente conclue.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "Pas de vente conclue.",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "oui",
+        "justification": "Le conseiller s'excuse de ne pas avoir trouvé d'offre adaptée après le refus.",
+        "preuves": [
+          {
+            "citation": "Je suis désolé de ne pas avoir trouvé une offre adaptée pour vous aujourd 'hui.",
+            "debut_s": 90.2,
+            "verification": "exacte",
+            "debut_verifie_s": 90.16
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Pas de demande de transfert ou d'escalade.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "oui",
+        "justification": "La conclusion inclut la proposition d'autres questions, les remerciements et une prise de congé polie.",
+        "preuves": [
+          {
+            "citation": "Merci pour votre temps, M. Lambert. Je vous souhaite une très bonne journée. Au revoir.",
+            "debut_s": 100.6,
+            "verification": "exacte",
+            "debut_verifie_s": 100.56
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [
+      {
+        "regle": "[TVE-09]",
+        "ecart": "Le nom de l'entreprise mentionné est 'Caliotelecom' au lieu de 'Kalyo Télécom'.",
+        "citation": "Nabil Shraibi, conseiller chez Caliotelecom, votre opérateur.",
+        "debut_s": 4.7,
+        "verification": "exacte",
+        "debut_verifie_s": 4.68
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Politesse et ton professionnel tout au long de l'appel",
+        "Respect de la procédure de traitement des objections et de la règle des deux refus"
+      ],
+      "axes_progres": [
+        "Réalisation d'une phase de découverte pour éviter l'effet 'catalogue'"
+      ],
+      "conseil_principal": "Évitez de lister toutes nos offres d'un coup sans connaître le client. Posez d'abord des questions sur ses habitudes, par exemple : « Qui regarde la télévision chez vous et quels types de programmes préférez-vous ? », afin de proposer une offre réellement personnalisée."
+    }
+  },
+  "calcul": {
+    "oui": 7,
+    "applicables": 10,
+    "note_pct": 70,
+    "niveau_note": "À améliorer",
+    "niveau": "À améliorer",
+    "eliminatoires": [],
+    "mises_en_garde": [],
+    "action": "Coaching ciblé",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 14442,
+    "candidatesTokenCount": 1580,
+    "totalTokenCount": 21764,
+    "cachedContentTokenCount": 12276,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14442
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12276
+      }
+    ],
+    "thoughtsTokenCount": 5742,
+    "serviceTier": "standard"
+  }
+}

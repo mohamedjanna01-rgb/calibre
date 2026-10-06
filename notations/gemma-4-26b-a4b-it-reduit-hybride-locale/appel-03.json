@@ -1,0 +1,230 @@
+{
+  "appel": "03",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T04:05:54",
+  "source_transcription": "hybride-locale",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation du prénom, du nom et de la fonction effectuée, et l'identité a été vérifiée.",
+        "preuves": [
+          {
+            "citation": "[inaudible] m 'appelle Ina Scaduri, je suis votre conseillère clientèle",
+            "debut_s": 2.6,
+            "verification": "exacte",
+            "debut_verifie_s": 2.58
+          },
+          {
+            "citation": "[numéro masqué] 44 milles, 8 novembre 1990.",
+            "debut_s": 41.9,
+            "verification": "exacte",
+            "debut_verifie_s": 41.92
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "La mention de l'enregistrement est faite avant la découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 2.6,
+            "verification": "exacte",
+            "debut_verifie_s": 2.58
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "La conseillère laisse le client exprimer son mécontentement sans l'interrompre.",
+        "preuves": [
+          {
+            "citation": "Tous les soirs, Internet coupe. Tous les soirs. J 'ai appelé lundi. On m 'a dit de redémarrer la box. J 'ai rappelé mercredi. On m 'a dit que ça allait s 'arranger. Et là ?",
+            "debut_s": 41.9,
+            "verification": "exacte",
+            "debut_verifie_s": 41.92
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "oui",
+        "justification": "La conseillère pose une question pertinente sur le moment des coupures pour analyser le problème.",
+        "preuves": [
+          {
+            "citation": "À quelle heure ont lieu les coupures ?",
+            "debut_s": 87.7,
+            "verification": "exacte",
+            "debut_verifie_s": 87.74
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "non",
+        "justification": "Le client exprime un fort mécontentement, mais la conseillère ne reformule pas le problème pour validation et ne pratique aucune réassurance empathique.",
+        "preuves": []
+      },
+      {
+        "numero": 6,
+        "statut": "non",
+        "justification": "La conseillère utilise l'expression interdite « Calmez-vous » et rejette la faute sur ses collègues.",
+        "preuves": [
+          {
+            "citation": "Calmez -vous, Monsieur Martin. Ce n 'est pas moi qui ai traité vos appels précédents. Je ne peux pas savoir ce que mes collègues vous ont dit.",
+            "debut_s": 77.6,
+            "verification": "exacte",
+            "debut_verifie_s": 77.6
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "La cause technique (signal trop faible) et la solution (technicien) sont expliquées clairement.",
+        "preuves": [
+          {
+            "citation": "Effectivement, je vois plusieurs coupures chaque soir sur les sept derniers jours avec un signal libre trop faible.",
+            "debut_s": 100.1,
+            "verification": "exacte",
+            "debut_verifie_s": 100.14
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le client est appelé par son nom tout au long de l'échange.",
+        "preuves": [
+          {
+            "citation": "Merci, Monsieur Martin.",
+            "debut_s": 20.6,
+            "verification": "exacte",
+            "debut_verifie_s": 20.6
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 15,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 16,
+        "statut": "oui",
+        "justification": "La conclusion comprend un récapitulatif, la question sur d'autres besoins, les remerciements et la prise de congé.",
+        "preuves": [
+          {
+            "citation": "Pour y capituler, les coupures viennent d 'un signal fibre trop faible et un technicien passe jeudi entre 14h et 18h. Avez-vous d 'autres questions ?",
+            "debut_s": 143.0,
+            "verification": "exacte",
+            "debut_verifie_s": 143.04
+          },
+          {
+            "citation": "Merci pour votre appel, Monsieur Martin. Je vous souhaite une bonne soirée.",
+            "debut_s": 157.0,
+            "verification": "exacte",
+            "debut_verifie_s": 157.0
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [
+      {
+        "regle": "[APPEL-03]",
+        "ecart": "L'authentification n'utilise pas la pratique standard (code postal + date de naissance) lors de la première tentative, la conseillère demandant l'adresse à la place.",
+        "citation": "Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postale et votre adresse ?",
+        "debut_s": 20.6,
+        "verification": "exacte",
+        "debut_verifie_s": 20.6
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Bon diagnostic technique via l'outil pour identifier le signal faible.",
+        "Proposition d'une solution concrète et rapide (rendez-vous technicien)."
+      ],
+      "axes_progres": [
+        "Gestion des émotions : ne jamais dire « Calmez-vous » ou critiquer les collègues.",
+        "Utilisation de la méthode CALME pour accueillir le mécontentement.",
+        "Obligation de reformulation et de réassurance avant de proposer une solution."
+      ],
+      "conseil_principal": "Face à un client en colère, évitez de vous justifier ou de critiquer l'entreprise. Utilisez la reformulation pour valider le problème et l'empathie pour calmer la tension. Par exemple : « Je comprends votre agacement, Monsieur Martin. Si je comprends bien, vos coupures internet surviennent tous les soirs, c'est bien cela ? »"
+    }
+  },
+  "calcul": {
+    "oui": 7,
+    "applicables": 9,
+    "note_pct": 78,
+    "niveau_note": "Conforme",
+    "niveau": "Conforme",
+    "eliminatoires": [],
+    "mises_en_garde": [],
+    "action": "Rien à signaler",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 13470,
+    "candidatesTokenCount": 1649,
+    "totalTokenCount": 21365,
+    "cachedContentTokenCount": 10229,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 13470
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 10229
+      }
+    ],
+    "thoughtsTokenCount": 6246,
+    "serviceTier": "standard"
+  }
+}

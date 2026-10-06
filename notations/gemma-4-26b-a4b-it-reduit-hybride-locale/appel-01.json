@@ -1,0 +1,250 @@
+{
+  "appel": "01",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-05T18:32:43",
+  "source_transcription": "hybride-locale",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation faite (prénom, nom, fonction), prise en charge de la demande et identification complète (nom, ligne, code postal, date de naissance) effectuée.",
+        "preuves": [
+          {
+            "citation": "je m 'appelle Yanis Ben Ali, je suis votre conseiller clientèle et je vais m 'occuper de votre demande aujourd 'hui.",
+            "debut_s": 2.8,
+            "verification": "exacte",
+            "debut_verifie_s": 2.8
+          },
+          {
+            "citation": "Pour sécuriser votre dossier, pouvez -vous me donner votre numéro de ligne, votre code postale et votre date de naissance ?",
+            "debut_s": 19.0,
+            "verification": "exacte",
+            "debut_verifie_s": 19.04
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "L'enregistrement est mentionné avant la phase de découverte.",
+        "preuves": [
+          {
+            "citation": "Avant de commencer, je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 2.8,
+            "verification": "exacte",
+            "debut_verifie_s": 2.8
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller n'interrompt pas la cliente.",
+        "preuves": []
+      },
+      {
+        "numero": 4,
+        "statut": "oui",
+        "justification": "Le conseiller pose des questions pertinentes sur l'état technique (voyant) et les tentatives de résolution (redémarrage).",
+        "preuves": [
+          {
+            "citation": "Pouvez -vous me dire de quelle couleur est le voyant de votre box ?",
+            "debut_s": 63.0,
+            "verification": "exacte",
+            "debut_verifie_s": 63.02
+          },
+          {
+            "citation": "Et avez-vous déjà essayé de redémarrer la box ?",
+            "debut_s": 77.1,
+            "verification": "exacte",
+            "debut_verifie_s": 77.12
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le conseiller rassure la cliente face à son problème de télétravail et reformule précisément la situation avec validation.",
+        "preuves": [
+          {
+            "citation": "Je comprends tout à fait. C 'est très gênant quand on travaille de chez soi. On va regarder ça ensemble.",
+            "debut_s": 63.0,
+            "verification": "exacte",
+            "debut_verifie_s": 63.02
+          },
+          {
+            "citation": "Si je résume, Madame Lefebvre, depuis ce matin, vous n 'avez plus Internet, le voyant est orange fixe et le redémarrage n 'a rien donné. C 'est bien ça ?",
+            "debut_s": 84.5,
+            "verification": "exacte",
+            "debut_verifie_s": 84.52
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "Le ton est empathique et calme malgré le stress de la cliente.",
+        "preuves": [
+          {
+            "citation": "Je comprends tout à fait. C 'est très gênant quand on travaille de chez soi.",
+            "debut_s": 63.0,
+            "verification": "exacte",
+            "debut_verifie_s": 63.02
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "L'explication sur le signal fibre et le câble est simple et sans jargon.",
+        "preuves": [
+          {
+            "citation": "Un voyant orange fixe signifie que la box ne reçoit plus le signal de la fibre.",
+            "debut_s": 100.6,
+            "verification": "exacte",
+            "debut_verifie_s": 100.62
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le conseiller utilise le nom de la cliente tout au long de l'échange.",
+        "preuves": [
+          {
+            "citation": "Si je résume, Madame Lefebvre, depuis ce matin, vous n 'avez plus Internet, le voyant est orange fixe et le redémarrage n 'a rien donné. C 'est bien ça ?",
+            "debut_s": 84.5,
+            "verification": "exacte",
+            "debut_verifie_s": 84.52
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "Pas de demande de résiliation.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "Pas de procédure de rétention.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "Aucun geste commercial hors limites n'a été fait.",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "oui",
+        "justification": "Le problème technique ayant été résolu, le conseiller a détecté le besoin de stabilité Wi-Fi et a proposé le répéteur adapté.",
+        "preuves": [
+          {
+            "citation": "Nous avons un récepteur Wi -Fi qui se branche simplement sur une prise, à mi -chemin entre la [inaudible] et votre bureau, et qui renforce le signal à l 'étage.",
+            "debut_s": 152.9,
+            "verification": "exacte",
+            "debut_verifie_s": 152.88
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Aucune objection n'a été formulée concernant l'offre.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "na",
+        "justification": "Pas de transfert nécessaire.",
+        "preuves": []
+      },
+      {
+        "numero": 15,
+        "statut": "oui",
+        "justification": "Les coordonnées sont confirmées, la commande est récapitulée (prix, engagement, délai), l'e-mail est envoyé et la signature électronique est sécurisée par le client lui-même.",
+        "preuves": [
+          {
+            "citation": "Je récapitule votre commande. Un récepteur [inaudible] -Fi Calio, en location à trois euros par mois, sans engagement, ajoutez à votre prochaine facture.",
+            "debut_s": 206.5,
+            "verification": "exacte",
+            "debut_verifie_s": 206.46
+          },
+          {
+            "citation": "Saisissez -le vous -même dans l 'e -mail et ne le communiquez à personne.",
+            "debut_s": 240.1,
+            "verification": "exacte",
+            "debut_verifie_s": 240.1
+          }
+        ]
+      },
+      {
+        "numero": 16,
+        "statut": "oui",
+        "justification": "Le conseiller fait un récapitulatif final, demande si la cliente a d'autres questions et prend congé poliment.",
+        "preuves": [
+          {
+            "citation": "Votre connexion internet est rétablie. Le souci venait du câble -fibre légèrement débranché et votre répéteur Wi -Fi arrive sous 3 à 5 jours pour améliorer le signal dans votre bureau.",
+            "debut_s": 265.1,
+            "verification": "exacte",
+            "debut_verifie_s": 265.1
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [
+      {
+        "regle": "[APPEL-02]",
+        "ecart": "Oubli de la mention du nom de l'entreprise (Kalyo Télécom) lors de l'accueil.",
+        "citation": "je m 'appelle Yanis Ben Ali, je suis votre conseiller clientèle et je vais m 'occuper de votre demande aujourd 'hui.",
+        "debut_s": 2.8,
+        "verification": "exacte",
+        "debut_verifie_s": 2.8
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Excellente gestion de l'émotion et de l'urgence de la cliente.",
+        "Diagnostic technique efficace et pédagogique.",
+        "Transition commerciale fluide et pertinente après la résolution du problème.",
+        "Sécurisation de la vente parfaitement respectée."
+      ],
+      "axes_progres": [
+        "Veiller à bien inclure le nom de l'entreprise dès la première phrase de l'accueil.",
+        "Attention à la précision du vocabulaire (utiliser 'à signer' plutôt qu' 'assigné')."
+      ],
+      "conseil_principal": "Un appel parfait sur la structure et l'empathie. Pour être irréprochable, n'oubliez pas de nommer Kalyo Télécom dès votre salutation : 'Kalyo Télécom, bonjour ! Je m'appelle...'."
+    }
+  },
+  "calcul": {
+    "oui": 11,
+    "applicables": 11,
+    "note_pct": 100,
+    "niveau_note": "Excellent",
+    "niveau": "Excellent",
+    "eliminatoires": [],
+    "mises_en_garde": [],
+    "action": "Valorisation",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 14305,
+    "candidatesTokenCount": 1996,
+    "totalTokenCount": 22683,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14305
+      }
+    ],
+    "thoughtsTokenCount": 6382,
+    "serviceTier": "standard"
+  }
+}

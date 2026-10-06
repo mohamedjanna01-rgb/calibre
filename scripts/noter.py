@@ -183,21 +183,22 @@ def construire(appel, modele, reduit=False):
 # --- Calculs et vérifications par code --------------------------------------------------------------------------
 
 def verifier_citation(citation, reps):
-    """Statut de la citation dans la transcription (exacte, approchée, introuvable) et horodatage de sa réplique."""
-    cj = jetons(citation)
+    """Statut de la citation dans la transcription (exacte, approchée, introuvable) et horodatage de la réplique
+    où elle commence. La recherche porte sur toute la transcription (une citation peut couvrir deux répliques) ;
+    les repères de temps recopiés par l'IA (« [87.7 s] ») sont ignorés."""
+    cj = jetons(re.sub(r"\[\d+(?:[.,]\d+)?\s*s\]", " ", citation))
     if not cj:
         return "vide", None
-    for r in reps:
-        rj = jetons(r["texte"])
-        if any(rj[k:k + len(cj)] == cj for k in range(len(rj) - len(cj) + 1)):
-            return "exacte", r["debut"]
+    tous = [(m, r["debut"]) for r in reps for m in jetons(r["texte"])]
+    mots = [m for m, _ in tous]
+    for k in range(len(mots) - len(cj) + 1):
+        if mots[k:k + len(cj)] == cj:
+            return "exacte", tous[k][1]
     meilleur = (0, None)
-    for r in reps:
-        rj = jetons(r["texte"])
-        for k in range(max(1, len(rj) - len(cj) + 1)):
-            ratio = difflib.SequenceMatcher(None, cj, rj[k:k + len(cj)]).ratio()
-            if ratio > meilleur[0]:
-                meilleur = (ratio, r["debut"])
+    for k in range(max(1, len(mots) - len(cj) + 1)):
+        ratio = difflib.SequenceMatcher(None, cj, mots[k:k + len(cj)]).ratio()
+        if ratio > meilleur[0]:
+            meilleur = (ratio, tous[k][1] if tous else None)
     return ("approchée", meilleur[1]) if meilleur[0] >= 0.85 else ("introuvable", None)
 
 

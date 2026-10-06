@@ -1,0 +1,264 @@
+{
+  "appel": "07",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T03:36:07",
+  "source_transcription": "hybride-locale",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète incluant le nom, la fonction, l'affirmation de la gestion du contrat, le motif et la vérification d'identité.",
+        "preuves": [
+          {
+            "citation": "Samir El Idrissi, conseiller chez Cali au Télécom, votre opérateur. C 'est moi qui m 'occupe de votre contract box Internet.",
+            "debut_s": 6.3,
+            "verification": "introuvable",
+            "debut_verifie_s": null
+          },
+          {
+            "citation": "Pour sécuriser notre échange, pouvez -vous me confirmer votre nom et prénom, votre code postal et votre date de naissance?",
+            "debut_s": 35.0,
+            "verification": "exacte",
+            "debut_verifie_s": 34.98
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "La mention de l'enregistrement est faite avant la phase de découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 12.2,
+            "verification": "exacte",
+            "debut_verifie_s": 12.18
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller vérifie le bon fonctionnement de la box et de la TV avant de proposer l'offre.",
+        "preuves": [
+          {
+            "citation": "Tout fonctionne bien avec votre box et votre télévision?",
+            "debut_s": 24.9,
+            "verification": "exacte",
+            "debut_verifie_s": 24.86
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "oui",
+        "justification": "La découverte couvre le foyer (composition), la télévision (profil), les téléphones/lignes (opérateur et nombre) et les usages (tablette et streaming).",
+        "preuves": [
+          {
+            "citation": "Combien êtes -vous à la maison?",
+            "debut_s": 50.0,
+            "verification": "exacte",
+            "debut_verifie_s": 49.98
+          },
+          {
+            "citation": "Et pour vos téléphones portables, vous êtes chez nous ou chez un autre opérateur?",
+            "debut_s": 91.8,
+            "verification": "exacte",
+            "debut_verifie_s": 91.78
+          },
+          {
+            "citation": "Et vous arrive -t -il de regarder sur tablette ou sur téléphone?",
+            "debut_s": 80.1,
+            "verification": "exacte",
+            "debut_verifie_s": 80.12
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le besoin est clairement identifié : programmes pour enfants et visionnage tardif pour les parents.",
+        "preuves": [
+          {
+            "citation": "Des programmes adaptés à l 'âge de chacun de vos enfants.",
+            "debut_s": 128.0,
+            "verification": "exacte",
+            "debut_verifie_s": 102.12
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "La proposition est personnalisée selon les besoins identifiés en découverte (enfants et horaires décalés).",
+        "preuves": [
+          {
+            "citation": "Avec tout ce que vous dites, Monsieur Durand, j 'ai quelque chose qui correspond vraiment à votre famille. Le pack Horizon.",
+            "debut_s": 102.1,
+            "verification": "exacte",
+            "debut_verifie_s": 102.12
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "Les objections sur le streaming et le prix sont traitées avec un seul rebond chacune.",
+        "preuves": [
+          {
+            "citation": "La différence, c 'est que le pack Horizon ajoute des chaînes en direct et un catalogue différent.",
+            "debut_s": 159.2,
+            "verification": "exacte",
+            "debut_verifie_s": 159.24
+          },
+          {
+            "citation": "C 'est une vraie question, et je vais être transparent avec vous.",
+            "debut_s": 184.1,
+            "verification": "exacte",
+            "debut_verifie_s": 184.1
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le client est appelé par son nom durant l'échange.",
+        "preuves": [
+          {
+            "citation": "Merci, Monsieur Durand.",
+            "debut_s": 50.0,
+            "verification": "exacte",
+            "debut_verifie_s": 49.98
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "oui",
+        "justification": "Le récapitulatif inclut le prix, la gratuité du premier mois, la date de prélèvement, l'absence d'engagement et le droit de rétractation.",
+        "preuves": [
+          {
+            "citation": "Le [inaudible] le premier mois est offert, puis 12 ,99 euros par mois. Le premier prélèvement des 12 ,99 euros aura lieu le 8 décembre. Il est sans engagement. Vous pouvez l 'arrêter à tout moment, avec essai à la fin du mois, depuis votre espace client ou en nous appelant. Vous disposez aussi d 'un droit de rétractation de 14 jours.",
+            "debut_s": 217.0,
+            "verification": "exacte",
+            "debut_verifie_s": 217.0
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "statut": "oui",
+        "justification": "Le délai d'activation de 2 heures maximum est annoncé.",
+        "preuves": [
+          {
+            "citation": "Il sera activé dans un délai de deux heures maximum, directement sur votre décodeur, sans rien à installer.",
+            "debut_s": 217.0,
+            "verification": "exacte",
+            "debut_verifie_s": 217.0
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "statut": "oui",
+        "justification": "Le consentement est explicite (question fermée), l'e-mail est envoyé, la signature est effectuée par le client et le code est protégé.",
+        "preuves": [
+          {
+            "citation": "Confirmez -vous, sous -crivez au pack [inaudible] aux conditions que je viens de vous inviter ?",
+            "debut_s": 251.7,
+            "verification": "exacte",
+            "debut_verifie_s": 217.0
+          },
+          {
+            "citation": "Et surtout, n 'oubliez pas, ni à moi, ni à personne. Un conseiller calieux ne vous le demandera jamais.",
+            "debut_s": 288.3,
+            "verification": "exacte",
+            "debut_verifie_s": 288.34
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "Le client n'a pas refusé l'offre.",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Aucune demande de transfert ou d'escalade n'a été formulée.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "oui",
+        "justification": "Le conseiller prend congé poliment après avoir demandé si le client avait d'autres questions.",
+        "preuves": [
+          {
+            "citation": "Avez -vous des questions, M. Durand ?",
+            "debut_s": 307.9,
+            "verification": "exacte",
+            "debut_verifie_s": 307.92
+          },
+          {
+            "citation": "Excellent fin de journée, M. Durand. Au revoir.",
+            "debut_s": 321.2,
+            "verification": "exacte",
+            "debut_verifie_s": 321.24
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [
+      {
+        "regle": "[TVE-09]",
+        "ecart": "Erreur sur le nom de l'entreprise lors de l'accroche (Cali au Télécom au lieu de Kalyo Télécom).",
+        "citation": "Samir El Idrissi, conseiller chez Cali au Télécom, votre opérateur.",
+        "debut_s": 6.3,
+        "verification": "exacte",
+        "debut_verifie_s": 6.32
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Excellente phase de découverte qui couvre l'ensemble des critères (foyer, mobile, usages).",
+        "Argumentaire CAB très efficace et personnalisé pour répondre aux besoins de la famille.",
+        "Maîtrise de la méthode de traitement des objections (AQRV)."
+      ],
+      "axes_progres": [
+        "Attention à la précision du nom de l'entreprise lors de la présentation pour éviter toute confusion."
+      ],
+      "conseil_principal": "Veillez à bien prononcer le nom de l'entreprise 'Kalyo Télécom' lors de votre présentation : 'Bonjour, je m'appelle Samir El Idrissi, conseiller chez Kalyo Télécom'."
+    }
+  },
+  "calcul": {
+    "oui": 12,
+    "applicables": 12,
+    "note_pct": 100,
+    "niveau_note": "Excellent",
+    "niveau": "Excellent",
+    "eliminatoires": [],
+    "mises_en_garde": [],
+    "action": "Valorisation",
+    "anomalies": [
+      "citation introuvable dans la transcription : « Samir El Idrissi, conseiller chez Cali au Télécom, votre opérateur. C 'est moi q »"
+    ]
+  },
+  "usage": {
+    "promptTokenCount": 15468,
+    "candidatesTokenCount": 2001,
+    "totalTokenCount": 25046,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 15468
+      }
+    ],
+    "thoughtsTokenCount": 7577,
+    "serviceTier": "standard"
+  }
+}

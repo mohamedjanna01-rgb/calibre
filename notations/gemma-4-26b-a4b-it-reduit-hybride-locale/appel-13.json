@@ -1,0 +1,239 @@
+{
+  "appel": "13",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T04:01:48",
+  "source_transcription": "hybride-locale",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète (nom, fonction, entreprise), prise en charge du contrat et identité vérifiée.",
+        "preuves": [
+          {
+            "citation": "Anas Lalou, conseiller chez Caliotelecom, votre opérateur. C 'est moi qui m 'occupe de votre contrat Box Internet.",
+            "debut_s": 7.0,
+            "verification": "exacte",
+            "debut_verifie_s": 7.02
+          },
+          {
+            "citation": "Rousseau Michel, 49000, le 7 mars 1966.",
+            "debut_s": 42.2,
+            "verification": "exacte",
+            "debut_verifie_s": 42.24
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "L'enregistrement est mentionné avant la phase de découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 7.0,
+            "verification": "exacte",
+            "debut_verifie_s": 7.02
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "L'agent vérifie le bon fonctionnement de la box avant de proposer une offre et n'interrompt pas le client.",
+        "preuves": [
+          {
+            "citation": "Avant tout, tout se passe bien avec votre Box et votre télévision ?",
+            "debut_s": 23.8,
+            "verification": "exacte",
+            "debut_verifie_s": 23.8
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La découverte est incomplète : l'agent n'interroge pas sur les lignes mobiles, les tablettes ou les autres usages du foyer.",
+        "preuves": []
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "L'agent repère le besoin de ne plus 'zapper' et propose une solution adaptée.",
+        "preuves": [
+          {
+            "citation": "Vous choisissez votre soirée au lieu de taper.",
+            "debut_s": 66.9,
+            "verification": "exacte",
+            "debut_verifie_s": 66.88
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "La proposition est liée aux besoins (films/séries) et est détaillée.",
+        "preuves": [
+          {
+            "citation": "Horizon Cinéma, Horizon Série, Horizon Polar et plus de 2000 films et séries à la demande.",
+            "debut_s": 66.9,
+            "verification": "exacte",
+            "debut_verifie_s": 66.88
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "na",
+        "justification": "Aucune objection n'a été formulée par le client.",
+        "preuves": []
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le client est appelé par son nom tout au long de l'échange.",
+        "preuves": [
+          {
+            "citation": "Merci, Monsieur Rousseau.",
+            "debut_s": 47.9,
+            "verification": "exacte",
+            "debut_verifie_s": 47.86
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "non",
+        "justification": "Le tarif complet exigé (prix initial, prix hors promotion, etc.) n'est pas détaillé de manière conforme.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "oui",
+        "justification": "Le délai d'activation est correctement annoncé.",
+        "preuves": [
+          {
+            "citation": "activation en 2 heures maximum.",
+            "debut_s": 93.5,
+            "verification": "exacte",
+            "debut_verifie_s": 93.54
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "statut": "non",
+        "justification": "L'agent demande les coordonnées bancaires par téléphone, ce qui est strictement interdit car le paiement doit être rattaché à la facture de la box.",
+        "preuves": [
+          {
+            "citation": "Il me faut juste un moyen de paiement pour le pack. Vous avez votre carte bancaire à portée de main ?",
+            "debut_s": 118.6,
+            "verification": "exacte",
+            "debut_verifie_s": 118.56
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "Le client n'a pas refusé l'offre.",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Pas de besoin d'escalade ou de transfert.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "oui",
+        "justification": "La conclusion est soignée avec questions, remerciements et prise de congé.",
+        "preuves": [
+          {
+            "citation": "Avez-vous d 'autres questions, monsieur Rousseau ?",
+            "debut_s": 200.8,
+            "verification": "exacte",
+            "debut_verifie_s": 200.8
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [
+      {
+        "numero": 1,
+        "motif": "Demande de données bancaires (numéro de carte, expiration, cryptogramme).",
+        "citation": "Il me faut juste un moyen de paiement pour le pack. Vous avez votre carte bancaire à portée de main ?",
+        "debut_s": 118.6,
+        "verification": "exacte",
+        "debut_verifie_s": 118.56
+      },
+      {
+        "numero": 1,
+        "motif": "Demande de données bancaires (date d'expiration).",
+        "citation": "La date d 'expération ?",
+        "debut_s": 167.1,
+        "verification": "exacte",
+        "debut_verifie_s": 167.14
+      },
+      {
+        "numero": 1,
+        "motif": "Demande de données bancaires (cryptogramme).",
+        "citation": "Et les trois chiffres au dos ?",
+        "debut_s": 175.7,
+        "verification": "exacte",
+        "debut_verifie_s": 175.68
+      }
+    ],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [],
+    "coaching": {
+      "points_forts": [
+        "Très bonne accroche et présentation",
+        "Identification pertinente des centres d'intérêt (cinéma, séries)",
+        "Argumentaire CAB efficace pour répondre au problème de zapping",
+        "Récapitulatif clair avant la souscription"
+      ],
+      "axes_progres": [
+        "La découverte doit être plus complète (lignes mobiles, tablettes, usages)",
+        "La précision tarifaire doit respecter strictement la grille (prix hors promotion)",
+        "NE JAMAIS demander de coordonnées bancaires : le Pack Horizon est ajouté à la facture de la Box existante."
+      ],
+      "conseil_principal": "Vous avez un excellent sens commercial, mais la demande de coordonnées bancaires est une faute grave qui met l'entreprise en danger. Utilisez la procédure de paiement automatique sur facture. Phrase modèle : « Le Pack Horizon est directement ajouté à votre facture de Box actuelle, vous n'avez donc aucune information de carte bancaire à me communiquer. »"
+    }
+  },
+  "calcul": {
+    "oui": 8,
+    "applicables": 11,
+    "note_pct": 73,
+    "niveau_note": "À améliorer",
+    "niveau": "Non conforme",
+    "eliminatoires": [
+      1
+    ],
+    "mises_en_garde": [],
+    "action": "Avertissement",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 14842,
+    "candidatesTokenCount": 1671,
+    "totalTokenCount": 24562,
+    "cachedContentTokenCount": 12276,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14842
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12276
+      }
+    ],
+    "thoughtsTokenCount": 8049,
+    "serviceTier": "standard"
+  }
+}

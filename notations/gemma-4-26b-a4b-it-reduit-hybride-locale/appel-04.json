@@ -1,0 +1,223 @@
+{
+  "appel": "04",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-05T18:41:14",
+  "source_transcription": "hybride-locale",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "non",
+        "justification": "La présentation est incomplète (absence de prénom, nom et fonction) et le nom de l'entreprise est erroné. La prise en charge n'est pas formulée.",
+        "preuves": [
+          {
+            "citation": "Caliot Telecom, bonjour.",
+            "debut_s": 0.0,
+            "verification": "exacte",
+            "debut_verifie_s": 0.0
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "non",
+        "justification": "La mention de l'enregistrement n'est pas faite avant la phase de découverte.",
+        "preuves": []
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller laisse la cliente expliquer son problème sans l'interrompre.",
+        "preuves": [
+          {
+            "citation": "Ma télévision ne marche plus depuis ce matin. Il n 'a écrit aucun signal sur l 'écran. J 'ai essayé d 'éteindre et de rallumer la télé, mais ça ne change rien. Mon mari regarde le match ce soir alors.",
+            "debut_s": 18.0,
+            "verification": "exacte",
+            "debut_verifie_s": 18.04
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La question posée pour débuter la découverte est trop banale et abrupte.",
+        "preuves": [
+          {
+            "citation": "C 'est bon, c 'est pourquoi.",
+            "debut_s": 16.6,
+            "verification": "exacte",
+            "debut_verifie_s": 16.6
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "non",
+        "justification": "Aucune reformulation de la demande n'est effectuée, et aucune réassurance n'est apportée face au problème.",
+        "preuves": []
+      },
+      {
+        "numero": 6,
+        "statut": "non",
+        "justification": "Le ton est expéditif et dismissif, refusant d'approfondir l'aide demandée par la cliente.",
+        "preuves": [
+          {
+            "citation": "Faites d 'abord le reset, autre chose ?",
+            "debut_s": 50.4,
+            "verification": "exacte",
+            "debut_verifie_s": 50.44
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "non",
+        "justification": "Le conseiller utilise du jargon technique non expliqué ('perdu la synchro', 'reset usine').",
+        "preuves": [
+          {
+            "citation": "Ok, c 'est sûrement votre décodeur qui a perdu la synchro avec la box. Faites un reset usine du décodeur, ça devrait régler le problème.",
+            "debut_s": 28.3,
+            "verification": "exacte",
+            "debut_verifie_s": 28.28
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "non",
+        "justification": "Le nom de la cliente n'est jamais utilisé durant l'échange.",
+        "preuves": []
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "non",
+        "justification": "Le conseiller refuse de vérifier le problème à distance (via l'outil Sonde) alors que la cliente le demande explicitement.",
+        "preuves": [
+          {
+            "citation": "Faites d 'abord le reset, autre chose ?",
+            "debut_s": 50.4,
+            "verification": "exacte",
+            "debut_verifie_s": 50.44
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 16,
+        "statut": "non",
+        "justification": "L'appel se termine de manière abrupte sans récapitulatif, sans proposer d'autre aide, sans remerciement ni prise de congé soignée.",
+        "preuves": [
+          {
+            "citation": "Au revoir.",
+            "debut_s": 54.3,
+            "verification": "exacte",
+            "debut_verifie_s": 54.28
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [
+      {
+        "regle": "[APPEL-02]",
+        "ecart": "L'accueil est non conforme : nom de l'entreprise erroné et absence de présentation complète.",
+        "citation": "Caliot Telecom, bonjour.",
+        "debut_s": 0.0,
+        "verification": "exacte",
+        "debut_verifie_s": 0.0
+      },
+      {
+        "regle": "[APPEL-10]",
+        "ecart": "Utilisation d'une expression à éviter.",
+        "citation": "Normalement ça devrait marcher.",
+        "debut_s": 43.2,
+        "verification": "exacte",
+        "debut_verifie_s": 43.22
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Écoute active (ne coupe pas la parole)."
+      ],
+      "axes_progres": [
+        "Respecter la structure de l'accueil (Nom, Prénom, Fonction, Prise en charge).",
+        "Mentionner l'enregistrement dès le début.",
+        "Éviter le jargon technique (utiliser 'reconnexion' au lieu de 'synchro').",
+        "Pratiquer la reformulation et la réassurance pour valider la demande.",
+        "Utiliser les outils de diagnostic (Sonde) pour répondre aux demandes d'assistance.",
+        "Soigner la conclusion (recap, remerciements, prise de congé)."
+      ],
+      "conseil_principal": "L'appel manque de structure et de professionnalisme. Veillez à respecter les étapes clés : une présentation complète, une reformulation pour montrer que vous avez compris, et une conclusion soignée. Par exemple : 'Si je comprends bien, votre télévision affiche un message sans signal malgré vos tests ; nous allons vérifier cela ensemble.'"
+    }
+  },
+  "calcul": {
+    "oui": 1,
+    "applicables": 10,
+    "note_pct": 10,
+    "niveau_note": "Insuffisant",
+    "niveau": "Insuffisant",
+    "eliminatoires": [],
+    "mises_en_garde": [
+      "insuffisant"
+    ],
+    "action": "Mise en garde",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 13037,
+    "candidatesTokenCount": 1558,
+    "totalTokenCount": 20620,
+    "cachedContentTokenCount": 10229,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 13037
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 10229
+      }
+    ],
+    "thoughtsTokenCount": 6025,
+    "serviceTier": "standard"
+  }
+}

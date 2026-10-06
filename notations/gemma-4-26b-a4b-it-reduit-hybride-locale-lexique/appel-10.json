@@ -1,0 +1,182 @@
+{
+  "appel": "10",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T04:55:19",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "non",
+        "justification": "Absence de présentation complète (nom, fonction, mention de la gestion du contrat) et de motif d'appel.",
+        "preuves": []
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "L'enregistrement est mentionné avant la découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 5.1,
+            "verification": "exacte",
+            "debut_verifie_s": 5.1
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "non",
+        "justification": "Le conseiller n'a pas vérifié que tout fonctionnait avant de proposer l'offre.",
+        "preuves": []
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La découverte est incomplète : pas de questions sur les téléphones, les lignes ou les autres équipements.",
+        "preuves": []
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le conseiller a repéré un besoin lié à la télévision et aux enfants.",
+        "preuves": [
+          {
+            "citation": "Ils regardent surtout des dessins animés. Ils jouent une appli de streaming. Ils jouent à la tablette.",
+            "debut_s": 28.1,
+            "verification": "exacte",
+            "debut_verifie_s": 28.06
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "non",
+        "justification": "La proposition est très succincte, sans détails sur l'offre et sans application de la méthode CAB.",
+        "preuves": []
+      },
+      {
+        "numero": 7,
+        "statut": "non",
+        "justification": "Pression excessive, non-respect de la règle des deux refus et absence de la méthode AQRV.",
+        "preuves": [
+          {
+            "citation": "Pensez au moins à vos enfants, quand même. Tous les parents le prennent, vous savez ?",
+            "debut_s": 60.2,
+            "verification": "exacte",
+            "debut_verifie_s": 60.2
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "non",
+        "justification": "Le client n'est jamais appelé par son nom.",
+        "preuves": []
+      },
+      {
+        "numero": 9,
+        "statut": "non",
+        "justification": "Le tarif est incomplet : seul le prix mensuel est annoncé.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "Pas de vente réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "Pas de vente réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "non",
+        "justification": "Le conseiller a insisté après les refus au lieu de s'excuser et d'arrêter la proposition.",
+        "preuves": [
+          {
+            "citation": "Attendez, vous ne savez même pas ce qu 'il y a dedans.",
+            "debut_s": 47.0,
+            "verification": "exacte",
+            "debut_verifie_s": 47.0
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Pas de vente réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "non",
+        "justification": "La conclusion n'est pas professionnelle (pas de remerciement ni de prise de congé soignée).",
+        "preuves": []
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [
+      {
+        "type": "panne_ignoree",
+        "citation": "L'appel a atteint un niveau insuffisant (18%).",
+        "debut_s": 0.0,
+        "verification": "introuvable",
+        "debut_verifie_s": null
+      }
+    ],
+    "remarques_conformite": [],
+    "coaching": {
+      "points_forts": [
+        "Identification rapide d'un usage (dessins animés/tablette)."
+      ],
+      "axes_progres": [
+        "Respecter la règle des deux refus pour ne pas basculer dans la pression excessive.",
+        "Adopter une présentation d'accueil conforme (nom, fonction, gestion du contrat).",
+        "Utiliser la méthode CAB pour argumenter plutôt que de culpabiliser le client.",
+        "Effectuer une découverte complète pour ne pas passer à côté d'autres besoins."
+      ],
+      "conseil_principal": "Évitez absolument de culpabiliser le client ou d'insister lourdement après un refus, cela nuit à l'image de Kalyo. Si un client refuse deux fois, présentez vos excuses et terminez l'appel poliment. Utilisez plutôt cette phrase : « Je comprends parfaitement. Pour vous permettre de comparer sereinement, sachez que le premier mois est offert et que vous restez sans engagement. Souhaitez-vous que je vous envoie une documentation par e-mail ? »"
+    }
+  },
+  "calcul": {
+    "oui": 2,
+    "applicables": 11,
+    "note_pct": 18,
+    "niveau_note": "Insuffisant",
+    "niveau": "Insuffisant",
+    "eliminatoires": [],
+    "mises_en_garde": [
+      "insuffisant",
+      "panne_ignoree"
+    ],
+    "action": "Mise en garde",
+    "anomalies": [
+      "citation introuvable dans la transcription : « L'appel a atteint un niveau insuffisant (18%). »"
+    ]
+  },
+  "usage": {
+    "promptTokenCount": 14231,
+    "candidatesTokenCount": 1256,
+    "totalTokenCount": 19879,
+    "cachedContentTokenCount": 12275,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14231
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12275
+      }
+    ],
+    "thoughtsTokenCount": 4392,
+    "serviceTier": "standard"
+  }
+}

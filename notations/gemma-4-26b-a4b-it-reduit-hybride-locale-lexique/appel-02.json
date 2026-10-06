@@ -1,0 +1,209 @@
+{
+  "appel": "02",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T04:03:48",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète (prénom, nom, fonction), prise en charge de la demande et vérification de l'identité effectuées.",
+        "preuves": [
+          {
+            "citation": "Je m 'appelle Sophia Haddad, je suis votre conseillère clientèle et je vais prendre en charge votre demande.",
+            "debut_s": 2.5,
+            "verification": "exacte",
+            "debut_verifie_s": 2.48
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "La mention de l'enregistrement est faite avant la découverte du besoin.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 2.5,
+            "verification": "exacte",
+            "debut_verifie_s": 2.48
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "La conseillère a laissé le client exprimer son mécontentement sans l'interrompre.",
+        "preuves": [
+          {
+            "citation": "Je viens de recevoir ma première facture. Elle est de 78 ,99 euros. On m 'avait dit 39 ,99 euros par mois pour la Box Evolution. Je ne comprends pas, j 'ai l 'impression d 'avoir été trompé.",
+            "debut_s": 30.2,
+            "verification": "exacte",
+            "debut_verifie_s": 30.18
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "oui",
+        "justification": "La conseillère a posé des questions pertinentes sur les éventuels changements d'options ou d'équipement.",
+        "preuves": [
+          {
+            "citation": "Avez-vous changé quelque chose depuis votre inscription ? Une option ou un équipement ?",
+            "debut_s": 40.5,
+            "verification": "exacte",
+            "debut_verifie_s": 40.5
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "non",
+        "justification": "La réassurance est bien présente, mais la reformulation de la demande est absente malgré le mécontentement du client.",
+        "preuves": [
+          {
+            "citation": "Je comprends votre surprise. C 'est normal de s 'inquiéter quand le montant ne correspond pas à ce qu 'on attendait.",
+            "debut_s": 40.5,
+            "verification": "exacte",
+            "debut_verifie_s": 40.5
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "La conseillère a fait preuve d'empathie face au mécontentement du client.",
+        "preuves": [
+          {
+            "citation": "Je comprends votre surprise. C 'est normal de s 'inquiéter quand le montant ne correspond pas à ce qu 'on attendait.",
+            "debut_s": 40.5,
+            "verification": "exacte",
+            "debut_verifie_s": 40.5
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "L'explication sur la distinction entre l'abonnement et les frais de mise en service est claire.",
+        "preuves": [
+          {
+            "citation": "La seconde, ce sont 39 euros de frais de mise en service.",
+            "debut_s": 66.8,
+            "verification": "exacte",
+            "debut_verifie_s": 66.76
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "non",
+        "justification": "Le client n'est jamais appelé par son nom durant l'échange.",
+        "preuves": []
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "Non applicable, pas de demande de résiliation.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "Non applicable, pas de procédure de rétention.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "Non applicable, aucun geste commercial n'a été proposé.",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "Non applicable, aucune opportunité commerciale n'a été détectée.",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Non applicable, le reproche du client n'est pas une objection commerciale.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "na",
+        "justification": "Non applicable, aucune escalade n'était nécessaire.",
+        "preuves": []
+      },
+      {
+        "numero": 15,
+        "statut": "na",
+        "justification": "Non applicable, pas de vente effectuée.",
+        "preuves": []
+      },
+      {
+        "numero": 16,
+        "statut": "oui",
+        "justification": "La conclusion comprend un récapitulatif, une proposition de questions, les remerciements et une prise de congé soignée.",
+        "preuves": [
+          {
+            "citation": "Pour récapituler, les 39 euros sont des frais de mise en service unique et vos prochaines factures seront de 39,99 euros par mois. Avez-vous d 'autres questions ?",
+            "debut_s": 106.0,
+            "verification": "exacte",
+            "debut_verifie_s": 106.04
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [],
+    "coaching": {
+      "points_forts": [
+        "Excellente gestion de l'émotion et empathie face à l'inquiétude du client",
+        "Explications pédagogiques et claires sur la facturation",
+        "Respect rigoureux de la procédure d'identification et d'authentification"
+      ],
+      "axes_progres": [
+        "Utiliser la reformulation pour valider la compréhension de la demande client",
+        "Personnaliser davantage l'échange en nommant le client"
+      ],
+      "conseil_principal": "Pensez à reformuler la demande du client pour confirmer votre compréhension et à utiliser son nom pour personnaliser l'échange. Par exemple : 'Si je comprends bien, Monsieur Garnier, vous avez un doute sur le montant de votre première facture, c'est bien cela ?'"
+    }
+  },
+  "calcul": {
+    "oui": 7,
+    "applicables": 9,
+    "note_pct": 78,
+    "niveau_note": "Conforme",
+    "niveau": "Conforme",
+    "eliminatoires": [],
+    "mises_en_garde": [],
+    "action": "Rien à signaler",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 13487,
+    "candidatesTokenCount": 1539,
+    "totalTokenCount": 21887,
+    "cachedContentTokenCount": 10229,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 13487
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 10229
+      }
+    ],
+    "thoughtsTokenCount": 6861,
+    "serviceTier": "standard"
+  }
+}

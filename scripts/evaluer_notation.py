@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from evaluer_transcription import jetons, preuves  # noqa: E402
+from evaluer_transcription import jetons_preuve as jetons, preuves  # noqa: E402  (nombres et « € » normalisés)
 
 ROOT = Path(__file__).resolve().parent.parent
 NOTATION_REF = ROOT / "cadrage" / "calibre-notation-reference.md"

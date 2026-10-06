@@ -1,0 +1,207 @@
+{
+  "appel": "08",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T03:40:30",
+  "source_transcription": "hybride-locale",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "non",
+        "justification": "L'entreprise mentionnée est incorrecte et la phrase d'engagement n'est pas celle préconisée.",
+        "preuves": [
+          {
+            "citation": "Leila Amrani, conseillère chez Caliotelecom, votre opérateur.",
+            "debut_s": 4.0,
+            "verification": "exacte",
+            "debut_verifie_s": 4.02
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "L'enregistrement est mentionné avant la découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 4.0,
+            "verification": "exacte",
+            "debut_verifie_s": 4.02
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "non",
+        "justification": "Le conseiller n'a pas vérifié que tout fonctionnait correctement avant de proposer l'offre.",
+        "preuves": []
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La découverte est incomplète : elle ne porte que sur les lignes mobiles et ignore le foyer, la TV et les usages.",
+        "preuves": []
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le besoin d'économie via l'Avantage Foyer a été repéré grâce à la réponse sur l'opérateur mobile.",
+        "preuves": [
+          {
+            "citation": "Vos téléphones portables sont -ils chez nous ou chez un autre opérateur ?",
+            "debut_s": 32.6,
+            "verification": "exacte",
+            "debut_verifie_s": 32.64
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "La proposition est détaillée et reliée au bénéfice client (économie, facture unique, sans engagement).",
+        "preuves": [
+          {
+            "citation": "Pour vos deux lignes, vous payiez 19 ,98 € au lieu de 23 ,98 €. 4 € d 'économie par mois, soit près de 50 € par an.",
+            "debut_s": 59.5,
+            "verification": "exacte",
+            "debut_verifie_s": 59.46
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "La méthode est respectée : un rebond après la première objection, et un arrêt après le second refus.",
+        "preuves": [
+          {
+            "citation": "Puis -je vous demander ce qui vous retient le plus ?",
+            "debut_s": 76.7,
+            "verification": "exacte",
+            "debut_verifie_s": 76.68
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "non",
+        "justification": "Le client est appelé par un nom erroné à la fin de l'échange.",
+        "preuves": [
+          {
+            "citation": "C 'est tout à fait légitime, Madame Moreau, et je respecte votre choix.",
+            "debut_s": 88.9,
+            "verification": "exacte",
+            "debut_verifie_s": 88.88
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "Pas de vente conclue.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "Pas de vente conclue.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "Pas de vente conclue.",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "oui",
+        "justification": "Le conseiller s'excuse de ne pas avoir trouvé d'offre adaptée et termine l'appel.",
+        "preuves": [
+          {
+            "citation": "Je suis désolée de ne pas avoir trouvé une offre qui vous convienne vraiment aujourd 'hui.",
+            "debut_s": 88.9,
+            "verification": "exacte",
+            "debut_verifie_s": 88.88
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Pas de besoin d'escalade.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "oui",
+        "justification": "La conclusion est polie avec remerciements et prise de congé.",
+        "preuves": [
+          {
+            "citation": "Merci pour le temps que vous m 'avez accordé, Madame Moreau. Je vous souhaite une excellente journée. Au revoir,",
+            "debut_s": 102.4,
+            "verification": "exacte",
+            "debut_verifie_s": 102.42
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [
+      {
+        "regle": "[TVE-09]",
+        "ecart": "Le nom de l'entreprise est erroné (Caliotelecom au lieu de Kalyo Télécom).",
+        "citation": "Leila Amrani, conseillère chez Caliotelecom, votre opérateur.",
+        "debut_s": 4.0,
+        "verification": "exacte",
+        "debut_verifie_s": 4.02
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Très bon respect de la règle des deux refus.",
+        "Argumentaire économique percutant (calcul de l'économie annuelle).",
+        "Ton poli et empathique."
+      ],
+      "axes_progres": [
+        "La découverte doit être plus large (TV, usages, foyer) pour ne pas passer à côté d'autres offres.",
+        "N'oubliez pas de demander si tout fonctionne correctement avant de lancer votre argumentaire.",
+        "Attention à la personnalisation : vous avez confondu le nom de la cliente (Moro) avec un autre nom (Moreau) en fin d'appel."
+      ],
+      "conseil_principal": "Soyez extrêmement vigilante sur le nom du client pour maintenir la qualité de la relation : évitez d'appeler Mme Moro « Madame Moreau »."
+    }
+  },
+  "calcul": {
+    "oui": 6,
+    "applicables": 10,
+    "note_pct": 60,
+    "niveau_note": "À améliorer",
+    "niveau": "À améliorer",
+    "eliminatoires": [],
+    "mises_en_garde": [],
+    "action": "Coaching ciblé",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 14434,
+    "candidatesTokenCount": 1454,
+    "totalTokenCount": 23108,
+    "cachedContentTokenCount": 12276,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14434
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12276
+      }
+    ],
+    "thoughtsTokenCount": 7220,
+    "serviceTier": "standard"
+  }
+}

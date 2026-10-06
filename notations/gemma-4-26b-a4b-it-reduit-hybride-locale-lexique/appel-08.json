@@ -1,0 +1,219 @@
+{
+  "appel": "08",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T04:34:50",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète incluant la fonction, la gestion du contrat et le motif, suivie d'une vérification d'identité.",
+        "preuves": [
+          {
+            "citation": "Leila Amrani, conseillère chez Kalyo Télécom, votre opérateur. Bonjour, c 'est moi qui m 'occupe de votre contrat Box Internet et je vous contacte pour faire un point rapide sur votre abonnement.",
+            "debut_s": 4.0,
+            "verification": "exacte",
+            "debut_verifie_s": 4.02
+          },
+          {
+            "citation": "pouvez -vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?",
+            "debut_s": 20.6,
+            "verification": "exacte",
+            "debut_verifie_s": 20.58
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "La mention de l'enregistrement est faite avant la découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 4.0,
+            "verification": "exacte",
+            "debut_verifie_s": 4.02
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "non",
+        "justification": "La conseillère n'a pas demandé si tout fonctionnait correctement avant de proposer l'avantage, contrairement à la procédure [TVE-09].",
+        "preuves": []
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La découverte est incomplète : elle ne s'est enquise que des lignes mobiles, sans aborder le foyer, la télévision ou les usages (tablette, streaming).",
+        "preuves": []
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le besoin d'économie via l'Avantage Foyer a été repéré.",
+        "preuves": [
+          {
+            "citation": "Comme vous avez déjà une Box chez nous, vous avez droit à l 'avantage foyer.",
+            "debut_s": 44.8,
+            "verification": "exacte",
+            "debut_verifie_s": 44.8
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "La proposition est détaillée avec les prix avant et après la remise.",
+        "preuves": [
+          {
+            "citation": "Concrètement, notre forfait 80 GB passerait de 14 ,99 € à 9 ,99 € par mois.",
+            "debut_s": 44.8,
+            "verification": "exacte",
+            "debut_verifie_s": 44.8
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "La conseillère a utilisé un rebond après le premier refus et s'est arrêtée après le second.",
+        "preuves": [
+          {
+            "citation": "Puis -je vous demander ce qui vous retient le plus ?",
+            "debut_s": 76.7,
+            "verification": "exacte",
+            "debut_verifie_s": 76.68
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "non",
+        "justification": "La conseillère s'est trompée de nom en fin d'appel, appelant la cliente 'Madame Moreau' au lieu de 'Madame Moro'.",
+        "preuves": [
+          {
+            "citation": "C 'est tout à fait légitime, Madame Moreau, et je respecte votre choix.",
+            "debut_s": 88.9,
+            "verification": "exacte",
+            "debut_verifie_s": 88.88
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "oui",
+        "justification": "La conseillère s'est excusée de ne pas avoir trouvé d'offre adaptée après le refus.",
+        "preuves": [
+          {
+            "citation": "Je suis désolée de ne pas avoir trouvé une offre qui vous convienne vraiment aujourd 'hui.",
+            "debut_s": 88.9,
+            "verification": "exacte",
+            "debut_verifie_s": 88.88
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "oui",
+        "justification": "La conclusion est polie et inclut une question sur d'autres besoins.",
+        "preuves": [
+          {
+            "citation": "Avez -vous des questions sur votre [inaudible] ou votre contrat ?",
+            "debut_s": 88.9,
+            "verification": "exacte",
+            "debut_verifie_s": 88.88
+          },
+          {
+            "citation": "Merci pour le temps que vous m 'avez accordé, Madame Moreau. Je vous souhaite une excellente journée.",
+            "debut_s": 102.4,
+            "verification": "exacte",
+            "debut_verifie_s": 102.42
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [
+      {
+        "regle": "[TVE-09]",
+        "ecart": "La question obligatoire sur le bon fonctionnement des services a été omise avant la proposition commerciale.",
+        "citation": "Merci, je serai prête. Pour sécuriser notre échange, pouvez -vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?",
+        "debut_s": 20.6,
+        "verification": "exacte",
+        "debut_verifie_s": 20.58
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Très bonne empathie et respect de la cliente face à son refus.",
+        "Maîtrise de la méthode de traitement des objections (un seul rebond).",
+        "Présentation claire et chiffrée de l'avantage commercial."
+      ],
+      "axes_progres": [
+        "Respecter l'étape de vérification du fonctionnement des services avant de lancer l'argumentaire.",
+        "Approfondir la découverte pour ne pas passer à côté d'autres besoins (TV, usages).",
+        "Être plus vigilante sur la personnalisation en utilisant le bon nom de famille tout au long de l'appel."
+      ],
+      "conseil_principal": "Pour une vente plus efficace et une relation de confiance renforcée, n'oubliez pas de demander si tout fonctionne correctement avant de proposer un avantage : \"Tout fonctionne bien avec votre installation actuelle ?\" et veillez à bien noter le nom du client pour éviter toute erreur de personnalisation."
+    }
+  },
+  "calcul": {
+    "oui": 7,
+    "applicables": 10,
+    "note_pct": 70,
+    "niveau_note": "À améliorer",
+    "niveau": "À améliorer",
+    "eliminatoires": [],
+    "mises_en_garde": [],
+    "action": "Coaching ciblé",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 14435,
+    "candidatesTokenCount": 1601,
+    "totalTokenCount": 19010,
+    "cachedContentTokenCount": 12276,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14435
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12276
+      }
+    ],
+    "thoughtsTokenCount": 2974,
+    "serviceTier": "standard"
+  }
+}

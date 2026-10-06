@@ -1,0 +1,234 @@
+{
+  "appel": "10",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T03:49:06",
+  "source_transcription": "hybride-locale",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "non",
+        "justification": "L'accueil est incomplet : manque le prénom, le nom du conseiller, sa fonction, la mention 'je gère votre contrat' et le motif de l'appel.",
+        "preuves": [
+          {
+            "citation": "Allô, oui, bonjour, c 'est Calio Télécom.",
+            "debut_s": 1.3,
+            "verification": "exacte",
+            "debut_verifie_s": 1.32
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "La mention de l'enregistrement est faite avant la phase de découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 5.1,
+            "verification": "exacte",
+            "debut_verifie_s": 5.1
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "non",
+        "justification": "Le conseiller n'a pas vérifié si tout fonctionnait correctement avant d'entamer la proposition commerciale.",
+        "preuves": [
+          {
+            "citation": "Vous avez des enfants ?",
+            "debut_s": 22.8,
+            "verification": "exacte",
+            "debut_verifie_s": 22.82
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La découverte est incomplète : le conseiller n'a pas interrogé sur le foyer, les téléphones, les lignes ou les autres opérateurs.",
+        "preuves": [
+          {
+            "citation": "Vous avez des enfants ?",
+            "debut_s": 22.8,
+            "verification": "exacte",
+            "debut_verifie_s": 22.82
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le conseiller a repéré l'usage de la tablette et du streaming via les réponses de la cliente.",
+        "preuves": [
+          {
+            "citation": "Ils jouent une appli de streaming. Ils jouent à la tablette.",
+            "debut_s": 28.1,
+            "verification": "exacte",
+            "debut_verifie_s": 28.06
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "non",
+        "justification": "La proposition est trop succincte et ne détaille ni les caractéristiques, ni les avantages, ni la promotion (premier mois offert).",
+        "preuves": [
+          {
+            "citation": "Il vous faut le pack horizon, 12 ,99 euros par mois. Je vous l 'actime ?",
+            "debut_s": 34.7,
+            "verification": "exacte",
+            "debut_verifie_s": 34.72
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "non",
+        "justification": "Le traitement des objections est incorrect : le conseiller utilise la pression et la culpabilisation au lieu de la méthode AQRV.",
+        "preuves": [
+          {
+            "citation": "Franchement, vous allez le regretter si vous ne le faites pas.",
+            "debut_s": 52.8,
+            "verification": "exacte",
+            "debut_verifie_s": 52.84
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "non",
+        "justification": "Le conseiller n'utilise jamais le nom de la cliente durant l'échange.",
+        "preuves": []
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "Aucune vente n'a été réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "Aucune vente n'a été réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "Aucune vente n'a été réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "non",
+        "justification": "Le conseiller n'a pas respecté la règle de ne pas insister après le refus et a continué de presser la cliente.",
+        "preuves": [
+          {
+            "citation": "Attendez, vous ne savez même pas ce qu 'il y a dedans.",
+            "debut_s": 47.0,
+            "verification": "exacte",
+            "debut_verifie_s": 47.0
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Aucune demande d'escalade ou de transfert n'a été formulée.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "non",
+        "justification": "La prise de congé n'est pas soignée et ne contient ni remerciements ni question sur d'autres besoins.",
+        "preuves": [
+          {
+            "citation": "Comme vous voulez.",
+            "debut_s": 66.9,
+            "verification": "exacte",
+            "debut_verifie_s": 66.9
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [
+      {
+        "type": "panne_ignoree",
+        "citation": "L'appel est classé en niveau Insuffisant (score de 20%).",
+        "debut_s": 0,
+        "verification": "introuvable",
+        "debut_verifie_s": null
+      }
+    ],
+    "remarques_conformite": [
+      {
+        "regle": "[TVE-09]",
+        "ecart": "L'accroche ne respecte pas le formalisme obligatoire (nom, entreprise, fonction, mention de gestion de contrat).",
+        "citation": "Allô, oui, bonjour, c 'est Calio Télécom.",
+        "debut_s": 1.3,
+        "verification": "exacte",
+        "debut_verifie_s": 1.32
+      },
+      {
+        "regle": "[TVE-14]",
+        "ecart": "Le conseiller dénigre un service concurrent (plateformes de streaming).",
+        "citation": "Ah, les plateformes de streaming. Honnêtement, ce n 'est pas terrible pour les enfants.",
+        "debut_s": 34.7,
+        "verification": "exacte",
+        "debut_verifie_s": 34.72
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "La mention de l'enregistrement est bien présente et placée avant la découverte."
+      ],
+      "axes_progres": [
+        "Respecter strictement la structure de l'accueil.",
+        "Approfondir la phase de découverte pour identifier tous les besoins du foyer.",
+        "Éviter toute pression excessive ou culpabilisation du client (ex: 'Pensez à vos enfants').",
+        "Utiliser la méthode AQRV pour traiter les objections au lieu d'insister."
+      ],
+      "conseil_principal": "En cas de refus, ne cherchez pas à forcer la main du client, ce qui dégrade l'image de Kalyo. Si une objection est posée, utilisez la méthode AQRV : 'Je comprends votre position [Acceptation]. Cependant, le premier mois est offert, ce qui vous permet de tester sans risque [Rebond]. Qu'est-ce qui vous ferait changer d'avis ? [Question].'"
+    }
+  },
+  "calcul": {
+    "oui": 2,
+    "applicables": 10,
+    "note_pct": 20,
+    "niveau_note": "Insuffisant",
+    "niveau": "Insuffisant",
+    "eliminatoires": [],
+    "mises_en_garde": [
+      "insuffisant",
+      "panne_ignoree"
+    ],
+    "action": "Mise en garde",
+    "anomalies": [
+      "citation introuvable dans la transcription : « L'appel est classé en niveau Insuffisant (score de 20%). »"
+    ]
+  },
+  "usage": {
+    "promptTokenCount": 14231,
+    "candidatesTokenCount": 1656,
+    "totalTokenCount": 23339,
+    "cachedContentTokenCount": 12275,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14231
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12275
+      }
+    ],
+    "thoughtsTokenCount": 7452,
+    "serviceTier": "standard"
+  }
+}

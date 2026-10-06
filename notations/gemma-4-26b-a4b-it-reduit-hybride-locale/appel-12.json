@@ -1,0 +1,239 @@
+{
+  "appel": "12",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T03:57:04",
+  "source_transcription": "hybride-locale",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète avec nom, fonction, gestion du contrat et mention de l'enregistrement.",
+        "preuves": [
+          {
+            "citation": "Salma Idrissi, conseillère chez Caliotelecom, votre opérateur. C 'est moi qui m 'occupe de votre contrabox Internet et je vous contacte pour faire un point rapide sur votre abonnement. Bonjour Madame. Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 6.1,
+            "verification": "exacte",
+            "debut_verifie_s": 6.06
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "L'enregistrement est mentionné avant la découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 6.1,
+            "verification": "exacte",
+            "debut_verifie_s": 6.06
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "La question sur le bon fonctionnement a été posée avant de proposer une offre.",
+        "preuves": [
+          {
+            "citation": "Avant tout, tout fonctionne bien avec votre box et votre télévision ?",
+            "debut_s": 27.3,
+            "verification": "exacte",
+            "debut_verifie_s": 27.26
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La découverte ne couvre que la télévision ; les questions sur le foyer, les mobiles/lignes et les autres usages (tablettes, streaming) sont absentes.",
+        "preuves": []
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le besoin de programmes de cuisine et de voyage est repéré et exploité.",
+        "preuves": [
+          {
+            "citation": "Alors, le pack Horizon devrait vous plaire. Vous auriez Horizon Cuisine, Horizon Voyages et Horizon Découverte.",
+            "debut_s": 75.8,
+            "verification": "exacte",
+            "debut_verifie_s": 75.82
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "La proposition est reliée aux goûts de la cliente (cuisine, voyages) et présentée avec les avantages (replay, application).",
+        "preuves": [
+          {
+            "citation": "Vous auriez Horizon Cuisine, Horizon Voyages et Horizon Découverte. Le replay de 7 jours pour rattraper ce que vous avez manqué. Et l 'application Calio TV pour regarder sur votre tablette, même en vacances.",
+            "debut_s": 75.8,
+            "verification": "exacte",
+            "debut_verifie_s": 75.82
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "non",
+        "justification": "La méthode AQRV n'est pas respectée (absence de question de rebond) et une fausse urgence est utilisée.",
+        "preuves": [
+          {
+            "citation": "Je vous bloque le prix à 6 ,99 euros par mois pendant un an. Mais je dois vous prévenir, cette remise n 'est valable qu 'aujourd 'hui.",
+            "debut_s": 107.0,
+            "verification": "exacte",
+            "debut_verifie_s": 107.04
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le nom de la cliente est utilisé.",
+        "preuves": [
+          {
+            "citation": "Merci Madame Chevalier.",
+            "debut_s": 51.6,
+            "verification": "exacte",
+            "debut_verifie_s": 51.58
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "non",
+        "justification": "Le tarif annoncé est erroné (promesse de 6,99 € non conforme au catalogue) et la date du premier prélèvement n'est pas mentionnée dans le récapitulatif.",
+        "preuves": [
+          {
+            "citation": "Le [inaudible] Horizon, premier mois offert, puis 6 ,99 euros par mois pendant un an.",
+            "debut_s": 122.7,
+            "verification": "exacte",
+            "debut_verifie_s": 122.7
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "statut": "oui",
+        "justification": "Le délai d'activation est bien annoncé.",
+        "preuves": [
+          {
+            "citation": "Activation en 2 heures maximum.",
+            "debut_s": 122.7,
+            "verification": "exacte",
+            "debut_verifie_s": 122.7
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "statut": "oui",
+        "justification": "Le processus de signature est respecté : accord clair, envoi d'e-mail, saisie du code par le client et rappel de confidentialité.",
+        "preuves": [
+          {
+            "citation": "Saisissez-le vous-même dans l 'e -mail et ne le communiquez à personne.",
+            "debut_s": 145.4,
+            "verification": "exacte",
+            "debut_verifie_s": 145.42
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "oui",
+        "justification": "Conclusion polie avec remerciements et prise de congé.",
+        "preuves": [
+          {
+            "citation": "Merci pour votre confiance. Bon voyage à vous deux et très bonne journée.",
+            "debut_s": 196.9,
+            "verification": "exacte",
+            "debut_verifie_s": 196.9
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [
+      {
+        "numero": 2,
+        "motif": "Mentir ou faire une fausse promesse qui engage l'entreprise (prix, remise, geste commercial)",
+        "citation": "Je vous bloque le prix à 6 ,99 euros par mois pendant un an.",
+        "debut_s": 107.0,
+        "verification": "exacte",
+        "debut_verifie_s": 107.04
+      }
+    ],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [
+      {
+        "regle": "[TVE-09]",
+        "ecart": "Le nom de l'entreprise mentionné est erroné.",
+        "citation": "Salma Idrissi, conseillère chez Caliotelecom",
+        "debut_s": 6.1,
+        "verification": "exacte",
+        "debut_verifie_s": 6.06
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Accueil et présentation de l'appel",
+        "Personnalisation de l'échange",
+        "Empathie et écoute active"
+      ],
+      "axes_progres": [
+        "Respect des offres et des tarifs du catalogue",
+        "Application de la méthode AQRV pour les objections",
+        "Complétude de la découverte client (foyer, mobiles, usages)"
+      ],
+      "conseil_principal": "Ne promettez jamais de remise non autorisée ou de fausse urgence pour conclure une vente. Cela transforme une vente en un litige client dès la première facture."
+    }
+  },
+  "calcul": {
+    "oui": 9,
+    "applicables": 12,
+    "note_pct": 75,
+    "niveau_note": "Conforme",
+    "niveau": "Non conforme",
+    "eliminatoires": [
+      2
+    ],
+    "mises_en_garde": [],
+    "action": "Avertissement",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 14659,
+    "candidatesTokenCount": 1693,
+    "totalTokenCount": 23709,
+    "cachedContentTokenCount": 12276,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14659
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12276
+      }
+    ],
+    "thoughtsTokenCount": 7357,
+    "serviceTier": "standard"
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "appel": "11",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T04:45:30",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète incluant le nom, la fonction, le fait de gérer le contrat et le motif, suivie de la vérification de l'identité.",
+        "preuves": [
+          {
+            "citation": "C 'est moi qui m 'occupe de votre contract box internet et je vous contacte pour faire un point rapide sur votre abonnement.",
+            "debut_s": 9.7,
+            "verification": "exacte",
+            "debut_verifie_s": 9.72
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "L'enregistrement est mentionné avant la phase de découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 9.7,
+            "verification": "exacte",
+            "debut_verifie_s": 9.72
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller pose la question sur le bon fonctionnement du matériel avant de proposer l'offre.",
+        "preuves": [
+          {
+            "citation": "Avant tout, tout fonctionne bien avec votre box et votre télévision ?",
+            "debut_s": 32.9,
+            "verification": "exacte",
+            "debut_verifie_s": 32.88
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La découverte est incomplète : le conseiller n'interroge pas le client sur ses lignes mobiles, ses téléphones ou l'usage de tablettes/streaming.",
+        "preuves": []
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le besoin de regarder des programmes en différé est identifié et utilisé pour proposer le replay.",
+        "preuves": [
+          {
+            "citation": "Vous regardez vos épisodes quand vous rentrez.",
+            "debut_s": 55.0,
+            "verification": "exacte",
+            "debut_verifie_s": 55.02
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "La proposition du Pack Horizon est directement liée aux habitudes de visionnage du client.",
+        "preuves": [
+          {
+            "citation": "Alors j 'ai exactement ce qu 'il vous faut. Le pack Horizon.",
+            "debut_s": 55.0,
+            "verification": "exacte",
+            "debut_verifie_s": 55.02
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "Le conseiller effectue un seul rebond après la première objection et s'arrête après le second refus.",
+        "preuves": [
+          {
+            "citation": "Je comprends, mais avec le premier mois offert, vous ne prenez aucun risque et vous pourrez en profiter dès que tout sera rentré dans l 'ordre.",
+            "debut_s": 75.1,
+            "verification": "exacte",
+            "debut_verifie_s": 75.14
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "non",
+        "justification": "Le conseiller appelle le client 'Monsieur Girard' alors que celui-ci s'est identifié comme 'Gérard Laurent'.",
+        "preuves": [
+          {
+            "citation": "Gérard Laurent, 7511, le 4 décembre 1977.",
+            "debut_s": 28.1,
+            "verification": "exacte",
+            "debut_verifie_s": 28.12
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "Aucune vente n'a été conclue.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "Aucune vente n'a été conclue.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "Aucune vente n'a été conclue.",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "oui",
+        "justification": "Le conseiller accepte le refus et s'excuse de ne pas avoir pu aider davantage.",
+        "preuves": [
+          {
+            "citation": "Très bien, je respecte votre choix, monsieur Girard, et je suis désolé de ne pas avoir pu vous aider davantage aujourd 'hui.",
+            "debut_s": 83.5,
+            "verification": "exacte",
+            "debut_verifie_s": 83.5
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "statut": "non",
+        "justification": "Face à un problème technique signalé, le conseiller n'a ni transféré l'appel, ni escaladé la demande, se contentant de conseiller de rappeler le service client.",
+        "preuves": [
+          {
+            "citation": "Pour vos coupures, je vous conseille d 'appeler le service client.",
+            "debut_s": 83.5,
+            "verification": "exacte",
+            "debut_verifie_s": 83.5
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "statut": "oui",
+        "justification": "La conclusion est polie et respecte les étapes de fin d'appel.",
+        "preuves": [
+          {
+            "citation": "Merci pour votre temps, monsieur Girard. Très bonne soirée, au revoir.",
+            "debut_s": 94.4,
+            "verification": "exacte",
+            "debut_verifie_s": 94.4
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [
+      {
+        "type": "panne_ignoree",
+        "citation": "Ah, ça arrive parfois le soir, il y a beaucoup de monde connecté. Ça devrait se régler. Dites -moi, qui regarde la télévision chez vous ?",
+        "debut_s": 40.7,
+        "verification": "exacte",
+        "debut_verifie_s": 40.7
+      }
+    ],
+    "remarques_conformite": [
+      {
+        "regle": "[TVE-05]",
+        "ecart": "Le conseiller a poursuivi son argumentaire commercial alors que le client signalait un problème de connexion internet.",
+        "citation": "Ah, ça arrive parfois le soir, il y a beaucoup de monde connecté. Ça devrait se régler. Dites -moi, qui regarde la télévision chez vous ?",
+        "debut_s": 40.7,
+        "verification": "exacte",
+        "debut_verifie_s": 40.7
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Respect de la structure de l'appel et de la mention de l'enregistrement.",
+        "Bonne gestion de la règle des deux refus pour ne pas être oppressant.",
+        "Utilisation pertinente du replay comme argument suite à la découverte."
+      ],
+      "axes_progres": [
+        "Respect de la procédure en cas de problème technique : il faut stopper la vente immédiatement.",
+        "Vigilance sur l'identité du client pour une personnalisation correcte.",
+        "Approfondissement de la découverte (mobiles, tablettes, etc.)."
+      ],
+      "conseil_principal": "Si un client signale une panne, ne tentez pas de minimiser le problème pour continuer votre vente. Appliquez la règle [TVE-05] : stoppez l'argumentaire et proposez immédiatement de traiter le problème ou de transférer l'appel au service compétent. Par exemple : « Je suis navré pour ces coupures, Monsieur Laurent. Avant de continuer, je préfère que nous réglions ce problème technique. Je vous transfère immédiatement au service concerné. »"
+    }
+  },
+  "calcul": {
+    "oui": 8,
+    "applicables": 11,
+    "note_pct": 73,
+    "niveau_note": "À améliorer",
+    "niveau": "À améliorer",
+    "eliminatoires": [],
+    "mises_en_garde": [
+      "panne_ignoree"
+    ],
+    "action": "Mise en garde",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 14407,
+    "candidatesTokenCount": 1735,
+    "totalTokenCount": 19411,
+    "cachedContentTokenCount": 12276,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14407
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12276
+      }
+    ],
+    "thoughtsTokenCount": 3269,
+    "serviceTier": "standard"
+  }
+}
