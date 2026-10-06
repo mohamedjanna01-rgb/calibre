@@ -34,7 +34,6 @@ Aucun.
 ## Mises en garde
 
 - insuffisant
-- panne ignoree
 
 ## Remarques de conformité (sans effet sur la note)
 
@@ -61,4 +60,5 @@ Aucun.
 
 ## Anomalies détectées par le contrôle
 
+- mise en garde « panne ignorée » écartée : elle ne s'applique qu'en télévente
 - citation introuvable dans la transcription : « L'appel est au niveau Insuffisant (10%). »

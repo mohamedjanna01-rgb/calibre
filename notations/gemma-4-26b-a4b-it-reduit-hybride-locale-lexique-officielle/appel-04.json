@@ -204,11 +204,11 @@
     "niveau": "Insuffisant",
     "eliminatoires": [],
     "mises_en_garde": [
-      "insuffisant",
-      "panne_ignoree"
+      "insuffisant"
     ],
     "action": "Mise en garde",
     "anomalies": [
+      "mise en garde « panne ignorée » écartée : elle ne s'applique qu'en télévente",
       "citation introuvable dans la transcription : « L'appel est au niveau Insuffisant (10%). »"
     ]
   },

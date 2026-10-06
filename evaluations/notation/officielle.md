@@ -5,7 +5,7 @@
 | 01 | 16/16 | 100 % / 100 % | Excellent / Excellent ✓ | Valorisation / Valorisation ✓ | – / – ✓ | ✓ | 0/0 | 0 |
 | 02 | 16/16 | 78 % / 78 % | Conforme / Conforme ✓ | Rien à signaler / Rien à signaler ✓ | – / – ✓ | ✓ | 0/0 | 0 |
 | 03 | 15/16 | 67 % / 78 % | À améliorer / Conforme ✗ | Coaching ciblé / Rien à signaler ✗ | – / – ✓ | ✓ | 2/3 | 0 |
-| 04 | 15/16 | 9 % / 10 % | Insuffisant / Insuffisant ✓ | Mise en garde / Mise en garde ✓ | – / – ✓ | ✗ | 1/3 | 1 |
+| 04 | 15/16 | 9 % / 10 % | Insuffisant / Insuffisant ✓ | Mise en garde / Mise en garde ✓ | – / – ✓ | ✓ | 1/3 | 1 |
 | 05 | 15/16 | 75 % / 83 % | Conforme / Conforme ✓ | Mise en garde / Mise en garde ✓ | – / – ✓ | ✓ | 2/3 | 0 |
 | 06 | 14/16 | 36 % / 46 % | Non conforme / Non conforme ✓ | Avertissement / Avertissement ✓ | [2, 3] / [2, 3] ✓ | – | 1/4 | 0 |
 | 07 | 14/14 | 100 % / 100 % | Excellent / Excellent ✓ | Valorisation / Valorisation ✓ | – / – ✓ | ✓ | 0/0 | 0 |

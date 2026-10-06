@@ -148,10 +148,9 @@
         "insuffisant"
       ],
       "ia": [
-        "insuffisant",
-        "panne_ignoree"
+        "insuffisant"
       ],
-      "accord": false
+      "accord": true
     },
     "preuves_reprises": "1/3",
     "preuves_manquantes": [
@@ -160,6 +159,7 @@
     ],
     "citations_introuvables": 1,
     "anomalies": [
+      "mise en garde « panne ignorée » écartée : elle ne s'applique qu'en télévente",
       "citation introuvable dans la transcription : « L'appel est au niveau Insuffisant (10%). »"
     ]
   },

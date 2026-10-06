@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calibre – notation qualité des appels</title>
+<meta name="description" content="Calibre écoute un appel, le transcrit, le note avec la grille d'un qualiticien, cite ses preuves et propose une action. Démonstration avec une entreprise, des appels et des conseillers fictifs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --fond: #f6f7f8; --surface: #ffffff; --texte: #1b1f23; --texte-2: #5b6570;
+  --ligne: #e3e6ea; --ligne-forte: #c8ced5;
+  --accent: #0f5c64; --accent-texte: #ffffff; --accent-doux: #e6f0f1;
+  --vert: #2f7a46; --vert-fond: #eef6f0; --orange: #a35a0a; --orange-fond: #fdf4ea; --rouge: #b42318; --rouge-fond: #fdeeec;
+  --conseiller: #0f5c64; --client: #6b4fa3;
+  --rayon: 8px;
+  --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --serif: "Newsreader", "Iowan Old Style", Georgia, "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fond: #15181b; --surface: #1c2024; --texte: #e5e8eb; --texte-2: #9ba4ae; --ligne: #2a3035; --ligne-forte: #3b434a;
+    --accent: #6db4bb; --accent-texte: #0d1416; --accent-doux: #1b2f32;
+    --vert: #7cc493; --vert-fond: #18261c; --orange: #efb36d; --orange-fond: #2a2116; --rouge: #f19a8f; --rouge-fond: #2c1a18;
+    --conseiller: #6db4bb; --client: #b9a3e3;
+  }
+}
+:root[data-theme="dark"] {
+  --fond: #15181b; --surface: #1c2024; --texte: #e5e8eb; --texte-2: #9ba4ae; --ligne: #2a3035; --ligne-forte: #3b434a;
+  --accent: #6db4bb; --accent-texte: #0d1416; --accent-doux: #1b2f32;
+  --vert: #7cc493; --vert-fond: #18261c; --orange: #efb36d; --orange-fond: #2a2116; --rouge: #f19a8f; --rouge-fond: #2c1a18;
+  --conseiller: #6db4bb; --client: #b9a3e3;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--fond); color: var(--texte); font: 15px/1.55 var(--sans); }
+button { font: inherit; color: inherit; }
+a { color: var(--accent); }
+h1, h2, h3 { font-family: var(--serif); font-weight: 500; line-height: 1.2; margin: 0; }
+
+/* En-tête */
+.entete { background: var(--surface); border-bottom: 1px solid var(--ligne); }
+.entete-int { max-width: 1240px; margin: 0 auto; padding: 12px 20px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.marque { display: flex; align-items: center; gap: 12px; }
+.kalyo { display: flex; align-items: center; gap: 7px; color: var(--texte-2); font-size: 13px; font-weight: 600; letter-spacing: .02em; }
+.separateur { width: 1px; height: 22px; background: var(--ligne-forte); }
+.produit { font-family: var(--serif); font-size: 22px; }
+.devise { color: var(--texte-2); font-size: 13px; margin-left: auto; }
+.icone { background: none; border: 1px solid var(--ligne); border-radius: var(--rayon); width: 34px; height: 34px; display: grid; place-items: center; cursor: pointer; }
+.icone svg { width: 18px; height: 18px; }
+
+/* Barre de navigation */
+.barre { max-width: 1240px; margin: 0 auto; padding: 14px 20px 0; display: flex; gap: 12px; align-items: end; flex-wrap: wrap; }
+.barre label { font-size: 12px; color: var(--texte-2); display: block; margin-bottom: 4px; }
+select { font: inherit; color: var(--texte); background: var(--surface); border: 1px solid var(--ligne-forte); border-radius: var(--rayon); padding: 7px 10px; max-width: 100%; }
+.onglets { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; }
+.onglet { background: none; border: 1px solid transparent; border-radius: var(--rayon); padding: 7px 12px; cursor: pointer; color: var(--texte-2); }
+.onglet[aria-selected="true"] { background: var(--surface); border-color: var(--ligne); color: var(--texte); font-weight: 600; }
+
+main { max-width: 1240px; margin: 0 auto; padding: 14px 20px 40px; }
+.carte { background: var(--surface); border: 1px solid var(--ligne); border-radius: var(--rayon); padding: 18px; }
+.fiche { display: flex; gap: 18px; flex-wrap: wrap; color: var(--texte-2); font-size: 13px; margin-bottom: 12px; }
+.fiche b { color: var(--texte); font-weight: 600; }
+
+/* Lecteur */
+.ecoute { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 16px; }
+.onde-boite { position: relative; height: 84px; cursor: pointer; margin: 6px 0 10px; }
+canvas { width: 100%; height: 100%; display: block; }
+.repere { position: absolute; top: 0; width: 3px; height: 9px; border-radius: 2px; transform: translateX(-1px); }
+.commandes { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.lire { background: var(--accent); color: var(--accent-texte); border: 0; border-radius: var(--rayon); padding: 8px 16px; cursor: pointer; font-weight: 600; min-width: 96px; }
+.temps { font-variant-numeric: tabular-nums; color: var(--texte-2); font-size: 13px; }
+.vitesses { display: flex; border: 1px solid var(--ligne-forte); border-radius: var(--rayon); overflow: hidden; margin-left: auto; }
+.vitesses button { background: none; border: 0; padding: 6px 11px; cursor: pointer; font-variant-numeric: tabular-nums; }
+.vitesses button[aria-pressed="true"] { background: var(--accent-doux); color: var(--accent); font-weight: 600; }
+.legende { display: flex; gap: 14px; font-size: 12px; color: var(--texte-2); margin-top: 10px; flex-wrap: wrap; }
+.pastille { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; vertical-align: 0; }
+
+.transcription { margin-top: 14px; height: 430px; overflow-y: auto; border-top: 1px solid var(--ligne); padding-top: 6px; scroll-behavior: smooth; }
+.replique { display: grid; grid-template-columns: 52px 92px 1fr; gap: 8px; padding: 7px 8px; border-radius: 6px; cursor: pointer; opacity: .55; transition: opacity .2s, background .2s; }
+.replique.dite { opacity: 1; }
+.replique.active { background: var(--accent-doux); opacity: 1; }
+.replique .h { font-variant-numeric: tabular-nums; color: var(--texte-2); font-size: 12px; padding-top: 2px; }
+.replique .qui { font-size: 12px; font-weight: 600; padding-top: 2px; }
+.qui.conseiller { color: var(--conseiller); } .qui.client { color: var(--client); }
+
+.alertes h2, .rapport h2, .section-titre { font-size: 18px; margin-bottom: 10px; }
+.flux { display: flex; flex-direction: column; gap: 8px; max-height: 640px; overflow-y: auto; }
+.alerte { text-align: left; border: 1px solid var(--ligne); border-left: 4px solid; border-radius: 6px; padding: 8px 10px; background: var(--surface); cursor: pointer; animation: entree .35s ease-out; }
+.alerte .t { font-size: 12px; color: var(--texte-2); font-variant-numeric: tabular-nums; }
+.alerte .titre { font-weight: 600; font-size: 13px; }
+.alerte .cit { font-size: 13px; color: var(--texte-2); }
+.reussite { border-left-color: var(--vert); } .faute, .mise_en_garde { border-left-color: var(--orange); } .eliminatoire { border-left-color: var(--rouge); background: var(--rouge-fond); }
+.mise_en_garde { background: var(--orange-fond); }
+.vide { color: var(--texte-2); font-size: 13px; }
+@keyframes entree { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+
+/* Rapport */
+.synthese { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-bottom: 14px; }
+.chiffre { background: var(--fond); border-radius: var(--rayon); padding: 12px; }
+.chiffre .lib { font-size: 12px; color: var(--texte-2); }
+.chiffre .val { font-family: var(--serif); font-size: 24px; }
+.devise-forte { background: var(--accent-doux); color: var(--accent); border-radius: var(--rayon); padding: 9px 12px; font-weight: 600; margin-bottom: 14px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--ligne); }
+th { font-size: 12px; color: var(--texte-2); font-weight: 600; }
+.statut { font-weight: 600; white-space: nowrap; }
+.oui { color: var(--vert); } .non { color: var(--orange); } .na { color: var(--texte-2); }
+.preuve { display: block; font-size: 13px; color: var(--texte-2); cursor: pointer; }
+.preuve:hover { color: var(--accent); }
+.bloc { margin-top: 16px; }
+.encadre { border: 1px solid var(--ligne); border-radius: var(--rayon); padding: 10px 12px; margin-bottom: 8px; }
+.encadre.rouge { border-color: var(--rouge); background: var(--rouge-fond); }
+.encadre.orange { border-color: var(--orange); background: var(--orange-fond); }
+ul { margin: 6px 0; padding-left: 20px; }
+.desaccord td { background: var(--orange-fond); }
+.badge { display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--fond); white-space: nowrap; }
+.badge.rouge { background: var(--rouge-fond); color: var(--rouge); } .badge.orange { background: var(--orange-fond); color: var(--orange); }
+.badge.vert { background: var(--vert-fond); color: var(--vert); }
+.mat { white-space: nowrap; }
+.lien-appel { background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0; text-decoration: underline; text-align: left; font: inherit; }
+.note-bas { color: var(--texte-2); font-size: 12px; margin-top: 18px; }
+.masque { visibility: hidden; }
+footer { max-width: 1240px; margin: 0 auto; padding: 0 20px 30px; color: var(--texte-2); font-size: 12px; }
+
+@media (max-width: 900px) {
+  .ecoute { grid-template-columns: minmax(0, 1fr); }
+  .entete-int, .barre, main, footer { padding-left: 16px; padding-right: 16px; }
+  .barre > div:first-child, select { width: 100%; }
+  .onglets { margin-left: 0; flex-wrap: nowrap; overflow-x: auto; max-width: 100%; }
+  .vitesses { margin-left: 0; }
+  .carte { padding: 14px; }
+  .flux { max-height: 300px; }
+  .synthese { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .devise { display: none; }
+  .replique { grid-template-columns: 44px 1fr; }
+  .replique .qui { grid-column: 2; padding-top: 0; }
+  .replique .txt { grid-column: 1 / -1; }
+  .table-defile { overflow-x: auto; }
+  .table-defile table { min-width: 820px; }
+  .masque { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .alerte { animation: none; } .transcription { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<header class="entete">
+  <div class="entete-int">
+    <div class="marque">
+      <span class="kalyo" aria-label="Kalyo Télécom (entreprise fictive)">
+        <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M7 15.5a7 7 0 0 1 10 0M9.5 12.5a3.6 3.6 0 0 1 5 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.4" fill="currentColor"/></svg>
+        KALYO TÉLÉCOM
+      </span>
+      <span class="separateur" aria-hidden="true"></span>
+      <span class="produit">Calibre</span>
+    </div>
+    <span class="devise">Calibre recommande, le qualiticien décide.</span>
+    <button class="icone" id="theme" type="button" aria-label="Changer de thème">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></svg>
+    </button>
+  </div>
+</header>
+
+<nav class="barre" aria-label="Navigation">
+  <div>
+    <label for="choix">Appel</label>
+    <select id="choix"></select>
+  </div>
+  <div class="onglets" role="tablist">
+    <button class="onglet" role="tab" data-vue="ecoute">Écoute</button>
+    <button class="onglet" role="tab" data-vue="rapport">Rapport</button>
+    <button class="onglet" role="tab" data-vue="calibration">Calibration</button>
+    <button class="onglet" role="tab" data-vue="equipe">Équipe</button>
+  </div>
+</nav>
+
+<main id="contenu"></main>
+<footer>Entreprise, documentation, appels et conseillers fictifs. Démonstration sans aucune requête : transcriptions et notations calculées à l'avance.</footer>
+
+<audio id="audio" preload="metadata"></audio>
+<script src="donnees.js"></script>
+<script>
+"use strict";
+const D = window.CALIBRE, audio = document.getElementById("audio"), contenu = document.getElementById("contenu");
+const params = new URLSearchParams(location.search);
+let appel = D.appels.find(a => a.id === params.get("appel")) || D.appels[2];
+let vue = params.get("vue") || "ecoute";
+const echapper = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const mmss = t => t == null ? "" : `${String(Math.floor(t / 60)).padStart(2, "0")}:${String(Math.floor(t % 60)).padStart(2, "0")}`;
+const couleur = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const TYPES = { reussite: ["vert", "Réussite"], faute: ["orange", "Faute"], mise_en_garde: ["orange", "Mise en garde"], eliminatoire: ["rouge", "Éliminatoire"] };
+const STATUT = { oui: "OUI", non: "NON", na: "–" };
+
+/* Thème */
+const racine = document.documentElement;
+document.getElementById("theme").onclick = () => {
+  const sombre = racine.dataset.theme ? racine.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  racine.dataset.theme = sombre ? "light" : "dark";
+  try { localStorage.setItem("calibre-theme", racine.dataset.theme); } catch (e) {}
+  rendre();
+};
+try { const t = localStorage.getItem("calibre-theme"); if (t) racine.dataset.theme = t; } catch (e) {}
+if (params.get("theme")) racine.dataset.theme = params.get("theme");
+
+/* Choix de l'appel et des vues */
+const choix = document.getElementById("choix");
+choix.innerHTML = D.appels.map(a => `<option value="${a.id}">Appel ${a.id} – ${echapper(a.titre)} (${a.fiche.type === "Appel entrant" ? "entrant" : "télévente"})</option>`).join("");
+choix.value = appel.id;
+choix.onchange = () => { appel = D.appels.find(a => a.id === choix.value); charger(); rendre(); };
+document.querySelectorAll(".onglet").forEach(b => b.onclick = () => { vue = b.dataset.vue; rendre(); });
+
+function charger() { audio.src = appel.audio; audio.playbackRate = vitesse; }
+let vitesse = 1;
+
+function fiche() {
+  const f = appel.fiche;
+  return `<div class="fiche"><span>Matricule <b>${f.matricule}</b></span><span>Date <b>${f.date.split("-").reverse().join("/")} à ${f.heure}</b></span>
+    <span>Type <b>${f.type}</b></span><span>Grille <b>${echapper(f.grille)}</b></span></div>`;
+}
+
+/* --- Vue Écoute --- */
+function vueEcoute() {
+  contenu.innerHTML = `<div class="ecoute">
+    <section class="carte" aria-label="Lecteur d'appel">
+      <h1 style="font-size:22px;margin-bottom:6px">Appel ${appel.id} – ${echapper(appel.titre)}</h1>
+      ${fiche()}
+      <div class="onde-boite" id="onde" title="Cliquer pour aller à ce moment"><canvas id="toile"></canvas></div>
+      <div class="commandes">
+        <button class="lire" id="lire">Écouter</button>
+        <span class="temps" id="temps">00:00 / ${mmss(appel.duree)}</span>
+        <div class="vitesses" role="group" aria-label="Vitesse de lecture">
+          ${[1, 1.5, 2].map(v => `<button data-v="${v}" aria-pressed="${v === vitesse}">×${String(v).replace(".", ",")}</button>`).join("")}
+        </div>
+      </div>
+      <div class="legende">
+        <span><span class="pastille" style="background:var(--conseiller)"></span>Conseiller</span>
+        <span><span class="pastille" style="background:var(--client)"></span>Client</span>
+        <span><span class="pastille" style="background:var(--vert)"></span>Réussite</span>
+        <span><span class="pastille" style="background:var(--orange)"></span>Faute ou mise en garde</span>
+        <span><span class="pastille" style="background:var(--rouge)"></span>Éliminatoire</span>
+      </div>
+      <div class="transcription" id="transcription">
+        ${appel.repliques.map((r, i) => `<div class="replique" data-i="${i}" data-t="${r.d}"><span class="h">${mmss(r.d)}</span>
+          <span class="qui ${r.l}">${r.l === "conseiller" ? "Conseiller" : "Client"}</span><span class="txt">${echapper(r.t)}</span></div>`).join("")}
+      </div>
+    </section>
+    <aside class="carte alertes" aria-label="Alertes en direct">
+      <h2>Alertes en direct</h2>
+      <div class="flux" id="flux" aria-live="polite"><p class="vide">Les alertes apparaissent au moment exact où une réussite, une faute ou un éliminatoire se produit.</p></div>
+    </aside>
+  </div>`;
+  document.getElementById("lire").onclick = () => audio.paused ? audio.play() : audio.pause();
+  document.querySelectorAll(".vitesses button").forEach(b => b.onclick = () => {
+    vitesse = Number(b.dataset.v); audio.playbackRate = vitesse;
+    document.querySelectorAll(".vitesses button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  });
+  document.getElementById("onde").onclick = e => {
+    const r = e.currentTarget.getBoundingClientRect(); aller(((e.clientX - r.left) / r.width) * appel.duree);
+  };
+  document.querySelectorAll(".replique").forEach(el => el.onclick = () => aller(Number(el.dataset.t)));
+  const boite = document.getElementById("onde");
+  appel.alertes.forEach(a => {
+    const m = document.createElement("span"); m.className = "repere";
+    m.style.left = `${(a.t / appel.duree) * 100}%`; m.style.background = couleur(`--${TYPES[a.type][0]}`);
+    boite.appendChild(m);
+  });
+  dejaAffichees = -1; dessiner(); synchroniser();
+}
+
+function dessiner() {
+  const toile = document.getElementById("toile"); if (!toile) return;
+  const r = toile.getBoundingClientRect(), dpr = devicePixelRatio || 1;
+  toile.width = r.width * dpr; toile.height = r.height * dpr;
+  const c = toile.getContext("2d"); c.scale(dpr, dpr);
+  const n = appel.onde.length, l = r.width / n, milieu = r.height / 2 + 4, prog = (audio.currentTime || 0) / appel.duree;
+  appel.onde.forEach((v, i) => {
+    const h = Math.max(1.5, v * (r.height / 2 - 8));
+    c.fillStyle = i / n <= prog ? couleur("--accent") : couleur("--ligne-forte");
+    c.fillRect(i * l, milieu - h, Math.max(1, l - 0.6), h * 2);
+  });
+}
+
+let dejaAffichees = -1;
+function synchroniser() {
+  const t = audio.currentTime || 0;
+  const temps = document.getElementById("temps"); if (!temps) return;
+  temps.textContent = `${mmss(t)} / ${mmss(appel.duree)}`;
+  document.getElementById("lire").textContent = audio.paused ? "Écouter" : "Pause";
+  let active = -1;
+  appel.repliques.forEach((r, i) => { if (r.d <= t + 0.05) active = i; });
+  document.querySelectorAll(".replique").forEach((el, i) => { el.classList.toggle("dite", i <= active); el.classList.toggle("active", i === active); });
+  const el = document.querySelector(`.replique[data-i="${active}"]`), boite = document.getElementById("transcription");
+  if (el && boite) boite.scrollTop = el.offsetTop - boite.offsetTop - boite.clientHeight / 3;
+  const visibles = appel.alertes.filter(a => a.t <= t + 0.05);
+  if (visibles.length !== dejaAffichees) {
+    dejaAffichees = visibles.length;
+    const flux = document.getElementById("flux");
+    flux.innerHTML = visibles.length ? visibles.slice().reverse().map(a => `<button class="alerte ${a.type}" data-t="${a.t}">
+        <div class="t">${mmss(a.t)} · ${TYPES[a.type][1]}</div><div class="titre">${echapper(a.titre)}</div><div class="cit">« ${echapper(a.texte.length > 140 ? a.texte.slice(0, 137).trim() + "…" : a.texte)} »</div></button>`).join("")
+      : `<p class="vide">Les alertes apparaissent au moment exact où une réussite, une faute ou un éliminatoire se produit.</p>`;
+    flux.querySelectorAll(".alerte").forEach(b => b.onclick = () => aller(Number(b.dataset.t)));
+  }
+  dessiner();
+}
+function aller(t) { audio.currentTime = Math.max(0, t - 0.3); if (vue !== "ecoute") { vue = "ecoute"; rendre(); } synchroniser(); }
+audio.addEventListener("timeupdate", synchroniser);
+audio.addEventListener("play", synchroniser); audio.addEventListener("pause", synchroniser);
+addEventListener("resize", dessiner);
+
+/* --- Vue Rapport --- */
+function preuves(p) { return p.map(x => `<span class="preuve" data-t="${x.t ?? ""}">${x.t != null ? `[${mmss(x.t)}] ` : ""}« ${echapper(x.c)} »</span>`).join(""); }
+function vueRapport() {
+  const ia = appel.ia, c = ia.calcul;
+  const couleurNiveau = c.niveau === "Non conforme" ? "rouge" : ["Insuffisant", "À améliorer"].includes(c.niveau) ? "orange" : "vert";
+  contenu.innerHTML = `<section class="carte rapport">
+    <h1 style="font-size:22px;margin-bottom:6px">Rapport – appel ${appel.id} – ${echapper(appel.titre)}</h1>
+    ${fiche()}
+    <div class="devise-forte">Calibre recommande, le qualiticien décide.</div>
+    <div class="synthese">
+      <div class="chiffre"><div class="lib">Note</div><div class="val">${c.note_pct} %</div><div class="lib">${c.oui} oui sur ${c.applicables} items applicables</div></div>
+      <div class="chiffre"><div class="lib">Niveau</div><div class="val"><span class="badge ${couleurNiveau}" style="font-size:16px">${c.niveau}</span></div></div>
+      <div class="chiffre"><div class="lib">Action proposée</div><div class="val" style="font-size:20px">${c.action}</div></div>
+      <div class="chiffre"><div class="lib">Alertes</div><div class="val" style="font-size:20px">${ia.eliminatoires.length ? `${ia.eliminatoires.length} éliminatoire${ia.eliminatoires.length > 1 ? "s" : ""}` : `${ia.mises_en_garde.length} mise${ia.mises_en_garde.length > 1 ? "s" : ""} en garde`}</div></div>
+    </div>
+    ${ia.eliminatoires.length ? `<div class="bloc"><h2 class="section-titre">Éliminatoires</h2>${ia.eliminatoires.map(e => `<div class="encadre rouge"><b>Éliminatoire ${e.n} · ${echapper(e.nom)}</b><br>${preuves([e])}</div>`).join("")}</div>` : ""}
+    ${ia.mises_en_garde.length ? `<div class="bloc"><h2 class="section-titre">Mises en garde</h2>${ia.mises_en_garde.map(m => `<div class="encadre orange"><b>${echapper(m)}</b>${preuves(ia.fautes.filter(f => f.type === m))}</div>`).join("")}${ia.eliminatoires.length ? `<p class="vide">Un éliminatoire englobe les mises en garde du même appel : elles ne comptent pas dans la règle des 30 jours.</p>` : ""}</div>` : ""}
+    <div class="bloc"><h2 class="section-titre">Détail des items</h2><div class="table-defile"><table>
+      <thead><tr><th>N°</th><th>Item</th><th>Note</th><th>Justification et preuves</th></tr></thead><tbody>
+      ${appel.items.map(it => { const x = ia.items[it.n] || { s: "–", j: "Item absent de la notation", p: [] };
+        return `<tr><td>${it.n}</td><td><b>${echapper(it.nom)}</b></td><td class="statut ${x.s}">${STATUT[x.s] || x.s}</td><td>${echapper(x.j)}${preuves(x.p)}</td></tr>`; }).join("")}
+      </tbody></table></div></div>
+    <div class="bloc"><h2 class="section-titre">Remarques de conformité</h2>
+      ${ia.remarques.length ? ia.remarques.map(r => `<div class="encadre"><b>${echapper(r.regle)}</b> : ${echapper(r.ecart)}${preuves([r])}</div>`).join("") : `<p class="vide">Aucune.</p>`}
+      <p class="vide">Écarts à la documentation hors grille : ils n'ont aucun effet sur la note.</p></div>
+    <div class="bloc"><h2 class="section-titre">Coaching</h2>
+      <div class="encadre"><b>Points forts</b><ul>${ia.coaching.points_forts.map(p => `<li>${echapper(p)}</li>`).join("")}</ul>
+      <b>Axes de progrès</b><ul>${ia.coaching.axes_progres.map(p => `<li>${echapper(p)}</li>`).join("")}</ul>
+      <b>Conseil principal :</b> ${echapper(ia.coaching.conseil_principal)}</div></div>
+    <p class="note-bas">Les horodatages des preuves sont recalculés par le code à partir de la transcription ; une citation qui n'y figure pas est signalée. Cliquer sur une preuve pour l'écouter.</p>
+  </section>`;
+  contenu.querySelectorAll(".preuve").forEach(p => p.onclick = () => p.dataset.t && aller(Number(p.dataset.t)));
+}
+
+/* --- Vue Calibration --- */
+function vueCalibration() {
+  const ia = appel.ia, r = appel.reference, c = ia.calcul;
+  const desaccords = appel.items.filter(it => (ia.items[it.n]?.s || "–") !== r.items[it.n]).length;
+  const ligne = (lib, a, b) => `<tr class="${String(a) === String(b) ? "" : "desaccord"}"><td>${lib}</td><td>${a}</td><td>${b}</td></tr>`;
+  const tous = D.appels.map(a => { const n = a.items.filter(it => (a.ia.items[it.n]?.s || "–") === a.reference.items[it.n]).length;
+    return { a, n, tot: a.items.length, niv: a.ia.calcul.niveau === a.reference.niveau, act: a.ia.calcul.action === a.reference.action }; });
+  const accords = tous.reduce((s, x) => s + x.n, 0), total = tous.reduce((s, x) => s + x.tot, 0);
+  contenu.innerHTML = `<section class="carte">
+    <h1 style="font-size:22px;margin-bottom:6px">Calibration – appel ${appel.id} – ${echapper(appel.titre)}</h1>
+    ${fiche()}
+    <p>La notation de Calibre à côté de celle du qualiticien. <b>${appel.items.length - desaccords}/${appel.items.length}</b> items en accord ; les désaccords sont surlignés.</p>
+    <div class="table-defile"><table><thead><tr><th>Résultat</th><th>Calibre (IA)</th><th>Qualiticien</th></tr></thead><tbody>
+      ${ligne("Note", c.note_pct + " %", r.note + " %")}${ligne("Niveau", c.niveau, r.niveau)}${ligne("Action", c.action, r.action)}
+      ${ligne("Éliminatoires", c.eliminatoires.join(", ") || "aucun", r.eliminatoires.join(", ") || "aucun")}
+    </tbody></table></div>
+    <div class="bloc"><div class="table-defile"><table><thead><tr><th>N°</th><th>Item</th><th>Calibre (IA)</th><th>Qualiticien</th><th>Justification de l'IA</th></tr></thead><tbody>
+      ${appel.items.map(it => { const a = ia.items[it.n]?.s || "–", b = r.items[it.n];
+        return `<tr class="${a === b ? "" : "desaccord"}"><td>${it.n}</td><td>${echapper(it.nom)}</td><td class="statut ${a}">${STATUT[a] || "absent"}</td><td class="statut ${b}">${STATUT[b]}</td><td>${echapper(ia.items[it.n]?.j || "")}</td></tr>`; }).join("")}
+    </tbody></table></div></div>
+    <div class="bloc"><h2 class="section-titre">Les 13 appels</h2>
+      <p>Accord global : <b>${accords}/${total} items (${(100 * accords / total).toFixed(1).replace(".", ",")} %)</b>, niveau ${tous.filter(x => x.niv).length}/13, action ${tous.filter(x => x.act).length}/13.</p>
+      <div class="table-defile"><table><thead><tr><th>Appel</th><th>Items en accord</th><th>Niveau (IA / qualiticien)</th><th>Action (IA / qualiticien)</th></tr></thead><tbody>
+      ${tous.map(x => `<tr class="${x.niv && x.act ? "" : "desaccord"}"><td><button class="lien-appel" data-id="${x.a.id}">Appel ${x.a.id} – ${echapper(x.a.titre)}</button></td><td>${x.n}/${x.tot}</td>
+        <td>${x.a.ia.calcul.niveau} / ${x.a.reference.niveau}</td><td>${x.a.ia.calcul.action} / ${x.a.reference.action}</td></tr>`).join("")}
+      </tbody></table></div></div>
+  </section>`;
+  contenu.querySelectorAll(".lien-appel").forEach(b => b.onclick = () => { appel = D.appels.find(a => a.id === b.dataset.id); choix.value = appel.id; charger(); rendre(); });
+}
+
+/* --- Vue Équipe --- */
+function vueEquipe() {
+  // Mises en garde datées : celles des appels notés (sauf si un éliminatoire les englobe) + l'historique fictif
+  const evenements = [];
+  D.appels.forEach(a => {
+    if (!a.ia.calcul.eliminatoires.length) a.ia.mises_en_garde.forEach(m => evenements.push({ matricule: a.fiche.matricule, date: a.fiche.date, motif: m, appel: a.id }));
+  });
+  D.historique_fictif.forEach(h => evenements.push({ ...h, fictif: true }));
+  const jours = (a, b) => (new Date(b) - new Date(a)) / 86400000;
+  const conseillers = D.appels.map(a => {
+    const ev = evenements.filter(e => e.matricule === a.fiche.matricule).sort((x, y) => y.date.localeCompare(x.date));
+    const recentes = ev.filter(e => jours(e.date, a.fiche.date) >= 0 && jours(e.date, a.fiche.date) <= 30);
+    let action = a.ia.calcul.action, motif = "";
+    if (a.ia.calcul.eliminatoires.length) motif = "éliminatoire dans l'appel";
+    else if (recentes.length >= 3) { action = "Avertissement proposé"; motif = `${recentes.length} mises en garde en 30 jours`; }
+    return { a, ev, recentes, action, motif };
+  });
+  contenu.innerHTML = `<section class="carte">
+    <h1 style="font-size:22px;margin-bottom:6px">Vue d'équipe</h1>
+    <p>Les 13 appels notés, avec un <b>historique fictif</b> de mises en garde pour quelques conseillers. Règle : <b>3 mises en garde en 30 jours pour un même matricule = avertissement proposé</b>, quelle qu'en soit la raison. Le comptage est fait par le code ; un éliminatoire englobe les mises en garde de son appel.</p>
+    <div class="table-defile"><table><thead><tr><th>Matricule</th><th>Appel</th><th>Date</th><th>Note</th><th>Niveau</th><th>Mises en garde (30 jours)</th><th>Action proposée</th></tr></thead><tbody>
+    ${conseillers.map(x => { const n = x.recentes.length, rouge = x.action.startsWith("Avertissement");
+      return `<tr class="${rouge ? "desaccord" : ""}"><td class="mat"><b>${x.a.fiche.matricule}</b></td><td><button class="lien-appel" data-id="${x.a.id}">Appel ${x.a.id} – ${echapper(x.a.titre)}</button></td>
+      <td>${x.a.fiche.date.split("-").reverse().join("/")}</td><td>${x.a.ia.calcul.note_pct} %</td><td>${x.a.ia.calcul.niveau}</td>
+      <td>${n ? `<span class="badge ${n >= 3 ? "rouge" : "orange"}">${n}</span>` : "0"}</td>
+      <td>${rouge ? `<span class="badge rouge">${x.action}</span>` : x.action}${x.motif ? `<br><span class="vide">${x.motif}</span>` : ""}</td></tr>`; }).join("")}
+    </tbody></table></div>
+    <div class="bloc"><h2 class="section-titre">Historique des mises en garde</h2>
+    ${conseillers.filter(x => x.ev.length).map(x => `<div class="encadre"><b>${x.a.fiche.matricule}</b> – ${x.recentes.length} mise${x.recentes.length > 1 ? "s" : ""} en garde dans les 30 jours avant l'appel ${x.a.id}
+      <ul>${x.ev.map(e => `<li>${e.date.split("-").reverse().join("/")} – ${echapper(e.motif)}${e.fictif ? " <span class='vide'>(historique fictif)</span>" : ` (appel ${e.appel})`}${jours(e.date, x.a.fiche.date) > 30 ? " <span class='vide'>– plus de 30 jours, ne compte pas</span>" : ""}</li>`).join("")}</ul></div>`).join("")}
+    </div>
+  </section>`;
+  contenu.querySelectorAll(".lien-appel").forEach(b => b.onclick = () => { appel = D.appels.find(a => a.id === b.dataset.id); choix.value = appel.id; charger(); vue = "rapport"; rendre(); });
+}
+
+function rendre() {
+  document.querySelectorAll(".onglet").forEach(b => b.setAttribute("aria-selected", b.dataset.vue === vue));
+  choix.parentElement.classList.toggle("masque", vue === "equipe");
+  ({ ecoute: vueEcoute, rapport: vueRapport, calibration: vueCalibration, equipe: vueEquipe }[vue] || vueEcoute)();
+}
+charger();
+if (params.get("t")) audio.currentTime = Number(params.get("t"));
+rendre();
+if (params.get("t")) { const t = Number(params.get("t")); Object.defineProperty(audio, "currentTime", { get: () => t, set: () => {}, configurable: true }); synchroniser(); }
+</script>
+</body>
+</html>

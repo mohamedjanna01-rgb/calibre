@@ -221,7 +221,12 @@ def calculer(reponse, grille_nom, reps):
     applicables = sum(1 for i in items.values() if i["statut"] in ("oui", "non"))
     note = int(100 * oui / applicables + 0.5) if applicables else 0
     niveau = ("Excellent" if note >= 90 else "Conforme" if note >= 75 else "À améliorer" if note >= 60 else "Insuffisant")
-    mises_en_garde = sorted({f["type"] for f in reponse["fautes_mise_en_garde"]} | ({"insuffisant"} if niveau == "Insuffisant" else set()))
+    fautes = {f["type"] for f in reponse["fautes_mise_en_garde"]}
+    # Contrôle par code : la « panne ignorée » ne s'applique qu'en télévente (grille 2)
+    if "panne_ignoree" in fautes and grille_nom.startswith("Grille 1"):
+        fautes.discard("panne_ignoree")
+        anomalies.append("mise en garde « panne ignorée » écartée : elle ne s'applique qu'en télévente")
+    mises_en_garde = sorted(fautes | ({"insuffisant"} if niveau == "Insuffisant" else set()))
     if reponse["eliminatoires"]:
         niveau_final, action = "Non conforme", "Avertissement"
     else:
