@@ -21,6 +21,7 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 
@@ -39,6 +40,7 @@ SOURCE = "hybride"  # méthode de transcription notée (modifiable avec --source
 SORTIE = ROOT / "notations"
 
 STATUTS = ["oui", "non", "na"]
+MAX_DEMANDES = 3  # demandes au plus pour obtenir une notation complète
 SCHEMA = {
     "type": "OBJECT",
     "properties": {
@@ -287,13 +289,27 @@ def main():
             taille = len(corps["contents"][0]["parts"][0]["text"]) + len(corps["systemInstruction"]["parts"][0]["text"])
             print(f"appel-{appel} : consigne contrôlée (aucun contenu interdit), {taille} caractères, {type_appel}, {grille}")
             continue
-        Compteur().reserver(a.modele)
-        _, octets = requete(f"{API}/v1beta/models/{a.modele}:generateContent", corps, cle, modele=a.modele)
-        brute = json.loads(octets)
-        sauvegarde = BRUT / f"notation-{appel}.{a.modele}.reponse.json"
-        sauvegarde.write_text(json.dumps(brute, ensure_ascii=False), encoding="utf-8")
-        texte = "".join(x.get("text", "") for x in brute["candidates"][0]["content"]["parts"] if not x.get("thought"))
-        reponse = json.loads(texte[texte.index("{"): texte.rindex("}") + 1])  # tolère un bloc ```json autour
+        # Une notation incomplète (item manquant ou en trop, réponse illisible) est refusée et redemandée
+        attendus = sorted(grilles()["Grille 1" if grille.startswith("Grille 1") else "Grille 2"])
+        for demande in range(1, MAX_DEMANDES + 1):
+            Compteur().reserver(a.modele)
+            _, octets = requete(f"{API}/v1beta/models/{a.modele}:generateContent", corps, cle, modele=a.modele)
+            brute = json.loads(octets)
+            sauvegarde = BRUT / f"notation-{appel}.{a.modele}.reponse.json"
+            sauvegarde.write_text(json.dumps(brute, ensure_ascii=False), encoding="utf-8")
+            try:
+                texte = "".join(x.get("text", "") for x in brute["candidates"][0]["content"]["parts"] if not x.get("thought"))
+                reponse = json.loads(texte[texte.index("{"): texte.rindex("}") + 1])  # tolère un bloc ```json autour
+                recus = sorted(i["numero"] for i in reponse["items"])
+                probleme = None if recus == attendus else f"items attendus {attendus}, reçus {recus}"
+            except (KeyError, IndexError, ValueError) as e:
+                probleme = f"réponse illisible ({type(e).__name__})"
+            if probleme is None:
+                break
+            print(f"appel-{appel} : notation incomplète refusée ({probleme}), demande {demande}/{MAX_DEMANDES}", flush=True)
+            if demande == MAX_DEMANDES:
+                sys.exit(f"ARRÊT – appel-{appel} : notation toujours incomplète après {MAX_DEMANDES} demandes.")
+            time.sleep(70)  # limite de tokens par minute
         calcul = calculer(reponse, grille, transcription(appel))
         dossier = SORTIE / (a.modele + ("-reduit" if a.reduit else "") + ("" if SOURCE == "hybride" else f"-{SOURCE}")
                             + (f"-passe{a.passe}" if a.passe else ""))

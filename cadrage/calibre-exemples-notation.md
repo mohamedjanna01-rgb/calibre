@@ -10,7 +10,7 @@ Ces règles complètent la notation de référence (`calibre-notation-reference.
 
 12. **Un oubli isolé ne fait pas baisser le niveau** si le reste de l'appel est réussi : c'est le pourcentage qui décide du niveau. L'item manqué est noté « non » et fait l'objet d'un point de coaching.
 13. **Éliminatoire 2, élargi : mentir ou faire une fausse promesse qui engage l'entreprise** (prix, remise, geste commercial, délai, conditions), **quel que soit le but** : vendre, retenir ou calmer le client.
-    - Une information approximative ou une excuse sans engagement (« ça devrait se régler », « le service n'est pas disponible aujourd'hui ») n'est **pas** un éliminatoire : elle est notée dans les items, et peut déclencher une mise en garde si c'est une faute listée.
+    - Une information approximative ou une excuse sans engagement (« votre colis devrait arriver dans les prochains jours », « le système est un peu lent en ce moment ») n'est **pas** un éliminatoire : elle est notée dans les items, et peut déclencher une mise en garde si c'est une faute listée.
     - **Calibre juge ce qui est dit, pas l'intention** : une affirmation fausse sur un prix, une remise, un geste, un délai ou une condition, qui engage l'entreprise, est un éliminatoire ; c'est le qualiticien qui juge ensuite l'intention lors de la réécoute.
     - Cette précision ne change ni les niveaux ni les actions des 13 scénarios.
 
