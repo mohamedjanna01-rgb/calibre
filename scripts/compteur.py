@@ -23,7 +23,7 @@ LIMITES = {
     "gemini-3.8-flash": (20, 5),
     "gemini-3.5-transcribe": (30, 3),
     "gemini-3.5-flash-lite": (40, 10),  # plafond quotidien non relevé : valeur prudente (15 par minute selon AI Studio)
-    "gemma-4-26b-a4b-it": (100, 10),  # plafond quotidien non relevé : valeur prudente (30 par minute selon AI Studio)
+    "gemma-4-26b-a4b-it": (14440, 30),  # plafond quotidien non relevé : valeur prudente (30 par minute selon AI Studio)
 }
 
 

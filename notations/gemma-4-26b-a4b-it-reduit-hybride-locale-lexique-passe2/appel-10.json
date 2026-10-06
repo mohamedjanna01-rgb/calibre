@@ -1,7 +1,7 @@
 {
   "appel": "10",
   "modele": "gemma-4-26b-a4b-it",
-  "date": "2026-10-06T15:53:50",
+  "date": "2026-10-06T23:57:38",
   "source_transcription": "hybride-locale-lexique",
   "referentiel": "réduit",
   "reponse_ia": {
@@ -9,7 +9,7 @@
       {
         "numero": 1,
         "statut": "non",
-        "justification": "La présentation est incomplète : il manque le prénom, le nom, la fonction et la mention 'je gère votre contrat'.",
+        "justification": "L'accueil est incomplet : le nom, la fonction et la mention de la gestion du contrat sont absents.",
         "preuves": [
           {
             "citation": "Allô, oui, bonjour, c 'est Kalyo Télécom.",
@@ -35,32 +35,46 @@
       {
         "numero": 3,
         "statut": "non",
-        "justification": "Le conseiller n'a pas vérifié si tout fonctionnait avant de proposer l'offre.",
-        "preuves": []
+        "justification": "Le conseiller n'a pas vérifié si tout fonctionnait correctement avant d'entamer l'argumentaire.",
+        "preuves": [
+          {
+            "citation": "Vous êtes bien la titulaire de la boxe ?",
+            "debut_s": 5.1,
+            "verification": "exacte",
+            "debut_verifie_s": 5.1
+          }
+        ]
       },
       {
         "numero": 4,
         "statut": "non",
-        "justification": "La découverte est incomplète : il n'a pas interrogé le client sur les téléphones, les lignes mobiles ou les autres opérateurs.",
-        "preuves": []
+        "justification": "La découverte est incomplète : l'agent n'a pas interrogé la cliente sur ses autres lignes ou l'usage de ses autres équipements.",
+        "preuves": [
+          {
+            "citation": "Vous avez des enfants ?",
+            "debut_s": 22.8,
+            "verification": "exacte",
+            "debut_verifie_s": 22.82
+          }
+        ]
       },
       {
         "numero": 5,
         "statut": "oui",
-        "justification": "Le besoin est repéré grâce aux propos de la cliente sur les dessins animés et le streaming.",
+        "justification": "Le besoin lié à l'usage des enfants et du streaming a été repéré.",
         "preuves": [
           {
-            "citation": "Ils regardent surtout des dessins animés. Ils jouent une appli de streaming.",
-            "debut_s": 28.1,
+            "citation": "Il vous faut le pack horizon, 12 ,99 euros par mois.",
+            "debut_s": 34.7,
             "verification": "exacte",
-            "debut_verifie_s": 28.06
+            "debut_verifie_s": 34.72
           }
         ]
       },
       {
         "numero": 6,
         "statut": "non",
-        "justification": "La proposition est directe et non détaillée via la méthode CAB (caractéristique, avantage, bénéfice).",
+        "justification": "La proposition n'est pas détaillée et ne suit pas la méthode CAB.",
         "preuves": [
           {
             "citation": "Il vous faut le pack horizon, 12 ,99 euros par mois.",
@@ -73,26 +87,26 @@
       {
         "numero": 7,
         "statut": "non",
-        "justification": "Le conseiller n'a pas utilisé la méthode AQRV et a insisté après deux refus.",
+        "justification": "Le conseiller a exercé une pression excessive et n'a pas respecté la règle de l'arrêt après deux refus.",
         "preuves": [
           {
-            "citation": "Attendez, vous ne savez même pas ce qu 'il y a dedans.",
-            "debut_s": 47.0,
+            "citation": "Deux minutes ? C 'est tout ce que je vous demande. Franchement, vous allez le regretter si vous ne le faites pas.",
+            "debut_s": 52.8,
             "verification": "exacte",
-            "debut_verifie_s": 47.0
+            "debut_verifie_s": 52.84
           }
         ]
       },
       {
         "numero": 8,
         "statut": "non",
-        "justification": "Le conseiller n'a jamais appelé la cliente par son nom.",
+        "justification": "Le nom de la cliente n'a jamais été utilisé durant l'échange.",
         "preuves": []
       },
       {
         "numero": 9,
         "statut": "non",
-        "justification": "Le tarif est incomplet : l'absence d'engagement, le premier mois offert et la date de prélèvement ne sont pas mentionnés.",
+        "justification": "Le tarif complet n'a pas été présenté (engagement, date de prélèvement, etc.).",
         "preuves": [
           {
             "citation": "Il vous faut le pack horizon, 12 ,99 euros par mois.",
@@ -105,13 +119,19 @@
       {
         "numero": 10,
         "statut": "non",
-        "justification": "La procédure et le délai d'activation n'ont pas été annoncés.",
+        "justification": "Le délai d'activation n'a pas été annoncé.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "Aucune vente n'a été réalisée.",
         "preuves": []
       },
       {
         "numero": 12,
         "statut": "non",
-        "justification": "Le conseiller n'a pas respecté la règle des deux refus et n'a pas présenté d'excuses.",
+        "justification": "Le conseiller a insisté après le refus de la cliente.",
         "preuves": [
           {
             "citation": "Deux minutes ? C 'est tout ce que je vous demande.",
@@ -122,9 +142,15 @@
         ]
       },
       {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Aucune demande d'escalade n'a été formulée.",
+        "preuves": []
+      },
+      {
         "numero": 14,
         "statut": "non",
-        "justification": "La prise de congé n'est pas soignée suite au mécontentement de la cliente.",
+        "justification": "L'appel s'est terminé brutalement sans prise de congé ni remerciement.",
         "preuves": [
           {
             "citation": "Comme vous voulez.",
@@ -136,28 +162,36 @@
       }
     ],
     "eliminatoires": [],
-    "fautes_mise_en_garde": [],
+    "fautes_mise_en_garde": [
+      {
+        "type": "panne_ignoree",
+        "citation": "N/A",
+        "debut_s": 0,
+        "verification": "introuvable",
+        "debut_verifie_s": null
+      }
+    ],
     "remarques_conformite": [
       {
         "regle": "[TVE-14]",
-        "ecart": "Pression commerciale excessive par la culpabilisation du client.",
-        "citation": "Pensez au moins à vos enfants, quand même. Tous les parents le prennent, vous savez ?",
-        "debut_s": 60.2,
+        "ecart": "Le conseiller a dénigré un service concurrent (plateformes de streaming).",
+        "citation": "Honnêtement, ce n 'est pas terrible pour les enfants. On ne sait jamais ce qu 'ils regardent.",
+        "debut_s": 34.7,
         "verification": "exacte",
-        "debut_verifie_s": 60.2
+        "debut_verifie_s": 34.72
       }
     ],
     "coaching": {
       "points_forts": [
-        "La mention de l'enregistrement est correctement effectuée avant toute découverte."
+        "Mention correcte de l'enregistrement en début d'appel."
       ],
       "axes_progres": [
-        "L'accueil doit être complet (prénom, nom, fonction et mention du contrat).",
-        "La découverte doit être systématique et couvrir tous les points (mobiles, lignes, etc.).",
-        "Le traitement des objections doit impérativement respecter la règle des deux refus sans utiliser de pression ou de culpabilisation.",
-        "Le récapitulatif tarifaire doit être exhaustif (engagement, mois offerts, prélèvement)."
+        "Respecter le formalisme de l'accueil (Nom, Prénom, Fonction, gestion du contrat).",
+        "Appliquer strictement la règle des deux refus pour éviter la pression commerciale.",
+        "Éviter les jugements de valeur ou le dénigrement des usages clients (streaming).",
+        "Utiliser la méthode CAB pour une proposition plus convaincante."
       ],
-      "conseil_principal": "Respectez la règle des deux refus. Si le client refuse deux fois, ne cherchez pas à le culpabiliser, mais proposez un rappel ou terminez l'appel poliment : 'Je comprends tout à fait, je ne souhaite pas vous importuner davantage. Je vous souhaite une excellente journée.'"
+      "conseil_principal": "Pour un accueil conforme, utilisez la structure suivante : « Bonjour Madame Fabre, je m'appelle [Prénom] [Nom], je suis conseiller chez Kalyo Télécom, et c'est moi qui m'occupe de votre contrat. »"
     }
   },
   "calcul": {
@@ -168,22 +202,23 @@
     "niveau": "Insuffisant",
     "eliminatoires": [],
     "mises_en_garde": [
-      "insuffisant"
+      "insuffisant",
+      "panne_ignoree"
     ],
     "action": "Mise en garde",
     "anomalies": [
-      "items attendus [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], reçus [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14]"
+      "citation introuvable dans la transcription : « N/A »"
     ]
   },
   "usage": {
-    "promptTokenCount": 14402,
-    "candidatesTokenCount": 1362,
-    "totalTokenCount": 23619,
+    "promptTokenCount": 14475,
+    "candidatesTokenCount": 1537,
+    "totalTokenCount": 20359,
     "cachedContentTokenCount": 12276,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 14402
+        "tokenCount": 14475
       }
     ],
     "cacheTokensDetails": [
@@ -192,7 +227,7 @@
         "tokenCount": 12276
       }
     ],
-    "thoughtsTokenCount": 7855,
+    "thoughtsTokenCount": 4347,
     "serviceTier": "standard"
   }
 }

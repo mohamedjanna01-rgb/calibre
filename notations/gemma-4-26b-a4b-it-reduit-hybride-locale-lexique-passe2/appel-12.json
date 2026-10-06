@@ -1,7 +1,7 @@
 {
   "appel": "12",
   "modele": "gemma-4-26b-a4b-it",
-  "date": "2026-10-06T15:55:21",
+  "date": "2026-10-07T00:05:31",
   "source_transcription": "hybride-locale-lexique",
   "referentiel": "réduit",
   "reponse_ia": {
@@ -9,7 +9,7 @@
       {
         "numero": 1,
         "statut": "oui",
-        "justification": "Présentation complète et vérification de l'identité effectuée.",
+        "justification": "La présentation est complète et inclut la gestion du contrat, suivie de la vérification de l'identité.",
         "preuves": [
           {
             "citation": "Salma Idrissi, conseillère chez Kalyo Télécom, votre opérateur. C 'est moi qui m 'occupe de votre contrabox Internet",
@@ -28,7 +28,7 @@
       {
         "numero": 2,
         "statut": "oui",
-        "justification": "Mention de l'enregistrement faite avant la découverte.",
+        "justification": "L'enregistrement est mentionné avant la phase de découverte.",
         "preuves": [
           {
             "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
@@ -41,7 +41,7 @@
       {
         "numero": 3,
         "statut": "oui",
-        "justification": "Le conseiller a vérifié le bon fonctionnement du matériel avant de proposer l'offre.",
+        "justification": "Le conseiller vérifie le bon fonctionnement avant de proposer l'offre.",
         "preuves": [
           {
             "citation": "Avant tout, tout fonctionne bien avec votre box et votre télévision ?",
@@ -54,33 +54,13 @@
       {
         "numero": 4,
         "statut": "non",
-        "justification": "La découverte est incomplète : aucune question sur les téléphones, les lignes mobiles ou les autres membres du foyer n'a été posée.",
-        "preuves": [
-          {
-            "citation": "Qu 'aimez -vous regarder à la télévision ?",
-            "debut_s": 51.6,
-            "verification": "exacte",
-            "debut_verifie_s": 51.58
-          }
-        ]
+        "justification": "La découverte est incomplète : le conseiller n'a pas interrogé la cliente sur ses lignes mobiles ou ses téléphones.",
+        "preuves": []
       },
       {
         "numero": 5,
         "statut": "oui",
-        "justification": "Le besoin (émissions de cuisine et voyages) a été identifié.",
-        "preuves": [
-          {
-            "citation": "émissions de cuisine et les documentaires sur les voyages.",
-            "debut_s": 56.0,
-            "verification": "exacte",
-            "debut_verifie_s": 55.96
-          }
-        ]
-      },
-      {
-        "numero": 6,
-        "statut": "oui",
-        "justification": "L'offre est reliée aux centres d'intérêt de la cliente.",
+        "justification": "Un besoin est identifié via l'intérêt de la cliente pour les voyages et la cuisine.",
         "preuves": [
           {
             "citation": "Alors, le pack Horizon devrait vous plaire. Vous auriez Horizon Cuisine, Horizon Voyages et Horizon Découverte.",
@@ -91,12 +71,25 @@
         ]
       },
       {
-        "numero": 7,
+        "numero": 6,
         "statut": "oui",
-        "justification": "Une seule réponse a été apportée à l'objection sur le prix (un seul rebond).",
+        "justification": "La proposition est personnalisée et reliée aux goûts de la cliente.",
         "preuves": [
           {
-            "citation": "Je comprends. Écoutez, pour vous, je peux faire un geste.",
+            "citation": "Vous auriez Horizon Cuisine, Horizon Voyages et Horizon Découverte.",
+            "debut_s": 75.8,
+            "verification": "exacte",
+            "debut_verifie_s": 75.82
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "non",
+        "justification": "La réponse à l'objection sur le prix est une fausse promesse (remise non autorisée).",
+        "preuves": [
+          {
+            "citation": "Je vous bloque le prix à 6 ,99 euros par mois pendant un an.",
             "debut_s": 107.0,
             "verification": "exacte",
             "debut_verifie_s": 107.04
@@ -109,25 +102,18 @@
         "justification": "La cliente est appelée par son nom.",
         "preuves": [
           {
-            "citation": "Merci Madame Chevalier.",
-            "debut_s": 51.6,
+            "citation": "Bonjour, Madame Chevalier ?",
+            "debut_s": 2.0,
             "verification": "exacte",
-            "debut_verifie_s": 51.58
+            "debut_verifie_s": 2.02
           }
         ]
       },
       {
         "numero": 9,
         "statut": "non",
-        "justification": "Le tarif complet n'est pas communiqué (absence de la date du premier prélèvement) et le prix annoncé est erroné par rapport au catalogue.",
-        "preuves": [
-          {
-            "citation": "Le premier mois est offert, puis c 'est 12 ,99 euros par mois, sans engagement.",
-            "debut_s": 75.8,
-            "verification": "exacte",
-            "debut_verifie_s": 75.82
-          }
-        ]
+        "justification": "Le tarif complet n'est pas donné : la date du premier prélèvement est manquante.",
+        "preuves": []
       },
       {
         "numero": 10,
@@ -145,7 +131,7 @@
       {
         "numero": 11,
         "statut": "oui",
-        "justification": "Le consentement est explicite, la signature électronique est réalisée et le code SMS est bien saisi par la cliente elle-même.",
+        "justification": "Le processus de signature est respecté : consentement explicite, e-mail envoyé et consigne de sécurité sur le code SMS.",
         "preuves": [
           {
             "citation": "Saisissez -le vous -même dans l 'e -mail et ne le communiquez à personne.",
@@ -158,19 +144,19 @@
       {
         "numero": 12,
         "statut": "na",
-        "justification": "",
+        "justification": "La vente a été conclue.",
         "preuves": []
       },
       {
         "numero": 13,
         "statut": "na",
-        "justification": "",
+        "justification": "Aucun transfert n'a été demandé.",
         "preuves": []
       },
       {
         "numero": 14,
         "statut": "oui",
-        "justification": "La conclusion est soignée avec remerciement et prise de congé.",
+        "justification": "La conclusion est soignée avec questions, remerciements et prise de congé.",
         "preuves": [
           {
             "citation": "Merci pour votre confiance. Bon voyage à vous deux et très bonne journée.",
@@ -184,8 +170,8 @@
     "eliminatoires": [
       {
         "numero": 2,
-        "motif": "Mentir ou faire une fausse promesse qui engage l'entreprise (prix)",
-        "citation": "Je vous bloque le prix à 6,99 euros par mois pendant un an.",
+        "motif": "Mentir ou faire une fausse promesse qui engage l'entreprise (remise non autorisée) et fausse urgence.",
+        "citation": "Je vous bloque le prix à 6 ,99 euros par mois pendant un an. Mais je dois vous prévenir, cette remise n 'est valable qu 'aujourd 'hui.",
         "debut_s": 107.0,
         "verification": "exacte",
         "debut_verifie_s": 107.04
@@ -195,37 +181,45 @@
     "remarques_conformite": [
       {
         "regle": "[TVE-14]",
-        "ecart": "Utilisation d'une fausse urgence pour conclure la vente.",
-        "citation": "Mais je dois vous prévenir, cette remise n 'est valable qu 'aujourd 'hui.",
+        "ecart": "Le conseiller a proposé un geste commercial (remise à 6,99€) non autorisé par la documentation.",
+        "citation": "Je vous bloque le prix à 6 ,99 euros par mois pendant un an.",
         "debut_s": 107.0,
         "verification": "exacte",
         "debut_verifie_s": 107.04
       },
       {
         "regle": "[TVE-14]",
-        "ecart": "Réalisation d'un geste commercial (remise) non autorisé par la documentation.",
-        "citation": "Je vous bloque le prix à 6,99 euros par mois pendant un an.",
+        "ecart": "Utilisation d'une fausse urgence pour conclure la vente.",
+        "citation": "cette remise n 'est valable qu 'aujourd 'hui.",
         "debut_s": 107.0,
         "verification": "exacte",
         "debut_verifie_s": 107.04
+      },
+      {
+        "regle": "[TVE-11]",
+        "ecart": "Le récapitulatif est incomplet : manque la date du premier paiement et le mode de résiliation.",
+        "citation": "Le [inaudible] Horizon, premier mois offert, puis 6 ,99 euros par mois pendant un an. Sans engagement, droit de rétractation de 14 jours. Activation en 2 heures maximum.",
+        "debut_s": 122.7,
+        "verification": "exacte",
+        "debut_verifie_s": 122.7
       }
     ],
     "coaching": {
       "points_forts": [
-        "Une excellente présentation initiale et une vérification d'identité rigoureuse.",
-        "Une très bonne gestion du processus de sécurisation de la vente et de la signature électronique."
+        "Excellente aisance relationnelle et empathie.",
+        "Très bonne personnalisation de l'argumentaire en rebondissant sur les passions de la cliente (voyages et cuisine)."
       ],
       "axes_progres": [
-        "Respect impératif des tarifs du catalogue : ne jamais inventer de remise pour lever une objection.",
-        "Interdiction d'utiliser la fausse urgence (promesse de validité limitée à la journée)."
+        "Ne jamais pratiquer de fausses promesses ou de fausses urgences pour conclure une vente.",
+        "Veiller à effectuer une découverte complète (incluant les mobiles/lignes) et un récapitulatif conforme à la procédure [TVE-11]."
       ],
-      "conseil_principal": "Ne promettez jamais de remise non autorisée ou de prix hors catalogue, même pour conclure une vente. Si l'offre est refusée pour le prix, restez sur les arguments de valeur ou le premier mois offert : « Je comprends, c'est un budget. Sachez toutefois que le premier mois est offert, ce qui vous permet de tester le service sans frais. »"
+      "conseil_principal": "Pour gagner la confiance d'un client sur le long terme, restez toujours dans les limites de vos droits : ne proposez jamais de remise non prévue au catalogue. Si un client trouve le prix élevé, insistez sur le premier mois offert ou sur la flexibilité du sans engagement. Modèle : 'Le Pack Horizon vous offre le premier mois, ensuite le tarif sera de 12,99€ par mois, sans engagement, avec un premier prélèvement le 8 du mois suivant.'"
     }
   },
   "calcul": {
-    "oui": 10,
+    "oui": 9,
     "applicables": 12,
-    "note_pct": 83,
+    "note_pct": 75,
     "niveau_note": "Conforme",
     "niveau": "Non conforme",
     "eliminatoires": [
@@ -236,14 +230,14 @@
     "anomalies": []
   },
   "usage": {
-    "promptTokenCount": 14831,
-    "candidatesTokenCount": 1781,
-    "totalTokenCount": 21133,
+    "promptTokenCount": 14904,
+    "candidatesTokenCount": 1895,
+    "totalTokenCount": 22127,
     "cachedContentTokenCount": 12276,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 14831
+        "tokenCount": 14904
       }
     ],
     "cacheTokensDetails": [
@@ -252,7 +246,7 @@
         "tokenCount": 12276
       }
     ],
-    "thoughtsTokenCount": 4521,
+    "thoughtsTokenCount": 5328,
     "serviceTier": "standard"
   }
 }

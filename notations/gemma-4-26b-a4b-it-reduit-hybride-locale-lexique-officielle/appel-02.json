@@ -1,0 +1,213 @@
+{
+  "appel": "02",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T21:41:30",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "La présentation est complète (prénom, nom, fonction), la prise en charge est annoncée et l'identité est vérifiée (nom, ligne, code postal et date de naissance).",
+        "preuves": [
+          {
+            "citation": "Je m 'appelle Sophia Haddad, je suis votre conseillère clientèle et je vais prendre en charge votre demande.",
+            "debut_s": 2.5,
+            "verification": "exacte",
+            "debut_verifie_s": 2.48
+          },
+          {
+            "citation": "Pour sécuriser votre dossier, pouvez -vous me donner votre numéro de ligne, votre code postal et votre date de naissance",
+            "debut_s": 14.3,
+            "verification": "exacte",
+            "debut_verifie_s": 14.26
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "La mention de l'enregistrement est faite avant la découverte du problème.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 2.5,
+            "verification": "exacte",
+            "debut_verifie_s": 2.48
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller n'a pas coupé la parole au client.",
+        "preuves": []
+      },
+      {
+        "numero": 4,
+        "statut": "oui",
+        "justification": "Le conseiller pose des questions pour vérifier si l'écart est dû à une modification de contrat.",
+        "preuves": [
+          {
+            "citation": "Avez-vous changé quelque chose depuis votre inscription ? Une option ou un équipement ?",
+            "debut_s": 40.5,
+            "verification": "exacte",
+            "debut_verifie_s": 40.5
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "non",
+        "justification": "Le client exprime une inquiétude et une surprise ; si la réassurance est bien présente, aucune reformulation de la demande n'a été effectuée.",
+        "preuves": [
+          {
+            "citation": "Je comprends votre surprise. C 'est normal de s 'inquiéter quand le montant ne correspond pas à ce qu 'on attendait.",
+            "debut_s": 40.5,
+            "verification": "exacte",
+            "debut_verifie_s": 40.5
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "Le ton est empathique face à l'inquiétude du client.",
+        "preuves": [
+          {
+            "citation": "Je comprends votre surprise. C 'est normal de s 'inquiéter quand le montant ne correspond pas à ce qu 'on attendait.",
+            "debut_s": 40.5,
+            "verification": "exacte",
+            "debut_verifie_s": 40.5
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "L'explication des frais de mise en service est claire et sans jargon.",
+        "preuves": [
+          {
+            "citation": "La seconde, ce sont 39 euros de frais de mise en service. Ces frais sont facturés une seule fois, uniquement sur la première facture des nouveaux clients.",
+            "debut_s": 66.8,
+            "verification": "exacte",
+            "debut_verifie_s": 66.76
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "non",
+        "justification": "Le conseiller n'a pas utilisé le nom du client au cours de l'échange.",
+        "preuves": []
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Aucune offre n'a été proposée, l'item ne s'applique pas.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 15,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 16,
+        "statut": "oui",
+        "justification": "Le conseiller effectue un récapitulatif, demande si le client a d'autres questions et prend congé poliment.",
+        "preuves": [
+          {
+            "citation": "Pour récapituler, les 39 euros sont des frais de mise en service unique et vos prochaines factures seront de 39,99 euros par mois. Avez-vous d 'autres questions ?",
+            "debut_s": 106.0,
+            "verification": "exacte",
+            "debut_verifie_s": 106.04
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [],
+    "coaching": {
+      "points_forts": [
+        "Excellente gestion de l'empathie et de l'émotion du client.",
+        "Explication très claire et pédagogique des frais de mise en service.",
+        "Respect strict de la procédure d'authentification."
+      ],
+      "axes_progres": [
+        "Absence de reformulation de la demande client.",
+        "Manque de personnalisation (nom du client non utilisé)."
+      ],
+      "conseil_principal": "Pour gagner en professionnalisme, n'oubliez pas de reformuler la demande du client avant de proposer une solution : par exemple, « Si je comprends bien, vous constatez un écart entre le montant prévu et votre facture, c'est bien cela ? ». Pensez également à personnaliser l'échange en utilisant le nom du client, comme « Monsieur Garnier »."
+    }
+  },
+  "calcul": {
+    "oui": 7,
+    "applicables": 9,
+    "note_pct": 78,
+    "niveau_note": "Conforme",
+    "niveau": "Conforme",
+    "eliminatoires": [],
+    "mises_en_garde": [],
+    "action": "Rien à signaler",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 13731,
+    "candidatesTokenCount": 1468,
+    "totalTokenCount": 19165,
+    "cachedContentTokenCount": 12275,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 13731
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12275
+      }
+    ],
+    "thoughtsTokenCount": 3966,
+    "serviceTier": "standard"
+  },
+  "combinaison": {
+    "passe1": "notations\\gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-passe1\\appel-02.json",
+    "passe2": "notations\\gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-passe2\\appel-02.json",
+    "eliminatoires_ajoutes_par_passe2": []
+  }
+}

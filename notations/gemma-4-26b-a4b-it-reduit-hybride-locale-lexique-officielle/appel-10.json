@@ -1,0 +1,207 @@
+{
+  "appel": "10",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T22:16:37",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "non",
+        "justification": "L'accroche est incomplète : absence de prénom, de nom, de fonction et de la mention obligatoire « je gère votre contrat ».",
+        "preuves": []
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "L'enregistrement est mentionné avant la découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 5.1,
+            "verification": "exacte",
+            "debut_verifie_s": 5.1
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "non",
+        "justification": "Le conseiller n'a pas vérifié que tout fonctionnait correctement avant de débuter la découverte.",
+        "preuves": []
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La découverte est incomplète : aucune question sur la télévision, les autres lignes ou les autres opérateurs.",
+        "preuves": []
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le conseiller a identifié l'usage de plateformes de streaming et de tablettes.",
+        "preuves": [
+          {
+            "citation": "Ils regardent surtout des dessins animés. Ils jouent une appli de streaming. Ils jouent à la tablette.",
+            "debut_s": 28.1,
+            "verification": "exacte",
+            "debut_verifie_s": 28.06
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "non",
+        "justification": "La proposition est sommaire et présentée comme un catalogue (prix seul), sans détails sur l'engagement, le premier mois offert ou l'activation.",
+        "preuves": [
+          {
+            "citation": "Il vous faut le pack horizon, 12 ,99 euros par mois. Je vous l 'actime ?",
+            "debut_s": 34.7,
+            "verification": "exacte",
+            "debut_verifie_s": 34.72
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "non",
+        "justification": "Le conseiller a fait preuve d'une pression excessive en insistant et en utilisant la culpabilisation après deux refus de la cliente.",
+        "preuves": [
+          {
+            "citation": "Attendez, vous ne savez même pas ce qu 'il y a dedans.",
+            "debut_s": 47.0,
+            "verification": "exacte",
+            "debut_verifie_s": 47.0
+          },
+          {
+            "citation": "Pensez au an vos enfants, quand même. Tous les parents le prennent, vous savez ?",
+            "debut_s": 60.2,
+            "verification": "approchée",
+            "debut_verifie_s": 60.2
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "non",
+        "justification": "Le conseiller n'appelle jamais la cliente par son nom.",
+        "preuves": []
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "non",
+        "justification": "Le conseiller n'a pas respecté le refus de la cliente en continuant l'insistance au lieu de s'excuser et de terminer l'appel.",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "non",
+        "justification": "La conclusion est expéditive et ne contient ni remerciement ni prise de congé soignée.",
+        "preuves": [
+          {
+            "citation": "Comme vous voulez.",
+            "debut_s": 66.9,
+            "verification": "exacte",
+            "debut_verifie_s": 66.9
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [
+      {
+        "regle": "[TVE-09]",
+        "ecart": "L'accroche ne contient pas la mention « je gère votre contrat ».",
+        "citation": "Allô, oui, bonjour, c 'est Kalyo Télécom.",
+        "debut_s": 1.3,
+        "verification": "exacte",
+        "debut_verifie_s": 1.32
+      },
+      {
+        "regle": "[TVE-09]",
+        "ecart": "Le conseiller n'a pas posé la question « est-ce que tout fonctionne correctement ? » avant la phase de découverte.",
+        "citation": "Vous avez des enfants ?",
+        "debut_s": 22.8,
+        "verification": "exacte",
+        "debut_verifie_s": 22.82
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "La mention de l'enregistrement de l'appel est faite correctement en début d'échange."
+      ],
+      "axes_progres": [
+        "L'accueil doit être complet (nom, fonction, gestion du contrat) pour instaurer la confiance.",
+        "La découverte doit être plus large pour identifier tous les besoins du foyer.",
+        "L'argumentation doit utiliser la méthode CAB pour être plus convaincante.",
+        "Il est impératif de respecter la règle des deux refus : après deux refus, il faut cesser toute insistance et s'excuser.",
+        "La conclusion doit toujours être polie et professionnelle."
+      ],
+      "conseil_principal": "Respectez la règle de l'arrêt après deux refus pour éviter la pression excessive. Si la cliente refuse deux fois, dites : « Je comprends tout à fait. Je ne souhaite pas vous déranger davantage. Je vous souhaite une excellente journée. »"
+    }
+  },
+  "calcul": {
+    "oui": 2,
+    "applicables": 10,
+    "note_pct": 20,
+    "niveau_note": "Insuffisant",
+    "niveau": "Insuffisant",
+    "eliminatoires": [],
+    "mises_en_garde": [
+      "insuffisant"
+    ],
+    "action": "Mise en garde",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 14475,
+    "candidatesTokenCount": 1412,
+    "totalTokenCount": 21002,
+    "cachedContentTokenCount": 14322,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14475
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14322
+      }
+    ],
+    "thoughtsTokenCount": 5115,
+    "serviceTier": "standard"
+  },
+  "combinaison": {
+    "passe1": "notations\\gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-passe1\\appel-10.json",
+    "passe2": "notations\\gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-passe2\\appel-10.json",
+    "eliminatoires_ajoutes_par_passe2": []
+  }
+}

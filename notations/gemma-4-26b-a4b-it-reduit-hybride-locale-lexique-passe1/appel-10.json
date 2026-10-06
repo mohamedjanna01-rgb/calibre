@@ -1,7 +1,7 @@
 {
   "appel": "10",
   "modele": "gemma-4-26b-a4b-it",
-  "date": "2026-10-06T14:09:43",
+  "date": "2026-10-06T22:16:37",
   "source_transcription": "hybride-locale-lexique",
   "referentiel": "réduit",
   "reponse_ia": {
@@ -9,20 +9,13 @@
       {
         "numero": 1,
         "statut": "non",
-        "justification": "La présentation est incomplète : le prénom, le nom et la fonction du conseiller ne sont pas mentionnés, et la phrase d'engagement sur la gestion du contrat est absente.",
-        "preuves": [
-          {
-            "citation": "Allô, oui, bonjour, c 'est Kalyo Télécom.",
-            "debut_s": 1.3,
-            "verification": "exacte",
-            "debut_verifie_s": 1.32
-          }
-        ]
+        "justification": "L'accroche est incomplète : absence de prénom, de nom, de fonction et de la mention obligatoire « je gère votre contrat ».",
+        "preuves": []
       },
       {
         "numero": 2,
         "statut": "oui",
-        "justification": "L'enregistrement est mentionné avant la phase de découverte.",
+        "justification": "L'enregistrement est mentionné avant la découverte.",
         "preuves": [
           {
             "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
@@ -35,32 +28,32 @@
       {
         "numero": 3,
         "statut": "non",
-        "justification": "Le conseiller n'a pas vérifié si tout fonctionnait correctement avant d'entamer la vente.",
+        "justification": "Le conseiller n'a pas vérifié que tout fonctionnait correctement avant de débuter la découverte.",
         "preuves": []
       },
       {
         "numero": 4,
         "statut": "non",
-        "justification": "La découverte est incomplète : elle ne couvre pas les lignes mobiles/téléphones ni les autres opérateurs.",
+        "justification": "La découverte est incomplète : aucune question sur la télévision, les autres lignes ou les autres opérateurs.",
         "preuves": []
       },
       {
         "numero": 5,
         "statut": "oui",
-        "justification": "Le conseiller a repéré l'usage du streaming et des tablettes pour proposer son offre.",
+        "justification": "Le conseiller a identifié l'usage de plateformes de streaming et de tablettes.",
         "preuves": [
           {
-            "citation": "Ah, les plateformes de streaming.",
-            "debut_s": 34.7,
+            "citation": "Ils regardent surtout des dessins animés. Ils jouent une appli de streaming. Ils jouent à la tablette.",
+            "debut_s": 28.1,
             "verification": "exacte",
-            "debut_verifie_s": 34.72
+            "debut_verifie_s": 28.06
           }
         ]
       },
       {
         "numero": 6,
         "statut": "non",
-        "justification": "La proposition est trop succincte et n'est pas présentée de manière détaillée selon la méthode CAB.",
+        "justification": "La proposition est sommaire et présentée comme un catalogue (prix seul), sans détails sur l'engagement, le premier mois offert ou l'activation.",
         "preuves": [
           {
             "citation": "Il vous faut le pack horizon, 12 ,99 euros par mois. Je vous l 'actime ?",
@@ -73,7 +66,7 @@
       {
         "numero": 7,
         "statut": "non",
-        "justification": "Le conseiller n'a pas utilisé la méthode AQRV, a exercé une pression excessive par la culpabilisation et n'a pas respecté la règle des deux refus.",
+        "justification": "Le conseiller a fait preuve d'une pression excessive en insistant et en utilisant la culpabilisation après deux refus de la cliente.",
         "preuves": [
           {
             "citation": "Attendez, vous ne savez même pas ce qu 'il y a dedans.",
@@ -82,9 +75,9 @@
             "debut_verifie_s": 47.0
           },
           {
-            "citation": "Pensez au moins à vos enfants, quand même. Tous les parents le prennent, vous savez ?",
+            "citation": "Pensez au an vos enfants, quand même. Tous les parents le prennent, vous savez ?",
             "debut_s": 60.2,
-            "verification": "exacte",
+            "verification": "approchée",
             "debut_verifie_s": 60.2
           }
         ]
@@ -92,38 +85,43 @@
       {
         "numero": 8,
         "statut": "non",
-        "justification": "Le conseiller n'a jamais appelé la cliente par son nom.",
+        "justification": "Le conseiller n'appelle jamais la cliente par son nom.",
         "preuves": []
       },
       {
         "numero": 9,
-        "statut": "non",
-        "justification": "Le tarif complet (premier mois offert, date de prélèvement, absence d'engagement, etc.) n'a pas été communiqué.",
+        "statut": "na",
+        "justification": "",
         "preuves": []
       },
       {
         "numero": 10,
-        "statut": "non",
-        "justification": "Les procédures et délais d'activation n'ont pas été annoncés.",
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "",
         "preuves": []
       },
       {
         "numero": 12,
         "statut": "non",
-        "justification": "Le conseiller a insisté lourdement après le refus de la cliente au lieu de s'excuser et de mettre fin à la proposition.",
-        "preuves": [
-          {
-            "citation": "Attendez, vous ne savez même pas ce qu 'il y a dedans.",
-            "debut_s": 47.0,
-            "verification": "exacte",
-            "debut_verifie_s": 47.0
-          }
-        ]
+        "justification": "Le conseiller n'a pas respecté le refus de la cliente en continuant l'insistance au lieu de s'excuser et de terminer l'appel.",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
       },
       {
         "numero": 14,
         "statut": "non",
-        "justification": "La conclusion est absente (pas de remerciements ni de prise de congé soignée).",
+        "justification": "La conclusion est expéditive et ne contient ni remerciement ni prise de congé soignée.",
         "preuves": [
           {
             "citation": "Comme vous voulez.",
@@ -135,74 +133,70 @@
       }
     ],
     "eliminatoires": [],
-    "fautes_mise_en_garde": [
-      {
-        "type": "panne_ignoree",
-        "citation": "L'appel est au niveau Insuffisant (16 %)",
-        "debut_s": 0,
-        "verification": "introuvable",
-        "debut_verifie_s": null
-      }
-    ],
+    "fautes_mise_en_garde": [],
     "remarques_conformite": [
       {
         "regle": "[TVE-09]",
-        "ecart": "L'accroche ne respecte pas le script obligatoire (prénom, nom, fonction, mention de la gestion du contrat).",
+        "ecart": "L'accroche ne contient pas la mention « je gère votre contrat ».",
         "citation": "Allô, oui, bonjour, c 'est Kalyo Télécom.",
         "debut_s": 1.3,
         "verification": "exacte",
         "debut_verifie_s": 1.32
+      },
+      {
+        "regle": "[TVE-09]",
+        "ecart": "Le conseiller n'a pas posé la question « est-ce que tout fonctionne correctement ? » avant la phase de découverte.",
+        "citation": "Vous avez des enfants ?",
+        "debut_s": 22.8,
+        "verification": "exacte",
+        "debut_verifie_s": 22.82
       }
     ],
     "coaching": {
       "points_forts": [
-        "La mention de l'enregistrement est bien effectuée en début d'appel."
+        "La mention de l'enregistrement de l'appel est faite correctement en début d'échange."
       ],
       "axes_progres": [
-        "Respecter le script d'accueil (identité et fonction).",
-        "Réaliser une découverte complète (mobiles, autres opérateurs).",
-        "Appliquer la méthode AQRV lors des objections.",
-        "Respecter impérativement la règle des deux refus pour ne pas être perçu comme agressif.",
-        "Éviter toute forme de culpabilisation du client."
+        "L'accueil doit être complet (nom, fonction, gestion du contrat) pour instaurer la confiance.",
+        "La découverte doit être plus large pour identifier tous les besoins du foyer.",
+        "L'argumentation doit utiliser la méthode CAB pour être plus convaincante.",
+        "Il est impératif de respecter la règle des deux refus : après deux refus, il faut cesser toute insistance et s'excuser.",
+        "La conclusion doit toujours être polie et professionnelle."
       ],
-      "conseil_principal": "Vous avez été trop insistant face au refus de la cliente. Pour éviter de créer un malaise, appliquez la règle des deux refus : après le deuxième 'non', remerciez la cliente et terminez l'appel poliment. Ne dites jamais : « Pensez au moins à vos enfants, quand même. »"
+      "conseil_principal": "Respectez la règle de l'arrêt après deux refus pour éviter la pression excessive. Si la cliente refuse deux fois, dites : « Je comprends tout à fait. Je ne souhaite pas vous déranger davantage. Je vous souhaite une excellente journée. »"
     }
   },
   "calcul": {
     "oui": 2,
-    "applicables": 12,
-    "note_pct": 17,
+    "applicables": 10,
+    "note_pct": 20,
     "niveau_note": "Insuffisant",
     "niveau": "Insuffisant",
     "eliminatoires": [],
     "mises_en_garde": [
-      "insuffisant",
-      "panne_ignoree"
+      "insuffisant"
     ],
     "action": "Mise en garde",
-    "anomalies": [
-      "items attendus [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], reçus [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14]",
-      "citation introuvable dans la transcription : « L'appel est au niveau Insuffisant (16 %) »"
-    ]
+    "anomalies": []
   },
   "usage": {
-    "promptTokenCount": 14402,
-    "candidatesTokenCount": 1440,
-    "totalTokenCount": 20310,
-    "cachedContentTokenCount": 8184,
+    "promptTokenCount": 14475,
+    "candidatesTokenCount": 1412,
+    "totalTokenCount": 21002,
+    "cachedContentTokenCount": 14322,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 14402
+        "tokenCount": 14475
       }
     ],
     "cacheTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 8184
+        "tokenCount": 14322
       }
     ],
-    "thoughtsTokenCount": 4468,
+    "thoughtsTokenCount": 5115,
     "serviceTier": "standard"
   }
 }

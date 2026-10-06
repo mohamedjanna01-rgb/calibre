@@ -2,7 +2,7 @@
 
 **Appel entrant** · Grille 1 – Service client (16 items)
 
-**Note : 10 / 13 = 77 %** · **Niveau : Conforme** · **Action proposée : Mise en garde**
+**Note : 10 / 12 = 83 %** · **Niveau : Conforme** · **Action proposée : Mise en garde**
 
 > Calibre recommande, le qualiticien décide.
 
@@ -10,22 +10,22 @@
 
 | N° | Item | Note | Justification | Preuves |
 |---|---|---|---|---|
-| 1 | Accueil | OUI | Le conseiller s'est présenté et a identifié le client. | [00:03.0] « Je m 'appelle Karine Tazi, je suis votre conseiller clientèle, et je vais m 'occuper de votre demande. »<br>[00:14.6] « Merci Monsieur Petit. » |
-| 2 | Mention de l'enregistrement de l'appel, avant la découverte | OUI | La mention de l'enregistrement est faite avant la découverte du besoin. | [00:03.0] « Je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité. » |
-| 3 | Écoute active | OUI | Le conseiller n'a pas interrompu le client. |  |
-| 4 | Analyse du besoin | OUI | Le conseiller a compris la raison de l'appel (déménagement). | [00:30.4] « Je voudrais résilier ma boxe. Je déménage chez ma compagne le mois prochain et elle a déjà internet. » |
-| 5 | Réassurance et reformulation de ce qu'a dit le client, avec sa validation | OUI | Le conseiller a reformulé la demande du client. | [00:35.6] « Si je comprends bien [inaudible] Petit, vous quittez votre logement le mois prochain et vous n 'aurez plus besoin de votre boxe. C 'est bien ça ? » |
-| 6 | Ton calme et souriant, gestion des émotions (jamais « calmez-vous », jamais de défausse sur un collègue) | OUI | Le conseiller a fait preuve d'empathie envers le client. | [00:35.6] « Félicitations pour votre emménagement. » |
-| 7 | Explication claire de la situation et de la solution, sans jargon technique | NON | L'explication fournie est une excuse pour ne pas traiter la demande, ce qui constitue une explication fausse. | [00:55.6] « Alors, pour une résiliation, le service concerné n 'est pas disponible aujourd 'hui. » |
-| 8 | Personnalisation | OUI | Le client est appelé par son nom. | [00:14.6] « Merci Monsieur Petit. » |
-| 9 | Résiliation | NON | La demande de résiliation a été retardée en demandant au client de rappeler plus tard. | [01:02.3] « Le plus simple c 'est de nous rappeler la semaine prochaine. » |
-| 10 | Rétention | OUI | Une tentative de rétention a été faite en proposant le transfert de l'offre. | [00:44.7] « Nous pourrions peut -être transférer votre boxe à votre nouvelle adresse avec un débit plus rapide. » |
-| 11 | Engagements autorisés uniquement | – | Aucun geste ou promesse n'a été fait. |  |
-| 12 | Détection et saisie de l'opportunité | – | Aucune opportunité n'a pu être saisie car le problème n'a pas été résolu. |  |
-| 13 | Traitement des objections | OUI | Le conseiller a traité le refus et s'est arrêté après une seule objection. | [00:55.6] « Très bien, je comprends. » |
-| 14 | Escalade et transfert | NON | Le conseiller n'a pas orienté le client vers le service compétent ni effectué de transfert. | [01:08.2] « Malheureusement non, ce n 'est pas moi qui gère les résiliations. » |
-| 15 | Sécurisation de la vente | – | Pas de vente. |  |
-| 16 | Conclusion | OUI | La conclusion comporte un récapitulatif, une question et des remerciements. | [01:18.0] « Pour récapituler, vous nous rappelez la semaine prochaine pour la résiliation. Avez-vous d 'autres questions [inaudible] Petit ? » |
+| 1 | Accueil | OUI | Présentation complète (prénom, nom, fonction) et identification du client effectuée. | [00:03.0] « Je m 'appelle Karine Tazi, je suis votre conseiller clientèle et je vais m 'occuper de votre demande. »<br>[00:14.6] « Pour sécuriser votre dossier, pouvez -vous me donner votre numéro de ligne, votre code postal et votre date de naissance » |
+| 2 | Mention de l'enregistrement de l'appel, avant la découverte | OUI | L'enregistrement est mentionné avant la phase de découverte. | [00:03.0] « Je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité. » |
+| 3 | Écoute active | OUI | La conseillère ne coupe pas la parole au client. |  |
+| 4 | Analyse du besoin | OUI | La conseillère pose une question pertinente sur l'opérateur de la compagne pour identifier une opportunité. | [00:44.7] « Avant tout, puis -je vous demander chez quel opérateur est votre compagne ? » |
+| 5 | Réassurance et reformulation de ce qu'a dit le client, avec sa validation | OUI | La demande de départ est reformulée pour validation. | [00:35.6] « Si je comprends bien [inaudible] Petit, vous quittez votre logement le mois prochain et vous n 'aurez plus besoin de votre boxe. C 'est bien ça ? » |
+| 6 | Ton calme et souriant, gestion des émotions (jamais « calmez-vous », jamais de défausse sur un collègue) | OUI | Le ton est empathique et chaleureux. | [00:35.6] « Je comprends. Félicitations pour votre emménagement. » |
+| 7 | Explication claire de la situation et de la solution, sans jargon technique | OUI | La situation concernant l'indisponibilité du service est expliquée. | [00:55.6] « Alors, pour une résiliation, le service concerné n 'est pas disponible aujourd 'hui. » |
+| 8 | Personnalisation | OUI | Le client est appelé par son nom durant l'échange. | [00:14.6] « Merci Monsieur Petit. » |
+| 9 | Résiliation | NON | La demande de résiliation est retardée en demandant au client de rappeler la semaine suivante. | [01:02.3] « Le plus simple c 'est de nous rappeler la semaine prochaine. » |
+| 10 | Rétention | OUI | Une tentative de rétention via un transfert d'adresse est proposée. | [00:44.7] « Nous pourrions peut -être transférer votre boxe à votre nouvelle adresse avec un débit plus rapide. » |
+| 11 | Engagements autorisés uniquement | – |  |  |
+| 12 | Détection et saisie de l'opportunité | – |  |  |
+| 13 | Traitement des objections | – | Le refus de l'offre de rétention est traité dans l'item 10. |  |
+| 14 | Escalade et transfert | NON | Aucune proposition d'escalade ou de transfert vers le service compétent n'est faite. | [01:08.2] « Malheureusement non, ce n 'est pas moi qui gère les résiliations. » |
+| 15 | Sécurisation de la vente | – |  |  |
+| 16 | Conclusion | OUI | La conclusion inclut un récapitulatif, une question et une prise de congé polie. | [01:18.0] « Pour récapituler, vous nous rappelez la semaine prochaine pour la résiliation. Avez -vous d 'autres questions [inaudible] Petit ? » |
 
 ## Éliminatoires
 
@@ -37,20 +37,19 @@ Aucun.
 
 ## Remarques de conformité (sans effet sur la note)
 
-- **[APPEL-10]** : Le conseiller se défausse sur un autre service au lieu de prendre en charge la demande. — [01:08.2] « Malheureusement non, ce n 'est pas moi qui gère les résiliations. »
+- **[APPEL-10]** : Utilisation d'une expression à éviter qui décharge le conseiller de sa responsabilité. — [01:08.2] « Malheureusement non, ce n 'est pas moi qui gère les résiliations. »
 
 ## Coaching
 
 **Points forts**
 
-- Accueil et identification conformes.
-- Bonne personnalisation du client.
-- Tentative de rétention pertinente via le transfert d'adresse.
+- Accueil et présentation très professionnels.
+- Bonne utilisation de la personnalisation et de l'empathie.
+- Tentative de rétention pertinente (transfert d'adresse).
 
 **Axes de progrès**
 
-- Ne pas donner de fausses explications (dire que le service est indisponible) pour éviter une tâche.
-- Ne pas retarder une demande de résiliation en demandant au client de rappeler.
-- Éviter de se défausser sur un autre service ; il faut orienter ou transférer.
+- Gestion des demandes de résiliation : ne jamais demander au client de rappeler, mais proposer une escalade ou un transfert de demande.
+- Posture : éviter les formulations qui ferment la porte à l'aide (ex: 'ce n'est pas moi qui gère').
 
-**Conseil principal :** Face à une demande de résiliation, ne dites pas que le service est indisponible ou que ce n'est pas votre rôle. Si vous n'avez pas la main, transférez l'appel ou orientez précisément le client vers la procédure correcte au lieu de lui demander de rappeler plus tard.
+**Conseil principal :** Face à une demande de résiliation, ne rejetez pas la responsabilité sur un autre service. Dites plutôt : 'Je vais immédiatement transmettre votre demande au service compétent pour qu'ils puissent traiter votre résiliation, ils reviendront vers vous.'

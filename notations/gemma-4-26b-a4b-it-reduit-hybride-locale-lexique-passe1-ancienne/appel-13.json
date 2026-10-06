@@ -1,0 +1,248 @@
+{
+  "appel": "13",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T14:56:33",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète et vérification de l'identité effectuée.",
+        "preuves": [
+          {
+            "citation": "Anas Lalou, conseiller chez Kalyo Télécom, et c'est moi qui m'occupe de votre contrat Box Internet.",
+            "debut_s": 7.0,
+            "verification": "approchée",
+            "debut_verifie_s": 7.02
+          },
+          {
+            "citation": "Pour sécuriser notre échange, pouvez-vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?",
+            "debut_s": 31.5,
+            "verification": "exacte",
+            "debut_verifie_s": 31.48
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "La mention de l'enregistrement est faite avant la découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d'être enregistré pour des raisons de qualité.",
+            "debut_s": 7.0,
+            "verification": "exacte",
+            "debut_verifie_s": 7.02
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller vérifie le bon fonctionnement avant de proposer l'offre.",
+        "preuves": [
+          {
+            "citation": "Avant tout, tout se passe bien avec votre Box et votre télévision ?",
+            "debut_s": 23.8,
+            "verification": "exacte",
+            "debut_verifie_s": 23.8
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La découverte est incomplète : le conseiller n'a pas interrogé le client sur ses téléphones, ses lignes chez d'autres opérateurs, ses tablettes ou ses usages de streaming.",
+        "preuves": []
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le besoin est repéré grâce à l'expression du client sur son habitude de zapper.",
+        "preuves": [
+          {
+            "citation": "Des films, des séries policières. Mais honnêtement, le soir, je zappe beaucoup sans trouver grand-chose.",
+            "debut_s": 52.4,
+            "verification": "exacte",
+            "debut_verifie_s": 52.38
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "L'offre est liée au besoin de regarder des films et séries sans chercher longtemps.",
+        "preuves": [
+          {
+            "citation": "Horizon Cinéma, Horizon Série, Horizon Polar et plus de 2000 films et séries à la demande. Vous choisissez votre soirée au lieu de taper.",
+            "debut_s": 66.9,
+            "verification": "exacte",
+            "debut_verifie_s": 66.88
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le client est appelé par son nom.",
+        "preuves": [
+          {
+            "citation": "Merci, Monsieur Rousseau.",
+            "debut_s": 47.9,
+            "verification": "exacte",
+            "debut_verifie_s": 47.86
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "oui",
+        "justification": "Le récapitulatif tarifaire est complet (promo, prix, sans engagement, date de prélèvement).",
+        "preuves": [
+          {
+            "citation": "Le pack Horizon, premier mois offert, puis 12,99 euros par mois, avec un premier prélèvement le 8 décembre. Sans engagement, résiliable à tout moment avec effet à la fin du mois. Droit de rétractation de 14 jours, activation en 2 heures maximum.",
+            "debut_s": 93.5,
+            "verification": "exacte",
+            "debut_verifie_s": 93.54
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "statut": "oui",
+        "justification": "Le délai d'activation est précisé.",
+        "preuves": [
+          {
+            "citation": "activation en 2 heures maximum.",
+            "debut_s": 93.5,
+            "verification": "exacte",
+            "debut_verifie_s": 93.54
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "statut": "oui",
+        "justification": "Le processus de sécurisation par e-mail, signature et code SMS est respecté.",
+        "preuves": [
+          {
+            "citation": "Vous allez recevoir un code par SMS. Saisissez-le vous-même dans l'e-mail et ne le communiquez à personne.",
+            "debut_s": 185.9,
+            "verification": "exacte",
+            "debut_verifie_s": 185.9
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "oui",
+        "justification": "La conclusion est soignée avec question de clôture et remerciement.",
+        "preuves": [
+          {
+            "citation": "Avez-vous d'autres questions, monsieur Rousseau ?",
+            "debut_s": 200.8,
+            "verification": "exacte",
+            "debut_verifie_s": 200.8
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [
+      {
+        "numero": 1,
+        "motif": "Demander des données bancaires ou sensibles (numéro de carte, date d'expiration, cryptogramme)",
+        "citation": "Les 16 chiffres au recto. [...] La date d'expération ? [...] Et les trois chiffres au dos ?",
+        "debut_s": 146.3,
+        "verification": "introuvable",
+        "debut_verifie_s": null
+      },
+      {
+        "numero": 2,
+        "motif": "Mentir ou faire une fausse promesse sur les conditions ou le délai (activation liée à la carte)",
+        "citation": "Mais le pack est un service à part. Il doit être rattaché à une carte, sinon l'activation peut prendre plusieurs jours.",
+        "debut_s": 130.3,
+        "verification": "exacte",
+        "debut_verifie_s": 130.28
+      }
+    ],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [
+      {
+        "regle": "[TVE-15]",
+        "ecart": "Le conseiller affirme que le pack est un service à part rattaché à une carte, alors qu'il doit être ajouté à la facture de la box.",
+        "citation": "Mais le pack est un service à part. Il doit être rattaché à une carte",
+        "debut_s": 130.3,
+        "verification": "exacte",
+        "debut_verifie_s": 130.28
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Excellente gestion de l'accueil et de l'identification.",
+        "Récapitulatif de vente très clair et complet.",
+        "Respect parfait de la procédure de signature électronique et de sécurité du code SMS."
+      ],
+      "axes_progres": [
+        "La découverte doit être systématiquement complète (mobiles, tablettes, streaming) pour ne pas rater d'opportunités.",
+        "Respect strict de l'interdiction de demander des coordonnées bancaires par téléphone."
+      ],
+      "conseil_principal": "Ne demandez jamais de coordonnées bancaires par téléphone. Le paiement du Pack Horizon est automatiquement ajouté à la facture de la Box déjà existante, ce qui sécurise l'échange et respecte nos procédures."
+    }
+  },
+  "calcul": {
+    "oui": 10,
+    "applicables": 11,
+    "note_pct": 91,
+    "niveau_note": "Excellent",
+    "niveau": "Non conforme",
+    "eliminatoires": [
+      1,
+      2
+    ],
+    "mises_en_garde": [],
+    "action": "Avertissement",
+    "anomalies": [
+      "citation introuvable dans la transcription : « Les 16 chiffres au recto. [...] La date d'expération ? [...] Et les trois chiffr »"
+    ]
+  },
+  "usage": {
+    "promptTokenCount": 15014,
+    "candidatesTokenCount": 1763,
+    "totalTokenCount": 23222,
+    "cachedContentTokenCount": 12276,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 15014
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12276
+      }
+    ],
+    "thoughtsTokenCount": 6445,
+    "serviceTier": "standard"
+  }
+}

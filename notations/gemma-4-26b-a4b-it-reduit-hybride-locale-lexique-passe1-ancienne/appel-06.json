@@ -1,0 +1,277 @@
+{
+  "appel": "06",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T14:39:14",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Le conseiller s'est présenté avec son nom et sa fonction, a pris en charge la demande et a vérifié l'identité.",
+        "preuves": [
+          {
+            "citation": "Je m 'appelle Mehdi Alaoui, je suis votre conseiller clientèle et je vais prendre en charge votre demande.",
+            "debut_s": 4.4,
+            "verification": "exacte",
+            "debut_verifie_s": 4.4
+          },
+          {
+            "citation": "Pour sécuriser votre dossier, pouvez -vous me donner votre numéro de ligne, votre code postal et votre date de naissance ?",
+            "debut_s": 17.9,
+            "verification": "exacte",
+            "debut_verifie_s": 17.94
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "La mention de l'enregistrement est faite avant la phase de découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 4.4,
+            "verification": "exacte",
+            "debut_verifie_s": 4.4
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller a laissé la cliente exprimer son besoin sans l'interrompre.",
+        "preuves": []
+      },
+      {
+        "numero": 4,
+        "statut": "oui",
+        "justification": "Le conseiller a analysé le dossier pour identifier le reste du financement du smartphone.",
+        "preuves": [
+          {
+            "citation": "De mon côté, je vois que vous payez votre smartphone en 24 mensualités et qu 'il vous en reste 14.",
+            "debut_s": 52.3,
+            "verification": "exacte",
+            "debut_verifie_s": 52.32
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "non",
+        "justification": "Si le conseiller a fait preuve d'empathie, il n'a effectué aucune reformulation de la demande de la cliente.",
+        "preuves": []
+      },
+      {
+        "numero": 6,
+        "statut": "non",
+        "justification": "Le ton est expéditif et méprisant envers la demande de transfert au responsable.",
+        "preuves": [
+          {
+            "citation": "Mon responsable vous le dira à la même chose, Madame Benoît.",
+            "debut_s": 91.0,
+            "verification": "exacte",
+            "debut_verifie_s": 91.0
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "non",
+        "justification": "L'explication est fausse : le client peut résilier même en cours de financement (le solde devient alors exigible).",
+        "preuves": [
+          {
+            "citation": "Alors, malheureusement vous ne pouvez pas résilier votre ligne tant que votre téléphone n 'est pas entièrement payé.",
+            "debut_s": 65.7,
+            "verification": "exacte",
+            "debut_verifie_s": 65.74
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le conseiller utilise le nom de la cliente durant l'échange.",
+        "preuves": [
+          {
+            "citation": "Merci Madame Benoît.",
+            "debut_s": 17.9,
+            "verification": "exacte",
+            "debut_verifie_s": 17.94
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "non",
+        "justification": "La résiliation a été refusée par le conseiller.",
+        "preuves": [
+          {
+            "citation": "Je ne peux pas enregistrer votre résiliation aujourd 'hui.",
+            "debut_s": 79.7,
+            "verification": "exacte",
+            "debut_verifie_s": 79.68
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "statut": "non",
+        "justification": "La tentative de rétention n'a pas suivi la bonne procédure (ajout forcé d'une option sans accord au lieu d'une offre adaptée).",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "non",
+        "justification": "Le conseiller a fait une promesse de geste commercial (premier mois offert) sans l'accord de la cliente.",
+        "preuves": [
+          {
+            "citation": "Pour vous remercier de votre fidélité, je vous active le pack Horizon. 35 chaînes de films et de séries et le premier mois est offert.",
+            "debut_s": 91.0,
+            "verification": "exacte",
+            "debut_verifie_s": 91.0
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "non",
+        "justification": "Le conseiller a refusé de passer un responsable alors que la cliente l'avait explicitement demandé.",
+        "preuves": [
+          {
+            "citation": "Mon responsable vous le dira à la même chose, Madame Benoît.",
+            "debut_s": 91.0,
+            "verification": "exacte",
+            "debut_verifie_s": 91.0
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 16,
+        "statut": "oui",
+        "justification": "La prise de congé est correcte.",
+        "preuves": [
+          {
+            "citation": "Très bien. Merci pour votre appel, Madame Benoît. Bonne journée.",
+            "debut_s": 118.3,
+            "verification": "exacte",
+            "debut_verifie_s": 118.3
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [
+      {
+        "numero": 2,
+        "motif": "Mentir ou faire une fausse promesse sur les conditions contractuelles",
+        "citation": "Alors, malheureusement vous ne pouvez pas résilier votre ligne tant que votre téléphone n 'est pas entièrement payé.",
+        "debut_s": 65.7,
+        "verification": "exacte",
+        "debut_verifie_s": 65.74
+      },
+      {
+        "numero": 3,
+        "motif": "Valider une souscription sans l'accord clair du client (vente forcée)",
+        "citation": "Voilà, c 'est activé.",
+        "debut_s": 108.9,
+        "verification": "exacte",
+        "debut_verifie_s": 108.92
+      }
+    ],
+    "fautes_mise_en_garde": [
+      {
+        "type": "resiliation_refusee",
+        "citation": "Je ne peux pas enregistrer votre résiliation aujourd 'hui.",
+        "debut_s": 79.7,
+        "verification": "exacte",
+        "debut_verifie_s": 79.68
+      },
+      {
+        "type": "resiliation_retardee",
+        "citation": "Il faudra attendre la fin du financement.",
+        "debut_s": 65.7,
+        "verification": "exacte",
+        "debut_verifie_s": 65.74
+      }
+    ],
+    "remarques_conformite": [
+      {
+        "regle": "[APPEL-12]",
+        "ecart": "Le conseiller critique la compétence du responsable pour clore le débat.",
+        "citation": "Mon responsable vous le dira à la même chose, Madame Benoît.",
+        "debut_s": 91.0,
+        "verification": "exacte",
+        "debut_verifie_s": 91.0
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Excellente application de la procédure d'identification et d'authentification au début de l'appel."
+      ],
+      "axes_progres": [
+        "Exactitude des informations contractuelles (distinction entre résiliation et solde de financement)",
+        "Respect de la procédure de demande d'escalade (transfert au responsable)",
+        "Posture professionnelle (ne pas décrédibiliser la hiérarchie)",
+        "Obtention d'un accord explicite avant toute modification de contrat (activation d'option)"
+      ],
+      "conseil_principal": "Face à une demande de résiliation, restez factuel sur les conditions : précisez que la résiliation est possible immédiatement mais que le solde restant du matériel sera facturé. Si la cliente demande un responsable, effectuez le transfert sans commenter."
+    }
+  },
+  "calcul": {
+    "oui": 6,
+    "applicables": 13,
+    "note_pct": 46,
+    "niveau_note": "Insuffisant",
+    "niveau": "Non conforme",
+    "eliminatoires": [
+      2,
+      3
+    ],
+    "mises_en_garde": [
+      "insuffisant",
+      "resiliation_refusee",
+      "resiliation_retardee"
+    ],
+    "action": "Avertissement",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 13445,
+    "candidatesTokenCount": 1908,
+    "totalTokenCount": 21782,
+    "cachedContentTokenCount": 12275,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 13445
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12275
+      }
+    ],
+    "thoughtsTokenCount": 6429,
+    "serviceTier": "standard"
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "appel": "07",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T22:01:37",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète du conseiller et de l'entreprise, mention de la gestion du contrat et vérification de l'identité.",
+        "preuves": [
+          {
+            "citation": "Samir El Idrissi, conseiller chez Kalyo Télécom, votre opérateur. C 'est moi qui m 'occupe de votre contract box Internet.",
+            "debut_s": 6.3,
+            "verification": "approchée",
+            "debut_verifie_s": 6.32
+          },
+          {
+            "citation": "Pour sécuriser notre échange, pouvez -vous me confirmer votre nom et prénom, votre code postal et votre date de naissance?",
+            "debut_s": 35.0,
+            "verification": "exacte",
+            "debut_verifie_s": 34.98
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "La mention de l'enregistrement est faite avant la phase de découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 12.2,
+            "verification": "exacte",
+            "debut_verifie_s": 12.18
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller a vérifié le bon fonctionnement de l'équipement avant de proposer l'offre.",
+        "preuves": [
+          {
+            "citation": "Tout fonctionne bien avec votre box et votre télévision?",
+            "debut_s": 24.9,
+            "verification": "exacte",
+            "debut_verifie_s": 24.86
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "oui",
+        "justification": "La découverte a couvert le foyer, la télévision, les usages (tablette/streaming) et les lignes mobiles.",
+        "preuves": [
+          {
+            "citation": "Combien êtes -vous à la maison?",
+            "debut_s": 50.0,
+            "verification": "exacte",
+            "debut_verifie_s": 49.98
+          },
+          {
+            "citation": "Et vous arrive -t -il de regarder sur tablette ou sur téléphone?",
+            "debut_s": 80.1,
+            "verification": "exacte",
+            "debut_verifie_s": 80.12
+          },
+          {
+            "citation": "Et pour vos téléphones portables, vous êtes chez nous ou chez un autre opérateur?",
+            "debut_s": 91.8,
+            "verification": "exacte",
+            "debut_verifie_s": 91.78
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le besoin d'un contenu adapté aux enfants et de flexibilité horaire a été repéré.",
+        "preuves": [
+          {
+            "citation": "Avec tout ce que vous dites, Monsieur Durand, j 'ai quelque chose qui correspond vraiment à votre famille.",
+            "debut_s": 102.1,
+            "verification": "exacte",
+            "debut_verifie_s": 102.12
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "La proposition est personnalisée (enfants, horaires tardifs, usage multi-écrans) et dynamique.",
+        "preuves": [
+          {
+            "citation": "Des programmes adaptés à l 'âge de chacun de vos enfants.",
+            "debut_s": 128.0,
+            "verification": "exacte",
+            "debut_verifie_s": 102.12
+          },
+          {
+            "citation": "Les enfants regardent leur dessin et sur la tablette pendant que vous profitez de votre film sur la télévision. Fini les disputes pour la télécommande.",
+            "debut_s": 130.2,
+            "verification": "exacte",
+            "debut_verifie_s": 130.24
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "Les deux objections (streaming déjà présent et prix) ont été traitées avec un seul rebond chacune.",
+        "preuves": [
+          {
+            "citation": "La différence, c 'est que le pack Horizon ajoute des chaînes en direct et un catalogue différent.",
+            "debut_s": 159.2,
+            "verification": "exacte",
+            "debut_verifie_s": 159.24
+          },
+          {
+            "citation": "Le pack Horizon est à 12 ,99 euros par mois, soit environ 43 centimes par jour.",
+            "debut_s": 184.1,
+            "verification": "exacte",
+            "debut_verifie_s": 184.1
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le conseiller appelle le client par son nom tout au long de l'échange.",
+        "preuves": [
+          {
+            "citation": "Merci, Monsieur Durand.",
+            "debut_s": 50.0,
+            "verification": "exacte",
+            "debut_verifie_s": 49.98
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "oui",
+        "justification": "Le récapitulatif tarifaire est complet (prix, promo, sans engagement, date de prélèvement).",
+        "preuves": [
+          {
+            "citation": "Le [inaudible] le premier mois est offert, puis 12 ,99 euros par mois. Le premier prélèvement des 12 ,99 euros aura lieu le 8 décembre. Il est sans engagement.",
+            "debut_s": 217.0,
+            "verification": "exacte",
+            "debut_verifie_s": 217.0
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "statut": "oui",
+        "justification": "Le délai d'activation est précisé.",
+        "preuves": [
+          {
+            "citation": "Il sera activé dans un délai de deux heures maximum",
+            "debut_s": 217.0,
+            "verification": "exacte",
+            "debut_verifie_s": 217.0
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "statut": "oui",
+        "justification": "Consentement explicite obtenu, e-mail envoyé, signature réalisée par le client et consignes de sécurité sur le code SMS respectées.",
+        "preuves": [
+          {
+            "citation": "Confirmez -vous, sous -crivez au pack [inaudible] aux conditions que je viens de vous inviter ?",
+            "debut_s": 247.0,
+            "verification": "exacte",
+            "debut_verifie_s": 217.0
+          },
+          {
+            "citation": "Et surtout, n 'oubliez pas, ni à moi, ni à personne. Un conseiller Kalyo ne vous le demandera jamais.",
+            "debut_s": 288.3,
+            "verification": "exacte",
+            "debut_verifie_s": 288.34
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "oui",
+        "justification": "La conclusion est soignée avec questions, remerciements et prise de congé.",
+        "preuves": [
+          {
+            "citation": "Avez -vous des questions, M. Durand ?",
+            "debut_s": 307.9,
+            "verification": "exacte",
+            "debut_verifie_s": 307.92
+          },
+          {
+            "citation": "Merci beaucoup pour votre confiance, et pour votre temps. Je souhaite à toute la famille de très bonnes soirées. Excellent fin de journée, M. Durand. Au revoir.",
+            "debut_s": 321.2,
+            "verification": "exacte",
+            "debut_verifie_s": 321.24
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [],
+    "coaching": {
+      "points_forts": [
+        "Excellente phase de découverte et de personnalisation de l'argumentaire.",
+        "Très bonne gestion des objections sur le prix et la concurrence.",
+        "Sécurisation de la vente irréprochable (consignes sur le code SMS)."
+      ],
+      "axes_progres": [
+        "Détection d'opportunités complémentaires (Avantage Foyer)."
+      ],
+      "conseil_principal": "Vous avez très bien identifié les besoins de la famille, mais n'oubliez pas de regarder l'ensemble du dossier : le client a mentionné avoir deux lignes chez un autre opérateur, ce qui était l'occasion parfaite pour lui proposer l'Avantage Foyer."
+    }
+  },
+  "calcul": {
+    "oui": 12,
+    "applicables": 12,
+    "note_pct": 100,
+    "niveau_note": "Excellent",
+    "niveau": "Excellent",
+    "eliminatoires": [],
+    "mises_en_garde": [],
+    "action": "Valorisation",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 15712,
+    "candidatesTokenCount": 1872,
+    "totalTokenCount": 23098,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 15712
+      }
+    ],
+    "thoughtsTokenCount": 5514,
+    "serviceTier": "standard"
+  },
+  "combinaison": {
+    "passe1": "notations\\gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-passe1\\appel-07.json",
+    "passe2": "notations\\gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-passe2\\appel-07.json",
+    "eliminatoires_ajoutes_par_passe2": []
+  }
+}

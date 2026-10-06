@@ -1,7 +1,7 @@
 {
   "appel": "07",
   "modele": "gemma-4-26b-a4b-it",
-  "date": "2026-10-06T15:38:25",
+  "date": "2026-10-06T23:46:42",
   "source_transcription": "hybride-locale-lexique",
   "referentiel": "réduit",
   "reponse_ia": {
@@ -9,16 +9,22 @@
       {
         "numero": 1,
         "statut": "oui",
-        "justification": "L'agent s'est présenté avec son prénom, nom, entreprise, fonction et a précisé qu'il gérait le contrat. L'identité a été vérifiée.",
+        "justification": "Présentation complète de l'agent, mention du contrat géré, du motif de l'appel et vérification de l'identité.",
         "preuves": [
           {
-            "citation": "Samir El Idrissi, conseiller chez Kalyo Télécom, votre opérateur. [...] C 'est moi qui m 'occupe de votre contract box Internet.",
+            "citation": "Samir El Idrissi, conseiller chez Kalyo Télécom, votre opérateur.",
             "debut_s": 6.3,
-            "verification": "approchée",
+            "verification": "exacte",
             "debut_verifie_s": 6.32
           },
           {
-            "citation": "pouvez -vous me confirmer votre nom et prénom, votre code postal et votre date de naissance?",
+            "citation": "C 'est moi qui m 'occupe de votre contract box Internet. Et je vous contacte pour faire un point rapide sur votre abonnement.",
+            "debut_s": 12.2,
+            "verification": "exacte",
+            "debut_verifie_s": 12.18
+          },
+          {
+            "citation": "Pour sécuriser notre échange, pouvez -vous me confirmer votre nom et prénom, votre code postal et votre date de naissance?",
             "debut_s": 35.0,
             "verification": "exacte",
             "debut_verifie_s": 34.98
@@ -28,7 +34,7 @@
       {
         "numero": 2,
         "statut": "oui",
-        "justification": "La mention de l'enregistrement a été faite avant la phase de découverte.",
+        "justification": "L'enregistrement est mentionné avant la phase de découverte.",
         "preuves": [
           {
             "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
@@ -41,7 +47,7 @@
       {
         "numero": 3,
         "statut": "oui",
-        "justification": "L'agent a vérifié le bon fonctionnement des services avant de proposer une offre.",
+        "justification": "Le conseiller vérifie le bon fonctionnement du matériel avant de proposer une offre.",
         "preuves": [
           {
             "citation": "Tout fonctionne bien avec votre box et votre télévision?",
@@ -54,13 +60,25 @@
       {
         "numero": 4,
         "statut": "oui",
-        "justification": "La découverte a couvert le foyer, la télévision, les mobiles (opérateur tiers) et les usages (tablette, streaming).",
+        "justification": "La découverte est complète : foyer, télévision/usages, tablettes/streaming et lignes mobiles.",
         "preuves": [
           {
-            "citation": "Combien êtes -vous à la maison?",
+            "citation": "Combien êtes-vous à la maison?",
             "debut_s": 50.0,
             "verification": "exacte",
             "debut_verifie_s": 49.98
+          },
+          {
+            "citation": "Et qui regarde le plus la télévision chez vous?",
+            "debut_s": 68.6,
+            "verification": "exacte",
+            "debut_verifie_s": 68.6
+          },
+          {
+            "citation": "Et vous arrive -t -il de regarder sur tablette ou sur téléphone?",
+            "debut_s": 80.1,
+            "verification": "exacte",
+            "debut_verifie_s": 80.12
           },
           {
             "citation": "Et pour vos téléphones portables, vous êtes chez nous ou chez un autre opérateur?",
@@ -73,10 +91,10 @@
       {
         "numero": 5,
         "statut": "oui",
-        "justification": "Le besoin est repéré à partir des réponses du client (programmes pour enfants, visionnage tardif, multi-écrans).",
+        "justification": "Le besoin est repéré (enfants et horaires décalés) et exploité.",
         "preuves": [
           {
-            "citation": "Avec tout ce que vous dites, Monsieur Durand, j 'ai quelque chose qui correspond vraiment à votre famille.",
+            "citation": "Avec tout ce que vous dites, Monsieur Durand, j 'ai quelque chose qui correspond vraiment à votre famille. Le pack Horizon.",
             "debut_s": 102.1,
             "verification": "exacte",
             "debut_verifie_s": 102.12
@@ -86,29 +104,35 @@
       {
         "numero": 6,
         "statut": "oui",
-        "justification": "La proposition est détaillée et directement reliée aux besoins exprimés (enfants, horaires décalés, écrans multiples).",
+        "justification": "La proposition est personnalisée (utilisation du CAB) et dynamique.",
         "preuves": [
           {
-            "citation": "Et surtout, Horizon 2 et Horizon Junior. Des programmes adaptés à l 'âge de chacun de vos enfants.",
+            "citation": "Des programmes adaptés à l 'âge de chacun de vos enfants.",
             "debut_s": 102.1,
             "verification": "exacte",
             "debut_verifie_s": 102.12
+          },
+          {
+            "citation": "Votre film commence quand vous vous asseyez, pas quand il passe à l 'antenne.",
+            "debut_s": 130.2,
+            "verification": "exacte",
+            "debut_verifie_s": 130.24
           }
         ]
       },
       {
         "numero": 7,
         "statut": "oui",
-        "justification": "L'agent a traité les objections (streaming et prix) avec un seul rebond pour chaque, sans pression excessive.",
+        "justification": "Deux objections (streaming et prix) ont été traitées avec un seul rebond chacune.",
         "preuves": [
           {
-            "citation": "La différence, c 'est que le pack Horizon ajoute des chaînes en direct et un catalogue différent.",
+            "citation": "comprends et beaucoup de nos clients en ont une aussi. La différence, c 'est que le pack Horizon ajoute des chaînes en direct et un catalogue différent.",
             "debut_s": 159.2,
             "verification": "exacte",
             "debut_verifie_s": 159.24
           },
           {
-            "citation": "Le pack Horizon est à 12 ,99 euros par mois, soit environ 43 centimes par jour.",
+            "citation": "C 'est une vraie question, et je vais être transparent avec vous. Le pack Horizon est à 12 ,99 euros par mois, soit environ 43 centimes par jour.",
             "debut_s": 184.1,
             "verification": "exacte",
             "debut_verifie_s": 184.1
@@ -118,7 +142,7 @@
       {
         "numero": 8,
         "statut": "oui",
-        "justification": "Le client est appelé par son nom tout au long de l'échange.",
+        "justification": "Le client est appelé par son nom durant l'échange.",
         "preuves": [
           {
             "citation": "Merci, Monsieur Durand.",
@@ -131,10 +155,10 @@
       {
         "numero": 9,
         "statut": "oui",
-        "justification": "Le tarif mensuel, l'absence d'engagement et la date du premier prélèvement ont été indiqués.",
+        "justification": "Le récapitulatif inclut le prix, la gratuité du premier mois, l'absence d'engagement et la date de prélèvement.",
         "preuves": [
           {
-            "citation": "Le premier prélèvement des 12 ,99 euros aura lieu le 8 décembre. Il est sans engagement.",
+            "citation": "Le [inaudible] le premier mois est offert, puis 12 ,99 euros par mois. Le premier prélèvement des 12 ,99 euros aura lieu le 8 décembre. Il est sans engagement.",
             "debut_s": 217.0,
             "verification": "exacte",
             "debut_verifie_s": 217.0
@@ -144,10 +168,10 @@
       {
         "numero": 10,
         "statut": "oui",
-        "justification": "Le délai d'activation de 2 heures a été précisé.",
+        "justification": "Le délai d'activation est précisé.",
         "preuves": [
           {
-            "citation": "Il sera activé dans un délai de deux heures maximum,",
+            "citation": "Il sera activé dans un délai de deux heures maximum, directement sur votre décodeur, sans rien à installer.",
             "debut_s": 217.0,
             "verification": "exacte",
             "debut_verifie_s": 217.0
@@ -157,13 +181,25 @@
       {
         "numero": 11,
         "statut": "oui",
-        "justification": "Le processus est complet : consentement explicite, e-mail envoyé, signature effectuée et rappel sur la protection du code SMS.",
+        "justification": "Consentement par question fermée, envoi d'e-mail, signature électronique par le client et consigne de sécurité pour le code SMS respectées.",
         "preuves": [
           {
             "citation": "Confirmez -vous, sous -crivez au pack [inaudible] aux conditions que je viens de vous inviter ?",
-            "debut_s": 217.0,
+            "debut_s": 251.7,
             "verification": "exacte",
             "debut_verifie_s": 217.0
+          },
+          {
+            "citation": "Je vous envoie un e -mail récapitulatif à signer électroniquement.",
+            "debut_s": 253.5,
+            "verification": "exacte",
+            "debut_verifie_s": 253.48
+          },
+          {
+            "citation": "Voilà, c 'est signé.",
+            "debut_s": 304.9,
+            "verification": "exacte",
+            "debut_verifie_s": 304.9
           },
           {
             "citation": "Et surtout, n 'oubliez pas, ni à moi, ni à personne. Un conseiller Kalyo ne vous le demandera jamais.",
@@ -176,22 +212,22 @@
       {
         "numero": 12,
         "statut": "na",
-        "justification": "La vente a été conclue.",
+        "justification": "",
         "preuves": []
       },
       {
         "numero": 13,
         "statut": "na",
-        "justification": "Aucune escalade n'a été nécessaire.",
+        "justification": "",
         "preuves": []
       },
       {
         "numero": 14,
         "statut": "oui",
-        "justification": "L'appel se termine par une question, des remerciements et une prise de congé soignée.",
+        "justification": "La conclusion est soignée avec remerciements et prise de congé.",
         "preuves": [
           {
-            "citation": "Merci beaucoup pour votre confiance, et pour votre temps. Je souhaite à toute la famille de très bonnes soirées.",
+            "citation": "Merci beaucoup pour votre confiance, et pour votre temps. Je souhaite à toute la famille de très bonnes soirées. Excellent fin de journée, M. Durand. Au revoir.",
             "debut_s": 321.2,
             "verification": "exacte",
             "debut_verifie_s": 321.24
@@ -204,14 +240,15 @@
     "remarques_conformite": [],
     "coaching": {
       "points_forts": [
-        "Excellente maîtrise de la découverte client qui permet de personnaliser l'argumentaire.",
-        "Traitement des objections très efficace via la méthode AQRV.",
+        "Excellente maîtrise de la méthode de découverte.",
+        "Argumentation personnalisée et pertinente (méthode CAB) parfaitement reliée aux besoins du client.",
+        "Traitement des objections fluide et respectueux de la règle du rebond unique.",
         "Sécurisation de la vente irréprochable, notamment sur la protection du code SMS."
       ],
       "axes_progres": [
-        "Détection d'opportunités commerciales additionnelles."
+        "Attention à la clarté de l'articulation lors du récapitulatif final pour éviter les zones inaudibles."
       ],
-      "conseil_principal": "Vous avez parfaitement identifié que le client possédait des lignes mobiles chez un autre opérateur. N'oubliez pas de proposer l'Avantage Foyer dans ce cas, car cela permet d'augmenter la valeur de votre conseil en faisant économiser 5 € par mois au client."
+      "conseil_principal": "Félicitations pour cette vente parfaitement menée. Pour atteindre l'excellence constante, veillez à bien articuler le nom de l'offre et les conditions lors du récapitulatif, afin qu'aucune zone d'ombre ne subsiste pour le client, même en cas de micro capricieux."
     }
   },
   "calcul": {
@@ -226,23 +263,23 @@
     "anomalies": []
   },
   "usage": {
-    "promptTokenCount": 15639,
-    "candidatesTokenCount": 1766,
-    "totalTokenCount": 25292,
-    "cachedContentTokenCount": 12277,
+    "promptTokenCount": 15712,
+    "candidatesTokenCount": 2041,
+    "totalTokenCount": 25310,
+    "cachedContentTokenCount": 8184,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 15639
+        "tokenCount": 15712
       }
     ],
     "cacheTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 12277
+        "tokenCount": 8184
       }
     ],
-    "thoughtsTokenCount": 7887,
+    "thoughtsTokenCount": 7557,
     "serviceTier": "standard"
   }
 }

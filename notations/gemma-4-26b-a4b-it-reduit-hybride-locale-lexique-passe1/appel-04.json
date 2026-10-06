@@ -1,7 +1,7 @@
 {
   "appel": "04",
   "modele": "gemma-4-26b-a4b-it",
-  "date": "2026-10-06T14:09:11",
+  "date": "2026-10-06T21:49:51",
   "source_transcription": "hybride-locale-lexique",
   "referentiel": "réduit",
   "reponse_ia": {
@@ -9,7 +9,7 @@
       {
         "numero": 1,
         "statut": "non",
-        "justification": "L'accueil est incomplet : le conseiller ne s'est pas présenté (prénom, nom, fonction) et n'a pas annoncé la prise en charge de la demande.",
+        "justification": "La présentation est incomplète (absence de nom, de fonction et de mention de prise en charge de la demande).",
         "preuves": [
           {
             "citation": "Kalyo Télécom, bonjour.",
@@ -22,7 +22,7 @@
       {
         "numero": 2,
         "statut": "non",
-        "justification": "La mention de l'enregistrement de l'appel n'a pas été faite avant la découverte.",
+        "justification": "L'enregistrement de l'appel n'est jamais mentionné.",
         "preuves": []
       },
       {
@@ -41,87 +41,81 @@
       {
         "numero": 4,
         "statut": "non",
-        "justification": "Aucune question n'a été posée pour analyser le besoin avant de proposer une solution technique.",
+        "justification": "Aucune question de diagnostic n'a été posée pour analyser le problème.",
         "preuves": []
       },
       {
         "numero": 5,
         "statut": "non",
-        "justification": "Le conseiller n'a ni reformulé la demande, ni rassuré la cliente malgré son problème exprimé.",
+        "justification": "Il n'y a ni reformulation du problème, ni réassurance envers la cliente.",
         "preuves": []
       },
       {
         "numero": 6,
         "statut": "non",
-        "justification": "Le ton est expéditif et manque de politesse.",
+        "justification": "Le ton est expéditif et froid, notamment lors de la réponse à la demande d'aide.",
         "preuves": [
           {
-            "citation": "C 'est bon, c 'est pourquoi.",
-            "debut_s": 16.6,
+            "citation": "Faites d 'abord le reset, autre chose ?",
+            "debut_s": 50.4,
             "verification": "exacte",
-            "debut_verifie_s": 16.6
+            "debut_verifie_s": 50.44
           }
         ]
       },
       {
         "numero": 7,
         "statut": "non",
-        "justification": "L'explication utilise du jargon technique ('synchro') et une expression à éviter ('Normalement ça devrait marcher').",
+        "justification": "Le conseiller utilise du jargon technique (synchro, reset usine).",
         "preuves": [
           {
-            "citation": "c 'est sûrement votre décodeur qui a perdu la synchro avec la box.",
+            "citation": "c 'est sûrement votre décodeur qui a perdu la synchro avec la box. Faites un reset usine du décodeur, ça devrait régler le problème.",
             "debut_s": 28.3,
             "verification": "exacte",
             "debut_verifie_s": 28.28
-          },
-          {
-            "citation": "Normalement ça devrait marcher.",
-            "debut_s": 43.2,
-            "verification": "exacte",
-            "debut_verifie_s": 43.22
           }
         ]
       },
       {
         "numero": 8,
         "statut": "non",
-        "justification": "Le conseiller n'a jamais appelé la cliente par son nom durant l'échange.",
+        "justification": "Le client n'est pas appelé par son nom durant l'échange.",
         "preuves": []
       },
       {
         "numero": 9,
         "statut": "na",
-        "justification": "",
+        "justification": "Non applicable.",
         "preuves": []
       },
       {
         "numero": 10,
         "statut": "na",
-        "justification": "",
+        "justification": "Non applicable.",
         "preuves": []
       },
       {
         "numero": 11,
         "statut": "na",
-        "justification": "",
+        "justification": "Aucun engagement ou geste commercial n'a été fait.",
         "preuves": []
       },
       {
         "numero": 12,
         "statut": "na",
-        "justification": "",
+        "justification": "Non applicable.",
         "preuves": []
       },
       {
         "numero": 13,
         "statut": "na",
-        "justification": "",
+        "justification": "Aucune offre n'a été proposée.",
         "preuves": []
       },
       {
         "numero": 14,
         "statut": "non",
-        "justification": "Le conseiller a refusé d'apporter l'aide demandée par la cliente (vérification à distance via la Sonde) et n'a pas proposé d'escalade.",
+        "justification": "Le conseiller refuse de proposer une assistance ou une vérification à distance alors que la cliente le demande explicitement.",
         "preuves": [
           {
             "citation": "Faites d 'abord le reset, autre chose ?",
@@ -134,13 +128,13 @@
       {
         "numero": 15,
         "statut": "na",
-        "justification": "",
+        "justification": "Pas de vente.",
         "preuves": []
       },
       {
         "numero": 16,
         "statut": "non",
-        "justification": "La conclusion est très abrupte, sans récapitulatif, sans remerciement et sans prise de congé soignée.",
+        "justification": "La conclusion est très abrupte, sans récapitulatif, sans remerciement et sans demander si la cliente a d'autres questions.",
         "preuves": [
           {
             "citation": "Au revoir.",
@@ -152,20 +146,54 @@
       }
     ],
     "eliminatoires": [],
-    "fautes_mise_en_garde": [],
-    "remarques_conformite": [],
+    "fautes_mise_en_garde": [
+      {
+        "type": "panne_ignoree",
+        "citation": "L'appel est au niveau Insuffisant (10%).",
+        "debut_s": 0.0,
+        "verification": "introuvable",
+        "debut_verifie_s": null
+      }
+    ],
+    "remarques_conformite": [
+      {
+        "regle": "[APPEL-02]",
+        "ecart": "L'accueil ne mentionne pas la prise en charge de la demande ni l'enregistrement de l'appel.",
+        "citation": "Kalyo Télécom, bonjour.",
+        "debut_s": 0.0,
+        "verification": "exacte",
+        "debut_verifie_s": 0.0
+      },
+      {
+        "regle": "[APPEL-03]",
+        "ecart": "La procédure d'identification/authentification n'est pas respectée (demande du numéro de ligne avant le nom/prénom).",
+        "citation": "Votre numéro de ligne ?",
+        "debut_s": 3.1,
+        "verification": "exacte",
+        "debut_verifie_s": 3.1
+      },
+      {
+        "regle": "[APPEL-10]",
+        "ecart": "Utilisation d'une expression à éviter : 'Normalement ça devrait marcher'.",
+        "citation": "Normalement ça devrait marcher.",
+        "debut_s": 43.2,
+        "verification": "exacte",
+        "debut_verifie_s": 43.22
+      }
+    ],
     "coaching": {
       "points_forts": [
-        "Proposition rapide d'une solution technique."
+        "Écoute active de la cliente lors de l'explication de son problème."
       ],
       "axes_progres": [
-        "Respect de la structure d'accueil (présentation et annonce de l'enregistrement)",
-        "Empathie et reformulation de la demande",
-        "Utilisation des outils de diagnostic (Sonde) pour répondre aux demandes de vérification",
-        "Professionnalisme du langage (éviter le jargon et les expressions incertaines comme 'Normalement')",
-        "Qualité de la conclusion"
+        "Respecter la structure de l'accueil (nom, prénom, fonction, mention de l'enregistrement).",
+        "Suivre la procédure d'identification (Nom/Prénom d'abord).",
+        "Pratiquer la reformulation et la réassurance pour montrer de l'empathie.",
+        "Éviter le jargon technique (synchro, reset usine) au profit de mots simples.",
+        "Utiliser les outils de diagnostic (Sonde/Orbite) pour répondre aux demandes de vérification des clients.",
+        "Soigner la conclusion (récapitulatif, remerciements, prise de congé)."
       ],
-      "conseil_principal": "Pour un appel professionnel, respectez les étapes de base : présentez-vous, annoncez l'enregistrement, et reformulez toujours la demande du client pour montrer que vous l'avez compris. Par exemple : 'Si je comprends bien, votre télévision n'affiche plus aucun signal, est-ce bien cela ?'"
+      "conseil_principal": "Pour instaurer un climat de confiance, commencez toujours par une présentation complète et utilisez la reformulation : « Si je comprends bien, votre télévision affiche un message sans signal, c'est bien cela ? »"
     }
   },
   "calcul": {
@@ -176,22 +204,32 @@
     "niveau": "Insuffisant",
     "eliminatoires": [],
     "mises_en_garde": [
-      "insuffisant"
+      "insuffisant",
+      "panne_ignoree"
     ],
     "action": "Mise en garde",
-    "anomalies": []
+    "anomalies": [
+      "citation introuvable dans la transcription : « L'appel est au niveau Insuffisant (10%). »"
+    ]
   },
   "usage": {
-    "promptTokenCount": 13209,
-    "candidatesTokenCount": 1364,
-    "totalTokenCount": 22016,
+    "promptTokenCount": 13282,
+    "candidatesTokenCount": 1651,
+    "totalTokenCount": 20063,
+    "cachedContentTokenCount": 12275,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 13209
+        "tokenCount": 13282
       }
     ],
-    "thoughtsTokenCount": 7443,
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12275
+      }
+    ],
+    "thoughtsTokenCount": 5130,
     "serviceTier": "standard"
   }
 }

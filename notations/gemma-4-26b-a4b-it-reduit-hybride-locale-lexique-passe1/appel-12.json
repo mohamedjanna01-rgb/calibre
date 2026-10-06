@@ -1,7 +1,7 @@
 {
   "appel": "12",
   "modele": "gemma-4-26b-a4b-it",
-  "date": "2026-10-06T14:55:04",
+  "date": "2026-10-06T22:21:50",
   "source_transcription": "hybride-locale-lexique",
   "referentiel": "réduit",
   "reponse_ia": {
@@ -9,10 +9,10 @@
       {
         "numero": 1,
         "statut": "oui",
-        "justification": "Présentation complète (nom, entreprise, fonction), mention de la gestion du contrat et vérification de l'identité effectuée.",
+        "justification": "Présentation complète et vérification de l'identité (nom, prénom, code postal, date de naissance).",
         "preuves": [
           {
-            "citation": "Salma Idrissi, conseillère chez Kalyo Télécom, votre opérateur. C 'est moi qui m 'occupe de votre contrabox Internet",
+            "citation": "Salma Idrissi, conseillère chez Kalyo Télécom, votre opérateur. C 'est moi qui m 'occupe de votre contrabox Internet et je vous contacte pour faire un point rapide sur votre abonnement.",
             "debut_s": 6.1,
             "verification": "exacte",
             "debut_verifie_s": 6.06
@@ -28,7 +28,7 @@
       {
         "numero": 2,
         "statut": "oui",
-        "justification": "La mention de l'enregistrement est faite avant la phase de découverte.",
+        "justification": "Mention de l'enregistrement effectuée avant la découverte.",
         "preuves": [
           {
             "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
@@ -41,7 +41,7 @@
       {
         "numero": 3,
         "statut": "oui",
-        "justification": "Le conseiller a vérifié le bon fonctionnement de la box et de la TV avant de proposer une offre.",
+        "justification": "Le conseiller a vérifié le bon fonctionnement de la box et de la TV avant de proposer l'offre.",
         "preuves": [
           {
             "citation": "Avant tout, tout fonctionne bien avec votre box et votre télévision ?",
@@ -54,29 +54,29 @@
       {
         "numero": 4,
         "statut": "non",
-        "justification": "La découverte est incomplète : elle ne couvre pas le foyer, les lignes mobiles ni les autres usages (tablettes/streaming).",
+        "justification": "La découverte est incomplète : la conseillère n'a interrogé la cliente que sur la télévision, sans aborder le foyer, les lignes mobiles ou les autres usages (tablettes, streaming).",
         "preuves": []
       },
       {
         "numero": 5,
         "statut": "oui",
-        "justification": "Le conseiller a repéré l'intérêt pour la cuisine et les voyages pour proposer le pack.",
+        "justification": "Le besoin de regarder des émissions pendant les voyages a été identifié et exploité.",
         "preuves": [
           {
-            "citation": "Alors, le pack Horizon devrait vous plaire. Vous auriez Horizon Cuisine, Horizon Voyages et Horizon Découverte.",
-            "debut_s": 75.8,
+            "citation": "Vous arrive -t -il de rater des émissions pendant vos voyages ?",
+            "debut_s": 63.9,
             "verification": "exacte",
-            "debut_verifie_s": 75.82
+            "debut_verifie_s": 63.94
           }
         ]
       },
       {
         "numero": 6,
         "statut": "oui",
-        "justification": "La proposition est liée aux besoins (cuisine/voyages/tablette) et est dynamique.",
+        "justification": "La proposition est reliée aux besoins (replay pour les voyages, application pour la tablette).",
         "preuves": [
           {
-            "citation": "Le replay de 7 jours pour rattraper ce que vous avez manqué. Et l 'application Kalyo TV pour regarder sur votre tablette, même en vacances.",
+            "citation": "Vous auriez Horizon Cuisine, Horizon Voyages et Horizon Découverte. Le replay de 7 jours pour rattraper ce que vous avez manqué. Et l 'application Kalyo TV pour regarder sur votre tablette, même en vacances.",
             "debut_s": 75.8,
             "verification": "exacte",
             "debut_verifie_s": 75.82
@@ -85,11 +85,11 @@
       },
       {
         "numero": 7,
-        "statut": "non",
-        "justification": "La méthode AQRV n'a pas été appliquée pour traiter l'objection sur le prix ; le conseiller a immédiatement proposé une remise non autorisée.",
+        "statut": "oui",
+        "justification": "La conseillère a traité l'objection sur le prix avec un seul rebond.",
         "preuves": [
           {
-            "citation": "Je comprends. Écoutez, pour vous, je peux faire un geste. Je vous bloque le prix à 6 ,99 euros par mois pendant un an.",
+            "citation": "Je comprends. Écoutez, pour vous, je peux faire un geste.",
             "debut_s": 107.0,
             "verification": "exacte",
             "debut_verifie_s": 107.04
@@ -99,26 +99,26 @@
       {
         "numero": 8,
         "statut": "oui",
-        "justification": "Le client est appelé par son nom tout au long de l'échange.",
+        "justification": "La cliente est appelée par son nom durant l'échange.",
         "preuves": [
           {
-            "citation": "Bonjour, Madame Chevalier ?",
-            "debut_s": 2.0,
+            "citation": "Merci Madame Chevalier.",
+            "debut_s": 51.6,
             "verification": "exacte",
-            "debut_verifie_s": 2.02
+            "debut_verifie_s": 51.58
           }
         ]
       },
       {
         "numero": 9,
         "statut": "non",
-        "justification": "Le prix après la période promotionnelle et la date du premier prélèvement n'ont pas été indiqués.",
+        "justification": "Le récapitulatif tarifaire est incomplet car la date du premier prélèvement n'est pas mentionnée.",
         "preuves": []
       },
       {
         "numero": 10,
         "statut": "oui",
-        "justification": "Le délai d'activation de 2 heures maximum est annoncé.",
+        "justification": "Le délai d'activation a été annoncé.",
         "preuves": [
           {
             "citation": "Activation en 2 heures maximum.",
@@ -131,10 +131,16 @@
       {
         "numero": 11,
         "statut": "oui",
-        "justification": "L'e-mail est envoyé, le client saisit lui-même le code SMS et le conseiller ne le demande pas.",
+        "justification": "La procédure de sécurisation est respectée (question fermée, e-mail, signature, rappel sur le code SMS).",
         "preuves": [
           {
-            "citation": "Saisissez-le vous-même dans l 'e-mail et ne le communiquez à personne.",
+            "citation": "Confirmez -vous souscrire au [inaudible] Horizon à ces conditions ?",
+            "debut_s": 122.7,
+            "verification": "exacte",
+            "debut_verifie_s": 122.7
+          },
+          {
+            "citation": "Saisissez -le vous -même dans l 'e -mail et ne le communiquez à personne.",
             "debut_s": 145.4,
             "verification": "exacte",
             "debut_verifie_s": 145.42
@@ -144,25 +150,31 @@
       {
         "numero": 12,
         "statut": "na",
-        "justification": "",
+        "justification": "Pas de refus client.",
         "preuves": []
       },
       {
         "numero": 13,
         "statut": "na",
-        "justification": "",
+        "justification": "Pas de demande d'escalade ou de transfert.",
         "preuves": []
       },
       {
         "numero": 14,
         "statut": "oui",
-        "justification": "La conclusion est complète avec récapitulatif, question de clôture et remerciement.",
+        "justification": "La conclusion est soignée avec questions, remerciements et prise de congé.",
         "preuves": [
           {
-            "citation": "Parfait, votre souscription est confirmée. Avez-vous d 'autres questions ?",
+            "citation": "Avez-vous d 'autres questions ?",
             "debut_s": 189.2,
             "verification": "exacte",
             "debut_verifie_s": 189.18
+          },
+          {
+            "citation": "Merci pour votre confiance. Bon voyage à vous deux et très bonne journée.",
+            "debut_s": 196.9,
+            "verification": "exacte",
+            "debut_verifie_s": 196.9
           }
         ]
       }
@@ -170,7 +182,7 @@
     "eliminatoires": [
       {
         "numero": 2,
-        "motif": "Fausse promesse (remise non autorisée)",
+        "motif": "Fausse promesse / Geste commercial non autorisé (prix)",
         "citation": "Je vous bloque le prix à 6 ,99 euros par mois pendant un an.",
         "debut_s": 107.0,
         "verification": "exacte",
@@ -181,8 +193,8 @@
     "remarques_conformite": [
       {
         "regle": "[TVE-14]",
-        "ecart": "Proposition d'une remise commerciale non autorisée (seul le premier mois est offert).",
-        "citation": "Je vous bloque le prix à 6 ,99 euros par mois pendant un an.",
+        "ecart": "Utilisation d'une fausse urgence pour conclure la vente.",
+        "citation": "Mais je dois vous prévenir, cette remise n 'est valable qu 'aujourd 'hui.",
         "debut_s": 107.0,
         "verification": "exacte",
         "debut_verifie_s": 107.04
@@ -190,22 +202,21 @@
     ],
     "coaching": {
       "points_forts": [
-        "Accueil et présentation conformes aux procédures",
-        "Excellente personnalisation de l'offre en fonction des loisirs du client",
-        "Processus de sécurisation de la vente parfaitement maîtrisé"
+        "Excellente personnalisation de l'argumentaire en fonction des loisirs de la cliente",
+        "Respect rigoureux de la procédure de sécurisation de la vente (signature et code SMS)"
       ],
       "axes_progres": [
-        "Réaliser une découverte complète (foyer, mobiles, autres usages)",
-        "Appliquer la méthode AQRV pour traiter les objections au lieu de céder immédiatement",
-        "Respecter strictement les offres du catalogue (ne pas promettre de remise non autorisée)"
+        "Réaliser une découverte complète (foyer, mobiles, autres usages) pour ne pas passer à côté de besoins",
+        "Respecter strictement le catalogue des prix et les procédures de remise (ne pas faire de promesses non autorisées)",
+        "Éviter l'utilisation de la fausse urgence"
       ],
-      "conseil_principal": "Ne proposez jamais de remise ou de geste commercial qui ne figure pas dans votre catalogue. Pour traiter une objection sur le prix, utilisez la méthode AQRV : 'Je comprends que le budget soit un sujet important. C'est justement pour cela que nous offrons le premier mois, ce qui vous permet de tester le service sans aucun frais. Est-ce que cela vous permettrait de vous décider plus sereinement ?'"
+      "conseil_principal": "Pour garantir la conformité de vos ventes, assurez-vous de poser des questions sur l'ensemble des équipements du foyer et ne proposez jamais de remises non prévues par le catalogue, sous peine de commettre une fausse promesse."
     }
   },
   "calcul": {
-    "oui": 9,
+    "oui": 10,
     "applicables": 12,
-    "note_pct": 75,
+    "note_pct": 83,
     "niveau_note": "Conforme",
     "niveau": "Non conforme",
     "eliminatoires": [
@@ -216,23 +227,16 @@
     "anomalies": []
   },
   "usage": {
-    "promptTokenCount": 14831,
-    "candidatesTokenCount": 1730,
-    "totalTokenCount": 24642,
-    "cachedContentTokenCount": 14322,
+    "promptTokenCount": 14904,
+    "candidatesTokenCount": 1774,
+    "totalTokenCount": 21930,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 14831
+        "tokenCount": 14904
       }
     ],
-    "cacheTokensDetails": [
-      {
-        "modality": "TEXT",
-        "tokenCount": 14322
-      }
-    ],
-    "thoughtsTokenCount": 8081,
+    "thoughtsTokenCount": 5252,
     "serviceTier": "standard"
   }
 }

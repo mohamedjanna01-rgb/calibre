@@ -1,0 +1,258 @@
+{
+  "appel": "05",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T15:35:21",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète (nom, prénom, fonction) et identification du client effectuée.",
+        "preuves": [
+          {
+            "citation": "Je m 'appelle Karine Tazi, je suis votre conseiller clientèle et je vais m 'occuper de votre demande.",
+            "debut_s": 3.0,
+            "verification": "exacte",
+            "debut_verifie_s": 3.0
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "La mention de l'enregistrement est faite avant la phase de découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 3.0,
+            "verification": "exacte",
+            "debut_verifie_s": 3.0
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller n'interrompt pas le client.",
+        "preuves": []
+      },
+      {
+        "numero": 4,
+        "statut": "oui",
+        "justification": "La demande est comprise et le contexte (déménagement) est exploré.",
+        "preuves": [
+          {
+            "citation": "Que puis -je faire pour vous ?",
+            "debut_s": 28.6,
+            "verification": "exacte",
+            "debut_verifie_s": 28.56
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le conseiller reformule la demande et obtient la validation du client.",
+        "preuves": [
+          {
+            "citation": "Si je comprends bien [inaudible] Petit, vous quittez votre logement le mois prochain et vous n 'aurez plus besoin de votre boxe. C 'est bien ça ?",
+            "debut_s": 35.6,
+            "verification": "exacte",
+            "debut_verifie_s": 35.56
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "Le ton est poli et professionnel tout au long de l'échange.",
+        "preuves": []
+      },
+      {
+        "numero": 7,
+        "statut": "non",
+        "justification": "L'explication est fausse : le conseiller prétend que le service est indisponible pour éviter de traiter la résiliation.",
+        "preuves": [
+          {
+            "citation": "Alors, pour une résiliation, le service concerné n 'est pas disponible aujourd 'hui.",
+            "debut_s": 55.6,
+            "verification": "exacte",
+            "debut_verifie_s": 55.56
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le client est appelé par son nom.",
+        "preuves": [
+          {
+            "citation": "Merci Monsieur Petit.",
+            "debut_s": 14.6,
+            "verification": "exacte",
+            "debut_verifie_s": 14.62
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "non",
+        "justification": "La résiliation est retardée et refusée par le conseiller.",
+        "preuves": [
+          {
+            "citation": "Le plus simple c 'est de nous rappeler la semaine prochaine.",
+            "debut_s": 62.3,
+            "verification": "exacte",
+            "debut_verifie_s": 62.26
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "statut": "oui",
+        "justification": "Le conseiller tente une rétention en proposant un transfert à la nouvelle adresse.",
+        "preuves": [
+          {
+            "citation": "Nous pourrions peut -être transférer votre boxe à votre nouvelle adresse avec un débit plus rapide.",
+            "debut_s": 44.7,
+            "verification": "exacte",
+            "debut_verifie_s": 44.74
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "Pas de vente réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "non",
+        "justification": "L'opportunité de transfert est proposée avant que le problème initial (la demande de résiliation) ne soit résolu.",
+        "preuves": [
+          {
+            "citation": "Nous pourrions peut -être transférer votre boxe à votre nouvelle adresse avec un débit plus rapide.",
+            "debut_s": 44.7,
+            "verification": "exacte",
+            "debut_verifie_s": 44.74
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Le client exprime un refus de l'offre et non une objection nécessitant un traitement AQRV.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "non",
+        "justification": "Le conseiller n'oriente pas le client vers le service concerné, il lui demande de rappeler plus tard.",
+        "preuves": [
+          {
+            "citation": "Le plus simple c 'est de nous rappeler la semaine prochaine.",
+            "debut_s": 62.3,
+            "verification": "exacte",
+            "debut_verifie_s": 62.26
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "statut": "na",
+        "justification": "Pas de vente réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 16,
+        "statut": "oui",
+        "justification": "Récapitulatif, question de clôture et prise de congé effectuées.",
+        "preuves": [
+          {
+            "citation": "Pour récapituler, vous nous rappelez la semaine prochaine pour la résiliation.",
+            "debut_s": 78.0,
+            "verification": "exacte",
+            "debut_verifie_s": 78.04
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [
+      {
+        "type": "resiliation_retardee",
+        "citation": "Le plus simple c 'est de nous rappeler la semaine prochaine.",
+        "debut_s": 62.3,
+        "verification": "exacte",
+        "debut_verifie_s": 62.26
+      },
+      {
+        "type": "resiliation_refusee",
+        "citation": "Malheureusement non, ce n 'est pas moi qui gère les résiliations.",
+        "debut_s": 68.2,
+        "verification": "exacte",
+        "debut_verifie_s": 68.18
+      }
+    ],
+    "remarques_conformite": [
+      {
+        "regle": "[APPEL-10]",
+        "ecart": "Utilisation de l'expression interdite 'Ce n'est pas moi, c'est un autre service'.",
+        "citation": "Malheureusement non, ce n 'est pas moi qui gère les résiliations.",
+        "debut_s": 68.2,
+        "verification": "exacte",
+        "debut_verifie_s": 68.18
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Accueil et présentation professionnelle",
+        "Bonne personnalisation du client",
+        "Empathie lors de la reformulation"
+      ],
+      "axes_progres": [
+        "Ne jamais mentir sur la disponibilité d'un service pour éviter une tâche.",
+        "Ne pas rejeter la responsabilité sur un autre service ou sur soi-même en disant 'ce n'est pas moi'.",
+        "Traiter la demande de résiliation immédiatement (via transfert ou procédure) au lieu de demander au client de rappeler."
+      ],
+      "conseil_principal": "Face à une demande de résiliation, ne cherchez pas à gagner du temps en demandant au client de rappeler : orientez-le immédiatement vers le bon service ou donnez-lui la procédure exacte. Utilisez plutôt : « Je comprends votre demande de résiliation. Je vais vous orienter vers le service compétent pour que votre demande soit traitée sans attendre. »"
+    }
+  },
+  "calcul": {
+    "oui": 9,
+    "applicables": 13,
+    "note_pct": 69,
+    "niveau_note": "À améliorer",
+    "niveau": "À améliorer",
+    "eliminatoires": [],
+    "mises_en_garde": [
+      "resiliation_refusee",
+      "resiliation_retardee"
+    ],
+    "action": "Mise en garde",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 13443,
+    "candidatesTokenCount": 1785,
+    "totalTokenCount": 22684,
+    "cachedContentTokenCount": 12275,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 13443
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12275
+      }
+    ],
+    "thoughtsTokenCount": 7456,
+    "serviceTier": "standard"
+  }
+}

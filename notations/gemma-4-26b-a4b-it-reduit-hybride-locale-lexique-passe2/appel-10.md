@@ -10,18 +10,20 @@
 
 | N° | Item | Note | Justification | Preuves |
 |---|---|---|---|---|
-| 1 | Accueil | NON | La présentation est incomplète : il manque le prénom, le nom, la fonction et la mention 'je gère votre contrat'. | [00:01.3] « Allô, oui, bonjour, c 'est Kalyo Télécom. » |
+| 1 | Accueil | NON | L'accueil est incomplet : le nom, la fonction et la mention de la gestion du contrat sont absents. | [00:01.3] « Allô, oui, bonjour, c 'est Kalyo Télécom. » |
 | 2 | Mention de l'enregistrement de l'appel, avant la découverte | OUI | L'enregistrement est mentionné avant la phase de découverte. | [00:05.1] « Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité. » |
-| 3 | Vérifier d'abord que tout fonctionne, sans interrompre le client. Si un problème est signalé | NON | Le conseiller n'a pas vérifié si tout fonctionnait avant de proposer l'offre. |  |
-| 4 | Découverte complète | NON | La découverte est incomplète : il n'a pas interrogé le client sur les téléphones, les lignes mobiles ou les autres opérateurs. |  |
-| 5 | Création ou repérage d'un besoin | OUI | Le besoin est repéré grâce aux propos de la cliente sur les dessins animés et le streaming. | [00:28.1] « Ils regardent surtout des dessins animés. Ils jouent une appli de streaming. » |
-| 6 | Proposition adaptée et détaillée, reliée aux besoins, jamais présentée comme un catalogue, avec dynamisme commercial | NON | La proposition est directe et non détaillée via la méthode CAB (caractéristique, avantage, bénéfice). | [00:34.7] « Il vous faut le pack horizon, 12 ,99 euros par mois. » |
-| 7 | Traitement des objections | NON | Le conseiller n'a pas utilisé la méthode AQRV et a insisté après deux refus. | [00:47.0] « Attendez, vous ne savez même pas ce qu 'il y a dedans. » |
-| 8 | Personnalisation | NON | Le conseiller n'a jamais appelé la cliente par son nom. |  |
-| 9 | Tarif complet | NON | Le tarif est incomplet : l'absence d'engagement, le premier mois offert et la date de prélèvement ne sont pas mentionnés. | [00:34.7] « Il vous faut le pack horizon, 12 ,99 euros par mois. » |
-| 10 | Activation | NON | La procédure et le délai d'activation n'ont pas été annoncés. |  |
-| 12 | Si refus | NON | Le conseiller n'a pas respecté la règle des deux refus et n'a pas présenté d'excuses. | [00:52.8] « Deux minutes ? C 'est tout ce que je vous demande. » |
-| 14 | Conclusion | NON | La prise de congé n'est pas soignée suite au mécontentement de la cliente. | [01:06.9] « Comme vous voulez. » |
+| 3 | Vérifier d'abord que tout fonctionne, sans interrompre le client. Si un problème est signalé | NON | Le conseiller n'a pas vérifié si tout fonctionnait correctement avant d'entamer l'argumentaire. | [00:05.1] « Vous êtes bien la titulaire de la boxe ? » |
+| 4 | Découverte complète | NON | La découverte est incomplète : l'agent n'a pas interrogé la cliente sur ses autres lignes ou l'usage de ses autres équipements. | [00:22.8] « Vous avez des enfants ? » |
+| 5 | Création ou repérage d'un besoin | OUI | Le besoin lié à l'usage des enfants et du streaming a été repéré. | [00:34.7] « Il vous faut le pack horizon, 12 ,99 euros par mois. » |
+| 6 | Proposition adaptée et détaillée, reliée aux besoins, jamais présentée comme un catalogue, avec dynamisme commercial | NON | La proposition n'est pas détaillée et ne suit pas la méthode CAB. | [00:34.7] « Il vous faut le pack horizon, 12 ,99 euros par mois. » |
+| 7 | Traitement des objections | NON | Le conseiller a exercé une pression excessive et n'a pas respecté la règle de l'arrêt après deux refus. | [00:52.8] « Deux minutes ? C 'est tout ce que je vous demande. Franchement, vous allez le regretter si vous ne le faites pas. » |
+| 8 | Personnalisation | NON | Le nom de la cliente n'a jamais été utilisé durant l'échange. |  |
+| 9 | Tarif complet | NON | Le tarif complet n'a pas été présenté (engagement, date de prélèvement, etc.). | [00:34.7] « Il vous faut le pack horizon, 12 ,99 euros par mois. » |
+| 10 | Activation | NON | Le délai d'activation n'a pas été annoncé. |  |
+| 11 | Sécurisation | – | Aucune vente n'a été réalisée. |  |
+| 12 | Si refus | NON | Le conseiller a insisté après le refus de la cliente. | [00:52.8] « Deux minutes ? C 'est tout ce que je vous demande. » |
+| 13 | Escalade et transfert | – | Aucune demande d'escalade n'a été formulée. |  |
+| 14 | Conclusion | NON | L'appel s'est terminé brutalement sans prise de congé ni remerciement. | [01:06.9] « Comme vous voulez. » |
 
 ## Éliminatoires
 
@@ -30,26 +32,27 @@ Aucun.
 ## Mises en garde
 
 - insuffisant
+- panne ignoree
 
 ## Remarques de conformité (sans effet sur la note)
 
-- **[TVE-14]** : Pression commerciale excessive par la culpabilisation du client. — [01:00.2] « Pensez au moins à vos enfants, quand même. Tous les parents le prennent, vous savez ? »
+- **[TVE-14]** : Le conseiller a dénigré un service concurrent (plateformes de streaming). — [00:34.7] « Honnêtement, ce n 'est pas terrible pour les enfants. On ne sait jamais ce qu 'ils regardent. »
 
 ## Coaching
 
 **Points forts**
 
-- La mention de l'enregistrement est correctement effectuée avant toute découverte.
+- Mention correcte de l'enregistrement en début d'appel.
 
 **Axes de progrès**
 
-- L'accueil doit être complet (prénom, nom, fonction et mention du contrat).
-- La découverte doit être systématique et couvrir tous les points (mobiles, lignes, etc.).
-- Le traitement des objections doit impérativement respecter la règle des deux refus sans utiliser de pression ou de culpabilisation.
-- Le récapitulatif tarifaire doit être exhaustif (engagement, mois offerts, prélèvement).
+- Respecter le formalisme de l'accueil (Nom, Prénom, Fonction, gestion du contrat).
+- Appliquer strictement la règle des deux refus pour éviter la pression commerciale.
+- Éviter les jugements de valeur ou le dénigrement des usages clients (streaming).
+- Utiliser la méthode CAB pour une proposition plus convaincante.
 
-**Conseil principal :** Respectez la règle des deux refus. Si le client refuse deux fois, ne cherchez pas à le culpabiliser, mais proposez un rappel ou terminez l'appel poliment : 'Je comprends tout à fait, je ne souhaite pas vous importuner davantage. Je vous souhaite une excellente journée.'
+**Conseil principal :** Pour un accueil conforme, utilisez la structure suivante : « Bonjour Madame Fabre, je m'appelle [Prénom] [Nom], je suis conseiller chez Kalyo Télécom, et c'est moi qui m'occupe de votre contrat. »
 
 ## Anomalies détectées par le contrôle
 
-- items attendus [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], reçus [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14]
+- citation introuvable dans la transcription : « N/A »

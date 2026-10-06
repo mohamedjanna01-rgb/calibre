@@ -1,0 +1,247 @@
+{
+  "appel": "12",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T22:21:50",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète et vérification de l'identité (nom, prénom, code postal, date de naissance).",
+        "preuves": [
+          {
+            "citation": "Salma Idrissi, conseillère chez Kalyo Télécom, votre opérateur. C 'est moi qui m 'occupe de votre contrabox Internet et je vous contacte pour faire un point rapide sur votre abonnement.",
+            "debut_s": 6.1,
+            "verification": "exacte",
+            "debut_verifie_s": 6.06
+          },
+          {
+            "citation": "Pour sécuriser notre échange, pouvez -vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?",
+            "debut_s": 35.5,
+            "verification": "exacte",
+            "debut_verifie_s": 35.48
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "Mention de l'enregistrement effectuée avant la découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 6.1,
+            "verification": "exacte",
+            "debut_verifie_s": 6.06
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller a vérifié le bon fonctionnement de la box et de la TV avant de proposer l'offre.",
+        "preuves": [
+          {
+            "citation": "Avant tout, tout fonctionne bien avec votre box et votre télévision ?",
+            "debut_s": 27.3,
+            "verification": "exacte",
+            "debut_verifie_s": 27.26
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La découverte est incomplète : la conseillère n'a interrogé la cliente que sur la télévision, sans aborder le foyer, les lignes mobiles ou les autres usages (tablettes, streaming).",
+        "preuves": []
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le besoin de regarder des émissions pendant les voyages a été identifié et exploité.",
+        "preuves": [
+          {
+            "citation": "Vous arrive -t -il de rater des émissions pendant vos voyages ?",
+            "debut_s": 63.9,
+            "verification": "exacte",
+            "debut_verifie_s": 63.94
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "La proposition est reliée aux besoins (replay pour les voyages, application pour la tablette).",
+        "preuves": [
+          {
+            "citation": "Vous auriez Horizon Cuisine, Horizon Voyages et Horizon Découverte. Le replay de 7 jours pour rattraper ce que vous avez manqué. Et l 'application Kalyo TV pour regarder sur votre tablette, même en vacances.",
+            "debut_s": 75.8,
+            "verification": "exacte",
+            "debut_verifie_s": 75.82
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "La conseillère a traité l'objection sur le prix avec un seul rebond.",
+        "preuves": [
+          {
+            "citation": "Je comprends. Écoutez, pour vous, je peux faire un geste.",
+            "debut_s": 107.0,
+            "verification": "exacte",
+            "debut_verifie_s": 107.04
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "La cliente est appelée par son nom durant l'échange.",
+        "preuves": [
+          {
+            "citation": "Merci Madame Chevalier.",
+            "debut_s": 51.6,
+            "verification": "exacte",
+            "debut_verifie_s": 51.58
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "non",
+        "justification": "Le récapitulatif tarifaire est incomplet car la date du premier prélèvement n'est pas mentionnée.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "oui",
+        "justification": "Le délai d'activation a été annoncé.",
+        "preuves": [
+          {
+            "citation": "Activation en 2 heures maximum.",
+            "debut_s": 122.7,
+            "verification": "exacte",
+            "debut_verifie_s": 122.7
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "statut": "oui",
+        "justification": "La procédure de sécurisation est respectée (question fermée, e-mail, signature, rappel sur le code SMS).",
+        "preuves": [
+          {
+            "citation": "Confirmez -vous souscrire au [inaudible] Horizon à ces conditions ?",
+            "debut_s": 122.7,
+            "verification": "exacte",
+            "debut_verifie_s": 122.7
+          },
+          {
+            "citation": "Saisissez -le vous -même dans l 'e -mail et ne le communiquez à personne.",
+            "debut_s": 145.4,
+            "verification": "exacte",
+            "debut_verifie_s": 145.42
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "Pas de refus client.",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Pas de demande d'escalade ou de transfert.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "oui",
+        "justification": "La conclusion est soignée avec questions, remerciements et prise de congé.",
+        "preuves": [
+          {
+            "citation": "Avez-vous d 'autres questions ?",
+            "debut_s": 189.2,
+            "verification": "exacte",
+            "debut_verifie_s": 189.18
+          },
+          {
+            "citation": "Merci pour votre confiance. Bon voyage à vous deux et très bonne journée.",
+            "debut_s": 196.9,
+            "verification": "exacte",
+            "debut_verifie_s": 196.9
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [
+      {
+        "numero": 2,
+        "motif": "Fausse promesse / Geste commercial non autorisé (prix)",
+        "citation": "Je vous bloque le prix à 6 ,99 euros par mois pendant un an.",
+        "debut_s": 107.0,
+        "verification": "exacte",
+        "debut_verifie_s": 107.04
+      }
+    ],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [
+      {
+        "regle": "[TVE-14]",
+        "ecart": "Utilisation d'une fausse urgence pour conclure la vente.",
+        "citation": "Mais je dois vous prévenir, cette remise n 'est valable qu 'aujourd 'hui.",
+        "debut_s": 107.0,
+        "verification": "exacte",
+        "debut_verifie_s": 107.04
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Excellente personnalisation de l'argumentaire en fonction des loisirs de la cliente",
+        "Respect rigoureux de la procédure de sécurisation de la vente (signature et code SMS)"
+      ],
+      "axes_progres": [
+        "Réaliser une découverte complète (foyer, mobiles, autres usages) pour ne pas passer à côté de besoins",
+        "Respecter strictement le catalogue des prix et les procédures de remise (ne pas faire de promesses non autorisées)",
+        "Éviter l'utilisation de la fausse urgence"
+      ],
+      "conseil_principal": "Pour garantir la conformité de vos ventes, assurez-vous de poser des questions sur l'ensemble des équipements du foyer et ne proposez jamais de remises non prévues par le catalogue, sous peine de commettre une fausse promesse."
+    }
+  },
+  "calcul": {
+    "oui": 10,
+    "applicables": 12,
+    "note_pct": 83,
+    "niveau_note": "Conforme",
+    "niveau": "Non conforme",
+    "eliminatoires": [
+      2
+    ],
+    "mises_en_garde": [],
+    "action": "Avertissement",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 14904,
+    "candidatesTokenCount": 1774,
+    "totalTokenCount": 21930,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14904
+      }
+    ],
+    "thoughtsTokenCount": 5252,
+    "serviceTier": "standard"
+  },
+  "combinaison": {
+    "passe1": "notations\\gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-passe1\\appel-12.json",
+    "passe2": "notations\\gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-passe2\\appel-12.json",
+    "eliminatoires_ajoutes_par_passe2": []
+  }
+}

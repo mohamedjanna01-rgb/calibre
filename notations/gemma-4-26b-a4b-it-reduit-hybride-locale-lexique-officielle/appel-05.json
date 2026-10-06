@@ -1,0 +1,260 @@
+{
+  "appel": "05",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T21:53:54",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète (prénom, nom, fonction) et identification du client effectuée.",
+        "preuves": [
+          {
+            "citation": "Je m 'appelle Karine Tazi, je suis votre conseiller clientèle et je vais m 'occuper de votre demande.",
+            "debut_s": 3.0,
+            "verification": "exacte",
+            "debut_verifie_s": 3.0
+          },
+          {
+            "citation": "Pour sécuriser votre dossier, pouvez -vous me donner votre numéro de ligne, votre code postal et votre date de naissance",
+            "debut_s": 14.6,
+            "verification": "exacte",
+            "debut_verifie_s": 14.62
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "L'enregistrement est mentionné avant la phase de découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 3.0,
+            "verification": "exacte",
+            "debut_verifie_s": 3.0
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "La conseillère ne coupe pas la parole au client.",
+        "preuves": []
+      },
+      {
+        "numero": 4,
+        "statut": "oui",
+        "justification": "La conseillère pose une question pertinente sur l'opérateur de la compagne pour identifier une opportunité.",
+        "preuves": [
+          {
+            "citation": "Avant tout, puis -je vous demander chez quel opérateur est votre compagne ?",
+            "debut_s": 44.7,
+            "verification": "exacte",
+            "debut_verifie_s": 44.74
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "La demande de départ est reformulée pour validation.",
+        "preuves": [
+          {
+            "citation": "Si je comprends bien [inaudible] Petit, vous quittez votre logement le mois prochain et vous n 'aurez plus besoin de votre boxe. C 'est bien ça ?",
+            "debut_s": 35.6,
+            "verification": "exacte",
+            "debut_verifie_s": 35.56
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "Le ton est empathique et chaleureux.",
+        "preuves": [
+          {
+            "citation": "Je comprends. Félicitations pour votre emménagement.",
+            "debut_s": 35.6,
+            "verification": "exacte",
+            "debut_verifie_s": 35.56
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "La situation concernant l'indisponibilité du service est expliquée.",
+        "preuves": [
+          {
+            "citation": "Alors, pour une résiliation, le service concerné n 'est pas disponible aujourd 'hui.",
+            "debut_s": 55.6,
+            "verification": "exacte",
+            "debut_verifie_s": 55.56
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le client est appelé par son nom durant l'échange.",
+        "preuves": [
+          {
+            "citation": "Merci Monsieur Petit.",
+            "debut_s": 14.6,
+            "verification": "exacte",
+            "debut_verifie_s": 14.62
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "non",
+        "justification": "La demande de résiliation est retardée en demandant au client de rappeler la semaine suivante.",
+        "preuves": [
+          {
+            "citation": "Le plus simple c 'est de nous rappeler la semaine prochaine.",
+            "debut_s": 62.3,
+            "verification": "exacte",
+            "debut_verifie_s": 62.26
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "statut": "oui",
+        "justification": "Une tentative de rétention via un transfert d'adresse est proposée.",
+        "preuves": [
+          {
+            "citation": "Nous pourrions peut -être transférer votre boxe à votre nouvelle adresse avec un débit plus rapide.",
+            "debut_s": 44.7,
+            "verification": "exacte",
+            "debut_verifie_s": 44.74
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Le refus de l'offre de rétention est traité dans l'item 10.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "non",
+        "justification": "Aucune proposition d'escalade ou de transfert vers le service compétent n'est faite.",
+        "preuves": [
+          {
+            "citation": "Malheureusement non, ce n 'est pas moi qui gère les résiliations.",
+            "debut_s": 68.2,
+            "verification": "exacte",
+            "debut_verifie_s": 68.18
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 16,
+        "statut": "oui",
+        "justification": "La conclusion inclut un récapitulatif, une question et une prise de congé polie.",
+        "preuves": [
+          {
+            "citation": "Pour récapituler, vous nous rappelez la semaine prochaine pour la résiliation. Avez -vous d 'autres questions [inaudible] Petit ?",
+            "debut_s": 78.0,
+            "verification": "exacte",
+            "debut_verifie_s": 78.04
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [
+      {
+        "type": "resiliation_retardee",
+        "citation": "Le plus simple c 'est de nous rappeler la semaine prochaine.",
+        "debut_s": 62.3,
+        "verification": "exacte",
+        "debut_verifie_s": 62.26
+      }
+    ],
+    "remarques_conformite": [
+      {
+        "regle": "[APPEL-10]",
+        "ecart": "Utilisation d'une expression à éviter qui décharge le conseiller de sa responsabilité.",
+        "citation": "Malheureusement non, ce n 'est pas moi qui gère les résiliations.",
+        "debut_s": 68.2,
+        "verification": "exacte",
+        "debut_verifie_s": 68.18
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Accueil et présentation très professionnels.",
+        "Bonne utilisation de la personnalisation et de l'empathie.",
+        "Tentative de rétention pertinente (transfert d'adresse)."
+      ],
+      "axes_progres": [
+        "Gestion des demandes de résiliation : ne jamais demander au client de rappeler, mais proposer une escalade ou un transfert de demande.",
+        "Posture : éviter les formulations qui ferment la porte à l'aide (ex: 'ce n'est pas moi qui gère')."
+      ],
+      "conseil_principal": "Face à une demande de résiliation, ne rejetez pas la responsabilité sur un autre service. Dites plutôt : 'Je vais immédiatement transmettre votre demande au service compétent pour qu'ils puissent traiter votre résiliation, ils reviendront vers vous.'"
+    }
+  },
+  "calcul": {
+    "oui": 10,
+    "applicables": 12,
+    "note_pct": 83,
+    "niveau_note": "Conforme",
+    "niveau": "Conforme",
+    "eliminatoires": [],
+    "mises_en_garde": [
+      "resiliation_retardee"
+    ],
+    "action": "Mise en garde",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 13516,
+    "candidatesTokenCount": 1727,
+    "totalTokenCount": 21298,
+    "cachedContentTokenCount": 12275,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 13516
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12275
+      }
+    ],
+    "thoughtsTokenCount": 6055,
+    "serviceTier": "standard"
+  },
+  "combinaison": {
+    "passe1": "notations\\gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-passe1\\appel-05.json",
+    "passe2": "notations\\gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-passe2\\appel-05.json",
+    "eliminatoires_ajoutes_par_passe2": []
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "appel": "11",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T14:50:17",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète (nom, entreprise, fonction, gestion du contrat, motif) et vérification de l'identité effectuée.",
+        "preuves": [
+          {
+            "citation": "Hamza Benjeloun, conseiller chez Kalyo Télécom, votre opérateur. C 'est moi qui m 'occupe de votre contract box internet et je vous contacte pour faire un point rapide sur votre abonnement.",
+            "debut_s": 4.4,
+            "verification": "approchée",
+            "debut_verifie_s": 4.44
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "L'enregistrement est mentionné avant la phase de découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 9.7,
+            "verification": "exacte",
+            "debut_verifie_s": 9.72
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "non",
+        "justification": "Le conseiller a vérifié le fonctionnement, mais n'a pas arrêté la vente après le signalement d'un problème technique comme l'exige la procédure [TVE-05].",
+        "preuves": [
+          {
+            "citation": "Beuf, ces derniers soirs internet a coupé deux ou trois fois.",
+            "debut_s": 37.1,
+            "verification": "exacte",
+            "debut_verifie_s": 37.14
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La découverte est incomplète : elle ne couvre pas les lignes mobiles (nécessaires pour l'Avantage Foyer) ni les usages sur tablettes ou streaming.",
+        "preuves": []
+      },
+      {
+        "numero": 5,
+        "statut": "non",
+        "justification": "Aucune reformulation de la demande du client ni de réassurance face au problème de connexion signalé.",
+        "preuves": []
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "Le ton est poli et professionnel tout au long de l'échange.",
+        "preuves": []
+      },
+      {
+        "numero": 7,
+        "statut": "non",
+        "justification": "Le conseiller a tenté de traiter une objection alors qu'il aurait dû interrompre la vente suite au signalement d'une panne [TVE-05].",
+        "preuves": [
+          {
+            "citation": "Je comprends, mais avec le premier mois offert, vous ne prenez aucun risque et vous pourrez en profiter dès que tout sera rentré dans l 'ordre.",
+            "debut_s": 75.1,
+            "verification": "exacte",
+            "debut_verifie_s": 75.14
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le client est appelé par son nom durant l'échange.",
+        "preuves": [
+          {
+            "citation": "Merci, Monsieur Girard.",
+            "debut_s": 32.9,
+            "verification": "exacte",
+            "debut_verifie_s": 32.88
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "L'item s'applique uniquement si une vente est conclue.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "L'item s'applique uniquement si une vente est conclue.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "L'item s'applique uniquement si une vente est conclue.",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "oui",
+        "justification": "Le conseiller a respecté le refus sans insister et s'est excusé.",
+        "preuves": [
+          {
+            "citation": "Très bien, je respecte votre choix, monsieur Girard, et je suis désolé de ne pas avoir pu vous aider davantage aujourd 'hui.",
+            "debut_s": 83.5,
+            "verification": "exacte",
+            "debut_verifie_s": 83.5
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "statut": "non",
+        "justification": "Le conseiller n'a pas pris en charge le problème ou transféré le client vers le service compétent, il s'est contenté de lui conseiller d'appeler lui-même.",
+        "preuves": [
+          {
+            "citation": "Pour vos coupures, je vous conseille d 'appeler le service client.",
+            "debut_s": 83.5,
+            "verification": "exacte",
+            "debut_verifie_s": 83.5
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "statut": "oui",
+        "justification": "La conclusion est soignée avec remerciements et prise de congé.",
+        "preuves": [
+          {
+            "citation": "Merci pour votre temps, monsieur Girard. Très bonne soirée, au revoir.",
+            "debut_s": 94.4,
+            "verification": "exacte",
+            "debut_verifie_s": 94.4
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [
+      {
+        "type": "panne_ignoree",
+        "citation": "Beuf, ces derniers soirs internet a coupé deux ou trois fois.",
+        "debut_s": 37.1,
+        "verification": "exacte",
+        "debut_verifie_s": 37.14
+      }
+    ],
+    "remarques_conformite": [],
+    "coaching": {
+      "points_forts": [
+        "Accueil et présentation très complets.",
+        "Respect de l'identité du client et politesse.",
+        "Gestion correcte du refus final sans insistance."
+      ],
+      "axes_progres": [
+        "Respect impératif de la procédure [TVE-05] : arrêt immédiat de la vente en cas de problème technique.",
+        "Prise en charge active des incidents (transfert ou diagnostic) plutôt qu'un simple conseil d'appel.",
+        "Approfondissement de la découverte (lignes mobiles et usages numériques)."
+      ],
+      "conseil_principal": "Dès qu'un client signale une anomalie technique, vous devez impérativement stopper votre argumentaire commercial pour traiter le problème ou proposer un transfert, conformément à la règle [TVE-05]. Phrase modèle : « Je suis navré d'apprendre ces coupures, Monsieur Girard. Avant de poursuivre, je préfère que nous réglions ce problème de connexion. Je vais vous transférer vers le service technique pour faire un diagnostic. »"
+    }
+  },
+  "calcul": {
+    "oui": 6,
+    "applicables": 11,
+    "note_pct": 55,
+    "niveau_note": "Insuffisant",
+    "niveau": "Insuffisant",
+    "eliminatoires": [],
+    "mises_en_garde": [
+      "insuffisant",
+      "panne_ignoree"
+    ],
+    "action": "Mise en garde",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 14578,
+    "candidatesTokenCount": 1550,
+    "totalTokenCount": 27910,
+    "cachedContentTokenCount": 14322,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14578
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14322
+      }
+    ],
+    "thoughtsTokenCount": 11782,
+    "serviceTier": "standard"
+  }
+}

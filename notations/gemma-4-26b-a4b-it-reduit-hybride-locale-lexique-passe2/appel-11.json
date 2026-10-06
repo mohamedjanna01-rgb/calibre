@@ -1,7 +1,7 @@
 {
   "appel": "11",
   "modele": "gemma-4-26b-a4b-it",
-  "date": "2026-10-06T15:58:38",
+  "date": "2026-10-07T00:01:37",
   "source_transcription": "hybride-locale-lexique",
   "referentiel": "réduit",
   "reponse_ia": {
@@ -9,26 +9,20 @@
       {
         "numero": 1,
         "statut": "oui",
-        "justification": "Présentation complète (nom, entreprise, fonction), mention de la gestion du contrat, motif clair et vérification de l'identité.",
+        "justification": "Présentation complète (nom, entreprise, fonction, gestion du contrat), motif clair et vérification de l'identité effectuée.",
         "preuves": [
           {
-            "citation": "Hamza Benjeloun, conseiller chez Kalyo Télécom, votre opérateur.",
+            "citation": "Hamza Benjeloun, conseiller chez Kalyo Télécom, votre opérateur. C 'est moi qui m 'occupe de votre contract box internet et je vous contacte pour faire un point rapide sur votre abonnement.",
             "debut_s": 4.4,
-            "verification": "exacte",
+            "verification": "approchée",
             "debut_verifie_s": 4.44
-          },
-          {
-            "citation": "C 'est moi qui m 'occupe de votre contract box internet et je vous contacte pour faire un point rapide sur votre abonnement.",
-            "debut_s": 9.7,
-            "verification": "exacte",
-            "debut_verifie_s": 9.72
           }
         ]
       },
       {
         "numero": 2,
         "statut": "oui",
-        "justification": "L'enregistrement est mentionné avant la découverte.",
+        "justification": "Mention de l'enregistrement faite avant la phase de découverte.",
         "preuves": [
           {
             "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
@@ -41,7 +35,7 @@
       {
         "numero": 3,
         "statut": "non",
-        "justification": "Le client signale un problème technique de coupure internet, mais le conseiller ignore le problème pour poursuivre l'argumentaire de vente.",
+        "justification": "Le conseiller ignore le signalement d'une coupure internet et enchaîne sur la découverte et l'argumentaire de vente au lieu de traiter le problème.",
         "preuves": [
           {
             "citation": "Beuf, ces derniers soirs internet a coupé deux ou trois fois.",
@@ -50,7 +44,7 @@
             "debut_verifie_s": 37.14
           },
           {
-            "citation": "Dites -moi, qui regarde la télévision chez vous ?",
+            "citation": "Ça devrait se régler. Dites -moi, qui regarde la télévision chez vous ?",
             "debut_s": 40.7,
             "verification": "exacte",
             "debut_verifie_s": 40.7
@@ -60,36 +54,36 @@
       {
         "numero": 4,
         "statut": "non",
-        "justification": "La découverte ne couvre pas l'ensemble des points requis (lignes mobiles/téléphones).",
+        "justification": "La découverte est incomplète : elle ne couvre que la télévision et ne mentionne pas les téléphones/lignes, ni les usages sur tablettes ou streaming.",
         "preuves": [
           {
-            "citation": "Ma femme et moi. On aime bien les séries policières.",
-            "debut_s": 47.0,
+            "citation": "Dites -moi, qui regarde la télévision chez vous ?",
+            "debut_s": 40.7,
             "verification": "exacte",
-            "debut_verifie_s": 46.96
+            "debut_verifie_s": 40.7
           }
         ]
       },
       {
         "numero": 5,
         "statut": "oui",
-        "justification": "Le besoin de programmes en replay a été identifié.",
+        "justification": "Le conseiller repère le besoin de regarder des programmes en différé (replay) suite à la réponse du client.",
         "preuves": [
           {
-            "citation": "On en rate pas mal, on rentre tard.",
-            "debut_s": 53.2,
+            "citation": "Vous regardez vos épisodes quand vous rentrez.",
+            "debut_s": 55.0,
             "verification": "exacte",
-            "debut_verifie_s": 53.18
+            "debut_verifie_s": 55.02
           }
         ]
       },
       {
         "numero": 6,
         "statut": "oui",
-        "justification": "La proposition du Pack Horizon est reliée au besoin de replay et de séries.",
+        "justification": "La proposition du Pack Horizon est directement reliée aux besoins de télévision et de replay exprimés.",
         "preuves": [
           {
-            "citation": "Alors j 'ai exactement ce qu 'il vous faut. Le pack Horizon. La chaîne Horizon Polar, Horizon Series, plus de 2000 films et séries à la demande et surtout un replay de 7 jours.",
+            "citation": "Le pack Horizon. La chaîne Horizon Polar, Horizon Series, plus de 2000 films et séries à la demande et surtout un replay de 7 jours.",
             "debut_s": 55.0,
             "verification": "exacte",
             "debut_verifie_s": 55.02
@@ -99,7 +93,7 @@
       {
         "numero": 7,
         "statut": "oui",
-        "justification": "Un seul rebond effectué suite à l'objection sur l'état de la connexion.",
+        "justification": "Le conseiller effectue un seul rebond suite à l'objection du client et s'arrête après le second refus.",
         "preuves": [
           {
             "citation": "Je comprends, mais avec le premier mois offert, vous ne prenez aucun risque et vous pourrez en profiter dès que tout sera rentré dans l 'ordre.",
@@ -112,41 +106,48 @@
       {
         "numero": 8,
         "statut": "oui",
-        "justification": "Le conseiller utilise le nom du client au cours de l'échange.",
+        "justification": "Le client est appelé par son nom tout au long de l'échange.",
         "preuves": [
           {
-            "citation": "Merci, Monsieur Girard.",
-            "debut_s": 32.9,
+            "citation": "Bonjour, Monsieur Girard.",
+            "debut_s": 1.3,
             "verification": "exacte",
-            "debut_verifie_s": 32.88
+            "debut_verifie_s": 1.34
           }
         ]
       },
       {
         "numero": 9,
-        "statut": "na",
-        "justification": "Aucune vente n'a été conclue.",
-        "preuves": []
+        "statut": "non",
+        "justification": "Le récapitulatif tarifaire est incomplet car la date du premier prélèvement n'est pas mentionnée.",
+        "preuves": [
+          {
+            "citation": "le premier mois est offert, puis c 'est 12 ,99€ par mois, sans engagement.",
+            "debut_s": 67.8,
+            "verification": "exacte",
+            "debut_verifie_s": 67.84
+          }
+        ]
       },
       {
         "numero": 10,
-        "statut": "na",
-        "justification": "Aucune vente n'a été conclue.",
+        "statut": "non",
+        "justification": "Le délai d'activation n'est pas annoncé lors de la proposition.",
         "preuves": []
       },
       {
         "numero": 11,
         "statut": "na",
-        "justification": "Aucune vente n'a été conclue.",
+        "justification": "",
         "preuves": []
       },
       {
         "numero": 12,
         "statut": "oui",
-        "justification": "Le conseiller s'excuse de ne pas avoir pu aider après le refus du client.",
+        "justification": "Le conseiller accepte le refus sans insister et présente ses excuses.",
         "preuves": [
           {
-            "citation": "je suis désolé de ne pas avoir pu vous aider davantage aujourd 'hui.",
+            "citation": "Très bien, je respecte votre choix, monsieur Girard, et je suis désolé de ne pas avoir pu vous aider davantage aujourd 'hui.",
             "debut_s": 83.5,
             "verification": "exacte",
             "debut_verifie_s": 83.5
@@ -156,20 +157,20 @@
       {
         "numero": 13,
         "statut": "non",
-        "justification": "Le conseiller ne prend pas en charge le problème technique ni ne transfère l'appel, il se contente de rediriger le client vers le service client.",
+        "justification": "Le conseiller n'a pas orienté le client vers le service concerné ou proposé un transfert au moment où la panne a été signalée.",
         "preuves": [
           {
-            "citation": "Pour vos coupures, je vous conseille d 'appeler le service client.",
-            "debut_s": 83.5,
+            "citation": "Ça devrait se régler. Dites -moi, qui regarde la télévision chez vous ?",
+            "debut_s": 40.7,
             "verification": "exacte",
-            "debut_verifie_s": 83.5
+            "debut_verifie_s": 40.7
           }
         ]
       },
       {
         "numero": 14,
         "statut": "oui",
-        "justification": "La prise de congé est polie et inclut des remerciements.",
+        "justification": "La conclusion est soignée avec remerciements et prise de congé.",
         "preuves": [
           {
             "citation": "Merci pour votre temps, monsieur Girard. Très bonne soirée, au revoir.",
@@ -193,22 +194,22 @@
     "remarques_conformite": [],
     "coaching": {
       "points_forts": [
-        "Excellente présentation initiale et respect de l'identité client.",
-        "Personnalisation fluide durant l'échange.",
-        "Gestion respectueuse du refus final."
+        "Accueil professionnel et présentation claire.",
+        "Bonne personnalisation et respect de la règle des deux refus.",
+        "Argumentaire lié aux besoins (replay/séries)."
       ],
       "axes_progres": [
-        "Respect de la procédure en cas de problème technique : dès qu'une panne est signalée, la vente doit être stoppée.",
-        "Effectuer une découverte complète incluant les lignes mobiles pour ne pas passer à côté d'opportunités.",
-        "Proposer un transfert ou une prise en charge réelle plutôt que de simplement inviter le client à rappeler un autre service."
+        "Respect de la procédure en cas de signalement technique.",
+        "Exhaustivité de la phase de découverte client.",
+        "Précision du récapitulatif tarifaire (date de prélèvement)."
       ],
-      "conseil_principal": "Dès qu'un client évoque un dysfonctionnement, stoppez immédiatement votre argumentaire commercial pour traiter l'incident. Par exemple : « Je suis navré d'apprendre cela, Monsieur Girard. Avant de poursuivre, je dois m'assurer que nous traitons ce problème technique. »"
+      "conseil_principal": "Si un client signale une panne ou un dysfonctionnement, vous devez impérativement arrêter votre démarche commerciale pour traiter le problème ou proposer un transfert, conformément à la règle [TVE-05]. Ne dites pas « ça devrait se régler » pour enchaîner sur la vente."
     }
   },
   "calcul": {
     "oui": 8,
-    "applicables": 11,
-    "note_pct": 73,
+    "applicables": 13,
+    "note_pct": 62,
     "niveau_note": "À améliorer",
     "niveau": "À améliorer",
     "eliminatoires": [],
@@ -219,14 +220,14 @@
     "anomalies": []
   },
   "usage": {
-    "promptTokenCount": 14578,
-    "candidatesTokenCount": 1660,
-    "totalTokenCount": 22365,
+    "promptTokenCount": 14651,
+    "candidatesTokenCount": 1701,
+    "totalTokenCount": 22226,
     "cachedContentTokenCount": 12276,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 14578
+        "tokenCount": 14651
       }
     ],
     "cacheTokensDetails": [
@@ -235,7 +236,7 @@
         "tokenCount": 12276
       }
     ],
-    "thoughtsTokenCount": 6127,
+    "thoughtsTokenCount": 5874,
     "serviceTier": "standard"
   }
 }

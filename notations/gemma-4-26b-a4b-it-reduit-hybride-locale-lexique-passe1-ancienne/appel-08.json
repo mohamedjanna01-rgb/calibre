@@ -1,0 +1,210 @@
+{
+  "appel": "08",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T14:44:10",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète (nom, entreprise, fonction), mention de la gestion du contrat et vérification de l'identité.",
+        "preuves": [
+          {
+            "citation": "Leila Amrani, conseillère chez Kalyo Télécom, votre opérateur. Bonjour, c 'est moi qui m 'occupe de votre contrat Box Internet",
+            "debut_s": 4.0,
+            "verification": "exacte",
+            "debut_verifie_s": 4.02
+          },
+          {
+            "citation": "Pour sécuriser notre échange, pouvez -vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?",
+            "debut_s": 20.6,
+            "verification": "exacte",
+            "debut_verifie_s": 20.58
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "L'enregistrement est mentionné avant la phase de découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 4.0,
+            "verification": "exacte",
+            "debut_verifie_s": 4.02
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "non",
+        "justification": "La conseillère n'a pas vérifié si tout fonctionnait correctement avant de proposer l'avantage client.",
+        "preuves": []
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La découverte est incomplète : elle ne traite que des lignes mobiles, sans aborder le foyer, la télévision ou les usages (tablettes, streaming).",
+        "preuves": [
+          {
+            "citation": "Vos téléphones portables sont -ils chez nous ou chez un autre opérateur ?",
+            "debut_s": 32.6,
+            "verification": "exacte",
+            "debut_verifie_s": 32.64
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le besoin de réduire les coûts mobiles a été repéré grâce à la réponse du client sur ses tarifs actuels.",
+        "preuves": [
+          {
+            "citation": "Chez un autre opérateur. Deux lignes, à 11 ,99 € chacune.",
+            "debut_s": 40.9,
+            "verification": "exacte",
+            "debut_verifie_s": 40.9
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "La proposition est directement reliée à la situation du client (possession d'une Box).",
+        "preuves": [
+          {
+            "citation": "Comme vous avez déjà une Box chez nous, vous avez droit à l 'avantage foyer.",
+            "debut_s": 44.8,
+            "verification": "exacte",
+            "debut_verifie_s": 44.8
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "La conseillère a utilisé un seul rebond après le premier refus.",
+        "preuves": [
+          {
+            "citation": "Puis -je vous demander ce qui vous retient le plus ? La démarche ou le fait d 'être satisfaite de votre opérateur actuel ?",
+            "debut_s": 76.7,
+            "verification": "exacte",
+            "debut_verifie_s": 76.68
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le client est appelé par son nom tout au long de l'échange.",
+        "preuves": [
+          {
+            "citation": "Merci Madame Moro.",
+            "debut_s": 32.6,
+            "verification": "exacte",
+            "debut_verifie_s": 32.64
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "Pas de vente réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "Pas de vente réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "Pas de vente réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "oui",
+        "justification": "La conseillère s'est excusée de ne pas avoir trouvé d'offre adaptée après le refus.",
+        "preuves": [
+          {
+            "citation": "Je suis désolée de ne pas avoir trouvé une offre qui vous convienne vraiment aujourd 'hui.",
+            "debut_s": 88.9,
+            "verification": "exacte",
+            "debut_verifie_s": 88.88
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Aucune demande d'escalade ou de transfert.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "oui",
+        "justification": "La conclusion est soignée avec remerciements et prise de congé.",
+        "preuves": [
+          {
+            "citation": "Merci pour le temps que vous m 'avez accordé, Madame Moreau. Je vous souhaite une excellente journée. Au revoir,",
+            "debut_s": 102.4,
+            "verification": "exacte",
+            "debut_verifie_s": 102.42
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [],
+    "coaching": {
+      "points_forts": [
+        "Professionnalisme et politesse exemplaires.",
+        "Excellente gestion de l'objection (méthode AQRV avec un rebond pertinent).",
+        "Respect de la règle des deux refus."
+      ],
+      "axes_progres": [
+        "Vérification systématique du bon fonctionnement des services avant de lancer l'argumentaire.",
+        "Approfondissement de la phase de découverte pour identifier d'autres opportunités (TV, usages, membres du foyer)."
+      ],
+      "conseil_principal": "Avant de proposer un avantage, posez toujours la question de vérification : « Est-ce que tout fonctionne correctement avec votre abonnement actuel ? ». De même, une découverte complète (TV, usages) vous permettrait de ne pas passer à côté d'autres ventes potentielles."
+    }
+  },
+  "calcul": {
+    "oui": 8,
+    "applicables": 10,
+    "note_pct": 80,
+    "niveau_note": "Conforme",
+    "niveau": "Conforme",
+    "eliminatoires": [],
+    "mises_en_garde": [],
+    "action": "Rien à signaler",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 14606,
+    "candidatesTokenCount": 1452,
+    "totalTokenCount": 20805,
+    "cachedContentTokenCount": 12276,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14606
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12276
+      }
+    ],
+    "thoughtsTokenCount": 4747,
+    "serviceTier": "standard"
+  }
+}

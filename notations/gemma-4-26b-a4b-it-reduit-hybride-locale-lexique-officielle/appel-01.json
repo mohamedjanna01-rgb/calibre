@@ -1,0 +1,245 @@
+{
+  "appel": "01",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T21:37:57",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Le conseiller se présente (prénom, nom, fonction), prend en charge la demande et procède à l'identification et l'authentification du client.",
+        "preuves": [
+          {
+            "citation": "je m 'appelle Yanis Ben Ali, je suis votre conseiller clientèle et je vais m 'occuper de votre demande aujourd 'hui.",
+            "debut_s": 2.8,
+            "verification": "exacte",
+            "debut_verifie_s": 2.8
+          },
+          {
+            "citation": "Pour sécuriser votre dossier, pouvez -vous me donner votre numéro de ligne, votre code postale et votre date de naissance ?",
+            "debut_s": 19.0,
+            "verification": "exacte",
+            "debut_verifie_s": 19.04
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "La mention de l'enregistrement est faite avant la découverte.",
+        "preuves": [
+          {
+            "citation": "Avant de commencer, je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 2.8,
+            "verification": "exacte",
+            "debut_verifie_s": 2.8
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller laisse la cliente s'exprimer sans l'interrompre.",
+        "preuves": []
+      },
+      {
+        "numero": 4,
+        "statut": "oui",
+        "justification": "Le conseiller pose des questions pertinentes pour diagnostiquer le problème (couleur du voyant, redémarrage).",
+        "preuves": [
+          {
+            "citation": "Pouvez -vous me dire de quelle couleur est le voyant de votre box ?",
+            "debut_s": 63.0,
+            "verification": "exacte",
+            "debut_verifie_s": 63.02
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "La cliente exprimant un mécontentement, le conseiller rassure par l'empathie et reformule précisément les faits avant validation.",
+        "preuves": [
+          {
+            "citation": "Je comprends tout à fait. C 'est très gênant quand on travaille de chez soi.",
+            "debut_s": 63.0,
+            "verification": "exacte",
+            "debut_verifie_s": 63.02
+          },
+          {
+            "citation": "Si je résume, Madame Lefebvre, depuis ce matin, vous n 'avez plus Internet, le voyant est orange fixe et le redémarrage n 'a rien donné. C 'est bien ça ?",
+            "debut_s": 84.5,
+            "verification": "exacte",
+            "debut_verifie_s": 84.52
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "Le ton est empathique et adapté à la situation de la cliente.",
+        "preuves": [
+          {
+            "citation": "Je comprends tout à fait. C 'est très gênant quand on travaille de chez soi.",
+            "debut_s": 63.0,
+            "verification": "exacte",
+            "debut_verifie_s": 63.02
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "L'explication de la cause technique (câble débranché) est simple et sans jargon.",
+        "preuves": [
+          {
+            "citation": "Un voyant orange fixe signifie que la box ne reçoit plus le signal de la fibre.",
+            "debut_s": 100.6,
+            "verification": "exacte",
+            "debut_verifie_s": 100.62
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le conseiller utilise le nom de la cliente au cours de l'échange.",
+        "preuves": [
+          {
+            "citation": "Si je résume, Madame Lefebvre, depuis ce matin, vous n 'avez plus Internet, le voyant est orange fixe et le redémarrage n 'a rien donné. C 'est bien ça ?",
+            "debut_s": 84.5,
+            "verification": "exacte",
+            "debut_verifie_s": 84.52
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "Aucune demande de résiliation n'a été formulée.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "Aucune tentative de rétention n'était nécessaire.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "Aucun geste commercial ou promesse hors limites n'a été fait.",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "oui",
+        "justification": "Le conseiller détecte le problème de couverture Wi-Fi et propose le répéteur après la résolution de la panne.",
+        "preuves": [
+          {
+            "citation": "Votre Wi -Fi capte -t -il bien dans toutes les pièces de votre logement ?",
+            "debut_s": 139.9,
+            "verification": "exacte",
+            "debut_verifie_s": 139.88
+          },
+          {
+            "citation": "Nous avons un récepteur Wi -Fi qui se branche simplement sur une prise, à mi -chemin entre la [inaudible] et votre bureau, et qui renforce le signal à l 'étage.",
+            "debut_s": 152.9,
+            "verification": "exacte",
+            "debut_verifie_s": 152.88
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Aucune objection n'a été formulée par la cliente.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "na",
+        "justification": "Aucune escalade n'était nécessaire.",
+        "preuves": []
+      },
+      {
+        "numero": 15,
+        "statut": "oui",
+        "justification": "La vente est sécurisée : récapitulatif complet, confirmation de l'adresse, envoi d'e-mail et instruction pour la signature par SMS.",
+        "preuves": [
+          {
+            "citation": "Je récapitule votre commande. Un récepteur [inaudible] -Fi Kalyo, en location à trois euros par mois, sans engagement, ajoutez à votre prochaine facture.",
+            "debut_s": 206.5,
+            "verification": "exacte",
+            "debut_verifie_s": 206.46
+          },
+          {
+            "citation": "Saisissez -le vous -même dans l 'e -mail et ne le communiquez à personne.",
+            "debut_s": 240.1,
+            "verification": "exacte",
+            "debut_verifie_s": 240.1
+          }
+        ]
+      },
+      {
+        "numero": 16,
+        "statut": "oui",
+        "justification": "La conclusion comprend un récapitulatif, une question ouverte et une prise de congé soignée.",
+        "preuves": [
+          {
+            "citation": "Votre connexion internet est rétablie. Le souci venait du câble -fibre légèrement débranché et votre répéteur Wi -Fi arrive sous 3 à 5 jours pour améliorer le signal dans votre bureau. Avez-vous d 'autres questions, Mme Lefebvre ?",
+            "debut_s": 265.1,
+            "verification": "exacte",
+            "debut_verifie_s": 265.1
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [],
+    "coaching": {
+      "points_forts": [
+        "Excellente gestion de l'empathie et de l'émotion de la cliente.",
+        "Diagnostic technique efficace permettant une résolution immédiate.",
+        "Très bonne détection d'un besoin complémentaire (Wi-Fi) après la résolution du problème.",
+        "Procédure de sécurisation de la vente parfaitement respectée."
+      ],
+      "axes_progres": [
+        "Améliorer la clarté de certaines formulations lors de la proposition commerciale."
+      ],
+      "conseil_principal": "Attention à la syntaxe de vos questions pour maintenir un haut niveau de professionnalisme. Au lieu de dire \"Soyez -vous que je vous l 'envoie ?\", utilisez \"Souhaitez-vous que je vous l'envoie ?\"."
+    }
+  },
+  "calcul": {
+    "oui": 11,
+    "applicables": 11,
+    "note_pct": 100,
+    "niveau_note": "Excellent",
+    "niveau": "Excellent",
+    "eliminatoires": [],
+    "mises_en_garde": [],
+    "action": "Valorisation",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 14550,
+    "candidatesTokenCount": 1905,
+    "totalTokenCount": 22855,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14550
+      }
+    ],
+    "thoughtsTokenCount": 6400,
+    "serviceTier": "standard"
+  },
+  "combinaison": {
+    "passe1": "notations\\gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-passe1\\appel-01.json",
+    "passe2": "notations\\gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-passe2\\appel-01.json",
+    "eliminatoires_ajoutes_par_passe2": []
+  }
+}

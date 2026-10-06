@@ -1,7 +1,7 @@
 {
   "appel": "03",
   "modele": "gemma-4-26b-a4b-it",
-  "date": "2026-10-06T15:57:39",
+  "date": "2026-10-06T22:50:47",
   "source_transcription": "hybride-locale-lexique",
   "referentiel": "réduit",
   "reponse_ia": {
@@ -9,7 +9,7 @@
       {
         "numero": 1,
         "statut": "oui",
-        "justification": "Présentation du nom, prénom et fonction effectuée, et l'identité du client vérifiée.",
+        "justification": "Présentation de la conseillère et identification du client effectuées.",
         "preuves": [
           {
             "citation": "Ina Scaduri, je suis votre conseillère clientèle, et je vais m 'occuper de votre demande.",
@@ -22,7 +22,7 @@
       {
         "numero": 2,
         "statut": "oui",
-        "justification": "L'enregistrement est mentionné avant la découverte.",
+        "justification": "La mention de l'enregistrement est faite avant la phase de découverte.",
         "preuves": [
           {
             "citation": "Je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité.",
@@ -35,7 +35,7 @@
       {
         "numero": 3,
         "statut": "oui",
-        "justification": "La conseillère laisse le client exprimer sa frustration sans l'interrompre au début.",
+        "justification": "Le conseiller laisse le client exprimer sa frustration sans l'interrompre.",
         "preuves": [
           {
             "citation": "Tous les soirs, Internet coupe. Tous les soirs. J 'ai appelé lundi. On m 'a dit de redémarrer la box. J 'ai rappelé mercredi. On m 'a dit que ça allait s 'arranger. Et là ?",
@@ -48,7 +48,7 @@
       {
         "numero": 4,
         "statut": "oui",
-        "justification": "La conseillère identifie le créneau horaire des coupures et utilise les outils de diagnostic.",
+        "justification": "La conseillère pose une question pertinente pour diagnostiquer l'origine de la panne.",
         "preuves": [
           {
             "citation": "À quelle heure ont lieu les coupures ?",
@@ -61,10 +61,10 @@
       {
         "numero": 5,
         "statut": "non",
-        "justification": "La conseillère n'a pas reformulé le problème du client pour obtenir sa validation avant de passer au diagnostic.",
+        "justification": "Aucune reformulation ni réassurance n'est apportée malgré le mécontentement exprimé par le client.",
         "preuves": [
           {
-            "citation": "Oui, oui, j 'ai compris.",
+            "citation": "Oui, oui, j 'ai compris. Je vois vos appels dans l 'historique.",
             "debut_s": 66.3,
             "verification": "exacte",
             "debut_verifie_s": 66.26
@@ -74,7 +74,7 @@
       {
         "numero": 6,
         "statut": "non",
-        "justification": "La conseillère utilise l'expression interdite « Calmez-vous » et se défausse sur ses collègues.",
+        "justification": "Utilisation de la phrase interdite 'Calmez-vous' et défausse sur les collègues.",
         "preuves": [
           {
             "citation": "Calmez -vous, Monsieur Martin. Ce n 'est pas moi qui ai traité vos appels précédents. Je ne peux pas savoir ce que mes collègues vous ont dit.",
@@ -87,7 +87,7 @@
       {
         "numero": 7,
         "statut": "oui",
-        "justification": "La cause du problème (signal trop faible) est expliquée clairement.",
+        "justification": "La cause technique et la solution (intervention technicien) sont expliquées clairement.",
         "preuves": [
           {
             "citation": "Effectivement, je vois plusieurs coupures chaque soir sur les sept derniers jours avec un signal libre trop faible.",
@@ -113,49 +113,49 @@
       {
         "numero": 9,
         "statut": "na",
-        "justification": "",
+        "justification": "La situation de résiliation ne s'est pas présentée.",
         "preuves": []
       },
       {
         "numero": 10,
         "statut": "na",
-        "justification": "",
+        "justification": "Aucune tentative de rétention n'était nécessaire.",
         "preuves": []
       },
       {
         "numero": 11,
         "statut": "na",
-        "justification": "",
+        "justification": "Aucun geste commercial ou promesse n'a été formulé.",
         "preuves": []
       },
       {
         "numero": 12,
         "statut": "na",
-        "justification": "",
+        "justification": "Aucune opportunité commerciale n'a été détectée.",
         "preuves": []
       },
       {
         "numero": 13,
         "statut": "na",
-        "justification": "",
+        "justification": "Aucune offre n'a été proposée, donc aucune objection à traiter.",
         "preuves": []
       },
       {
         "numero": 14,
         "statut": "na",
-        "justification": "La prise de rendez-vous technicien n'est pas considérée comme une escalade selon les règles.",
+        "justification": "L'appel ne nécessitait pas d'escalade ou de transfert vers un responsable.",
         "preuves": []
       },
       {
         "numero": 15,
         "statut": "na",
-        "justification": "",
+        "justification": "Aucune vente n'a été conclue.",
         "preuves": []
       },
       {
         "numero": 16,
         "statut": "oui",
-        "justification": "La conclusion comprend le récapitulatif, la question sur d'autres besoins et les remerciements.",
+        "justification": "Le récapitulatif, la question de clôture et les remerciements sont présents.",
         "preuves": [
           {
             "citation": "Pour y capituler, les coupures viennent d 'un signal fibre trop faible et un technicien passe jeudi entre 14h et 18h. Avez -vous d 'autres questions ?",
@@ -168,26 +168,19 @@
     ],
     "eliminatoires": [],
     "fautes_mise_en_garde": [],
-    "remarques_conformite": [
-      {
-        "regle": "[APPEL-03]",
-        "ecart": "La procédure d'authentification standard (code postal et date de naissance) n'a pas été appliquée lors de la première demande (l'adresse a été demandée à la place).",
-        "citation": "pouvez -vous me donner votre numéro de ligne, votre code postale et votre adresse ?",
-        "debut_s": 20.6,
-        "verification": "exacte",
-        "debut_verifie_s": 20.6
-      }
-    ],
+    "remarques_conformite": [],
     "coaching": {
       "points_forts": [
-        "Utilisation pertinente des outils de diagnostic pour identifier la cause technique.",
-        "Proposition d'une solution concrète (rendez-vous technicien)."
+        "Identification et accueil efficaces",
+        "Diagnostic technique pertinent et solution adaptée",
+        "Conclusion complète et structurée"
       ],
       "axes_progres": [
-        "Gestion de l'agacement : ne jamais dire « Calmez-vous » et ne pas rejeter la faute sur les collègues.",
-        "Méthode de reformulation : valider la compréhension du problème avant de proposer une action."
+        "Gestion de l'agacement du client (éviter les phrases interdites)",
+        "Posture professionnelle vis-à-vis des collègues",
+        "Utilisation de la reformulation pour valider la compréhension"
       ],
-      "conseil_principal": "Pour gérer un client mécontent, utilisez la méthode CALME : accueillez l'émotion avec empathie au lieu de lui demander de se calmer, et reformulez précisément ses propos pour obtenir sa validation avant d'agir. Par exemple : « Je comprends tout à fait votre agacement face à ces coupures répétées, Monsieur Martin. Si je récapitule, vous subissez des déconnexions chaque soir entre 20h et 21h, c'est bien cela ? »"
+      "conseil_principal": "Face à un client mécontent, ne dites jamais 'Calmez-vous' et ne vous justifiez pas en critiquant vos collègues. Utilisez la méthode CALME : validez son émotion par l'empathie ('Je comprends votre agacement') et reformulez sa demande pour montrer que vous l'avez bien entendu : 'Si je comprends bien, vous subissez des coupures tous les soirs, c'est bien cela ?'"
     }
   },
   "calcul": {
@@ -202,23 +195,23 @@
     "anomalies": []
   },
   "usage": {
-    "promptTokenCount": 13641,
-    "candidatesTokenCount": 1621,
-    "totalTokenCount": 21360,
-    "cachedContentTokenCount": 8183,
+    "promptTokenCount": 13714,
+    "candidatesTokenCount": 1558,
+    "totalTokenCount": 24342,
+    "cachedContentTokenCount": 12275,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 13641
+        "tokenCount": 13714
       }
     ],
     "cacheTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 8183
+        "tokenCount": 12275
       }
     ],
-    "thoughtsTokenCount": 6098,
+    "thoughtsTokenCount": 9070,
     "serviceTier": "standard"
   }
 }

@@ -1,0 +1,575 @@
+[
+  {
+    "appel": "01",
+    "modele": "gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-officielle",
+    "items_accord": "16/16",
+    "items_accord_pct": 100.0,
+    "desaccords": [],
+    "note": {
+      "reference": 100,
+      "ia": 100
+    },
+    "niveau": {
+      "reference": "Excellent",
+      "ia": "Excellent",
+      "accord": true
+    },
+    "action": {
+      "reference": "Valorisation",
+      "ia": "Valorisation",
+      "accord": true
+    },
+    "eliminatoires": {
+      "reference": [],
+      "ia": [],
+      "accord": true
+    },
+    "mises_en_garde": {
+      "reference": [],
+      "ia": [],
+      "accord": true
+    },
+    "preuves_reprises": "0/0",
+    "preuves_manquantes": [],
+    "citations_introuvables": 0,
+    "anomalies": []
+  },
+  {
+    "appel": "02",
+    "modele": "gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-officielle",
+    "items_accord": "16/16",
+    "items_accord_pct": 100.0,
+    "desaccords": [],
+    "note": {
+      "reference": 78,
+      "ia": 78
+    },
+    "niveau": {
+      "reference": "Conforme",
+      "ia": "Conforme",
+      "accord": true
+    },
+    "action": {
+      "reference": "Rien à signaler",
+      "ia": "Rien à signaler",
+      "accord": true
+    },
+    "eliminatoires": {
+      "reference": [],
+      "ia": [],
+      "accord": true
+    },
+    "mises_en_garde": {
+      "reference": [],
+      "ia": [],
+      "accord": true
+    },
+    "preuves_reprises": "0/0",
+    "preuves_manquantes": [],
+    "citations_introuvables": 0,
+    "anomalies": []
+  },
+  {
+    "appel": "03",
+    "modele": "gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-officielle",
+    "items_accord": "15/16",
+    "items_accord_pct": 93.8,
+    "desaccords": [
+      {
+        "item": 3,
+        "reference": "non",
+        "ia": "oui"
+      }
+    ],
+    "note": {
+      "reference": 67,
+      "ia": 78
+    },
+    "niveau": {
+      "reference": "À améliorer",
+      "ia": "Conforme",
+      "accord": false
+    },
+    "action": {
+      "reference": "Coaching ciblé",
+      "ia": "Rien à signaler",
+      "accord": false
+    },
+    "eliminatoires": {
+      "reference": [],
+      "ia": [],
+      "accord": true
+    },
+    "mises_en_garde": {
+      "reference": [],
+      "ia": [],
+      "accord": true
+    },
+    "preuves_reprises": "2/3",
+    "preuves_manquantes": [
+      "Oui, oui, j'ai compris"
+    ],
+    "citations_introuvables": 0,
+    "anomalies": []
+  },
+  {
+    "appel": "04",
+    "modele": "gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-officielle",
+    "items_accord": "15/16",
+    "items_accord_pct": 93.8,
+    "desaccords": [
+      {
+        "item": 12,
+        "reference": "non",
+        "ia": "na"
+      }
+    ],
+    "note": {
+      "reference": 9,
+      "ia": 10
+    },
+    "niveau": {
+      "reference": "Insuffisant",
+      "ia": "Insuffisant",
+      "accord": true
+    },
+    "action": {
+      "reference": "Mise en garde",
+      "ia": "Mise en garde",
+      "accord": true
+    },
+    "eliminatoires": {
+      "reference": [],
+      "ia": [],
+      "accord": true
+    },
+    "mises_en_garde": {
+      "reference": [
+        "insuffisant"
+      ],
+      "ia": [
+        "insuffisant",
+        "panne_ignoree"
+      ],
+      "accord": false
+    },
+    "preuves_reprises": "1/3",
+    "preuves_manquantes": [
+      "Votre numéro de ligne ?",
+      "Normalement, ça devrait marcher"
+    ],
+    "citations_introuvables": 1,
+    "anomalies": [
+      "citation introuvable dans la transcription : « L'appel est au niveau Insuffisant (10%). »"
+    ]
+  },
+  {
+    "appel": "05",
+    "modele": "gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-officielle",
+    "items_accord": "15/16",
+    "items_accord_pct": 93.8,
+    "desaccords": [
+      {
+        "item": 7,
+        "reference": "non",
+        "ia": "oui"
+      }
+    ],
+    "note": {
+      "reference": 75,
+      "ia": 83
+    },
+    "niveau": {
+      "reference": "Conforme",
+      "ia": "Conforme",
+      "accord": true
+    },
+    "action": {
+      "reference": "Mise en garde",
+      "ia": "Mise en garde",
+      "accord": true
+    },
+    "eliminatoires": {
+      "reference": [],
+      "ia": [],
+      "accord": true
+    },
+    "mises_en_garde": {
+      "reference": [
+        "resiliation_retardee"
+      ],
+      "ia": [
+        "resiliation_retardee"
+      ],
+      "accord": true
+    },
+    "preuves_reprises": "2/3",
+    "preuves_manquantes": [
+      "ça vous laisse quelques jours pour y réfléchir"
+    ],
+    "citations_introuvables": 0,
+    "anomalies": []
+  },
+  {
+    "appel": "06",
+    "modele": "gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-officielle",
+    "items_accord": "14/16",
+    "items_accord_pct": 87.5,
+    "desaccords": [
+      {
+        "item": 15,
+        "reference": "non",
+        "ia": "na"
+      },
+      {
+        "item": 16,
+        "reference": "non",
+        "ia": "oui"
+      }
+    ],
+    "note": {
+      "reference": 36,
+      "ia": 46
+    },
+    "niveau": {
+      "reference": "Non conforme",
+      "ia": "Non conforme",
+      "accord": true
+    },
+    "action": {
+      "reference": "Avertissement",
+      "ia": "Avertissement",
+      "accord": true
+    },
+    "eliminatoires": {
+      "reference": [
+        2,
+        3
+      ],
+      "ia": [
+        2,
+        3
+      ],
+      "accord": true
+    },
+    "mises_en_garde": {
+      "reference": [],
+      "ia": [
+        "insuffisant",
+        "resiliation_refusee"
+      ],
+      "accord": null
+    },
+    "preuves_reprises": "1/4",
+    "preuves_manquantes": [
+      "Je ne peux pas enregistrer votre résiliation aujourd'hui, ce n'est pas possible",
+      "Mon responsable vous dira la même chose",
+      "Voilà, c'est activé, vous l'avez dès ce soir"
+    ],
+    "citations_introuvables": 0,
+    "anomalies": []
+  },
+  {
+    "appel": "07",
+    "modele": "gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-officielle",
+    "items_accord": "14/14",
+    "items_accord_pct": 100.0,
+    "desaccords": [],
+    "note": {
+      "reference": 100,
+      "ia": 100
+    },
+    "niveau": {
+      "reference": "Excellent",
+      "ia": "Excellent",
+      "accord": true
+    },
+    "action": {
+      "reference": "Valorisation",
+      "ia": "Valorisation",
+      "accord": true
+    },
+    "eliminatoires": {
+      "reference": [],
+      "ia": [],
+      "accord": true
+    },
+    "mises_en_garde": {
+      "reference": [],
+      "ia": [],
+      "accord": true
+    },
+    "preuves_reprises": "0/0",
+    "preuves_manquantes": [],
+    "citations_introuvables": 0,
+    "anomalies": []
+  },
+  {
+    "appel": "08",
+    "modele": "gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-officielle",
+    "items_accord": "14/14",
+    "items_accord_pct": 100.0,
+    "desaccords": [],
+    "note": {
+      "reference": 80,
+      "ia": 80
+    },
+    "niveau": {
+      "reference": "Conforme",
+      "ia": "Conforme",
+      "accord": true
+    },
+    "action": {
+      "reference": "Rien à signaler",
+      "ia": "Rien à signaler",
+      "accord": true
+    },
+    "eliminatoires": {
+      "reference": [],
+      "ia": [],
+      "accord": true
+    },
+    "mises_en_garde": {
+      "reference": [],
+      "ia": [],
+      "accord": true
+    },
+    "preuves_reprises": "0/0",
+    "preuves_manquantes": [],
+    "citations_introuvables": 0,
+    "anomalies": []
+  },
+  {
+    "appel": "09",
+    "modele": "gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-officielle",
+    "items_accord": "14/14",
+    "items_accord_pct": 100.0,
+    "desaccords": [],
+    "note": {
+      "reference": 70,
+      "ia": 70
+    },
+    "niveau": {
+      "reference": "À améliorer",
+      "ia": "À améliorer",
+      "accord": true
+    },
+    "action": {
+      "reference": "Coaching ciblé",
+      "ia": "Coaching ciblé",
+      "accord": true
+    },
+    "eliminatoires": {
+      "reference": [],
+      "ia": [],
+      "accord": true
+    },
+    "mises_en_garde": {
+      "reference": [],
+      "ia": [],
+      "accord": true
+    },
+    "preuves_reprises": "0/0",
+    "preuves_manquantes": [],
+    "citations_introuvables": 0,
+    "anomalies": []
+  },
+  {
+    "appel": "10",
+    "modele": "gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-officielle",
+    "items_accord": "14/14",
+    "items_accord_pct": 100.0,
+    "desaccords": [],
+    "note": {
+      "reference": 20,
+      "ia": 20
+    },
+    "niveau": {
+      "reference": "Insuffisant",
+      "ia": "Insuffisant",
+      "accord": true
+    },
+    "action": {
+      "reference": "Mise en garde",
+      "ia": "Mise en garde",
+      "accord": true
+    },
+    "eliminatoires": {
+      "reference": [],
+      "ia": [],
+      "accord": true
+    },
+    "mises_en_garde": {
+      "reference": [
+        "insuffisant"
+      ],
+      "ia": [
+        "insuffisant"
+      ],
+      "accord": true
+    },
+    "preuves_reprises": "1/4",
+    "preuves_manquantes": [
+      "Franchement, vous allez le regretter",
+      "Pensez au moins à vos enfants",
+      "les plateformes de streaming, honnêtement, ce n'est pas terrible pour les enfants"
+    ],
+    "citations_introuvables": 0,
+    "anomalies": []
+  },
+  {
+    "appel": "11",
+    "modele": "gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-officielle",
+    "items_accord": "11/14",
+    "items_accord_pct": 78.6,
+    "desaccords": [
+      {
+        "item": 7,
+        "reference": "non",
+        "ia": "oui"
+      },
+      {
+        "item": 9,
+        "reference": "na",
+        "ia": "non"
+      },
+      {
+        "item": 13,
+        "reference": "non",
+        "ia": "na"
+      }
+    ],
+    "note": {
+      "reference": 64,
+      "ia": 73
+    },
+    "niveau": {
+      "reference": "À améliorer",
+      "ia": "À améliorer",
+      "accord": true
+    },
+    "action": {
+      "reference": "Mise en garde",
+      "ia": "Mise en garde",
+      "accord": true
+    },
+    "eliminatoires": {
+      "reference": [],
+      "ia": [],
+      "accord": true
+    },
+    "mises_en_garde": {
+      "reference": [
+        "panne_ignoree"
+      ],
+      "ia": [
+        "panne_ignoree"
+      ],
+      "accord": true
+    },
+    "preuves_reprises": "3/4",
+    "preuves_manquantes": [
+      "je vous conseille d'appeler le service client"
+    ],
+    "citations_introuvables": 0,
+    "anomalies": []
+  },
+  {
+    "appel": "12",
+    "modele": "gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-officielle",
+    "items_accord": "12/14",
+    "items_accord_pct": 85.7,
+    "desaccords": [
+      {
+        "item": 7,
+        "reference": "non",
+        "ia": "oui"
+      },
+      {
+        "item": 11,
+        "reference": "non",
+        "ia": "oui"
+      }
+    ],
+    "note": {
+      "reference": 67,
+      "ia": 83
+    },
+    "niveau": {
+      "reference": "Non conforme",
+      "ia": "Non conforme",
+      "accord": true
+    },
+    "action": {
+      "reference": "Avertissement",
+      "ia": "Avertissement",
+      "accord": true
+    },
+    "eliminatoires": {
+      "reference": [
+        2
+      ],
+      "ia": [
+        2
+      ],
+      "accord": true
+    },
+    "mises_en_garde": {
+      "reference": [],
+      "ia": [],
+      "accord": null
+    },
+    "preuves_reprises": "1/3",
+    "preuves_manquantes": [
+      "cette remise n'est valable qu'aujourd'hui",
+      "le système affiche toujours le tarif standard. Votre remise sera appliquée automatiquement"
+    ],
+    "citations_introuvables": 0,
+    "anomalies": []
+  },
+  {
+    "appel": "13",
+    "modele": "gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-officielle",
+    "items_accord": "14/14",
+    "items_accord_pct": 100.0,
+    "desaccords": [],
+    "note": {
+      "reference": 82,
+      "ia": 82
+    },
+    "niveau": {
+      "reference": "Non conforme",
+      "ia": "Non conforme",
+      "accord": true
+    },
+    "action": {
+      "reference": "Avertissement",
+      "ia": "Avertissement",
+      "accord": true
+    },
+    "eliminatoires": {
+      "reference": [
+        1,
+        2
+      ],
+      "ia": [
+        1,
+        2,
+        3
+      ],
+      "accord": false
+    },
+    "mises_en_garde": {
+      "reference": [],
+      "ia": [],
+      "accord": null
+    },
+    "preuves_reprises": "2/4",
+    "preuves_manquantes": [
+      "la date d'expiration",
+      "les trois chiffres au dos, le cryptogramme"
+    ],
+    "citations_introuvables": 0,
+    "anomalies": []
+  }
+]

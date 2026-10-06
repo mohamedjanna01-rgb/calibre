@@ -1,7 +1,7 @@
 {
   "appel": "02",
   "modele": "gemma-4-26b-a4b-it",
-  "date": "2026-10-06T14:03:24",
+  "date": "2026-10-06T21:41:30",
   "source_transcription": "hybride-locale-lexique",
   "referentiel": "réduit",
   "reponse_ia": {
@@ -9,16 +9,16 @@
       {
         "numero": 1,
         "statut": "oui",
-        "justification": "Présentation complète, prise en charge annoncée et vérification de l'identité réalisée.",
+        "justification": "La présentation est complète (prénom, nom, fonction), la prise en charge est annoncée et l'identité est vérifiée (nom, ligne, code postal et date de naissance).",
         "preuves": [
           {
-            "citation": "Je m'appelle Sophia Haddad, je suis votre conseillère clientèle et je vais prendre en charge votre demande.",
+            "citation": "Je m 'appelle Sophia Haddad, je suis votre conseillère clientèle et je vais prendre en charge votre demande.",
             "debut_s": 2.5,
             "verification": "exacte",
             "debut_verifie_s": 2.48
           },
           {
-            "citation": "Pour sécuriser votre dossier, pouvez-vous me donner votre numéro de ligne, votre code postal et votre date de naissance",
+            "citation": "Pour sécuriser votre dossier, pouvez -vous me donner votre numéro de ligne, votre code postal et votre date de naissance",
             "debut_s": 14.3,
             "verification": "exacte",
             "debut_verifie_s": 14.26
@@ -28,10 +28,10 @@
       {
         "numero": 2,
         "statut": "oui",
-        "justification": "L'enregistrement est mentionné avant la phase de découverte.",
+        "justification": "La mention de l'enregistrement est faite avant la découverte du problème.",
         "preuves": [
           {
-            "citation": "Je vous informe que cet appel est susceptible d'être enregistré pour des raisons de qualité.",
+            "citation": "Je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité.",
             "debut_s": 2.5,
             "verification": "exacte",
             "debut_verifie_s": 2.48
@@ -41,13 +41,13 @@
       {
         "numero": 3,
         "statut": "oui",
-        "justification": "La conseillère n'interrompt pas le client.",
+        "justification": "Le conseiller n'a pas coupé la parole au client.",
         "preuves": []
       },
       {
         "numero": 4,
         "statut": "oui",
-        "justification": "La conseillère pose des questions pour comprendre l'origine de l'écart de facturation.",
+        "justification": "Le conseiller pose des questions pour vérifier si l'écart est dû à une modification de contrat.",
         "preuves": [
           {
             "citation": "Avez-vous changé quelque chose depuis votre inscription ? Une option ou un équipement ?",
@@ -60,16 +60,23 @@
       {
         "numero": 5,
         "statut": "non",
-        "justification": "Le client exprime une inquiétude/un doute, la réassurance est présente mais il n'y a aucune reformulation de sa demande avant l'explication.",
-        "preuves": []
+        "justification": "Le client exprime une inquiétude et une surprise ; si la réassurance est bien présente, aucune reformulation de la demande n'a été effectuée.",
+        "preuves": [
+          {
+            "citation": "Je comprends votre surprise. C 'est normal de s 'inquiéter quand le montant ne correspond pas à ce qu 'on attendait.",
+            "debut_s": 40.5,
+            "verification": "exacte",
+            "debut_verifie_s": 40.5
+          }
+        ]
       },
       {
         "numero": 6,
         "statut": "oui",
-        "justification": "La conseillère fait preuve d'empathie face à l'inquiétude du client.",
+        "justification": "Le ton est empathique face à l'inquiétude du client.",
         "preuves": [
           {
-            "citation": "Je comprends votre surprise. C'est normal de s'inquiéter quand le montant ne correspond pas à ce qu'on attendait.",
+            "citation": "Je comprends votre surprise. C 'est normal de s 'inquiéter quand le montant ne correspond pas à ce qu 'on attendait.",
             "debut_s": 40.5,
             "verification": "exacte",
             "debut_verifie_s": 40.5
@@ -92,7 +99,7 @@
       {
         "numero": 8,
         "statut": "non",
-        "justification": "La conseillère n'appelle pas le client par son nom pendant l'échange.",
+        "justification": "Le conseiller n'a pas utilisé le nom du client au cours de l'échange.",
         "preuves": []
       },
       {
@@ -122,7 +129,7 @@
       {
         "numero": 13,
         "statut": "na",
-        "justification": "Aucune offre n'a été proposée, le reproche du client n'est pas une objection commerciale.",
+        "justification": "Aucune offre n'a été proposée, l'item ne s'applique pas.",
         "preuves": []
       },
       {
@@ -140,10 +147,10 @@
       {
         "numero": 16,
         "statut": "oui",
-        "justification": "Récapitulatif, proposition de questions complémentaires et prise de congé soignée.",
+        "justification": "Le conseiller effectue un récapitulatif, demande si le client a d'autres questions et prend congé poliment.",
         "preuves": [
           {
-            "citation": "Pour récapituler, les 39 euros sont des frais de mise en service unique et vos prochaines factures seront de 39,99 euros par mois. Avez-vous d'autres questions ?",
+            "citation": "Pour récapituler, les 39 euros sont des frais de mise en service unique et vos prochaines factures seront de 39,99 euros par mois. Avez-vous d 'autres questions ?",
             "debut_s": 106.0,
             "verification": "exacte",
             "debut_verifie_s": 106.04
@@ -156,15 +163,15 @@
     "remarques_conformite": [],
     "coaching": {
       "points_forts": [
-        "Excellente gestion de l'empathie et du ton face à l'insatisfaction client.",
-        "Explications claires et conformes à la documentation sur les frais de mise en service.",
-        "Structure d'appel respectée (accueil, analyse, solution, conclusion)."
+        "Excellente gestion de l'empathie et de l'émotion du client.",
+        "Explication très claire et pédagogique des frais de mise en service.",
+        "Respect strict de la procédure d'authentification."
       ],
       "axes_progres": [
-        "Oubli de la reformulation après l'expression d'une inquiétude.",
-        "Manque de personnalisation en n'utilisant pas le nom du client."
+        "Absence de reformulation de la demande client.",
+        "Manque de personnalisation (nom du client non utilisé)."
       ],
-      "conseil_principal": "Lorsque le client exprime un doute ou une émotion forte, reformulez systématiquement sa demande pour valider votre compréhension avant de donner la solution. Par exemple : « Si je comprends bien, vous constatez un écart entre le tarif attendu et votre première facture, c'est bien cela ? »"
+      "conseil_principal": "Pour gagner en professionnalisme, n'oubliez pas de reformuler la demande du client avant de proposer une solution : par exemple, « Si je comprends bien, vous constatez un écart entre le montant prévu et votre facture, c'est bien cela ? ». Pensez également à personnaliser l'échange en utilisant le nom du client, comme « Monsieur Garnier »."
     }
   },
   "calcul": {
@@ -179,16 +186,23 @@
     "anomalies": []
   },
   "usage": {
-    "promptTokenCount": 13658,
-    "candidatesTokenCount": 1401,
-    "totalTokenCount": 19201,
+    "promptTokenCount": 13731,
+    "candidatesTokenCount": 1468,
+    "totalTokenCount": 19165,
+    "cachedContentTokenCount": 12275,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 13658
+        "tokenCount": 13731
       }
     ],
-    "thoughtsTokenCount": 4142,
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12275
+      }
+    ],
+    "thoughtsTokenCount": 3966,
     "serviceTier": "standard"
   }
 }

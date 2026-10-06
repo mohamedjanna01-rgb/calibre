@@ -1,0 +1,261 @@
+{
+  "appel": "13",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T22:31:45",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "L'accueil est complet : prénom, nom, entreprise, fonction, mention de la gestion du contrat et motif de l'appel sont présents. L'identité est vérifiée.",
+        "preuves": [
+          {
+            "citation": "Anas Lalou, conseiller chez Kalyo Télécom, votre opérateur. C 'est moi qui m 'occupe de votre contrat Box Internet. Je vous contacte pour faire un point rapide sur votre abonnement.",
+            "debut_s": 7.0,
+            "verification": "exacte",
+            "debut_verifie_s": 7.02
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "La mention de l'enregistrement est faite avant la découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 7.0,
+            "verification": "exacte",
+            "debut_verifie_s": 7.02
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller a vérifié le bon fonctionnement de la box et de la TV avant de proposer l'offre.",
+        "preuves": [
+          {
+            "citation": "Avant tout, tout se passe bien avec votre Box et votre télévision ?",
+            "debut_s": 23.8,
+            "verification": "exacte",
+            "debut_verifie_s": 23.8
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La découverte est incomplète : les questions ne portent que sur la télévision et la composition du foyer, sans aborder les téléphones, les lignes mobiles ou les usages (tablettes, streaming).",
+        "preuves": [
+          {
+            "citation": "qu 'est -ce que vous aimez regarder le soir ?",
+            "debut_s": 47.9,
+            "verification": "exacte",
+            "debut_verifie_s": 47.86
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le conseiller a créé un besoin en proposant le pack Horizon suite aux réponses du client sur ses habitudes de visionnage.",
+        "preuves": [
+          {
+            "citation": "Alors, j 'ai quelque chose pour vous deux. Le pack Horizon.",
+            "debut_s": 66.9,
+            "verification": "exacte",
+            "debut_verifie_s": 66.88
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "La proposition est détaillée et reliée aux intérêts du client (films, séries, replay).",
+        "preuves": [
+          {
+            "citation": "Le pack Horizon. Horizon Cinéma, Horizon Série, Horizon Polar et plus de 2000 films et séries à la demande.",
+            "debut_s": 66.9,
+            "verification": "exacte",
+            "debut_verifie_s": 66.88
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "na",
+        "justification": "Aucune objection n'a été formulée durant l'appel.",
+        "preuves": []
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le client est appelé par son nom.",
+        "preuves": [
+          {
+            "citation": "Merci, Monsieur Rousseau.",
+            "debut_s": 47.9,
+            "verification": "exacte",
+            "debut_verifie_s": 47.86
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "oui",
+        "justification": "Le récapitulatif tarifaire est complet (prix, promotion, date de prélèvement, absence d'engagement).",
+        "preuves": [
+          {
+            "citation": "Le pack Horizon, premier mois offert, puis 12 ,99 euros par mois, avec un premier prélèvement le 8 décembre. Sans engagement, résiliable à tout moment avec effet à la fin du mois.",
+            "debut_s": 93.5,
+            "verification": "exacte",
+            "debut_verifie_s": 93.54
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "statut": "oui",
+        "justification": "Le délai d'activation est précisé.",
+        "preuves": [
+          {
+            "citation": "activation en 2 heures maximum.",
+            "debut_s": 93.5,
+            "verification": "exacte",
+            "debut_verifie_s": 93.54
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "statut": "non",
+        "justification": "Le processus de sécurisation est incorrect car le conseiller a demandé les coordonnées bancaires au client, ce qui est strictement interdit.",
+        "preuves": [
+          {
+            "citation": "Pour finaliser, il me faut juste un moyen de paiement pour le pack. Vous avez votre carte bancaire à portée de main ?",
+            "debut_s": 118.6,
+            "verification": "exacte",
+            "debut_verifie_s": 118.56
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "Le client n'a pas refusé l'offre.",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Aucun besoin de transfert n'a été identifié.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "oui",
+        "justification": "La conclusion est soignée avec remerciements et prise de congé.",
+        "preuves": [
+          {
+            "citation": "Merci pour votre confiance. Bonne soirée cinéma à vous deux et très bonne journée.",
+            "debut_s": 208.1,
+            "verification": "exacte",
+            "debut_verifie_s": 208.06
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [
+      {
+        "numero": 1,
+        "motif": "Demande de données bancaires (numéro de carte)",
+        "citation": "Les 16 chiffres au recto.",
+        "debut_s": 146.3,
+        "verification": "exacte",
+        "debut_verifie_s": 146.3
+      },
+      {
+        "numero": 2,
+        "motif": "Fausse promesse/mensonge sur le délai d'activation lié au paiement",
+        "citation": "Il doit être rattaché à une carte, sinon l 'activation peut prendre plusieurs jours.",
+        "debut_s": 130.3,
+        "verification": "exacte",
+        "debut_verifie_s": 130.28
+      },
+      {
+        "numero": 3,
+        "motif": "Demande de données bancaires (cryptogramme)",
+        "citation": "Et les trois chiffres au dos ?",
+        "debut_s": 175.7,
+        "verification": "exacte",
+        "debut_verifie_s": 175.68
+      }
+    ],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [
+      {
+        "regle": "[TVE-15]",
+        "ecart": "Le conseiller a demandé une carte bancaire alors que le paiement doit être rattaché à la facture Box existante.",
+        "citation": "Pour finaliser, il me faut juste un moyen de paiement pour le pack. Vous avez votre carte bancaire à portée de main ?",
+        "debut_s": 118.6,
+        "verification": "exacte",
+        "debut_verifie_s": 118.56
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Excellente structure de l'accueil et de la présentation.",
+        "Argumentaire commercial (CAB) bien construit et personnalisé selon les goûts du client.",
+        "Maîtrise de la procédure de signature électronique et du consentement."
+      ],
+      "axes_progres": [
+        "La découverte doit être systématiquement plus large pour identifier tous les besoins (mobiles, tablettes, etc.).",
+        "Respect absolu de l'interdiction de demander des coordonnées bancaires."
+      ],
+      "conseil_principal": "Ne demandez jamais de coordonnées bancaires. Le Pack Horizon s'ajoute automatiquement à la facture de la Box existante, comme précisé dans la procédure [TVE-15]. Votre phrase de transition devrait être : « Le Pack Horizon sera simplement ajouté à votre facture Box habituelle, vous n'avez donc aucune démarche de paiement à faire. »"
+    }
+  },
+  "calcul": {
+    "oui": 9,
+    "applicables": 11,
+    "note_pct": 82,
+    "niveau_note": "Conforme",
+    "niveau": "Non conforme",
+    "eliminatoires": [
+      1,
+      2,
+      3
+    ],
+    "mises_en_garde": [],
+    "action": "Avertissement",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 15087,
+    "candidatesTokenCount": 1868,
+    "totalTokenCount": 22901,
+    "cachedContentTokenCount": 12276,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 15087
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12276
+      }
+    ],
+    "thoughtsTokenCount": 5946,
+    "serviceTier": "standard"
+  },
+  "combinaison": {
+    "passe1": "notations\\gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-passe1\\appel-13.json",
+    "passe2": "notations\\gemma-4-26b-a4b-it-reduit-hybride-locale-lexique-passe2\\appel-13.json",
+    "eliminatoires_ajoutes_par_passe2": []
+  }
+}

@@ -1,7 +1,7 @@
 {
   "appel": "06",
   "modele": "gemma-4-26b-a4b-it",
-  "date": "2026-10-06T15:32:54",
+  "date": "2026-10-06T23:41:59",
   "source_transcription": "hybride-locale-lexique",
   "referentiel": "réduit",
   "reponse_ia": {
@@ -9,7 +9,7 @@
       {
         "numero": 1,
         "statut": "oui",
-        "justification": "Présentation complète du conseiller et vérification de l'identité (nom, prénom, ligne, CP, date de naissance).",
+        "justification": "Le conseiller s'est présenté (prénom, nom, fonction) et a procédé à l'identification et l'authentification du client.",
         "preuves": [
           {
             "citation": "Je m 'appelle Mehdi Alaoui, je suis votre conseiller clientèle et je vais prendre en charge votre demande.",
@@ -28,7 +28,7 @@
       {
         "numero": 2,
         "statut": "oui",
-        "justification": "L'enregistrement est mentionné avant la découverte.",
+        "justification": "La mention de l'enregistrement a été faite avant la phase de découverte.",
         "preuves": [
           {
             "citation": "Je vous informe que cet appel est susceptible d 'être enregistré pour des raisons de qualité.",
@@ -41,20 +41,13 @@
       {
         "numero": 3,
         "statut": "oui",
-        "justification": "Le conseiller laisse la cliente exprimer son besoin sans l'interrompre.",
-        "preuves": [
-          {
-            "citation": "Je souhaite résilier ma ligne mobile. J 'ai trouvé un forfait moins cher chez un autre opérateur.",
-            "debut_s": 39.1,
-            "verification": "exacte",
-            "debut_verifie_s": 39.12
-          }
-        ]
+        "justification": "Le conseiller n'a pas coupé la parole au client.",
+        "preuves": []
       },
       {
         "numero": 4,
         "statut": "oui",
-        "justification": "Le conseiller cherche à comprendre l'offre concurrente pour analyser le besoin.",
+        "justification": "Le conseiller a posé une question pertinente pour comprendre la concurrence.",
         "preuves": [
           {
             "citation": "Puis -je vous demander quel forfait vous avez trouvé ?",
@@ -67,13 +60,13 @@
       {
         "numero": 5,
         "statut": "non",
-        "justification": "Le conseiller exprime de l'empathie mais ne réalise aucune reformulation de la demande de la cliente.",
+        "justification": "Le conseiller a exprimé de l'empathie mais n'a pas reformulé la demande pour obtenir une validation.",
         "preuves": []
       },
       {
         "numero": 6,
         "statut": "non",
-        "justification": "Le conseiller fait preuve d'un ton inapproprié en minimisant la demande de responsable de la cliente.",
+        "justification": "Le ton est méprisant et peu professionnel envers la demande de responsable.",
         "preuves": [
           {
             "citation": "Mon responsable vous le dira à la même chose, Madame Benoît.",
@@ -86,7 +79,7 @@
       {
         "numero": 7,
         "statut": "non",
-        "justification": "L'explication sur l'impossibilité de résilier à cause du financement est fausse.",
+        "justification": "L'explication donnée est fausse : la résiliation est possible, le solde du financement devient seulement exigible immédiatement [CAT-10].",
         "preuves": [
           {
             "citation": "Alors, malheureusement vous ne pouvez pas résilier votre ligne tant que votre téléphone n 'est pas entièrement payé.",
@@ -99,7 +92,7 @@
       {
         "numero": 8,
         "statut": "oui",
-        "justification": "Le conseiller appelle la cliente par son nom.",
+        "justification": "Le client est appelé par son nom.",
         "preuves": [
           {
             "citation": "Je comprends, Madame Benoît.",
@@ -112,7 +105,7 @@
       {
         "numero": 9,
         "statut": "non",
-        "justification": "Le conseiller refuse explicitement d'enregistrer la résiliation demandée.",
+        "justification": "Le conseiller a refusé de traiter la demande de résiliation.",
         "preuves": [
           {
             "citation": "Je ne peux pas enregistrer votre résiliation aujourd 'hui.",
@@ -125,10 +118,16 @@
       {
         "numero": 10,
         "statut": "non",
-        "justification": "La tentative de rétention est non conforme (imposition d'un cadeau non sollicité au lieu d'une offre commerciale).",
+        "justification": "La procédure de rétention n'a pas été respectée car le conseiller a d'abord bloqué la résiliation par une fausse information.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "non",
+        "justification": "Le conseiller a promis un premier mois offert sur le Pack Horizon, ce qui n'est pas prévu par la documentation [DOC-01].",
         "preuves": [
           {
-            "citation": "Pour vous remercier de votre fidélité, je vous active le pack Horizon.",
+            "citation": "je vous active le pack Horizon. 35 chaînes de films et de séries et le premier mois est offert.",
             "debut_s": 91.0,
             "verification": "exacte",
             "debut_verifie_s": 91.0
@@ -136,34 +135,21 @@
         ]
       },
       {
-        "numero": 11,
-        "statut": "non",
-        "justification": "Le conseiller active une option sans le consentement de la cliente.",
-        "preuves": [
-          {
-            "citation": "Voilà, c 'est activé.",
-            "debut_s": 108.9,
-            "verification": "exacte",
-            "debut_verifie_s": 108.92
-          }
-        ]
-      },
-      {
         "numero": 12,
         "statut": "na",
-        "justification": "",
+        "justification": "Aucun problème n'a été résolu pour permettre une opportunité commerciale.",
         "preuves": []
       },
       {
         "numero": 13,
-        "statut": "na",
-        "justification": "",
+        "statut": "non",
+        "justification": "Le conseiller n'a pas traité l'objection du client sur l'impossibilité de résilier, il a simplement répété son erreur.",
         "preuves": []
       },
       {
         "numero": 14,
         "statut": "non",
-        "justification": "Le conseiller refuse de transférer l'appel au responsable alors que la cliente l'a demandé.",
+        "justification": "Le conseiller a refusé de passer un responsable alors que la cliente l'avait explicitement demandé.",
         "preuves": [
           {
             "citation": "Mon responsable vous le dira à la même chose, Madame Benoît.",
@@ -176,27 +162,20 @@
       {
         "numero": 15,
         "statut": "na",
-        "justification": "",
+        "justification": "Il n'y a pas eu de vente conclue.",
         "preuves": []
       },
       {
         "numero": 16,
-        "statut": "oui",
-        "justification": "La conclusion est présente avec remerciement et prise de congé.",
-        "preuves": [
-          {
-            "citation": "Merci pour votre appel, Madame Benoît. Bonne journée.",
-            "debut_s": 118.3,
-            "verification": "exacte",
-            "debut_verifie_s": 118.3
-          }
-        ]
+        "statut": "non",
+        "justification": "La conclusion est incomplète : absence de récapitulatif et de question sur d'autres besoins.",
+        "preuves": []
       }
     ],
     "eliminatoires": [
       {
         "numero": 2,
-        "motif": "Mentir ou faire une fausse promesse qui engage l'entreprise (conditions de résiliation).",
+        "motif": "Mentir ou faire une fausse promesse qui engage l'entreprise (condition de résiliation)",
         "citation": "Alors, malheureusement vous ne pouvez pas résilier votre ligne tant que votre téléphone n 'est pas entièrement payé.",
         "debut_s": 65.7,
         "verification": "exacte",
@@ -212,34 +191,24 @@
         "debut_verifie_s": 79.68
       }
     ],
-    "remarques_conformite": [
-      {
-        "regle": "[CAT-10]",
-        "ecart": "Le conseiller affirme que le financement du téléphone empêche la résiliation, alors que le forfait est sans engagement et que le solde du financement devient simplement exigible immédiatement.",
-        "citation": "Alors, malheureusement vous ne pouvez pas résilier votre ligne tant que votre téléphone n 'est pas entièrement payé.",
-        "debut_s": 65.7,
-        "verification": "exacte",
-        "debut_verifie_s": 65.74
-      }
-    ],
+    "remarques_conformite": [],
     "coaching": {
       "points_forts": [
-        "Accueil et identification conformes aux procédures.",
-        "Bonne écoute de la demande initiale."
+        "L'accueil et la phase d'identification sont parfaitement conformes."
       ],
       "axes_progres": [
-        "Maîtrise des conditions contractuelles (résiliation vs financement mobile).",
-        "Gestion des demandes d'escalade (ne pas minimiser la demande d'un responsable).",
-        "Respect des procédures de vente/rétention (ne jamais activer une option sans accord explicite).",
-        "Utilisation de la reformulation pour valider la compréhension."
+        "Respect de la vérité contractuelle concernant la résiliation et le financement.",
+        "Gestion de l'escalade : ne jamais rejeter la demande d'un responsable.",
+        "Utilisation de gestes commerciaux uniquement autorisés par le catalogue.",
+        "Qualité de la conclusion (récapitulatif et question d'ouverture)."
       ],
-      "conseil_principal": "Si un client souhaite résilier un forfait sans engagement alors qu'il a un financement en cours, ne lui dites pas que c'est impossible. Dites plutôt : \"Vous pouvez tout à fait résilier votre forfait, sachez simplement que le solde restant de votre téléphone deviendra exigible immédiatement sur votre prochaine facture.\""
+      "conseil_principal": "Ne bloquez jamais une demande de résiliation. Si un client souhaite partir, expliquez-lui que la résiliation est possible mais que, conformément à la règle [CAT-10], le solde restant de son financement deviendra exigible immédiatement."
     }
   },
   "calcul": {
-    "oui": 6,
-    "applicables": 13,
-    "note_pct": 46,
+    "oui": 5,
+    "applicables": 14,
+    "note_pct": 36,
     "niveau_note": "Insuffisant",
     "niveau": "Non conforme",
     "eliminatoires": [
@@ -253,14 +222,14 @@
     "anomalies": []
   },
   "usage": {
-    "promptTokenCount": 13445,
-    "candidatesTokenCount": 1873,
-    "totalTokenCount": 18269,
+    "promptTokenCount": 13518,
+    "candidatesTokenCount": 1715,
+    "totalTokenCount": 19870,
     "cachedContentTokenCount": 12275,
     "promptTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 13445
+        "tokenCount": 13518
       }
     ],
     "cacheTokensDetails": [
@@ -269,7 +238,7 @@
         "tokenCount": 12275
       }
     ],
-    "thoughtsTokenCount": 2951,
+    "thoughtsTokenCount": 4637,
     "serviceTier": "standard"
   }
 }
