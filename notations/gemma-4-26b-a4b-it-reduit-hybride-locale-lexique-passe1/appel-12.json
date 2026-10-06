@@ -1,0 +1,238 @@
+{
+  "appel": "12",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T14:55:04",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète (nom, entreprise, fonction), mention de la gestion du contrat et vérification de l'identité effectuée.",
+        "preuves": [
+          {
+            "citation": "Salma Idrissi, conseillère chez Kalyo Télécom, votre opérateur. C 'est moi qui m 'occupe de votre contrabox Internet",
+            "debut_s": 6.1,
+            "verification": "exacte",
+            "debut_verifie_s": 6.06
+          },
+          {
+            "citation": "Pour sécuriser notre échange, pouvez -vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?",
+            "debut_s": 35.5,
+            "verification": "exacte",
+            "debut_verifie_s": 35.48
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "La mention de l'enregistrement est faite avant la phase de découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 6.1,
+            "verification": "exacte",
+            "debut_verifie_s": 6.06
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller a vérifié le bon fonctionnement de la box et de la TV avant de proposer une offre.",
+        "preuves": [
+          {
+            "citation": "Avant tout, tout fonctionne bien avec votre box et votre télévision ?",
+            "debut_s": 27.3,
+            "verification": "exacte",
+            "debut_verifie_s": 27.26
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La découverte est incomplète : elle ne couvre pas le foyer, les lignes mobiles ni les autres usages (tablettes/streaming).",
+        "preuves": []
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le conseiller a repéré l'intérêt pour la cuisine et les voyages pour proposer le pack.",
+        "preuves": [
+          {
+            "citation": "Alors, le pack Horizon devrait vous plaire. Vous auriez Horizon Cuisine, Horizon Voyages et Horizon Découverte.",
+            "debut_s": 75.8,
+            "verification": "exacte",
+            "debut_verifie_s": 75.82
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "La proposition est liée aux besoins (cuisine/voyages/tablette) et est dynamique.",
+        "preuves": [
+          {
+            "citation": "Le replay de 7 jours pour rattraper ce que vous avez manqué. Et l 'application Kalyo TV pour regarder sur votre tablette, même en vacances.",
+            "debut_s": 75.8,
+            "verification": "exacte",
+            "debut_verifie_s": 75.82
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "non",
+        "justification": "La méthode AQRV n'a pas été appliquée pour traiter l'objection sur le prix ; le conseiller a immédiatement proposé une remise non autorisée.",
+        "preuves": [
+          {
+            "citation": "Je comprends. Écoutez, pour vous, je peux faire un geste. Je vous bloque le prix à 6 ,99 euros par mois pendant un an.",
+            "debut_s": 107.0,
+            "verification": "exacte",
+            "debut_verifie_s": 107.04
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "Le client est appelé par son nom tout au long de l'échange.",
+        "preuves": [
+          {
+            "citation": "Bonjour, Madame Chevalier ?",
+            "debut_s": 2.0,
+            "verification": "exacte",
+            "debut_verifie_s": 2.02
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "non",
+        "justification": "Le prix après la période promotionnelle et la date du premier prélèvement n'ont pas été indiqués.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "oui",
+        "justification": "Le délai d'activation de 2 heures maximum est annoncé.",
+        "preuves": [
+          {
+            "citation": "Activation en 2 heures maximum.",
+            "debut_s": 122.7,
+            "verification": "exacte",
+            "debut_verifie_s": 122.7
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "statut": "oui",
+        "justification": "L'e-mail est envoyé, le client saisit lui-même le code SMS et le conseiller ne le demande pas.",
+        "preuves": [
+          {
+            "citation": "Saisissez-le vous-même dans l 'e-mail et ne le communiquez à personne.",
+            "debut_s": 145.4,
+            "verification": "exacte",
+            "debut_verifie_s": 145.42
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "oui",
+        "justification": "La conclusion est complète avec récapitulatif, question de clôture et remerciement.",
+        "preuves": [
+          {
+            "citation": "Parfait, votre souscription est confirmée. Avez-vous d 'autres questions ?",
+            "debut_s": 189.2,
+            "verification": "exacte",
+            "debut_verifie_s": 189.18
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [
+      {
+        "numero": 2,
+        "motif": "Fausse promesse (remise non autorisée)",
+        "citation": "Je vous bloque le prix à 6 ,99 euros par mois pendant un an.",
+        "debut_s": 107.0,
+        "verification": "exacte",
+        "debut_verifie_s": 107.04
+      }
+    ],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [
+      {
+        "regle": "[TVE-14]",
+        "ecart": "Proposition d'une remise commerciale non autorisée (seul le premier mois est offert).",
+        "citation": "Je vous bloque le prix à 6 ,99 euros par mois pendant un an.",
+        "debut_s": 107.0,
+        "verification": "exacte",
+        "debut_verifie_s": 107.04
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Accueil et présentation conformes aux procédures",
+        "Excellente personnalisation de l'offre en fonction des loisirs du client",
+        "Processus de sécurisation de la vente parfaitement maîtrisé"
+      ],
+      "axes_progres": [
+        "Réaliser une découverte complète (foyer, mobiles, autres usages)",
+        "Appliquer la méthode AQRV pour traiter les objections au lieu de céder immédiatement",
+        "Respecter strictement les offres du catalogue (ne pas promettre de remise non autorisée)"
+      ],
+      "conseil_principal": "Ne proposez jamais de remise ou de geste commercial qui ne figure pas dans votre catalogue. Pour traiter une objection sur le prix, utilisez la méthode AQRV : 'Je comprends que le budget soit un sujet important. C'est justement pour cela que nous offrons le premier mois, ce qui vous permet de tester le service sans aucun frais. Est-ce que cela vous permettrait de vous décider plus sereinement ?'"
+    }
+  },
+  "calcul": {
+    "oui": 9,
+    "applicables": 12,
+    "note_pct": 75,
+    "niveau_note": "Conforme",
+    "niveau": "Non conforme",
+    "eliminatoires": [
+      2
+    ],
+    "mises_en_garde": [],
+    "action": "Avertissement",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 14831,
+    "candidatesTokenCount": 1730,
+    "totalTokenCount": 24642,
+    "cachedContentTokenCount": 14322,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14831
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14322
+      }
+    ],
+    "thoughtsTokenCount": 8081,
+    "serviceTier": "standard"
+  }
+}

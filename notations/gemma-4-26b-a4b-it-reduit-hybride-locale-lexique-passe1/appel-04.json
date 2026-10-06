@@ -1,0 +1,197 @@
+{
+  "appel": "04",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T14:09:11",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "non",
+        "justification": "L'accueil est incomplet : le conseiller ne s'est pas présenté (prénom, nom, fonction) et n'a pas annoncé la prise en charge de la demande.",
+        "preuves": [
+          {
+            "citation": "Kalyo Télécom, bonjour.",
+            "debut_s": 0.0,
+            "verification": "exacte",
+            "debut_verifie_s": 0.0
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "non",
+        "justification": "La mention de l'enregistrement de l'appel n'a pas été faite avant la découverte.",
+        "preuves": []
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller a laissé la cliente expliquer son problème sans l'interrompre.",
+        "preuves": [
+          {
+            "citation": "Ma télévision ne marche plus depuis ce matin. Il n 'a écrit aucun signal sur l 'écran. J 'ai essayé d 'éteindre et de rallumer la télé, mais ça ne change rien. Mon mari regarde le match ce soir alors.",
+            "debut_s": 18.0,
+            "verification": "exacte",
+            "debut_verifie_s": 18.04
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "Aucune question n'a été posée pour analyser le besoin avant de proposer une solution technique.",
+        "preuves": []
+      },
+      {
+        "numero": 5,
+        "statut": "non",
+        "justification": "Le conseiller n'a ni reformulé la demande, ni rassuré la cliente malgré son problème exprimé.",
+        "preuves": []
+      },
+      {
+        "numero": 6,
+        "statut": "non",
+        "justification": "Le ton est expéditif et manque de politesse.",
+        "preuves": [
+          {
+            "citation": "C 'est bon, c 'est pourquoi.",
+            "debut_s": 16.6,
+            "verification": "exacte",
+            "debut_verifie_s": 16.6
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "non",
+        "justification": "L'explication utilise du jargon technique ('synchro') et une expression à éviter ('Normalement ça devrait marcher').",
+        "preuves": [
+          {
+            "citation": "c 'est sûrement votre décodeur qui a perdu la synchro avec la box.",
+            "debut_s": 28.3,
+            "verification": "exacte",
+            "debut_verifie_s": 28.28
+          },
+          {
+            "citation": "Normalement ça devrait marcher.",
+            "debut_s": 43.2,
+            "verification": "exacte",
+            "debut_verifie_s": 43.22
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "non",
+        "justification": "Le conseiller n'a jamais appelé la cliente par son nom durant l'échange.",
+        "preuves": []
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "non",
+        "justification": "Le conseiller a refusé d'apporter l'aide demandée par la cliente (vérification à distance via la Sonde) et n'a pas proposé d'escalade.",
+        "preuves": [
+          {
+            "citation": "Faites d 'abord le reset, autre chose ?",
+            "debut_s": 50.4,
+            "verification": "exacte",
+            "debut_verifie_s": 50.44
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 16,
+        "statut": "non",
+        "justification": "La conclusion est très abrupte, sans récapitulatif, sans remerciement et sans prise de congé soignée.",
+        "preuves": [
+          {
+            "citation": "Au revoir.",
+            "debut_s": 54.3,
+            "verification": "exacte",
+            "debut_verifie_s": 54.28
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [],
+    "coaching": {
+      "points_forts": [
+        "Proposition rapide d'une solution technique."
+      ],
+      "axes_progres": [
+        "Respect de la structure d'accueil (présentation et annonce de l'enregistrement)",
+        "Empathie et reformulation de la demande",
+        "Utilisation des outils de diagnostic (Sonde) pour répondre aux demandes de vérification",
+        "Professionnalisme du langage (éviter le jargon et les expressions incertaines comme 'Normalement')",
+        "Qualité de la conclusion"
+      ],
+      "conseil_principal": "Pour un appel professionnel, respectez les étapes de base : présentez-vous, annoncez l'enregistrement, et reformulez toujours la demande du client pour montrer que vous l'avez compris. Par exemple : 'Si je comprends bien, votre télévision n'affiche plus aucun signal, est-ce bien cela ?'"
+    }
+  },
+  "calcul": {
+    "oui": 1,
+    "applicables": 10,
+    "note_pct": 10,
+    "niveau_note": "Insuffisant",
+    "niveau": "Insuffisant",
+    "eliminatoires": [],
+    "mises_en_garde": [
+      "insuffisant"
+    ],
+    "action": "Mise en garde",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 13209,
+    "candidatesTokenCount": 1364,
+    "totalTokenCount": 22016,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 13209
+      }
+    ],
+    "thoughtsTokenCount": 7443,
+    "serviceTier": "standard"
+  }
+}

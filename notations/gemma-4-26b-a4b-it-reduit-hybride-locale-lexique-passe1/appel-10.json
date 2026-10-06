@@ -1,0 +1,208 @@
+{
+  "appel": "10",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T14:09:43",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "non",
+        "justification": "La présentation est incomplète : le prénom, le nom et la fonction du conseiller ne sont pas mentionnés, et la phrase d'engagement sur la gestion du contrat est absente.",
+        "preuves": [
+          {
+            "citation": "Allô, oui, bonjour, c 'est Kalyo Télécom.",
+            "debut_s": 1.3,
+            "verification": "exacte",
+            "debut_verifie_s": 1.32
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "L'enregistrement est mentionné avant la phase de découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 5.1,
+            "verification": "exacte",
+            "debut_verifie_s": 5.1
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "non",
+        "justification": "Le conseiller n'a pas vérifié si tout fonctionnait correctement avant d'entamer la vente.",
+        "preuves": []
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La découverte est incomplète : elle ne couvre pas les lignes mobiles/téléphones ni les autres opérateurs.",
+        "preuves": []
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le conseiller a repéré l'usage du streaming et des tablettes pour proposer son offre.",
+        "preuves": [
+          {
+            "citation": "Ah, les plateformes de streaming.",
+            "debut_s": 34.7,
+            "verification": "exacte",
+            "debut_verifie_s": 34.72
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "non",
+        "justification": "La proposition est trop succincte et n'est pas présentée de manière détaillée selon la méthode CAB.",
+        "preuves": [
+          {
+            "citation": "Il vous faut le pack horizon, 12 ,99 euros par mois. Je vous l 'actime ?",
+            "debut_s": 34.7,
+            "verification": "exacte",
+            "debut_verifie_s": 34.72
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "non",
+        "justification": "Le conseiller n'a pas utilisé la méthode AQRV, a exercé une pression excessive par la culpabilisation et n'a pas respecté la règle des deux refus.",
+        "preuves": [
+          {
+            "citation": "Attendez, vous ne savez même pas ce qu 'il y a dedans.",
+            "debut_s": 47.0,
+            "verification": "exacte",
+            "debut_verifie_s": 47.0
+          },
+          {
+            "citation": "Pensez au moins à vos enfants, quand même. Tous les parents le prennent, vous savez ?",
+            "debut_s": 60.2,
+            "verification": "exacte",
+            "debut_verifie_s": 60.2
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "non",
+        "justification": "Le conseiller n'a jamais appelé la cliente par son nom.",
+        "preuves": []
+      },
+      {
+        "numero": 9,
+        "statut": "non",
+        "justification": "Le tarif complet (premier mois offert, date de prélèvement, absence d'engagement, etc.) n'a pas été communiqué.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "non",
+        "justification": "Les procédures et délais d'activation n'ont pas été annoncés.",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "non",
+        "justification": "Le conseiller a insisté lourdement après le refus de la cliente au lieu de s'excuser et de mettre fin à la proposition.",
+        "preuves": [
+          {
+            "citation": "Attendez, vous ne savez même pas ce qu 'il y a dedans.",
+            "debut_s": 47.0,
+            "verification": "exacte",
+            "debut_verifie_s": 47.0
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "statut": "non",
+        "justification": "La conclusion est absente (pas de remerciements ni de prise de congé soignée).",
+        "preuves": [
+          {
+            "citation": "Comme vous voulez.",
+            "debut_s": 66.9,
+            "verification": "exacte",
+            "debut_verifie_s": 66.9
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [
+      {
+        "type": "panne_ignoree",
+        "citation": "L'appel est au niveau Insuffisant (16 %)",
+        "debut_s": 0,
+        "verification": "introuvable",
+        "debut_verifie_s": null
+      }
+    ],
+    "remarques_conformite": [
+      {
+        "regle": "[TVE-09]",
+        "ecart": "L'accroche ne respecte pas le script obligatoire (prénom, nom, fonction, mention de la gestion du contrat).",
+        "citation": "Allô, oui, bonjour, c 'est Kalyo Télécom.",
+        "debut_s": 1.3,
+        "verification": "exacte",
+        "debut_verifie_s": 1.32
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "La mention de l'enregistrement est bien effectuée en début d'appel."
+      ],
+      "axes_progres": [
+        "Respecter le script d'accueil (identité et fonction).",
+        "Réaliser une découverte complète (mobiles, autres opérateurs).",
+        "Appliquer la méthode AQRV lors des objections.",
+        "Respecter impérativement la règle des deux refus pour ne pas être perçu comme agressif.",
+        "Éviter toute forme de culpabilisation du client."
+      ],
+      "conseil_principal": "Vous avez été trop insistant face au refus de la cliente. Pour éviter de créer un malaise, appliquez la règle des deux refus : après le deuxième 'non', remerciez la cliente et terminez l'appel poliment. Ne dites jamais : « Pensez au moins à vos enfants, quand même. »"
+    }
+  },
+  "calcul": {
+    "oui": 2,
+    "applicables": 12,
+    "note_pct": 17,
+    "niveau_note": "Insuffisant",
+    "niveau": "Insuffisant",
+    "eliminatoires": [],
+    "mises_en_garde": [
+      "insuffisant",
+      "panne_ignoree"
+    ],
+    "action": "Mise en garde",
+    "anomalies": [
+      "items attendus [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], reçus [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14]",
+      "citation introuvable dans la transcription : « L'appel est au niveau Insuffisant (16 %) »"
+    ]
+  },
+  "usage": {
+    "promptTokenCount": 14402,
+    "candidatesTokenCount": 1440,
+    "totalTokenCount": 20310,
+    "cachedContentTokenCount": 8184,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14402
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 8184
+      }
+    ],
+    "thoughtsTokenCount": 4468,
+    "serviceTier": "standard"
+  }
+}
