@@ -1,0 +1,258 @@
+{
+  "appel": "12",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T15:55:21",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "oui",
+        "justification": "Présentation complète et vérification de l'identité effectuée.",
+        "preuves": [
+          {
+            "citation": "Salma Idrissi, conseillère chez Kalyo Télécom, votre opérateur. C 'est moi qui m 'occupe de votre contrabox Internet",
+            "debut_s": 6.1,
+            "verification": "exacte",
+            "debut_verifie_s": 6.06
+          },
+          {
+            "citation": "Pour sécuriser notre échange, pouvez -vous me confirmer votre nom et prénom, votre code postal et votre date de naissance ?",
+            "debut_s": 35.5,
+            "verification": "exacte",
+            "debut_verifie_s": 35.48
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "oui",
+        "justification": "Mention de l'enregistrement faite avant la découverte.",
+        "preuves": [
+          {
+            "citation": "Je vous informe que notre échange est susceptible d 'être enregistré pour des raisons de qualité.",
+            "debut_s": 6.1,
+            "verification": "exacte",
+            "debut_verifie_s": 6.06
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "Le conseiller a vérifié le bon fonctionnement du matériel avant de proposer l'offre.",
+        "preuves": [
+          {
+            "citation": "Avant tout, tout fonctionne bien avec votre box et votre télévision ?",
+            "debut_s": 27.3,
+            "verification": "exacte",
+            "debut_verifie_s": 27.26
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "La découverte est incomplète : aucune question sur les téléphones, les lignes mobiles ou les autres membres du foyer n'a été posée.",
+        "preuves": [
+          {
+            "citation": "Qu 'aimez -vous regarder à la télévision ?",
+            "debut_s": 51.6,
+            "verification": "exacte",
+            "debut_verifie_s": 51.58
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "statut": "oui",
+        "justification": "Le besoin (émissions de cuisine et voyages) a été identifié.",
+        "preuves": [
+          {
+            "citation": "émissions de cuisine et les documentaires sur les voyages.",
+            "debut_s": 56.0,
+            "verification": "exacte",
+            "debut_verifie_s": 55.96
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "statut": "oui",
+        "justification": "L'offre est reliée aux centres d'intérêt de la cliente.",
+        "preuves": [
+          {
+            "citation": "Alors, le pack Horizon devrait vous plaire. Vous auriez Horizon Cuisine, Horizon Voyages et Horizon Découverte.",
+            "debut_s": 75.8,
+            "verification": "exacte",
+            "debut_verifie_s": 75.82
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "oui",
+        "justification": "Une seule réponse a été apportée à l'objection sur le prix (un seul rebond).",
+        "preuves": [
+          {
+            "citation": "Je comprends. Écoutez, pour vous, je peux faire un geste.",
+            "debut_s": 107.0,
+            "verification": "exacte",
+            "debut_verifie_s": 107.04
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "oui",
+        "justification": "La cliente est appelée par son nom.",
+        "preuves": [
+          {
+            "citation": "Merci Madame Chevalier.",
+            "debut_s": 51.6,
+            "verification": "exacte",
+            "debut_verifie_s": 51.58
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "statut": "non",
+        "justification": "Le tarif complet n'est pas communiqué (absence de la date du premier prélèvement) et le prix annoncé est erroné par rapport au catalogue.",
+        "preuves": [
+          {
+            "citation": "Le premier mois est offert, puis c 'est 12 ,99 euros par mois, sans engagement.",
+            "debut_s": 75.8,
+            "verification": "exacte",
+            "debut_verifie_s": 75.82
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "statut": "oui",
+        "justification": "Le délai d'activation est annoncé.",
+        "preuves": [
+          {
+            "citation": "Activation en 2 heures maximum.",
+            "debut_s": 122.7,
+            "verification": "exacte",
+            "debut_verifie_s": 122.7
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "statut": "oui",
+        "justification": "Le consentement est explicite, la signature électronique est réalisée et le code SMS est bien saisi par la cliente elle-même.",
+        "preuves": [
+          {
+            "citation": "Saisissez -le vous -même dans l 'e -mail et ne le communiquez à personne.",
+            "debut_s": 145.4,
+            "verification": "exacte",
+            "debut_verifie_s": 145.42
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "oui",
+        "justification": "La conclusion est soignée avec remerciement et prise de congé.",
+        "preuves": [
+          {
+            "citation": "Merci pour votre confiance. Bon voyage à vous deux et très bonne journée.",
+            "debut_s": 196.9,
+            "verification": "exacte",
+            "debut_verifie_s": 196.9
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [
+      {
+        "numero": 2,
+        "motif": "Mentir ou faire une fausse promesse qui engage l'entreprise (prix)",
+        "citation": "Je vous bloque le prix à 6,99 euros par mois pendant un an.",
+        "debut_s": 107.0,
+        "verification": "exacte",
+        "debut_verifie_s": 107.04
+      }
+    ],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [
+      {
+        "regle": "[TVE-14]",
+        "ecart": "Utilisation d'une fausse urgence pour conclure la vente.",
+        "citation": "Mais je dois vous prévenir, cette remise n 'est valable qu 'aujourd 'hui.",
+        "debut_s": 107.0,
+        "verification": "exacte",
+        "debut_verifie_s": 107.04
+      },
+      {
+        "regle": "[TVE-14]",
+        "ecart": "Réalisation d'un geste commercial (remise) non autorisé par la documentation.",
+        "citation": "Je vous bloque le prix à 6,99 euros par mois pendant un an.",
+        "debut_s": 107.0,
+        "verification": "exacte",
+        "debut_verifie_s": 107.04
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Une excellente présentation initiale et une vérification d'identité rigoureuse.",
+        "Une très bonne gestion du processus de sécurisation de la vente et de la signature électronique."
+      ],
+      "axes_progres": [
+        "Respect impératif des tarifs du catalogue : ne jamais inventer de remise pour lever une objection.",
+        "Interdiction d'utiliser la fausse urgence (promesse de validité limitée à la journée)."
+      ],
+      "conseil_principal": "Ne promettez jamais de remise non autorisée ou de prix hors catalogue, même pour conclure une vente. Si l'offre est refusée pour le prix, restez sur les arguments de valeur ou le premier mois offert : « Je comprends, c'est un budget. Sachez toutefois que le premier mois est offert, ce qui vous permet de tester le service sans frais. »"
+    }
+  },
+  "calcul": {
+    "oui": 10,
+    "applicables": 12,
+    "note_pct": 83,
+    "niveau_note": "Conforme",
+    "niveau": "Non conforme",
+    "eliminatoires": [
+      2
+    ],
+    "mises_en_garde": [],
+    "action": "Avertissement",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 14831,
+    "candidatesTokenCount": 1781,
+    "totalTokenCount": 21133,
+    "cachedContentTokenCount": 12276,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 14831
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12276
+      }
+    ],
+    "thoughtsTokenCount": 4521,
+    "serviceTier": "standard"
+  }
+}

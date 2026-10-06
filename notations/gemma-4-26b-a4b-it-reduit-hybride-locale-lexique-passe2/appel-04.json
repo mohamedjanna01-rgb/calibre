@@ -1,0 +1,206 @@
+{
+  "appel": "04",
+  "modele": "gemma-4-26b-a4b-it",
+  "date": "2026-10-06T16:01:28",
+  "source_transcription": "hybride-locale-lexique",
+  "referentiel": "réduit",
+  "reponse_ia": {
+    "items": [
+      {
+        "numero": 1,
+        "statut": "non",
+        "justification": "L'accueil est incomplet : l'agent n'a ni donné son nom, ni sa fonction, ni annoncé la prise en charge de la demande.",
+        "preuves": [
+          {
+            "citation": "Kalyo Télécom, bonjour.",
+            "debut_s": 0.0,
+            "verification": "exacte",
+            "debut_verifie_s": 0.0
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "statut": "non",
+        "justification": "La mention de l'enregistrement n'a pas été faite avant la découverte du problème.",
+        "preuves": []
+      },
+      {
+        "numero": 3,
+        "statut": "oui",
+        "justification": "L'agent n'a pas interrompu la cliente pendant son explication.",
+        "preuves": [
+          {
+            "citation": "Ma télévision ne marche plus depuis ce matin. Il n 'a écrit aucun signal sur l 'écran. J 'ai essayé d 'éteindre et de rallumer la télé, mais ça ne change rien. Mon mari regarde le match ce soir alors.",
+            "debut_s": 18.0,
+            "verification": "exacte",
+            "debut_verifie_s": 18.04
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "statut": "non",
+        "justification": "Aucune question de découverte n'a été posée pour analyser la situation (ex: voyants de la box, type de branchement).",
+        "preuves": []
+      },
+      {
+        "numero": 5,
+        "statut": "non",
+        "justification": "Aucune reformulation n'a été effectuée pour valider la compréhension du problème.",
+        "preuves": []
+      },
+      {
+        "numero": 6,
+        "statut": "non",
+        "justification": "Le ton est expéditif et peu empathique, notamment lors du refus d'aider davantage.",
+        "preuves": [
+          {
+            "citation": "Faites d 'abord le reset, autre chose ?",
+            "debut_s": 50.4,
+            "verification": "exacte",
+            "debut_verifie_s": 50.44
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "statut": "non",
+        "justification": "L'agent utilise du jargon technique (synchro, reset usine).",
+        "preuves": [
+          {
+            "citation": "Ok, c 'est sûrement votre décodeur qui a perdu la synchro avec la box. Faites un reset usine du décodeur, ça devrait régler le problème.",
+            "debut_s": 28.3,
+            "verification": "exacte",
+            "debut_verifie_s": 28.28
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "statut": "non",
+        "justification": "Le conseiller n'a jamais utilisé le nom de la cliente durant l'échange.",
+        "preuves": []
+      },
+      {
+        "numero": 9,
+        "statut": "na",
+        "justification": "Aucune demande de résiliation n'a été formulée.",
+        "preuves": []
+      },
+      {
+        "numero": 10,
+        "statut": "na",
+        "justification": "Aucune tentative de rétention n'était nécessaire.",
+        "preuves": []
+      },
+      {
+        "numero": 11,
+        "statut": "na",
+        "justification": "Aucun engagement n'a été pris.",
+        "preuves": []
+      },
+      {
+        "numero": 12,
+        "statut": "na",
+        "justification": "Aucune opportunité commerciale n'a été détectée.",
+        "preuves": []
+      },
+      {
+        "numero": 13,
+        "statut": "na",
+        "justification": "Aucune offre n'ayant été faite, il n'y a pas eu d'objections.",
+        "preuves": []
+      },
+      {
+        "numero": 14,
+        "statut": "non",
+        "justification": "Le client a demandé une vérification à distance, ce que l'agent aurait pu faire avec l'outil Sonde, mais il a refusé d'apporter cette aide.",
+        "preuves": [
+          {
+            "citation": "Vous ne pouvez pas vérifier de votre côté ?",
+            "debut_s": 48.3,
+            "verification": "exacte",
+            "debut_verifie_s": 48.26
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "statut": "na",
+        "justification": "Pas de vente réalisée.",
+        "preuves": []
+      },
+      {
+        "numero": 16,
+        "statut": "non",
+        "justification": "La conclusion est brusque : absence de récapitulatif, de question de satisfaction et de remerciements.",
+        "preuves": [
+          {
+            "citation": "Au revoir.",
+            "debut_s": 54.3,
+            "verification": "exacte",
+            "debut_verifie_s": 54.28
+          }
+        ]
+      }
+    ],
+    "eliminatoires": [],
+    "fautes_mise_en_garde": [],
+    "remarques_conformite": [
+      {
+        "regle": "[APPEL-10]",
+        "ecart": "Utilisation d'une expression interdite : \"Normalement ça devrait marcher\".",
+        "citation": "Normalement ça devrait marcher.",
+        "debut_s": 43.2,
+        "verification": "exacte",
+        "debut_verifie_s": 43.22
+      }
+    ],
+    "coaching": {
+      "points_forts": [
+        "Écoute active : l'agent a laissé la cliente terminer son explication sans l'interrompre."
+      ],
+      "axes_progres": [
+        "Structure de l'accueil (présentation complète)",
+        "Méthodologie (reformulation et questions de découverte)",
+        "Vocabulaire (éviter le jargon et les expressions interdites)",
+        "Posture de service (ne pas être expéditif et utiliser les outils de diagnostic)"
+      ],
+      "conseil_principal": "L'appel manque de structure et d'empathie. Pour améliorer la prise en charge, respectez les étapes de l'accueil et utilisez systématiquement la reformulation pour valider le besoin : \"Si je comprends bien, vous n'avez plus d'image sur votre téléviseur, c'est bien ça ?\""
+    }
+  },
+  "calcul": {
+    "oui": 1,
+    "applicables": 10,
+    "note_pct": 10,
+    "niveau_note": "Insuffisant",
+    "niveau": "Insuffisant",
+    "eliminatoires": [],
+    "mises_en_garde": [
+      "insuffisant"
+    ],
+    "action": "Mise en garde",
+    "anomalies": []
+  },
+  "usage": {
+    "promptTokenCount": 13209,
+    "candidatesTokenCount": 1481,
+    "totalTokenCount": 20313,
+    "cachedContentTokenCount": 12274,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 13209
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 12274
+      }
+    ],
+    "thoughtsTokenCount": 5623,
+    "serviceTier": "standard"
+  }
+}
