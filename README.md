@@ -22,7 +22,7 @@ Dans un centre de relation client, la qualité se mesure en écoutant des appels
 - **Deux qualiticiens ne notent pas toujours pareil.** D'où les séances de calibration, où l'on compare les notes d'un même appel.
 - **Une note sans preuve se conteste.** Le conseiller veut savoir quelle phrase, à quel moment, lui a fait perdre l'item.
 
-Pendant 5 ans en centre de relation client, j'ai été téléconseiller, conseiller client, puis qualiticien en conformité d'appels. Calibre est l'outil qui aurait fait gagner du temps à ma calibration, sans prendre ma place.
+Pendant 4 ans en centre de relation client, j'ai été téléconseiller, conseiller client, puis qualiticien en conformité d'appels. Calibre est l'outil qui aurait fait gagner du temps à ma calibration, sans prendre ma place.
 
 ## La solution
 

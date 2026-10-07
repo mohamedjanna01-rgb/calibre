@@ -142,6 +142,7 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 20px 30px; color: var(--t
   .table-defile table { min-width: 820px; }
   .masque { display: none; }
 }
+.rendu .transcription { scroll-behavior: auto; height: 360px; } .rendu .alerte { animation: none; }
 @media (prefers-reduced-motion: reduce) { .alerte { animation: none; } .transcription { scroll-behavior: auto; } }
 </style>
 </head>
@@ -187,6 +188,11 @@ const D = window.CALIBRE, audio = document.getElementById("audio"), contenu = do
 const params = new URLSearchParams(location.search);
 let appel = D.appels.find(a => a.id === params.get("appel")) || D.appels[2];
 let vue = params.get("vue") || "ecoute";
+// Extrait (?debut=53.3&fin=96.5) : la lecture se limite à cette fenêtre, et seules ses alertes s'affichent
+let extrait = params.has("debut") && params.has("fin") ? { debut: Number(params.get("debut")), fin: Number(params.get("fin")) } : null;
+// Rendu vidéo image par image (?rendu=1&t=…) : le temps est piloté par window.figer(t), sans lecture audio
+const rendu = params.has("rendu");
+if (rendu) document.documentElement.classList.add("rendu");
 const echapper = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const mmss = t => t == null ? "" : `${String(Math.floor(t / 60)).padStart(2, "0")}:${String(Math.floor(t % 60)).padStart(2, "0")}`;
 const couleur = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
@@ -208,7 +214,7 @@ if (params.get("theme")) racine.dataset.theme = params.get("theme");
 const choix = document.getElementById("choix");
 choix.innerHTML = D.appels.map(a => `<option value="${a.id}">Appel ${a.id} – ${echapper(a.titre)} (${a.fiche.type === "Appel entrant" ? "entrant" : "télévente"})</option>`).join("");
 choix.value = appel.id;
-choix.onchange = () => { appel = D.appels.find(a => a.id === choix.value); charger(); rendre(); };
+choix.onchange = () => { appel = D.appels.find(a => a.id === choix.value); extrait = null; charger(); rendre(); };
 document.querySelectorAll(".onglet").forEach(b => b.onclick = () => { vue = b.dataset.vue; rendre(); });
 
 function charger() { audio.src = appel.audio; audio.playbackRate = vitesse; }
@@ -217,7 +223,7 @@ let vitesse = 1;
 function fiche() {
   const f = appel.fiche;
   return `<div class="fiche"><span>Matricule <b>${f.matricule}</b></span><span>Date <b>${f.date.split("-").reverse().join("/")} à ${f.heure}</b></span>
-    <span>Type <b>${f.type}</b></span><span>Grille <b>${echapper(f.grille)}</b></span></div>`;
+    <span>Type <b>${f.type}</b></span><span>Grille <b>${echapper(f.grille)}</b></span>${extrait && vue === "ecoute" ? `<span>Extrait <b>${mmss(extrait.debut)} – ${mmss(extrait.fin)}</b></span>` : ""}</div>`;
 }
 
 /* --- Vue Écoute --- */
@@ -251,7 +257,11 @@ function vueEcoute() {
       <div class="flux" id="flux" aria-live="polite"><p class="vide">Les alertes apparaissent au moment exact où une réussite, une faute ou un éliminatoire se produit.</p></div>
     </aside>
   </div>`;
-  document.getElementById("lire").onclick = () => audio.paused ? audio.play() : audio.pause();
+  document.getElementById("lire").onclick = () => {
+    if (!audio.paused) return audio.pause();
+    if (extrait && (audio.currentTime < extrait.debut - 0.5 || audio.currentTime >= extrait.fin - 0.05)) audio.currentTime = extrait.debut;
+    audio.play();
+  };
   document.querySelectorAll(".vitesses button").forEach(b => b.onclick = () => {
     vitesse = Number(b.dataset.v); audio.playbackRate = vitesse;
     document.querySelectorAll(".vitesses button").forEach(x => x.setAttribute("aria-pressed", x === b));
@@ -287,13 +297,16 @@ function synchroniser() {
   const t = audio.currentTime || 0;
   const temps = document.getElementById("temps"); if (!temps) return;
   temps.textContent = `${mmss(t)} / ${mmss(appel.duree)}`;
-  document.getElementById("lire").textContent = audio.paused ? "Écouter" : "Pause";
+  document.getElementById("lire").textContent = audio.paused && !rendu ? "Écouter" : "Pause";
   let active = -1;
   appel.repliques.forEach((r, i) => { if (r.d <= t + 0.05) active = i; });
   document.querySelectorAll(".replique").forEach((el, i) => { el.classList.toggle("dite", i <= active); el.classList.toggle("active", i === active); });
   const el = document.querySelector(`.replique[data-i="${active}"]`), boite = document.getElementById("transcription");
-  if (el && boite) boite.scrollTop = el.offsetTop - boite.offsetTop - boite.clientHeight / 3;
-  const visibles = appel.alertes.filter(a => a.t <= t + 0.05);
+  if (el && boite) {
+    const cible = el.offsetTop - boite.offsetTop - boite.clientHeight / 3;
+    boite.scrollTop = rendu ? boite.scrollTop + (cible - boite.scrollTop) * 0.15 : cible;
+  }
+  const visibles = appel.alertes.filter(a => a.t <= t + 0.05 && (!extrait || a.t >= extrait.debut - 0.05));
   if (visibles.length !== dejaAffichees) {
     dejaAffichees = visibles.length;
     const flux = document.getElementById("flux");
@@ -306,6 +319,7 @@ function synchroniser() {
 }
 function aller(t) { audio.currentTime = Math.max(0, t - 0.3); if (vue !== "ecoute") { vue = "ecoute"; rendre(); } synchroniser(); }
 audio.addEventListener("timeupdate", synchroniser);
+audio.addEventListener("timeupdate", () => { if (extrait && !audio.paused && audio.currentTime >= extrait.fin) audio.pause(); });
 audio.addEventListener("play", synchroniser); audio.addEventListener("pause", synchroniser);
 addEventListener("resize", dessiner);
 
@@ -415,8 +429,14 @@ function rendre() {
 }
 charger();
 if (params.get("t")) audio.currentTime = Number(params.get("t"));
+else if (extrait) audio.addEventListener("loadedmetadata", () => { audio.currentTime = extrait.debut; synchroniser(); }, { once: true });
 rendre();
-if (params.get("t")) { const t = Number(params.get("t")); Object.defineProperty(audio, "currentTime", { get: () => t, set: () => {}, configurable: true }); synchroniser(); }
+if (params.get("t")) {
+  let t = Number(params.get("t"));
+  Object.defineProperty(audio, "currentTime", { get: () => t, set: () => {}, configurable: true });
+  window.figer = v => { t = v; synchroniser(); };
+  synchroniser();
+}
 </script>
 </body>
 </html>
