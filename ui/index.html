@@ -46,7 +46,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; line-height: 1.2; marg
 .marque { display: flex; align-items: center; gap: 12px; }
 .kalyo { display: flex; align-items: center; gap: 7px; color: var(--texte-2); font-size: 13px; font-weight: 600; letter-spacing: .02em; }
 .separateur { width: 1px; height: 22px; background: var(--ligne-forte); }
-.produit { font-family: var(--serif); font-size: 22px; }
+.produit { font-family: var(--serif); font-size: 22px; color: inherit; text-decoration: none; }
 .devise { color: var(--texte-2); font-size: 13px; margin-left: auto; }
 .icone { background: none; border: 1px solid var(--ligne); border-radius: var(--rayon); width: 34px; height: 34px; display: grid; place-items: center; cursor: pointer; }
 .icone svg { width: 18px; height: 18px; }
@@ -154,7 +154,7 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 20px 30px; color: var(--t
         KALYO TÉLÉCOM
       </span>
       <span class="separateur" aria-hidden="true"></span>
-      <span class="produit">Calibre</span>
+      <a class="produit" href="../index.html" title="Présentation de Calibre">Calibre</a>
     </div>
     <span class="devise">Calibre recommande, le qualiticien décide.</span>
     <button class="icone" id="theme" type="button" aria-label="Changer de thème">
@@ -177,7 +177,7 @@ footer { max-width: 1240px; margin: 0 auto; padding: 0 20px 30px; color: var(--t
 </nav>
 
 <main id="contenu"></main>
-<footer>Entreprise, documentation, appels et conseillers fictifs. Démonstration sans aucune requête : transcriptions et notations calculées à l'avance.</footer>
+<footer>Entreprise, documentation, appels et conseillers fictifs. Démonstration sans aucune requête : transcriptions et notations calculées à l'avance. <a href="https://github.com/mohamedjanna01-rgb/calibre">Code source</a></footer>
 
 <audio id="audio" preload="metadata"></audio>
 <script src="donnees.js"></script>
